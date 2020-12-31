@@ -157,13 +157,5 @@
 |image= MapComplete_Screenshot.png
 |genre= POI, editor, climbing
 }}
-{{service_item
-|name= [https://mapcomplete.osm.be/playgrounds.html playgrounds]
-|region= Worldwide
-|lang= {{#language:nl|en}}
-|descr= A MapComplete theme: Deze kaart toont speelzones in het groen
-|material= {{yes|[https://mapcomplete.osm.be/ Yes]}}
-|image= MapComplete_Screenshot.png
-|genre= POI, editor, playgrounds
-}}
+
 |}
