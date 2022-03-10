@@ -37,8 +37,7 @@
       "pl": "Znany adres",
       "ru": "Известный адрес",
       "es": "Domicilio conocido",
-      "zh_Hans": "已知的地址",
-      "id": "Alamat yang diketahui"
+      "zh_Hans": "已知的地址"
     }
   },
   "description": {
@@ -65,8 +64,7 @@
         "fr": "Son numéro est le <b>{addr:housenumber}</b>",
         "pl": "Numer tego domu to <b>{addr:housenumber}</b>",
         "ru": "Номер дома <b>{addr:housenumber}</b>",
-        "zh_Hans": "门牌号是<b>{addr:housenumber}</b>",
-        "id": "Nomor rumah ini <b>{addr:housenumber}</b>"
+        "zh_Hans": "门牌号是<b>{addr:housenumber}</b>"
       },
       "question": {
         "en": "What is the number of this house?",
@@ -77,8 +75,7 @@
         "pl": "Jaki jest numer tego domu?",
         "ru": "Какой номер у этого дома?",
         "es": "¿Cuál es el número de esta casa?",
-        "zh_Hans": "这个屋子的门牌号是多少？",
-        "id": "Berapa nomor rumah ini?"
+        "zh_Hans": "这个屋子的门牌号是多少？"
       },
       "freeform": {
         "key": "addr:housenumber",
@@ -117,8 +114,7 @@
         "nl": "Dit adres bevindt zich in de straat <b>{addr:street}</b>",
         "fr": "Le nom de la voie est <b>{addr:street}</b>",
         "pl": "Ten adres znajduje się na ulicy <b>{addr:street}</b>",
-        "zh_Hans": "这个地址位于<b>{addr:street}</b>街",
-        "id": "Alamat ini ada di jalan <b>{addr:street}</b>"
+        "zh_Hans": "这个地址位于<b>{addr:street}</b>街"
       },
       "question": {
         "en": "What street is this address located in?",
@@ -129,8 +125,7 @@
         "pl": "Na jakiej ulicy znajduje się ten adres?",
         "ru": "Какая эта улица?",
         "es": "¿En qué calle se encuentra esta dirección?",
-        "zh_Hans": "这个地址位于哪条街道？",
-        "id": "Alamat ini di jalan apa?"
+        "zh_Hans": "这个地址位于哪条街道？"
       },
       "freeform": {
         "key": "addr:street"
