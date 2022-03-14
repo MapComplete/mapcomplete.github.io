@@ -2,8 +2,7 @@
   "id": "bicycle_rental",
   "name": {
     "en": "Bicycle rental",
-    "nl": "Fietsverhuur",
-    "fr": "Location de vélo"
+    "nl": "Fietsverhuur"
   },
   "source": {
     "osmTags": {
@@ -42,8 +41,7 @@
   },
   "description": {
     "en": "Bicycle rental stations",
-    "nl": "Fietsverhuustations",
-    "fr": "Station de location de vélo"
+    "nl": "Fietsverhuustations"
   },
   "tagRenderings": [
     {
@@ -267,8 +265,7 @@
     {
       "title": {
         "en": "bicycle rental shop",
-        "nl": "fietsverhuurzaak",
-        "fr": "magasin de location de vélos"
+        "nl": "fietsverhuurzaak"
       },
       "tags": [
         "amenity=bicycle_rental",
@@ -276,15 +273,13 @@
       ],
       "description": {
         "en": "A manned shop which focuses on bicycle rental",
-        "nl": "Een bemande winkel die focust op fietsverhuur",
-        "fr": "Un magasin avec employé(s) consacré à la location de vélos"
+        "nl": "Een bemande winkel die focust op fietsverhuur"
       }
     },
     {
       "title": {
         "en": "bicycle rental",
-        "nl": "fietsverhuur",
-        "fr": "location de vélos"
+        "nl": "fietsverhuur"
       },
       "tags": [
         "amenity=bicycle_rental"
