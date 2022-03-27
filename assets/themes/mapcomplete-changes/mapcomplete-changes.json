@@ -81,11 +81,11 @@
             "mappings": [
               {
                 "if": "theme=aed",
-                "then": "./assets/themes/aed/logo.svg"
+                "then": "./assets/themes/aed/aed.svg"
               },
               {
                 "if": "theme=aed_brugge",
-                "then": "./assets/themes/aed/logo.svg"
+                "then": "./assets/themes/aed/aed.svg"
               },
               {
                 "if": "theme=artwork",
