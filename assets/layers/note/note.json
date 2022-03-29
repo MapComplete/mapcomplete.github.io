@@ -86,6 +86,10 @@
         {
           "if": "_total_comments>1",
           "then": "speech_bubble"
+        },
+        {
+          "if": "_is_import_note~*",
+          "then": "addSmall"
         }
       ]
     }
@@ -134,7 +138,7 @@
             }
           ],
           "question": {
-            "en": "Opened by {search}"
+            "en": "Opened by contributor {search}"
           }
         }
       ]
@@ -150,7 +154,7 @@
             }
           ],
           "question": {
-            "en": "<b>Not</b> opened by {search}"
+            "en": "<b>Not</b> opened by contributor {search}"
           }
         }
       ]
@@ -159,14 +163,14 @@
       "id": "edited_by",
       "options": [
         {
-          "osmTags": "_lastt_user_lc~.*{search}.*",
+          "osmTags": "_last_user_lc~.*{search}.*",
           "fields": [
             {
               "name": "search"
             }
           ],
           "question": {
-            "en": "Opened before {search}"
+            "en": "Last edited by contributor {search}"
           }
         }
       ]
@@ -199,7 +203,7 @@
             }
           ],
           "question": {
-            "en": "Opened by anonymous user"
+            "en": "Created before {search}"
           }
         }
       ]
@@ -216,7 +220,7 @@
             }
           ],
           "question": {
-            "en": "Only show open notes"
+            "en": "Created after {search}"
           }
         }
       ]
@@ -227,7 +231,7 @@
         {
           "osmTags": "_opened_by_anonymous_user=true",
           "question": {
-            "en": "Hide import notes"
+            "en": "Only show notes opened by an anonymous contributor"
           }
         }
       ]
