@@ -3,7 +3,8 @@
   "name": {
     "en": "Bicycle rental",
     "nl": "Fietsverhuur",
-    "fr": "Location de vélo"
+    "fr": "Location de vélo",
+    "de": "Fahrradverleih"
   },
   "source": {
     "osmTags": {
@@ -136,7 +137,7 @@
       ],
       "question": {
         "en": "What kind of bicycles and accessories are rented here?",
-        "nl": "Wat voor soort fietsen en fietstoebehren worden hier verhuurd?"
+        "nl": "Wat voor soort fietsen en fietstoebehoren worden hier verhuurd?"
       },
       "render": {
         "en": "{rental} is rented here",
