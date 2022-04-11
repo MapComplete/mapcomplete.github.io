@@ -3,6 +3,7 @@
   "name": {
     "en": "Charging stations",
     "nl": "Oplaadpunten",
+    "ca": "Estacions de càrrega",
     "de": "Ladestationen"
   },
   "minzoom": 10,
@@ -23,7 +24,8 @@
   "title": {
     "render": {
       "en": "Charging station",
-      "nl": "Oplaadpunt"
+      "nl": "Oplaadpunt",
+      "ca": "Estació de càrrega"
     },
     "mappings": [
       {
@@ -291,7 +293,8 @@
           "ifnot": "socket:chademo=",
           "then": {
             "en": "<b>Chademo</b>",
-            "nl": "<b>Chademo</b>"
+            "nl": "<b>Chademo</b>",
+            "ca": "<b>Chademo</b>"
           },
           "icon": {
             "path": "./assets/layers/charging_station/Chademo_type4.svg",
@@ -333,7 +336,8 @@
           },
           "then": {
             "en": "<b>Chademo</b>",
-            "nl": "<b>Chademo</b>"
+            "nl": "<b>Chademo</b>",
+            "ca": "<b>Chademo</b>"
           },
           "hideInAnswer": true,
           "icon": {
@@ -4092,6 +4096,7 @@
           "question": {
             "en": "All connectors",
             "nl": "Alle types",
+            "ca": "Tots els connectors",
             "de": "Alle Anschlüsse"
           }
         },
@@ -4235,11 +4240,13 @@
           "human": {
             "en": " minutes",
             "nl": " minuten",
+            "ca": " minuts",
             "ru": " минут"
           },
           "humanSingular": {
             "en": " minute",
             "nl": " minuut",
+            "ca": " minut",
             "ru": " минута"
           }
         },
@@ -4257,11 +4264,13 @@
           "human": {
             "en": " hours",
             "nl": " uren",
+            "ca": " hores",
             "ru": " часов"
           },
           "humanSingular": {
             "en": " hour",
             "nl": " uur",
+            "ca": " hora",
             "ru": " час"
           }
         },
@@ -4276,11 +4285,13 @@
           "human": {
             "en": " days",
             "nl": " day",
+            "ca": " dies",
             "ru": " дней"
           },
           "humanSingular": {
             "en": " day",
             "nl": " dag",
+            "ca": " dia",
             "ru": " день"
           }
         }
@@ -4318,6 +4329,7 @@
           "human": {
             "en": "Volts",
             "nl": "volt",
+            "ca": "Volts",
             "ru": "Вольт"
           }
         }
@@ -4354,7 +4366,8 @@
           ],
           "human": {
             "en": "A",
-            "nl": "A"
+            "nl": "A",
+            "ca": "A"
           }
         }
       ],
@@ -4388,6 +4401,7 @@
           "human": {
             "en": "kilowatt",
             "nl": "kilowatt",
+            "ca": "quilovats",
             "ru": "киловатт"
           }
         },
@@ -4399,6 +4413,7 @@
           "human": {
             "en": "megawatt",
             "nl": "megawatt",
+            "ca": "megavats",
             "ru": "мегаватт"
           }
         }

@@ -12,7 +12,8 @@
     "ru": "Велосипедная парковка",
     "pl": "Parking dla rowerów",
     "pt_BR": "Estacionamento de bicicletas",
-    "pt": "Estacionamento de bicicletas"
+    "pt": "Estacionamento de bicicletas",
+    "ca": "Aparcament per a bicicletes"
   },
   "minzoom": 17,
   "source": {
@@ -56,7 +57,8 @@
       "ru": "Велосипедная парковка",
       "pl": "Parking dla rowerów",
       "pt_BR": "Estacionamento de bicicletas",
-      "pt": "Estacionamento de bicicletas"
+      "pt": "Estacionamento de bicicletas",
+      "ca": "Aparcament per a bicicletes"
     }
   },
   "tagRenderings": [
@@ -208,7 +210,8 @@
             "fr": "Potelet",
             "it": "Colonnina",
             "de": "Poller",
-            "zh_Hant": "柱子"
+            "zh_Hant": "柱子",
+            "ca": "Pilona"
           },
           "icon": {
             "path": "./assets/layers/bike_parking/bollard.svg",
@@ -411,7 +414,8 @@
         "fi": "{access}",
         "pt_BR": "{access}",
         "pt": "{access}",
-        "eo": "{access}"
+        "eo": "{access}",
+        "ca": "{access}"
       },
       "freeform": {
         "key": "access",

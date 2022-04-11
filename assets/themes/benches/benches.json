@@ -12,7 +12,8 @@
     "nb_NO": "Benker",
     "pt_BR": "Bancadas",
     "id": "Bangku",
-    "hu": "Padok"
+    "hu": "Padok",
+    "ca": "Bancs"
   },
   "shortDescription": {
     "en": "A map of benches",
@@ -26,7 +27,8 @@
     "nb_NO": "Et benkekart",
     "pt_BR": "Um mapa de bancadas",
     "hu": "Padtérkép",
-    "id": "Peta bangku"
+    "id": "Peta bangku",
+    "ca": "Un mapa de bancs"
   },
   "description": {
     "en": "This map shows all benches that are recorded in OpenStreetMap: Individual benches, and benches belonging to public transport stops or shelters. With an OpenStreetMap account, you can map new benches or edit details of existing benches.",

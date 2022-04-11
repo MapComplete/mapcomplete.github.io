@@ -6,7 +6,8 @@
     "ru": "Детские площадки",
     "de": "Spielplätze",
     "it": "Campi da gioco",
-    "fr": "Aire de jeu"
+    "fr": "Aire de jeu",
+    "ca": "Parcs infantils"
   },
   "minzoom": 13,
   "source": {
@@ -26,7 +27,8 @@
     "it": "Parchi giochi",
     "ru": "Детские площадки",
     "de": "Spielplätze",
-    "fr": "Aire de jeu"
+    "fr": "Aire de jeu",
+    "ca": "Parcs infantils"
   },
   "title": {
     "render": {
@@ -35,7 +37,8 @@
       "it": "Parco giochi",
       "ru": "Детская площадка",
       "de": "Spielplatz",
-      "fr": "Aire de jeu"
+      "fr": "Aire de jeu",
+      "ca": "Parc infantil"
     },
     "mappings": [
       {
@@ -498,7 +501,8 @@
         "ru": "Детская площадка",
         "fr": "une terrain de jeux",
         "it": "una campetto",
-        "de": "eine spielplatz"
+        "de": "eine spielplatz",
+        "ca": "un parc infantil"
       }
     }
   ],
