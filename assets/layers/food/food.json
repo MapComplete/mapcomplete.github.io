@@ -91,7 +91,8 @@
         "then": {
           "nl": "Restaurant <i>{name}</i>",
           "en": "Restaurant <i>{name}</i>",
-          "de": "Restaurant <i>{name}</i>"
+          "de": "Restaurant <i>{name}</i>",
+          "ca": "Restaurant <i>{name}</i>"
         }
       },
       {
@@ -104,7 +105,8 @@
         "then": {
           "nl": "Fastfood-zaak <i>{name}</i>",
           "en": "Fastfood <i>{name}</i>",
-          "de": "Schnellrestaurant<i>{name}</i>"
+          "de": "Schnellrestaurant<i>{name}</i>",
+          "ca": "Lloc de menjar ràpid <i>{name}</i>"
         }
       },
       {

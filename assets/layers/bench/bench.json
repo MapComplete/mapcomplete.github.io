@@ -127,7 +127,8 @@
         "nb_NO": "{seats} seter",
         "pl": "{seats} siedzeń",
         "pt_BR": "{seats} assentos",
-        "pt": "{seats} assentos"
+        "pt": "{seats} assentos",
+        "ca": "{seats} seients"
       },
       "freeform": {
         "key": "seats",

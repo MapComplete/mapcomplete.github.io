@@ -136,7 +136,8 @@
           "then": {
             "en": "Zebra crossing",
             "nl": "Zebrapad",
-            "de": "Zebrastreifen"
+            "de": "Zebrastreifen",
+            "ca": "Pas de zebra"
           },
           "hideInAnswer": true
         },

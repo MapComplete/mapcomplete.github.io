@@ -93,7 +93,8 @@
             "en": "Broadleaved",
             "it": "Latifoglia",
             "fr": "Feuillu",
-            "de": "Laubbaum"
+            "de": "Laubbaum",
+            "ca": "De fulla ampla"
           },
           "icon": {
             "path": "./assets/themes/trees/broadleaved.svg",
@@ -111,7 +112,8 @@
             "en": "Needleleaved",
             "it": "Aghifoglia",
             "fr": "Résineux",
-            "de": "Nadelbaum"
+            "de": "Nadelbaum",
+            "ca": "Amb fulles d'agulla"
           },
           "icon": {
             "path": "./assets/themes/trees/needleleaved.svg",
@@ -299,7 +301,8 @@
             "it": "Sempreverde.",
             "fr": "À feuilles persistantes.",
             "ru": "Вечнозелёное.",
-            "de": "immergrüner Baum."
+            "de": "immergrüner Baum.",
+            "ca": "Perenne."
           }
         }
       ],

@@ -109,7 +109,8 @@
             "de": "Fahrradbügel",
             "hu": "Korlát",
             "it": "Archetti",
-            "zh_Hant": "單車架"
+            "zh_Hant": "單車架",
+            "ca": "Bastidors de grapes"
           },
           "icon": {
             "path": "./assets/layers/bike_parking/staple.svg",
@@ -126,7 +127,8 @@
             "de": "Metallgestänge",
             "hu": "Kerékbefogó hurok",
             "it": "Scolapiatti",
-            "zh_Hant": "車輪架/圓圈"
+            "zh_Hant": "車輪架/圓圈",
+            "ca": "Portarodes/bucles"
           },
           "icon": {
             "path": "./assets/layers/bike_parking/wall_loops.svg",
@@ -142,7 +144,8 @@
             "gl": "Cadeado para guiador",
             "de": "Halter für Fahrradlenker",
             "it": "Blocca manubrio",
-            "zh_Hant": "車把架"
+            "zh_Hant": "車把架",
+            "ca": "Suport de manillar"
           },
           "icon": {
             "path": "./assets/layers/bike_parking/handlebar_holder.svg",
@@ -159,7 +162,8 @@
             "de": "Gestell",
             "zh_Hant": "車架",
             "it": "Rastrelliera",
-            "ru": "Стойка"
+            "ru": "Стойка",
+            "ca": "Enganxament"
           },
           "icon": {
             "path": "./assets/layers/bike_parking/rack.svg",
@@ -177,7 +181,8 @@
             "hu": "Kétszintű",
             "zh_Hant": "兩層",
             "it": "A due piani",
-            "ru": "Двухуровневая"
+            "ru": "Двухуровневая",
+            "ca": "De dos nivells"
           },
           "icon": {
             "path": "./assets/layers/bike_parking/two_tier.svg",
@@ -256,7 +261,8 @@
             "de": "Tiefgarage",
             "zh_Hant": "地下停車場",
             "pt_BR": "Estacionamento subterrâneo",
-            "pt": "Estacionamento subterrâneo"
+            "pt": "Estacionamento subterrâneo",
+            "ca": "Aparcament subterrani"
           }
         },
         {
@@ -286,7 +292,8 @@
             "zh_Hant": "屋頂停車場",
             "pt_BR": "Estacionamento no telhado",
             "pt": "Estacionamento no telhado",
-            "ru": "Парковка на крыше"
+            "ru": "Парковка на крыше",
+            "ca": "Aparcament al terrat"
           }
         },
         {
@@ -434,7 +441,8 @@
             "de": "Öffentlich zugänglich",
             "zh_Hant": "公開可用",
             "pt_BR": "Acessível ao público",
-            "pt": "Acessível ao público"
+            "pt": "Acessível ao público",
+            "ca": "Accessible al públic"
           }
         },
         {

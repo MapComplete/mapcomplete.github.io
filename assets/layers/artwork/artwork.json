@@ -344,7 +344,8 @@
             "id": "Relief",
             "pt": "Relevo",
             "hu": "Dombormű",
-            "pl": "Płaskorzeźba"
+            "pl": "Płaskorzeźba",
+            "ca": "Relleu"
           }
         },
         {
@@ -379,7 +380,8 @@
             "nb_NO": "Flisarbeid",
             "pt": "Ladrilhos",
             "hu": "Csempe",
-            "pl": "Płyta ceramiczna (fliza)"
+            "pl": "Płyta ceramiczna (fliza)",
+            "ca": "Enrajolat"
           }
         }
       ],
