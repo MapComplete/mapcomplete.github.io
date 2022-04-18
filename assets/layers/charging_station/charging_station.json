@@ -1503,7 +1503,7 @@
       },
       "mappings": [
         {
-          "if": "socket:schuko:output=3.6 kw",
+          "if": "socket:schuko:output=3.6 kW",
           "then": {
             "en": "<b>Schuko wall plug</b> without ground pin (CEE7/4 type F) outputs at most 3.6 kw A",
             "nl": "<b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F) levert een vermogen van maximaal 3.6 kw A"
@@ -1608,7 +1608,7 @@
       },
       "mappings": [
         {
-          "if": "socket:typee:output=3 kw",
+          "if": "socket:typee:output=3 kW",
           "then": {
             "en": "<b>European wall plug</b> with ground pin (CEE7/4 type E) outputs at most 3 kw A",
             "nl": "<b>Europese stekker</b> met aardingspin (CEE7/4 type E) levert een vermogen van maximaal 3 kw A"
@@ -1619,7 +1619,7 @@
           }
         },
         {
-          "if": "socket:typee:output=22 kw",
+          "if": "socket:typee:output=22 kW",
           "then": {
             "en": "<b>European wall plug</b> with ground pin (CEE7/4 type E) outputs at most 22 kw A",
             "nl": "<b>Europese stekker</b> met aardingspin (CEE7/4 type E) levert een vermogen van maximaal 22 kw A"
@@ -1724,7 +1724,7 @@
       },
       "mappings": [
         {
-          "if": "socket:chademo:output=50 kw",
+          "if": "socket:chademo:output=50 kW",
           "then": {
             "en": "<b>Chademo</b> outputs at most 50 kw A",
             "nl": "<b>Chademo</b> levert een vermogen van maximaal 50 kw A"
@@ -1840,7 +1840,7 @@
       },
       "mappings": [
         {
-          "if": "socket:type1_cable:output=3.7 kw",
+          "if": "socket:type1_cable:output=3.7 kW",
           "then": {
             "en": "<b>Type 1 with cable</b> (J1772) outputs at most 3.7 kw A",
             "nl": "<b>Type 1 met kabel</b> (J1772) levert een vermogen van maximaal 3.7 kw A"
@@ -1851,7 +1851,7 @@
           }
         },
         {
-          "if": "socket:type1_cable:output=7 kw",
+          "if": "socket:type1_cable:output=7 kW",
           "then": {
             "en": "<b>Type 1 with cable</b> (J1772) outputs at most 7 kw A",
             "nl": "<b>Type 1 met kabel</b> (J1772) levert een vermogen van maximaal 7 kw A"
@@ -1967,7 +1967,7 @@
       },
       "mappings": [
         {
-          "if": "socket:type1:output=3.7 kw",
+          "if": "socket:type1:output=3.7 kW",
           "then": {
             "en": "<b>Type 1 <i>without</i> cable</b> (J1772) outputs at most 3.7 kw A",
             "nl": "<b>Type 1 <i>zonder</i> kabel</b> (J1772) levert een vermogen van maximaal 3.7 kw A"
@@ -1978,7 +1978,7 @@
           }
         },
         {
-          "if": "socket:type1:output=6.6 kw",
+          "if": "socket:type1:output=6.6 kW",
           "then": {
             "en": "<b>Type 1 <i>without</i> cable</b> (J1772) outputs at most 6.6 kw A",
             "nl": "<b>Type 1 <i>zonder</i> kabel</b> (J1772) levert een vermogen van maximaal 6.6 kw A"
@@ -1989,7 +1989,7 @@
           }
         },
         {
-          "if": "socket:type1:output=7 kw",
+          "if": "socket:type1:output=7 kW",
           "then": {
             "en": "<b>Type 1 <i>without</i> cable</b> (J1772) outputs at most 7 kw A",
             "nl": "<b>Type 1 <i>zonder</i> kabel</b> (J1772) levert een vermogen van maximaal 7 kw A"
@@ -2000,7 +2000,7 @@
           }
         },
         {
-          "if": "socket:type1:output=7.2 kw",
+          "if": "socket:type1:output=7.2 kW",
           "then": {
             "en": "<b>Type 1 <i>without</i> cable</b> (J1772) outputs at most 7.2 kw A",
             "nl": "<b>Type 1 <i>zonder</i> kabel</b> (J1772) levert een vermogen van maximaal 7.2 kw A"
@@ -2127,7 +2127,7 @@
       },
       "mappings": [
         {
-          "if": "socket:type1_combo:output=50 kw",
+          "if": "socket:type1_combo:output=50 kW",
           "then": {
             "en": "<b>Type 1 CCS</b> (aka Type 1 Combo) outputs at most 50 kw A",
             "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo) levert een vermogen van maximaal 50 kw A"
@@ -2138,7 +2138,7 @@
           }
         },
         {
-          "if": "socket:type1_combo:output=62.5 kw",
+          "if": "socket:type1_combo:output=62.5 kW",
           "then": {
             "en": "<b>Type 1 CCS</b> (aka Type 1 Combo) outputs at most 62.5 kw A",
             "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo) levert een vermogen van maximaal 62.5 kw A"
@@ -2149,7 +2149,7 @@
           }
         },
         {
-          "if": "socket:type1_combo:output=150 kw",
+          "if": "socket:type1_combo:output=150 kW",
           "then": {
             "en": "<b>Type 1 CCS</b> (aka Type 1 Combo) outputs at most 150 kw A",
             "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo) levert een vermogen van maximaal 150 kw A"
@@ -2160,7 +2160,7 @@
           }
         },
         {
-          "if": "socket:type1_combo:output=350 kw",
+          "if": "socket:type1_combo:output=350 kW",
           "then": {
             "en": "<b>Type 1 CCS</b> (aka Type 1 Combo) outputs at most 350 kw A",
             "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo) levert een vermogen van maximaal 350 kw A"
@@ -2276,7 +2276,7 @@
       },
       "mappings": [
         {
-          "if": "socket:tesla_supercharger:output=120 kw",
+          "if": "socket:tesla_supercharger:output=120 kW",
           "then": {
             "en": "<b>Tesla Supercharger</b> outputs at most 120 kw A",
             "nl": "<b>Tesla Supercharger</b> levert een vermogen van maximaal 120 kw A"
@@ -2287,7 +2287,7 @@
           }
         },
         {
-          "if": "socket:tesla_supercharger:output=150 kw",
+          "if": "socket:tesla_supercharger:output=150 kW",
           "then": {
             "en": "<b>Tesla Supercharger</b> outputs at most 150 kw A",
             "nl": "<b>Tesla Supercharger</b> levert een vermogen van maximaal 150 kw A"
@@ -2298,7 +2298,7 @@
           }
         },
         {
-          "if": "socket:tesla_supercharger:output=250 kw",
+          "if": "socket:tesla_supercharger:output=250 kW",
           "then": {
             "en": "<b>Tesla Supercharger</b> outputs at most 250 kw A",
             "nl": "<b>Tesla Supercharger</b> levert een vermogen van maximaal 250 kw A"
@@ -2425,7 +2425,7 @@
       },
       "mappings": [
         {
-          "if": "socket:type2:output=11 kw",
+          "if": "socket:type2:output=11 kW",
           "then": {
             "en": "<b>Type 2</b> (mennekes) outputs at most 11 kw A",
             "nl": "<b>Type 2</b> (mennekes) levert een vermogen van maximaal 11 kw A"
@@ -2436,7 +2436,7 @@
           }
         },
         {
-          "if": "socket:type2:output=22 kw",
+          "if": "socket:type2:output=22 kW",
           "then": {
             "en": "<b>Type 2</b> (mennekes) outputs at most 22 kw A",
             "nl": "<b>Type 2</b> (mennekes) levert een vermogen van maximaal 22 kw A"
@@ -2563,7 +2563,7 @@
       },
       "mappings": [
         {
-          "if": "socket:type2_combo:output=50 kw",
+          "if": "socket:type2_combo:output=50 kW",
           "then": {
             "en": "<b>Type 2 CCS</b> (mennekes) outputs at most 50 kw A",
             "nl": "<b>Type 2 CCS</b> (mennekes) levert een vermogen van maximaal 50 kw A"
@@ -2690,7 +2690,7 @@
       },
       "mappings": [
         {
-          "if": "socket:type2_cable:output=11 kw",
+          "if": "socket:type2_cable:output=11 kW",
           "then": {
             "en": "<b>Type 2 with cable</b> (mennekes) outputs at most 11 kw A",
             "nl": "<b>Type 2 met kabel</b> (J1772) levert een vermogen van maximaal 11 kw A"
@@ -2701,7 +2701,7 @@
           }
         },
         {
-          "if": "socket:type2_cable:output=22 kw",
+          "if": "socket:type2_cable:output=22 kW",
           "then": {
             "en": "<b>Type 2 with cable</b> (mennekes) outputs at most 22 kw A",
             "nl": "<b>Type 2 met kabel</b> (J1772) levert een vermogen van maximaal 22 kw A"
@@ -2828,7 +2828,7 @@
       },
       "mappings": [
         {
-          "if": "socket:tesla_supercharger_ccs:output=50 kw",
+          "if": "socket:tesla_supercharger_ccs:output=50 kW",
           "then": {
             "en": "<b>Tesla Supercharger CCS</b> (a branded type2_css) outputs at most 50 kw A",
             "nl": "<b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo) levert een vermogen van maximaal 50 kw A"
@@ -2944,7 +2944,7 @@
       },
       "mappings": [
         {
-          "if": "socket:tesla_destination:output=120 kw",
+          "if": "socket:tesla_destination:output=120 kW",
           "then": {
             "en": "<b>Tesla Supercharger (destination)</b> outputs at most 120 kw A",
             "nl": "<b>Tesla Supercharger (destination)</b> levert een vermogen van maximaal 120 kw A"
@@ -2955,7 +2955,7 @@
           }
         },
         {
-          "if": "socket:tesla_destination:output=150 kw",
+          "if": "socket:tesla_destination:output=150 kW",
           "then": {
             "en": "<b>Tesla Supercharger (destination)</b> outputs at most 150 kw A",
             "nl": "<b>Tesla Supercharger (destination)</b> levert een vermogen van maximaal 150 kw A"
@@ -2966,7 +2966,7 @@
           }
         },
         {
-          "if": "socket:tesla_destination:output=250 kw",
+          "if": "socket:tesla_destination:output=250 kW",
           "then": {
             "en": "<b>Tesla Supercharger (destination)</b> outputs at most 250 kw A",
             "nl": "<b>Tesla Supercharger (destination)</b> levert een vermogen van maximaal 250 kw A"
@@ -3093,7 +3093,7 @@
       },
       "mappings": [
         {
-          "if": "socket:tesla_destination:output=11 kw",
+          "if": "socket:tesla_destination:output=11 kW",
           "then": {
             "en": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) outputs at most 11 kw A",
             "nl": "<b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo) levert een vermogen van maximaal 11 kw A"
@@ -3104,7 +3104,7 @@
           }
         },
         {
-          "if": "socket:tesla_destination:output=22 kw",
+          "if": "socket:tesla_destination:output=22 kW",
           "then": {
             "en": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) outputs at most 22 kw A",
             "nl": "<b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo) levert een vermogen van maximaal 22 kw A"
@@ -3220,7 +3220,7 @@
       },
       "mappings": [
         {
-          "if": "socket:USB-A:output=5w",
+          "if": "socket:USB-A:output=5W",
           "then": {
             "en": "<b>USB</b> to charge phones and small electronics outputs at most 5w A",
             "nl": "<b>USB</b> om GSMs en kleine electronica op te laden levert een vermogen van maximaal 5w A"
@@ -3231,7 +3231,7 @@
           }
         },
         {
-          "if": "socket:USB-A:output=10w",
+          "if": "socket:USB-A:output=10W",
           "then": {
             "en": "<b>USB</b> to charge phones and small electronics outputs at most 10w A",
             "nl": "<b>USB</b> om GSMs en kleine electronica op te laden levert een vermogen van maximaal 10w A"
