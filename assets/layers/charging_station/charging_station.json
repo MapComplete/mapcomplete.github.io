@@ -67,6 +67,7 @@
   "description": {
     "en": "A charging station",
     "nl": "Oplaadpunten",
+    "da": "En ladestation",
     "de": "Eine Ladestation"
   },
   "tagRenderings": [
@@ -4103,6 +4104,7 @@
           "question": {
             "en": "All vehicle types",
             "nl": "Alle voertuigen",
+            "da": "Alle køretøjstyper",
             "de": "Ladestationen für alle Fahrzeugtypen",
             "fr": "Tout type de véhicule"
           }
@@ -4111,6 +4113,7 @@
           "question": {
             "en": "Charging station for bicycles",
             "nl": "Oplaadpunten voor fietsen",
+            "da": "Ladestation til cykler",
             "de": "Ladestationen für Fahrräder",
             "fr": "Station de charge pour vélos"
           },
@@ -4120,6 +4123,7 @@
           "question": {
             "en": "Charging station for cars",
             "nl": "Oplaadpunten voor auto's",
+            "da": "Ladestation til biler",
             "de": "Ladestationen für Autos",
             "fr": "Station de charge pour automobiles"
           },
@@ -4139,6 +4143,7 @@
           "question": {
             "en": "Only working charging stations",
             "nl": "Enkel werkende oplaadpunten",
+            "da": "Kun fungerende ladestationer",
             "de": "Nur Ladestationen in Betrieb"
           },
           "osmTags": {
