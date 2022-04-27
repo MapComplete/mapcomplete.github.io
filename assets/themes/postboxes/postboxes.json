@@ -91,7 +91,7 @@
           ],
           "title": {
             "en": "a postbox",
-            "de": "eine briefkasten",
+            "de": "ein Briefkasten",
             "ru": "почтовый ящик",
             "zh_Hant": "郵筒",
             "id": "kotak pos",
@@ -223,7 +223,7 @@
           ],
           "title": {
             "en": "a post office",
-            "de": "eine poststelle",
+            "de": "eine Poststelle",
             "ru": "Почтовое отделение",
             "zh_Hant": "郵局",
             "id": "Kantor Pos",
