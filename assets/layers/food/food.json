@@ -41,7 +41,7 @@
         "en": "a fastfood",
         "nl": "een fastfood-zaak",
         "ru": "быстрое питание",
-        "de": "eine schnellimbiss",
+        "de": "Ein Schnellimbiss",
         "ca": "un de menjar ràpid"
       },
       "tags": [
@@ -60,7 +60,7 @@
       "title": {
         "en": "a fries shop",
         "nl": "een frituur",
-        "de": "eine pommesbude"
+        "de": "eine Pommesbude"
       },
       "tags": [
         "amenity=fast_food",
