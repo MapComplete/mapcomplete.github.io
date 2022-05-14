@@ -82,7 +82,7 @@
       "question": {
         "en": "Which vehicles are allowed to charge here?",
         "nl": "Welke voertuigen kunnen hier opgeladen worden?",
-        "de": "Welche Fahrzeuge dürfen hier laden?",
+        "de": "Welche Fahrzeuge können hier laden?",
         "es": "¿A qué vehículos se permite la carga aquí?"
       },
       "multiAnswer": true,
@@ -93,7 +93,7 @@
           "then": {
             "en": "<b>Bicycles</b> can be charged here",
             "nl": "<b>Elektrische fietsen</b> kunnen hier opgeladen worden",
-            "de": "<b>Fahrräder</b> können hier geladen werden",
+            "de": "Hier können <b>Fahrräder</b> laden",
             "es": "Aquí se pueden cargar <b>bicicletas</b>"
           }
         },
@@ -103,7 +103,7 @@
           "then": {
             "en": "<b>Cars</b> can be charged here",
             "nl": "<b>Elektrische auto's</b> kunnen hier opgeladen worden",
-            "de": "<b>Autos</b> können hier geladen werden",
+            "de": "Hier können <b>Autos</b> laden",
             "es": "Aquí se pueden cargar <b>coches</b>"
           }
         },
@@ -113,7 +113,7 @@
           "then": {
             "en": "<b>Scooters</b> can be charged here",
             "nl": "<b>Elektrische scooters</b> (snorfiets of bromfiets) kunnen hier opgeladen worden",
-            "de": "<b>Roller</b> können hier geladen werden",
+            "de": "Hier können <b>Roller</b> laden",
             "es": "Aquí se pueden cargar <b>scooters</b>"
           }
         },
@@ -123,7 +123,7 @@
           "then": {
             "en": "<b>Heavy good vehicles</b> (such as trucks) can be charged here",
             "nl": "<b>Vrachtwagens</b> kunnen hier opgeladen worden",
-            "de": "<b>LKW</b> können hier geladen werden"
+            "de": "Hier können <b>LKW</b> laden"
           }
         },
         {
@@ -132,7 +132,7 @@
           "then": {
             "en": "<b>Buses</b> can be charged here",
             "nl": "<b>Bussen</b> kunnen hier opgeladen worden",
-            "de": "<b>Busse</b> können hier geladen werden"
+            "de": "Hier können <b>Busse</b> laden"
           }
         }
       ]
@@ -214,7 +214,7 @@
       "question": {
         "en": "How much vehicles can be charged here at the same time?",
         "nl": "Hoeveel voertuigen kunnen hier opgeladen worden?",
-        "de": "Wie viele Fahrzeuge können hier gleichzeitig geladen werden?"
+        "de": "Wie viele Fahrzeuge können hier gleichzeitig laden?"
       },
       "freeform": {
         "key": "capacity",
@@ -488,7 +488,7 @@
           "then": {
             "en": "<b>Type 1 CCS</b> (aka Type 1 Combo)",
             "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo)",
-            "de": "<b>Typ 1 CCS</b> (auch bekannt als Typ 1 Combo)",
+            "de": "<b>Typ 1 CCS</b> (Typ 1 Combo)",
             "es": "<b>CSS Tipo 1</b> (también conocido como Tipo 1 Combo)"
           },
           "icon": {
@@ -606,7 +606,7 @@
           "then": {
             "en": "<b>Type 2</b> (mennekes)",
             "nl": "<b>Type 2</b> (mennekes)",
-            "de": "<b>Typ 2</b> (mennekes)",
+            "de": "<b>Typ 2</b> (Mennekes)",
             "es": "<b>Tipo 2</b> (mennekes)"
           },
           "icon": {
@@ -665,7 +665,7 @@
           "then": {
             "en": "<b>Type 2 CCS</b> (mennekes)",
             "nl": "<b>Type 2 CCS</b> (mennekes)",
-            "de": "<b>Typ 2 CCS</b> (mennekes)",
+            "de": "<b>Typ 2 CCS</b> (Mennekes)",
             "es": "<b>CSS Tipo 2</b> (mennekes)"
           },
           "icon": {
@@ -724,7 +724,7 @@
           "then": {
             "en": "<b>Type 2 with cable</b> (mennekes)",
             "nl": "<b>Type 2 met kabel</b> (J1772)",
-            "de": "<b>Typ 2 mit Kabel</b> (mennekes)",
+            "de": "<b>Typ 2 mit Kabel</b> (Mennekes)",
             "es": "<b>Tipo 2 con cable</b> (mennekes)"
           },
           "icon": {
@@ -783,7 +783,7 @@
           "then": {
             "en": "<b>Tesla Supercharger CCS</b> (a branded type2_css)",
             "nl": "<b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo)",
-            "de": "<b>Tesla Supercharger CCS</b> (ein Markenzeichen von type2_css)",
+            "de": "<b>Tesla Supercharger CCS</b> (Typ 2 CSS von Tesla)",
             "es": "<b>CCS Supercargador Tesla</b> (un tipo2_css con marca)"
           },
           "icon": {
@@ -907,7 +907,7 @@
           "then": {
             "en": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla)",
             "nl": "<b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo)",
-            "de": "<b>Tesla supercharger (Destination)</b> (Typ 2 mit Kabel von Tesla)",
+            "de": "<b>Tesla Supercharger (Destination)</b> (Typ 2 mit Kabel von Tesla)",
             "es": "<b>Supercargador Tesla (destino)</b> (Un Tipo 2 con un cable de marca tesla)"
           },
           "icon": {
@@ -1262,11 +1262,13 @@
       "id": "plugs-7",
       "question": {
         "en": "How much plugs of type <div style='display: inline-block'><b><b>Type 2</b> (mennekes)</b> <img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/Type2_socket.svg'/></div> are available here?",
-        "nl": "Hoeveel stekkers van type <div style='display: inline-block'><b><b>Type 2</b> (mennekes)</b> <img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/Type2_socket.svg'/></div> heeft dit oplaadpunt?"
+        "nl": "Hoeveel stekkers van type <div style='display: inline-block'><b><b>Type 2</b> (mennekes)</b> <img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/Type2_socket.svg'/></div> heeft dit oplaadpunt?",
+        "de": "Wie viele Stecker des Typs <div style='display: inline-block'><b><b>Typ 2</b> (Mennekes)</b> <img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/Type2_socket.svg'/></div> sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:type2}</b> plugs of type <div style='display: inline-block'><b><b>Type 2</b> (mennekes)</b> <img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/Type2_socket.svg'/></div> available here",
-        "nl": "Hier zijn <b class='text-xl'>{socket:type2}</b> stekkers van het type <div style='display: inline-block'><b><b>Type 2</b> (mennekes)</b> <img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/Type2_socket.svg'/></div>"
+        "nl": "Hier zijn <b class='text-xl'>{socket:type2}</b> stekkers van het type <div style='display: inline-block'><b><b>Type 2</b> (mennekes)</b> <img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/Type2_socket.svg'/></div>",
+        "de": "Hier sind <b class='text-xl'>{socket:type2}</b> Stecker des Typs <div style='display: inline-block'><b><b>Typ 2</b> (Mennekes)</b><img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/Type2_socket.svg'/></div> vorhanden"
       },
       "freeform": {
         "key": "socket:type2",
@@ -2388,7 +2390,8 @@
       "group": "technical",
       "question": {
         "en": "What voltage do the plugs with <div style='display: inline-block'><b><b>Type 2</b> (mennekes)</b> <img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/Type2_socket.svg'/></div> offer?",
-        "nl": "Welke spanning levert de stekker van type <div style='display: inline-block'><b><b>Type 2</b> (mennekes)</b> <img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/Type2_socket.svg'/></div>"
+        "nl": "Welke spanning levert de stekker van type <div style='display: inline-block'><b><b>Type 2</b> (mennekes)</b> <img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/Type2_socket.svg'/></div>",
+        "de": "Welche Spannung liefern die Stecker mit <div style='display: inline-block'><b><b>Typ 2</b> (Mennekes)</b> <img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/Type2_socket.svg'/></div>?"
       },
       "render": {
         "en": "<div style='display: inline-block'><b><b>Type 2</b> (mennekes)</b> <img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/Type2_socket.svg'/></div> outputs {socket:type2:voltage} volt",
@@ -3542,7 +3545,7 @@
           "then": {
             "nl": "Gratis te gebruiken (zonder aan te melden)",
             "en": "Free to use (without authenticating)",
-            "de": "Kostenlos nutzbar (ohne Authentifizierung)"
+            "de": "Die Nutzung ist kostenlos, keine Authentifizierung erforderlich"
           }
         },
         {
@@ -3557,7 +3560,7 @@
           "then": {
             "nl": "Gratis te gebruiken, maar aanmelden met een applicatie is verplicht",
             "en": "Free to use, but one has to authenticate",
-            "de": "Kostenlose Nutzung, aber man muss sich authentifizieren"
+            "de": "Die Nutzung ist kostenlos, Authentifizierung erforderlich"
           }
         },
         {
@@ -3583,7 +3586,7 @@
           "then": {
             "nl": "Betalend te gebruiken, maar gratis voor klanten van het bijhorende hotel/café/ziekenhuis/...",
             "en": "Paid use, but free for customers of the hotel/pub/hospital/... who operates the charging station",
-            "de": "Kostenpflichtige Nutzung, aber kostenlos für Kunden des Hotels / Pub / Krankenhauses / ... wer die Ladestation betreibt"
+            "de": "Die Nutzung ist kostenpflichtig, aber kostenlos für Kunden des Betreibers der Einrichtung, wie Hotel, Krankenhaus, ..."
           }
         },
         {
@@ -3596,7 +3599,7 @@
           "then": {
             "nl": "Betalend",
             "en": "Paid use",
-            "de": "Nutzung gebührenpflichtig"
+            "de": "Die Nutzung ist kostenpflichtig"
           }
         }
       ]
@@ -4030,7 +4033,7 @@
           "then": {
             "en": "A charging station is planned here",
             "nl": "Hier zal binnenkort een oplaadpunt gebouwd worden",
-            "de": "Hier ist eine Ladestation geplant",
+            "de": "Diese Ladestation ist erst in Planung",
             "es": "Una estación de carga está planeada aquí"
           }
         },
@@ -4047,7 +4050,7 @@
           "then": {
             "en": "A charging station is constructed here",
             "nl": "Hier wordt op dit moment een oplaadpunt gebouwd",
-            "de": "Hier wird eine Ladestation errichtet",
+            "de": "Diese Ladestation ist aktuell im Bau",
             "es": "Una estación de carga está construida aquí"
           }
         },
@@ -4064,7 +4067,7 @@
           "then": {
             "en": "This charging station has beed permanently disabled and is not in use anymore but is still visible",
             "nl": "Dit oplaadpunt is niet meer in gebruik maar is wel nog aanwezig",
-            "de": "Diese Ladestation wurde dauerhaft geschlossen und wird nicht mehr benutzt, ist aber noch sichtbar",
+            "de": "Diese Ladestation ist dauerhaft geschlossen und nicht mehr in Nutzung, aber noch sichtbar",
             "es": "Esta estación de carga se ha deshabilitado de forma permanente y ya no está en uso pero todavía es visible"
           }
         }
@@ -4116,7 +4119,8 @@
       "group": "technical",
       "render": {
         "en": "<h3>Technical questions</h3>The questions below are very technical. Feel free to ignore them<br/>{questions}",
-        "nl": "<h3>Technische vragen</h3>De vragen hieronder zijn erg technisch - sla deze over indien je hier geen tijd voor hebt<br/>{questions}"
+        "nl": "<h3>Technische vragen</h3>De vragen hieronder zijn erg technisch - sla deze over indien je hier geen tijd voor hebt<br/>{questions}",
+        "de": "<h3>Technische Fragen</h3>Die folgenden Fragen sind sehr technisch. Sie können sie gerne ignorieren<br/>{questions}"
       }
     }
   ],
