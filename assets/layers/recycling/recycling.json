@@ -466,7 +466,7 @@
           "then": {
             "en": "Waste disposal container for residual waste",
             "nl": "Afvalcontainer voor restafval",
-            "de": "Dies ist ein Abfallcontainer für Restmüll"
+            "de": "Dies ist ein Abfallbehälter für Restmüll"
           },
           "addExtraTags": [
             "recycling:batteries=",
@@ -550,7 +550,7 @@
           "then": {
             "en": "This container is located outdoors",
             "nl": "Deze container is buiten",
-            "de": "Dieser Container befindet sich im Freien"
+            "de": "Der Container befindet sich im Freien"
           }
         }
       ]
