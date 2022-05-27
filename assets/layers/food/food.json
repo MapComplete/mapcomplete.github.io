@@ -3,7 +3,7 @@
   "name": {
     "nl": "Eetgelegenheden",
     "en": "Restaurants and fast food",
-    "de": "Restaurants und Imbisse",
+    "de": "Restaurants und Fast Food",
     "da": "Restauranter og fastfood"
   },
   "source": {
@@ -21,7 +21,7 @@
         "en": "a restaurant",
         "nl": "een restaurant",
         "ru": "ресторан",
-        "de": "ein Restaurant",
+        "de": "eine restaurant",
         "ca": "un restaurant"
       },
       "tags": [
@@ -41,7 +41,7 @@
         "en": "a fastfood",
         "nl": "een fastfood-zaak",
         "ru": "быстрое питание",
-        "de": "ein Schnellimbiss",
+        "de": "Ein Schnellimbiss",
         "ca": "un de menjar ràpid"
       },
       "tags": [
@@ -108,7 +108,7 @@
         "then": {
           "nl": "Fastfood-zaak <i>{name}</i>",
           "en": "Fastfood <i>{name}</i>",
-          "de": "Schnellimbiss <i>{name}</i>",
+          "de": "Schnellrestaurant<i>{name}</i>",
           "ca": "Lloc de menjar ràpid <i>{name}</i>"
         }
       },
@@ -121,7 +121,7 @@
         "then": {
           "nl": "Fastfood-zaak",
           "en": "Fastfood",
-          "de": "Schnellimbiss",
+          "de": "Schnellrestaurant",
           "ca": "Menjar ràpid"
         }
       }
@@ -149,7 +149,7 @@
       "question": {
         "en": "What type of business is this?",
         "nl": "Wat voor soort zaak is dit?",
-        "de": "Um was für einen Ort handelt es sich?"
+        "de": "Um was für ein Geschäft handelt es sich?"
       },
       "mappings": [
         {
@@ -157,7 +157,7 @@
           "then": {
             "en": "This is a fastfood-business, focussed on fast service. If seating is available, these are rather limited and functional.",
             "nl": "Dit is een <b>fastfood-zaak</b>. De focus ligt op snelle bediening, zitplaatsen zijn vaak beperkt en functioneel",
-            "de": "Es handelt sich um einen Schnellimbiss, mit Fokus auf schnelle Bedienung am Tresen. Sitzmöglichkeiten sind begrenzt und funktional."
+            "de": "Es handelt sich um ein Schnellrestaurant, das sich auf schnelle Bedienung konzentriert. Eventuelle Sitzgelegenheiten sind eher begrenzt und funktional."
           }
         },
         {
@@ -165,7 +165,7 @@
           "then": {
             "en": "A <b>restaurant</b>, focussed on creating a nice experience where one is served at the table",
             "nl": "Dit is een <b>restaurant</b>. De focus ligt op een aangename ervaring waar je aan tafel wordt bediend",
-            "de": "Es handelt sich um ein <b>Restaurant</b>, mit Fokus auf eine nette Atmosphäre und Tischbedienung"
+            "de": "Es handelt sich um ein <b>Restaurant</b>, das sich darauf konzentriert, ein schönes Erlebnis zu schaffen, bei dem man am Tisch bedient wird"
           }
         }
       ],
@@ -322,7 +322,7 @@
       "question": {
         "nl": "Biedt deze zaak een afhaalmogelijkheid aan?",
         "en": "Does this place offer takea-way?",
-        "de": "Werden Gerichte zum Mitnehmen angeboten?"
+        "de": "Ist an diesem Ort Mitnahme möglich?"
       },
       "mappings": [
         {
@@ -330,7 +330,7 @@
           "then": {
             "en": "This is a take-away only business",
             "nl": "Hier is enkel afhaal mogelijk",
-            "de": "Hier werden Gerichte ausschließlich zum Mitnehmen angeboten"
+            "de": "Dieses Geschäft bietet nur Artikel zur Mitnahme an"
           }
         },
         {
@@ -338,7 +338,7 @@
           "then": {
             "en": "Take-away is possible here",
             "nl": "Eten kan hier afgehaald worden",
-            "de": "Hier werden Gerichte auch zum Mitnehmen angeboten"
+            "de": "Mitnahme möglich"
           }
         },
         {
@@ -346,7 +346,7 @@
           "then": {
             "en": "Take-away is not possible here",
             "nl": "Hier is geen afhaalmogelijkheid",
-            "de": "Hier werden Gerichte nicht zum Mitnehmen angeboten"
+            "de": "Mitnahme nicht möglich"
           }
         }
       ],
@@ -356,7 +356,7 @@
       "question": {
         "nl": "Heeft deze eetgelegenheid een vegetarische optie?",
         "en": "Does this restaurant have a vegetarian option?",
-        "de": "Werden hier vegetarische Gerichte angeboten?"
+        "de": "Gibt es im das Restaurant vegetarische Speisen?"
       },
       "mappings": [
         {
@@ -364,7 +364,7 @@
           "then": {
             "en": "No vegetarian options are available",
             "nl": "Geen vegetarische opties beschikbaar",
-            "de": "Hier werden keine vegetarischen Gerichte angeboten"
+            "de": "Es sind keine vegetarischen Optionen verfügbar"
           }
         },
         {
@@ -372,7 +372,7 @@
           "then": {
             "en": "Some vegetarian options are available",
             "nl": "Beperkte vegetarische opties zijn beschikbaar",
-            "de": "Hier werden nur wenige vegetarische Gerichte angeboten"
+            "de": "Einige vegetarische Optionen sind verfügbar"
           }
         },
         {
@@ -380,7 +380,7 @@
           "then": {
             "en": "Vegetarian options are available",
             "nl": "Vegetarische opties zijn beschikbaar",
-            "de": "Hier werden vegetarische Gerichte angeboten"
+            "de": "Vegetarische Optionen sind verfügbar"
           }
         },
         {
@@ -388,7 +388,7 @@
           "then": {
             "en": "All dishes are vegetarian",
             "nl": "Enkel vegetarische opties zijn beschikbaar",
-            "de": "Hier werden ausschließlich vegetarische Gerichte angeboten"
+            "de": "Alle Gerichte sind vegetarisch"
           }
         }
       ],
@@ -399,7 +399,7 @@
       "question": {
         "en": "Does this business serve vegan meals?",
         "nl": "Heeft deze eetgelegenheid een veganistische optie?",
-        "de": "Werden hier vegane Gerichte angeboten?"
+        "de": "Gibt es in diesem Geschäft auch vegane Gerichte?"
       },
       "mappings": [
         {
@@ -407,7 +407,7 @@
           "then": {
             "en": "No vegan options available",
             "nl": "Geen veganistische opties beschikbaar",
-            "de": "Hier werden keine veganen Gerichte angeboten"
+            "de": "Keine veganen Optionen verfügbar"
           }
         },
         {
@@ -415,7 +415,7 @@
           "then": {
             "en": "Some vegan options are available",
             "nl": "Beperkte veganistische opties zijn beschikbaar",
-            "de": "Hier werden nur wenige vegane Gerichte angeboten"
+            "de": "Einige vegane Optionen sind verfügbar"
           }
         },
         {
@@ -423,7 +423,7 @@
           "then": {
             "en": "Vegan options are available",
             "nl": "Veganistische opties zijn beschikbaar",
-            "de": "Hier werden vegane Gerichte angeboten"
+            "de": "Vegane Optionen sind verfügbar"
           }
         },
         {
@@ -431,7 +431,7 @@
           "then": {
             "en": "All dishes are vegan",
             "nl": "Enkel veganistische opties zijn beschikbaar",
-            "de": "Hier werden ausschließlich vegane Gerichte angeboten"
+            "de": "Alle Gerichte sind vegan"
           }
         }
       ],
@@ -442,7 +442,7 @@
       "question": {
         "en": "Does this restaurant offer a halal menu?",
         "nl": "Heeft dit restaurant halal opties?",
-        "de": "Werden hier halal Gerichte angeboten?"
+        "de": "Gibt es im das Restaurant halal Speisen?"
       },
       "mappings": [
         {
@@ -450,7 +450,7 @@
           "then": {
             "en": "There are no halal options available",
             "nl": "Er zijn geen halal opties aanwezig",
-            "de": "Hier werden keine halal Gerichte angeboten"
+            "de": "Hier gibt es keine halal Speisen"
           }
         },
         {
@@ -458,7 +458,7 @@
           "then": {
             "en": "There is a small halal menu",
             "nl": "Er zijn een beperkt aantal halal opties",
-            "de": "Hier werden nur wenige halal Gerichte angeboten"
+            "de": "Hier gibt es wenige halal Speisen"
           }
         },
         {
@@ -466,7 +466,7 @@
           "then": {
             "nl": "Halal menu verkrijgbaar",
             "en": "There is a halal menu",
-            "de": "Hier werden halal Gerichte angeboten"
+            "de": "Es gibt halal Speisen"
           }
         },
         {
@@ -474,7 +474,7 @@
           "then": {
             "nl": "Enkel halal opties zijn beschikbaar",
             "en": "Only halal options are available",
-            "de": "Hier werden ausschließlich halal Gerichte angeboten"
+            "de": "Es gibt ausschließlich halal Speisen"
           }
         }
       ],

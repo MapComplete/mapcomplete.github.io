@@ -155,7 +155,7 @@
       "render": {
         "en": "This route has {climbing:bolts} bolts <div class='subtle'>This is without relays and indicates how much quickdraws a climber needs</div>",
         "fr": "Cette voie a {climbing:bolts} prises",
-        "de": "Diese Route hat {climbing:bolts} Haken <div class='subtle'>Dies ist ohne Relais und gibt an, wie viel Schnellspanner ein Kletterer braucht</div>",
+        "de": "Diese Kletterroute hat {climbing:bolts} Haken",
         "it": "Questo percorso ha {climbing:bolts} bulloni"
       },
       "freeform": {

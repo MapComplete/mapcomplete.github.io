@@ -162,7 +162,7 @@
         "nl": "Welke functies biedt locatie?",
         "fr": "Quels services sont valables à cette station vélo ?",
         "gl": "Que servizos están dispoñíbeis nesta estación de bicicletas?",
-        "de": "Welche Einrichtungen sind hier vorhanden?",
+        "de": "Welche Einrichtungen sind an der Fahrradstation vorhanden?",
         "it": "Quali servizi sono disponibili in questa stazione per bici?",
         "pt_BR": "Quais serviços estão disponíveis nesta estação de bicicletas?",
         "pt": "Quais serviços estão disponíveis nesta estação de bicicletas?",
@@ -286,7 +286,7 @@
         "en": "When is this bicycle repair point open?",
         "fr": "Quand ce point de réparation de vélo est-il ouvert ?",
         "it": "Quando è aperto questo punto riparazione bici?",
-        "de": "Wann ist die Fahrradreparaturstation geöffnet?",
+        "de": "Wann ist diese Fahrradreparaturstelle geöffnet?",
         "ru": "Когда работает эта точка обслуживания велосипедов?",
         "es": "¿Cuándo está abierto este punto de reparación de bicicletas?",
         "da": "Hvornår er dette cykelreparationssted åbent?"
@@ -304,7 +304,7 @@
             "en": "Always open",
             "fr": "Ouvert en permanence",
             "it": "Sempre aperto",
-            "de": "Die Station ist durchgehend geöffnet",
+            "de": "Durchgehend geöffnet",
             "ru": "Всегда открыто",
             "pt_BR": "Sempre aberto",
             "pt": "Sempre aberto",
@@ -321,7 +321,7 @@
       "question": {
         "en": "Who is allowed to use this repair station?",
         "nl": "Wie kan dit herstelpunt gebruiken?",
-        "de": "Wer darf die Reparaturstation nutzen?",
+        "de": "Wer darf diese Reparaturstation benutzen?",
         "es": "¿A quién se le permite utilizar esta estación de reparación?",
         "da": "Hvem må bruge denne reparationsstation?"
       },
@@ -331,7 +331,7 @@
           "then": {
             "en": "Publicly accessible",
             "nl": "Publiek toegankelijk",
-            "de": "Die Reparaturstation darf öffentlich genutzt werden",
+            "de": "Öffentlich zugänglich",
             "es": "Accesible públicamente",
             "da": "Offentligt tilgængelig"
           }
@@ -352,7 +352,7 @@
           "then": {
             "en": "Only for customers",
             "nl": "Enkel voor klanten van de bijhorende zaak",
-            "de": "Die Reparaturstation darf nur von Kunden genutzt werden",
+            "de": "Nur für Kunden",
             "es": "Solo para clientes",
             "da": "Kun for kunder"
           }
@@ -362,7 +362,7 @@
           "then": {
             "en": "Not accessible to the general public",
             "nl": "Niet publiek toegankelijk",
-            "de": "Die Reparaturstation darf nicht öffentlich genutzt werden",
+            "de": "Nicht für die Allgemeinheit zugänglich",
             "es": "No accesible para el público general",
             "da": "Ikke tilgængelig for offentligheden"
           },
@@ -391,7 +391,7 @@
         "nl": "Wie beheert deze fietspomp?",
         "fr": "Qui maintient cette pompe à vélo ?",
         "it": "Chi gestisce questa pompa per bici?",
-        "de": "Wer betreibt die Reparaturstation?",
+        "de": "Wer wartet diese Fahrradpumpe?",
         "pt_BR": "Quem faz a manutenção desta bomba de ciclo?",
         "pt": "Quem faz a manutenção desta bomba de ciclo?",
         "es": "¿Quién mantiene esta bomba para bicicletas?",
@@ -420,7 +420,7 @@
       "question": {
         "en": "What is the email address of the maintainer?",
         "nl": "Wat is het email-adres van de beheerder?",
-        "de": "Wie lautet die E-Mail-Adresse des Betreibers?",
+        "de": "Wie lautet die E-Mail-Adresse des Betreuers?",
         "fr": "Quelle est l'adresse email du service de maintenance ?",
         "es": "¿Es esta la dirección de correo electrónico del mantenedor?",
         "da": "Hvad er e-mailadressen på vedligeholderen?"
@@ -597,7 +597,7 @@
             "nl": "Sclaverand/Presta (dunne fietsbanden)",
             "fr": "Sclaverand (aussi appelé Presta)",
             "gl": "Sclaverand (tamén coñecido como Presta)",
-            "de": "Sklaverand-/Presta-Ventile (für Rennräder)",
+            "de": "Sklaverand-/Prestaventil (für Rennräder)",
             "it": "Sclaverand (detta anche Presta)",
             "ru": "Клапан Presta (также известный как французский клапан)",
             "da": "Sclaverand (også kendt som Presta og racerventil)"
@@ -610,7 +610,7 @@
             "nl": "Dunlop",
             "fr": "Dunlop",
             "gl": "Dunlop",
-            "de": "Dunlopventile",
+            "de": "Dunlop",
             "it": "Dunlop",
             "ru": "Клапан Dunlop",
             "da": "Dunlop"
@@ -623,7 +623,7 @@
             "nl": "Schrader (auto's en mountainbikes)",
             "fr": "Schrader (les valves de voitures)",
             "gl": "Schrader (para automóbiles)",
-            "de": "Schrader-Ventile (für Autos und Mountainbikes)",
+            "de": "Schraderventil (für Autos und Mountainbikes)",
             "it": "Schrader (valvola delle auto)",
             "da": "Schrader (biler)"
           }

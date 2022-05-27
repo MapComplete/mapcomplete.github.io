@@ -13,8 +13,7 @@
     "zh_Hans": "OSM中已知的地址",
     "nb_NO": "Kjente adresser i OSM",
     "da": "Kendte adresser i OSM",
-    "pt": "Endereços conhecidos no OSM",
-    "eo": "Konataj adresoj en OSM"
+    "pt": "Endereços conhecidos no OSM"
   },
   "minzoom": 18,
   "source": {
@@ -62,8 +61,7 @@
     "ca": "Adreces",
     "nb_NO": "Adresser",
     "da": "Adresser",
-    "pt": "Endereços",
-    "eo": "Adresoj"
+    "pt": "Endereços"
   },
   "tagRenderings": [
     {

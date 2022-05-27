@@ -55,7 +55,7 @@
           "then": {
             "en": "A waste basket for general waste",
             "nl": "Een vuilnisbak voor zwerfvuil",
-            "de": "Der Abfalleimer ist für allgemeinen Restmüll"
+            "de": "Ein Abfalleimer für allgemeinen Müll"
           }
         },
         {
@@ -63,7 +63,7 @@
           "then": {
             "en": "A waste basket for dog excrements",
             "nl": "Een vuilnisbak specifiek voor hondenuitwerpselen",
-            "de": "Der Abfalleimer ist für Hundekot"
+            "de": "Ein Abfalleimer für Hundekot"
           }
         },
         {
@@ -71,7 +71,7 @@
           "then": {
             "en": "A waste basket for cigarettes",
             "nl": "Een vuilnisbak voor sigarettenpeuken",
-            "de": "Der Abfalleimer ist für Zigaretten"
+            "de": "Mülleimer für Zigaretten"
           }
         },
         {
@@ -79,7 +79,7 @@
           "then": {
             "en": "A waste basket for drugs",
             "nl": "Een vuilnisbak voor (vervallen) medicatie en drugs",
-            "de": "Der Abfalleimer ist für Drogen"
+            "de": "Mülleimer für Drogen"
           }
         },
         {
@@ -87,7 +87,7 @@
           "then": {
             "en": "A waste basket for needles and other sharp objects",
             "nl": "Een vuilnisbak voor injectienaalden en andere scherpe voorwerpen",
-            "de": "Der Abfalleimer ist für Nadeln und andere scharfe Gegenstände"
+            "de": "Ein Abfalleimer für Nadeln und andere scharfe Gegenstände"
           }
         },
         {
@@ -95,7 +95,7 @@
           "then": {
             "en": "A waste basket for plastic",
             "nl": "Een vuilnisbak voor plastic",
-            "de": "Der Abfalleimer ist für Plastik"
+            "de": "Ein Abfalleimer für Plastik"
           }
         }
       ]
@@ -105,7 +105,7 @@
       "question": {
         "en": "Does this waste basket have a dispenser for dog excrement bags?",
         "nl": "Heeft deze vuilnisbak een verdeler voor hondenpoepzakjes?",
-        "de": "Hat der Abfalleimer einen Spender für (Hunde-)Kotbeutel?"
+        "de": "Verfügt dieser Abfalleimer über einen Spender für (Hunde-)Kotbeutel?"
       },
       "condition": {
         "or": [
@@ -125,7 +125,7 @@
           "then": {
             "en": "This waste basket has a dispenser for (dog) excrement bags",
             "nl": "Deze vuilnisbak heeft een verdeler voor hondenpoepzakjes",
-            "de": "Der Abfalleimer hat einen Spender für (Hunde-)Kotbeutel"
+            "de": "Dieser Abfalleimer verfügt über einen Spender für (Hunde-)Kotbeutel"
           }
         },
         {
@@ -138,7 +138,7 @@
           "then": {
             "en": "This waste basket <b>does not</b> have a dispenser for (dog) excrement bags",
             "nl": "Deze vuilnisbak heeft <b>geen</b> verdeler voor hondenpoepzakjes",
-            "de": "Der Abfalleimer <b>hat keinen</b> Spender für (Hunde-)Kotbeutel"
+            "de": "Dieser Abfalleimer <b>hat keinen</b> Spender für (Hunde-)Kotbeutel"
           }
         },
         {
@@ -162,7 +162,7 @@
         "en": "a waste basket",
         "nl": "een vuilnisbak",
         "ru": "Контейнер для мусора",
-        "de": "einen Abfalleimer",
+        "de": "eine abfalleimer",
         "eo": "Rubujo"
       },
       "presiceInput": {
