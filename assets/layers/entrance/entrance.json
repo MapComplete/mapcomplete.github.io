@@ -7,9 +7,9 @@
     "ca": "Entrada"
   },
   "description": {
-    "en": "A layer showing entrances and offering capabilities to survey some advanced data which is important for e.g. wheelchair users (but also bicycle users, people who want to deliver, ...)",
+    "en": "A layer showing entrances and offering capabilities to survey some advanced data which is important for e.g. wheelchair users (but also bicycle users, people who want to deliver, …)",
     "nl": "Een laag met ingangen (van gebouwen etc.) waarmee je details kunt aanvullen die belangrijk zijn voor bijvoorbeeld rolstoelgebruikers (en fietsers, leveranciers, ...)",
-    "de": "Eine Ebene, die Eingänge anzeigt und die Möglichkeit bietet, weitere Daten zu erheben, die z. B. für Rollstuhlfahrer wichtig sind (aber auch für Radfahrer, Lieferpersonal, ...)"
+    "de": "Eine Ebene, die Eingänge anzeigt und die Möglichkeit bietet, weitere Daten zu erheben, die z. B. für Rollstuhlfahrer wichtig sind (aber auch für Radfahrer, Lieferpersonal, …)"
   },
   "source": {
     "osmTags": {
@@ -95,9 +95,9 @@
             ]
           },
           "then": {
-            "en": "This is a service entrance - normally only used for employees, delivery, ...",
+            "en": "This is a service entrance - normally only used for employees, delivery, …",
             "nl": "Dit is een dienstingang - normaal gezien enkel gebruikt door werknemers, leveranciers, ...",
-            "de": "Dies ist ein Diensteingang - normalerweise nur für Mitarbeiter, Anlieferung, ..."
+            "de": "Dies ist ein Diensteingang - normalerweise nur für Mitarbeiter, Anlieferung, …"
           }
         },
         {
@@ -159,7 +159,7 @@
       "question": {
         "en": "What is the type of this door?<br/><span class='subtle'>Wether or not the door is automated is asked in the next question</span>",
         "nl": "Om wat voor deur gaat het?<br/><span class='subtle'>Of de deur al of niet automatisch werkt, vragen we hierna </span>",
-        "de": "Um welche Art von Tür handelt es sich?<br/><span class='subtle'>Ob die Tür automatisiert ist oder nicht, wird in der nächsten Frage gefragt</span>"
+        "de": "Welche Tür gibt es an diesem Eingang?<br/><span class='subtle'>Ob die Tür automatisiert ist oder nicht, wird in der nächsten Frage gefragt</span>"
       },
       "mappings": [
         {
@@ -176,7 +176,7 @@
           "then": {
             "en": "A classical, hinged door supported by joints",
             "nl": "Een gewone deur die aan scharnieren ophangt en openzwaait",
-            "de": "Eine klassische Drehtür mit Türbändern"
+            "de": "Der Eingang hat eine normale Tür mit seitlichem Anschlag"
           }
         },
         {
@@ -184,7 +184,7 @@
           "then": {
             "en": "A revolving door which hangs on a central shaft, rotating within a cylindrical enclosure",
             "nl": "Een tourniquet-deur (draaideur) die in een cylinder rond een centrale as draait",
-            "de": "Eine Karusselltür, die sich um ihre eigene Achse dreht"
+            "de": "Der Eingang hat eine Karusselltür, die sich um ihre eigene Achse dreht"
           }
         },
         {
@@ -192,7 +192,7 @@
           "then": {
             "en": "A sliding door where the door slides sidewards, typically parallel with a wall",
             "nl": "Een schuifdeur or roldeur die bij het openen en sluiten zijwaarts beweegt",
-            "de": "Eine Schiebetür, bei der sich die Tür zur Seite bewegt"
+            "de": "Der Eingang hat eine Schiebetür, bei der sich die Tür zur Seite bewegt"
           }
         },
         {
@@ -200,7 +200,7 @@
           "then": {
             "en": "A door which rolls from overhead, typically seen for garages",
             "nl": "Een poort die langs boven dichtrolt, typisch voor garages",
-            "de": "Ein Rolltor, das von oben nach unten rollt, typischerweise für Garagen"
+            "de": "Der Eingang hat ein Rolltor, das von oben nach unten rollt, typischerweise für Garagen"
           }
         },
         {
@@ -208,7 +208,7 @@
           "then": {
             "en": "This is an entrance without a physical door",
             "nl": "Er is een toegang zonder een deur",
-            "de": "Dies ist ein Eingang ohne Tür"
+            "de": "Der Eingang hat eine keine Tür"
           },
           "hideInAnswer": "entrance="
         }

@@ -198,11 +198,11 @@
             ]
           },
           "then": {
-            "en": "There are only tools (screwdrivers, pliers...) present",
+            "en": "There are only tools (screwdrivers, pliers, …) present",
             "nl": "Er is enkel gereedschap aanwezig (schroevendraaier, tang...)",
             "fr": "Il y a seulement des outils (tournevis, pinces...)",
             "gl": "Só hai ferramentas (desaparafusadores, alicates...) presentes",
-            "de": "Es sind nur Werkzeuge (Schraubenzieher, Zangen...) vorhanden",
+            "de": "Es sind nur Werkzeuge (Schraubenzieher, Zangen, …) vorhanden",
             "it": "Ci sono solo degli attrezzi (cacciaviti, pinze…) presenti",
             "pt_BR": "Há somente ferramentas (chaves de fenda, alicates...) presentes",
             "pt": "Há somente ferramentas (chaves de fenda, alicates...) presentes",

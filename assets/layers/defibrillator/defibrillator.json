@@ -189,12 +189,12 @@
         {
           "if": "access=private",
           "then": {
-            "en": "Not accessible to the general public (e.g. only accesible to staff, the owners, ...)",
+            "en": "Not accessible to the general public (e.g. only accesible to staff, the owners, …)",
             "ca": "No accessible al públic en general (ex. només accesible a treballadors, propietaris, ...)",
             "es": "No accesible al público en general (ex. sólo accesible a trabajadores, propietarios, ...)",
             "fr": "Non accessible au public (par exemple réservé au personnel, au propriétaire, ...)",
             "nl": "Niet toegankelijk voor het publiek (bv. enkel voor personeel, de eigenaar, ...)",
-            "de": "Nicht für die Öffentlichkeit zugänglich (z.B. nur für das Personal, die Eigentümer, ...)",
+            "de": "Nicht für die Öffentlichkeit zugänglich (z.B. nur für das Personal, die Eigentümer, …)",
             "it": "Non accessibile al pubblico (ad esempio riservato al personale, ai proprietari, etc.)",
             "sl": "Ni dostopen splošni javnosti (npr. samo za osebje, za lastnike, ...)"
           }
