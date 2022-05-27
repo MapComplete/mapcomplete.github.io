@@ -3,7 +3,7 @@
   "name": {
     "en": "Recycling",
     "nl": "Recycling",
-    "de": "Recycling",
+    "de": "Recyclingeinrichtungen",
     "ca": "Residus"
   },
   "description": {
@@ -416,7 +416,7 @@
       "title": {
         "en": "a recycling container",
         "nl": "een recycling container",
-        "de": "ein Recyclingcontainer"
+        "de": "einen Recyclingcontainer"
       },
       "tags": [
         "amenity=recycling",
@@ -427,7 +427,7 @@
       "title": {
         "en": "a recycling centre",
         "nl": "een containerpark (recycling center)",
-        "de": "ein Wertstoffhof"
+        "de": "einen Wertstoffhof"
       },
       "tags": [
         "amenity=recycling",
