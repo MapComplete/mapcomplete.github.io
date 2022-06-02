@@ -298,12 +298,11 @@
       ]
     },
     {
-      "color": {
-        "render": "#d38d5fAA"
-      },
-      "width": {
-        "render": "8"
-      }
+      "dashArray": "8 16",
+      "lineCap": "square",
+      "color": "#d38d5fAA",
+      "fill": "no",
+      "width": "8"
     }
   ]
 }

@@ -132,7 +132,7 @@
             "id": "Berdaun lebar"
           },
           "icon": {
-            "path": "./assets/themes/trees/broadleaved.svg",
+            "path": "./assets/layers/tree_node/broadleaved.svg",
             "class": "small"
           }
         },
@@ -153,7 +153,7 @@
             "id": "Berdaun jarum"
           },
           "icon": {
-            "path": "./assets/themes/trees/needleleaved.svg",
+            "path": "./assets/layers/tree_node/needleleaved.svg",
             "class": "small"
           }
         },
@@ -174,7 +174,7 @@
           },
           "hideInAnswer": true,
           "icon": {
-            "path": "./assets/themes/trees/leafless.svg",
+            "path": "./assets/layers/tree_node/leafless.svg",
             "class": "small"
           }
         }
@@ -721,7 +721,7 @@
   "mapRendering": [
     {
       "icon": {
-        "render": "circle:#ffffff;./assets/themes/trees/unknown.svg",
+        "render": "circle:#ffffff;./assets/layers/tree_node/unknown.svg",
         "mappings": [
           {
             "if": {
@@ -729,7 +729,7 @@
                 "leaf_type=broadleaved"
               ]
             },
-            "then": "circle:#ffffff;./assets/themes/trees/broadleaved.svg"
+            "then": "circle:#ffffff;./assets/layers/tree_node/broadleaved.svg"
           },
           {
             "if": {
@@ -737,7 +737,7 @@
                 "leaf_type=needleleaved"
               ]
             },
-            "then": "circle:#ffffff;./assets/themes/trees/needleleaved.svg"
+            "then": "circle:#ffffff;./assets/layers/tree_node/needleleaved.svg"
           }
         ]
       },
