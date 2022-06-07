@@ -34,12 +34,11 @@
   },
   "calculatedTags": [
     "_total_comments:=feat.get('comments').length",
-    "_first_comment:=feat.get('comments')[0].text.toLowerCase()",
+    "_first_comment:=feat.get('comments')[0].text",
     "_opened_by_anonymous_user:=feat.get('comments')[0].user === undefined",
     "_first_user:=feat.get('comments')[0].user",
-    "_first_user_lc:=feat.get('comments')[0].user?.toLowerCase()",
+    "_last_user:=(() => {const comms = feat.get('comments'); return comms[comms.length - 1].user})()",
     "_first_user_id:=feat.get('comments')[0].uid",
-    "_last_user_lc:=(() => {const comms = feat.get('comments'); return comms[comms.length - 1].user?.toLowerCase()})()",
     "_is_import_note:=(() => {const lines = feat.properties['_first_comment'].split('\\n'); const matchesMapCompleteURL = lines.map(l => l.match(\".*https://mapcomplete.osm.be/\\([a-zA-Z_-]+\\)\\(.html\\).*#import\")); const matchedIndexes = matchesMapCompleteURL.map((doesMatch, i) => [doesMatch !== null, i]).filter(v => v[0]).map(v => v[1]); return matchedIndexes[0] })()"
   ],
   "titleIcons": [
@@ -126,7 +125,7 @@
       "id": "search",
       "options": [
         {
-          "osmTags": "_first_comment~.*{search}.*",
+          "osmTags": "_first_comment~i~.*{search}.*",
           "fields": [
             {
               "name": "search"
@@ -145,7 +144,7 @@
       "id": "not",
       "options": [
         {
-          "osmTags": "_first_comment!~.*{search}.*",
+          "osmTags": "_first_comment!~i~.*{search}.*",
           "fields": [
             {
               "name": "search"
@@ -164,7 +163,7 @@
       "id": "opened_by",
       "options": [
         {
-          "osmTags": "_first_user_lc~.*{search}.*",
+          "osmTags": "_first_user~i~.*{search}.*",
           "fields": [
             {
               "name": "search"
@@ -183,7 +182,7 @@
       "id": "not_opened_by",
       "options": [
         {
-          "osmTags": "_first_user_lc!~.*{search}.*",
+          "osmTags": "_first_user!~i~.*{search}.*",
           "fields": [
             {
               "name": "search"
@@ -202,7 +201,7 @@
       "id": "edited_by",
       "options": [
         {
-          "osmTags": "_last_user_lc~.*{search}.*",
+          "osmTags": "_last_user~i~.*{search}.*",
           "fields": [
             {
               "name": "search"
@@ -221,7 +220,7 @@
       "id": "not_edited_by",
       "options": [
         {
-          "osmTags": "_last_user_lc!~.*{search}.*",
+          "osmTags": "_last_user!~i~.*{search}.*",
           "fields": [
             {
               "name": "search"
