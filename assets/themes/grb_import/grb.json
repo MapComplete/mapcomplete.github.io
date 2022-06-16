@@ -512,6 +512,7 @@
               },
               "then": {
                 "en": "This building has holes and is modeled as a relation. As such, it cannot be conflated. Conflate it manually via <a href='https://buildings.osm.be/#/'>the building export site</a> {open_in_josm()}",
+                "de": "Dieses Gebäude hat Löcher und ist als Relation modelliert. Als solches kann es nicht zusammengeführt werden. Es kann manuell zusammengeführt werden über die <a href='https://buildings.osm.be/#/'>Gebäudeexportseite</a> {open_in_josm()}",
                 "es": "Este edificio tiene agujeros y está modelado como una relación. Por lo tanto, no se puede combinar. Combínalo manualmente a través <a href='https://buildings.osm.be/#/'>el sitio de exportación de edificios</a> {open_in_josm()}"
               }
             },
