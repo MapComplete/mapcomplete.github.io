@@ -48,7 +48,8 @@
     {
       "id": "capacity",
       "question": {
-        "en": "How much students can at most enroll in this school?"
+        "en": "How much students can at most enroll in this school?",
+        "nl": "Hoeveel studenten kunnen er les volgen in deze school?"
       },
       "render": {
         "en": "This school can enroll at most {capacity} students",
