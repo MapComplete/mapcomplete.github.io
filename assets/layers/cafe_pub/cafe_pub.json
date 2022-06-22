@@ -248,7 +248,8 @@
     "wheelchair-access",
     "smoking",
     "service:electricity",
-    "dog-access"
+    "dog-access",
+    "reviews"
   ],
   "filter": [
     {
