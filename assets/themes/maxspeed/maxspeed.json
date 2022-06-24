@@ -1,9 +1,9 @@
 {
   "id": "maxspeed",
   "title": {
+    "en": "Maxspeed",
     "es": "Velocidad",
     "ca": "Velocitat",
-    "en": "Maxspeed",
     "de": "Höchstgeschwindigkeit"
   },
   "shortDescription": {
