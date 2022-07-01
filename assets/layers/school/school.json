@@ -113,7 +113,7 @@
           "if": "school=lower_secondary",
           "then": {
             "en": "This is a secondary school which does <i>not</i> have all grades, but offers <b>first and second</b> grade",
-            "nl": "Dit is een middenlbare school die <i>niet</i> alle schooljaren aanbiedt, maar wel <b>het eerste en tweede middelbaar</b>",
+            "nl": "Dit is een middelbare school die <i>niet</i> alle schooljaren aanbiedt, maar wel <b>het eerste en tweede middelbaar</b>",
             "de": "Dies ist eine weiterführende Schule, die <i>nicht</i> alle Klassenstufen hat, aber <b>erste und zweite</b> Klasse anbietet",
             "fr": "Il s'agit d'une école secondaire qui n'a <i>pas</i> toutes les classes, mais qui offre <b>la première et la deuxième</b> années"
           }
@@ -122,7 +122,7 @@
           "if": "school=middle_secondary",
           "then": {
             "en": "This is a secondary school which does <i>not</i> have all grades, but offers <b>third and fourth</b> grade",
-            "nl": "Dit is een middenlbare school die <i>niet</i> alle schooljaren aanbiedt, maar wel <b>het derde en vierde middelbaar</b>",
+            "nl": "Dit is een middelbare school die <i>niet</i> alle schooljaren aanbiedt, maar wel <b>het derde en vierde middelbaar</b>",
             "de": "Dies ist eine weiterführende Schule, die <i>nicht</i> alle Klassenstufen hat, aber <b>dritte und vierte</b> Klasse anbietet",
             "fr": "Il s'agit d'une école secondaire qui n'a <i>pas</i> toutes les classes, mais qui offre <b>la troisième et la quatrième</b> années"
           }
@@ -131,7 +131,7 @@
           "if": "school=upper_secondary",
           "then": {
             "en": "This is a secondary school which does <i>not</i> have all grades, but offers <b>fifth and sixth</b> grade",
-            "nl": "Dit is een middenlbare school die <i>niet</i> alle schooljaren aanbiedt, maar wel <b>het vijfde en zesde middelbaar</b>",
+            "nl": "Dit is een middelbare school die <i>niet</i> alle schooljaren aanbiedt, maar wel <b>het vijfde en zesde middelbaar</b>",
             "de": "Dies ist eine weiterführende Schule, die <i>nicht</i> alle Klassenstufen hat, aber <b>fünfte und sechste</b> Klasse anbietet",
             "fr": "Il s'agit d'une école secondaire qui n'a <i>pas</i> toutes les classes, mais qui offre <b>la cinquième et la sixième</b> années"
           }
@@ -319,9 +319,46 @@
       },
       "freeform": {
         "key": "school:language",
-        "inline": true
+        "inline": true,
+        "placeholder": {
+          "en": "Language in lowercase English",
+          "nl": "Taal in lowercase Engel"
+        },
+        "addExtraTags": [
+          "fixme=Freeform tag `school:language` used, to be doublechecked"
+        ]
       },
       "mappings": [
+        {
+          "if": "school:language=english",
+          "then": {
+            "en": "The main language of this school is unknown",
+            "nl": "De voertaal van deze school is niet gekend",
+            "de": "Die Hauptsprache dieser Schule ist unbekannt",
+            "fr": "La langue principale de cette école est inconnue"
+          }
+        },
+        {
+          "if": "school:language=french",
+          "then": {
+            "en": "French is the main language of {name}",
+            "nl": "Frans is de voertaal van {name}"
+          }
+        },
+        {
+          "if": "school:language=dutch",
+          "then": {
+            "en": "Dutch is the main language of {name}",
+            "nl": "Nederlands is de voertaal van {name}"
+          }
+        },
+        {
+          "if": "school:language=german",
+          "then": {
+            "en": "German is the main language of {name}",
+            "nl": "Duits is de voertaal van {name}"
+          }
+        },
         {
           "if": "school:language=",
           "then": {

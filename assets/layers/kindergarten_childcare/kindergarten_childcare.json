@@ -178,5 +178,6 @@
   "allowMove": {
     "enableRelocation": true,
     "enableImproveAccuracy": true
-  }
+  },
+  "deletion": true
 }
