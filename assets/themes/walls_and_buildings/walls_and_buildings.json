@@ -17,5 +17,6 @@
   "layers": [
     "walls_and_buildings",
     "entrance"
-  ]
+  ],
+  "hideFromOverview": true
 }
