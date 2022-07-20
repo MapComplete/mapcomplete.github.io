@@ -1,10 +1,12 @@
 {
   "id": "onwheels",
   "title": {
-    "en": "OnWheels"
+    "en": "OnWheels",
+    "de": "Auf Rädern"
   },
   "description": {
-    "en": "On this map, publicly weelchair accessible places are shown and can be easily added"
+    "en": "On this map, publicly weelchair accessible places are shown and can be easily added",
+    "de": "Auf dieser Karte werden öffentlich zugängliche Orte für Rollstuhlfahrer angezeigt und können leicht hinzugefügt werden"
   },
   "maintainer": "MapComplete",
   "icon": "./assets/themes/onwheels/crest.svg",
@@ -62,7 +64,8 @@
           {
             "if": "_poi_entrance:width=",
             "then": {
-              "en": "This entrance has no width information"
+              "en": "This entrance has no width information",
+              "de": "Dieser Eingang hat keine Breitenangabe"
             }
           }
         ]
