@@ -1,11 +1,13 @@
 {
   "id": "hospital",
   "name": {
-    "en": "Hospital"
+    "en": "Hospital",
+    "de": "Krankenhaus"
   },
   "title": {
     "render": {
-      "en": "Hospital"
+      "en": "Hospital",
+      "de": "Krankenhaus"
     }
   },
   "minzoom": 12,
@@ -16,7 +18,9 @@
     {
       "id": "name",
       "render": {
-        "en": "Name of the hospital name is {name}"
+        "en": "Name of the hospital name is {name}",
+        "ca": "El nom del nom de l'hospital és {name}",
+        "de": "Der Name des Krankenhauses lautet {name}"
       },
       "question": {
         "en": "What does the of the hospital ?"

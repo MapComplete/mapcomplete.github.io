@@ -1,10 +1,12 @@
 {
   "id": "doctors",
   "name": {
-    "en": "doctors"
+    "en": "doctors",
+    "de": "Ärzte"
   },
   "description": {
-    "en": "This layer shows doctor offices, dentists and other healthcare facilities"
+    "en": "This layer shows doctor offices, dentists and other healthcare facilities",
+    "de": "Diese Ebene zeigt Arztpraxen, Zahnärzte und andere Gesundheitseinrichtungen"
   },
   "source": {
     "osmTags": {
@@ -17,7 +19,8 @@
   },
   "title": {
     "render": {
-      "en": "Doctors Office {name}"
+      "en": "Doctors Office {name}",
+      "de": "Arztpraxis {name}"
     },
     "mappings": [
       {
@@ -43,10 +46,12 @@
     "website",
     {
       "question": {
-        "en": "What is the name of this doctors place?"
+        "en": "What is the name of this doctors place?",
+        "de": "Wie heißt diese Arztpraxis?"
       },
       "render": {
-        "en": "This doctors place is called {name}"
+        "en": "This doctors place is called {name}",
+        "de": "Diese Arztpraxis heißt {name}"
       },
       "freeform": {
         "key": "name"
@@ -57,10 +62,12 @@
       "condition": "amenity=doctors",
       "id": "specialty",
       "render": {
-        "en": "This doctor is specialized in {healthcare:speciality}"
+        "en": "This doctor is specialized in {healthcare:speciality}",
+        "de": "Dieser Arzt ist spezialisiert auf {healthcare:speciality}"
       },
       "question": {
-        "en": "What is this doctor specialized in?"
+        "en": "What is this doctor specialized in?",
+        "de": "Worauf ist dieser Arzt spezialisiert?"
       },
       "freeform": {
         "key": "healthcare:speciality"
@@ -69,25 +76,29 @@
         {
           "if": "healthcare:speciality=general",
           "then": {
-            "en": "This is a general practitioner"
+            "en": "This is a general practitioner",
+            "de": "Dies ist ein Allgemeinmediziner"
           }
         },
         {
           "if": "healthcare:speciality=gynaecology",
           "then": {
-            "en": "This is a gynaecologist"
+            "en": "This is a gynaecologist",
+            "de": "Dies ist ein Gynäkologe"
           }
         },
         {
           "if": "healthcare:speciality=psychiatry",
           "then": {
-            "en": "This is a psychiatrist"
+            "en": "This is a psychiatrist",
+            "de": "Dies ist ein Psychiater"
           }
         },
         {
           "if": "healthcare:speciality=paediatrics",
           "then": {
-            "en": "This is a paediatrician"
+            "en": "This is a paediatrician",
+            "de": "Dies ist ein Kinderarzt"
           }
         }
       ]
@@ -96,7 +107,8 @@
   "presets": [
     {
       "title": {
-        "en": "a doctors office"
+        "en": "a doctors office",
+        "de": "eine Arztpraxis"
       },
       "tags": [
         "amenity=doctors"
@@ -104,7 +116,8 @@
     },
     {
       "title": {
-        "en": "a dentists office"
+        "en": "a dentists office",
+        "de": "eine Zahnarztpraxis"
       },
       "tags": [
         "amenity=dentist"
@@ -112,7 +125,8 @@
     },
     {
       "title": {
-        "en": "a physiotherapists office"
+        "en": "a physiotherapists office",
+        "de": "Praxis eines Physiotherapeuten"
       },
       "tags": [
         "healthcare=physiotherapist"
@@ -125,7 +139,8 @@
       "options": [
         {
           "question": {
-            "en": "Opened now"
+            "en": "Opened now",
+            "de": "Jetzt geöffnet"
           },
           "osmTags": "_isOpen=yes"
         }

@@ -39,7 +39,8 @@
         {
           "if": "wheelchair=yes",
           "then": {
-            "en": "This pharmacy is easy to access on a wheelchair"
+            "en": "This pharmacy is easy to access on a wheelchair",
+            "ca": "Aquesta farmàcia és fàcil d'accedir en una cadira de rodes"
           }
         },
         {
