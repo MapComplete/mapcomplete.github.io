@@ -65,7 +65,8 @@
         {
           "if": "_entrance:width=",
           "then": {
-            "en": "This entrance has no width information"
+            "en": "This entrance has no width information",
+            "de": "Der Eingang hat keine Informationen zur Durchgangsbreite"
           }
         }
       ]

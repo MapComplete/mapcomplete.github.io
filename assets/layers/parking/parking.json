@@ -98,20 +98,23 @@
           "if": "parking=layby",
           "then": {
             "en": "This is a parking on a layby",
-            "nl": "Dit is een parkeerplek op een layby"
+            "nl": "Dit is een parkeerplek op een layby",
+            "de": "Hier gibt es Parkmöglichkeiten auf einem kleinen Rastplatz"
           }
         },
         {
           "if": "parking=sheds",
           "then": {
             "en": "This is a parking consisting of sheds",
-            "nl": "Dit is een parking bestaande uit schuren"
+            "nl": "Dit is een parking bestaande uit schuren",
+            "de": "Hier gibt es Parkmöglichkeiten unter einer offenen Dachkonstruktion"
           }
         }
       ],
       "question": {
         "en": "What kind of parking is this?",
-        "nl": "Wat voor parking is dit?"
+        "nl": "Wat voor parking is dit?",
+        "de": "Was ist das für ein Parkplatz?"
       }
     },
     {
