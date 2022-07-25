@@ -3,6 +3,9 @@
   "name": {
     "en": "pharmacy"
   },
+  "description": {
+    "en": "A layer showing pharmacies, which (probably) dispense prescription drugs"
+  },
   "title": {
     "render": {
       "en": "{name}"
@@ -26,6 +29,22 @@
   "minzoom": 13,
   "tagRenderings": [
     "images",
+    {
+      "id": "name",
+      "freeform": {
+        "key": "name",
+        "type": "string",
+        "placeholder": {
+          "en": "Name of the pharmacy"
+        }
+      },
+      "question": {
+        "en": "What is the name of the pharmacy?"
+      },
+      "render": {
+        "en": "This pharmacy is called {name}"
+      }
+    },
     "opening_hours",
     "phone",
     "email",
@@ -67,7 +86,21 @@
       "location": [
         "point",
         "centroid"
-      ]
+      ],
+      "iconBadges": [
+        {
+          "if": "opening_hours~*",
+          "then": "isOpen"
+        }
+      ],
+      "label": {
+        "mappings": [
+          {
+            "if": "name~*",
+            "then": "<div style='background: white; padding: 0.25em; border-radius:0.5em'>{name}</div>"
+          }
+        ]
+      }
     }
   ],
   "filter": [

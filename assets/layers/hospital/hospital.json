@@ -10,6 +10,9 @@
       "de": "Krankenhaus"
     }
   },
+  "description": {
+    "en": "A layer showing hospital grounds"
+  },
   "minzoom": 12,
   "source": {
     "osmTags": "amenity=hospital"
@@ -43,6 +46,10 @@
         "point",
         "centroid"
       ]
+    },
+    {
+      "color": "#fcd862",
+      "width": 1
     }
   ]
 }
