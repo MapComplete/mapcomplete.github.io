@@ -319,7 +319,8 @@
             "de": "Diese Tür dreht sich durchgehend automatisch, hat aber einen<b>Knopf, um die Drehgeschwindigkeit zu reduzieren</b>, z.B. für Rollstuhlnutzer",
             "es": "Esta puerta gira automáticamente todo el rato, pero tiene un <b>botón para ralentizarla</b>, por ejemplo, para usuarios de sillas de ruedas",
             "fr": "Cette porte tourne automatiquement tout le temps, mais dispose d'un <b>bouton pour la ralentir</b>, par ex. pour les utilisateurs de fauteuils roulants"
-          }
+          },
+          "hideInAnswer": "door!=revolving"
         },
         {
           "if": "automatic_door=continuous",
@@ -329,7 +330,8 @@
             "de": "Diese Tür dreht sich durchgehend automatisch",
             "es": "Esta puerta gira automáticamente todo el rato",
             "fr": "Cette porte tourne automatiquement tout le temps"
-          }
+          },
+          "hideInAnswer": "door!=revolving"
         },
         {
           "if": "automatic_door=serviced_on_button_press",
@@ -378,19 +380,22 @@
       "question": {
         "en": "What is the height of this kerb?",
         "fr": "Quelle est la hauteur de ce seuil ?",
-        "de": "Wie hoch ist die Türschwelle?"
+        "de": "Wie hoch ist die Türschwelle?",
+        "nl": "Hoe hoog is de drempel?"
       },
       "render": {
         "en": "The kerb height of this door is {kerb:height}",
         "fr": "La hauteur du seuil de porte de cette porte est {kerb:height}",
-        "de": "Die Höhe der Türschwelle ist {kerb:height}"
+        "de": "Die Höhe der Türschwelle ist {kerb:height}",
+        "nl": "De drempel bij deze deur is {kerb:height}"
       },
       "freeform": {
         "key": "kerb:height",
         "placeholder": {
           "en": "Height of the door kerb",
           "fr": "Hauteur du seuil de porte",
-          "de": "Höhe der Türschwelle"
+          "de": "Höhe der Türschwelle",
+          "nl": "Hoogte van de drempel"
         },
         "type": "pnat"
       },
@@ -429,7 +434,8 @@
       "title": {
         "en": "an entrance",
         "fr": "une entrée",
-        "de": "einen Eingang"
+        "de": "einen Eingang",
+        "nl": "een toegang"
       },
       "preciseInput": {
         "preferredBackground": "photo",
@@ -440,6 +446,20 @@
       },
       "tags": [
         "entrance=yes"
+      ]
+    },
+    {
+      "title": {
+        "en": "an indoor door"
+      },
+      "preciseInput": {
+        "preferredBackground": "map",
+        "snapToLayer": [
+          "indoors"
+        ]
+      },
+      "tags": [
+        "indoor=door"
       ]
     }
   ],
@@ -457,7 +477,8 @@
           "human": {
             "en": "meter",
             "fr": "mètre",
-            "de": "Meter"
+            "de": "Meter",
+            "nl": "meter"
           }
         },
         {
@@ -470,7 +491,8 @@
           "human": {
             "en": "centimeter",
             "fr": "centimètre",
-            "de": "Zentimeter"
+            "de": "Zentimeter",
+            "nl": "centimeter"
           }
         }
       ]
