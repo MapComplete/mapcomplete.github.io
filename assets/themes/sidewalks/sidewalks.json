@@ -119,29 +119,25 @@
             {
               "id": "has_sidewalk_left|right",
               "question": {
-                "en": "Is there a sidewalk on this side of the road?",
-                "de": "Gibt es auf dieser Straßenseite einen Bürgersteig?"
+                "en": "Is there a sidewalk on this side of the road?"
               },
               "mappings": [
                 {
                   "if": "sidewalk:left|right=yes",
                   "then": {
-                    "en": "Yes, there is a sidewalk on this side of the road",
-                    "de": "Ja, es gibt einen Bürgersteig auf dieser Straßenseite"
+                    "en": "Yes, there is a sidewalk on this side of the road"
                   }
                 },
                 {
                   "if": "sidewalk:left|right=no",
                   "then": {
-                    "en": "No, there is no sidewalk to walk on",
-                    "de": "Nein, es gibt keinen Bürgersteig für Fußgänger"
+                    "en": "No, there is no sidewalk to walk on"
                   }
                 },
                 {
                   "if": "sidewalk:left|right=separate",
                   "then": {
-                    "en": "There is a separately mapped sidewalk to walk on",
-                    "de": "Es gibt einen separat kartierten Bürgersteig für Fußgänger"
+                    "en": "There is a separately mapped sidewalk to walk on"
                   }
                 }
               ]
@@ -149,12 +145,10 @@
             {
               "id": "sidewalk_width_left|right",
               "question": {
-                "en": "What is the width of the sidewalk on this side of the road?",
-                "de": "Wie breit ist der Bürgersteig auf dieser Straßenseite?"
+                "en": "What is the width of the sidewalk on this side of the road?"
               },
               "render": {
-                "en": "This sidewalk is {sidewalk:left|right:width}m wide",
-                "de": "Dieser Bürgersteig ist {sidewalk:left|right:width}m breit"
+                "en": "This sidewalk is {sidewalk:left|right:width}m wide"
               },
               "condition": "sidewalk:left|right=yes",
               "freeform": {
