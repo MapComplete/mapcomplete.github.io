@@ -30,7 +30,8 @@
       "name": {
         "en": "Changeset centers",
         "de": "Zentrum der Änderungssätze",
-        "fr": "Centre du groupe de modifications"
+        "fr": "Centre du groupe de modifications",
+        "nl": "Zwaartepunten van wijzigingensets"
       },
       "minzoom": 0,
       "source": {

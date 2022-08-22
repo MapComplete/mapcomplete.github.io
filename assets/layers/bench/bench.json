@@ -53,7 +53,7 @@
         {
           "if": "backrest=yes",
           "then": {
-            "en": "Does have a backresr",
+            "en": "Does have a backrest",
             "de": "Die Sitzbank hat eine Rückenlehne",
             "fr": "Dossier : Oui",
             "nl": "Heeft een rugleuning",
@@ -77,7 +77,7 @@
           "if": "backrest=no",
           "then": {
             "en": "Does <b>not</b> have a backrest",
-            "de": "Die Sitzbank hat keine Rückenlehne",
+            "de": "Die Sitzbank hat <b>keine</b> Rückenlehne",
             "fr": "Dossier : Non",
             "nl": "Heeft geen rugleuning",
             "es": "Respaldo: no",
