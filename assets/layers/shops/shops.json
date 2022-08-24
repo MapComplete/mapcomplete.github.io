@@ -201,6 +201,9 @@
         }
       ]
     },
+    "internet",
+    "internet-fee",
+    "internet-ssid",
     "questions",
     "reviews"
   ],
@@ -234,8 +237,8 @@
   "deletion": {
     "softDeletionTags": {
       "and": [
-        "amenity=",
-        "disused:amenity:={amenity}"
+        "shop=",
+        "disused:shop:={shop}"
       ]
     },
     "extraDeleteReasons": [

@@ -468,10 +468,12 @@
   "units": [
     {
       "appliesToKey": [
-        "kerb:height"
+        "kerb:height",
+        "width"
       ],
       "applicableUnits": [
         {
+          "useIfNoUnitGiven": true,
           "canonicalDenomination": "m",
           "alternativeDenomination": [
             "meter"
@@ -484,7 +486,7 @@
           }
         },
         {
-          "default": true,
+          "useAsDefaultInput": true,
           "canonicalDenomination": "cm",
           "alternativeDenomination": [
             "centimeter",

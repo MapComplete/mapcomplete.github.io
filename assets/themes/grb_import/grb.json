@@ -14,9 +14,7 @@
     "fr": "Ce thème tente d’aider l’import automatique GRB.",
     "es": "Este tema es un intento de automatizar la importación GRB."
   },
-  "maintainer": "Pieter Vander Vennet",
   "icon": "./assets/themes/grb_import/logo.svg",
-  "version": "0",
   "startLat": 51.0249,
   "startLon": 4.026489,
   "startZoom": 9,
@@ -748,5 +746,6 @@
   "hideFromOverview": true,
   "defaultBackgroundId": "AGIVFlandersGRB",
   "overpassMaxZoom": 17,
-  "osmApiTileSize": 17
+  "osmApiTileSize": 17,
+  "credits": "Pieter Vander Vennet"
 }
