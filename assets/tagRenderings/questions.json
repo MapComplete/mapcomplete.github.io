@@ -1153,28 +1153,32 @@
   "internet": {
     "question": {
       "en": "Does this place offer internet access?",
-      "nl": "Biedt deze plaats internettoegang aan?"
+      "nl": "Biedt deze plaats internettoegang aan?",
+      "de": "Bietet dieser Ort Internetzugang?"
     },
     "mappings": [
       {
         "if": "internet_access=wlan",
         "then": {
           "en": "This place offers wireless internet access",
-          "nl": "Deze plaats biedt draadloze internettoegang aan"
+          "nl": "Deze plaats biedt draadloze internettoegang aan",
+          "de": "Dieser Ort bietet drahtlosen Internetzugang"
         }
       },
       {
         "if": "internet_access=no",
         "then": {
           "en": "This place <b>does not</b> offer internet access",
-          "nl": "Deze plaats biedt <b>geen</b> internettoegang aan"
+          "nl": "Deze plaats biedt <b>geen</b> internettoegang aan",
+          "de": "Dieser Ort bietet <b>keinen</b> Internetzugang"
         }
       },
       {
         "if": "internet_access=yes",
         "then": {
           "en": "This place offers internet access",
-          "nl": "Deze plaats biedt internettoegang aan"
+          "nl": "Deze plaats biedt internettoegang aan",
+          "de": "Dieser Ort bietet Internetzugang"
         },
         "hideInAnswer": true
       },
@@ -1182,14 +1186,16 @@
         "if": "internet_access=terminal",
         "then": {
           "en": "This place offers internet access via a terminal or computer",
-          "nl": "Deze plaats biedt internettoegang via een terminal of computer aan"
+          "nl": "Deze plaats biedt internettoegang via een terminal of computer aan",
+          "de": "Dieser Ort bietet Internetzugang über ein Terminal oder einen Computer"
         }
       },
       {
         "if": "internet_access=wired",
         "then": {
           "en": "This place offers wired internet access",
-          "nl": "Deze plaats biedt bedrade internettoegang aan"
+          "nl": "Deze plaats biedt bedrade internettoegang aan",
+          "de": "Dieser Ort bietet kabelgebundenen Internetzugang"
         }
       }
     ]
@@ -1203,28 +1209,32 @@
     },
     "question": {
       "en": "Is there a fee for internet access?",
-      "nl": "Zijn er kosten voor internettoegang?"
+      "nl": "Zijn er kosten voor internettoegang?",
+      "de": "Wird für den Internetzugang eine Gebühr erhoben?"
     },
     "mappings": [
       {
         "if": "internet_access:fee=yes",
         "then": {
           "en": "There is a fee for the internet access at this place",
-          "nl": "Er zijn kosten voor internettoegang op deze plaats"
+          "nl": "Er zijn kosten voor internettoegang op deze plaats",
+          "de": "Der Internetzugang ist an diesem Ort gebührenpflichtig"
         }
       },
       {
         "if": "internet_access:fee=no",
         "then": {
           "en": "Internet access is free at this place",
-          "nl": "Internettoegang is gratis op deze plaats"
+          "nl": "Internettoegang is gratis op deze plaats",
+          "de": "Der Internetzugang ist an diesem Ort kostenlos"
         }
       },
       {
         "if": "internet_access:fee=customers",
         "then": {
           "en": "Internet access is free at this place, for customers only",
-          "nl": "Internettoegang is gratis op deze plaats, alleen voor klanten"
+          "nl": "Internettoegang is gratis op deze plaats, alleen voor klanten",
+          "de": "Der Internetzugang ist an diesem Ort kostenlos, aber nur für Kunden"
         }
       }
     ]
@@ -1233,14 +1243,16 @@
     "condition": "internet_access=wlan",
     "question": {
       "en": "What is the network name for the wireless internet access?",
-      "nl": "Wat is de netwerknaam voor de draadloze internettoegang?"
+      "nl": "Wat is de netwerknaam voor de draadloze internettoegang?",
+      "de": "Wie lautet der Netzwerkname für den drahtlosen Internetzugang?"
     },
     "freeform": {
       "key": "internet_access:ssid",
       "type": "string",
       "placeholder": {
         "en": "Enter the network name",
-        "nl": "Voer de netwerknaam in"
+        "nl": "Voer de netwerknaam in",
+        "de": "Geben Sie den Netzwerknamen ein"
       }
     },
     "mappings": [
@@ -1252,7 +1264,8 @@
     ],
     "render": {
       "en": "The network name is <b>{internet_access:ssid}</b>",
-      "nl": "De netwerknaam is <b>{internet_access:ssid}</b>"
+      "nl": "De netwerknaam is <b>{internet_access:ssid}</b>",
+      "de": "Der Netzwerkname lautet <b>{internet_access:ssid}</b>"
     }
   }
 }
