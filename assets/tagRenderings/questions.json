@@ -1166,6 +1166,7 @@
           "en": "This place offers wireless internet access",
           "nl": "Deze plaats biedt draadloze internettoegang aan",
           "de": "Dieser Ort bietet drahtlosen Internetzugang",
+          "fr": "Ce lieu propose un accès internet sans fil",
           "pt": "Este lugar tem acesso à Internet sem fios"
         }
       },
@@ -1175,6 +1176,7 @@
           "en": "This place <b>does not</b> offer internet access",
           "nl": "Deze plaats biedt <b>geen</b> internettoegang aan",
           "de": "Dieser Ort bietet <b>keinen</b> Internetzugang",
+          "fr": "Ce lieu <b>ne propose pas</b> d'accès internet",
           "pt": "Este lugar <b>não</b> tem acesso à Internet"
         }
       },
@@ -1184,6 +1186,7 @@
           "en": "This place offers internet access",
           "nl": "Deze plaats biedt internettoegang aan",
           "de": "Dieser Ort bietet Internetzugang",
+          "fr": "Ce lieu propose un accès internet",
           "pt": "Este lugar tem acesso à Internet"
         },
         "hideInAnswer": true
