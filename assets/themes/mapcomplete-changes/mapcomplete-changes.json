@@ -464,6 +464,42 @@
           ]
         },
         {
+          "id": "made_before",
+          "options": [
+            {
+              "osmTags": "date<{search}",
+              "fields": [
+                {
+                  "name": "search",
+                  "type": "date"
+                }
+              ],
+              "question": {
+                "en": "User language (iso-code) {search}",
+                "de": "Benutzersprache (ISO-Code) {search}"
+              }
+            }
+          ]
+        },
+        {
+          "id": "made_after",
+          "options": [
+            {
+              "osmTags": "date>{search}",
+              "fields": [
+                {
+                  "name": "search",
+                  "type": "date"
+                }
+              ],
+              "question": {
+                "en": "Made with host {search}",
+                "de": "Erstellt mit host {search}"
+              }
+            }
+          ]
+        },
+        {
           "id": "locale-filter",
           "options": [
             {
@@ -474,8 +510,7 @@
                 }
               ],
               "question": {
-                "en": "User language (iso-code) {search}",
-                "de": "Benutzersprache (ISO-Code) {search}"
+                "en": "User language (iso-code) {search}"
               }
             }
           ]
@@ -491,8 +526,7 @@
                 }
               ],
               "question": {
-                "en": "Made with host {search}",
-                "de": "Erstellt mit host {search}"
+                "en": "Made with host {search}"
               }
             }
           ]
