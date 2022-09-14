@@ -6,7 +6,8 @@
     "ca": "Velocitat",
     "de": "Höchstgeschwindigkeit",
     "fr": "Vitesse maximale",
-    "da": "Højeste hastighed"
+    "da": "Højeste hastighed",
+    "nl": "Maximale snelheden"
   },
   "shortDescription": {
     "en": "This map shows the legally allowed maximum speed on every road.",
