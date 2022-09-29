@@ -412,7 +412,8 @@
           "if": "artwork_type=woodcarving",
           "then": {
             "nl": "Houtsculptuur",
-            "en": "Woodcarving"
+            "en": "Woodcarving",
+            "de": "Holzschnitzerei"
           }
         }
       ],
@@ -421,10 +422,12 @@
     {
       "id": "artwork-artist-wikidata",
       "render": {
-        "en": "This artwork was made by {wikidata_label(artist:wikidata):font-weight:bold}<br/>{wikipedia(artist:wikidata)}"
+        "en": "This artwork was made by {wikidata_label(artist:wikidata):font-weight:bold}<br/>{wikipedia(artist:wikidata)}",
+        "de": "Dieses Kunstwerk wurde geschaffen von {wikidata_label(artist:wikidata):font-weight:bold}<br/>{wikipedia(artist:wikidata)}"
       },
       "question": {
-        "en": "Who made this artwork?"
+        "en": "Who made this artwork?",
+        "de": "Wer hat dieses Kunstwerk geschaffen?"
       },
       "freeform": {
         "key": "artist:wikidata",
@@ -526,7 +529,8 @@
       "id": "artwork_subject",
       "condition": "subject:wikidata~*",
       "question": {
-        "en": "What does this artwork depict?"
+        "en": "What does this artwork depict?",
+        "de": "Was stellt dieses Kunstwerk dar?"
       },
       "freeform": {
         "key": "subject:wikidata",
