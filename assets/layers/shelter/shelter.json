@@ -39,7 +39,8 @@
           "if": "shelter_type=public_transport",
           "then": {
             "en": "This is a shelter at a public transport stop.",
-            "de": "Das ist ein Unterstand an einer Haltestelle für öffentliche Verkehrsmittel."
+            "de": "Das ist ein Unterstand an einer Haltestelle für öffentliche Verkehrsmittel.",
+            "nl": "Dit is een schuilplaats bij een halte voor openbaar vervoer."
           }
         },
         {

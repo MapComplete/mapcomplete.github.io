@@ -30,7 +30,8 @@
         "then": {
           "en": "Stop {name}",
           "de": "Haltestelle {name}",
-          "da": "Stop {name}"
+          "da": "Stop {name}",
+          "nl": "Halte {name}"
         }
       }
     ]
@@ -174,7 +175,8 @@
           "then": {
             "en": "This stop has a bin",
             "de": "Die Haltestelle hat einen Mülleimer",
-            "da": "Dette stop har en skraldespand"
+            "da": "Dette stop har en skraldespand",
+            "nl": "Deze halte heeft een vuilnisbak"
           }
         },
         {
@@ -182,14 +184,16 @@
           "then": {
             "en": "This stop does not have a bin",
             "de": "Die Haltestelle hat keinen Mülleimer",
-            "da": "Dette stoppested har ikke en skraldespand"
+            "da": "Dette stoppested har ikke en skraldespand",
+            "nl": "Deze halte heeft geen vuilnisbak"
           }
         },
         {
           "if": "bin=separate",
           "then": {
             "en": "This stop has a bin, that's separately mapped",
-            "de": "Die Haltestelle hat einen Mülleimer, der separat kartiert ist"
+            "de": "Die Haltestelle hat einen Mülleimer, der separat kartiert ist",
+            "nl": "Deze heeft een vuilnisbak, die los op de kaart staat"
           },
           "hideInAnswer": true
         }
@@ -197,7 +201,8 @@
       "question": {
         "en": "Does this stop have a bin?",
         "de": "Hat die Haltestelle einen Mülleimer?",
-        "da": "Har dette stop en skraldespand?"
+        "da": "Har dette stop en skraldespand?",
+        "nl": "Heeft deze halte een vuilnisbak?"
       }
     },
     "wheelchair-access",

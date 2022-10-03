@@ -81,14 +81,16 @@
           "if": "mr_taskStatus=Created",
           "then": {
             "en": "Task is created",
-            "de": "Aufgabe wurde erstellt"
+            "de": "Aufgabe wurde erstellt",
+            "nl": "Taak is aangemaakt"
           }
         },
         {
           "if": "mr_taskStatus=Fixed",
           "then": {
             "en": "Task is fixed",
-            "de": "Aufgabe wurde erledigt"
+            "de": "Aufgabe wurde erledigt",
+            "nl": "Taak is opgelost"
           }
         },
         {
@@ -102,21 +104,24 @@
           "if": "mr_taskStatus=Skipped",
           "then": {
             "en": "Task is skipped",
-            "de": "Aufgabe wurde übersprungen"
+            "de": "Aufgabe wurde übersprungen",
+            "nl": "Taak is overgeslagen"
           }
         },
         {
           "if": "mr_taskStatus=Deleted",
           "then": {
             "en": "Task is deleted",
-            "de": "Aufgabe wurde gelöscht"
+            "de": "Aufgabe wurde gelöscht",
+            "nl": "Taak is verwijderd"
           }
         },
         {
           "if": "mr_taskStatus=Already fixed",
           "then": {
             "en": "Task is already fixed",
-            "de": "Aufgabe wurde bereits erledigt"
+            "de": "Aufgabe wurde bereits erledigt",
+            "nl": "Taak is al opgelost"
           }
         },
         {
@@ -130,7 +135,8 @@
           "if": "mr_taskStatus=Disabled",
           "then": {
             "en": "Task is disabled",
-            "de": "Aufgabe wurde deaktiviert"
+            "de": "Aufgabe wurde deaktiviert",
+            "nl": "Taak is uitgeschakeld"
           }
         }
       ]

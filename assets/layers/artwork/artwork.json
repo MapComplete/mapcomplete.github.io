@@ -423,11 +423,13 @@
       "id": "artwork-artist-wikidata",
       "render": {
         "en": "This artwork was made by {wikidata_label(artist:wikidata):font-weight:bold}<br/>{wikipedia(artist:wikidata)}",
-        "de": "Dieses Kunstwerk wurde geschaffen von {wikidata_label(artist:wikidata):font-weight:bold}<br/>{wikipedia(artist:wikidata)}"
+        "de": "Dieses Kunstwerk wurde geschaffen von {wikidata_label(artist:wikidata):font-weight:bold}<br/>{wikipedia(artist:wikidata)}",
+        "nl": "Dit kunstwerk is gemaakt door {wikidata_label(artist:wikidata):font-weight:bold}<br/>{wikipedia(artist:wikidata)}"
       },
       "question": {
         "en": "Who made this artwork?",
-        "de": "Wer hat dieses Kunstwerk geschaffen?"
+        "de": "Wer hat dieses Kunstwerk geschaffen?",
+        "nl": "Wie heeft dit kunstwerk gemaakt?"
       },
       "freeform": {
         "key": "artist:wikidata",
@@ -530,14 +532,15 @@
       "condition": "subject:wikidata~*",
       "question": {
         "en": "What does this artwork depict?",
-        "de": "Was stellt dieses Kunstwerk dar?"
+        "de": "Was zeigt dieses Kunstwerk?"
       },
       "freeform": {
         "key": "subject:wikidata",
         "type": "wikidata"
       },
       "render": {
-        "en": "This artwork depicts {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}"
+        "en": "This artwork depicts {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}",
+        "de": "Das Kunstwerk zeigt {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}"
       }
     }
   ],

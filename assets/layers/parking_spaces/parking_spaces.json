@@ -6,7 +6,8 @@
   },
   "description": {
     "en": "Layer showing individual parking spaces.",
-    "de": "Ebene mit den einzelnen PKW Stellplätzen."
+    "de": "Ebene mit den einzelnen PKW Stellplätzen.",
+    "nl": "Laag met individuele parkeerplekken."
   },
   "minzoom": 19,
   "source": {

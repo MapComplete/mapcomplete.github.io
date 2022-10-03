@@ -347,7 +347,7 @@
     {
       "render": {
         "nl": "<i>Meer informatie over de locatie (lokale taal):</i><br/>{defibrillator:location}",
-        "en": "<i>Extra information about the location (in the local languagel):</i><br/>{defibrillator:location}",
+        "en": "<i>Extra information about the location (in the local language):</i><br/>{defibrillator:location}",
         "fr": "<i>Informations supplémentaires à propos de l'emplacement (dans la langue locale) :</i><br/>{defibrillator:location}",
         "it": "<i>Informazioni supplementari circa la posizione (in lingua locale):</i><br/>{defibrillator:location}",
         "de": "<i>Zusätzliche Informationen über den Standort (in der Landessprache):</i><br/>{defibrillator:location}",
