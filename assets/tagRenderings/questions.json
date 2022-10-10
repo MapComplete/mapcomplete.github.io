@@ -40,7 +40,8 @@
       "fil": "Ano ang nau-ukol na entidad sa Wikidata?",
       "es": "¿Cual es la entidad de Wikidata que se corresponde?",
       "zh_Hans": "在Wikidata上对应的实体是什么？",
-      "da": "Hvad er den tilsvarende Wikidata-enhed?"
+      "da": "Hvad er den tilsvarende Wikidata-enhed?",
+      "id": "Apa entitas Wikidata yang sesuai?"
     },
     "mappings": [
       {
@@ -64,7 +65,8 @@
           "ru": "Никакой страницы на Википедии не было прикреплено",
           "sv": "Ingen Wikipedia-sida har länkats än",
           "zh_Hans": "尚未有连接到的维基百科页面",
-          "zh_Hant": "還沒有連結到維基百科頁面"
+          "zh_Hant": "還沒有連結到維基百科頁面",
+          "id": "Belum ada halaman Wikipedia yang ditautkan"
         },
         "hideInAnswer": true
       },
@@ -308,7 +310,8 @@
       "ja": "車いすでのアクセスは可能ですか？",
       "fil": "Kaya bang abutin ang lugar na ito ng naka-wheelchair?",
       "es": "¿Este lugar es accesible con una silla de ruedas?",
-      "da": "Er stedet tilgængeligt med en kørestol?"
+      "da": "Er stedet tilgængeligt med en kørestol?",
+      "id": "Apakah tempat ini dapat diakses dengan kursi roda?"
     },
     "mappings": [
       {
@@ -335,7 +338,8 @@
           "ja": "この場所は、車椅子の方のための特別仕様になっています",
           "fil": "Ang lugar na ito ay angkop sa mga gumagamit ng wheelchair",
           "es": "Este lugar está especialmente adaptado para usuarios en sillas de ruedas",
-          "da": "Dette sted er specielt indrettet til kørestolsbrugere"
+          "da": "Dette sted er specielt indrettet til kørestolsbrugere",
+          "id": "Tempat ini dirancang khusus untuk pengguna kursi roda"
         }
       },
       {
@@ -417,7 +421,8 @@
           "ja": "この場所は車いすでは行けません",
           "fil": "Ang lugar na ito ay hindi kayang abutin ng naka-wheelchair",
           "es": "No es posible llegar a este lugar con una silla de ruedas",
-          "da": "Dette sted er ikke tilgængeligt med kørestol"
+          "da": "Dette sted er ikke tilgængeligt med kørestol",
+          "id": "Tempat ini tidak bisa dijangkau dengan kursi roda"
         }
       }
     ]
@@ -887,7 +892,8 @@
         "fr": "Quels étages sont desservis par cet ascenceur ?",
         "pt": "Para que pisos vai este elevador?",
         "da": "Hvilke niveauer går denne elevator til?",
-        "id": "Pada lantai berapa saja lift ini berjalan?"
+        "id": "Pada lantai berapa saja lift ini berjalan?",
+        "nb_NO": "Hvilke etasjer går heisen til?"
       },
       "render": {
         "en": "This elevator goes to floors {level}",
@@ -895,7 +901,8 @@
         "fr": "Cet ascenceur permet d’accéder aux étages {level}",
         "pt": "Este elevador vai para os pisos {level}",
         "da": "Denne elevator går til etager {level}",
-        "id": "Lift ini berjalan ke lantai {level}"
+        "id": "Lift ini berjalan ke lantai {level}",
+        "nb_NO": "Heisen går til etasje {level}"
       },
       "freeform": {
         "key": "level",
@@ -1187,7 +1194,8 @@
       "de": "Bietet dieser Ort Internetzugang?",
       "pt": "Este lugar tem acesso à Internet?",
       "da": "Tilbyder dette sted internetadgang?",
-      "id": "Apa tempat ini menyediakan jaringan internet?"
+      "id": "Apa tempat ini menyediakan jaringan internet?",
+      "nb_NO": "Tilbyr dette stedet tilgang til Internett?"
     },
     "mappings": [
       {
@@ -1211,7 +1219,8 @@
           "fr": "Ce lieu <b>ne propose pas</b> d'accès internet",
           "pt": "Este lugar <b>não</b> tem acesso à Internet",
           "da": "Dette sted <b>tilbyder ikke</b> internetadgang",
-          "id": "Tempat ini <b>tidak</b> menyediakan jaringan internet"
+          "id": "Tempat ini <b>tidak</b> menyediakan jaringan internet",
+          "nb_NO": "Dette stedet tilbyr <b>ikke</b> tilgang til Internett"
         }
       },
       {
@@ -1223,7 +1232,8 @@
           "fr": "Ce lieu propose un accès internet",
           "pt": "Este lugar tem acesso à Internet",
           "da": "Dette sted tilbyder internetadgang",
-          "id": "Tempat ini menyediakan jaringan internet"
+          "id": "Tempat ini menyediakan jaringan internet",
+          "nb_NO": "Dette stedet tilbyr tilgang til Internett"
         },
         "hideInAnswer": true
       },
@@ -1235,7 +1245,8 @@
           "de": "Dieser Ort bietet Internetzugang über ein Terminal oder einen Computer",
           "pt": "Este lugar tem acesso à Internet através de um terminal ou computador",
           "da": "Dette sted tilbyder internetadgang via en terminal eller computer",
-          "id": "Tempat ini menyediakan jaringan internet melalui terminal atau komputer"
+          "id": "Tempat ini menyediakan jaringan internet melalui terminal atau komputer",
+          "nb_NO": "Dette stedet tilbyr tilgang til Internett via en terminal eller datamaskin"
         }
       },
       {
@@ -1246,7 +1257,8 @@
           "de": "Dieser Ort bietet kabelgebundenen Internetzugang",
           "pt": "Este lugar tem acesso à Internet com fios/por cabo",
           "da": "Dette sted tilbyder internetadgang via kabel",
-          "id": "Tempat ini menyediakan jaringan internet kabel"
+          "id": "Tempat ini menyediakan jaringan internet kabel",
+          "nb_NO": "Dette stedet tilbyr trådbunden tilgang til Internett"
         }
       }
     ]
@@ -1263,7 +1275,8 @@
       "nl": "Zijn er kosten voor internettoegang?",
       "de": "Wird für den Internetzugang eine Gebühr erhoben?",
       "pt": "Tem de se pagar para utilizar o acesso à Internet?",
-      "da": "Er der et gebyr for internetadgang?"
+      "da": "Er der et gebyr for internetadgang?",
+      "id": "Apakah ada biaya untuk akses internet?"
     },
     "mappings": [
       {
@@ -1273,7 +1286,8 @@
           "nl": "Er zijn kosten voor internettoegang op deze plaats",
           "de": "Der Internetzugang ist an diesem Ort gebührenpflichtig",
           "pt": "Tem de se pagar para utilizar o acesso à Internet neste local",
-          "da": "Der er et gebyr for internetadgang på dette sted"
+          "da": "Der er et gebyr for internetadgang på dette sted",
+          "id": "Ada biaya untuk akses internet di tempat ini"
         }
       },
       {
@@ -1319,7 +1333,8 @@
         "de": "Geben Sie den Netzwerknamen ein",
         "pt": "Introduza o nome da rede",
         "da": "Indtast netværksnavnet",
-        "id": "Masukkan nama jaringan"
+        "id": "Masukkan nama jaringan",
+        "nb_NO": "Skriv inn nettverksnavnet"
       }
     },
     "mappings": [
@@ -1335,7 +1350,8 @@
       "de": "Der Netzwerkname lautet <b>{internet_access:ssid}</b>",
       "pt": "O nome da rede é <b>{internet_access:ssid}</b>",
       "da": "Netværksnavnet er <b>{internet_access:ssid}</b>",
-      "id": "Nama jaringan ini adalah <b>{internet_access:ssid}</b>"
+      "id": "Nama jaringan ini adalah <b>{internet_access:ssid}</b>",
+      "nb_NO": "Nettverksnavnet er <b>{internet_access:ssid}</b>"
     }
   }
 }

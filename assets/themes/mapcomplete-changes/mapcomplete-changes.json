@@ -24,6 +24,7 @@
       "id": "mapcomplete-changes",
       "name": {
         "en": "Changeset centers",
+        "ca": "Centres del conjunt de canvis",
         "de": "Zentrum der Änderungssätze"
       },
       "minzoom": 0,
@@ -427,6 +428,7 @@
               ],
               "question": {
                 "en": "Themename contains {search}",
+                "ca": "El nom de la petició conté {search}",
                 "de": "Themename enthält {search}"
               }
             }
