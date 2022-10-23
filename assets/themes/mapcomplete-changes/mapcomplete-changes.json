@@ -143,6 +143,10 @@
                 "then": "./assets/themes/artwork/artwork.svg"
               },
               {
+                "if": "theme=bag",
+                "then": "./assets/themes/bag_import/logo.svg"
+              },
+              {
                 "if": "theme=benches",
                 "then": "./assets/themes/benches/bench_poi.svg"
               },
@@ -157,6 +161,10 @@
               {
                 "if": "theme=binoculars",
                 "then": "./assets/layers/binocular/telescope.svg"
+              },
+              {
+                "if": "theme=blind_osm",
+                "then": "./assets/themes/blind_osm/Blindicon.svg"
               },
               {
                 "if": "theme=bookcases",
@@ -311,6 +319,10 @@
                 "then": "./assets/themes/openwindpowermap/logo.svg"
               },
               {
+                "if": "theme=osm_community_index",
+                "then": "./assets/themes/osm_community_index/osm.svg"
+              },
+              {
                 "if": "theme=parkings",
                 "then": "./assets/themes/parkings/parkings.svg"
               },
@@ -357,6 +369,10 @@
               {
                 "if": "theme=sport_pitches",
                 "then": "./assets/layers/sport_pitch/table_tennis.svg"
+              },
+              {
+                "if": "theme=sports",
+                "then": "./assets/themes/sports/sport.svg"
               },
               {
                 "if": "theme=street_lighting",
