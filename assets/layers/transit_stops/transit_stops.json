@@ -141,7 +141,8 @@
           "then": {
             "en": "This stop has a bench",
             "de": "Die Haltestelle hat eine Bank",
-            "da": "Dette stop har en bænk"
+            "da": "Dette stop har en bænk",
+            "nl": "Deze halte heeft een zitbank"
           }
         },
         {
@@ -149,14 +150,16 @@
           "then": {
             "en": "This stop does not have a bench",
             "de": "Die Haltestelle hat keine Bank",
-            "da": "Dette stoppested har ingen bænk"
+            "da": "Dette stoppested har ingen bænk",
+            "nl": "Deze halte heeft geen zitbank"
           }
         },
         {
           "if": "bench=separate",
           "then": {
             "en": "This stop has a bench, that's separately mapped",
-            "de": "Die Haltestelle hat eine Bank, die separat kartiert ist"
+            "de": "Die Haltestelle hat eine Bank, die separat kartiert ist",
+            "nl": "Deze halte heeft een zitbank, die los aangegeven is op de kaart"
           },
           "hideInAnswer": true
         }
@@ -164,7 +167,8 @@
       "question": {
         "en": "Does this stop have a bench?",
         "de": "Gibt es an der Haltestelle eine Sitzbank?",
-        "da": "Har dette stop en bænk?"
+        "da": "Har dette stop en bænk?",
+        "nl": "Heeft deze halte een zitbank?"
       }
     },
     {

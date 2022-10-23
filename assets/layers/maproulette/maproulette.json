@@ -143,7 +143,7 @@
     "render": {
       "en": "MapRoulette Item: {parentName}",
       "de": "MapRoulette-Element: {parentName}",
-      "nl": ""
+      "nl": "MapRoulette Item: {parentName}"
     }
   },
   "titleIcons": [

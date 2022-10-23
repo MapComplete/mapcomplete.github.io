@@ -2,7 +2,8 @@
   "id": "shelter",
   "name": {
     "en": "Shelter",
-    "de": "Unterstände"
+    "de": "Unterstände",
+    "nl": "Schuilplaats"
   },
   "description": {
     "en": "Layer showing shelter structures",
@@ -19,7 +20,8 @@
   "title": {
     "render": {
       "en": "Shelter",
-      "de": "Unterstand"
+      "de": "Unterstand",
+      "nl": "Schuilplaats"
     }
   },
   "mapRendering": [
@@ -85,7 +87,8 @@
       ],
       "question": {
         "en": "What kind of shelter is this?",
-        "de": "Um welche Art von Unterstand handelt es sich?"
+        "de": "Um welche Art von Unterstand handelt es sich?",
+        "nl": "Wat voor schuilplaats is dit?"
       },
       "render": {
         "en": "Shelter type: {shelter_type}",

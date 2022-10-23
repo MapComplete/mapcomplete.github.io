@@ -532,7 +532,8 @@
       "condition": "subject:wikidata~*",
       "question": {
         "en": "What does this artwork depict?",
-        "de": "Was zeigt dieses Kunstwerk?"
+        "de": "Was zeigt dieses Kunstwerk?",
+        "nl": "Wat beeldt dit kunstwerk af?"
       },
       "freeform": {
         "key": "subject:wikidata",
@@ -540,7 +541,8 @@
       },
       "render": {
         "en": "This artwork depicts {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}",
-        "de": "Das Kunstwerk zeigt {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}"
+        "de": "Das Kunstwerk zeigt {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}",
+        "nl": "Dit kunstwerk beeldt {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)} af"
       }
     }
   ],
