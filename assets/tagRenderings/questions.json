@@ -629,7 +629,8 @@
       "es": "<h3>Horas de apertura</h3>{opening_hours_table(opening_hours)}",
       "zh_Hans": "<h3>开放时间</h3> {opening_hours_table(opening_hours)}",
       "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
-      "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}"
+      "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
+      "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}"
     },
     "freeform": {
       "key": "opening_hours",
