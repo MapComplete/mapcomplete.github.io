@@ -2,7 +2,8 @@
   "id": "sports",
   "title": {
     "en": "Sports",
-    "nl": "Sport"
+    "nl": "Sport",
+    "pa_PK": "کھیڈاں"
   },
   "shortDescription": {
     "en": "Map showing sport facilities.",

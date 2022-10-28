@@ -25,7 +25,8 @@
       "name": {
         "en": "Changeset centers",
         "ca": "Centres del conjunt de canvis",
-        "de": "Zentrum der Änderungssätze"
+        "de": "Zentrum der Änderungssätze",
+        "pa_PK": "تبدیلیاں دے کیندر"
       },
       "minzoom": 0,
       "source": {
