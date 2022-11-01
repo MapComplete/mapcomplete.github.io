@@ -4,7 +4,8 @@
     "en": "Elevator",
     "fr": "Ascenseur",
     "de": "Aufzug",
-    "nl": "Lift"
+    "nl": "Lift",
+    "pa_PK": "ایلیویٹر"
   },
   "source": {
     "osmTags": "highway=elevator"
@@ -21,7 +22,8 @@
       "en": "Elevator",
       "fr": "Ascenseur",
       "de": "Aufzug",
-      "nl": "Lift"
+      "nl": "Lift",
+      "pa_PK": "ایلیویٹر"
     }
   },
   "tagRenderings": [
@@ -208,7 +210,8 @@
             "en": "meter",
             "fr": "mètre",
             "de": "Meter",
-            "nl": "meter"
+            "nl": "meter",
+            "pa_PK": "میٹر"
           }
         },
         {
@@ -222,7 +225,8 @@
             "en": "centimeter",
             "fr": "centimètre",
             "de": "Zentimeter",
-            "nl": "centimeter"
+            "nl": "centimeter",
+            "pa_PK": "سینٹیمیٹر"
           }
         }
       ]

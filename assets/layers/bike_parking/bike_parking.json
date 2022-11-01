@@ -217,7 +217,8 @@
             "it": "Rimessa",
             "ru": "Навес",
             "es": "Caseta",
-            "da": "Skur"
+            "da": "Skur",
+            "pa_PK": "شیڈ"
           },
           "icon": {
             "path": "./assets/layers/bike_parking/shed.svg",
@@ -235,7 +236,8 @@
             "zh_Hant": "柱子",
             "ca": "Pilona",
             "es": "Bolardo",
-            "da": "Pullert"
+            "da": "Pullert",
+            "pa_PK": "بولارڈ"
           },
           "icon": {
             "path": "./assets/layers/bike_parking/bollard.svg",
