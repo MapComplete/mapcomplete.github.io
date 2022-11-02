@@ -55,7 +55,8 @@
       "pt_BR": "Café de bicicleta",
       "pt": "Café de bicicleta",
       "ca": "Cafeteria per a bicicletes",
-      "da": "Cykelcafé"
+      "da": "Cykelcafé",
+      "cs": "Cyklokavárna"
     },
     "mappings": [
       {
@@ -72,7 +73,8 @@
           "zh_Hant": "單車咖啡廳<i>{name}</i>",
           "pt_BR": "Café de bicicleta <i>{name}</i>",
           "pt": "Café de bicicleta <i>{name}</i>",
-          "da": "Cykelcafé <i>{name}</i>"
+          "da": "Cykelcafé <i>{name}</i>",
+          "cs": "Cyklokavárna <i>{name}</i>"
         }
       }
     ]
@@ -107,7 +109,8 @@
         "zh_Hant": "這個單車咖啡廳叫做 {name}",
         "pt_BR": "Este café de bicicleta se chama {name}",
         "pt": "Este café de bicicleta se chama {name}",
-        "da": "Denne cykelcafé hedder {name}"
+        "da": "Denne cykelcafé hedder {name}",
+        "cs": "Tato cyklokavárna se jmenuje {name}"
       },
       "freeform": {
         "key": "name"
@@ -179,7 +182,8 @@
         "pt_BR": "Há ferramentas aqui para consertar sua bicicleta?",
         "pt": "Há ferramentas aqui para consertar a sua própria bicicleta?",
         "es": "¿Hay herramientas para reparar su propia bicicleta?",
-        "da": "Er der værktøj her til at reparere din egen cykel?"
+        "da": "Er der værktøj her til at reparere din egen cykel?",
+        "cs": "Jsou zde nástroje na opravu vlastního kola?"
       },
       "mappings": [
         {
@@ -196,7 +200,8 @@
             "ru": "В этом велосипедном кафе есть инструменты для починки своего велосипеда",
             "pt_BR": "Este café de bicicleta oferece ferramentas de reparo faça você mesmo",
             "pt": "Este café de bicicleta oferece ferramentas de reparo faça você mesmo",
-            "da": "Denne cykelcafé tilbyder værktøj til gør-det-selv-reparation"
+            "da": "Denne cykelcafé tilbyder værktøj til gør-det-selv-reparation",
+            "cs": "Tato cyklokavárna nabízí nářadí pro kutilské opravy"
           }
         },
         {
@@ -213,7 +218,8 @@
             "ru": "В этом велосипедном кафе нет инструментов для починки своего велосипеда",
             "pt_BR": "Este café de bicicleta não oferece ferramentas de reparo faça você mesmo",
             "pt": "Este café de bicicleta não oferece ferramentas de reparo faça você mesmo",
-            "da": "Denne cykelcafé tilbyder ikke værktøj til gør-det-selv-reparation"
+            "da": "Denne cykelcafé tilbyder ikke værktøj til gør-det-selv-reparation",
+            "cs": "Tato cyklokavárna nenabízí nářadí pro kutilské opravy"
           }
         }
       ]
@@ -232,7 +238,8 @@
         "ru": "Есть ли услуги ремонта велосипедов в этом велосипедном кафе?",
         "pt_BR": "Este café de bicicleta conserta bicicletas?",
         "pt": "Este café de bicicleta conserta bicicletas?",
-        "da": "Reparerer denne cykelcafé cykler?"
+        "da": "Reparerer denne cykelcafé cykler?",
+        "cs": "Opravuje tato cyklokavárna jízdní kola?"
       },
       "mappings": [
         {
@@ -249,7 +256,8 @@
             "ru": "В этом велосипедном кафе есть услуги ремонта велосипедов",
             "pt_BR": "Este café de bicicleta conserta bicicletas",
             "pt": "Este café de bicicleta conserta bicicletas",
-            "da": "Denne cykelcafé reparerer cykler"
+            "da": "Denne cykelcafé reparerer cykler",
+            "cs": "Tato cyklokavárna opravuje jízdní kola"
           }
         },
         {
@@ -266,7 +274,8 @@
             "ru": "В этом велосипедном кафе нет услуг ремонта велосипедов",
             "pt_BR": "Este café de bicicleta não conserta bicicletas",
             "pt": "Este café de bicicleta não conserta bicicletas",
-            "da": "Denne cykelcafé reparerer ikke cykler"
+            "da": "Denne cykelcafé reparerer ikke cykler",
+            "cs": "Tato cyklokavárna neopravuje kola"
           }
         }
       ]
@@ -285,7 +294,8 @@
         "pt_BR": "Qual o website de {name}?",
         "pt": "Qual o website de {name}?",
         "da": "Hvad er webstedet for {name}?",
-        "es": "¿Cual es el sitio web de {name}?"
+        "es": "¿Cual es el sitio web de {name}?",
+        "cs": "Jaká je webová stránka {name}?"
       },
       "render": "<a href='{website}' target='_blank'>{website}</a>",
       "freeform": {
@@ -307,7 +317,8 @@
         "pt_BR": "Qual o número de telefone de {name}?",
         "pt": "Qual é o número de telefone de {name}?",
         "es": "¿Cual es el número de teléfono de {name}?",
-        "da": "Hvad er telefonnummeret til {name}?"
+        "da": "Hvad er telefonnummeret til {name}?",
+        "cs": "Jaké je telefonní číslo na {name}?"
       },
       "render": "<a href='tel:{phone}'>{phone}</a>",
       "freeform": {
@@ -352,7 +363,8 @@
         "pt_BR": "Quando este café de bicicleta abre?",
         "de": "Wann ist dieses Fahrradcafé geöffnet?",
         "pt": "Quando este café de bicicleta abre?",
-        "da": "Hvornår er denne cykelcafé åbent?"
+        "da": "Hvornår er denne cykelcafé åbent?",
+        "cs": "Kdy byla tato cyklokavárna otevřena?"
       },
       "render": "{opening_hours_table(opening_hours)}",
       "freeform": {
