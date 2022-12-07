@@ -8,7 +8,8 @@
     "pa_PK": "ڈاکٹر"
   },
   "description": {
-    "en": "This layer shows doctor offices"
+    "en": "This layer shows doctor offices",
+    "de": "Diese Ebene zeigt Arztpraxen, Zahnärzte und andere Gesundheitseinrichtungen"
   },
   "source": {
     "osmTags": "amenity=doctors"
