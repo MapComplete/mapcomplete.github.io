@@ -123,6 +123,10 @@
                 "then": "./assets/themes/artwork/artwork.svg"
               },
               {
+                "if": "theme=atm",
+                "then": "./assets/themes/atm/logo.svg"
+              },
+              {
                 "if": "theme=bag",
                 "then": "./assets/themes/bag/logo.svg"
               },
@@ -349,6 +353,10 @@
               {
                 "if": "theme=sports",
                 "then": "./assets/themes/sports/sport.svg"
+              },
+              {
+                "if": "theme=stations",
+                "then": "./assets/themes/stations/rail-light.svg"
               },
               {
                 "if": "theme=street_lighting",
