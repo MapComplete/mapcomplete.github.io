@@ -606,25 +606,29 @@
     {
       "id": "doubles_as_bench",
       "question": {
-        "en": "Does this artwork serve as a bench?"
+        "en": "Does this artwork serve as a bench?",
+        "de": "Dient dieses Kunstwerk auch als Sitzbank?"
       },
       "mappings": [
         {
           "if": "amenity=bench",
           "then": {
-            "en": "This artwork also serves as a bench"
+            "en": "This artwork also serves as a bench",
+            "de": "Dieses Kunstwerk dient auch als Sitzbank"
           }
         },
         {
           "if": "amenity=",
           "then": {
-            "en": "This artwork does not serve as a bench"
+            "en": "This artwork does not serve as a bench",
+            "de": "Dieses Kunstwerk dient nicht als Sitzbank"
           }
         },
         {
           "if": "amenity!=bench",
           "then": {
-            "en": "This artwork does not serve as a bench"
+            "en": "This artwork does not serve as a bench",
+            "de": "Dieses Kunstwerk dient nicht als Sitzbank"
           },
           "hideInAnswer": true
         }

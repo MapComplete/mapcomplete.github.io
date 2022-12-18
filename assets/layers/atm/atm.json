@@ -1,20 +1,24 @@
 {
   "id": "atm",
   "name": {
-    "en": "ATMs"
+    "en": "ATMs",
+    "de": "Geldautomaten"
   },
   "description": {
-    "en": "ATMS to withdraw money"
+    "en": "ATMS to withdraw money",
+    "de": "Geldautomaten zum Geld abheben"
   },
   "title": {
     "render": {
-      "en": "ATM"
+      "en": "ATM",
+      "de": "Geldautomat"
     },
     "mappings": [
       {
         "if": "brand~*",
         "then": {
-          "en": "{brand} ATM"
+          "en": "{brand} ATM",
+          "de": "{brand} Geldautomat"
         }
       }
     ]
@@ -29,7 +33,8 @@
         "amenity=atm"
       ],
       "title": {
-        "en": "an ATM"
+        "en": "an ATM",
+        "de": "ein Geldautomat"
       }
     }
   ],
@@ -37,40 +42,47 @@
     {
       "id": "name",
       "render": {
-        "en": "The name of this ATM is {name}"
+        "en": "The name of this ATM is {name}",
+        "de": "Der Name dieses Geldautomaten ist {name}"
       },
       "condition": "name~*"
     },
     {
       "id": "brand",
       "question": {
-        "en": "What brand is this ATM?"
+        "en": "What brand is this ATM?",
+        "de": "Von welcher Marke ist dieser Geldautomat?"
       },
       "freeform": {
         "key": "brand",
         "type": "string",
         "placeholder": {
-          "en": "Brand name"
+          "en": "Brand name",
+          "de": "Markenname"
         }
       },
       "render": {
-        "en": "The brand of this ATM is {brand}"
+        "en": "The brand of this ATM is {brand}",
+        "de": "Die Marke dieses Geldautomaten ist {brand}"
       }
     },
     {
       "id": "operator",
       "question": {
-        "en": "What company operates this ATM?"
+        "en": "What company operates this ATM?",
+        "de": "Welches Unternehmen betreibt den Geldautomaten?"
       },
       "freeform": {
         "key": "operator",
         "type": "string",
         "placeholder": {
-          "en": "Operator"
+          "en": "Operator",
+          "de": "Betreiber"
         }
       },
       "render": {
-        "en": "The ATM is operated by {operator}"
+        "en": "The ATM is operated by {operator}",
+        "de": "Der Geldautomat wird von {operator} betrieben"
       }
     },
     "opening_hours"
