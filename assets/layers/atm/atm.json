@@ -3,20 +3,17 @@
   "name": {
     "en": "ATMs",
     "de": "Geldautomaten",
-    "fr": "DABs",
     "nl": "Geldautomaten"
   },
   "description": {
     "en": "ATMS to withdraw money",
     "de": "Geldautomaten zum Geld abheben",
-    "fr": "DAB pour retirer de l'argent",
     "nl": "Geldautomaten om geld op te nemen"
   },
   "title": {
     "render": {
       "en": "ATM",
       "de": "Geldautomat",
-      "fr": "DAB",
       "nl": "Geldautomaat"
     },
     "mappings": [
@@ -25,7 +22,6 @@
         "then": {
           "en": "{brand} ATM",
           "de": "{brand} Geldautomat",
-          "fr": "DAB {brand}",
           "nl": "{brand} Geldautomaat"
         }
       }
@@ -43,7 +39,6 @@
       "title": {
         "en": "an ATM",
         "de": "ein Geldautomat",
-        "fr": "un DAB",
         "nl": "een geldautomaat"
       }
     }
@@ -54,7 +49,6 @@
       "render": {
         "en": "The name of this ATM is {name}",
         "de": "Der Name dieses Geldautomaten ist {name}",
-        "fr": "Le nom de ce DAB est {name}",
         "nl": "De naam van deze geldautomaat is {name}"
       },
       "condition": "name~*"
@@ -64,7 +58,6 @@
       "question": {
         "en": "What brand is this ATM?",
         "de": "Von welcher Marke ist dieser Geldautomat?",
-        "fr": "De quelle marque est ce DAB ?",
         "nl": "Van welk merk is deze geldautomaat?"
       },
       "freeform": {
@@ -73,14 +66,12 @@
         "placeholder": {
           "en": "Brand name",
           "de": "Markenname",
-          "fr": "Nom de marque",
           "nl": "Merknaam"
         }
       },
       "render": {
         "en": "The brand of this ATM is {brand}",
         "de": "Die Marke dieses Geldautomaten ist {brand}",
-        "fr": "La marque de ce DAB est {brand}",
         "nl": "Het merk van deze geldautomaat is {brand}"
       }
     },
@@ -89,7 +80,6 @@
       "question": {
         "en": "What company operates this ATM?",
         "de": "Welches Unternehmen betreibt den Geldautomaten?",
-        "fr": "Quelle société exploite ce DAB ?",
         "nl": "Welk bedrijf beheert deze geldautomaat?"
       },
       "freeform": {
@@ -98,14 +88,12 @@
         "placeholder": {
           "en": "Operator",
           "de": "Betreiber",
-          "fr": "Opérateur",
           "nl": "Beheerder"
         }
       },
       "render": {
         "en": "The ATM is operated by {operator}",
         "de": "Der Geldautomat wird von {operator} betrieben",
-        "fr": "Ce DAB est exploité par {operator}",
         "nl": "Deze geldautomaat wordt beheerd door {operator}"
       }
     },

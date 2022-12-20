@@ -3,8 +3,7 @@
   "name": {
     "en": "Car Rental",
     "nl": "Autoverhuur",
-    "de": "Autovermietung",
-    "fr": "Société de location de véhicules"
+    "de": "Autovermietung"
   },
   "source": {
     "osmTags": "amenity=car_rental"
@@ -14,8 +13,7 @@
     "render": {
       "en": "Car Rental",
       "nl": "Autoverhuur",
-      "de": "Autovermietung",
-      "fr": "Société de location de véhicules"
+      "de": "Autovermietung"
     },
     "mappings": [
       {
@@ -27,8 +25,7 @@
   "description": {
     "en": "Places where you can rent a car",
     "nl": "Plaatsen waar je een auto kunt huren",
-    "de": "Orte, an denen Sie ein Auto mieten können",
-    "fr": "Lieu où vous pouvez louer une voiture"
+    "de": "Orte, an denen Sie ein Auto mieten können"
   },
   "tagRenderings": [
     "images",
@@ -40,15 +37,13 @@
         "placeholder": {
           "en": "Name of the car rental",
           "nl": "Naam van de autoverhuur",
-          "de": "Name der Autovermietung",
-          "fr": "Nom de la société de location de véhicules"
+          "de": "Name der Autovermietung"
         }
       },
       "question": {
         "en": "What is the name of this car rental?",
         "nl": "Wat is de naam van deze autoverhuur?",
-        "de": "Wie lautet der Name dieser Autovermietung?",
-        "fr": "Quel est le nom de cette société de location de véhicules ?"
+        "de": "Wie lautet der Name dieser Autovermietung?"
       },
       "mappings": [
         {
@@ -56,16 +51,14 @@
           "then": {
             "en": "This car rental has no name",
             "nl": "Deze autoverhuur heeft geen naam",
-            "de": "Diese Autovermietung hat keinen Namen",
-            "fr": "Cette société de location de véhicules n'a pas de nom"
+            "de": "Diese Autovermietung hat keinen Namen"
           }
         }
       ],
       "render": {
         "en": "This car rental is called {name}",
         "nl": "Deze autoverhuur heet {name}",
-        "de": "Der Name der Autovermietung lautet {name}",
-        "fr": "Cette société de location de véhicules est appelée {name}"
+        "de": "Der Name der Autovermietung lautet {name}"
       }
     },
     "website",
@@ -81,14 +74,12 @@
       "title": {
         "en": "a car rental",
         "nl": "een autoverhuur",
-        "de": "eine Autovermietung",
-        "fr": "Une société de location de véhicules"
+        "de": "eine Autovermietung"
       },
       "description": {
         "en": "A place where you can rent a car",
         "nl": "Een plaats waar je een auto kunt huren",
-        "de": "Ein Ort, an dem Sie ein Auto mieten können",
-        "fr": "Un lieu où vous pouvez louer une voiture"
+        "de": "Ein Ort, an dem Sie ein Auto mieten können"
       }
     }
   ],
