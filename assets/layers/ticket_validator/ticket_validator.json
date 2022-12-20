@@ -53,7 +53,8 @@
         "type": "string",
         "placeholder": {
           "en": "Name of the operator",
-          "de": "Name des Betreibers"
+          "de": "Name des Betreibers",
+          "nl": "Naam van de beheerder"
         }
       }
     },
