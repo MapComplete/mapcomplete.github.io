@@ -1053,7 +1053,8 @@
         "icon": "./assets/tagRenderings/1cent.svg",
         "then": {
           "en": "1 cent coins are accepted",
-          "de": "1-Cent-Münzen werden akzeptiert"
+          "de": "1-Cent-Münzen werden akzeptiert",
+          "nl": "Munten van 1 cent worden geaccepteerd"
         }
       },
       {
@@ -1061,7 +1062,8 @@
         "icon": "./assets/tagRenderings/2cent.svg",
         "then": {
           "en": "2 cent coins are accepted",
-          "de": "2-Cent-Münzen werden akzeptiert"
+          "de": "2-Cent-Münzen werden akzeptiert",
+          "nl": "Munten van 2 cent worden geaccepteerd"
         }
       },
       {
@@ -1069,7 +1071,8 @@
         "icon": "./assets/tagRenderings/5cent.svg",
         "then": {
           "en": "5 cent coins are accepted",
-          "de": "5-Cent-Münzen werden akzeptiert"
+          "de": "5-Cent-Münzen werden akzeptiert",
+          "nl": "Munten van 5 cent worden geaccepteerd"
         }
       },
       {
@@ -1077,7 +1080,8 @@
         "icon": "./assets/tagRenderings/10cent.svg",
         "then": {
           "en": "10 cent coins are accepted",
-          "de": "10-Cent-Münzen werden akzeptiert"
+          "de": "10-Cent-Münzen werden akzeptiert",
+          "nl": "Munten van 10 cent worden geaccepteerd"
         }
       },
       {
@@ -1085,7 +1089,8 @@
         "icon": "./assets/tagRenderings/20cent.svg",
         "then": {
           "en": "20 cent coins are accepted",
-          "de": "20-Cent-Münzen werden akzeptiert"
+          "de": "20-Cent-Münzen werden akzeptiert",
+          "nl": "Munten van 20 cent worden geaccepteerd"
         }
       },
       {
@@ -1093,7 +1098,8 @@
         "icon": "./assets/tagRenderings/50cent.svg",
         "then": {
           "en": "50 cent coins are accepted",
-          "de": "50-Cent-Münzen werden akzeptiert"
+          "de": "50-Cent-Münzen werden akzeptiert",
+          "nl": "Munten van 50 cent worden geaccepteerd"
         }
       },
       {
@@ -1101,7 +1107,8 @@
         "icon": "./assets/tagRenderings/1euro.svg",
         "then": {
           "en": "1 euro coins are accepted",
-          "de": "1-Euro-Münzen werden akzeptiert"
+          "de": "1-Euro-Münzen werden akzeptiert",
+          "nl": "Munten van 1 euro worden geaccepteerd"
         }
       },
       {
@@ -1109,7 +1116,8 @@
         "icon": "./assets/tagRenderings/2euro.svg",
         "then": {
           "en": "2 euro coins are accepted",
-          "de": "2-Euro-Münzen werden akzeptiert"
+          "de": "2-Euro-Münzen werden akzeptiert",
+          "nl": "Munten van 2 euro worden geaccepteerd"
         }
       }
     ]
