@@ -189,7 +189,8 @@
           "then": {
             "en": "This bench does not have separated seats",
             "nl": "Deze bank is niet ingedeeld in aparte zitplaatsen",
-            "de": "Diese Bank hat keine getrennten Sitze"
+            "de": "Diese Bank hat keine getrennten Sitze",
+            "fr": "Ce banc n'a pas de sièges séparés"
           }
         }
       ]
@@ -717,7 +718,8 @@
           "then": {
             "en": "Surveyed today!",
             "nl": "Vandaag nagekeken!",
-            "de": "Heute geprüft!"
+            "de": "Heute geprüft!",
+            "fr": "Vérifié sur le terrain aujourd'hui !"
           }
         }
       ],
@@ -734,12 +736,14 @@
       "render": {
         "en": "This bench does have the following inscription:<br/><p><i>{inscription}</i></p>",
         "nl": "Deze bank heeft een inscriptie: <br/><p><i>{inscription}</i></p>",
-        "de": "Diese Bank hat folgende Inschrift:<br/><p><i>{inscription}</i></p>"
+        "de": "Diese Bank hat folgende Inschrift:<br/><p><i>{inscription}</i></p>",
+        "fr": "Ce banc a l'inscription suivante :<br/><p><i>{inscription}</i></p>"
       },
       "question": {
         "en": "Does this bench have an inscription?<div class='subtle text-lg'>E.g. on a mounted plaque, in the backrest, ...</div>",
         "nl": "Heeft deze bank een inscriptie?<div class='subtle text-lg'>Bijvoorbeeld op een aangebracht plakkaat, ingesneden in de rugleuning, ...</div>",
-        "de": "Hat diese Bank eine Inschrift? <div class='subtle text-lg'>Z.B. auf einer angebrachten Plakette, in der Rückenlehne, ... </div>"
+        "de": "Hat diese Bank eine Inschrift? <div class='subtle text-lg'>Z.B. auf einer angebrachten Plakette, in der Rückenlehne, ... </div>",
+        "fr": "Est-ce que ce banc possède une inscription ?<div class='subtle text-lg'>Par exemple, sur une plaque accrochée, sur le dossier, ...</div>"
       },
       "freeform": {
         "key": "inscription",
@@ -754,7 +758,8 @@
           "then": {
             "en": "This bench does not have an inscription",
             "nl": "Deze bank heeft geen inscriptie",
-            "de": "Diese Bank hat keine Inschrift"
+            "de": "Diese Bank hat keine Inschrift",
+            "fr": "Ce banc n'a pas d'inscription"
           },
           "addExtraTags": [
             "inscription="
@@ -765,7 +770,8 @@
           "then": {
             "en": "This bench does <span class='subtle'>(probably)</span> not have an inscription",
             "nl": "Deze bank heeft <span class='subtle'>(waarschijnlijk)</span> geen inscriptie",
-            "de": "Diese Bank hat <span class='subtle'>(wahrscheinlich)</span> keine Inschrift"
+            "de": "Diese Bank hat <span class='subtle'>(wahrscheinlich)</span> keine Inschrift",
+            "fr": "Ce banc n'a<span class='subtle'>(probablement)</span> pas d'inscription"
           },
           "hideInAnswer": true
         }
@@ -784,7 +790,8 @@
           "then": {
             "en": "This bench has an integrated artwork",
             "nl": "Deze bank heeft een geïntegreerd kunstwerk",
-            "de": "Diese Bank hat ein integriertes Kunstwerk"
+            "de": "Diese Bank hat ein integriertes Kunstwerk",
+            "fr": "Une oeuvre d'art est intégrée à ce banc"
           }
         },
         {
@@ -792,7 +799,8 @@
           "then": {
             "en": "This bench does not have an integrated artwork",
             "nl": "Deze bank heeft geen geïntegreerd kunstwerk",
-            "de": "Diese Bank hat kein integriertes Kunstwerk"
+            "de": "Diese Bank hat kein integriertes Kunstwerk",
+            "fr": "Ce banc n'a pas d'oeuvre d'art intégrée"
           }
         }
       ]
@@ -813,7 +821,8 @@
       "question": {
         "en": "Does this bench act as memorial for someone or something?",
         "nl": "Is deze bank een gedenkteken voor iemand of iets?",
-        "de": "Dient diese Bank als Denkmal für jemanden oder etwas?"
+        "de": "Dient diese Bank als Denkmal für jemanden oder etwas?",
+        "fr": "Ce banc sert-il de mémorial pour quelqu'un ou quelque chose ?"
       },
       "mappings": [
         {
@@ -821,7 +830,8 @@
           "then": {
             "en": "This bench is a memorial for someone or something",
             "nl": "Deze bank is een gedenkteken aan iemand of iets",
-            "de": "Diese Bank ist ein Denkmal für jemanden oder etwas"
+            "de": "Diese Bank ist ein Denkmal für jemanden oder etwas",
+            "fr": "Ce banc est un mémorial pour quelqu'un ou quelque chose"
           },
           "addExtraTags": [
             "memorial=bench"
@@ -837,7 +847,8 @@
           "then": {
             "en": "This bench is a <b>not</b> a memorial for someone or something",
             "nl": "Deze bank is <b>geen</b> gedenkteken aan iemand of iets",
-            "de": "Diese Bank ist <b>kein</b> Denkmal für jemanden oder etwas"
+            "de": "Diese Bank ist <b>kein</b> Denkmal für jemanden oder etwas",
+            "fr": "Ce banc n'est <b>pas</b> un mémorial pour quelqu'un ou quelque chose"
           },
           "addExtraTags": [
             "memorial="
@@ -923,7 +934,8 @@
           "question": {
             "en": "is a memorial",
             "nl": "is een gedenkteken",
-            "de": "ist ein Denkmal"
+            "de": "ist ein Denkmal",
+            "fr": "est un mémorial"
           }
         }
       ]
@@ -935,7 +947,8 @@
           "question": {
             "en": "With and without backrest",
             "nl": "Met en zonder rugleuning",
-            "de": "Mit und ohne Rückenlehne"
+            "de": "Mit und ohne Rückenlehne",
+            "fr": "Avec et sans dossier"
           }
         },
         {
@@ -943,7 +956,8 @@
           "question": {
             "en": "Has a backrest",
             "nl": "Heeft een rugleuning",
-            "de": "Hat eine Rückenlehne"
+            "de": "Hat eine Rückenlehne",
+            "fr": "A un dossier"
           }
         },
         {
@@ -951,7 +965,8 @@
           "question": {
             "en": "Has no backrest",
             "nl": "Heeft geen rugleuning",
-            "de": "Hat keine Rückenlehne"
+            "de": "Hat keine Rückenlehne",
+            "fr": "N'a pas de dossier"
           }
         }
       ]
