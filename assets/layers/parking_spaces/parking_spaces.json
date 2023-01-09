@@ -177,7 +177,8 @@
         "if": "parking_space=disabled",
         "then": {
           "en": "Disabled Parking Space",
-          "nl": "Parkeerplek voor gehandicapten"
+          "nl": "Parkeerplek voor gehandicapten",
+          "de": "Behindertenparkplatz"
         }
       }
     ]
