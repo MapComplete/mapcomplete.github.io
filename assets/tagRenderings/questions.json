@@ -691,7 +691,8 @@
             "en": "Only by appointment",
             "de": "Nur nach Vereinbarung",
             "nl": "Alleen op afspraak",
-            "fr": "Uniquement sur rendez-vous"
+            "fr": "Uniquement sur rendez-vous",
+            "es": "Sólo con cita previa"
           }
         },
         {
@@ -700,7 +701,8 @@
             "en": "Only by appointment",
             "de": "Nur nach Vereinbarung",
             "nl": "Alleen op afspraak",
-            "fr": "Uniquement sur rendez-vous"
+            "fr": "Uniquement sur rendez-vous",
+            "es": "Sólo con cita previa"
           },
           "hideInAnswer": true
         }
@@ -923,7 +925,8 @@
             "en": "Coins are accepted here",
             "nl": "Muntgeld wordt hier aanvaard",
             "de": "Münzen werden hier akzeptiert",
-            "fr": "Les pièces sont acceptées ici"
+            "fr": "Les pièces sont acceptées ici",
+            "es": "Aquí se aceptan monedas"
           }
         },
         {
@@ -934,7 +937,8 @@
             "en": "Bank notes are accepted here",
             "nl": "Bankbiljetten worden hier aanvaard",
             "de": "Geldscheine werden hier akzeptiert",
-            "fr": "Les billets de banque sont acceptés ici"
+            "fr": "Les billets de banque sont acceptés ici",
+            "es": "Aquí se aceptan billetes"
           }
         },
         {
@@ -945,7 +949,8 @@
             "en": "Debit cards are accepted here",
             "nl": "Betalen met debetkaarten kan hier",
             "de": "Debitkarten werden hier akzeptiert",
-            "fr": "Les cartes de débit sont acceptées ici"
+            "fr": "Les cartes de débit sont acceptées ici",
+            "es": "Aquí se aceptan tarjetas de débito"
           }
         },
         {
@@ -956,7 +961,8 @@
             "en": "Credit cards are accepted here",
             "nl": "Betalen met creditkaarten kan hier",
             "de": "Kreditkarten werden hier akzeptiert",
-            "fr": "Les cartes de crédit sont acceptées ici"
+            "fr": "Les cartes de crédit sont acceptées ici",
+            "es": "Aquí se aceptan tarjetas de crédito"
           }
         }
       ]
@@ -1056,7 +1062,8 @@
       "de": "Mit welchen Münzen kann man hier bezahlen?",
       "nl": "Met welke munten kan je hier betalen?",
       "fr": "Quelles pièces peut-on utiliser pour payer ici ?",
-      "pl": "Jakimi monetami można tutaj zapłacić?"
+      "pl": "Jakimi monetami można tutaj zapłacić?",
+      "es": "¿Qué monedas se pueden usar aquí para pagar?"
     },
     "multiAnswer": true,
     "mappings": [
@@ -1069,7 +1076,8 @@
           "nl": "Munten van 1 cent worden geaccepteerd",
           "nb_NO": "1-cent mynter aksepteres",
           "fr": "Les pièces d'1 cent sont acceptées",
-          "pl": "Akceptowane są monety 1 centowe"
+          "pl": "Akceptowane są monety 1 centowe",
+          "es": "Se aceptan monedas de 1 céntimo"
         }
       },
       {
@@ -1081,7 +1089,8 @@
           "nl": "Munten van 2 cent worden geaccepteerd",
           "nb_NO": "2-cent mynter aksepteres",
           "fr": "Les pièces de 2 cents sont acceptées",
-          "pl": "Akceptowane są monety 2 centowe"
+          "pl": "Akceptowane są monety 2 centowe",
+          "es": "Se aceptan monedas de 2 céntimos"
         }
       },
       {
@@ -1093,7 +1102,8 @@
           "nl": "Munten van 5 cent worden geaccepteerd",
           "nb_NO": "5-cent mynter aksepteres",
           "fr": "Les pièces de 5 cents sont acceptées",
-          "pl": "Akceptowane są monety 5 centowe"
+          "pl": "Akceptowane są monety 5 centowe",
+          "es": "Se aceptan monedas de 5 céntimos"
         }
       },
       {
@@ -1105,7 +1115,8 @@
           "nl": "Munten van 10 cent worden geaccepteerd",
           "nb_NO": "10-cent mynter aksepteres",
           "fr": "Les pièces de 10 cents sont acceptées",
-          "pl": "Akceptowane są monety 10-centowe"
+          "pl": "Akceptowane są monety 10-centowe",
+          "es": "Se aceptan monedas de 10 céntimos"
         }
       },
       {
@@ -1117,7 +1128,8 @@
           "nl": "Munten van 20 cent worden geaccepteerd",
           "nb_NO": "20-cent mynter aksepteres",
           "fr": "Les pièces de 20 cents sont acceptées",
-          "pl": "Akceptowane są monety 20-centowe"
+          "pl": "Akceptowane są monety 20-centowe",
+          "es": "Se aceptan monedas de 20 céntimos"
         }
       },
       {
@@ -1129,7 +1141,8 @@
           "nl": "Munten van 50 cent worden geaccepteerd",
           "nb_NO": "50-cent mynter aksepteres",
           "fr": "Les pièces de 50 cents sont acceptées",
-          "pl": "Akceptowane są monety 50-centowe"
+          "pl": "Akceptowane są monety 50-centowe",
+          "es": "Se aceptan monedas de 50 céntimos"
         }
       },
       {
@@ -1141,7 +1154,8 @@
           "nl": "Munten van 1 euro worden geaccepteerd",
           "nb_NO": "1-euro mynter aksepteres",
           "fr": "Les pièces de 1 euro sont acceptées",
-          "pl": "Akceptowane są monety 1 euro"
+          "pl": "Akceptowane są monety 1 euro",
+          "es": "Se aceptan monedas de 1 euro"
         }
       },
       {
@@ -1153,7 +1167,8 @@
           "nl": "Munten van 2 euro worden geaccepteerd",
           "nb_NO": "2-euro mynter aksepteres",
           "fr": "Les pièces de 2 euros sont acceptées",
-          "pl": "Akceptowane są monety 2 euro"
+          "pl": "Akceptowane są monety 2 euro",
+          "es": "Se aceptan monedas de 2 euros"
         }
       }
     ]
@@ -1611,7 +1626,8 @@
       "cs": "Je přístup na internet zpoplatněn?",
       "id": "Apakah ada biaya untuk akses internet?",
       "nb_NO": "Er det et gebyr for bruk av Internett?",
-      "fr": "L'accès à l'internet est-il payant ?"
+      "fr": "L'accès à l'internet est-il payant ?",
+      "es": "¿Hay que pagar para acceder a internet?"
     },
     "mappings": [
       {
@@ -1625,7 +1641,8 @@
           "cs": "Přístup na internet je zde zpoplatněn",
           "id": "Ada biaya untuk akses internet di tempat ini",
           "nb_NO": "Det er et gebyr for tilgang til Internett på dette stedet",
-          "fr": "L'accès à l'internet est payant à cet endroit"
+          "fr": "L'accès à l'internet est payant à cet endroit",
+          "es": "Hay que pagar para acceder a internet en este lugar"
         }
       },
       {
