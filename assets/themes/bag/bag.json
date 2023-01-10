@@ -5,13 +5,15 @@
     "en": "BAG import helper",
     "de": "BAG-Importhilfe",
     "fr": "Facilitateur d'import BAG",
-    "nb_NO": "BAG-importhjelper"
+    "nb_NO": "BAG-importhjelper",
+    "ca": "Assistent d'importació del BAG"
   },
   "shortDescription": {
     "nl": "BAG import helper tool",
     "en": "BAG import helper tool",
     "de": "BAG-Import-Hilfswerkzeug",
-    "fr": "Outil de facilitation d'import BAG"
+    "fr": "Outil de facilitation d'import BAG",
+    "ca": "Ferramenta d'ajuda per a importar el BAG"
   },
   "description": {
     "nl": "Dit thema helpt het importeren van BAG data",
@@ -230,7 +232,8 @@
                 "en": "Didn't calculate the correct values yet. Refresh this page",
                 "de": "Richtige Werte noch nicht berechnet. Aktualisieren Sie diese Seite",
                 "nl": "Correcte waarden nog niet berekend. Herlaad deze pagina",
-                "fr": "Les valeurs correctes n'ont pas encore été calculées. Rafraichissez la page"
+                "fr": "Les valeurs correctes n'ont pas encore été calculées. Rafraichissez la page",
+                "ca": "El valors correctes encara no s'ha calculat. Refresca la pàgina"
               }
             },
             {
@@ -255,7 +258,8 @@
             "en": "The reference in BAG is <b>{_bag_obj:ref:bag}</b>",
             "de": "Die Referenz in BAG ist <b>{_bag_obj:ref:bag}</b>",
             "nl": "De referentie in BAG is <b>{_bag_obj:ref:bag}</b>",
-            "fr": "La référence dans BAG est <b>{_bag_obj:ref:bag}</b>"
+            "fr": "La référence dans BAG est <b>{_bag_obj:ref:bag}</b>",
+            "ca": "La referència a BAG és <b>{_bag_obj:ref:bag}</b>"
           }
         },
         {
@@ -288,7 +292,8 @@
             "en": "The building type is a <b>{_bag_obj:building}</b>",
             "de": "Der Gebäudetyp ist ein <b>{_bag_obj:building}</b>",
             "nl": "Het gebouwtype is <b>{_bag_obj:building}</b>",
-            "fr": "Le type de bâtiment est <b>{_bag_obj:building}</b>"
+            "fr": "Le type de bâtiment est <b>{_bag_obj:building}</b>",
+            "ca": "El tipus d'edifici és <b>{_bag_obj:building}</b>"
           },
           "mappings": [
             {
@@ -297,7 +302,8 @@
                 "en": "The building type will be a <b>{_bag_obj:construction}</b>",
                 "de": "Der Gebäudetyp ist ein <b>{_bag_obj:construction}</b>",
                 "nl": "Het gebouwtype wordt <b>{_bag_obj:construction}</b>",
-                "fr": "Le type de bâtiment sera <b>{_bag_obj:construction}</b>"
+                "fr": "Le type de bâtiment sera <b>{_bag_obj:construction}</b>",
+                "ca": "El tipus d'edifici serà <b>{_bag_obj:construction}</b>"
               }
             }
           ]
