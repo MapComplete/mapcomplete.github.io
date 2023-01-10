@@ -29,7 +29,8 @@
           "then": {
             "en": "This is a normal parking space.",
             "de": "Dies ist ein normaler Stellplatz.",
-            "nl": "Dit is een normale parkeerplek."
+            "nl": "Dit is een normale parkeerplek.",
+            "ca": "És un lloc normal d'aparcament."
           },
           "hideInAnswer": true
         },
