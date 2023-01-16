@@ -601,7 +601,8 @@
               "de": "Autos erlaubt",
               "pa_PK": "موٹرکاراں دی اِجازت اے",
               "nl": "Auto's toegestaan",
-              "fr": "Voitures autorisées"
+              "fr": "Voitures autorisées",
+              "nb_NO": "Biler tillatt"
             },
             "icon": {
               "path": "./assets/themes/cyclestreets/Zeichen_244_1024-10.svg",

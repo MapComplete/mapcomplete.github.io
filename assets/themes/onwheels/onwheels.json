@@ -93,7 +93,8 @@
                   "de": "Beliebige Breiteninformationen",
                   "nl": "Geen breedtes gekend",
                   "fr": "Pas d’information sur la largeur",
-                  "da": "Uden bredde info"
+                  "da": "Uden bredde info",
+                  "nb_NO": "Uten breddeinfo"
                 }
               }
             ]

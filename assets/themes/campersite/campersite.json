@@ -939,7 +939,8 @@
             "nl": "Vraagt deze plaats een vergoeding?",
             "es": "¿Este lugar cobra una tasa?",
             "da": "Opkræver dette sted et gebyr?",
-            "ca": "Aquest lloc cobra una taxa?"
+            "ca": "Aquest lloc cobra una taxa?",
+            "nb_NO": "Krever dette stedet et gebyr?"
           },
           "mappings": [
             {
@@ -1016,7 +1017,8 @@
             "nl": "Hoeveel kost het gebruik van deze loosplaats?",
             "es": "¿Cuánto cobra este lugar?",
             "ca": "Quant costa aquest lloc?",
-            "da": "Hvor meget koster det at bruge dette sted?"
+            "da": "Hvor meget koster det at bruge dette sted?",
+            "nb_NO": "Hvor mye koster det å bruke dette stedet?"
           },
           "freeform": {
             "key": "charge"
@@ -1062,7 +1064,8 @@
                 "zh_Hant": "這個地方有取水點",
                 "nl": "Deze loosplaats heeft een waterkraan om je camper bij te vullen",
                 "da": "Dette sted har et vandpost",
-                "ca": "Aquest lloc té un punt d'aigua"
+                "ca": "Aquest lloc té un punt d'aigua",
+                "nb_NO": "Dette stedet har en vannpost"
               }
             },
             {
@@ -1082,7 +1085,8 @@
                 "zh_Hant": "這個地方沒有取水點",
                 "nl": "Deze loosplaats heeft geen waterkraan om je camper bij te vullen",
                 "da": "Dette sted har ikke et vandpost",
-                "ca": "Aquest lloc no té un punt d'aigua"
+                "ca": "Aquest lloc no té un punt d'aigua",
+                "nb_NO": "Dette stedet har ikke en vannpost"
               }
             }
           ]
@@ -1099,7 +1103,8 @@
             "zh_Hant": "你能在這裡排放洗滌水嗎？",
             "nl": "Mag je hier grijs water lozen?",
             "da": "Kan du komme af med gråt vand her?",
-            "ca": "Aquí pots desfer-te de les aigües grises?"
+            "ca": "Aquí pots desfer-te de les aigües grises?",
+            "nb_NO": "Kan du kvitte deg med gråvann her?"
           },
           "mappings": [
             {
@@ -1118,7 +1123,8 @@
                 "zh_Hant": "你可以在這裡排放洗滌水",
                 "nl": "Je kan hier grijs water lozen",
                 "ca": "Es pot desfer de les aigües grises aquí",
-                "da": "Du kan bortskaffe gråt vand her"
+                "da": "Du kan bortskaffe gråt vand her",
+                "nb_NO": "Du kan kvitte deg med gråvann her"
               }
             },
             {
@@ -1137,7 +1143,8 @@
                 "zh_Hant": "你無法在這裡排放洗滌水",
                 "nl": "Je kan hier geen grijs water lozen",
                 "da": "Du kan ikke bortskaffe gråt vand her",
-                "ca": "Aquí no pots desfer-te de les aigües grises"
+                "ca": "Aquí no pots desfer-te de les aigües grises",
+                "nb_NO": "Du kan ikke kvitte deg med gråvann her"
               }
             }
           ]
