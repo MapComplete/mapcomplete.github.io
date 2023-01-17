@@ -6,6 +6,7 @@
     "de": "Bordsteine und Überwege",
     "fr": "Ressauts et traversées",
     "da": "Kantsten og overgange",
+    "cs": "Obrubníky a přechody",
     "nb_NO": "Fortauskanter og fotgjengerfelt."
   },
   "description": {
@@ -14,6 +15,7 @@
     "de": "Eine Karte mit Bordsteinen und Überwegen.",
     "fr": "Une carte affichant les ressauts et traversées.",
     "da": "Et kort, der viser kantsten og overgange.",
+    "cs": "Mapa zobrazující obrubníky a přechody.",
     "nb_NO": "Fortauskanter og fotgjengerfelt."
   },
   "icon": "./assets/layers/kerbs/KerbIcon.svg",
