@@ -136,7 +136,8 @@
                   "nb_NO": " meter",
                   "es": " metro",
                   "da": " meter",
-                  "pa_PK": " ؜ میٹر"
+                  "pa_PK": " ؜ میٹر",
+                  "cs": " metr"
                 }
               },
               {
@@ -156,7 +157,8 @@
                   "nb_NO": " fot",
                   "es": " pies",
                   "da": " fod",
-                  "pa_PK": " ؜ فوٹ"
+                  "pa_PK": " ؜ فوٹ",
+                  "cs": " stopa"
                 }
               }
             ]

@@ -1509,7 +1509,8 @@
       "cs": "Má toto místo zvukovou indukční smyčku pro osoby se sluchovým postižením?",
       "nb_NO": "Har stedet en teleslynge for folk med redusert hørsel?",
       "nl": "Heeft deze plaats een ringleiding voor slechthorenden?",
-      "ca": "Aquest lloc té un bucle magnètic per a la gent amb dificultats auditives?"
+      "ca": "Aquest lloc té un bucle magnètic per a la gent amb dificultats auditives?",
+      "es": "¿Este lugar tiene un bucle auditivo para personas con discapacidad auditiva?"
     },
     "mappings": [
       {
@@ -1523,7 +1524,8 @@
           "nb_NO": "Dette stedet har en teleslynge",
           "nl": "Deze plaats heeft een ringleiding",
           "pl": "To miejsce ma pętlę indukcyjną audio",
-          "ca": "El lloc té un bucle magnètic"
+          "ca": "El lloc té un bucle magnètic",
+          "es": "Este lugar tiene un bucle auditivo"
         },
         "icon": {
           "path": "./assets/tagRenderings/audio_induction_loop.svg",
@@ -1540,7 +1542,8 @@
           "cs": "Toto místo <b>nemá indukční zvukovou smyčku</b>",
           "nb_NO": "Dette stedet <b>har ikke</b> en teleslynge",
           "nl": "Deze plaats heeft <b>geen</b> ringleiding",
-          "ca": "El lloc <b>no</b> té un bucle magnètic"
+          "ca": "El lloc <b>no</b> té un bucle magnètic",
+          "es": "Este lugar <b>no</b> tiene bucle auditivo"
         },
         "icon": {
           "path": "./assets/tagRenderings/audio_induction_loop_missing.svg",
