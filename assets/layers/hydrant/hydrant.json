@@ -428,7 +428,7 @@
         "en": "What diameter are the couplings of this hydrant?",
         "de": "Welchen Durchmesser haben die Kupplungen dieses Hydranten?",
         "nl": "Welke diameter hebben de koppelingen van deze hydrant?",
-        "ca": "Quin és diàmetre dels acoblaments d'aquest hidrant?"
+        "ca": "Quin és el diàmetre dels acoblaments d'aquest hidrant?"
       },
       "freeform": {
         "key": "couplings:diameters",

@@ -38,6 +38,7 @@
       "es": "Estación de Ambulancias",
       "da": "Ambulancestation",
       "cs": "Stanice rychlé záchranné služby",
+      "ca": "Estació d'Ambulàncies",
       "nb_NO": "Ambulansestasjon"
     }
   },
@@ -155,7 +156,8 @@
         "nl": "Dit station ligt in {addr:place}.",
         "es": "Esta estación se encuentra en {addr:place}.",
         "da": "Denne station findes i {addr:place}.",
-        "cs": "Tato stanice se nachází v rámci {addr:place}."
+        "cs": "Tato stanice se nachází v rámci {addr:place}.",
+        "ca": "Aquesta estació es troba a {addr:place}."
       }
     },
     {
@@ -205,7 +207,8 @@
         "nl": "Wat voor een organisatie is de beheerder van dit station?",
         "es": "¿Como está clasificada la operadora de la estación?",
         "da": "Hvordan klassificeres stationsoperatøren?",
-        "cs": "Jak je klasifikován provozovatel stanice?"
+        "cs": "Jak je klasifikován provozovatel stanice?",
+        "ca": "Com es classifica l'operador de l'estació?"
       },
       "render": {
         "en": "The operator is a(n) {operator:type} entity.",
@@ -217,7 +220,8 @@
         "nl": "De beheerder is van het type {operator:type}.",
         "es": "La operadora es una entidad de tipo {operator:type}.",
         "da": "Operatøren er en (n) {operator:type} enhed.",
-        "cs": "Operátor je {operator:type} entita."
+        "cs": "Operátor je {operator:type} entita.",
+        "ca": "L'operadora és una entitat del tipus {operator:type}."
       },
       "freeform": {
         "key": "operator:type"

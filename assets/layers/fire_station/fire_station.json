@@ -177,7 +177,7 @@
         "it": "Com’è classificato il gestore di questa stazione?",
         "nl": "Wat voor soort beheerder beheert dit station?",
         "de": "Wie kann der Betreiber der Feuerwache eingestuft werden?",
-        "ca": "Com es classifica l‘operador d'aquesta estació?"
+        "ca": "Com es classifica l'operador de l'estació?"
       },
       "render": {
         "en": "The operator is a(n) {operator:type} entity.",
@@ -282,7 +282,7 @@
         "en": "A fire station is a place where the fire trucks and firefighters are located when not in operation.",
         "ja": "消防署は、運転していないときに消防車や消防士がいる場所です。",
         "fr": "Une caserne de pompiers est un lieu où les pompiers et leur équipements sont situés en dehors des missions.",
-        "de": "Eine Feuerwache ist ein Ort, an dem die Feuerwehrfahrzeuge und die Feuerwehrleute untergebracht sind, wenn sie nicht im Einsatz sind.",
+        "de": "Eine Feuerwache ist ein Ort, an dem Feuerwehrfahrzeuge und Feuerwehrleute untergebracht sind, wenn sie nicht im Einsatz sind.",
         "it": "Una caserma dei pompieri è un luogo dove si trovano i mezzi antincendio e i pompieri tra una missione e l’altra.",
         "nl": "Een brandweerstation is een plaats waar brandweerwagens en brandweerlieden gebaseerd zijn.",
         "es": "Un parque de bomberos es donde los bomberos y los camiones de incendios se encuentran cuando no están en uso.",

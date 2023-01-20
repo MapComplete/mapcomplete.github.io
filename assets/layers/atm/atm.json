@@ -47,7 +47,7 @@
       ],
       "title": {
         "en": "an ATM",
-        "de": "ein Geldautomat",
+        "de": "einen Geldautomaten",
         "fr": "un DAB",
         "nl": "een geldautomaat",
         "ca": "un caixer automàtic",
@@ -61,7 +61,7 @@
       "id": "name",
       "render": {
         "en": "The name of this ATM is {name}",
-        "de": "Der Name dieses Geldautomaten ist {name}",
+        "de": "Der Name des Geldautomaten ist {name}",
         "fr": "Le nom de ce DAB est {name}",
         "nl": "De naam van deze geldautomaat is {name}",
         "ca": "El d’aquest caixer és {name}",
@@ -92,7 +92,7 @@
       },
       "render": {
         "en": "The brand of this ATM is {brand}",
-        "de": "Die Marke dieses Geldautomaten ist {brand}",
+        "de": "Die Marke des Geldautomaten ist {brand}",
         "fr": "La marque de ce DAB est {brand}",
         "nl": "Het merk van deze geldautomaat is {brand}",
         "nb_NO": "Merkenavnet for denne minibanken er {brand}"
@@ -120,7 +120,7 @@
       },
       "render": {
         "en": "The ATM is operated by {operator}",
-        "de": "Der Geldautomat wird von {operator} betrieben",
+        "de": "Der Geldautomat wird betrieben von {operator}",
         "fr": "Ce DAB est exploité par {operator}",
         "nl": "Deze geldautomaat wordt beheerd door {operator}",
         "nb_NO": "Minibanken drives av {operator}"

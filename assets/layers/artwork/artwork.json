@@ -121,7 +121,8 @@
         "pt_BR": "uma obra de arte",
         "sv": "Konstverk",
         "da": "et kunstværk",
-        "cs": "umělecké dílo"
+        "cs": "umělecké dílo",
+        "ca": "una obra d'art"
       }
     }
   ],
@@ -413,7 +414,8 @@
             "pl": "Azulejo (hiszpańskie płytka dekoracyjna)",
             "es": "Azulejo (Baldosas decorativas Españolas y Portuguesas)",
             "da": "Azulejo (spansk dekorativt flisebeklædning)",
-            "cs": "Azulejo (španělské dekorativní dlaždice)"
+            "cs": "Azulejo (španělské dekorativní dlaždice)",
+            "ca": "Azulejo (Rajoles decoratives espanyoles i portugueses)"
           }
         },
         {
@@ -463,7 +465,8 @@
         "nl": "Dit kunstwerk is gemaakt door {wikidata_label(artist:wikidata):font-weight:bold}<br/>{wikipedia(artist:wikidata)}",
         "cs": "Toto dílo vytvořil {wikidata_label(artist:wikidata):font-weight:bold}<br/>{wikipedia(artist:wikidata)}",
         "pt": "Esta obra de arte foi feita por {wikidata_label(artist:wikidata):font-weight:bold}<br/>{wikipedia(artist:wikidata)}",
-        "es": "Esta obra de la creó {wikidata_label(artist:wikidata):font-weight:bold}<br/>{wikipedia(artist:wikidata)}"
+        "es": "Esta obra de arte la creó {wikidata_label(artist:wikidata):font-weight:bold}<br/>{wikipedia(artist:wikidata)}",
+        "ca": "Aquesta obra d'art la va crear {wikidata_label(artist:wikidata):font-weight:bold}<br/>{wikipedia(artist:wikidata)}"
       },
       "question": {
         "en": "Who made this artwork?",
@@ -473,6 +476,7 @@
         "pt": "Quem fez essa obra de arte?",
         "es": "¿Quién creó esta obra de arte?",
         "fr": "Qui a fait cette oeuvre d'art ?",
+        "ca": "Qui va crear aquesta obra d'art?",
         "nb_NO": "Hvem laget dette kunstverket?"
       },
       "freeform": {
@@ -505,7 +509,8 @@
         "pl": "Który artysta to stworzył?",
         "es": "¿Que artista creó esto?",
         "da": "Hvilken kunstner har lavet dette?",
-        "cs": "Který umělec to vytvořil?"
+        "cs": "Který umělec to vytvořil?",
+        "ca": "Quin artista va crear açò?"
       },
       "render": {
         "en": "Created by {artist_name}",
@@ -523,7 +528,8 @@
         "pl": "Stworzone przez {artist_name}",
         "es": "Creado por {artist_name}",
         "da": "Lavet af {artist_name}",
-        "cs": "Vytvořil {artist_name}"
+        "cs": "Vytvořil {artist_name}",
+        "ca": "Creat per {artist_name}"
       },
       "freeform": {
         "key": "artist_name"
