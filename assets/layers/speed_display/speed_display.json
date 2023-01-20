@@ -35,14 +35,16 @@
       },
       "render": {
         "en": "The maximum speed allowed at this speed display is {canonical(maxspeed)}",
-        "de": "Die zulässige Höchstgeschwindigkeit bei dieser Geschwindigkeitsanzeige ist {canonical(maxspeed)}"
+        "de": "Die zulässige Höchstgeschwindigkeit bei dieser Geschwindigkeitsanzeige ist {canonical(maxspeed)}",
+        "ca": "La velocitat màxima permesa a aquest radar pedagògic és {canonical(maxspeed)}"
       }
     },
     {
       "id": "inscription",
       "question": {
         "en": "What is the text on this speed display?",
-        "de": "Wie lautet der Text auf dieser Geschwindigkeitsanzeige?"
+        "de": "Wie lautet der Text auf dieser Geschwindigkeitsanzeige?",
+        "ca": "Quin text es mostra al radar pedagògic?"
       },
       "freeform": {
         "key": "inscription",

@@ -92,7 +92,8 @@
     "da": "Et åbent kort over statuer, buster, graffitis og andre kunstværker over hele verden",
     "ca": "Un mapa obert d'estàtues, busts, grafitis i altres obres d'art del tot el món",
     "cs": "Otevřená mapa soch, bust, graffiti a dalších uměleckých děl po celém světě",
-    "zh_Hans": "一个雕塑、半身像、涂鸦和其他全球艺术品的地图"
+    "zh_Hans": "一个雕塑、半身像、涂鸦和其他全球艺术品的地图",
+    "nb_NO": "Statuer, byster, graffiti, og andre kunstverk verden over"
   },
   "minzoom": 12,
   "presets": [
@@ -471,7 +472,8 @@
         "cs": "Kdo je autorem tohoto díla?",
         "pt": "Quem fez essa obra de arte?",
         "es": "¿Quién creó esta obra de arte?",
-        "fr": "Qui a fait cette oeuvre d'art ?"
+        "fr": "Qui a fait cette oeuvre d'art ?",
+        "nb_NO": "Hvem laget dette kunstverket?"
       },
       "freeform": {
         "key": "artist:wikidata",
@@ -601,7 +603,8 @@
         "nl": "Dit kunstwerk beeldt {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)} af",
         "cs": "Toto dílo zobrazuje {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}",
         "pt": "A obra de arte representa {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}",
-        "es": "Esta obra de arte representa {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}"
+        "es": "Esta obra de arte representa {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}",
+        "nb_NO": "Dette kunstverket viser {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}"
       },
       "labels": [
         "artwork-question"
@@ -613,7 +616,8 @@
         "en": "Does this artwork serve as a bench?",
         "de": "Dient dieses Kunstwerk auch als Sitzbank?",
         "fr": "Cette oeuvre d'art sert-elle de banc ?",
-        "nl": "Is dit kunstwerk ook een zitbank?"
+        "nl": "Is dit kunstwerk ook een zitbank?",
+        "nb_NO": "Tjener dette kunstverket funksjonen som benk?"
       },
       "mappings": [
         {
@@ -631,7 +635,8 @@
             "en": "This artwork does not serve as a bench",
             "de": "Dieses Kunstwerk dient nicht als Sitzbank",
             "fr": "Cette oeuvre d'art ne sert pas de banc",
-            "nl": "Dit kunstwerk doet geen dienst als zitbank"
+            "nl": "Dit kunstwerk doet geen dienst als zitbank",
+            "nb_NO": "Dette kunstverket tjener ikke funksjonen som benk"
           }
         },
         {
@@ -640,7 +645,8 @@
             "en": "This artwork does not serve as a bench",
             "de": "Dieses Kunstwerk dient nicht als Sitzbank",
             "fr": "Cette oeuvre d'art ne sert pas de banc",
-            "nl": "Dit kunstwerk doet geen dienst als zitbank"
+            "nl": "Dit kunstwerk doet geen dienst als zitbank",
+            "nb_NO": "Dette kunstverket tjener ikke den hensikten å være en benk"
           },
           "hideInAnswer": true
         }
