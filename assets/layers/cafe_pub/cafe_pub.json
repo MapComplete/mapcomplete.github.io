@@ -176,7 +176,7 @@
       "render": {
         "nl": "De naam van deze zaak is {name}",
         "en": "This business is named {name}",
-        "de": "Dieses Unternehmen heißt {name}",
+        "de": "Das Unternehmen heißt {name}",
         "fr": "Ce pub se nomme {name}",
         "hu": "A kocsma neve: {name}",
         "da": "Denne pub hedder {name}",

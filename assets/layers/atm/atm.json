@@ -28,7 +28,7 @@
         "if": "brand~*",
         "then": {
           "en": "{brand} ATM",
-          "de": "{brand} Geldautomat",
+          "de": "{brand}-Geldautomat",
           "fr": "DAB {brand}",
           "nl": "{brand} Geldautomaat",
           "nb_NO": "{brand}-minibank"

@@ -574,7 +574,7 @@
         "hu": "További információ <a href='{website}' target='_blank'>ezen a weboldalon</a>",
         "pl": "Więcej informacji na <a href='{website}' target='_blank'>tej stronie</a>",
         "es": "Más información en <a href='{website}' target='_blank'>este sitio web</a>",
-        "da": "Yderligere oplysninger på <a href='{website}' target='_blank'>dette websted</a>",
+        "da": "Yderligere oplysninger på <a href='{website}' target='_blank'> dette websted</a>",
         "cs": "Více informací na <a href='{website}' target='_blank'>této webové stránce</a>"
       },
       "freeform": {

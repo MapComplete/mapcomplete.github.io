@@ -75,7 +75,8 @@
         "nb_NO": "Hva er navnet på denne ambulansestasjonen?",
         "da": "Hvad hedder denne ambulancestation?",
         "cs": "Jak se jmenuje tato stanice záchranné služby?",
-        "ca": "Quin és el nom d'aquesta estació d'ambulàncies?"
+        "ca": "Quin és el nom d'aquesta estació d'ambulàncies?",
+        "zh_Hans": "这个救护车站叫什么名字？"
       },
       "render": {
         "en": "This station is called {name}.",
@@ -90,7 +91,8 @@
         "nb_NO": "Denne stasjonen heter {name}.",
         "da": "Denne station hedder {name}.",
         "cs": "Tato stanice se jmenuje {name}.",
-        "ca": "Aquesta estació es diu {name}."
+        "ca": "Aquesta estació es diu {name}.",
+        "zh_Hans": "这个站点名为 {name}."
       }
     },
     {
@@ -174,7 +176,8 @@
         "es": "¿Qué agencia opera esta estación?",
         "da": "Hvilket agentur driver denne station?",
         "cs": "Jaká organizace tuto stanici provozuje?",
-        "ca": "Quina agència opera aquesta estació?"
+        "ca": "Quina agència opera aquesta estació?",
+        "zh_Hans": "哪家机构运营这个站点？"
       },
       "render": {
         "en": "This station is operated by {operator}.",
@@ -188,7 +191,8 @@
         "es": "Esta estación la opera {operator}.",
         "da": "Denne station drives af {operator}.",
         "cs": "Tuto stanici provozuje společnost {operator}.",
-        "ca": "Aquesta estació l'opera {operator}."
+        "ca": "Aquesta estació l'opera {operator}.",
+        "zh_Hans": "这个站点由 {operator}运营"
       },
       "freeform": {
         "key": "operator"
@@ -245,7 +249,8 @@
             "es": "La estación la opera el govierno.",
             "da": "Stationen drives af staten.",
             "cs": "Provozovatelem stanice je vláda.",
-            "ca": "El govern opera aquesta estació."
+            "ca": "El govern opera aquesta estació.",
+            "zh_Hans": "这个站点由政府运营。"
           }
         },
         {
