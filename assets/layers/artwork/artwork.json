@@ -71,7 +71,8 @@
           "pt_BR": "Obra de arte <i>{name}</i>",
           "sv": "Konstverk <i>{name}</i>",
           "da": "Kunstværk <i>{name}</i>",
-          "cs": "Umělecké dílo <i>{name}</i>"
+          "cs": "Umělecké dílo <i>{name}</i>",
+          "ca": "Obra d'art <i>{name}</i>"
         }
       }
     ]
@@ -148,7 +149,8 @@
         "hu": "Ez egy {artwork_type}",
         "pl": "Jest to {artwork_type}",
         "da": "Dette er en {artwork_type}",
-        "cs": "Toto je {artwork_type}"
+        "cs": "Toto je {artwork_type}",
+        "ca": "Aquesta és un {artwork_type}"
       },
       "question": {
         "en": "What is the type of this artwork?",
@@ -166,7 +168,8 @@
         "hu": "Milyen fajta műalkotás ez?",
         "pl": "Jakiego rodzaju jest to dzieło sztuki?",
         "da": "Hvilken slags kunstværk er det?",
-        "cs": "Jaký je typ tohoto uměleckého díla?"
+        "cs": "Jaký je typ tohoto uměleckého díla?",
+        "ca": "Quin tipus d'obra és aquesta peça?"
       },
       "freeform": {
         "key": "artwork_type",
@@ -557,7 +560,8 @@
         "pl": "Gdzie znajdę więcej informacji na temat tego dzieła sztuki?",
         "es": "¿Hay un sitio web con más información sobre esta obra de arte?",
         "da": "Er der et websted med mere information om dette kunstværk?",
-        "cs": "Existuje webová stránka s dalšími informacemi o tomto uměleckém díle?"
+        "cs": "Existuje webová stránka s dalšími informacemi o tomto uměleckém díle?",
+        "ca": "Hi ha un lloc web amb més informació sobre aquesta obra d'art?"
       },
       "render": {
         "en": "More information on <a href='{website}' target='_blank'>this website</a>",

@@ -215,7 +215,8 @@
           "then": {
             "en": "This kerb is flush and is lower than 1cm.",
             "de": "Der Bordstein ist bündig und niedriger als 1 cm.",
-            "ca": "Aquest gual està rebaixat i és més baix que 1cm."
+            "ca": "Aquest gual està rebaixat i és més baix que 1cm.",
+            "nl": "Deze stoeprand is vlak en lager als 1 cm."
           }
         }
       ]
