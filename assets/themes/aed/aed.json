@@ -21,7 +21,8 @@
     "zh_Hans": "Open AED Map",
     "fil": "Open AED Map",
     "da": "Åben AED Kort",
-    "cs": "Open AED Mapa"
+    "cs": "Open AED Mapa",
+    "zgh": "ⴽⵛⵎ ⵖⵔ ⵜⴽⴰⵕⴹⴰ ⵏ AED"
   },
   "icon": "./assets/themes/aed/aed.svg",
   "description": {
