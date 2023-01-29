@@ -1,1 +1,0 @@
-import{C as l}from"./Translations-90cac94c.js";import{B as m}from"./BackToIndex-c5cf329e.js";class d extends l{constructor(t,a,e){let s;((e==null?void 0:e.hideBackButton)??!0)&&(s=new m),super([new l([new l([s,...t]).SetClass("sticky top-4")]).SetClass("ml-4 block w-full md:w-2/6 lg:w-1/6"),a.SetClass("m-8 w-full mb-24")]),this.SetClass("h-full block md:flex")}}export{d as L};
