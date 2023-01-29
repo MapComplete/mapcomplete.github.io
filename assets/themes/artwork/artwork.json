@@ -19,7 +19,8 @@
     "fil": "Open Artwork Map",
     "da": "Åbn illustrationskort",
     "cs": "Otevřená mapa uměleckých děl",
-    "pa_PK": "آزاد کلاکاری نقشہ"
+    "pa_PK": "آزاد کلاکاری نقشہ",
+    "zgh": "ⵕⵥⵎ ⵜⴰⴽⴰⵕⴹⴰ ⵏ ⵜⵡⵓⵔⵉ ⵜⴰⵏⴰⵥⵓⵕⵜ"
   },
   "description": {
     "en": "An open map of statues, busts, graffitis and other artwork all over the world",
@@ -39,7 +40,8 @@
     "zh_Hans": "一个雕塑、半身像、涂鸦和其他全球艺术品的地图",
     "fil": "Malugod na pag-dating sa Open Artwork Map, ang mapa ng mga bantayog, graffiti, at iba pang likhang sining sa buong mundo",
     "da": "Et åbent kort over statuer, buster, graffitis og andre kunstværker over hele verden",
-    "cs": "Otevřená mapa soch, bust, graffiti a dalších uměleckých děl po celém světě"
+    "cs": "Otevřená mapa soch, bust, graffiti a dalších uměleckých děl po celém světě",
+    "zgh": "ⵢⴰⵜ ⵜⴽⴰⵕⴹⴰ ⵉⵕⵥⵎⵏ ⵅⴼ ⵉⵙⴼⵔⵉⵙⵏ, ⵉⵖⵔⴰⵙⵏ ⴷ ⵜⵡⵓⵔⵉⵡⵉⵏ ⵜⵉⵏⴰⵥⵓⵕⵉⵏ ⵢⴰⴹⵏⵉⵏ ⴳ ⵓⵎⴰⴹⴰⵍ"
   },
   "icon": "./assets/themes/artwork/artwork.svg",
   "startZoom": 12,
