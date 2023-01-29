@@ -1,1 +1,124 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport"><link href="leaflet.f8eab60f.css" rel="stylesheet"><link href="userbadge.ef93f0b4.css" rel="stylesheet"><link href="tabbedComponent.eec7a4da.css" rel="stylesheet"><link href="mobile.17417aed.css" rel="stylesheet"><link href="openinghourstable.8832504f.css" rel="stylesheet"><link href="tagrendering.b8115c66.css" rel="stylesheet"><link href="ReviewElement.80877b6e.css" rel="stylesheet"><link href="index-tailwind-output.176e5b31.css" rel="stylesheet"><link href="wikipedia.83aef2df.css" rel="stylesheet"><meta content="website" property="og:type"><title>Speelbossen</title><link rel="manifest" href="play_forests.webmanifest"><meta property="og:image" content="assets_generated_images_social_image_play_forests_512.2e0d6509.png"><meta property="og:title" content="Speelbossen"><meta property="og:description" content="Deze kaart toont speelbossen"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@mapcomplete.osm.be"><meta name="twitter:creator" content="@pietervdvn"><meta name="twitter:title" content="Speelbossen"><meta name="twitter:description" content="Deze kaart toont speelbossen"><meta name="twitter:image" content="assets_generated_images_social_image_play_forests_Wide512.b6f12e87.png"><link rel="icon" href="icon.86f75f56.svg" sizes="any" type="image/svg+xml"><link rel="apple-touch-icon" sizes="72x72" href="assets_generated_images_theme_play_forests_white_background72.4fcec01b.png"><link rel="apple-touch-icon" sizes="96x96" href="assets_generated_images_theme_play_forests_white_background96.dc5071cf.png"><link rel="apple-touch-icon" sizes="120x120" href="assets_generated_images_theme_play_forests_white_background120.5da49782.png"><link rel="apple-touch-icon" sizes="128x128" href="assets_generated_images_theme_play_forests_white_background128.77323fee.png"><link rel="apple-touch-icon" sizes="144x144" href="assets_generated_images_theme_play_forests_white_background144.d11945f1.png"><link rel="apple-touch-icon" sizes="152x152" href="assets_generated_images_theme_play_forests_white_background152.d06d16cb.png"><link rel="apple-touch-icon" sizes="180x180" href="assets_generated_images_theme_play_forests_white_background180.e9fc37f5.png"><link rel="apple-touch-icon" sizes="192x192" href="assets_generated_images_theme_play_forests_white_background192.cc00f4cb.png"><link rel="apple-touch-icon" sizes="384x384" href="assets_generated_images_theme_play_forests_white_background384.85f2cad2.png"><link rel="apple-touch-icon" sizes="512x512" href="assets_generated_images_theme_play_forests_white_background512.61c320fb.png"></head><body> <div id="decoration-desktop" style="position:fixed;left:1em;bottom:1em;width:35vh;height:35vh;">  <img src="icon.86f75f56.svg" width="100%" height="100%"> </div> <div class="block fixed inset-0 very-small-screen z-above-controls" id="on-small-screen"></div> <div class="block fixed hidden hidden-on-very-small-screen inset-0 md:w-1/3 z-above-controls" style="min-width:28rem" id="fullscreen"></div> <div class="absolute left-3 rounded-3xl sm:top-3 top-12 z-above-map" id="top-left"></div> <div class="absolute pl-3 right-2 rounded-3xl sm:pl-0 sm:w-fit top-3 w-full z-above-map" id="top-right"></div> <div class="absolute bottom-3 left-3 rounded-3xl z-above-map" id="bottom-left"></div> <div class="absolute bottom-3 right-2 rounded-3xl z-above-map" id="bottom-right"></div> <div class="absolute clutter h-24 left-24 right-24 text-center text-xl top-56" id="centermessage" style="z-index:4000"> <div style="height:max-content"> <div style="margin-top:-3rem"> <div class="flex" style="justify-content:center"> <img src="loading.7b7ee7a3.svg" class="animate-spin" style="width:1.5rem;height:1.5rem;min-width:1.5rem;"> <h1 style="font-weight:700;font-size:xx-large;margin-bottom:1rem;padding-left:1rem">Speelbossen wordt geladen…</h1> </div> <p class="subtle" style="padding-bottom:1rem">Gebouwd met OpenStreetMap</p> <div style="background:hsla(0,0%,100%,.6666666666666666);padding-bottom:1rem;border-radius:.25rem"> Deze kaart toont speelbossen </div> </div> </div> </div> <span class="absolute" id="belowmap" style="z-index:-1">Below</span> <div id="leafletDiv"></div> <script src="index_play_forests.19c24354.js"></script> <script async data-goatcounter="https://pietervdvn.goatcounter.com/count" src="//gc.zgo.at/count.js"></script> <script>window.addEventListener("load",function(){"serviceWorker"in navigator?navigator.serviceWorker.register("service-worker.js").then(function(){console.log("Service worker registration successful")},function(e){console.error("Service worker registration failed",e)}):console.log("Service workers are not supported")});</script> </body></html>
+<!DOCTYPE html>
+<!-- WARNING: index.html serves as a template. If you want to change something, change it there -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <meta content="website" property="og:type">
+
+    <title>Speelbossen</title>
+<link rel="manifest" href="data:application/manifest+json;base64,ewogICJuYW1lIjogIlNwZWVsYm9zc2VuIiwKICAic2hvcnRfbmFtZSI6ICJTcGVlbGJvc3NlbiIsCiAgInN0YXJ0X3VybCI6ICJwbGF5X2ZvcmVzdHMuaHRtbCIsCiAgImxhbmciOiAiZW4iLAogICJkaXNwbGF5IjogInN0YW5kYWxvbmUiLAogICJiYWNrZ3JvdW5kX2NvbG9yIjogIiNmZmYiLAogICJkZXNjcmlwdGlvbiI6ICJFZW4gc3BlZWxib3MgaXMgZWVuIHpvbmUgaW4gZWVuIGJvcyBkaWUgdnJpaiB0b2VnYW5rZWxpamsgaXMgdm9vciBzcGVsZW5kZSBraW5kZXJlbi4gRGV6ZSB3b3JkdCAgaW4gYm9zc2VuIHZhbiBoZXQgQWdlbnRzY2hhcCBOYXR1dXIgZW4gYm9zIGFsdGlqZCBhYW5nZWR1aWQgbWV0IGhldCBvdmVyZWVua29tc3RpZ2UgYm9yZC4iLAogICJvcmllbnRhdGlvbiI6ICJwb3J0cmFpdC1wcmltYXJ5LCBsYW5kc2NhcGUtcHJpbWFyeSIsCiAgImljb25zIjogWwogICAgewogICAgICAic3JjIjogImFzc2V0cy9nZW5lcmF0ZWQvaW1hZ2VzL2Fzc2V0c19sYXllcnNfcGxheV9mb3Jlc3RfaWNvbjcyLnBuZyIsCiAgICAgICJzaXplcyI6ICI3Mng3MiIsCiAgICAgICJ0eXBlIjogImltYWdlL3BuZyIKICAgIH0sCiAgICB7CiAgICAgICJzcmMiOiAiYXNzZXRzL2dlbmVyYXRlZC9pbWFnZXMvYXNzZXRzX2xheWVyc19wbGF5X2ZvcmVzdF9pY29uOTYucG5nIiwKICAgICAgInNpemVzIjogIjk2eDk2IiwKICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgfSwKICAgIHsKICAgICAgInNyYyI6ICJhc3NldHMvZ2VuZXJhdGVkL2ltYWdlcy9hc3NldHNfbGF5ZXJzX3BsYXlfZm9yZXN0X2ljb24xMjAucG5nIiwKICAgICAgInNpemVzIjogIjEyMHgxMjAiLAogICAgICAidHlwZSI6ICJpbWFnZS9wbmciCiAgICB9LAogICAgewogICAgICAic3JjIjogImFzc2V0cy9nZW5lcmF0ZWQvaW1hZ2VzL2Fzc2V0c19sYXllcnNfcGxheV9mb3Jlc3RfaWNvbjEyOC5wbmciLAogICAgICAic2l6ZXMiOiAiMTI4eDEyOCIsCiAgICAgICJ0eXBlIjogImltYWdlL3BuZyIKICAgIH0sCiAgICB7CiAgICAgICJzcmMiOiAiYXNzZXRzL2dlbmVyYXRlZC9pbWFnZXMvYXNzZXRzX2xheWVyc19wbGF5X2ZvcmVzdF9pY29uMTQ0LnBuZyIsCiAgICAgICJzaXplcyI6ICIxNDR4MTQ0IiwKICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgfSwKICAgIHsKICAgICAgInNyYyI6ICJhc3NldHMvZ2VuZXJhdGVkL2ltYWdlcy9hc3NldHNfbGF5ZXJzX3BsYXlfZm9yZXN0X2ljb24xNTIucG5nIiwKICAgICAgInNpemVzIjogIjE1MngxNTIiLAogICAgICAidHlwZSI6ICJpbWFnZS9wbmciCiAgICB9LAogICAgewogICAgICAic3JjIjogImFzc2V0cy9nZW5lcmF0ZWQvaW1hZ2VzL2Fzc2V0c19sYXllcnNfcGxheV9mb3Jlc3RfaWNvbjE4MC5wbmciLAogICAgICAic2l6ZXMiOiAiMTgweDE4MCIsCiAgICAgICJ0eXBlIjogImltYWdlL3BuZyIKICAgIH0sCiAgICB7CiAgICAgICJzcmMiOiAiYXNzZXRzL2dlbmVyYXRlZC9pbWFnZXMvYXNzZXRzX2xheWVyc19wbGF5X2ZvcmVzdF9pY29uMTkyLnBuZyIsCiAgICAgICJzaXplcyI6ICIxOTJ4MTkyIiwKICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgfSwKICAgIHsKICAgICAgInNyYyI6ICJhc3NldHMvZ2VuZXJhdGVkL2ltYWdlcy9hc3NldHNfbGF5ZXJzX3BsYXlfZm9yZXN0X2ljb24zODQucG5nIiwKICAgICAgInNpemVzIjogIjM4NHgzODQiLAogICAgICAidHlwZSI6ICJpbWFnZS9wbmciCiAgICB9LAogICAgewogICAgICAic3JjIjogImFzc2V0cy9nZW5lcmF0ZWQvaW1hZ2VzL2Fzc2V0c19sYXllcnNfcGxheV9mb3Jlc3RfaWNvbjUxMi5wbmciLAogICAgICAic2l6ZXMiOiAiNTEyeDUxMiIsCiAgICAgICJ0eXBlIjogImltYWdlL3BuZyIKICAgIH0sCiAgICB7CiAgICAgICJzcmMiOiAiLi9hc3NldHMvbGF5ZXJzL3BsYXlfZm9yZXN0L2ljb24uc3ZnIiwKICAgICAgInNpemVzIjogIjUxM3g1MTMiLAogICAgICAidHlwZSI6ICJpbWFnZS9zdmciCiAgICB9CiAgXSwKICAiY2F0ZWdvcmllcyI6IFsKICAgICJtYXAiLAogICAgIm5hdmlnYXRpb24iCiAgXQp9">
+
+    <meta property="og:image" content="assets/generated/images/assets_generated_images_social_image_play_forests_512.png">
+    <meta property="og:title" content="Speelbossen">
+    <meta property="og:description" content="Deze kaart toont speelbossen">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@mapcomplete.osm.be">
+    <meta name="twitter:creator" content="@pietervdvn">
+    <meta name="twitter:title" content="Speelbossen">
+    <meta name="twitter:description" content="Deze kaart toont speelbossen">
+    <meta name="twitter:image" content="assets/generated/images/assets_generated_images_social_image_play_forests_Wide512.png">
+
+<link rel="icon" href="/mc/master/assets/icon-e5f56af1.svg" sizes="any" type="image/svg+xml">
+<link rel="apple-touch-icon" sizes="72x72" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAJqUlEQVR4nO1bB3AUVRg+C1Y6ghRREKWDgBQ7xYIIilIUBBwQERURpJOAhCAQWkwooYMgMKEFDDX03gmBhAQQKSGNmk4Scpff+d64N3vJe3u7mw23N8k/84YJu/f2vW/f377/XwsViaJYlC8XSRFATqQIICdSBJATKQLInQDafmEntQz4mIqNKEOWocXpud9eou/WDKArd68VboBycnLo56Ch9MiwEgyY3KOER0UKPr/VnAAdunqUvEIm0cErR2jF6UBKykg2fBHT9/lzgZGPZ0dXoPD482QagDKyM+jL5d/YF/josJLUZm57qjCuOlMFoyQzO5PKjHnBKUAY3f7qTaYBaO3ZDVRjUgOqNP4VquJdky3w8eGlqeqE2lTSsxJl27INWcDeywdUgYPx1MjnyBQAYfPlxr5oXxiMZvWJ9aj0mCrs74peNchnj68hCwgKD1YNEEZaVjq5HCCo1xszW7MTI19cY9+3mTp8MO9T+vXvUYYs4EzsWdXglPKsTLYcG7kcIBhi2Jwq3jXp5Un12ekBYB5bvahP4A/Uc9V31GtVP0MWYLVZqdrEuqoA+nb1j2QaG4R4xCJbHIACYC/9XpepGlTDKNkQvkno4qVRflw1ikmKJdMAdPHWP/T2rA/oxQl1qMH0FswwIx4pO7YqM95480bK4uPL7QFi7oE1hMaEkenioKDwYOa1pDik7tSm9OnirnQ9MbpAFnPt3nUWMNab1ox5T7ygqXv9KDUzjVwlTgNFq81KJ6JP0emYM3Qz9RYVNjFFqnE3/R4dvXaCVoauJu8dPmwgjJh3ZDFtjNjMTlahAyg0Jowm7JxCLfxbMY/pzIMhvHh/XgeasucPirp50ZwAHbt+kjov60HDNnnSmrAgunc/UdPDLt2+TONCJtIrkxtqCg55A8DCsKc/SDcPQC38WzksEoHke3PasrcamXCB+5sbSTE08+DcPL81aiB4hGGPiI8klwNU9X+PJhpw//3X/UKTd8+gXzYMpzpTXy8QUETj3dkf0arQNSwBdglAMUmxLKNWYzNcOcA4jNrymyFEmy4jffnOFRq5eSwLGl0NhtLAi0TeCHupl33IlxdLy0qnhcf+pKZ+7+nagChyVhrPjKqg61lIkSbtnk6J95MeHkByOXUjlPqt+ZmKezzPXeAL3rVYFD52+wRad3YjO4XRiTc0bxThAQzyjH0z6aP5HRlHpOX3SJfghe+k3yWXxEHJGSnsVIEOmbbXj7ZGhVBCyk3h/VpP0dW7jkHj/Qf3aVvUDhq8caQmp1B7ShP3iKTLarRjzqJq5IkLji1l8ZpE8PHGEyPKquKWXA5QCY+KmgA6Fxehem4YZhQdoNbN/Vs6eN9PFnVWNYfLASqmUcWw4fyo/5Frx1lGkGXNMj9A2bZszUYaNu1hiksBSs1M0wxQ4Jl1hQegW6m3NQMUcHhh4QEoIj5SM0AoHBQagHZe2qMZIFRUTAVQZnYm7f/3kGGVVLksP7VKV8Zumtr87EPzGYGOhfVd/RML81MyUw17OHgkPTmVKQDyOzAnz+IQaCFZBFdsRIUT6YFWgEDS5bfkhBgIL3/Hxd36AIpNjmMBmUVhoUaUfros66kZIIz8kPgoDqC3APOg1td67ifku38W0xhVAA0IGkKPDS/ldJE+e3wZea70Ng9cOUy7Lu0VXkdBUg9AWyK3646kwSTw5vTcNl4dQD+uH8yKhGoXW9KzEiPjc0vX5b1YORlqCVoCTVhy+wVgRVQFEkn0IomeCdulVcCNSydHRMegCHD8+illgB5YH7C+QC1v9N87Vx3a6c4nRHFPh/wthcWeE873+dJu7JSIrkM1eYIXANuZmxKR9jX/6BL2QpX2gkYKLkCIakdsHkPxKQnUaMZbqoCp6FWDxu+YzIhyAAPBHKL7UU4GWYUONRhJ0X2rw9azEyY1bvE4Z+l5PJsGEwGQpXvAIqIAOTTYQ3E/oEegQXL+yg4QchzcBNKpVUA7TSfoseGl7I1N0POG098Q3guVQwtNu4WduNfBSMIIw0sCTNE8AFleCucVE/B7ROtSDyQ6VqC+WqJ1O0CoL2kBxZJrwPXPOjSPFh1fRvWnNVeskIJyeHJkOe717iv6sBoaNgwaVzQPqhYDNwxjlRZ41KUnVuS5B8/A/7df1FnTXtBqczvtjiNAoEe1GGdLroHfKhlB+QlSUi90c0iLRM2+pk8j7n2wcT1W9mU2A10nuF+0WVQ2tO4HDWNQc4vekN+iczTza8lOicgG4HhLf8OOoFSt5M1g15w1X2kdeClSiyEDCAy/kt2wqBgdFncRqo18AACROvcO7O9AvP+wbhBduHVJOBccxNOjyhv+EhF+YC12gOD+9NSoLLLxzuwP8zR98gbK0qJrMKawPWh/wVtEdQTSxPcd4TM7LvnK7tlQ7kYHCE7ikODR9ObMNnl+A0ARwEpOAn8jz4Sayjt7EVDaARLZno5LvqLnvV7WBVinP79mD5b+RuiATaN2z7sf32UgOp9zeEEe9y3ZJZ73hO2E7UMgCAEdgoqGvIv274gtrI6G3AvMBEQy6nKPhTkQKozeMs7Ri8ltAk4SVABH3ZZjY3GRdA0IowaFRie4ULnxe23Gm+zII2LGJwuIJRBA4tpnS760UyewGbzNAjhQKnHJ8XmoFRQYRf0AfxyYzU4EBKEGAECp2VldHidVUlMlYQAhoEK6EHJxF3PBiEilhNBqs9pVB0mdXJDgQR2+WNqd2563+599DgAhURSdOHTcKwl4IJHt0yqbI7czgL5fO5B9bgFARTSOU8IsWlYeRq6iVpBuoBYOAMds82YfoqDhgbfJyuNfdUqfgIsWGdSCbPJUBCg+JcHhgxb0SkOP9fIxKPfyNjlo4winv0UqJHIkkkF96Izi1qgQOhl9mqkb2u3w79m4cKfqwBNQIyL1glqrEVF6UpA89UMj7ScL3DsoVF7iyRNRQIv0Bdm6WwPU3L8ld3OwS2oFhlQUGKJC4rYAxSbHCdMBrZ8YgIjjzYNGTrcFKEDggWr5NDbs+zJwR2pV1XQAtV3wOXdTaEvRKnAeolwODsXtAErKSBaSVHp7m0G48eZDvOV2AAX+z1Ty+By9goifNyeIOrcDqLuA+5m4a5ruORGoipJoeQHB9ADZcmwsS8+9CXi0/DZ5g24VJa9uA9DpmDMF1oBw+Oox7tyItt0GoACBewfBn1+BS+d9DAwO2m0A8uM0QKCso/UzKpHw+GqUrNwGoOjEGw5fCMH28BhDvYImcjCX0vwg8JSa1k3pxbKsWYyQAp0KwqwgBGSd0cCYpk/a7FIEECkD9B+HRly2l7DiyAAAAABJRU5ErkJggg==">
+<link rel="apple-touch-icon" sizes="96x96" href="data:image/png;base64,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">
+<link rel="apple-touch-icon" sizes="120x120" href="/mc/master/assets/assets_generated_images_theme_play_forests_white_background120-0d855d7b.png">
+<link rel="apple-touch-icon" sizes="128x128" href="/mc/master/assets/assets_generated_images_theme_play_forests_white_background128-90ab5fd8.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/mc/master/assets/assets_generated_images_theme_play_forests_white_background144-edbe1a9c.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/mc/master/assets/assets_generated_images_theme_play_forests_white_background152-7aa2fd1d.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/mc/master/assets/assets_generated_images_theme_play_forests_white_background180-db444666.png">
+<link rel="apple-touch-icon" sizes="192x192" href="/mc/master/assets/assets_generated_images_theme_play_forests_white_background192-e36ad7db.png">
+<link rel="apple-touch-icon" sizes="384x384" href="/mc/master/assets/assets_generated_images_theme_play_forests_white_background384-83e67bb5.png">
+<link rel="apple-touch-icon" sizes="512x512" href="/mc/master/assets/assets_generated_images_theme_play_forests_white_background512-d82534c8.png">
+    
+  <script type="module" crossorigin src="/mc/master/assets/play_forests-84c87831.js"></script>
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/Translations-90cac94c.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/SubtleButton-5b6b984d.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/DropDown-c8388124.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/defineProperty-1d73cb61.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/List-2172953c.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/UserRelatedState-dfc2f585.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/Button-78f4392c.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/language_translations-cdf9ac75.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/theme_overview-0c10e8e3.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/MoreScreen-3c130806.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/LanguagePicker-22016516.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/Toggleable-b2d965a0.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/UserInformation-b69a6a41.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/BackToIndex-c5cf329e.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/DashboardGui-aba5e8ef.js">
+  <link rel="stylesheet" href="/mc/master/assets/Translations-c4abc1ef.css">
+  <link rel="stylesheet" href="/mc/master/assets/DashboardGui-350ddee6.css">
+  <link rel="stylesheet" href="/mc/master/assets/List-82c5367b.css">
+  <link rel="stylesheet" href="/mc/master/assets/ReviewElement-c55834a1.css">
+  <link rel="stylesheet" href="/mc/master/assets/tagrendering-e4d9a4c2.css">
+  <link rel="stylesheet" href="/mc/master/assets/wikipedia-d4b8e548.css">
+</head>
+<body>
+
+<div id="decoration-desktop" style="position: fixed; left: 1em; bottom: 1em; width:35vh; height:35vh;">
+    <!-- A nice decoration while loading or on errors -->
+    <img src='/mc/master/assets/icon-e5f56af1.svg' width="100%" height="100%">
+</div>
+
+<div class="very-small-screen fixed inset-0 block z-above-controls" id="on-small-screen"></div>
+<div class="fixed inset-0 block z-above-controls hidden hidden-on-very-small-screen md:w-1/3" style="min-width: 28rem" id="fullscreen"></div>
+
+<div class="absolute top-12 sm:top-3 left-3 rounded-3xl z-above-map" id="top-left"></div>
+<div class="absolute top-3 right-2 rounded-3xl z-above-map pl-3 sm:pl-0 w-full sm:w-fit" id="top-right"></div>
+
+<div class="absolute bottom-3 left-3 rounded-3xl z-above-map" id="bottom-left"></div>
+<div class="absolute bottom-3 right-2 rounded-3xl z-above-map" id="bottom-right"></div>
+
+<div class="clutter absolute h-24 left-24 right-24 top-56 text-xl text-center"
+     id="centermessage" style="z-index: 4000">
+    <div style="height: max-content">
+    <div style="margin-top: -3rem">
+        <div class="flex" style="justify-content: center">
+            <img src="/mc/master/assets/loading-90179bb2.svg" class="animate-spin" style="width: 1.5rem; height: 1.5rem; min-width: 1.5rem;"/>
+            <h1 style="font-weight: bold; font-size: xx-large; margin-bottom: 1rem; padding-left: 1rem">Speelbossen wordt geladen…</h1>
+        </div>
+    <p class="subtle" style="padding-bottom: 1rem">Gebouwd met OpenStreetMap</p>
+    <div style="background: #ffffffaa; padding-bottom: 1rem; border-radius: 0.25rem">
+    Deze kaart toont speelbossen
+    </div>
+    </div>
+    </div>
+</div>
+
+
+<span class="absolute" id="belowmap" style="z-index: -1">Below</span>
+<div id="leafletDiv"></div>
+
+
+
+<script async data-goatcounter="https://pietervdvn.goatcounter.com/count" src="//gc.zgo.at/count.js"></script>
+
+<script>
+    window.addEventListener('load', () => {
+        if ('serviceWorker' in navigator) {
+            // register service worker
+            navigator.serviceWorker.register('/service-worker.js').then(
+                () => {
+                    console.log('Service worker registration successful');
+                },
+                err => {
+                    console.error('Service worker registration failed', err)
+                });
+        } else {
+            console.log("Service workers are not supported")
+        }
+    });
+</script>
+
+</body>
+</html>

@@ -1,1 +1,114 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport"><link href="leaflet.f8eab60f.css" rel="stylesheet"><link href="userbadge.ef93f0b4.css" rel="stylesheet"><link href="tabbedComponent.eec7a4da.css" rel="stylesheet"><link href="mobile.17417aed.css" rel="stylesheet"><link href="openinghourstable.8832504f.css" rel="stylesheet"><link href="tagrendering.b8115c66.css" rel="stylesheet"><link href="ReviewElement.80877b6e.css" rel="stylesheet"><link href="index-tailwind-output.176e5b31.css" rel="stylesheet"><link href="wikipedia.83aef2df.css" rel="stylesheet"><meta content="website" property="og:type"><title>Walls and buildings</title><link rel="manifest" href="walls_and_buildings.webmanifest"><meta property="og:image" content="SocialImage.34e5ce8e.png"><meta property="og:title" content="Walls and buildings"><meta property="og:description" content="Special builtin layer providing all walls and buildings"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@mapcomplete.osm.be"><meta name="twitter:creator" content="@pietervdvn"><meta name="twitter:title" content="Walls and buildings"><meta name="twitter:description" content="Special builtin layer providing all walls and buildings"><meta name="twitter:image" content="SocialImage.34e5ce8e.png"><link rel="icon" href="walls_and_buildings.ec92e48e.png" sizes="any" type="image/svg+xml"></head><body> <div id="decoration-desktop" style="position:fixed;left:1em;bottom:1em;width:35vh;height:35vh;">  <img src="walls_and_buildings.ec92e48e.png" width="100%" height="100%"> </div> <div class="block fixed inset-0 very-small-screen z-above-controls" id="on-small-screen"></div> <div class="block fixed hidden hidden-on-very-small-screen inset-0 md:w-1/3 z-above-controls" style="min-width:28rem" id="fullscreen"></div> <div class="absolute left-3 rounded-3xl sm:top-3 top-12 z-above-map" id="top-left"></div> <div class="absolute pl-3 right-2 rounded-3xl sm:pl-0 sm:w-fit top-3 w-full z-above-map" id="top-right"></div> <div class="absolute bottom-3 left-3 rounded-3xl z-above-map" id="bottom-left"></div> <div class="absolute bottom-3 right-2 rounded-3xl z-above-map" id="bottom-right"></div> <div class="absolute clutter h-24 left-24 right-24 text-center text-xl top-56" id="centermessage" style="z-index:4000"> <div style="height:max-content"> <div style="margin-top:-3rem"> <div class="flex" style="justify-content:center"> <img src="loading.7b7ee7a3.svg" class="animate-spin" style="width:1.5rem;height:1.5rem;min-width:1.5rem;"> <h1 style="font-weight:700;font-size:xx-large;margin-bottom:1rem;padding-left:1rem">Loading Walls and buildings…</h1> </div> <p class="subtle" style="padding-bottom:1rem">Powered by OpenStreetMap</p> <div style="background:hsla(0,0%,100%,.6666666666666666);padding-bottom:1rem;border-radius:.25rem"> Special builtin layer providing all walls and buildings </div> </div> </div> </div> <span class="absolute" id="belowmap" style="z-index:-1">Below</span> <div id="leafletDiv"></div> <script src="index_walls_and_buildings.dc5b0ae3.js"></script> <script async data-goatcounter="https://pietervdvn.goatcounter.com/count" src="//gc.zgo.at/count.js"></script> <script>window.addEventListener("load",function(){"serviceWorker"in navigator?navigator.serviceWorker.register("service-worker.js").then(function(){console.log("Service worker registration successful")},function(e){console.error("Service worker registration failed",e)}):console.log("Service workers are not supported")});</script> </body></html>
+<!DOCTYPE html>
+<!-- WARNING: index.html serves as a template. If you want to change something, change it there -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <meta content="website" property="og:type">
+
+    <title>Walls and buildings</title>
+<link rel="manifest" href="data:application/manifest+json;base64,ewogICJuYW1lIjogIldhbGxzIGFuZCBidWlsZGluZ3MiLAogICJzaG9ydF9uYW1lIjogIldhbGxzIGFuZCBidWlsZGluZ3MiLAogICJzdGFydF91cmwiOiAid2FsbHNfYW5kX2J1aWxkaW5ncy5odG1sIiwKICAibGFuZyI6ICJlbiIsCiAgImRpc3BsYXkiOiAic3RhbmRhbG9uZSIsCiAgImJhY2tncm91bmRfY29sb3IiOiAiI2ZmZiIsCiAgImRlc2NyaXB0aW9uIjogIlNwZWNpYWwgYnVpbHRpbiBsYXllciBwcm92aWRpbmcgYWxsIHdhbGxzIGFuZCBidWlsZGluZ3MuIFRoaXMgbGF5ZXIgaXMgdXNlZnVsIGluIHByZXNldHMgZm9yIG9iamVjdHMgd2hpY2ggY2FuIGJlIHBsYWNlZCBhZ2FpbnN0IHdhbGxzIChlLmcuIEFFRHMsIHBvc3Rib3hlcywgZW50cmFuY2VzLCBhZGRyZXNzZXMsIHN1cnZlaWxsYW5jZSBjYW1lcmFzLCDigKYpLiBUaGlzIGxheWVyIGlzIGludmlzaWJsZSBieSBkZWZhdWx0IGFuZCBub3QgdG9nZ2xlYWJsZSBieSB0aGUgdXNlci4iLAogICJvcmllbnRhdGlvbiI6ICJwb3J0cmFpdC1wcmltYXJ5LCBsYW5kc2NhcGUtcHJpbWFyeSIsCiAgImljb25zIjogWwogICAgewogICAgICAic3JjIjogIi4vYXNzZXRzL2xheWVycy93YWxsc19hbmRfYnVpbGRpbmdzL3dhbGxzX2FuZF9idWlsZGluZ3MucG5nIiwKICAgICAgInNpemVzIjogIjUxM3g1MTMiLAogICAgICAidHlwZSI6ICJpbWFnZS9wbmciCiAgICB9CiAgXSwKICAiY2F0ZWdvcmllcyI6IFsKICAgICJtYXAiLAogICAgIm5hdmlnYXRpb24iCiAgXQp9">
+
+    <meta property="og:image" content="assets/SocialImage.png">
+    <meta property="og:title" content="Walls and buildings">
+    <meta property="og:description" content="Special builtin layer providing all walls and buildings">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@mapcomplete.osm.be">
+    <meta name="twitter:creator" content="@pietervdvn">
+    <meta name="twitter:title" content="Walls and buildings">
+    <meta name="twitter:description" content="Special builtin layer providing all walls and buildings">
+    <meta name="twitter:image" content="assets/SocialImage.png">
+
+<link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH0AAAB9CAIAAAAA4vtyAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAAd0SU1FB+AKDBEXDbwgJ1cAAAAMaVRYdENvbW1lbnQAAAAAALyuspkAAADQSURBVHja7dwxDQAgEARBnuBfECH4oSJBASr4hlkJU1x5cfYqSq8i4M5d3LmLO3dx5y7u3MWdO3dx5y7u3MWdu7hzF3fu3MWdu7hzF3fu4s5d3LmLO3fu4s5d3LmLO3dx5y7u3LmLO3dx5y7u3MWdu7hz5y7u3PWw1sekkF/4f7cz3MWdu7hzF3fu4s5d3LlzF3fu4s5d3LmLO3dx585d3LmLO3dx5y7u3MWdu7hz5y7u3MWdu7hzF3fu4s6du7hzF3fu4s5d3LmLO3fu4v5JF3apCMPTQSShAAAAAElFTkSuQmCC" sizes="any" type="image/svg+xml">
+    
+  <script type="module" crossorigin src="/mc/master/assets/walls_and_buildings-54ae4fc1.js"></script>
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/Translations-90cac94c.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/SubtleButton-5b6b984d.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/DropDown-c8388124.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/defineProperty-1d73cb61.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/List-2172953c.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/UserRelatedState-dfc2f585.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/Button-78f4392c.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/language_translations-cdf9ac75.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/theme_overview-0c10e8e3.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/MoreScreen-3c130806.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/LanguagePicker-22016516.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/Toggleable-b2d965a0.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/UserInformation-b69a6a41.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/BackToIndex-c5cf329e.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/DashboardGui-aba5e8ef.js">
+  <link rel="stylesheet" href="/mc/master/assets/Translations-c4abc1ef.css">
+  <link rel="stylesheet" href="/mc/master/assets/DashboardGui-350ddee6.css">
+  <link rel="stylesheet" href="/mc/master/assets/List-82c5367b.css">
+  <link rel="stylesheet" href="/mc/master/assets/ReviewElement-c55834a1.css">
+  <link rel="stylesheet" href="/mc/master/assets/tagrendering-e4d9a4c2.css">
+  <link rel="stylesheet" href="/mc/master/assets/wikipedia-d4b8e548.css">
+</head>
+<body>
+
+<div id="decoration-desktop" style="position: fixed; left: 1em; bottom: 1em; width:35vh; height:35vh;">
+    <!-- A nice decoration while loading or on errors -->
+    <img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH0AAAB9CAIAAAAA4vtyAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAAd0SU1FB+AKDBEXDbwgJ1cAAAAMaVRYdENvbW1lbnQAAAAAALyuspkAAADQSURBVHja7dwxDQAgEARBnuBfECH4oSJBASr4hlkJU1x5cfYqSq8i4M5d3LmLO3dx5y7u3MWdO3dx5y7u3MWdu7hzF3fu3MWdu7hzF3fu4s5d3LmLO3fu4s5d3LmLO3dx5y7u3LmLO3dx5y7u3MWdu7hz5y7u3PWw1sekkF/4f7cz3MWdu7hzF3fu4s5d3LlzF3fu4s5d3LmLO3dx585d3LmLO3dx5y7u3MWdu7hz5y7u3MWdu7hzF3fu4s6du7hzF3fu4s5d3LmLO3fu4v5JF3apCMPTQSShAAAAAElFTkSuQmCC' width="100%" height="100%">
+</div>
+
+<div class="very-small-screen fixed inset-0 block z-above-controls" id="on-small-screen"></div>
+<div class="fixed inset-0 block z-above-controls hidden hidden-on-very-small-screen md:w-1/3" style="min-width: 28rem" id="fullscreen"></div>
+
+<div class="absolute top-12 sm:top-3 left-3 rounded-3xl z-above-map" id="top-left"></div>
+<div class="absolute top-3 right-2 rounded-3xl z-above-map pl-3 sm:pl-0 w-full sm:w-fit" id="top-right"></div>
+
+<div class="absolute bottom-3 left-3 rounded-3xl z-above-map" id="bottom-left"></div>
+<div class="absolute bottom-3 right-2 rounded-3xl z-above-map" id="bottom-right"></div>
+
+<div class="clutter absolute h-24 left-24 right-24 top-56 text-xl text-center"
+     id="centermessage" style="z-index: 4000">
+    <div style="height: max-content">
+    <div style="margin-top: -3rem">
+        <div class="flex" style="justify-content: center">
+            <img src="/mc/master/assets/loading-90179bb2.svg" class="animate-spin" style="width: 1.5rem; height: 1.5rem; min-width: 1.5rem;"/>
+            <h1 style="font-weight: bold; font-size: xx-large; margin-bottom: 1rem; padding-left: 1rem">Loading Walls and buildings…</h1>
+        </div>
+    <p class="subtle" style="padding-bottom: 1rem">Powered by OpenStreetMap</p>
+    <div style="background: #ffffffaa; padding-bottom: 1rem; border-radius: 0.25rem">
+    Special builtin layer providing all walls and buildings
+    </div>
+    </div>
+    </div>
+</div>
+
+
+<span class="absolute" id="belowmap" style="z-index: -1">Below</span>
+<div id="leafletDiv"></div>
+
+
+
+<script async data-goatcounter="https://pietervdvn.goatcounter.com/count" src="//gc.zgo.at/count.js"></script>
+
+<script>
+    window.addEventListener('load', () => {
+        if ('serviceWorker' in navigator) {
+            // register service worker
+            navigator.serviceWorker.register('/service-worker.js').then(
+                () => {
+                    console.log('Service worker registration successful');
+                },
+                err => {
+                    console.error('Service worker registration failed', err)
+                });
+        } else {
+            console.log("Service workers are not supported")
+        }
+    });
+</script>
+
+</body>
+</html>

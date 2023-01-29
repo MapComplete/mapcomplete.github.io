@@ -1,1 +1,124 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport"><link href="leaflet.f8eab60f.css" rel="stylesheet"><link href="userbadge.ef93f0b4.css" rel="stylesheet"><link href="tabbedComponent.eec7a4da.css" rel="stylesheet"><link href="mobile.17417aed.css" rel="stylesheet"><link href="openinghourstable.8832504f.css" rel="stylesheet"><link href="tagrendering.b8115c66.css" rel="stylesheet"><link href="ReviewElement.80877b6e.css" rel="stylesheet"><link href="index-tailwind-output.176e5b31.css" rel="stylesheet"><link href="wikipedia.83aef2df.css" rel="stylesheet"><meta content="website" property="og:type"><title>Personal theme</title><link rel="manifest" href="personal.webmanifest"><meta property="og:image" content="assets_generated_images_social_image_personal_512.7f20d33b.png"><meta property="og:title" content="Personal theme"><meta property="og:description" content="Create a personal theme based on all the available layers of all themes"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@mapcomplete.osm.be"><meta name="twitter:creator" content="@pietervdvn"><meta name="twitter:title" content="Personal theme"><meta name="twitter:description" content="Create a personal theme based on all the available layers of all themes"><meta name="twitter:image" content="assets_generated_images_social_image_personal_Wide512.e79b8800.png"><link rel="icon" href="addSmall.42bcefbb.svg" sizes="any" type="image/svg+xml"><link rel="apple-touch-icon" sizes="72x72" href="assets_generated_images_theme_personal_white_background72.b292830d.png"><link rel="apple-touch-icon" sizes="96x96" href="assets_generated_images_theme_personal_white_background96.33932fe8.png"><link rel="apple-touch-icon" sizes="120x120" href="assets_generated_images_theme_personal_white_background120.410b5798.png"><link rel="apple-touch-icon" sizes="128x128" href="assets_generated_images_theme_personal_white_background128.b7ea1ee5.png"><link rel="apple-touch-icon" sizes="144x144" href="assets_generated_images_theme_personal_white_background144.7a916e8a.png"><link rel="apple-touch-icon" sizes="152x152" href="assets_generated_images_theme_personal_white_background152.c4e85ac3.png"><link rel="apple-touch-icon" sizes="180x180" href="assets_generated_images_theme_personal_white_background180.5b030fc3.png"><link rel="apple-touch-icon" sizes="192x192" href="assets_generated_images_theme_personal_white_background192.d5bfcc0f.png"><link rel="apple-touch-icon" sizes="384x384" href="assets_generated_images_theme_personal_white_background384.689bfa26.png"><link rel="apple-touch-icon" sizes="512x512" href="assets_generated_images_theme_personal_white_background512.daae4dda.png"></head><body> <div id="decoration-desktop" style="position:fixed;left:1em;bottom:1em;width:35vh;height:35vh;">  <img src="addSmall.42bcefbb.svg" width="100%" height="100%"> </div> <div class="block fixed inset-0 very-small-screen z-above-controls" id="on-small-screen"></div> <div class="block fixed hidden hidden-on-very-small-screen inset-0 md:w-1/3 z-above-controls" style="min-width:28rem" id="fullscreen"></div> <div class="absolute left-3 rounded-3xl sm:top-3 top-12 z-above-map" id="top-left"></div> <div class="absolute pl-3 right-2 rounded-3xl sm:pl-0 sm:w-fit top-3 w-full z-above-map" id="top-right"></div> <div class="absolute bottom-3 left-3 rounded-3xl z-above-map" id="bottom-left"></div> <div class="absolute bottom-3 right-2 rounded-3xl z-above-map" id="bottom-right"></div> <div class="absolute clutter h-24 left-24 right-24 text-center text-xl top-56" id="centermessage" style="z-index:4000"> <div style="height:max-content"> <div style="margin-top:-3rem"> <div class="flex" style="justify-content:center"> <img src="loading.7b7ee7a3.svg" class="animate-spin" style="width:1.5rem;height:1.5rem;min-width:1.5rem;"> <h1 style="font-weight:700;font-size:xx-large;margin-bottom:1rem;padding-left:1rem">Loading Personal theme…</h1> </div> <p class="subtle" style="padding-bottom:1rem">Powered by OpenStreetMap</p> <div style="background:hsla(0,0%,100%,.6666666666666666);padding-bottom:1rem;border-radius:.25rem"> Create a personal theme based on all the available layers of all themes </div> </div> </div> </div> <span class="absolute" id="belowmap" style="z-index:-1">Below</span> <div id="leafletDiv"></div> <script src="index_personal.d37c2c7a.js"></script> <script async data-goatcounter="https://pietervdvn.goatcounter.com/count" src="//gc.zgo.at/count.js"></script> <script>window.addEventListener("load",function(){"serviceWorker"in navigator?navigator.serviceWorker.register("service-worker.js").then(function(){console.log("Service worker registration successful")},function(e){console.error("Service worker registration failed",e)}):console.log("Service workers are not supported")});</script> </body></html>
+<!DOCTYPE html>
+<!-- WARNING: index.html serves as a template. If you want to change something, change it there -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <meta content="website" property="og:type">
+
+    <title>Personal theme</title>
+<link rel="manifest" href="data:application/manifest+json;base64,ewogICJuYW1lIjogIlBlcnNvbmFsIHRoZW1lIiwKICAic2hvcnRfbmFtZSI6ICJQZXJzb25hbCB0aGVtZSIsCiAgInN0YXJ0X3VybCI6ICJwZXJzb25hbC5odG1sIiwKICAibGFuZyI6ICJlbiIsCiAgImRpc3BsYXkiOiAic3RhbmRhbG9uZSIsCiAgImJhY2tncm91bmRfY29sb3IiOiAiI2ZmZiIsCiAgImRlc2NyaXB0aW9uIjogIkNyZWF0ZSBhIHBlcnNvbmFsIHRoZW1lIGJhc2VkIG9uIGFsbCB0aGUgYXZhaWxhYmxlIGxheWVycyBvZiBhbGwgdGhlbWVzLiBJbiBvcmRlciB0byBzaG93IHNvbWUgZGF0YSwgb3BlbiA8YSBocmVmPScjZmlsdGVyJz5sYXllciBzZWxlY3Rpb248L2E+IiwKICAib3JpZW50YXRpb24iOiAicG9ydHJhaXQtcHJpbWFyeSwgbGFuZHNjYXBlLXByaW1hcnkiLAogICJpY29ucyI6IFsKICAgIHsKICAgICAgInNyYyI6ICJhc3NldHMvZ2VuZXJhdGVkL2ltYWdlcy9hc3NldHNfc3ZnX2FkZFNtYWxsNzIucG5nIiwKICAgICAgInNpemVzIjogIjcyeDcyIiwKICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgfSwKICAgIHsKICAgICAgInNyYyI6ICJhc3NldHMvZ2VuZXJhdGVkL2ltYWdlcy9hc3NldHNfc3ZnX2FkZFNtYWxsOTYucG5nIiwKICAgICAgInNpemVzIjogIjk2eDk2IiwKICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgfSwKICAgIHsKICAgICAgInNyYyI6ICJhc3NldHMvZ2VuZXJhdGVkL2ltYWdlcy9hc3NldHNfc3ZnX2FkZFNtYWxsMTIwLnBuZyIsCiAgICAgICJzaXplcyI6ICIxMjB4MTIwIiwKICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgfSwKICAgIHsKICAgICAgInNyYyI6ICJhc3NldHMvZ2VuZXJhdGVkL2ltYWdlcy9hc3NldHNfc3ZnX2FkZFNtYWxsMTI4LnBuZyIsCiAgICAgICJzaXplcyI6ICIxMjh4MTI4IiwKICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgfSwKICAgIHsKICAgICAgInNyYyI6ICJhc3NldHMvZ2VuZXJhdGVkL2ltYWdlcy9hc3NldHNfc3ZnX2FkZFNtYWxsMTQ0LnBuZyIsCiAgICAgICJzaXplcyI6ICIxNDR4MTQ0IiwKICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgfSwKICAgIHsKICAgICAgInNyYyI6ICJhc3NldHMvZ2VuZXJhdGVkL2ltYWdlcy9hc3NldHNfc3ZnX2FkZFNtYWxsMTUyLnBuZyIsCiAgICAgICJzaXplcyI6ICIxNTJ4MTUyIiwKICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgfSwKICAgIHsKICAgICAgInNyYyI6ICJhc3NldHMvZ2VuZXJhdGVkL2ltYWdlcy9hc3NldHNfc3ZnX2FkZFNtYWxsMTgwLnBuZyIsCiAgICAgICJzaXplcyI6ICIxODB4MTgwIiwKICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgfSwKICAgIHsKICAgICAgInNyYyI6ICJhc3NldHMvZ2VuZXJhdGVkL2ltYWdlcy9hc3NldHNfc3ZnX2FkZFNtYWxsMTkyLnBuZyIsCiAgICAgICJzaXplcyI6ICIxOTJ4MTkyIiwKICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgfSwKICAgIHsKICAgICAgInNyYyI6ICJhc3NldHMvZ2VuZXJhdGVkL2ltYWdlcy9hc3NldHNfc3ZnX2FkZFNtYWxsMzg0LnBuZyIsCiAgICAgICJzaXplcyI6ICIzODR4Mzg0IiwKICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgfSwKICAgIHsKICAgICAgInNyYyI6ICJhc3NldHMvZ2VuZXJhdGVkL2ltYWdlcy9hc3NldHNfc3ZnX2FkZFNtYWxsNTEyLnBuZyIsCiAgICAgICJzaXplcyI6ICI1MTJ4NTEyIiwKICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgfSwKICAgIHsKICAgICAgInNyYyI6ICIuL2Fzc2V0cy9zdmcvYWRkU21hbGwuc3ZnIiwKICAgICAgInNpemVzIjogIjUxM3g1MTMiLAogICAgICAidHlwZSI6ICJpbWFnZS9zdmciCiAgICB9CiAgXSwKICAiY2F0ZWdvcmllcyI6IFsKICAgICJtYXAiLAogICAgIm5hdmlnYXRpb24iCiAgXQp9">
+
+    <meta property="og:image" content="assets/generated/images/assets_generated_images_social_image_personal_512.png">
+    <meta property="og:title" content="Personal theme">
+    <meta property="og:description" content="Create a personal theme based on all the available layers of all themes">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@mapcomplete.osm.be">
+    <meta name="twitter:creator" content="@pietervdvn">
+    <meta name="twitter:title" content="Personal theme">
+    <meta name="twitter:description" content="Create a personal theme based on all the available layers of all themes">
+    <meta name="twitter:image" content="assets/generated/images/assets_generated_images_social_image_personal_Wide512.png">
+
+<link rel="icon" href="/mc/master/assets/addSmall-fa206e15.svg" sizes="any" type="image/svg+xml">
+<link rel="apple-touch-icon" sizes="72x72" href="data:image/png;base64,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">
+<link rel="apple-touch-icon" sizes="96x96" href="data:image/png;base64,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">
+<link rel="apple-touch-icon" sizes="120x120" href="/mc/master/assets/assets_generated_images_theme_personal_white_background120-44ae8d27.png">
+<link rel="apple-touch-icon" sizes="128x128" href="/mc/master/assets/assets_generated_images_theme_personal_white_background128-f93fa680.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/mc/master/assets/assets_generated_images_theme_personal_white_background144-9af3ecb2.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/mc/master/assets/assets_generated_images_theme_personal_white_background152-f26e50ff.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/mc/master/assets/assets_generated_images_theme_personal_white_background180-cbbcecd0.png">
+<link rel="apple-touch-icon" sizes="192x192" href="/mc/master/assets/assets_generated_images_theme_personal_white_background192-2b6dbfcc.png">
+<link rel="apple-touch-icon" sizes="384x384" href="/mc/master/assets/assets_generated_images_theme_personal_white_background384-0718f030.png">
+<link rel="apple-touch-icon" sizes="512x512" href="/mc/master/assets/assets_generated_images_theme_personal_white_background512-f7904bc0.png">
+    
+  <script type="module" crossorigin src="/mc/master/assets/personal-8b5f31cf.js"></script>
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/Translations-90cac94c.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/SubtleButton-5b6b984d.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/DropDown-c8388124.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/defineProperty-1d73cb61.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/List-2172953c.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/UserRelatedState-dfc2f585.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/Button-78f4392c.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/language_translations-cdf9ac75.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/theme_overview-0c10e8e3.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/MoreScreen-3c130806.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/LanguagePicker-22016516.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/Toggleable-b2d965a0.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/UserInformation-b69a6a41.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/BackToIndex-c5cf329e.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/DashboardGui-aba5e8ef.js">
+  <link rel="stylesheet" href="/mc/master/assets/Translations-c4abc1ef.css">
+  <link rel="stylesheet" href="/mc/master/assets/DashboardGui-350ddee6.css">
+  <link rel="stylesheet" href="/mc/master/assets/List-82c5367b.css">
+  <link rel="stylesheet" href="/mc/master/assets/ReviewElement-c55834a1.css">
+  <link rel="stylesheet" href="/mc/master/assets/tagrendering-e4d9a4c2.css">
+  <link rel="stylesheet" href="/mc/master/assets/wikipedia-d4b8e548.css">
+</head>
+<body>
+
+<div id="decoration-desktop" style="position: fixed; left: 1em; bottom: 1em; width:35vh; height:35vh;">
+    <!-- A nice decoration while loading or on errors -->
+    <img src='/mc/master/assets/addSmall-fa206e15.svg' width="100%" height="100%">
+</div>
+
+<div class="very-small-screen fixed inset-0 block z-above-controls" id="on-small-screen"></div>
+<div class="fixed inset-0 block z-above-controls hidden hidden-on-very-small-screen md:w-1/3" style="min-width: 28rem" id="fullscreen"></div>
+
+<div class="absolute top-12 sm:top-3 left-3 rounded-3xl z-above-map" id="top-left"></div>
+<div class="absolute top-3 right-2 rounded-3xl z-above-map pl-3 sm:pl-0 w-full sm:w-fit" id="top-right"></div>
+
+<div class="absolute bottom-3 left-3 rounded-3xl z-above-map" id="bottom-left"></div>
+<div class="absolute bottom-3 right-2 rounded-3xl z-above-map" id="bottom-right"></div>
+
+<div class="clutter absolute h-24 left-24 right-24 top-56 text-xl text-center"
+     id="centermessage" style="z-index: 4000">
+    <div style="height: max-content">
+    <div style="margin-top: -3rem">
+        <div class="flex" style="justify-content: center">
+            <img src="/mc/master/assets/loading-90179bb2.svg" class="animate-spin" style="width: 1.5rem; height: 1.5rem; min-width: 1.5rem;"/>
+            <h1 style="font-weight: bold; font-size: xx-large; margin-bottom: 1rem; padding-left: 1rem">Loading Personal theme…</h1>
+        </div>
+    <p class="subtle" style="padding-bottom: 1rem">Powered by OpenStreetMap</p>
+    <div style="background: #ffffffaa; padding-bottom: 1rem; border-radius: 0.25rem">
+    Create a personal theme based on all the available layers of all themes
+    </div>
+    </div>
+    </div>
+</div>
+
+
+<span class="absolute" id="belowmap" style="z-index: -1">Below</span>
+<div id="leafletDiv"></div>
+
+
+
+<script async data-goatcounter="https://pietervdvn.goatcounter.com/count" src="//gc.zgo.at/count.js"></script>
+
+<script>
+    window.addEventListener('load', () => {
+        if ('serviceWorker' in navigator) {
+            // register service worker
+            navigator.serviceWorker.register('/service-worker.js').then(
+                () => {
+                    console.log('Service worker registration successful');
+                },
+                err => {
+                    console.error('Service worker registration failed', err)
+                });
+        } else {
+            console.log("Service workers are not supported")
+        }
+    });
+</script>
+
+</body>
+</html>

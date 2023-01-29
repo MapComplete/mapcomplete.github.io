@@ -1,1 +1,124 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport"><link href="leaflet.f8eab60f.css" rel="stylesheet"><link href="userbadge.ef93f0b4.css" rel="stylesheet"><link href="tabbedComponent.eec7a4da.css" rel="stylesheet"><link href="mobile.17417aed.css" rel="stylesheet"><link href="openinghourstable.8832504f.css" rel="stylesheet"><link href="tagrendering.b8115c66.css" rel="stylesheet"><link href="ReviewElement.80877b6e.css" rel="stylesheet"><link href="index-tailwind-output.176e5b31.css" rel="stylesheet"><link href="wikipedia.83aef2df.css" rel="stylesheet"><meta content="website" property="og:type"><title>OnWheels</title><link rel="manifest" href="onwheels.webmanifest"><meta property="og:image" content="assets_generated_images_social_image_onwheels_512.5b90d724.png"><meta property="og:title" content="OnWheels"><meta property="og:description" content="On this map, publicly weelchair accessible places are shown and can be easily added"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@mapcomplete.osm.be"><meta name="twitter:creator" content="@pietervdvn"><meta name="twitter:title" content="OnWheels"><meta name="twitter:description" content="On this map, publicly weelchair accessible places are shown and can be easily added"><meta name="twitter:image" content="assets_generated_images_social_image_onwheels_Wide512.8d5afa2d.png"><link rel="icon" href="crest.f35c1be9.svg" sizes="any" type="image/svg+xml"><link rel="apple-touch-icon" sizes="72x72" href="assets_generated_images_theme_onwheels_white_background72.c6c33b46.png"><link rel="apple-touch-icon" sizes="96x96" href="assets_generated_images_theme_onwheels_white_background96.2b266e46.png"><link rel="apple-touch-icon" sizes="120x120" href="assets_generated_images_theme_onwheels_white_background120.8b802731.png"><link rel="apple-touch-icon" sizes="128x128" href="assets_generated_images_theme_onwheels_white_background128.56ddb2e2.png"><link rel="apple-touch-icon" sizes="144x144" href="assets_generated_images_theme_onwheels_white_background144.198e1d0d.png"><link rel="apple-touch-icon" sizes="152x152" href="assets_generated_images_theme_onwheels_white_background152.972c078c.png"><link rel="apple-touch-icon" sizes="180x180" href="assets_generated_images_theme_onwheels_white_background180.e2bd9b12.png"><link rel="apple-touch-icon" sizes="192x192" href="assets_generated_images_theme_onwheels_white_background192.7cc4e6b8.png"><link rel="apple-touch-icon" sizes="384x384" href="assets_generated_images_theme_onwheels_white_background384.61f14aa4.png"><link rel="apple-touch-icon" sizes="512x512" href="assets_generated_images_theme_onwheels_white_background512.54f9bbd7.png"></head><body> <div id="decoration-desktop" style="position:fixed;left:1em;bottom:1em;width:35vh;height:35vh;">  <img src="crest.f35c1be9.svg" width="100%" height="100%"> </div> <div class="block fixed inset-0 very-small-screen z-above-controls" id="on-small-screen"></div> <div class="block fixed hidden hidden-on-very-small-screen inset-0 md:w-1/3 z-above-controls" style="min-width:28rem" id="fullscreen"></div> <div class="absolute left-3 rounded-3xl sm:top-3 top-12 z-above-map" id="top-left"></div> <div class="absolute pl-3 right-2 rounded-3xl sm:pl-0 sm:w-fit top-3 w-full z-above-map" id="top-right"></div> <div class="absolute bottom-3 left-3 rounded-3xl z-above-map" id="bottom-left"></div> <div class="absolute bottom-3 right-2 rounded-3xl z-above-map" id="bottom-right"></div> <div class="absolute clutter h-24 left-24 right-24 text-center text-xl top-56" id="centermessage" style="z-index:4000"> <div style="height:max-content"> <div style="margin-top:-3rem"> <div class="flex" style="justify-content:center"> <img src="loading.7b7ee7a3.svg" class="animate-spin" style="width:1.5rem;height:1.5rem;min-width:1.5rem;"> <h1 style="font-weight:700;font-size:xx-large;margin-bottom:1rem;padding-left:1rem">Loading OnWheels…</h1> </div> <p class="subtle" style="padding-bottom:1rem">Powered by OpenStreetMap</p> <div style="background:hsla(0,0%,100%,.6666666666666666);padding-bottom:1rem;border-radius:.25rem"> On this map, publicly weelchair accessible places are shown and can be easily added </div> </div> </div> </div> <span class="absolute" id="belowmap" style="z-index:-1">Below</span> <div id="leafletDiv"></div> <script src="index_onwheels.c18abf7f.js"></script> <script async data-goatcounter="https://pietervdvn.goatcounter.com/count" src="//gc.zgo.at/count.js"></script> <script>window.addEventListener("load",function(){"serviceWorker"in navigator?navigator.serviceWorker.register("service-worker.js").then(function(){console.log("Service worker registration successful")},function(e){console.error("Service worker registration failed",e)}):console.log("Service workers are not supported")});</script> </body></html>
+<!DOCTYPE html>
+<!-- WARNING: index.html serves as a template. If you want to change something, change it there -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <meta content="website" property="og:type">
+
+    <title>OnWheels</title>
+<link rel="manifest" href="data:application/manifest+json;base64,ewogICJuYW1lIjogIk9uV2hlZWxzIiwKICAic2hvcnRfbmFtZSI6ICJPbldoZWVscyIsCiAgInN0YXJ0X3VybCI6ICJvbndoZWVscy5odG1sIiwKICAibGFuZyI6ICJlbiIsCiAgImRpc3BsYXkiOiAic3RhbmRhbG9uZSIsCiAgImJhY2tncm91bmRfY29sb3IiOiAiI2ZmZiIsCiAgImRlc2NyaXB0aW9uIjogIk9uIHRoaXMgbWFwLCBwdWJsaWNseSB3ZWVsY2hhaXIgYWNjZXNzaWJsZSBwbGFjZXMgYXJlIHNob3duIGFuZCBjYW4gYmUgZWFzaWx5IGFkZGVkIiwKICAib3JpZW50YXRpb24iOiAicG9ydHJhaXQtcHJpbWFyeSwgbGFuZHNjYXBlLXByaW1hcnkiLAogICJpY29ucyI6IFsKICAgIHsKICAgICAgInNyYyI6ICJhc3NldHMvZ2VuZXJhdGVkL2ltYWdlcy9hc3NldHNfdGhlbWVzX29ud2hlZWxzX2NyZXN0NzIucG5nIiwKICAgICAgInNpemVzIjogIjcyeDcyIiwKICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgfSwKICAgIHsKICAgICAgInNyYyI6ICJhc3NldHMvZ2VuZXJhdGVkL2ltYWdlcy9hc3NldHNfdGhlbWVzX29ud2hlZWxzX2NyZXN0OTYucG5nIiwKICAgICAgInNpemVzIjogIjk2eDk2IiwKICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgfSwKICAgIHsKICAgICAgInNyYyI6ICJhc3NldHMvZ2VuZXJhdGVkL2ltYWdlcy9hc3NldHNfdGhlbWVzX29ud2hlZWxzX2NyZXN0MTIwLnBuZyIsCiAgICAgICJzaXplcyI6ICIxMjB4MTIwIiwKICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgfSwKICAgIHsKICAgICAgInNyYyI6ICJhc3NldHMvZ2VuZXJhdGVkL2ltYWdlcy9hc3NldHNfdGhlbWVzX29ud2hlZWxzX2NyZXN0MTI4LnBuZyIsCiAgICAgICJzaXplcyI6ICIxMjh4MTI4IiwKICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgfSwKICAgIHsKICAgICAgInNyYyI6ICJhc3NldHMvZ2VuZXJhdGVkL2ltYWdlcy9hc3NldHNfdGhlbWVzX29ud2hlZWxzX2NyZXN0MTQ0LnBuZyIsCiAgICAgICJzaXplcyI6ICIxNDR4MTQ0IiwKICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgfSwKICAgIHsKICAgICAgInNyYyI6ICJhc3NldHMvZ2VuZXJhdGVkL2ltYWdlcy9hc3NldHNfdGhlbWVzX29ud2hlZWxzX2NyZXN0MTUyLnBuZyIsCiAgICAgICJzaXplcyI6ICIxNTJ4MTUyIiwKICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgfSwKICAgIHsKICAgICAgInNyYyI6ICJhc3NldHMvZ2VuZXJhdGVkL2ltYWdlcy9hc3NldHNfdGhlbWVzX29ud2hlZWxzX2NyZXN0MTgwLnBuZyIsCiAgICAgICJzaXplcyI6ICIxODB4MTgwIiwKICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgfSwKICAgIHsKICAgICAgInNyYyI6ICJhc3NldHMvZ2VuZXJhdGVkL2ltYWdlcy9hc3NldHNfdGhlbWVzX29ud2hlZWxzX2NyZXN0MTkyLnBuZyIsCiAgICAgICJzaXplcyI6ICIxOTJ4MTkyIiwKICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgfSwKICAgIHsKICAgICAgInNyYyI6ICJhc3NldHMvZ2VuZXJhdGVkL2ltYWdlcy9hc3NldHNfdGhlbWVzX29ud2hlZWxzX2NyZXN0Mzg0LnBuZyIsCiAgICAgICJzaXplcyI6ICIzODR4Mzg0IiwKICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgfSwKICAgIHsKICAgICAgInNyYyI6ICJhc3NldHMvZ2VuZXJhdGVkL2ltYWdlcy9hc3NldHNfdGhlbWVzX29ud2hlZWxzX2NyZXN0NTEyLnBuZyIsCiAgICAgICJzaXplcyI6ICI1MTJ4NTEyIiwKICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgfSwKICAgIHsKICAgICAgInNyYyI6ICIuL2Fzc2V0cy90aGVtZXMvb253aGVlbHMvY3Jlc3Quc3ZnIiwKICAgICAgInNpemVzIjogIjUxM3g1MTMiLAogICAgICAidHlwZSI6ICJpbWFnZS9zdmciCiAgICB9CiAgXSwKICAiY2F0ZWdvcmllcyI6IFsKICAgICJtYXAiLAogICAgIm5hdmlnYXRpb24iCiAgXQp9">
+
+    <meta property="og:image" content="assets/generated/images/assets_generated_images_social_image_onwheels_512.png">
+    <meta property="og:title" content="OnWheels">
+    <meta property="og:description" content="On this map, publicly weelchair accessible places are shown and can be easily added">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@mapcomplete.osm.be">
+    <meta name="twitter:creator" content="@pietervdvn">
+    <meta name="twitter:title" content="OnWheels">
+    <meta name="twitter:description" content="On this map, publicly weelchair accessible places are shown and can be easily added">
+    <meta name="twitter:image" content="assets/generated/images/assets_generated_images_social_image_onwheels_Wide512.png">
+
+<link rel="icon" href="/mc/master/assets/crest-0a283b1f.svg" sizes="any" type="image/svg+xml">
+<link rel="apple-touch-icon" sizes="72x72" href="data:image/png;base64,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">
+<link rel="apple-touch-icon" sizes="96x96" href="/mc/master/assets/assets_generated_images_theme_onwheels_white_background96-08762191.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/mc/master/assets/assets_generated_images_theme_onwheels_white_background120-fdb50e70.png">
+<link rel="apple-touch-icon" sizes="128x128" href="/mc/master/assets/assets_generated_images_theme_onwheels_white_background128-6f5743e0.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/mc/master/assets/assets_generated_images_theme_onwheels_white_background144-b87f884f.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/mc/master/assets/assets_generated_images_theme_onwheels_white_background152-4ccf8584.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/mc/master/assets/assets_generated_images_theme_onwheels_white_background180-0db6318f.png">
+<link rel="apple-touch-icon" sizes="192x192" href="/mc/master/assets/assets_generated_images_theme_onwheels_white_background192-20dc2c3d.png">
+<link rel="apple-touch-icon" sizes="384x384" href="/mc/master/assets/assets_generated_images_theme_onwheels_white_background384-439fe4b9.png">
+<link rel="apple-touch-icon" sizes="512x512" href="/mc/master/assets/assets_generated_images_theme_onwheels_white_background512-6bbe3965.png">
+    
+  <script type="module" crossorigin src="/mc/master/assets/onwheels-9df0049c.js"></script>
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/Translations-90cac94c.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/SubtleButton-5b6b984d.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/DropDown-c8388124.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/defineProperty-1d73cb61.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/List-2172953c.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/UserRelatedState-dfc2f585.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/Button-78f4392c.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/language_translations-cdf9ac75.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/theme_overview-0c10e8e3.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/MoreScreen-3c130806.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/LanguagePicker-22016516.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/Toggleable-b2d965a0.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/UserInformation-b69a6a41.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/BackToIndex-c5cf329e.js">
+  <link rel="modulepreload" crossorigin href="/mc/master/assets/DashboardGui-aba5e8ef.js">
+  <link rel="stylesheet" href="/mc/master/assets/Translations-c4abc1ef.css">
+  <link rel="stylesheet" href="/mc/master/assets/DashboardGui-350ddee6.css">
+  <link rel="stylesheet" href="/mc/master/assets/List-82c5367b.css">
+  <link rel="stylesheet" href="/mc/master/assets/ReviewElement-c55834a1.css">
+  <link rel="stylesheet" href="/mc/master/assets/tagrendering-e4d9a4c2.css">
+  <link rel="stylesheet" href="/mc/master/assets/wikipedia-d4b8e548.css">
+</head>
+<body>
+
+<div id="decoration-desktop" style="position: fixed; left: 1em; bottom: 1em; width:35vh; height:35vh;">
+    <!-- A nice decoration while loading or on errors -->
+    <img src='/mc/master/assets/crest-0a283b1f.svg' width="100%" height="100%">
+</div>
+
+<div class="very-small-screen fixed inset-0 block z-above-controls" id="on-small-screen"></div>
+<div class="fixed inset-0 block z-above-controls hidden hidden-on-very-small-screen md:w-1/3" style="min-width: 28rem" id="fullscreen"></div>
+
+<div class="absolute top-12 sm:top-3 left-3 rounded-3xl z-above-map" id="top-left"></div>
+<div class="absolute top-3 right-2 rounded-3xl z-above-map pl-3 sm:pl-0 w-full sm:w-fit" id="top-right"></div>
+
+<div class="absolute bottom-3 left-3 rounded-3xl z-above-map" id="bottom-left"></div>
+<div class="absolute bottom-3 right-2 rounded-3xl z-above-map" id="bottom-right"></div>
+
+<div class="clutter absolute h-24 left-24 right-24 top-56 text-xl text-center"
+     id="centermessage" style="z-index: 4000">
+    <div style="height: max-content">
+    <div style="margin-top: -3rem">
+        <div class="flex" style="justify-content: center">
+            <img src="/mc/master/assets/loading-90179bb2.svg" class="animate-spin" style="width: 1.5rem; height: 1.5rem; min-width: 1.5rem;"/>
+            <h1 style="font-weight: bold; font-size: xx-large; margin-bottom: 1rem; padding-left: 1rem">Loading OnWheels…</h1>
+        </div>
+    <p class="subtle" style="padding-bottom: 1rem">Powered by OpenStreetMap</p>
+    <div style="background: #ffffffaa; padding-bottom: 1rem; border-radius: 0.25rem">
+    On this map, publicly weelchair accessible places are shown and can be easily added
+    </div>
+    </div>
+    </div>
+</div>
+
+
+<span class="absolute" id="belowmap" style="z-index: -1">Below</span>
+<div id="leafletDiv"></div>
+
+
+
+<script async data-goatcounter="https://pietervdvn.goatcounter.com/count" src="//gc.zgo.at/count.js"></script>
+
+<script>
+    window.addEventListener('load', () => {
+        if ('serviceWorker' in navigator) {
+            // register service worker
+            navigator.serviceWorker.register('/service-worker.js').then(
+                () => {
+                    console.log('Service worker registration successful');
+                },
+                err => {
+                    console.error('Service worker registration failed', err)
+                });
+        } else {
+            console.log("Service workers are not supported")
+        }
+    });
+</script>
+
+</body>
+</html>
