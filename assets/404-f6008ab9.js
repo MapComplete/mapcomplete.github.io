@@ -1,1 +1,0 @@
-import{C as i,F as o}from"./Translations-bc059984.js";/* empty css                     */import{B as e}from"./BackToIndex-f1095a52.js";import"./SubtleButton-012042b6.js";new i([new o("This page is not found"),new e]).AttachTo("maindiv");
