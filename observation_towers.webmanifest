@@ -9,52 +9,52 @@
   "orientation": "portrait-primary, landscape-primary",
   "icons": [
     {
-      "src": "assets/generated/images/assets_layers_observation_tower_Tower_observation72.png",
+      "src": "public/assets/generated/images/assets_layers_observation_tower_Tower_observation72.png",
       "sizes": "72x72",
       "type": "image/png"
     },
     {
-      "src": "assets/generated/images/assets_layers_observation_tower_Tower_observation96.png",
+      "src": "public/assets/generated/images/assets_layers_observation_tower_Tower_observation96.png",
       "sizes": "96x96",
       "type": "image/png"
     },
     {
-      "src": "assets/generated/images/assets_layers_observation_tower_Tower_observation120.png",
+      "src": "public/assets/generated/images/assets_layers_observation_tower_Tower_observation120.png",
       "sizes": "120x120",
       "type": "image/png"
     },
     {
-      "src": "assets/generated/images/assets_layers_observation_tower_Tower_observation128.png",
+      "src": "public/assets/generated/images/assets_layers_observation_tower_Tower_observation128.png",
       "sizes": "128x128",
       "type": "image/png"
     },
     {
-      "src": "assets/generated/images/assets_layers_observation_tower_Tower_observation144.png",
+      "src": "public/assets/generated/images/assets_layers_observation_tower_Tower_observation144.png",
       "sizes": "144x144",
       "type": "image/png"
     },
     {
-      "src": "assets/generated/images/assets_layers_observation_tower_Tower_observation152.png",
+      "src": "public/assets/generated/images/assets_layers_observation_tower_Tower_observation152.png",
       "sizes": "152x152",
       "type": "image/png"
     },
     {
-      "src": "assets/generated/images/assets_layers_observation_tower_Tower_observation180.png",
+      "src": "public/assets/generated/images/assets_layers_observation_tower_Tower_observation180.png",
       "sizes": "180x180",
       "type": "image/png"
     },
     {
-      "src": "assets/generated/images/assets_layers_observation_tower_Tower_observation192.png",
+      "src": "public/assets/generated/images/assets_layers_observation_tower_Tower_observation192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "assets/generated/images/assets_layers_observation_tower_Tower_observation384.png",
+      "src": "public/assets/generated/images/assets_layers_observation_tower_Tower_observation384.png",
       "sizes": "384x384",
       "type": "image/png"
     },
     {
-      "src": "assets/generated/images/assets_layers_observation_tower_Tower_observation512.png",
+      "src": "public/assets/generated/images/assets_layers_observation_tower_Tower_observation512.png",
       "sizes": "512x512",
       "type": "image/png"
     },

@@ -362,6 +362,29 @@
       }
     },
     {
+      "id": "hydrant-number-of-couplings",
+      "question": {
+        "en": "How many couplings does this fire hydrant have?",
+        "de": "Wie viele Kupplungen hat dieser Hydrant?",
+        "nl": "Hoe veel koppelingen bezit deze brandkraan?",
+        "ca": "Quants acoblaments té aquest hidrant?"
+      },
+      "freeform": {
+        "key": "couplings",
+        "placeholder": {
+          "en": "Number of couplings",
+          "de": "Anzahl der Kupplungen",
+          "nl": "Aantal koppelingen"
+        },
+        "type": "int"
+      },
+      "render": {
+        "en": "Number of couplings: {couplings}",
+        "de": "Anzahl der Kupplungen: {couplings}",
+        "nl": "Aantal koppelingen: {couplings}"
+      }
+    },
+    {
       "id": "hydrant-couplings",
       "question": {
         "en": "What kind of couplings does this hydrant have?",

@@ -18,7 +18,7 @@
     <title>MapRoulette Tasks</title>
 <link rel="manifest" href="maproulette.webmanifest">
 
-    <meta property="og:image" content="assets/generated/images/assets_generated_images_social_image_maproulette_512.png">
+    <meta property="og:image" content="public/assets/generated/images/public_assets_generated_images_social_image_maproulette_512.png">
     <meta property="og:title" content="MapRoulette Tasks">
     <meta property="og:description" content="Theme showing MapRoulette tasks, allowing you to search, filter and fix them">
     <meta name="twitter:card" content="summary_large_image">
@@ -26,37 +26,36 @@
     <meta name="twitter:creator" content="@pietervdvn">
     <meta name="twitter:title" content="MapRoulette Tasks">
     <meta name="twitter:description" content="Theme showing MapRoulette tasks, allowing you to search, filter and fix them">
-    <meta name="twitter:image" content="assets/generated/images/assets_generated_images_social_image_maproulette_Wide512.png">
+    <meta name="twitter:image" content="public/assets/generated/images/public_assets_generated_images_social_image_maproulette_Wide512.png">
 
 <link rel="icon" href="./assets/logomark-2cf75963.svg" sizes="any" type="image/svg+xml">
 <link rel="apple-touch-icon" sizes="72x72" href="data:image/png;base64,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">
-<link rel="apple-touch-icon" sizes="96x96" href="./assets/assets_generated_images_theme_maproulette_white_background96-0feeeff3.png">
-<link rel="apple-touch-icon" sizes="120x120" href="./assets/assets_generated_images_theme_maproulette_white_background120-40c03b1d.png">
-<link rel="apple-touch-icon" sizes="128x128" href="./assets/assets_generated_images_theme_maproulette_white_background128-1b22a717.png">
-<link rel="apple-touch-icon" sizes="144x144" href="./assets/assets_generated_images_theme_maproulette_white_background144-88cbf772.png">
-<link rel="apple-touch-icon" sizes="152x152" href="./assets/assets_generated_images_theme_maproulette_white_background152-edbdb5c0.png">
-<link rel="apple-touch-icon" sizes="180x180" href="./assets/assets_generated_images_theme_maproulette_white_background180-30274f7e.png">
-<link rel="apple-touch-icon" sizes="192x192" href="./assets/assets_generated_images_theme_maproulette_white_background192-1771261f.png">
-<link rel="apple-touch-icon" sizes="384x384" href="./assets/assets_generated_images_theme_maproulette_white_background384-1b853093.png">
-<link rel="apple-touch-icon" sizes="512x512" href="./assets/assets_generated_images_theme_maproulette_white_background512-66739254.png">
+<link rel="apple-touch-icon" sizes="96x96" href="./assets/public_assets_generated_images_theme_maproulette_white_background96-0feeeff3.png">
+<link rel="apple-touch-icon" sizes="120x120" href="./assets/public_assets_generated_images_theme_maproulette_white_background120-40c03b1d.png">
+<link rel="apple-touch-icon" sizes="128x128" href="./assets/public_assets_generated_images_theme_maproulette_white_background128-1b22a717.png">
+<link rel="apple-touch-icon" sizes="144x144" href="./assets/public_assets_generated_images_theme_maproulette_white_background144-88cbf772.png">
+<link rel="apple-touch-icon" sizes="152x152" href="./assets/public_assets_generated_images_theme_maproulette_white_background152-edbdb5c0.png">
+<link rel="apple-touch-icon" sizes="180x180" href="./assets/public_assets_generated_images_theme_maproulette_white_background180-30274f7e.png">
+<link rel="apple-touch-icon" sizes="192x192" href="./assets/public_assets_generated_images_theme_maproulette_white_background192-1771261f.png">
+<link rel="apple-touch-icon" sizes="384x384" href="./assets/public_assets_generated_images_theme_maproulette_white_background384-1b853093.png">
+<link rel="apple-touch-icon" sizes="512x512" href="./assets/public_assets_generated_images_theme_maproulette_white_background512-66739254.png">
     
-  <script type="module" crossorigin src="./assets/maproulette-11dba8d5.js"></script>
-  <link rel="modulepreload" crossorigin href="./assets/Translations-75f9b429.js">
-  <link rel="modulepreload" crossorigin href="./assets/SubtleButton-11aede5a.js">
-  <link rel="modulepreload" crossorigin href="./assets/DropDown-13f177d0.js">
+  <script type="module" crossorigin src="./assets/maproulette-de725ac2.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/Translations-ce89f2a6.js">
+  <link rel="modulepreload" crossorigin href="./assets/SubtleButton-86d1f7df.js">
+  <link rel="modulepreload" crossorigin href="./assets/DropDown-d3031dfd.js">
   <link rel="modulepreload" crossorigin href="./assets/defineProperty-1d73cb61.js">
-  <link rel="modulepreload" crossorigin href="./assets/List-085c0309.js">
-  <link rel="modulepreload" crossorigin href="./assets/UserRelatedState-e60bade3.js">
-  <link rel="modulepreload" crossorigin href="./assets/Button-b8aebd18.js">
-  <link rel="modulepreload" crossorigin href="./assets/language_translations-a468e863.js">
-  <link rel="modulepreload" crossorigin href="./assets/theme_overview-b478fcc6.js">
-  <link rel="modulepreload" crossorigin href="./assets/MoreScreen-53ebc542.js">
-  <link rel="modulepreload" crossorigin href="./assets/LanguagePicker-29d8ded1.js">
-  <link rel="modulepreload" crossorigin href="./assets/Toggleable-ea6f5ac8.js">
-  <link rel="modulepreload" crossorigin href="./assets/UserInformation-f62c2469.js">
-  <link rel="modulepreload" crossorigin href="./assets/BackToIndex-1f774bd2.js">
-  <link rel="modulepreload" crossorigin href="./assets/DashboardGui-eedf1341.js">
-  <link rel="stylesheet" href="./assets/Translations-6e45af62.css">
+  <link rel="modulepreload" crossorigin href="./assets/List-7af343e1.js">
+  <link rel="modulepreload" crossorigin href="./assets/UserRelatedState-9cfcf5cf.js">
+  <link rel="modulepreload" crossorigin href="./assets/Button-f1bbfe18.js">
+  <link rel="modulepreload" crossorigin href="./assets/language_translations-f6d018b3.js">
+  <link rel="modulepreload" crossorigin href="./assets/theme_overview-a608e72c.js">
+  <link rel="modulepreload" crossorigin href="./assets/MoreScreen-d2b8bf94.js">
+  <link rel="modulepreload" crossorigin href="./assets/LanguagePicker-6a6af3e4.js">
+  <link rel="modulepreload" crossorigin href="./assets/UserInformation-f3c4ebba.js">
+  <link rel="modulepreload" crossorigin href="./assets/BackToIndex-3f3f92e5.js">
+  <link rel="modulepreload" crossorigin href="./assets/DashboardGui-e1ee1a84.js">
+  <link rel="stylesheet" href="./assets/Translations-03a45e31.css">
   <link rel="stylesheet" href="./assets/DashboardGui-350ddee6.css">
   <link rel="stylesheet" href="./assets/List-82c5367b.css">
   <link rel="stylesheet" href="./assets/ReviewElement-c55834a1.css">
