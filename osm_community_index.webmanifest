@@ -9,52 +9,52 @@
   "orientation": "portrait-primary, landscape-primary",
   "icons": [
     {
-      "src": "public/assets/generated/images/assets_themes_osm_community_index_osm72.png",
+      "src": "assets/generated/images/assets_themes_osm_community_index_osm72.png",
       "sizes": "72x72",
       "type": "image/png"
     },
     {
-      "src": "public/assets/generated/images/assets_themes_osm_community_index_osm96.png",
+      "src": "assets/generated/images/assets_themes_osm_community_index_osm96.png",
       "sizes": "96x96",
       "type": "image/png"
     },
     {
-      "src": "public/assets/generated/images/assets_themes_osm_community_index_osm120.png",
+      "src": "assets/generated/images/assets_themes_osm_community_index_osm120.png",
       "sizes": "120x120",
       "type": "image/png"
     },
     {
-      "src": "public/assets/generated/images/assets_themes_osm_community_index_osm128.png",
+      "src": "assets/generated/images/assets_themes_osm_community_index_osm128.png",
       "sizes": "128x128",
       "type": "image/png"
     },
     {
-      "src": "public/assets/generated/images/assets_themes_osm_community_index_osm144.png",
+      "src": "assets/generated/images/assets_themes_osm_community_index_osm144.png",
       "sizes": "144x144",
       "type": "image/png"
     },
     {
-      "src": "public/assets/generated/images/assets_themes_osm_community_index_osm152.png",
+      "src": "assets/generated/images/assets_themes_osm_community_index_osm152.png",
       "sizes": "152x152",
       "type": "image/png"
     },
     {
-      "src": "public/assets/generated/images/assets_themes_osm_community_index_osm180.png",
+      "src": "assets/generated/images/assets_themes_osm_community_index_osm180.png",
       "sizes": "180x180",
       "type": "image/png"
     },
     {
-      "src": "public/assets/generated/images/assets_themes_osm_community_index_osm192.png",
+      "src": "assets/generated/images/assets_themes_osm_community_index_osm192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "public/assets/generated/images/assets_themes_osm_community_index_osm384.png",
+      "src": "assets/generated/images/assets_themes_osm_community_index_osm384.png",
       "sizes": "384x384",
       "type": "image/png"
     },
     {
-      "src": "public/assets/generated/images/assets_themes_osm_community_index_osm512.png",
+      "src": "assets/generated/images/assets_themes_osm_community_index_osm512.png",
       "sizes": "512x512",
       "type": "image/png"
     },
