@@ -5,7 +5,7 @@
   "lang": "en",
   "display": "standalone",
   "background_color": "#fff",
-  "description": "This map shows all benches that are recorded in OpenStreetMap: Individual benches, and benches belonging to public transport stops or shelters. With an OpenStreetMap account, you can map new benches or edit details of existing benches.",
+  "description": "This map shows all benches that are recorded in OpenStreetMap: Individual benches, and benches belonging to public transport stops or shelters.",
   "orientation": "portrait-primary, landscape-primary",
   "icons": [
     {

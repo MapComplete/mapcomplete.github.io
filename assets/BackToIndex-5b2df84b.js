@@ -1,1 +1,0 @@
-import{S as e}from"./SubtleButton-0de444a9.js";import{S as a,T as o}from"./Translations-f174d9cd.js";class n extends e{constructor(t){super(a.back_svg().SetStyle("height: 1.5rem;"),t??o.t.general.backToMapcomplete,{url:"index.html"})}}export{n as B};
