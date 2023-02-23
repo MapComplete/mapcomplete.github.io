@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!-- WARNING: index.html serves as a template. If you want to change something, change it there -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <meta content="website" property="og:type">
+
+    <title>Clocks</title>
+<link rel="manifest" href="clock.webmanifest">
+
+    <meta property="og:image" content="assets/generated/images/public_assets_generated_images_social_image_clock_512.png">
+    <meta property="og:title" content="Clocks">
+    <meta property="og:description" content="Map showing all public clocks">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@mapcomplete.osm.be">
+    <meta name="twitter:creator" content="@pietervdvn">
+    <meta name="twitter:title" content="Clocks">
+    <meta name="twitter:description" content="Map showing all public clocks">
+    <meta name="twitter:image" content="assets/generated/images/public_assets_generated_images_social_image_clock_Wide512.png">
+
+<link rel="icon" href="./assets/clock-ef69ff0a.svg" sizes="any" type="image/svg+xml">
+    
+  <script type="module" crossorigin src="./assets/clock-3c4ae1a6.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/Translations-a3654055.js">
+  <link rel="modulepreload" crossorigin href="./assets/SubtleButton-7b8d0f22.js">
+  <link rel="modulepreload" crossorigin href="./assets/DropDown-584c14d5.js">
+  <link rel="modulepreload" crossorigin href="./assets/defineProperty-4278880f.js">
+  <link rel="modulepreload" crossorigin href="./assets/List-1f99d6d7.js">
+  <link rel="modulepreload" crossorigin href="./assets/UserRelatedState-ced4ba03.js">
+  <link rel="modulepreload" crossorigin href="./assets/Button-0fa27eb3.js">
+  <link rel="modulepreload" crossorigin href="./assets/language_translations-f839c02d.js">
+  <link rel="modulepreload" crossorigin href="./assets/theme_overview-0b11d046.js">
+  <link rel="modulepreload" crossorigin href="./assets/MoreScreen-d1525a3b.js">
+  <link rel="modulepreload" crossorigin href="./assets/LanguagePicker-2566b469.js">
+  <link rel="modulepreload" crossorigin href="./assets/UserInformation-6a9e2529.js">
+  <link rel="modulepreload" crossorigin href="./assets/BackToIndex-b5973657.js">
+  <link rel="modulepreload" crossorigin href="./assets/DashboardGui-bb2fb130.js">
+  <link rel="stylesheet" href="./assets/Translations-03a45e31.css">
+  <link rel="stylesheet" href="./assets/DashboardGui-350ddee6.css">
+  <link rel="stylesheet" href="./assets/List-82c5367b.css">
+  <link rel="stylesheet" href="./assets/ReviewElement-c55834a1.css">
+  <link rel="stylesheet" href="./assets/tagrendering-e4d9a4c2.css">
+  <link rel="stylesheet" href="./assets/wikipedia-d4b8e548.css">
+</head>
+<body>
+
+<div id="decoration-desktop" style="position: fixed; left: 1em; bottom: 1em; width:35vh; height:35vh;">
+    <!-- A nice decoration while loading or on errors -->
+    <img src='./assets/clock-ef69ff0a.svg' width="100%" height="100%">
+</div>
+
+<div class="very-small-screen fixed inset-0 block z-above-controls" id="on-small-screen"></div>
+<div class="fixed inset-0 block z-above-controls hidden hidden-on-very-small-screen md:w-1/3" style="min-width: 28rem" id="fullscreen"></div>
+
+<div class="absolute top-12 sm:top-3 left-3 rounded-3xl z-above-map" id="top-left"></div>
+<div class="absolute top-3 right-2 rounded-3xl z-above-map pl-3 sm:pl-0 w-full sm:w-fit" id="top-right"></div>
+
+<div class="absolute bottom-3 left-3 rounded-3xl z-above-map" id="bottom-left"></div>
+<div class="absolute bottom-3 right-2 rounded-3xl z-above-map" id="bottom-right"></div>
+
+<div class="clutter absolute h-24 left-24 right-24 top-56 text-xl text-center"
+     id="centermessage" style="z-index: 4000">
+    <div style="height: max-content">
+    <div style="margin-top: -3rem">
+        <div class="flex" style="justify-content: center">
+            <img src="./assets/loading-90179bb2.svg" class="animate-spin" style="width: 1.5rem; height: 1.5rem; min-width: 1.5rem;"/>
+            <h1 style="font-weight: bold; font-size: xx-large; margin-bottom: 1rem; padding-left: 1rem">Loading Clocks…</h1>
+        </div>
+    <p class="subtle" style="padding-bottom: 1rem">Powered by OpenStreetMap</p>
+    <div style="background: #ffffffaa; padding-bottom: 1rem; border-radius: 0.25rem">
+    Map showing all public clocks
+    </div>
+    </div>
+    </div>
+</div>
+
+
+<span class="absolute" id="belowmap" style="z-index: -1">Below</span>
+<div id="leafletDiv"></div>
+
+
+
+<script async data-goatcounter="https://pietervdvn.goatcounter.com/count" src="//gc.zgo.at/count.js"></script>
+
+<script>
+    window.addEventListener('load', () => {
+        if ('serviceWorker' in navigator) {
+            // register service worker
+            navigator.serviceWorker.register('/service-worker.js').then(
+                () => {
+                    console.log('Service worker registration successful');
+                },
+                err => {
+                    console.error('Service worker registration failed', err)
+                });
+        } else {
+            console.log("Service workers are not supported")
+        }
+    });
+</script>
+
+</body>
+</html>
