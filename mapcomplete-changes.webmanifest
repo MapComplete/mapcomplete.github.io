@@ -5,7 +5,7 @@
   "lang": "en",
   "display": "standalone",
   "background_color": "#fff",
-  "description": "This map shows all the changes made with MapComplete",
+  "description": "This maps shows all the changes made with MapComplete",
   "orientation": "portrait-primary, landscape-primary",
   "icons": [
     {

@@ -197,7 +197,7 @@
       "condition": "service:bicycle:cleaning=yes",
       "render": "<img src='./assets/layers/bike_cleaning/bike_cleaning_icon.svg'/>"
     },
-    "defaults"
+    "icons.defaults"
   ],
   "description": {
     "en": "A shop specifically selling bicycles or related items",
@@ -781,7 +781,7 @@
       "iconBadges": [
         {
           "if": "opening_hours~*",
-          "then": "isOpen"
+          "then": "icons.isOpen"
         },
         {
           "if": "service:bicycle:pump=yes",
