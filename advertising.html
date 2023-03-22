@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!-- WARNING: index.html serves as a template. If you want to change something, change it there -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <meta content="website" property="og:type">
+
+    <title>Open Advertising Map</title>
+<link rel="manifest" href="advertising.webmanifest">
+
+    <meta property="og:image" content="assets/generated/images/public_assets_generated_images_social_image_advertising_512.png">
+    <meta property="og:title" content="Open Advertising Map">
+    <meta property="og:description" content="Where I can find advertising features?">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@mapcomplete.osm.be">
+    <meta name="twitter:creator" content="@pietervdvn">
+    <meta name="twitter:title" content="Open Advertising Map">
+    <meta name="twitter:description" content="Where I can find advertising features?">
+    <meta name="twitter:image" content="assets/generated/images/public_assets_generated_images_social_image_advertising_Wide512.png">
+
+<link rel="icon" href="./assets/icon-92a165fa.svg" sizes="any" type="image/svg+xml">
+    
+  <script type="module" crossorigin src="./assets/advertising-58d3e581.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/SvelteUIElement-99ed019b.js">
+  <link rel="modulepreload" crossorigin href="./assets/SubtleButton-bcb2be40.js">
+  <link rel="modulepreload" crossorigin href="./assets/List-cc3ee726.js">
+  <link rel="modulepreload" crossorigin href="./assets/_commonjsHelpers-edff4021.js">
+  <link rel="modulepreload" crossorigin href="./assets/BBox-258c9ed2.js">
+  <link rel="modulepreload" crossorigin href="./assets/defineProperty-bf1f4e26.js">
+  <link rel="modulepreload" crossorigin href="./assets/ChartJs-1c1cbe56.js">
+  <link rel="modulepreload" crossorigin href="./assets/ToSvelte-5c9d4506.js">
+  <link rel="modulepreload" crossorigin href="./assets/language_translations-f839c02d.js">
+  <link rel="modulepreload" crossorigin href="./assets/theme_overview-4e8a56db.js">
+  <link rel="modulepreload" crossorigin href="./assets/MoreScreen-ae6eb4cd.js">
+  <link rel="modulepreload" crossorigin href="./assets/language_native-373a312a.js">
+  <link rel="modulepreload" crossorigin href="./assets/LanguagePicker-9b587bd4.js">
+  <link rel="modulepreload" crossorigin href="./assets/UserInformation-8aef2488.js">
+  <link rel="modulepreload" crossorigin href="./assets/ContactLink-51876832.js">
+  <link rel="modulepreload" crossorigin href="./assets/BackToIndex-dbcef746.js">
+  <link rel="modulepreload" crossorigin href="./assets/DashboardGui-845f1167.js">
+  <link rel="stylesheet" href="./assets/SvelteUIElement-272b7fc1.css">
+  <link rel="stylesheet" href="./assets/SubtleButton-1a3bbdfd.css">
+  <link rel="stylesheet" href="./assets/ToSvelte-c55834a1.css">
+  <link rel="stylesheet" href="./assets/theme_overview-bd547c90.css">
+  <link rel="stylesheet" href="./assets/MoreScreen-2dd360f1.css">
+  <link rel="stylesheet" href="./assets/DashboardGui-86fa991e.css">
+  <link rel="stylesheet" href="./assets/tabbedComponent-82c5367b.css">
+  <link rel="stylesheet" href="./assets/tagrendering-e4d9a4c2.css">
+  <link rel="stylesheet" href="./assets/wikipedia-d4b8e548.css">
+</head>
+<body>
+
+<div id="decoration-desktop" style="position: fixed; left: 1em; bottom: 1em; width:35vh; height:35vh;">
+    <!-- A nice decoration while loading or on errors -->
+    <img src='./assets/icon-92a165fa.svg' width="100%" height="100%">
+</div>
+
+<div class="very-small-screen fixed inset-0 block z-above-controls" id="on-small-screen"></div>
+<div class="fixed inset-0 block z-above-controls hidden hidden-on-very-small-screen md:w-1/3" style="min-width: 28rem" id="fullscreen"></div>
+
+<div class="absolute top-12 sm:top-3 left-3 rounded-3xl z-above-map" id="top-left"></div>
+<div class="absolute top-3 right-2 rounded-3xl z-above-map pl-3 sm:pl-0 w-full sm:w-fit" id="top-right"></div>
+
+<div class="absolute bottom-3 left-3 rounded-3xl z-above-map" id="bottom-left"></div>
+<div class="absolute bottom-3 right-2 rounded-3xl z-above-map" id="bottom-right"></div>
+
+<div class="clutter absolute h-24 left-24 right-24 top-56 text-xl text-center"
+     id="centermessage" style="z-index: 4000">
+    <div style="height: max-content">
+    <div style="margin-top: -3rem">
+        <div class="flex" style="justify-content: center">
+            <img src="./assets/loading-90179bb2.svg" class="animate-spin" style="width: 1.5rem; height: 1.5rem; min-width: 1.5rem;"/>
+            <h1 style="font-weight: bold; font-size: xx-large; margin-bottom: 1rem; padding-left: 1rem">Loading Open Advertising Map…</h1>
+        </div>
+    <p class="subtle" style="padding-bottom: 1rem">Powered by OpenStreetMap</p>
+    <div style="background: #ffffffaa; padding-bottom: 1rem; border-radius: 0.25rem">
+    Where I can find advertising features?
+    </div>
+    </div>
+    </div>
+</div>
+
+
+<span class="absolute" id="belowmap" style="z-index: -1">Below</span>
+<div id="leafletDiv"></div>
+
+
+
+<script async data-goatcounter="https://pietervdvn.goatcounter.com/count" src="//gc.zgo.at/count.js"></script>
+
+<script>
+    window.addEventListener('load', () => {
+        if ('serviceWorker' in navigator) {
+            // register service worker
+            navigator.serviceWorker.register('/service-worker.js').then(
+                () => {
+                    console.log('Service worker registration successful');
+                },
+                err => {
+                    console.error('Service worker registration failed', err)
+                });
+        } else {
+            console.log("Service workers are not supported")
+        }
+    });
+</script>
+
+</body>
+</html>
