@@ -73,7 +73,8 @@
           },
           "then": {
             "en": "This bench is two-sided and shares the backrest",
-            "nl": "Dit is een dubbele bank waarbij de rugleuning gedeeld wordt"
+            "nl": "Dit is een dubbele bank waarbij de rugleuning gedeeld wordt",
+            "de": "Diese Bank ist zweiseitig und teilt sich die Rückenlehne"
           },
           "icon": {
             "path": "./assets/layers/bench/two_sided.svg",
