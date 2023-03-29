@@ -942,12 +942,8 @@
           "if": "recycling:printer_cartridges=yes",
           "ifnot": "recycling:printer_cartridges=",
           "then": {
-            "en": "Printer cartridges (inkjet/toner) can be recycled here",
-            "nl": "Printer cartridges (inkjet/toner) kunnen hier gerecycled worden",
-            "ca": "Aquí es pot reciclar ferralla",
-            "de": "Metallschrott kann hier recycelt werden",
-            "es": "Aquí se puede reciclar chatarra",
-            "it": "Rottami metallici"
+            "en": "Printer cartridges can be recycled here",
+            "nl": "Inktpatronen kunnen hier gerecycleerd worden"
           },
           "icon": {
             "path": "./assets/layers/recycling/printer_cartridges.svg",
@@ -960,10 +956,10 @@
           "then": {
             "en": "Scrap metal can be recycled here",
             "nl": "Oud metaal kan hier gerecycled worden",
+            "ca": "Aquí es pot reciclar ferralla",
             "de": "Metallschrott kann hier recycelt werden",
             "es": "Aquí se puede reciclar chatarra",
-            "it": "Rottami metallici",
-            "ca": "Aquí es poden reciclar sabates"
+            "it": "Rottami metallici"
           },
           "icon": {
             "path": "./assets/layers/recycling/scrap_metal.svg",
@@ -994,7 +990,7 @@
             "nl": "Kleine elektrische apparaten kunnen hier gerecycled worden",
             "de": "Elektrokleingeräte können hier recycelt werden",
             "it": "Piccoli elettrodomestici",
-            "ca": "Aquí es poden reciclar petits aparells electrònics"
+            "ca": "Aquí es poden reciclar petits aparells elèctrics"
           },
           "icon": {
             "path": "./assets/layers/recycling/small_electrical_appliances.svg",
@@ -1025,7 +1021,7 @@
             "nl": "Injectienaalden kunnen hier gerecycled worden",
             "de": "Nadeln können hier recycelt werden",
             "it": "Aghi e oggetti appuntiti",
-            "ca": "Ací es pot reciclar el rebuig"
+            "ca": "Aquí es poden reciclar agulles"
           }
         },
         {
@@ -1316,8 +1312,8 @@
         },
         {
           "question": {
-            "en": "Recycling of printer cartridges",
-            "nl": "Recycling van printer cartridges",
+            "en": "Recycling of scrap metal",
+            "nl": "Recycling van oud metaal",
             "de": "Recycling von Metallschrott",
             "es": "Reciclaje de chatarra",
             "it": "Riciclo di rottami metallici"
@@ -1326,20 +1322,20 @@
         },
         {
           "question": {
-            "en": "Recycling of scrap metal",
-            "nl": "Recycling van oud metaal",
-            "de": "Recycling von Metallschrott",
+            "en": "Recycling of small electrical appliances",
+            "nl": "Recycling van kleine elektrische apparaten",
+            "de": "Recycling von Elektrokleingeräten",
             "es": "Reciclaje de chatarra",
-            "it": "Riciclo di rottami metallici"
+            "it": "Riciclo di piccoli elettrodomestici"
           },
           "osmTags": "recycling:scrap_metal=yes"
         },
         {
           "question": {
-            "en": "Recycling of small electrical appliances",
-            "nl": "Recycling van kleine elektrische apparaten",
-            "de": "Recycling von Elektrokleingeräten",
-            "it": "Riciclo di piccoli elettrodomestici"
+            "en": "Recycling of residual waste",
+            "nl": "Recycling van restafval",
+            "de": "Recycling von Restabfällen",
+            "it": "Riciclo di secco"
           },
           "osmTags": {
             "or": [
