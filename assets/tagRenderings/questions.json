@@ -1252,7 +1252,8 @@
           "es": "Se aceptan billetes de 5 euros",
           "pl": "Banknoty 5 euro są akceptowane",
           "cs": "Jsou přijímány bankovky v hodnotě 5 euro",
-          "ca": "S'accepten billets de 5 euros"
+          "ca": "S'accepten billets de 5 euros",
+          "fr": "Les billets de 5 euros ne sont pas acceptés"
         }
       },
       {
@@ -1265,7 +1266,8 @@
           "es": "Se aceptan billetes de 10 euros",
           "pl": "Banknoty 10 euro są akceptowane",
           "cs": "Jsou přijímány bankovky v hodnotě 10 euro",
-          "ca": "S'accepten bitllets de 10 euros"
+          "ca": "S'accepten bitllets de 10 euros",
+          "fr": "Les billets de 10 euros sont acceptés"
         }
       },
       {
@@ -1999,7 +2001,8 @@
           "ca": "Aquest objecte no emet llum i no està il·luminat externament",
           "cs": "Tento objekt nevyzařuje světlo a není osvětlen zvenčí",
           "de": "Das Objekt wird weder von außen beleuchtet, noch leuchtet es selbst",
-          "es": "Este objeto ni emite luz ni es iluminado"
+          "es": "Este objeto ni emite luz ni es iluminado",
+          "fr": "Cet objet n'émet pas de lumière et n'est pas éclairé par l'extérieur"
         }
       }
     ]
