@@ -621,7 +621,7 @@
         "de": "Wo befindet sich dieser Container?",
         "es": "¿Dónde se sitúa este contenedor?",
         "it": "Dove si trova questo contenitore?",
-        "ca": "On es situa el contenidor?"
+        "ca": "On es troba aquest contenidor?"
       },
       "condition": "recycling_type=container",
       "mappings": [
@@ -633,7 +633,7 @@
             "de": "Dies ist ein Unterflurcontainer",
             "es": "Este es un contenedor bajo tierra",
             "it": "E' un contenitore sotterraneo",
-            "ca": "Açò és un contenidor soterrat"
+            "ca": "Aquest contenidor està soterrat"
           }
         },
         {
@@ -644,7 +644,7 @@
             "de": "Dieser Container befindet sich in einem Gebäude",
             "es": "Este contenedor se sitúa en el interior",
             "it": "Questo contenitore è al chiuso",
-            "ca": "Aquest contenidor està situa a l'interior"
+            "ca": "Aquest contenidor està situat a l'interior"
           }
         },
         {
@@ -944,7 +944,8 @@
           "ifnot": "recycling:printer_cartridges=",
           "then": {
             "en": "Printer cartridges can be recycled here",
-            "nl": "Inktpatronen kunnen hier gerecycleerd worden"
+            "nl": "Inktpatronen kunnen hier gerecycleerd worden",
+            "de": "Druckerpatronen können hier recycelt werden"
           },
           "icon": {
             "path": "./assets/layers/recycling/printer_cartridges.svg",

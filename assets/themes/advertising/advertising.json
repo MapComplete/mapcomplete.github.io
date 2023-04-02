@@ -7,6 +7,7 @@
     "es": "Mapa abierto de publicidad",
     "de": "Offene Werbekarte",
     "cs": "Otevřít reklamní mapu",
+    "fr": "Open Advertising Map",
     "nl": "Reclamekaart"
   },
   "shortDescription": {
@@ -15,6 +16,7 @@
     "en": "Where I can find advertising features?",
     "de": "Wo finde ich Werbeträger?",
     "cs": "Kde najdu reklamní objekty?",
+    "fr": "Où puis-je trouver des dispositifs publicitaires ?",
     "nl": "Waar zijn er reclameborden?"
   },
   "description": {
@@ -23,6 +25,7 @@
     "en": "Have you ever wondered how many advertising there are in our streets and roads? With this map you could find and add information about all the advertising features that you can find on the street",
     "de": "Haben Sie sich schon einmal gefragt, wie viele Werbeanlagen es in unseren Straßen und Wegen gibt? Hier können Sie Informationen über alle Werbeeinrichtungen finden und hinzufügen, die Sie auf der Straße begegnen",
     "cs": "Přemýšleli jste někdy o tom, kolik je v našich ulicích a na silnicích reklam? Pomocí této mapy můžete najít a doplnit informace o všech reklamních prvcích, které můžete na ulici najít",
+    "fr": "Vous êtes-vous déjà demandé combien de publicité il y a dans nos rue ou sur nos routes ? Avec cette carte vous pouvez trouver et ajouter des informations sur tous les dispositifs publicitaires que vous pouvez trouver dans la rue",
     "nl": "Heb je je ooit afgevraagd hoeveel reclameborden er zijn in onze straten? Met deze kaart kan je deze vinden en informatie toevoegen"
   },
   "maintainer": "Offsel",
