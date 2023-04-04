@@ -1391,11 +1391,13 @@
       "question": {
         "en": "How much plugs of type <div style='display: inline-block'><b><b>Type 2</b> (mennekes)</b> <img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/Type2_socket.svg'/></div> are available here?",
         "nl": "Hoeveel stekkers van type <div style='display: inline-block'><b><b>Type 2</b> (mennekes)</b> <img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/Type2_socket.svg'/></div> heeft dit oplaadpunt?",
+        "ca": "Quants endolls del tipus <div style='display: inline-block'><b><b>Tipus 2</b> (mennekes)</b> <img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/Type2_socket.svg'/></div> hi ha disponibles aquí?",
         "de": "Wie viele Stecker des Typs <div style='display: inline-block'><b><b>Typ 2</b> (Mennekes)</b> <img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/Type2_socket.svg'/></div> sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:type2}</b> plugs of type <div style='display: inline-block'><b><b>Type 2</b> (mennekes)</b> <img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/Type2_socket.svg'/></div> available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:type2}</b> stekkers van het type <div style='display: inline-block'><b><b>Type 2</b> (mennekes)</b> <img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/Type2_socket.svg'/></div>",
+        "ca": "Hi ha <b class='text-xl'>{socket:type2}</b> endolls del tipus <div style='display: inline-block'><b><b>Tipus 2</b> (mennekes)</b> <img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/Type2_socket.svg'/></div> disponibles aquí",
         "de": "Hier sind <b class='text-xl'>{socket:type2}</b> Stecker des Typs <div style='display: inline-block'><b><b>Typ 2</b> (Mennekes)</b><img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/Type2_socket.svg'/></div> vorhanden"
       },
       "freeform": {
@@ -3953,6 +3955,7 @@
       "question": {
         "en": "What kind of authentication is available at the charging station?",
         "nl": "Hoe kan men zich aanmelden aan dit oplaadstation?",
+        "ca": "Quin tipus d'autenticació hi ha disponible a l'estació de càrrega?",
         "da": "Hvilken form for godkendelse er tilgængelig ved ladestationen?",
         "de": "Welche Art der Authentifizierung ist an der Ladestation möglich?",
         "es": "¿Qué tipo de autenticación está disponible en esta estación de carga?",
@@ -4105,6 +4108,7 @@
       "render": {
         "en": "One can stay at most <b>{canonical(maxstay)}</b>",
         "nl": "De maximale parkeertijd hier is <b>{canonical(maxstay)}</b>",
+        "ca": "Un pot quedar-se com a màxim <b>{canonical(maxstay)}</b>",
         "da": "Man kan højst blive <b>{canonical(maxstay)}</b>",
         "de": "Die maximale Parkdauer beträgt <b>{canonical(maxstay)}</b>",
         "es": "Se puede estar como máximo <b>{canonical(maxstay)}</b>"
@@ -4309,6 +4313,7 @@
       "question": {
         "en": "What is the website where one can find more information about this charging station?",
         "nl": "Wat is de website waar men meer info kan vinden over dit oplaadpunt?",
+        "ca": "Quina és la pàgina web on es pot trobar més informació sobre aquest punt de recàrrega?",
         "de": "Auf welcher Webseite kann man weitere Informationen über diese Ladestation finden?"
       },
       "render": {

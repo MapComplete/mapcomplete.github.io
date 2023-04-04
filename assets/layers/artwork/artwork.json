@@ -632,7 +632,8 @@
         "pt": "A obra de arte representa {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}",
         "es": "Esta obra de arte representa {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}",
         "nb_NO": "Dette kunstverket viser {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}",
-        "ca": "Aquesta obra d'art representa {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}"
+        "ca": "Aquesta obra d'art representa {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}",
+        "fr": "Cette œuvre dépeint {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}"
       },
       "labels": [
         "artwork-question"

@@ -183,7 +183,8 @@
         "en": "Can you deposit cash into this ATM?",
         "de": "Kann man an diesem Geldautomaten Bargeld einzahlen?",
         "nl": "Kan je geld storten bij deze geldautomaat?",
-        "ca": "Pots dipositar diners a aquest caixer?"
+        "ca": "Pots dipositar diners a aquest caixer?",
+        "fr": "Pouvez-vous déposer de l'argent liquide dans ce DAB ?"
       },
       "mappings": [
         {
@@ -193,7 +194,8 @@
             "de": "Sie können wahrscheinlich kein Bargeld in diesen Geldautomaten einzahlen",
             "nl": "Je kan waarschijnlijk geen geld deponeren in deze geldautomaat",
             "ca": "Probablement no pots ingressar diners a aquest caixer",
-            "nb_NO": "Du kan antagelig ikke gjøre innskudd i denne minibanken"
+            "nb_NO": "Du kan antagelig ikke gjøre innskudd i denne minibanken",
+            "fr": "Vous ne pouvez probablement pas déposer d'argent liquide dans ce DAB"
           },
           "hideInAnswer": true
         },
@@ -204,7 +206,8 @@
             "de": "Sie können Bargeld in diesen Geldautomaten einzahlen",
             "nl": "Je kan geld deponeren in deze geldautomaat",
             "nb_NO": "Du kan ikke gjøre innskudd i denne minibanken",
-            "ca": "Pots dipositar diners a aquest caixer"
+            "ca": "Pots dipositar diners a aquest caixer",
+            "fr": "Vous pouvez déposer de l'argent liquide dans ce DAB"
           }
         },
         {
@@ -214,7 +217,8 @@
             "de": "Sie können an diesem Geldautomaten kein Bargeld einzahlen",
             "nl": "Je kan geen geld deponeren in deze geldautomaat",
             "nb_NO": "Du kan ikke gjøre innskudd i denne minibanken",
-            "ca": "No pots dipositar diners a aquest caixer"
+            "ca": "No pots dipositar diners a aquest caixer",
+            "fr": "Vous ne pouvez pas déposer d'agent liquide dans ce DAB"
           }
         }
       ]

@@ -465,7 +465,8 @@
             "de": "{capacity:bicycle_type} type_plural können hier gemietet werden",
             "fr": "{capacity:bicycle_type} type_plural peuvent être loués ici",
             "cs": "{capacity:bicycle_type} typů si můžete pronajmout zde",
-            "es": "{capacity:bicycle_type} type_plural pueden alquilarse aquí"
+            "es": "{capacity:bicycle_type} type_plural pueden alquilarse aquí",
+            "ca": "{capacity:bicycle_type} type_plural es poden llogar aquí"
           },
           "freeform": {
             "key": "capacity:bicycle_type",
