@@ -1,1 +1,0 @@
-import{C as i,F as o}from"./SvelteUIElement-a6e2abe3.js";/* empty css                     */import{B as e}from"./BackToIndex-79b6f34c.js";import"./SubtleButton-2e092490.js";new i([new o("This page is not found"),new e]).AttachTo("maindiv");
