@@ -323,7 +323,8 @@
             "en": "This stop has a board showing realtime departure information",
             "de": "Die Haltestelle hat einen Fahrplan, der Abfahrtszeiten in Echtzeit anzeigt",
             "da": "Dette stop har en tavle med oplysninger om afgang i realtid",
-            "fr": "Cet arrêt a un panneau indiquant les départs en temps réel"
+            "fr": "Cet arrêt a un panneau indiquant les départs en temps réel",
+            "ca": "Aquesta parada té un tauló amb els horaris en temps real"
           }
         },
         {

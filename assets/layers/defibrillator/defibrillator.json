@@ -155,7 +155,7 @@
           "if": "access=yes",
           "then": {
             "en": "Publicly accessible",
-            "ca": "Accés lliure",
+            "ca": "Accessible al públic",
             "es": "Acceso libre",
             "fr": "Librement accessible",
             "nl": "Publiek toegankelijk",
@@ -170,7 +170,7 @@
           "if": "access=public",
           "then": {
             "en": "Publicly accessible",
-            "ca": "Publicament accessible",
+            "ca": "Accessible al públic",
             "es": "Publicament accesible",
             "fr": "Librement accessible",
             "nl": "Publiek toegankelijk",

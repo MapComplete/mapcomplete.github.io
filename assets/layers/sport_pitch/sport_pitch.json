@@ -272,7 +272,7 @@
         "ru": "Есть ли свободный доступ к этой спортивной площадке?",
         "de": "Ist der Sportplatz öffentlich zugänglich?",
         "es": "¿Esta pista de deportes es accesible públicamente?",
-        "ca": "Aquesta pista d'esports és accessible públicament?"
+        "ca": "Aquesta pista d'esports és accessible al públic?"
       },
       "mappings": [
         {
@@ -614,7 +614,7 @@
             "en": "Publicly accessible",
             "nl": "Publiek toegankelijk",
             "de": "Öffentlich zugänglich",
-            "ca": "Accés lliure"
+            "ca": "Accessible al públic"
           },
           "osmTags": {
             "or": [

@@ -40,7 +40,8 @@
         "ru": "общественный туалет ",
         "it": "una servizi igienici aperti al pubblico",
         "es": "un baño público",
-        "da": "et offentligt toilet"
+        "da": "et offentligt toilet",
+        "ca": "un lavabo públic"
       },
       "tags": [
         "amenity=toilets"
@@ -54,7 +55,8 @@
         "nl": "een rolstoeltoegankelijke, publiek toilet",
         "it": "una servizi igienici accessibili per persone in sedia a rotelle",
         "ru": "tуалет с доступом для пользователей кресел-колясок",
-        "da": "et toilet med kørestolsvenligt toilet"
+        "da": "et toilet med kørestolsvenligt toilet",
+        "ca": "un lavabo amb lavabo accessible per a cadires de rodes"
       },
       "tags": [
         "amenity=toilets",

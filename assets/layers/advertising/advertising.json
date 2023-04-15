@@ -136,7 +136,8 @@
           "en": "Sign",
           "de": "Schild",
           "cs": "Cedule",
-          "fr": "Enseigne"
+          "fr": "Enseigne",
+          "pt_BR": "Placa"
         }
       },
       {
@@ -271,7 +272,8 @@
             "de": "Dies ist eine Litfaßsäule",
             "cs": "Toto je sloup",
             "fr": "C'est une colonne",
-            "nl": "Dit is een aanplakzuil"
+            "nl": "Dit is een aanplakzuil",
+            "pt_BR": "Isto é uma coluna"
           },
           "icon": {
             "path": "./assets/themes/advertising/column.svg",
@@ -291,7 +293,8 @@
             "de": "Dies ist eine Flagge",
             "cs": "Toto je vlajka",
             "fr": "C'est un drapeau",
-            "nl": "Dit is een vlag"
+            "nl": "Dit is een vlag",
+            "pt_BR": "Isto é uma bandeira"
           },
           "icon": {
             "path": "./assets/themes/advertising/flag.svg",
@@ -367,7 +370,8 @@
             "en": "This is a sign",
             "de": "Dies ist ein Schild",
             "cs": "Toto je cedule",
-            "fr": "C'est une enseigne (indique le nom du lieu/magasin)"
+            "fr": "C'est une enseigne (indique le nom du lieu/magasin)",
+            "pt_BR": "Isto é uma placa"
           },
           "icon": {
             "path": "./assets/themes/advertising/sign.svg",
@@ -574,7 +578,8 @@
         "de": "Betrieben von {operator}",
         "cs": "Provozuje {operator}",
         "fr": "Exploité par {operator}",
-        "nl": "Uitgebaat door {operator}"
+        "nl": "Uitgebaat door {operator}",
+        "pt_BR": "Operado por {operator}"
       },
       "question": {
         "ca": "Qui opera aquest element?",
@@ -611,7 +616,8 @@
             "en": "Commercial message",
             "de": "Werbebotschaft",
             "cs": "Komerční sdělení",
-            "fr": "Message commercial"
+            "fr": "Message commercial",
+            "pt_BR": "Mensagem comercial"
           }
         },
         {
@@ -714,7 +720,8 @@
             "de": "Religiöse Botschaft",
             "cs": "Náboženská zpráva",
             "fr": "Message religieux",
-            "nl": "Religieuze boodschap"
+            "nl": "Religieuze boodschap",
+            "pt_BR": "Mensagem religiosa"
           }
         },
         {
@@ -744,7 +751,8 @@
             "de": "eine Karte",
             "cs": "Mapa",
             "fr": "Une carte",
-            "nl": "Een kaart"
+            "nl": "Een kaart",
+            "pt_BR": "Um mapa"
           }
         }
       ],
@@ -777,8 +785,8 @@
           "if": "sides=1",
           "then": {
             "en": "This object has advertisements on a single side",
-            "ca": "Aquest mupi té publicitat a un únic costat",
-            "es": "Este mupi tiene publicidad en un único lado",
+            "ca": "Aquest objecte té publicitat a un únic costat",
+            "es": "Este objeto tiene publicidad en un único lado",
             "de": "Werbung wird nur auf einer Seite angezeigt",
             "cs": "Tento objekt má reklamy na jedné straně",
             "fr": "Cet objet a de la publicité sur un seul côté"
@@ -788,8 +796,8 @@
           "if": "sides=2",
           "then": {
             "en": "This object has advertisements on both sides",
-            "ca": "Aquest mupi té publicitat pels dos costas",
-            "es": "Este mupi tiene publicidad por los dos lados",
+            "ca": "Aquest objecte té publicitat pels dos costas",
+            "es": "Este objeto tiene publicidad por los dos lados",
             "de": "Werbung wird auf beiden Seiten angezeigt",
             "cs": "Tento objekt má reklamy na obou stranách",
             "fr": "Cet objet a de la publicité des deux côtés"
@@ -806,7 +814,8 @@
         "de": "Die Referenznummer lautet {ref}",
         "cs": "Referenční číslo je {ref}",
         "fr": "Le numéro de référence est {ref}",
-        "nl": "Het referentienummer is {ref}"
+        "nl": "Het referentienummer is {ref}",
+        "pt_BR": "O número de referência é {ref}"
       },
       "question": {
         "ca": "Quin és el número de refèrencia?",
@@ -1195,7 +1204,8 @@
         "en": "a sign",
         "de": "ein Schild",
         "cs": "cedule",
-        "fr": "une enseigne"
+        "fr": "une enseigne",
+        "pt_BR": "uma placa"
       },
       "preciseInput": {
         "preferredBackground": "map",

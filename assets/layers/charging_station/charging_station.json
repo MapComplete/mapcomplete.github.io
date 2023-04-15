@@ -4352,6 +4352,7 @@
       "question": {
         "en": "Is this charging point in use?",
         "nl": "Is dit oplaadpunt operationeel?",
+        "ca": "Està en ús aquest punt de recàrrega?",
         "da": "Er denne ladestander i brug?",
         "de": "Ist die Station in Betrieb?",
         "es": "¿Está en uso este punto de carga?"
@@ -4427,9 +4428,10 @@
           "then": {
             "en": "A charging station is constructed here",
             "nl": "Hier wordt op dit moment een oplaadpunt gebouwd",
+            "ca": "Aquí està construint-se una estació de càrrega",
             "da": "Her er opført en ladestation",
             "de": "Die Station ist aktuell im Bau",
-            "es": "Aquí está construida una estación de carga"
+            "es": "Aquí se está construyendo una estación de carga"
           }
         },
         {
@@ -4445,6 +4447,7 @@
           "then": {
             "en": "This charging station has beed permanently disabled and is not in use anymore but is still visible",
             "nl": "Dit oplaadpunt is niet meer in gebruik maar is wel nog aanwezig",
+            "ca": "Aquesta estació de recàrrega s'ha desactivat permanentment i ja no s'utilitza, però encara és visible",
             "da": "Denne ladestation er blevet permanent deaktiveret og er ikke længere i brug, men er stadig synlig",
             "de": "Die Station ist dauerhaft geschlossen und nicht mehr in Nutzung, aber noch sichtbar",
             "es": "Esta estación de carga se ha deshabilitado de forma permanente y ya no está en uso pero todavía es visible"

@@ -34,7 +34,8 @@
         "en": "Are these toilets publicly accessible?",
         "de": "Ist die Toilette öffentlich zugänglich?",
         "nl": "Zijn deze toiletten publiek toegankelijk?",
-        "fr": "Ces toilettes sont-elles librement accessibles ?"
+        "fr": "Ces toilettes sont-elles librement accessibles ?",
+        "ca": "Aquests serveis són d'accés públic?"
       },
       "render": {
         "en": "Access is {toilets:access}",
