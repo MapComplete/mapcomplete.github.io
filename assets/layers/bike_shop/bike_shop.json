@@ -483,7 +483,8 @@
             "pt": "Esta loja aluga bicicletas",
             "es": "Esta tienda alquila bicis",
             "da": "Denne butik udlejer cykler",
-            "ca": "Aquesta botiga lloga bicis"
+            "ca": "Aquesta botiga lloga bicis",
+            "cs": "Tento obchod pronajímá jízdní kola"
           }
         },
         {
@@ -711,7 +712,8 @@
         "de": "Bietet das Geschäft Fahrradreinigungen an?",
         "es": "¿Aquí se lavan bicicletas?",
         "da": "Vaskes cykler her?",
-        "ca": "Aquí es renten bicicletes?"
+        "ca": "Aquí es renten bicicletes?",
+        "cs": "Myjí se zde jízdní kola?"
       },
       "mappings": [
         {
@@ -754,7 +756,8 @@
             "ru": "В этом магазине нет услуг мойки/чистки велосипедов",
             "es": "Esta tienda no ofrece limpieza de bicicletas",
             "da": "Denne butik tilbyder ikke rengøring af cykler",
-            "ca": "Aquesta botiga no ofereix rentat de bicis"
+            "ca": "Aquesta botiga no ofereix rentat de bicis",
+            "cs": "Tento obchod nenabízí čištění jízdních kol"
           }
         }
       ]

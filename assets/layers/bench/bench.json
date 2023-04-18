@@ -779,7 +779,8 @@
         "nl": "Deze bank heeft een inscriptie: <br/><p><i>{inscription}</i></p>",
         "de": "Diese Bank hat folgende Inschrift:<br/><p><i>{inscription}</i></p>",
         "fr": "Ce banc a l'inscription suivante :<br/><p><i>{inscription}</i></p>",
-        "ca": "Aquest banc té la següent inscripció:<br/><p><i>{inscription}</i></p>"
+        "ca": "Aquest banc té la següent inscripció:<br/><p><i>{inscription}</i></p>",
+        "cs": "Tato lavice má následující nápis:<br/><p><i>{inscription}</i></p>"
       },
       "question": {
         "en": "Does this bench have an inscription?",
@@ -924,7 +925,8 @@
             "nl": "Deze bank is <b>geen</b> gedenkteken aan iemand of iets",
             "de": "Diese Bank ist <b>kein</b> Denkmal für jemanden oder etwas",
             "fr": "Ce banc n'est <b>pas</b> un mémorial pour quelqu'un ou quelque chose",
-            "ca": "Aquest banc <b>no</b> és un memorial per a algú o alguna cosa"
+            "ca": "Aquest banc <b>no</b> és un memorial per a algú o alguna cosa",
+            "cs": "Tato lavička <b>není</b> pro někoho nebo něco památníkem"
           },
           "addExtraTags": [
             "memorial="
