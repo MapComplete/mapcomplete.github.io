@@ -253,7 +253,8 @@
             "da": "Denne virksomhed fokuserer på udlejning",
             "es": "Este negocio se centra en el alquiler",
             "fr": "Ce commerce est spécialisé dans la location",
-            "ca": "Aquest negoci es centra en el lloguer"
+            "ca": "Aquest negoci es centra en el lloguer",
+            "cs": "Tato firma se zaměřuje na pronájem"
           }
         }
       ]
@@ -304,7 +305,8 @@
         "es": "Solo accesible a {access}",
         "fr": "Seulement accessible à {access}",
         "da": "Kun tilgængelig for {access}",
-        "ca": "Només accessible per a {access}"
+        "ca": "Només accessible per a {access}",
+        "cs": "Přístupné pouze pro {access}"
       },
       "freeform": {
         "key": "access"
@@ -378,7 +380,8 @@
         "pt": "Esta loja conserta bicicletas?",
         "es": "¿Repara bicis esta tienda?",
         "da": "Reparerer denne butik cykler?",
-        "ca": "Aquesta botiga repara bicicletes?"
+        "ca": "Aquesta botiga repara bicicletes?",
+        "cs": "Opravuje tento obchod jízdní kola?"
       },
       "mappings": [
         {
@@ -395,7 +398,8 @@
             "pt": "Esta loja conserta bicicletas",
             "es": "Esta tienda repara bicis",
             "da": "Denne butik reparerer cykler",
-            "ca": "Aquesta botiga repara bicis"
+            "ca": "Aquesta botiga repara bicis",
+            "cs": "Tento obchod opravuje jízdní kola"
           }
         },
         {
@@ -412,7 +416,8 @@
             "pt": "Esta loja não conserta bicicletas",
             "es": "Esta tienda no repara bicis",
             "da": "Denne butik reparerer ikke cykler",
-            "ca": "Aquesta botiga no repara bicis"
+            "ca": "Aquesta botiga no repara bicis",
+            "cs": "Tento obchod neopravuje jízdní kola"
           }
         },
         {
@@ -429,7 +434,8 @@
             "pt": "Esta loja conserta bicicletas compradas aqui",
             "es": "Esta tienda solo repara bicis compradas aquí",
             "da": "Denne butik reparerer kun cykler købt her",
-            "ca": "Aquesta botiga sols repara bicis comprades aquí"
+            "ca": "Aquesta botiga sols repara bicis comprades aquí",
+            "cs": "Tento obchod opravuje pouze zde zakoupená kola"
           }
         },
         {
@@ -446,7 +452,8 @@
             "pt": "Esta loja conserta bicicletas de uma certa marca",
             "es": "Esta tienda solo repara bicis de una cierta marca",
             "da": "Dette værksted reparerer kun cykler af et bestemt mærke",
-            "ca": "Aquesta tenda sols repara bicis d’una marca concreta"
+            "ca": "Aquesta tenda sols repara bicis d’una marca concreta",
+            "cs": "Tento obchod opravuje pouze kola určité značky"
           }
         }
       ]
@@ -466,7 +473,8 @@
         "pt": "Esta loja aluga bicicletas?",
         "es": "¿Alquila bicicis esta tienda?",
         "da": "Udlejer denne butik cykler?",
-        "ca": "Aquesta botiga alquila bicicletes?"
+        "ca": "Aquesta botiga alquila bicicletes?",
+        "cs": "Pronajímá tento obchod kola?"
       },
       "mappings": [
         {
@@ -501,7 +509,8 @@
             "pt": "Esta loja não aluga bicicletas",
             "es": "Esta tienda no alquila bicis",
             "da": "Denne butik udlejer ikke cykler",
-            "ca": "Aquesta botiga no lloga bicis"
+            "ca": "Aquesta botiga no lloga bicis",
+            "cs": "Tento obchod nepronajímá kola"
           }
         }
       ]
@@ -528,7 +537,8 @@
         "ru": "В этом магазине продаются подержанные велосипеды?",
         "es": "¿Vende bicis de segunda mano esta tienda?",
         "da": "Sælger denne butik brugte cykler?",
-        "ca": "Aquesta botiga ven bicicletes de segona mà?"
+        "ca": "Aquesta botiga ven bicicletes de segona mà?",
+        "cs": "Prodává tento obchod použitá jízdní kola?"
       },
       "mappings": [
         {
@@ -543,7 +553,8 @@
             "ru": "В этом магазине продаются подержанные велосипеды",
             "es": "Esta tienda vende bicis de segunda mano",
             "da": "Denne butik sælger brugte cykler",
-            "ca": "Aquesta botiga ven bicis de segona mà"
+            "ca": "Aquesta botiga ven bicis de segona mà",
+            "cs": "Tento obchod prodává použitá jízdní kola"
           }
         },
         {
@@ -558,7 +569,8 @@
             "ru": "В этом магазине не продаются подержанные велосипеды",
             "es": "Esta tienda no vende bicis de segunda mano",
             "da": "Denne butik sælger ikke brugte cykler",
-            "ca": "Aquesta botiga no ven bicis de segona mà"
+            "ca": "Aquesta botiga no ven bicis de segona mà",
+            "cs": "Tento obchod neprodává kola z druhé ruky"
           }
         },
         {
@@ -573,7 +585,8 @@
             "ru": "В этом магазине продаются только подержанные велосипеды",
             "es": "Esta tienda solo vende bicis de segunda mano",
             "da": "Denne butik sælger kun brugte cykler",
-            "ca": "Aquesta botiga sols ven bicis de segona mà"
+            "ca": "Aquesta botiga sols ven bicis de segona mà",
+            "cs": "Tento obchod prodává pouze kola z druhé ruky"
           }
         }
       ]
@@ -654,7 +667,8 @@
         "ru": "Есть ли здесь инструменты для починки собственного велосипеда?",
         "es": "¿Hay herramientas para reparar tu propia bici?",
         "da": "Er der værktøj her til at reparere din egen cykel?",
-        "ca": "Hi ha ferramentes perquè reparis la teva bici?"
+        "ca": "Hi ha ferramentes perquè reparis la teva bici?",
+        "cs": "Jsou zde nástroje na opravu vlastního kola?"
       },
       "mappings": [
         {
@@ -668,7 +682,8 @@
             "it": "Questo negozio offre degli attrezzi per la riparazione fai-da-te",
             "da": "Denne butik tilbyder værktøj til gør-det-selv-reparation",
             "es": "Esta tienda ofrece herramientas para la reparación DIY",
-            "ca": "Aquesta botiga ofereix ferramentes per a la reparació DIY"
+            "ca": "Aquesta botiga ofereix ferramentes per a la reparació DIY",
+            "cs": "Tento obchod nabízí nářadí pro kutilské opravy"
           }
         },
         {
