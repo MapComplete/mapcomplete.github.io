@@ -1,0 +1,1 @@
+import{S as e}from"./SubtleButton-74d1c735.js";import{S as a,T as o}from"./SvelteUIElement-7f97ca15.js";class n extends e{constructor(t){super(a.back_svg().SetStyle("height: 1.5rem;"),t??o.t.general.backToMapcomplete,{url:"index.html"})}}export{n as B};
