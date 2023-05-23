@@ -113,6 +113,9 @@
     "render": "{minimap(18, id): width:100%; height:8rem; border-radius:2rem; overflow: hidden; pointer-events: none;}"
   },
   "phone": {
+    "labels": [
+      "contact"
+    ],
     "question": {
       "en": "What is the phone number of {title()}?",
       "nl": "Wat is het telefoonnummer van {title()}?",
@@ -164,6 +167,9 @@
     ]
   },
   "email": {
+    "labels": [
+      "contact"
+    ],
     "render": "<a href='mailto:{email}' target='_blank'>{email}</a>",
     "question": {
       "nl": "Wat is het e-mailadres van {title()}?",
@@ -206,6 +212,9 @@
     }
   },
   "website": {
+    "labels": [
+      "contact"
+    ],
     "question": {
       "en": "What is the website of {title()}?",
       "nl": "Wat is de website van {title()}?",
@@ -879,6 +888,15 @@
           "zh_Hans": "可用信用卡",
           "da": "Betalingskort accepteres her",
           "cs": "Jsou zde přijímány platební karty"
+        }
+      },
+      {
+        "if": "payment:qr_code=yes",
+        "ifnot": "payment:qr_code=no",
+        "icon": "./assets/tagRenderings/qrcode.svg",
+        "then": {
+          "en": "Payment by QR-code is possible here",
+          "nl": "Betalen via een QR-code is hier mogelijk"
         }
       }
     ]
