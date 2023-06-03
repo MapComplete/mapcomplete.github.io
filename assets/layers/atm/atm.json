@@ -282,7 +282,8 @@
       "question": {
         "en": "What notes can you withdraw here?",
         "nl": "Welke bankbiljetten kan je hier afhalen?",
-        "fr": "Quels billets pouvez-vous retirer ici ?"
+        "fr": "Quels billets pouvez-vous retirer ici ?",
+        "de": "Welche Geldscheine können Sie hier abheben?"
       },
       "multiAnswer": true,
       "mappings": [
@@ -291,7 +292,8 @@
           "icon": "./assets/tagRenderings/5euro.svg",
           "then": {
             "en": "5 euro notes can be withdrawn",
-            "nl": "Je kunt biljetten van 5 euro afhalen"
+            "nl": "Je kunt biljetten van 5 euro afhalen",
+            "de": "5-Euro-Scheine können abgehoben werden"
           }
         },
         {
@@ -299,7 +301,8 @@
           "icon": "./assets/tagRenderings/10euro.svg",
           "then": {
             "en": "10 euro notes can be withdrawn",
-            "nl": "Je kunt biljetten van 10 euro afhalen"
+            "nl": "Je kunt biljetten van 10 euro afhalen",
+            "de": "10-Euro-Scheine können abgehoben werden"
           }
         },
         {
@@ -307,7 +310,8 @@
           "icon": "./assets/tagRenderings/20euro.svg",
           "then": {
             "en": "20 euro notes can be withdrawn",
-            "nl": "Je kunt biljetten van 20 euro afhalen"
+            "nl": "Je kunt biljetten van 20 euro afhalen",
+            "de": "20-Euro-Scheine können abgehoben werden"
           }
         },
         {
@@ -315,7 +319,8 @@
           "icon": "./assets/tagRenderings/50euro.svg",
           "then": {
             "en": "50 euro notes can be withdrawn",
-            "nl": "Je kunt biljetten van 50 euro afhalen"
+            "nl": "Je kunt biljetten van 50 euro afhalen",
+            "de": "Es können 50-Euro-Scheine abgehoben werden"
           }
         },
         {
@@ -323,7 +328,8 @@
           "icon": "./assets/tagRenderings/100euro.svg",
           "then": {
             "en": "100 euro notes can be withdrawn",
-            "nl": "Je kunt biljetten van 100 euro afhalen"
+            "nl": "Je kunt biljetten van 100 euro afhalen",
+            "de": "100-Euro-Scheine können abgehoben werden"
           }
         },
         {
@@ -331,7 +337,8 @@
           "icon": "./assets/tagRenderings/200euro.svg",
           "then": {
             "en": "200 euro notes can be withdrawn",
-            "nl": "Je kunt biljetten van 200 euro afhalen"
+            "nl": "Je kunt biljetten van 200 euro afhalen",
+            "de": "200-Euro-Scheine können abgehoben werden"
           }
         },
         {
@@ -339,7 +346,8 @@
           "icon": "./assets/tagRenderings/500euro.svg",
           "then": {
             "en": "500 euro notes can be withdrawn",
-            "nl": "Je kunt biljetten van 500 euro afhalen"
+            "nl": "Je kunt biljetten van 500 euro afhalen",
+            "de": "500-Euro-Scheine können abgehoben werden"
           }
         }
       ]
