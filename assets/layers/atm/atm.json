@@ -16,7 +16,8 @@
     "nl": "Geldautomaten om geld op te nemen",
     "ca": "Caixers automàtics per a retirar diners",
     "nb_NO": "Minibanker fo rå ta ut penger",
-    "cs": "Bankomaty pro výběr peněz"
+    "cs": "Bankomaty pro výběr peněz",
+    "es": "Cajeros automáticos para retirar dinero"
   },
   "title": {
     "render": {
