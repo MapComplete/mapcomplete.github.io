@@ -897,8 +897,7 @@
         "then": {
           "en": "Payment by QR-code is possible here",
           "nl": "Betalen via een QR-code is hier mogelijk",
-          "de": "Die Bezahlung per QR-Code ist hier möglich",
-          "es": "Aquí se puede pagar con código QR"
+          "de": "Die Bezahlung per QR-Code ist hier möglich"
         }
       }
     ]
