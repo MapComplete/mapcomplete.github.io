@@ -1,6 +1,6 @@
 {
-  "name": "OpenWindPowerMap",
-  "short_name": "OpenWindPowerMap",
+  "name": "WInd power generators",
+  "short_name": "WInd power generators",
   "start_url": "openwindpowermap.html",
   "lang": "en",
   "display": "standalone",

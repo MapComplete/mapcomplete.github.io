@@ -1,6 +1,6 @@
 {
-  "name": "Cyclofix - an open map for cyclists",
-  "short_name": "Cyclofix - an open map for cyclists",
+  "name": "Cyclofix - a map for cyclists",
+  "short_name": "Cyclofix - a map for cyclists",
   "start_url": "cyclofix.html",
   "lang": "en",
   "display": "standalone",

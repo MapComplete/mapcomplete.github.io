@@ -1,6 +1,6 @@
 {
-  "name": "Open Toilet Map",
-  "short_name": "Open Toilet Map",
+  "name": "Public toilets",
+  "short_name": "Public toilets",
   "start_url": "toilets.html",
   "lang": "en",
   "display": "standalone",

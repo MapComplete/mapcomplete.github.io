@@ -1,6 +1,6 @@
 {
-  "name": "Open AED Map",
-  "short_name": "Open AED Map",
+  "name": "Defibrillators",
+  "short_name": "Defibrillators",
   "start_url": "aed.html",
   "lang": "en",
   "display": "standalone",

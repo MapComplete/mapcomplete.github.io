@@ -1,6 +1,6 @@
 {
-  "name": "Open Advertising Map",
-  "short_name": "Open Advertising Map",
+  "name": "Advertising",
+  "short_name": "Advertising",
   "start_url": "advertising.html",
   "lang": "en",
   "display": "standalone",

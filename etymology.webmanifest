@@ -1,6 +1,6 @@
 {
-  "name": "Open Etymology Map",
-  "short_name": "Open Etymology Map",
+  "name": "Etymology - what is a street named after?",
+  "short_name": "Etymology - what is a street named after?",
   "start_url": "etymology.html",
   "lang": "en",
   "display": "standalone",

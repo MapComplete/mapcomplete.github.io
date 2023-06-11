@@ -1,6 +1,6 @@
 {
-  "name": "Open Climbing Map",
-  "short_name": "Open Climbing Map",
+  "name": "Climbing gyms, clubs and spots",
+  "short_name": "Climbing gyms, clubs and spots",
   "start_url": "climbing.html",
   "lang": "en",
   "display": "standalone",

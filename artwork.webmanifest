@@ -1,6 +1,6 @@
 {
-  "name": "Open Artwork Map",
-  "short_name": "Open Artwork Map",
+  "name": "Artwork",
+  "short_name": "Artwork",
   "start_url": "artwork.html",
   "lang": "en",
   "display": "standalone",

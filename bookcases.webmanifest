@@ -1,6 +1,6 @@
 {
-  "name": "Open Bookcase Map",
-  "short_name": "Open Bookcase Map",
+  "name": "Public bookcases",
+  "short_name": "Public bookcases",
   "start_url": "bookcases.html",
   "lang": "en",
   "display": "standalone",

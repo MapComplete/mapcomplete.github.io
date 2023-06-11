@@ -1,6 +1,6 @@
 {
-  "name": "Open Shop Map",
-  "short_name": "Open Shop Map",
+  "name": "Shops",
+  "short_name": "Shops",
   "start_url": "shops.html",
   "lang": "en",
   "display": "standalone",
