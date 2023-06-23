@@ -55,13 +55,8 @@
         "fr": "Passage piéton",
         "ca": "Pas de vianants"
       },
-      "preciseInput": {
-        "preferredBackground": [
-          "photo"
-        ],
-        "snapToLayer": "cycleways_and_roads",
-        "maxSnapDistance": 25
-      }
+      "snapToLayer": "cycleways_and_roads",
+      "maxSnapDistance": 25
     }
   ],
   "tagRenderings": [
@@ -123,11 +118,12 @@
           }
         ]
       },
-      "iconSize": "40,40,center",
+      "iconSize": "40,40",
       "location": [
         "point",
         "centroid"
-      ]
+      ],
+      "anchor": "center"
     },
     {
       "color": "red",

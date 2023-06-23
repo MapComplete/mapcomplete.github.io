@@ -133,9 +133,6 @@
         "da": "Et teleskop eller en kikkert monteret på en stang, som offentligheden kan se sig omkring med. <img src='./assets/layers/binocular/binoculars_example.jpg' style='height: 300px; width: auto; display: block;' />",
         "es": "Un telescopio o unos prismáticos montados en un poste, disponible para que el público mire alrededor. <img src='./assets/layers/binocular/binoculars_example.jpg' style='height: 300px; width: auto; display: block;' />",
         "ca": "Un telescopi o un parell de prismàtics muntats en un pal, a disposició del públic per mirar al seu voltant. <img src='./assets/layers/binocular/binoculars_example.jpg' style='height: 300px; width: auto; display: block;' />"
-      },
-      "preciseInput": {
-        "preferredBackground": "photo"
       }
     }
   ],
@@ -161,23 +158,16 @@
   },
   "mapRendering": [
     {
-      "icon": {
-        "render": "circle:white;./assets/layers/binocular/telescope.svg"
-      },
-      "iconSize": {
-        "render": "40,40,center"
-      },
+      "icon": "circle:white;./assets/layers/binocular/telescope.svg",
+      "iconSize": "40,40",
       "location": [
         "point"
-      ]
+      ],
+      "anchor": "center"
     },
     {
-      "color": {
-        "render": "#00f"
-      },
-      "width": {
-        "render": "8"
-      }
+      "color": "#00f",
+      "width": "8"
     }
   ]
 }

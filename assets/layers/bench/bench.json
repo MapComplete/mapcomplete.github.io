@@ -22,7 +22,7 @@
     "cs": "Lavičky",
     "pa_PK": "بینچ"
   },
-  "minzoom": 17,
+  "minzoom": 14,
   "source": {
     "osmTags": "amenity=bench"
   },
@@ -996,12 +996,8 @@
   },
   "mapRendering": [
     {
-      "icon": {
-        "render": "./assets/layers/bench/bench.svg"
-      },
-      "iconSize": {
-        "render": "35,35,center"
-      },
+      "icon": "./assets/layers/bench/bench.svg",
+      "iconSize": "35,35",
       "iconBadges": [
         {
           "if": "tourism=artwork",
@@ -1011,7 +1007,8 @@
       "location": [
         "point",
         "centroid"
-      ]
+      ],
+      "anchor": "center"
     }
   ],
   "filter": [

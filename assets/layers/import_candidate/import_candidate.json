@@ -1,11 +1,7 @@
 {
   "id": "import_candidate",
-  "description": "Layer used in the importHelper",
-  "source": {
-    "osmTags": {
-      "and": []
-    }
-  },
+  "description": "Layer used as template in the importHelper",
+  "source": "special",
   "mapRendering": [
     {
       "location": [
@@ -13,7 +9,8 @@
         "centroid"
       ],
       "icon": "square:red;",
-      "iconSize": "15,15,center"
+      "iconSize": "15,15",
+      "anchor": "center"
     }
   ],
   "title": "Import candidate",

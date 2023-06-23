@@ -40,9 +40,7 @@
       "mapRendering": [
         {
           "color": "#444444",
-          "width": {
-            "render": "1"
-          }
+          "width": "1"
         }
       ]
     },
@@ -56,7 +54,7 @@
         },
         "minzoom": 12,
         "calculatedTags": [
-          "_is_shadowed=feat.overlapWith('shadow').length > 0 ? 'yes': ''",
+          "_is_shadowed=overlapWith(feat)('shadow').length > 0 ? 'yes': ''",
           "_video:id= feat.properties.video === undefined ? undefined : new URL(feat.properties.video).searchParams.get('v')"
         ]
       }
@@ -72,7 +70,7 @@
           "isOsmCache": true
         },
         "calculatedTags": [
-          "_is_shadowed=feat.overlapWith('shadow').length > 0 ? 'yes': ''",
+          "_is_shadowed=overlapWith(feat)('shadow').length > 0 ? 'yes': ''",
           "_video:id=feat.properties.video === undefined ? undefined : new URL(feat.properties.video).searchParams.get('v')"
         ]
       }
@@ -88,23 +86,7 @@
           "isOsmCache": true
         },
         "calculatedTags": [
-          "_is_shadowed=feat.overlapWith('shadow').length > 0 ? 'yes': ''",
-          "_video:id=feat.properties.video === undefined ? undefined : new URL(feat.properties.video).searchParams.get('v')"
-        ]
-      }
-    },
-    {
-      "builtin": "grass_in_parks",
-      "override": {
-        "minzoom": 14,
-        "source": {
-          "geoJsonLocal": "http://127.0.0.1:8080/speelplekken_{layer}_{z}_{x}_{y}.geojson",
-          "geoJson": "https://raw.githubusercontent.com/pietervdvn/MapComplete-data/main/speelplekken_cache/speelplekken_{layer}_{z}_{x}_{y}.geojson",
-          "geoJsonZoomLevel": 14,
-          "isOsmCache": true
-        },
-        "calculatedTags": [
-          "_is_shadowed=feat.overlapWith('shadow').length > 0 ? 'yes': ''",
+          "_is_shadowed=overlapWith(feat)('shadow').length > 0 ? 'yes': ''",
           "_video:id=feat.properties.video === undefined ? undefined : new URL(feat.properties.video).searchParams.get('v')"
         ]
       }
@@ -120,7 +102,7 @@
           "isOsmCache": true
         },
         "calculatedTags": [
-          "_is_shadowed=feat.overlapWith('shadow').length > 0 ? 'yes': ''",
+          "_is_shadowed=overlapWith(feat)('shadow').length > 0 ? 'yes': ''",
           "_video:id=feat.properties.video === undefined ? undefined : new URL(feat.properties.video).searchParams.get('v')"
         ]
       }
@@ -129,8 +111,7 @@
       "builtin": "slow_roads",
       "override": {
         "calculatedTags": [
-          "_part_of_walking_routes=Array.from(new Set(feat.memberships().map(r => \"<a href='#relation/\"+r.relation.id+\"'>\" + r.relation.tags.name + \"</a>\"))).join(', ')",
-          "_is_shadowed=feat.overlapWith('shadow').length > 0 ? 'yes': ''"
+          "_is_shadowed=overlapWith(feat)('shadow').length > 0 ? 'yes': ''"
         ],
         "source": {
           "geoJsonLocal": "http://127.0.0.1:8080/speelplekken_{layer}_{z}_{x}_{y}.geojson",
@@ -255,9 +236,7 @@
               }
             ]
           },
-          "width": {
-            "render": "9"
-          }
+          "width": "9"
         }
       ]
     }
@@ -268,11 +247,6 @@
   },
   "overrideAll": {
     "+tagRenderings": [
-      {
-        "id": "part-of-walk",
-        "render": "Maakt deel uit van {_part_of_walking_routes}",
-        "condition": "_part_of_walking_routes~*"
-      },
       {
         "id": "has-video",
         "freeform": {

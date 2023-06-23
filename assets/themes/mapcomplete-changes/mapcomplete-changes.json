@@ -103,6 +103,18 @@
               "hideInAnswer": true
             }
           ]
+        },
+        {
+          "id": "version",
+          "question": {
+            "en": "What version of MapComplete was used to make this change?"
+          },
+          "render": {
+            "en": "Made with {editor}"
+          },
+          "freeform": {
+            "key": "editor"
+          }
         }
       ],
       "mapRendering": [
@@ -287,10 +299,6 @@
                 "then": "./assets/themes/nature/logo.svg"
               },
               {
-                "if": "theme=natuurpunt",
-                "then": "./assets/themes/natuurpunt/natuurpunt.png"
-              },
-              {
                 "if": "theme=notes",
                 "then": "./assets/themes/notes/logo.svg"
               },
@@ -420,7 +428,8 @@
               }
             ]
           },
-          "iconSize": "30,30,center"
+          "iconSize": "30,30",
+          "anchor": "center"
         }
       ],
       "filter": [
@@ -555,7 +564,7 @@
       "builtin": "current_view",
       "override": {
         "title": "Statistics on changesets in the current view",
-        "tagRenderings": [
+        "tagRenderings+": [
           {
             "id": "link_to_more",
             "render": {
@@ -572,7 +581,7 @@
           }
         ],
         "calculatedTags": [
-          "_embedded_cs=feat.overlapWith('mapcomplete-changes').map(f => f.feat.properties)",
+          "_embedded_cs=overlapWith(feat)('mapcomplete-changes').map(f => f.feat.properties)",
           "_embedded_cs:themes=feat.get('_embedded_cs').map(cs => cs.theme)",
           "_embedded_cs:users=feat.get('_embedded_cs').map(cs => cs['_last_edit:contributor'])"
         ],
@@ -582,7 +591,8 @@
               "point"
             ],
             "icon": "statistics:black",
-            "iconSize": "30,30,center"
+            "iconSize": "30,30",
+            "anchor": "center"
           }
         ]
       }

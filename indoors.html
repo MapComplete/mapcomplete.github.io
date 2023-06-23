@@ -4,15 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <link href="./css/mobile.css" rel="stylesheet"/>
+    <link href="./css/openinghourstable.css" rel="stylesheet"/>
+    <link href="./css/tagrendering.css" rel="stylesheet"/>
+    <link href="css/ReviewElement.css" rel="stylesheet"/>
+    <link href="./css/index-tailwind-output.css" rel="stylesheet"/>
+    <link href="./css/wikipedia.css" rel="stylesheet"/>
     <meta content="website" property="og:type">
 
     <title>Indoors</title>
@@ -29,70 +26,100 @@
     <meta name="twitter:image" content="assets/generated/images/public_assets_generated_images_social_image_indoors_Wide512.png">
 
 <link rel="icon" href="./assets/entrance-54acca95.svg" sizes="any" type="image/svg+xml">
-    
-  <script type="module" crossorigin src="./assets/indoors-730aef73.js"></script>
-  <link rel="modulepreload" crossorigin href="./assets/SvelteUIElement-e1615eab.js">
-  <link rel="modulepreload" crossorigin href="./assets/SubtleButton-d23e2598.js">
-  <link rel="modulepreload" crossorigin href="./assets/List-264a4bef.js">
-  <link rel="modulepreload" crossorigin href="./assets/_commonjsHelpers-edff4021.js">
-  <link rel="modulepreload" crossorigin href="./assets/BBox-0ed745d1.js">
-  <link rel="modulepreload" crossorigin href="./assets/defineProperty-bf1f4e26.js">
-  <link rel="modulepreload" crossorigin href="./assets/ChartJs-f6ae5b16.js">
-  <link rel="modulepreload" crossorigin href="./assets/ToSvelte-24689d6f.js">
-  <link rel="modulepreload" crossorigin href="./assets/language_translations-d2c4c2fc.js">
-  <link rel="modulepreload" crossorigin href="./assets/theme_overview-b1cb811b.js">
-  <link rel="modulepreload" crossorigin href="./assets/MoreScreen-9d53a70c.js">
-  <link rel="modulepreload" crossorigin href="./assets/language_native-373a312a.js">
-  <link rel="modulepreload" crossorigin href="./assets/LanguagePicker-cc3e6e25.js">
-  <link rel="modulepreload" crossorigin href="./assets/UserInformation-a9ac4aee.js">
-  <link rel="modulepreload" crossorigin href="./assets/ContactLink-b4c5f344.js">
-  <link rel="modulepreload" crossorigin href="./assets/BackToIndex-c9b03002.js">
-  <link rel="modulepreload" crossorigin href="./assets/DashboardGui-be960803.js">
-  <link rel="stylesheet" href="./assets/SvelteUIElement-e3fb0bb1.css">
-  <link rel="stylesheet" href="./assets/DashboardGui-86fa991e.css">
-  <link rel="stylesheet" href="./assets/ToSvelte-c55834a1.css">
-  <link rel="stylesheet" href="./assets/theme_overview-bd547c90.css">
-  <link rel="stylesheet" href="./assets/MoreScreen-2dd360f1.css">
-  <link rel="stylesheet" href="./assets/SubtleButton-1a3bbdfd.css">
-  <link rel="stylesheet" href="./assets/tabbedComponent-82c5367b.css">
-  <link rel="stylesheet" href="./assets/tagrendering-e4d9a4c2.css">
-  <link rel="stylesheet" href="./assets/wikipedia-d4b8e548.css">
+
+  <script type="module" crossorigin src="./assets/index-a8972552.js"></script>
+  <script type="module" crossorigin src="./assets/Loading-f0e9c224.js"></script>
+  <script type="module" crossorigin src="./assets/_commonjsHelpers-87174ba5.js"></script>
+  <script type="module" crossorigin src="./assets/Tr-589c87c6.js"></script>
+  <script type="module" crossorigin src="./assets/ToSvelte-1e77c4ce.js"></script>
+  <script type="module" crossorigin src="./assets/ValidatedInput-3ebdcfa5.js"></script>
+  <script type="module" crossorigin src="./assets/Filterview-569b8445.js"></script>
+  <script type="module" crossorigin src="./assets/SubtleButton-087b89a1.js"></script>
+  <script type="module" crossorigin src="./assets/Loading-43844f98.js"></script>
+  <script type="module" crossorigin src="./assets/LanguagePicker-5c4cf365.js"></script>
+  <script type="module" crossorigin src="./assets/defineProperty-ef1b11c3.js"></script>
+  <script type="module" crossorigin src="./assets/ExtraFunctions-b8ad1119.js"></script>
+  <script type="module" crossorigin src="./assets/FeatureSwitchState-fe9ffe3a.js"></script>
+  <script type="module" crossorigin src="./assets/index-1ec6b879.js"></script>
+  <link rel="stylesheet" href="./assets/index-faf7c2a9.css">
+  <link rel="stylesheet" href="./assets/ExtraFunctions-df73752c.css">
 </head>
 <body>
 
-<div id="decoration-desktop" style="position: fixed; left: 1em; bottom: 1em; width:35vh; height:35vh;">
-    <!-- A nice decoration while loading or on errors -->
-    <img src='./assets/entrance-54acca95.svg' width="100%" height="100%">
-</div>
 
-<div class="very-small-screen fixed inset-0 block z-above-controls" id="on-small-screen"></div>
-<div class="fixed inset-0 block z-above-controls hidden hidden-on-very-small-screen md:w-1/3" style="min-width: 28rem" id="fullscreen"></div>
+<div class="h-full" id="maindiv">
+    <div id="default-main h-full">
+        <div class="w-full h-screen flex flex-col items-center justify-between  p-8">
+            <div class="w-full h-full flex flex-col items-center">
 
-<div class="absolute top-12 sm:top-3 left-3 rounded-3xl z-above-map" id="top-left"></div>
-<div class="absolute top-3 right-2 rounded-3xl z-above-map pl-3 sm:pl-0 w-full sm:w-fit" id="top-right"></div>
+                <div id="default-title">
+                    <h1 lang='ca'>Carregant Indoors…</h1>
+<h1 lang='cs'>Načítání Indoors…</h1>
+<h1 lang='da'>Indlæser Indoors...</h1>
+<h1 lang='de'>Lade Indoors…</h1>
+<h1 lang='en'>Loading Indoors…</h1>
+<h1 lang='es'>Cargando Indoors…</h1>
+<h1 lang='fr'>Chargement de Indoors…</h1>
+<h1 lang='hu'>Indoors betöltése…</h1>
+<h1 lang='it'>Scaricamento Indoors…</h1>
+<h1 lang='nb_NO'>Laster inn Indoors…</h1>
+<h1 lang='nl'>Indoors wordt geladen…</h1>
+<h1 lang='pl'>Wczytywanie Indoors…</h1>
+<h1 lang='pt'>A carregar Indoors…</h1>
+<h1 lang='zh_Hant'>載入 Indoors…</h1>
+                </div>
 
-<div class="absolute bottom-3 left-3 rounded-3xl z-above-map" id="bottom-left"></div>
-<div class="absolute bottom-3 right-2 rounded-3xl z-above-map" id="bottom-right"></div>
+                <p class="text-xl" id="descriptions-while-loading">
+                    <span lang='en'>On this map, publicly accessible indoor places are shown</span>
+<span lang='de'>Diese Karte zeigt öffentlich zugängliche Innenräume</span>
+<span lang='fr'>Sur cette carte, les lieux intérieurs accessibles au public sont montrés</span>
+<span lang='da'>På dette kort er offentligt tilgængelige indendørs steder vist</span>
+<span lang='nl'>Op deze kaart worden publiek toegankelijke binnenruimtes getoond</span>
+<span lang='cs'>Na této mapě jsou zobrazeny veřejně přístupné vnitřní prostory</span>
+<span lang='nb_NO'>Viser offentlig tilgjenglige innendørssteder</span>
+<span lang='es'>En este mapa se muestran los lugares cubiertos de acceso público</span>
+<span lang='ca'>En aquest mapa es mostren els llocs interiors accessibles al públic</span>
+                </p>
+                <p>
+                    Powered by OpenStreetMap
+                </p>
+            </div>
 
-<div class="clutter absolute h-24 left-24 right-24 top-56 text-xl text-center"
-     id="centermessage" style="z-index: 4000">
-    <div style="height: max-content">
-    <div style="margin-top: -3rem">
-        <div class="flex" style="justify-content: center">
-            <img src="./assets/loading-90179bb2.svg" class="animate-spin" style="width: 1.5rem; height: 1.5rem; min-width: 1.5rem;"/>
-            <h1 style="font-weight: bold; font-size: xx-large; margin-bottom: 1rem; padding-left: 1rem">Loading Indoors…</h1>
+            <img class='p-8 h-32 w-32 self-start' src='./assets/entrance-54acca95.svg' />
         </div>
-    <p class="subtle" style="padding-bottom: 1rem">Powered by OpenStreetMap</p>
-    <div style="background: #ffffffaa; padding-bottom: 1rem; border-radius: 0.25rem">
-    On this map, publicly accessible indoor places are shown
-    </div>
-    </div>
     </div>
 </div>
+<div id="belowmap" class="absolute top-0 left-0" style="z-index: -1;">Below</div>
 
+<script>
 
-<span class="absolute" id="belowmap" style="z-index: -1">Below</span>
-<div id="leafletDiv"></div>
+    let lang = ((navigator.languages && navigator.languages[0]) || navigator.language || navigator.userLanguage || 'en').substr(0, 2);
+
+    function filterLangs(maindiv) {
+        let foundLangs = 0
+        for (const child of Array.from(maindiv.children)) {
+            if (child.attributes.lang?.value === lang) {
+                foundLangs++
+            }
+        }
+        if (foundLangs === 0) {
+            lang = "en"
+        }
+        for (const child of Array.from(maindiv.children)) {
+            const childLang = child.attributes.lang
+            if (childLang === undefined) {
+                continue
+            }
+            if (childLang.value === lang) {
+                continue
+            }
+            child.parentElement.removeChild(child)
+        }
+    }
+
+    filterLangs(document.getElementById("descriptions-while-loading"))
+    filterLangs(document.getElementById("default-title"))
+</script>
 
 
 

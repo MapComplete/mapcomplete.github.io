@@ -1,0 +1,1 @@
+import{S as t}from"./index-a8972552.js";import{T as o,C as a,F as n}from"./Loading-f0e9c224.js";import{S as s}from"./SubtleButton-087b89a1.js";class i extends s{constructor(e){super(t.back_svg().SetStyle("height: 1.5rem;"),e??o.t.general.backToMapcomplete,{url:"index.html"})}}new a([new n("This page is not found"),new i]).AttachTo("maindiv");

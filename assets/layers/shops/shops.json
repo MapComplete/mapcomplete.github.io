@@ -12,7 +12,7 @@
     "es": "Tienda",
     "pa_PK": "دکان"
   },
-  "minzoom": 16,
+  "minzoom": 12,
   "source": {
     "osmTags": {
       "and": [
@@ -322,7 +322,19 @@
       "icon": {
         "builtin": "id_presets.shop_rendering",
         "override": {
-          "render": "./assets/layers/id_presets/maki-shop.svg"
+          "render": "./assets/layers/id_presets/maki-shop.svg",
+          "+mappings": [
+            {
+              "if": {
+                "or": [
+                  "shop=vacant",
+                  "shop=disused",
+                  "disused:shop=yes"
+                ]
+              },
+              "then": "circle:white;./assets/layers/shops/shop-disused.svg"
+            }
+          ]
         }
       },
       "iconBadges": [
@@ -348,21 +360,16 @@
           }
         ]
       },
-      "iconSize": {
-        "render": "40,40,center"
-      },
+      "iconSize": "40,40",
       "location": [
         "point",
         "centroid"
-      ]
+      ],
+      "anchor": "center"
     },
     {
-      "color": {
-        "render": "#00f"
-      },
-      "width": {
-        "render": "8"
-      }
+      "color": "#00f",
+      "width": "8"
     }
   ],
   "filter": [

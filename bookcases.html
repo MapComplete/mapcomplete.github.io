@@ -4,15 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <link href="./css/mobile.css" rel="stylesheet"/>
+    <link href="./css/openinghourstable.css" rel="stylesheet"/>
+    <link href="./css/tagrendering.css" rel="stylesheet"/>
+    <link href="css/ReviewElement.css" rel="stylesheet"/>
+    <link href="./css/index-tailwind-output.css" rel="stylesheet"/>
+    <link href="./css/wikipedia.css" rel="stylesheet"/>
     <meta content="website" property="og:type">
 
     <title>Public bookcases</title>
@@ -28,71 +25,105 @@
     <meta name="twitter:description" content="A public bookcase is a small streetside cabinet, box, old phone booth or some other objects where books are stored">
     <meta name="twitter:image" content="assets/generated/images/public_assets_generated_images_social_image_bookcases_Wide512.png">
 
-<link rel="icon" href="./assets/bookcase-288f1b35.svg" sizes="any" type="image/svg+xml">
-    
-  <script type="module" crossorigin src="./assets/bookcases-0fa5b419.js"></script>
-  <link rel="modulepreload" crossorigin href="./assets/SvelteUIElement-e1615eab.js">
-  <link rel="modulepreload" crossorigin href="./assets/SubtleButton-d23e2598.js">
-  <link rel="modulepreload" crossorigin href="./assets/List-264a4bef.js">
-  <link rel="modulepreload" crossorigin href="./assets/_commonjsHelpers-edff4021.js">
-  <link rel="modulepreload" crossorigin href="./assets/BBox-0ed745d1.js">
-  <link rel="modulepreload" crossorigin href="./assets/defineProperty-bf1f4e26.js">
-  <link rel="modulepreload" crossorigin href="./assets/ChartJs-f6ae5b16.js">
-  <link rel="modulepreload" crossorigin href="./assets/ToSvelte-24689d6f.js">
-  <link rel="modulepreload" crossorigin href="./assets/language_translations-d2c4c2fc.js">
-  <link rel="modulepreload" crossorigin href="./assets/theme_overview-b1cb811b.js">
-  <link rel="modulepreload" crossorigin href="./assets/MoreScreen-9d53a70c.js">
-  <link rel="modulepreload" crossorigin href="./assets/language_native-373a312a.js">
-  <link rel="modulepreload" crossorigin href="./assets/LanguagePicker-cc3e6e25.js">
-  <link rel="modulepreload" crossorigin href="./assets/UserInformation-a9ac4aee.js">
-  <link rel="modulepreload" crossorigin href="./assets/ContactLink-b4c5f344.js">
-  <link rel="modulepreload" crossorigin href="./assets/BackToIndex-c9b03002.js">
-  <link rel="modulepreload" crossorigin href="./assets/DashboardGui-be960803.js">
-  <link rel="stylesheet" href="./assets/SvelteUIElement-e3fb0bb1.css">
-  <link rel="stylesheet" href="./assets/DashboardGui-86fa991e.css">
-  <link rel="stylesheet" href="./assets/ToSvelte-c55834a1.css">
-  <link rel="stylesheet" href="./assets/theme_overview-bd547c90.css">
-  <link rel="stylesheet" href="./assets/MoreScreen-2dd360f1.css">
-  <link rel="stylesheet" href="./assets/SubtleButton-1a3bbdfd.css">
-  <link rel="stylesheet" href="./assets/tabbedComponent-82c5367b.css">
-  <link rel="stylesheet" href="./assets/tagrendering-e4d9a4c2.css">
-  <link rel="stylesheet" href="./assets/wikipedia-d4b8e548.css">
+<link rel="icon" href="./assets/bookcase-6939f1e2.svg" sizes="any" type="image/svg+xml">
+
+  <script type="module" crossorigin src="./assets/index-a8972552.js"></script>
+  <script type="module" crossorigin src="./assets/Loading-f0e9c224.js"></script>
+  <script type="module" crossorigin src="./assets/_commonjsHelpers-87174ba5.js"></script>
+  <script type="module" crossorigin src="./assets/Tr-589c87c6.js"></script>
+  <script type="module" crossorigin src="./assets/ToSvelte-1e77c4ce.js"></script>
+  <script type="module" crossorigin src="./assets/ValidatedInput-3ebdcfa5.js"></script>
+  <script type="module" crossorigin src="./assets/Filterview-569b8445.js"></script>
+  <script type="module" crossorigin src="./assets/SubtleButton-087b89a1.js"></script>
+  <script type="module" crossorigin src="./assets/Loading-43844f98.js"></script>
+  <script type="module" crossorigin src="./assets/LanguagePicker-5c4cf365.js"></script>
+  <script type="module" crossorigin src="./assets/defineProperty-ef1b11c3.js"></script>
+  <script type="module" crossorigin src="./assets/ExtraFunctions-b8ad1119.js"></script>
+  <script type="module" crossorigin src="./assets/FeatureSwitchState-fe9ffe3a.js"></script>
+  <script type="module" crossorigin src="./assets/index-1ec6b879.js"></script>
+  <link rel="stylesheet" href="./assets/index-faf7c2a9.css">
+  <link rel="stylesheet" href="./assets/ExtraFunctions-df73752c.css">
 </head>
 <body>
 
-<div id="decoration-desktop" style="position: fixed; left: 1em; bottom: 1em; width:35vh; height:35vh;">
-    <!-- A nice decoration while loading or on errors -->
-    <img src='./assets/bookcase-288f1b35.svg' width="100%" height="100%">
-</div>
 
-<div class="very-small-screen fixed inset-0 block z-above-controls" id="on-small-screen"></div>
-<div class="fixed inset-0 block z-above-controls hidden hidden-on-very-small-screen md:w-1/3" style="min-width: 28rem" id="fullscreen"></div>
+<div class="h-full" id="maindiv">
+    <div id="default-main h-full">
+        <div class="w-full h-screen flex flex-col items-center justify-between  p-8">
+            <div class="w-full h-full flex flex-col items-center">
 
-<div class="absolute top-12 sm:top-3 left-3 rounded-3xl z-above-map" id="top-left"></div>
-<div class="absolute top-3 right-2 rounded-3xl z-above-map pl-3 sm:pl-0 w-full sm:w-fit" id="top-right"></div>
+                <div id="default-title">
+                    <h1 lang='ca'>Carregant Public bookcases…</h1>
+<h1 lang='cs'>Načítání Public bookcases…</h1>
+<h1 lang='da'>Indlæser Public bookcases...</h1>
+<h1 lang='de'>Lade Public bookcases…</h1>
+<h1 lang='en'>Loading Public bookcases…</h1>
+<h1 lang='es'>Cargando Public bookcases…</h1>
+<h1 lang='fr'>Chargement de Public bookcases…</h1>
+<h1 lang='hu'>Public bookcases betöltése…</h1>
+<h1 lang='it'>Scaricamento Public bookcases…</h1>
+<h1 lang='nb_NO'>Laster inn Public bookcases…</h1>
+<h1 lang='nl'>Public bookcases wordt geladen…</h1>
+<h1 lang='pl'>Wczytywanie Public bookcases…</h1>
+<h1 lang='pt'>A carregar Public bookcases…</h1>
+<h1 lang='zh_Hant'>載入 Public bookcases…</h1>
+                </div>
 
-<div class="absolute bottom-3 left-3 rounded-3xl z-above-map" id="bottom-left"></div>
-<div class="absolute bottom-3 right-2 rounded-3xl z-above-map" id="bottom-right"></div>
+                <p class="text-xl" id="descriptions-while-loading">
+                    <span lang='en'>A public bookcase is a small streetside cabinet, box, old phone booth or some other objects where books are stored</span>
+<span lang='nl'>Een boekenruilkast is een kastje waar iedereen een boek kan nemen of achterlaten</span>
+<span lang='de'>Bücherschränke sind alte Schaltschränke, Telefonzellen oder andere Einrichtungen zur Aufbewahrung von Büchern</span>
+<span lang='fr'>Une microbibliothèques, également appelée boite à livre, est un élément de mobilier urbain (étagère, armoire, etc) dans lequel sont stockés des livres et autres objets en accès libre</span>
+<span lang='ru'>Общественный книжный шкаф - это небольшой уличный шкаф, коробка, старый телефонный аппарат или другие предметы, где хранятся книги</span>
+<span lang='ja'>公共の本棚とは、本が保管されている小さな街角のキャビネット、箱、古い電話のトランク、その他の物のことです。誰でも本を置いたり持ったりすることができます。このマップは、すべての公共の本棚を収集することを目的としています。近くで新しい本棚を見つけることができ、無料のOpenStreetMapアカウントを使えば、お気に入りの本棚を簡単に追加できます。</span>
+<span lang='zh_Hant'>公共書架是街邊箱子、盒子、舊的電話亭或是其他存放書本的物件，每一個人都能放置或拿取書本。這份地圖收集所有類型的書架，你可以探索你附近新的書架，同時也能用免費的開放街圖帳號來快速新增你最愛的書架。</span>
+<span lang='it'>Una libreria pubblica è una piccola cabina a lato della strada, un locale, una vecchia cabina telefonica o qualche altro luogo in cui sono tenuti libri</span>
+<span lang='hu'>A nyilvános könyvespolc egy kis utcai szekrény, doboz, régi telefonfülke vagy más tárgy, ahol könyveket tárolnak</span>
+<span lang='es'>Una librería pública es un pequeño armario en la calle, una caja, una vieja cabina telefónica o algún otro objeto donde se guardan libros</span>
+<span lang='da'>Et offentligt bogskab er et lille skab, en kasse, en gammel telefonboks eller andre steder, hvor bøger opbevares</span>
+<span lang='ca'>Una llibreria pública és un xicotet armari al carrer, una caixa, una vella cabina telefònica o algun altre objecte on es guarden llibres</span>
+<span lang='cs'>Veřejná knihovna je malá pouliční skříňka, krabice, stará telefonní budka nebo jiný předmět, ve kterém jsou uloženy knihy</span>
+                </p>
+                <p>
+                    Powered by OpenStreetMap
+                </p>
+            </div>
 
-<div class="clutter absolute h-24 left-24 right-24 top-56 text-xl text-center"
-     id="centermessage" style="z-index: 4000">
-    <div style="height: max-content">
-    <div style="margin-top: -3rem">
-        <div class="flex" style="justify-content: center">
-            <img src="./assets/loading-90179bb2.svg" class="animate-spin" style="width: 1.5rem; height: 1.5rem; min-width: 1.5rem;"/>
-            <h1 style="font-weight: bold; font-size: xx-large; margin-bottom: 1rem; padding-left: 1rem">Loading Public bookcases…</h1>
+            <img class='p-8 h-32 w-32 self-start' src='./assets/bookcase-6939f1e2.svg' />
         </div>
-    <p class="subtle" style="padding-bottom: 1rem">Powered by OpenStreetMap</p>
-    <div style="background: #ffffffaa; padding-bottom: 1rem; border-radius: 0.25rem">
-    A public bookcase is a small streetside cabinet, box, old phone booth or some other objects where books are stored
-    </div>
-    </div>
     </div>
 </div>
+<div id="belowmap" class="absolute top-0 left-0" style="z-index: -1;">Below</div>
 
+<script>
 
-<span class="absolute" id="belowmap" style="z-index: -1">Below</span>
-<div id="leafletDiv"></div>
+    let lang = ((navigator.languages && navigator.languages[0]) || navigator.language || navigator.userLanguage || 'en').substr(0, 2);
+
+    function filterLangs(maindiv) {
+        let foundLangs = 0
+        for (const child of Array.from(maindiv.children)) {
+            if (child.attributes.lang?.value === lang) {
+                foundLangs++
+            }
+        }
+        if (foundLangs === 0) {
+            lang = "en"
+        }
+        for (const child of Array.from(maindiv.children)) {
+            const childLang = child.attributes.lang
+            if (childLang === undefined) {
+                continue
+            }
+            if (childLang.value === lang) {
+                continue
+            }
+            child.parentElement.removeChild(child)
+        }
+    }
+
+    filterLangs(document.getElementById("descriptions-while-loading"))
+    filterLangs(document.getElementById("default-title"))
+</script>
 
 
 

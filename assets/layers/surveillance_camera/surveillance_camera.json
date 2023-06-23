@@ -592,14 +592,7 @@
         "de": "eine an einer Wand montierte Überwachungskamera",
         "es": "una cámara de vigilancia montada en una pared"
       },
-      "preciseInput": {
-        "snapToLayer": "walls_and_buildings",
-        "preferredBackground": [
-          "photo",
-          "osmbasedmap",
-          "map"
-        ]
-      }
+      "snapToLayer": "walls_and_buildings"
     }
   ],
   "mapRendering": [
@@ -654,14 +647,11 @@
       }
     },
     {
-      "color": {
-        "render": "#f00"
-      },
-      "width": {
-        "render": "8"
-      }
+      "color": "#f00",
+      "width": "8"
     }
   ],
+  "deletion": true,
   "description": {
     "en": "This layer shows surveillance cameras and allows a contributor to update information and add new cameras",
     "nl": "Deze laag toont bewakingscamera's en laat toe om de informatie te verrijken en om nieuwe camera\"s toe te voegen",

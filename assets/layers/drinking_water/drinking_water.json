@@ -44,9 +44,9 @@
     }
   },
   "calculatedTags": [
-    "_closest_other_drinking_water=feat.closestn('drinking_water', 1, undefined, 5000).map(f => ({id: f.feat.id, distance: ''+f.distance}))[0]",
-    "_closest_other_drinking_water_id=JSON.parse(feat.properties._closest_other_drinking_water)?.id",
-    "_closest_other_drinking_water_distance=Math.floor(Number(JSON.parse(feat.properties._closest_other_drinking_water)?.distance))"
+    "_closest_other_drinking_water=closestn(feat)('drinking_water', 1, undefined, 5000).map(f => ({id: f.feat.id, distance: ''+f.distance}))[0]",
+    "_closest_other_drinking_water_id=get(feat)('_closest_other_drinking_water')?.id",
+    "_closest_other_drinking_water_distance=Math.floor(Number(get(feat)('_closest_other_drinking_water')?.distance))"
   ],
   "minzoom": 13,
   "presets": [
@@ -244,9 +244,7 @@
   },
   "mapRendering": [
     {
-      "icon": {
-        "render": "pin:#6BC4F7;./assets/layers/drinking_water/drips.svg"
-      },
+      "icon": "pin:#6BC4F7;./assets/layers/drinking_water/drips.svg",
       "iconBadges": [
         {
           "if": {
@@ -258,11 +256,12 @@
           "then": "close:#c33"
         }
       ],
-      "iconSize": "40,40,bottom",
+      "iconSize": "40,40",
       "location": [
         "point",
         "centroid"
-      ]
+      ],
+      "anchor": "bottom"
     }
   ],
   "description": {
