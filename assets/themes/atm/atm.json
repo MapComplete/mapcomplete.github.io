@@ -83,6 +83,7 @@
                 "maproulette_id": "mr_taskId",
                 "text": {
                   "en": "Import this ATM",
+                  "de": "Diesen Geldautomaten importieren",
                   "zh_Hant": "匯入這座 ATM"
                 },
                 "icon": "./assets/svg/addSmall.svg"
