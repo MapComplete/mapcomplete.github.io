@@ -202,8 +202,7 @@
         {
           "id": "grb-reference",
           "render": {
-            "en": "Has been imported from GRB, reference number is {source:geometry:ref}",
-            "de": "Wurde von GRB importiert, Referenznummer ist {source:geometry:ref}"
+            "en": "Has been imported from GRB, reference number is {source:geometry:ref}"
           },
           "condition": "source:geometry:ref~*"
         },

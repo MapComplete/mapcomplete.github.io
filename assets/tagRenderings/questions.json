@@ -592,7 +592,7 @@
       "ru": "Не повторяйте уже изложенные факты",
       "zh_Hant": "不要重覆答覆已經知道的事情",
       "it": "Non ripetere informazioni già fornite",
-      "de": "Bitte keine bereits erhobenen Informationen wiederholen",
+      "de": "Bitte keine bereits erhobenen Informationen.",
       "pl": "Nie powtarzaj już podanych faktów",
       "pt_BR": " Não repita fatos já declarados",
       "pt": "Não repita factos já declarados",
@@ -1413,7 +1413,7 @@
         "text": {
           "en": "Last edited on {_last_edit:timestamp} by {_last_edit:contributor}",
           "nl": "Laatst gewijzigd op {_last_edit:timestamp} door {_last_edit:contributor} ",
-          "de": "Zuletzt bearbeitet am {_last_edit:timestamp} von {_last_edit:contributor}"
+          "de": "Zuletzt bearbeitet am {_last_edit:timestamp}  vom {_last_edit:contributor}"
         },
         "class": "subtle font-small"
       }
