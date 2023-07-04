@@ -4633,9 +4633,7 @@
         ]
       }
     },
-    {
-      "id": "questions"
-    },
+    "questions",
     {
       "id": "questions-technical",
       "render": {
