@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- WARNING: index.html serves as a template. If you want to change something, change it there -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+    <link href="./css/mobile.css" rel="stylesheet"/>
+    <link href="./css/openinghourstable.css" rel="stylesheet"/>
+    <link href="./css/tagrendering.css" rel="stylesheet"/>
+    <link href="css/ReviewElement.css" rel="stylesheet"/>
+    <link href="./css/index-tailwind-output.css" rel="stylesheet"/>
+    <link href="./css/wikipedia.css" rel="stylesheet"/>
+    <meta content="website" property="og:type">
+
+    <title>Penny Presses</title>
+<link rel="manifest" href="elongated_coin.webmanifest">
+
+    <meta property="og:image" content="assets/generated/images/public_assets_generated_images_social_image_elongated_coin_512.png">
+    <meta property="og:title" content="Penny Presses">
+    <meta property="og:description" content="Find penny presses to create your own elongated coins">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@mapcomplete.osm.be">
+    <meta name="twitter:creator" content="@pietervdvn">
+    <meta name="twitter:title" content="Penny Presses">
+    <meta name="twitter:description" content="Find penny presses to create your own elongated coins">
+    <meta name="twitter:image" content="assets/generated/images/public_assets_generated_images_social_image_elongated_coin_Wide512.png">
+
+<link rel="icon" href="./assets/penny-1f92cfba.svg" sizes="any" type="image/svg+xml">
+
+  <script type="module" crossorigin src="./assets/elongated_coin-66e43c9e.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/Svg-eff5eb9e.js">
+  <link rel="modulepreload" crossorigin href="./assets/Tr-38bc0bbd.js">
+  <link rel="modulepreload" crossorigin href="./assets/_commonjsHelpers-edff4021.js">
+  <link rel="modulepreload" crossorigin href="./assets/FixImages-c5e6afe0.js">
+  <link rel="modulepreload" crossorigin href="./assets/tw-merge-79e96412.js">
+  <link rel="modulepreload" crossorigin href="./assets/ToSvelte-1f108ca1.js">
+  <link rel="modulepreload" crossorigin href="./assets/Loading-ba9116ae.js">
+  <link rel="modulepreload" crossorigin href="./assets/LanguagePicker-308f7b93.js">
+  <link rel="modulepreload" crossorigin href="./assets/ValidatedInput-e6a0bb86.js">
+  <link rel="modulepreload" crossorigin href="./assets/defineProperty-c572026c.js">
+  <link rel="modulepreload" crossorigin href="./assets/BackButton-bef3e88b.js">
+  <link rel="modulepreload" crossorigin href="./assets/ExtraFunctions-d0038c3a.js">
+  <link rel="modulepreload" crossorigin href="./assets/Filterview-6b6d6be8.js">
+  <link rel="modulepreload" crossorigin href="./assets/FeatureSwitchState-428ba825.js">
+  <link rel="modulepreload" crossorigin href="./assets/ThemeViewGUI-f50c4eed.js">
+  <link rel="stylesheet" href="./assets/ThemeViewGUI-faf7c2a9.css">
+  <link rel="stylesheet" href="./assets/ExtraFunctions-61aeedfe.css">
+</head>
+<body>
+
+
+<div class="h-full" id="maindiv">
+    <div id="default-main h-full">
+        <div class="w-full h-screen flex flex-col items-center justify-between  p-8">
+            <div class="w-full h-full flex flex-col items-center">
+
+                <div id="default-title">
+                    <h1 lang='ca'>Carregant Penny Presses…</h1>
+<h1 lang='cs'>Načítání Penny Presses…</h1>
+<h1 lang='da'>Indlæser Penny Presses...</h1>
+<h1 lang='de'>Lade Penny Presses…</h1>
+<h1 lang='en'>Loading Penny Presses…</h1>
+<h1 lang='es'>Cargando Penny Presses…</h1>
+<h1 lang='fr'>Chargement de Penny Presses…</h1>
+<h1 lang='hu'>Penny Presses betöltése…</h1>
+<h1 lang='it'>Scaricamento Penny Presses…</h1>
+<h1 lang='nb_NO'>Laster inn Penny Presses…</h1>
+<h1 lang='nl'>Penny Presses wordt geladen…</h1>
+<h1 lang='pl'>Wczytywanie Penny Presses…</h1>
+<h1 lang='pt'>A carregar Penny Presses…</h1>
+<h1 lang='zh_Hant'>載入 Penny Presses…</h1>
+                </div>
+
+                <p class="text-xl" id="descriptions-while-loading">
+                    <span lang='en'>Find penny presses to create your own elongated coins</span>
+                </p>
+                <p>
+                    Powered by OpenStreetMap
+                </p>
+            </div>
+
+            <img class='p-8 h-32 w-32 self-start' src='./assets/penny-1f92cfba.svg' />
+        </div>
+    </div>
+</div>
+<div id="belowmap" class="absolute top-0 left-0" style="z-index: -1;">Below</div>
+
+<script>
+
+    let lang = ((navigator.languages && navigator.languages[0]) || navigator.language || navigator.userLanguage || 'en').substr(0, 2);
+
+    function filterLangs(maindiv) {
+        let foundLangs = 0
+        for (const child of Array.from(maindiv.children)) {
+            if (child.attributes.lang?.value === lang) {
+                foundLangs++
+            }
+        }
+        if (foundLangs === 0) {
+            lang = "en"
+        }
+        for (const child of Array.from(maindiv.children)) {
+            const childLang = child.attributes.lang
+            if (childLang === undefined) {
+                continue
+            }
+            if (childLang.value === lang) {
+                continue
+            }
+            child.parentElement.removeChild(child)
+        }
+    }
+
+    filterLangs(document.getElementById("descriptions-while-loading"))
+    filterLangs(document.getElementById("default-title"))
+</script>
+
+
+
+<script async data-goatcounter="https://pietervdvn.goatcounter.com/count" src="//gc.zgo.at/count.js"></script>
+
+<script>
+    window.addEventListener('load', () => {
+        if ('serviceWorker' in navigator) {
+            // register service worker
+            navigator.serviceWorker.register('/service-worker.js').then(
+                () => {
+                    console.log('Service worker registration successful');
+                },
+                err => {
+                    console.error('Service worker registration failed', err)
+                });
+        } else {
+            console.log("Service workers are not supported")
+        }
+    });
+</script>
+
+</body>
+</html>
