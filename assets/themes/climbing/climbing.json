@@ -142,7 +142,8 @@
                   "es": " metro",
                   "da": " meter",
                   "pa_PK": " ؜ میٹر",
-                  "cs": " metr"
+                  "cs": " metr",
+                  "eu": " ·metro"
                 }
               },
               {
@@ -163,7 +164,8 @@
                   "es": " pies",
                   "da": " fod",
                   "pa_PK": " ؜ فوٹ",
-                  "cs": " stopa"
+                  "cs": " stopa",
+                  "eu": " ·hanka"
                 }
               }
             ]
@@ -247,7 +249,8 @@
               "es": "¿Quién puede acceder aquí?",
               "ca": "Qui pot accedir aquí?",
               "da": "Hvem kan få adgang her?",
-              "cs": "Kdo sem má přístup?"
+              "cs": "Kdo sem má přístup?",
+              "pl": "Kto ma tutaj dostęp?"
             },
             "mappings": [
               {
@@ -262,7 +265,8 @@
                   "es": "Accesible públicamente a cualquiera",
                   "da": "Offentligt tilgængelig for alle",
                   "cs": "Veřejně přístupné komukoli",
-                  "ca": "Accessible públicament a qualsevol"
+                  "ca": "Accessible públicament a qualsevol",
+                  "pl": "Publicznie dostępne dla każdego"
                 }
               },
               {
@@ -292,7 +296,8 @@
                   "es": "Solo clientes",
                   "da": "Kun for kunder",
                   "pa_PK": "صرف گاہک",
-                  "cs": "Pouze zákazníci"
+                  "cs": "Pouze zákazníci",
+                  "pl": "Tylko klienci"
                 }
               },
               {
@@ -309,7 +314,8 @@
                   "es": "Solo miembros del club",
                   "da": "Kun klubmedlemmer",
                   "pa_PK": "صرف کلب دے میمبر",
-                  "cs": "Pouze členové klubu"
+                  "cs": "Pouze členové klubu",
+                  "pl": "Tylko członkowie klubu"
                 }
               },
               {

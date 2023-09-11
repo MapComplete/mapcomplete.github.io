@@ -14,7 +14,9 @@
     "ca": "Mapa obert de botigues",
     "da": "Åbn butikskort",
     "es": "Mapa Abierto de Tiendas",
-    "cs": "Open Shop Map"
+    "cs": "Open Shop Map",
+    "eu": "Denda",
+    "pl": "Sklepy"
   },
   "shortDescription": {
     "en": "An editable map with basic shop information",

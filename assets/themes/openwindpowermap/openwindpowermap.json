@@ -29,7 +29,8 @@
     "da": "Et kort til visning og redigering af vindmøller.",
     "nb_NO": "Et kart for visning og redigering av vindmøller.",
     "cs": "Mapa pro zobrazení a úpravy větrných turbín.",
-    "ca": "Un mapa per a mostrar i editar turbines eòliques."
+    "ca": "Un mapa per a mostrar i editar turbines eòliques.",
+    "pl": "Mapa do pokazywania i edytowania turbin wiatrowych."
   },
   "startLat": 50.52,
   "startLon": 4.643,
