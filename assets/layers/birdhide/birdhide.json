@@ -7,7 +7,8 @@
     "es": "Lugares para ver pájaros",
     "da": "Steder til fugleobservation",
     "fr": "Lieu pour observer des oiseaux",
-    "ca": "Llocs per a vore ocells"
+    "ca": "Llocs per a vore ocells",
+    "pl": "Miejsca do obserwacji ptaków"
   },
   "minzoom": 14,
   "source": {
@@ -226,7 +227,8 @@
             "es": "No accesible a usuarios con sillas de ruedas",
             "da": "Ikke tilgængelig for kørestolsbrugere",
             "fr": "Pas accessible en chaise roulante",
-            "ca": "No accessible per a persones amb cadira de rodes"
+            "ca": "No accessible per a persones amb cadira de rodes",
+            "pl": "Niedostępne dla osób na wózkach"
           }
         }
       ]
@@ -238,7 +240,8 @@
         "de": "Betrieben von {operator}",
         "es": "Operado por {operator}",
         "da": "Drives af {operator}",
-        "fr": "Opéré par {operator}"
+        "fr": "Opéré par {operator}",
+        "pl": "Obsługiwane przez {operator}"
       },
       "freeform": {
         "key": "operator"
@@ -259,7 +262,8 @@
             "de": "Betrieben von Natuurpunt",
             "es": "Operado por Natuurpunt",
             "da": "Drives af Natuurpunt",
-            "fr": "Opéré par Natuurpunt"
+            "fr": "Opéré par Natuurpunt",
+            "pl": "Obsługiwane przez Natuurpunt"
           }
         },
         {

@@ -176,7 +176,8 @@
         "nl": "Is dit een zebrapad?",
         "de": "Ist das ein Zebrastreifen?",
         "es": "¿Esto es un paso de cebra?",
-        "fr": "Est-ce un passage piéton ?"
+        "fr": "Est-ce un passage piéton ?",
+        "pl": "Czy to jest przejście dla pieszych typu \"zebra\"?"
       },
       "condition": "crossing=uncontrolled",
       "mappings": [
@@ -209,7 +210,8 @@
         "nl": "Is deze oversteekplaats ook voor fietsers",
         "de": "Können Radfahrer diese Kreuzung nutzen?",
         "da": "Er denne overgang også for cykler?",
-        "es": "¿Este cruce también es para ciclistas?"
+        "es": "¿Este cruce también es para ciclistas?",
+        "fr": "Est-ce que ce passage est également pour les vélos ?"
       },
       "condition": "highway=crossing",
       "mappings": [
@@ -220,7 +222,8 @@
             "nl": "Een fietser kan deze oversteekplaats gebruiken",
             "de": "Radfahrer können diese Kreuzung nutzen",
             "da": "En cyklist kan benytte denne overgang",
-            "es": "Un ciclista puede utilizar este cruce"
+            "es": "Un ciclista puede utilizar este cruce",
+            "fr": "Un cycliste peut utiliser ce passage"
           }
         },
         {
@@ -230,7 +233,8 @@
             "nl": "Een fietser kan deze oversteekplaats niet gebruiken",
             "de": "Radfahrer können diese Kreuzung nicht nutzen",
             "da": "En cyklist kan ikke benytte denne overgang",
-            "es": "Un ciclista no puede utilizar este cruce"
+            "es": "Un ciclista no puede utilizar este cruce",
+            "fr": "Un cycliste ne peut pas utiliser ce passage"
           }
         }
       ]
@@ -318,7 +322,8 @@
         "en": "Does this traffic light have a button to request green light?",
         "nl": "Heeft dit verkeerslicht een knop voor groen licht?",
         "de": "Hat diese Ampel eine Taste, um ein grünes Signal anzufordern?",
-        "es": "¿Este semáforo tiene un botón para pedir luz verde?"
+        "es": "¿Este semáforo tiene un botón para pedir luz verde?",
+        "fr": "Est-ce que ce feu a un bouton pour demander le passage au vert ?"
       },
       "condition": {
         "or": [
@@ -333,7 +338,8 @@
             "en": "This traffic light has a button to request green light",
             "nl": "Dit verkeerslicht heeft een knop voor groen licht",
             "de": "Diese Ampel hat eine Taste, um ein grünes Signal anzufordern",
-            "es": "Este semáforo tiene un botón para pedir luz verde"
+            "es": "Este semáforo tiene un botón para pedir luz verde",
+            "fr": "Ce feu a un bouton pour demander le vert"
           }
         },
         {
@@ -342,7 +348,8 @@
             "en": "This traffic light does not have a button to request green light",
             "nl": "Dit verkeerlicht heeft geen knop voor groen licht",
             "de": "Diese Ampel hat keine Taste, um ein grünes Signal anzufordern",
-            "es": "Este semáforo no tiene un botón para pedir luz verde"
+            "es": "Este semáforo no tiene un botón para pedir luz verde",
+            "fr": "Ce feu n'a pas de bouton pour demander le vert"
           }
         }
       ]
@@ -380,7 +387,8 @@
           "then": {
             "en": "This traffic light has a sound signal to help locate the pole, but no signal to sign that it is safe to cross.",
             "de": "Die Ampel gibt ein akustisches Signal, zum Auffinden des Mastes, aber kein Signal für die Grünphase.",
-            "nl": "Dit verkeerslicht heeft een geluidssignaal om de paal te vinden, maar niet om aan te geven dat oversteken veilig kan."
+            "nl": "Dit verkeerslicht heeft een geluidssignaal om de paal te vinden, maar niet om aan te geven dat oversteken veilig kan.",
+            "fr": "Ce feu a un signal sonore pour aider à situer les poteaux, mais pas de signal pour indiquer qu'on peut traverser en sécurité."
           }
         },
         {
@@ -388,7 +396,8 @@
           "then": {
             "en": "This traffic light has a sound signal to sign that it is safe to cross, but no signal to help locate the pole.",
             "de": "Die Ampel gibt ein akustisches Signal für die Grünphase, aber kein Signal zum Auffinden des Mastes.",
-            "nl": "Dit verkeerslicht heeft een geluidssignaal om aan te geven dat oversteken veilig kan, maar geen signaal om de paal te vinden."
+            "nl": "Dit verkeerslicht heeft een geluidssignaal om aan te geven dat oversteken veilig kan, maar geen signaal om de paal te vinden.",
+            "fr": "Cet feu a un signal sonore pour indiquer qu'on peut traverser en sécurité, mais pas de signal pour localiser les poteaux."
           }
         }
       ]
@@ -398,7 +407,8 @@
       "question": {
         "en": "Does this traffic light have vibration signals to aid crossing? (usually located at the bottom of the crossing button)",
         "de": "Gibt die Ampel ein Vibrationssignal, um das Überqueren zu erleichtern? (in der Regel am unteren Ende der Ampeltaste)",
-        "nl": "Heeft dit verkeerslicht een element dat trilt om te helpen bij het oversteken? (meestal onderaan de oversteekknop geplaatst)"
+        "nl": "Heeft dit verkeerslicht een element dat trilt om te helpen bij het oversteken? (meestal onderaan de oversteekknop geplaatst)",
+        "fr": "Est-ce que ce feu a un signal vibrant pour aider à traverser ? (habituellement situé sous le bouton)"
       },
       "condition": {
         "and": [
@@ -412,7 +422,8 @@
           "then": {
             "en": "The button for this traffic light has a vibration signal to indicate that it is safe to cross.",
             "de": "Die Ampeltaste vibriert während der Grünphase.",
-            "nl": "De knop bij dit verkeerslicht trilt om aan te geven dat men veilig kan oversteken."
+            "nl": "De knop bij dit verkeerslicht trilt om aan te geven dat men veilig kan oversteken.",
+            "fr": "Le bouton de ce feu vibre pour indiquer qu'on peut traverser en sécurité."
           },
           "icon": {
             "path": "./assets/layers/crossings/Vibrating_button_illustration.jpg",
@@ -424,7 +435,8 @@
           "then": {
             "en": "The button for this traffic light does not have a vibration signal to indicate that it is safe to cross.",
             "de": "Die Ampeltaste vibriert nicht während der Grünphase.",
-            "nl": "De knop bij dit verkeerslicht kan <b>niet</b> trillen om aan te geven dat men veilig kan oversteken."
+            "nl": "De knop bij dit verkeerslicht kan <b>niet</b> trillen om aan te geven dat men veilig kan oversteken.",
+            "fr": "Le bouton de ce feu ne vibre pas pour indiquer qu'on peut traverser en sécurité."
           }
         }
       ]
