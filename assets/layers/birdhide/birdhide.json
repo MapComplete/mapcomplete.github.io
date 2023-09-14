@@ -24,7 +24,8 @@
       "nl": "Vogelkijkplaats",
       "de": "Ort zur Vogelbeobachtung",
       "fr": "Lieu d’observation d’oiseaux",
-      "da": "Plads til fugleobservation"
+      "da": "Plads til fugleobservation",
+      "ca": "Lloc d'observació d'ocells"
     },
     "mappings": [
       {
@@ -55,7 +56,8 @@
           "nl": "Vogelkijkhut {name}",
           "da": "Fugleskjul {name}",
           "de": "Vogelbeobachtungsplatz {name}",
-          "fr": "Observatoire ornithologique {name}"
+          "fr": "Observatoire ornithologique {name}",
+          "ca": "Observatori d'Ocells {name}"
         }
       },
       {
@@ -139,7 +141,8 @@
             "nl": "Vogelkijktoren",
             "de": "Turm zur Vogelbeobachtung",
             "fr": "Tour d’observation ornithologique",
-            "da": "Fugletårn skjul"
+            "da": "Fugletårn skjul",
+            "ca": "Torre d'observació d'ocells"
           }
         },
         {
@@ -183,7 +186,8 @@
             "es": "Hay provisiones especiales para usuarios de sillas de ruedas",
             "de": "Für Rollstuhlfahrer gibt es besondere Vorrichtungen",
             "fr": "L’infrastructure est adaptée aux utilisateurs de chaises roulantes",
-            "da": "Der er særlige bestemmelser for kørestolsbrugere"
+            "da": "Der er særlige bestemmelser for kørestolsbrugere",
+            "ca": "Hi ha provisions especials per als usuaris de cadira de rodes"
           }
         },
         {
@@ -197,7 +201,8 @@
             "nl": "Een rolstoel raakt er vlot",
             "da": "En kørestolsbruger kan sagtens bruge dette fugleskjul",
             "de": "Der Ort ist rollstuhlgerecht gestaltet",
-            "fr": "Cet observatoire ornithologique est facilement accessible en chaise roulante"
+            "fr": "Cet observatoire ornithologique est facilement accessible en chaise roulante",
+            "ca": "Una cadira de rodes pot utilitzar fàcilment aquest observador d'ocells"
           }
         },
         {
@@ -211,7 +216,8 @@
             "nl": "Je kan er raken met een rolstoel, maar het is niet makkelijk",
             "da": "Dette fugleskjul kan nås med kørestol, men det er ikke nemt",
             "de": "Der Ort ist nur eingeschränkt rollstuhlgerecht gestaltet",
-            "fr": "Cet observatoire ornithologique est accessible en chaise roulante mais difficilement"
+            "fr": "Cet observatoire ornithologique est accessible en chaise roulante mais difficilement",
+            "ca": "Aquest observatori d'ocells és accessible amb cadira de rodes, però no és fàcil"
           }
         },
         {
@@ -241,6 +247,7 @@
         "es": "Operado por {operator}",
         "da": "Drives af {operator}",
         "fr": "Opéré par {operator}",
+        "ca": "Gestionat per {operator}",
         "pl": "Obsługiwane przez {operator}"
       },
       "freeform": {
@@ -251,7 +258,8 @@
         "nl": "Wie beheert deze vogelkijkplaats?",
         "da": "Hvem driver dette fugleskjul?",
         "de": "Wer betreibt diesen Ort zur Vogelbeobachtung?",
-        "fr": "Qui opère cet observatoire ornithologique ?"
+        "fr": "Qui opère cet observatoire ornithologique ?",
+        "ca": "Qui gestiona aquest observatori d'ocells?"
       },
       "mappings": [
         {
@@ -263,6 +271,7 @@
             "es": "Operado por Natuurpunt",
             "da": "Drives af Natuurpunt",
             "fr": "Opéré par Natuurpunt",
+            "ca": "Operat per Natuurpunt",
             "pl": "Obsługiwane przez Natuurpunt"
           }
         },
