@@ -94,6 +94,7 @@
                   "nl": "Voeg deze ATM toe",
                   "fr": "Importer ce distributeur de billets",
                   "es": "Importar este ATM",
+                  "ca": "Importar aquest caixer automàtic",
                   "eu": "Inportatu kutxazain automatiko hau",
                   "it": "Importa questo sportello bancomat",
                   "pl": "Importuj ten bankomat"
@@ -108,7 +109,8 @@
             "render": {
               "en": "OpenStreetMap knows about <a href='#{_closest_osm_poi}'>an ATM which is {_closest_osm_poi_distance} meter away.</a> ",
               "de": "OpenStreetMap kennt <a href='#{_closest_osm_poi}'>einen Geldautomaten, der {_closest_osm_poi_distance} Meter entfernt ist.</a> ",
-              "es": "OpenStreetMap sabe sobre <a href='#{_closest_osm_poi}'>un ATM que es {_closest_osm_poi_distance} de distancia.</a> "
+              "es": "OpenStreetMap sabe sobre <a href='#{_closest_osm_poi}'>un ATM que es {_closest_osm_poi_distance} de distancia.</a> ",
+              "ca": "OpenStreetMap sap sobre <a href='#{_closest_osm_poi}'>un caixer automàtic que està a {_closest_osm_poi_distance} de distància.</a> "
             }
           },
           {
@@ -124,6 +126,7 @@
                   "de": "Füge alle vorgeschlagenen Tags zum nächstgelegenen Geldautomaten hinzu",
                   "fr": "Ajouter tous les attributs suggérés au distributeur de billets le plus proche",
                   "es": "Añade todas las etiquetas sugieridas al ATM más cercano",
+                  "ca": "Afegeix totes les etiquetes suggerides al caixer automàtic més proper",
                   "eu": "Gehitu iradokitako etiketa guztiak hurbilen dagoen kutxazainari",
                   "pl": "Dodaj wszystkie sugerowane znaczniki do najbliższego bankomatu"
                 },

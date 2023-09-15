@@ -65,6 +65,7 @@
               "fr": "Traversée pour piétons et/ou cyclistes",
               "da": "Overgang for fodgængere og/eller cyklister",
               "es": "Cruce para peatones y/o ciclistas",
+              "ca": "Creuament per vianants i/o ciclistes",
               "pl": "Przejście dla pieszych i/lub przejazd dla rowerów"
             },
             "snapToLayer": "cycleways_and_roads",
