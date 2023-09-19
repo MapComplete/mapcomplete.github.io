@@ -6,7 +6,8 @@
     "ca": "Estacions de càrrega",
     "da": "Ladestationer",
     "de": "Ladestationen",
-    "es": "Estaciones de carga"
+    "es": "Estaciones de carga",
+    "pl": "Stacje ładowania"
   },
   "minzoom": 10,
   "source": {
@@ -29,7 +30,8 @@
       "nl": "Oplaadpunt",
       "ca": "Estació de càrrega",
       "de": "Ladestation",
-      "es": "Estación de carga"
+      "es": "Estación de carga",
+      "pl": "Stacja ładowania"
     },
     "mappings": [
       {
@@ -47,6 +49,7 @@
         "then": {
           "en": "Charging station for electrical bicycles",
           "nl": "Oplaadpunt voor elektrische fietsen",
+          "ca": "Estació de càrrega per a bicicletes elèctriques",
           "de": "Ladestation für Elektrofahrräder",
           "es": "Estación de carga para bicicletas eléctricas"
         }
@@ -66,6 +69,7 @@
         "then": {
           "en": "Charging station for cars",
           "nl": "Oplaadpunt voor elektrische auto's",
+          "ca": "Estació de càrrega per a cotxes",
           "de": "Ladestation für Autos",
           "es": "Estación de carga para coches"
         }
@@ -79,7 +83,8 @@
     "da": "En ladestation",
     "de": "Eine Ladestation",
     "es": "Una estación de carga",
-    "fr": "Une station de recharge"
+    "fr": "Une station de recharge",
+    "pl": "Stacja ładowania"
   },
   "#": "no-question-hint-check",
   "tagRenderings": [
@@ -680,7 +685,8 @@
             "ca": "<b>Supercarregador de Tesla</b>",
             "da": "<b>Tesla Supercharger</b>",
             "de": "<b>Tesla Supercharger</b>",
-            "es": "<b>Supercargador de Tesla</b>"
+            "es": "<b>Supercargador de Tesla</b>",
+            "pl": "<b>Tesla Supercharger</b>"
           },
           "hideInAnswer": true,
           "icon": {
@@ -3949,7 +3955,8 @@
           "en": "When is this charging station opened?",
           "nl": "Wanneer is dit oplaadpunt beschikbaar??",
           "ca": "Quan està oberta aquesta estació de càrrega?",
-          "de": "Wann ist die Ladestation geöffnet?"
+          "de": "Wann ist die Ladestation geöffnet?",
+          "pl": "Kiedy otwiera się ta stacja ładowania?"
         }
       },
       "id": "OH"
@@ -4295,7 +4302,8 @@
         "ca": "Aquesta estació de càrrega forma part d'una xarxa?",
         "da": "Er denne ladestation en del af et netværk?",
         "de": "Ist diese Ladestation Teil eines Netzwerks?",
-        "es": "¿Esta estación de carga forma parte de una red?"
+        "es": "¿Esta estación de carga forma parte de una red?",
+        "pl": "Czy ta stacja ładowania jest częścią sieci?"
       },
       "freeform": {
         "key": "network"
@@ -4320,7 +4328,8 @@
             "ca": "No forma part d'una xarxa major",
             "da": "Ikke en del af et større netværk",
             "de": "Nicht Teil eines größeren Netzwerks",
-            "es": "No forma parte de una red mayor"
+            "es": "No forma parte de una red mayor",
+            "pl": "Nie jest częścią większej sieci"
           },
           "hideInAnswer": true
         },
@@ -4378,7 +4387,8 @@
         "ca": "Aquesta estació de càrrega l'opera {operator}",
         "da": "Denne ladestation drives af {operator}",
         "de": "Die Station wird betrieben von {operator}",
-        "es": "Esta estación de carga la opera {operator}"
+        "es": "Esta estación de carga la opera {operator}",
+        "pl": "Ta stacja ładowania jest obsługiwana przez {operator}"
       },
       "freeform": {
         "key": "operator"
@@ -4465,6 +4475,7 @@
       "render": {
         "en": "More info on <a href='{website}'>{website}</a>",
         "nl": "Meer informatie op <a href='{website}'>{website}</a>",
+        "ca": "Més info a <a href='{website}'>{website}</a>",
         "de": "Weitere Informationen unter <a href='{website}'>{website}</a>"
       },
       "freeform": {
@@ -4521,7 +4532,8 @@
             "ca": "Aquesta estació de càrrega funciona",
             "da": "Denne ladestation fungerer",
             "de": "Die Station ist in Betrieb",
-            "es": "Esta estación de carga funciona"
+            "es": "Esta estación de carga funciona",
+            "pl": "Ta stacja ładowania działa"
           }
         },
         {
@@ -4540,7 +4552,8 @@
             "ca": "Aquesta estació de carrega està trencada",
             "da": "Denne ladestation er i stykker",
             "de": "Die Station ist defekt",
-            "es": "Esta estación de carga está rota"
+            "es": "Esta estación de carga está rota",
+            "pl": "Ta stacja ładowania jest zepsuta"
           }
         },
         {
@@ -4559,7 +4572,8 @@
             "ca": "Aquí està prevista una estació de recàrrega",
             "da": "Her er der planlagt en ladestation",
             "de": "Die Station ist erst in Planung",
-            "es": "Aquí está planeada una estación de carga"
+            "es": "Aquí está planeada una estación de carga",
+            "pl": "Planowana jest tutaj stacja ładowania"
           }
         },
         {
@@ -4578,7 +4592,8 @@
             "ca": "Aquí està construint-se una estació de càrrega",
             "da": "Her er opført en ladestation",
             "de": "Die Station ist aktuell im Bau",
-            "es": "Aquí está construida una estación de carga"
+            "es": "Aquí está construida una estación de carga",
+            "pl": "Budowana jest tutaj stacja ładowania"
           }
         },
         {
@@ -4750,7 +4765,8 @@
         "ca": "una estació de càrrega per a cotxes",
         "da": "en ladestation til biler",
         "de": "Eine Ladestation für Elektrofahrzeuge",
-        "es": "una estación de carga para coches"
+        "es": "una estación de carga para coches",
+        "pl": "stacja ładowania dla samochodów"
       }
     }
   ],
@@ -4766,7 +4782,8 @@
             "da": "Alle køretøjstyper",
             "de": "Ladestationen für alle Fahrzeugtypen",
             "es": "Todo tipo de vehículos",
-            "fr": "Tout type de véhicule"
+            "fr": "Tout type de véhicule",
+            "pl": "Wszystkie rodzaje pojazdów"
           }
         },
         {
@@ -4777,7 +4794,8 @@
             "da": "Ladestation til cykler",
             "de": "Ladestationen für Fahrräder",
             "es": "Estación de carga para bicicletas",
-            "fr": "Station de charge pour vélos"
+            "fr": "Station de charge pour vélos",
+            "pl": "Stacja ładowania dla rowerów"
           },
           "osmTags": "bicycle=yes"
         },
@@ -4789,7 +4807,8 @@
             "da": "Ladestation til biler",
             "de": "Ladestationen für Autos",
             "es": "Estación de carga para coches",
-            "fr": "Station de charge pour automobiles"
+            "fr": "Station de charge pour automobiles",
+            "pl": "Stacja ładowania dla samochodów"
           },
           "osmTags": {
             "or": [
@@ -4811,7 +4830,8 @@
             "da": "Kun fungerende ladestationer",
             "de": "Nur Ladestationen in Betrieb",
             "es": "Solo estaciones de carga funcionales",
-            "fr": "Stations de recharge en service uniquement"
+            "fr": "Stations de recharge en service uniquement",
+            "pl": "Tylko działające stacje ładowania"
           },
           "osmTags": {
             "and": [
@@ -5040,6 +5060,7 @@
             "es": " minutos",
             "eu": " ·minutu",
             "pa_PK": " منٹ",
+            "pl": " minut",
             "ru": " минут"
           },
           "humanSingular": {
@@ -5049,6 +5070,7 @@
             "de": " Minute",
             "es": " minuto",
             "eu": " ·minutu",
+            "pl": " minuta",
             "ru": " минута"
           }
         },
@@ -5070,6 +5092,7 @@
             "de": " Stunden",
             "es": " horas",
             "eu": " ·ordu",
+            "pl": " godzin",
             "ru": " часов"
           },
           "humanSingular": {
@@ -5079,6 +5102,7 @@
             "de": " Stunde",
             "es": " hora",
             "eu": " ·ordu",
+            "pl": " godzina",
             "ru": " час"
           }
         },
@@ -5097,6 +5121,7 @@
             "de": " Tage",
             "es": " días",
             "eu": " ·egun",
+            "pl": " dni",
             "ru": " дней"
           },
           "humanSingular": {
@@ -5106,6 +5131,7 @@
             "de": " Tag",
             "es": " día",
             "eu": " ·egun",
+            "pl": " dzień",
             "ru": " день"
           }
         }
