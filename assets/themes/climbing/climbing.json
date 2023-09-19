@@ -460,7 +460,9 @@
           }
         ]
       }
-    }
+    },
+    "drinking_water",
+    "toilet"
   ],
   "credits": "Christian Neumann <christian@utopicode.de>"
 }
