@@ -889,7 +889,7 @@
           "then": {
             "en": "<b>Tesla Supercharger CCS</b> (a branded type2_css)",
             "nl": "<b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo)",
-            "ca": "<b>CSS Supercarregador Tesla</b> (tipus2_css de la marca)",
+            "ca": "<b>CSS Supercarregador Tesla</b> (un tipus2_css de la marca)",
             "da": "<b>Tesla Supercharger CCS</b> (en mærkevare type2_css)",
             "de": "<b>Tesla Supercharger CCS</b> (Typ 2 CSS von Tesla)",
             "es": "<b>CCS Supercargador Tesla</b> (un tipo2_css con marca)"
@@ -4639,7 +4639,7 @@
           "then": {
             "en": "No additional parking cost while charging",
             "nl": "Geen extra parkeerkost tijdens het opladen",
-            "ca": "No hi ha costos d'aparcament addicionals mentre es carrega",
+            "ca": "No cal pagar una taxa addicional mentres es carrega",
             "da": "Ingen ekstra parkeringsomkostninger under opladning",
             "de": "Keine zusätzlichen Parkkosten während des Ladens",
             "es": "No hay costes de aparcamiento adicionales mientras se carga",
@@ -4675,6 +4675,7 @@
       "render": {
         "en": "<h3>Technical questions</h3>The questions below are very technical. Feel free to ignore them<br/>{questions(technical)}",
         "nl": "<h3>Technische vragen</h3>De vragen hieronder zijn erg technisch - sla deze over indien je hier geen tijd voor hebt<br/>{questions(technical)}",
+        "ca": "<h3>Preguntes tècniques</h3>Les preguntes següents són molt tècniques. No dubteu a ignorar-les<br/>{questions(technical)}",
         "de": "<h3>Technische Frage</h3>Die nächsten Fragen sind sehr technisch. Du kannst diese auch überspringen.<br/>{questions(technical)}"
       }
     }
