@@ -12,7 +12,8 @@
     "ca": "Jardins verticals",
     "es": "Jardines de fachada",
     "da": "Facadehaver",
-    "cs": "Fasádní zahrady"
+    "cs": "Fasádní zahrady",
+    "pl": "Ogrody fasadowe"
   },
   "shortDescription": {
     "nl": "Deze kaart toont geveltuintjes met foto's en bruikbare info over oriëntatie, zonlicht en planttypes.",
@@ -26,7 +27,8 @@
     "es": "Este mapa muestra jardines de fachada con fotografías e información útil sobre la orientación, la luz del sol y los tipos de plantas.",
     "da": "Dette kort viser facadehaver med billeder og nyttig info om orientering, solskin og plantetyper.",
     "cs": "Tato mapa zobrazuje fasádní zahrady s obrázky a užitečnými informacemi o orientaci, oslunění a druzích rostlin.",
-    "ca": "Aquest mapa mostra jardins a façanes amb fotografies i informació útil sobre l'orientació, llum del sol i els tipus de plantes."
+    "ca": "Aquest mapa mostra jardins a façanes amb fotografies i informació útil sobre l'orientació, llum del sol i els tipus de plantes.",
+    "pl": "Mapa przedstawia ogrody fasadowe ze zdjęciami i przydatnymi informacjami na temat orientacji, nasłonecznienia i rodzajów roślin."
   },
   "description": {
     "nl": "Ontharde voortuintjes, groene gevels en bomen ín de stad brengen naast rust ook een mooiere stad, een grotere biodiversiteit, een verkoelend effect en een betere luchtkwaliteit. <br/> Klimaan VZW en 'Mechelen Klimaatneutraal' willen met het project Klim(t)aan je Gevel bestaande en nieuwe geveltuintjes in kaart brengen als voorbeeld voor mensen zelf een tuintje willen aanleggen of voor stadwandelaars die houden van de natuur. <br/>Meer info over het project op <a href='https://klimaan.be/' target=_blank>klimaan.be</a>.",
@@ -61,7 +63,8 @@
         "ca": "Jardins verticals",
         "es": "Jardines de fachada",
         "da": "Facadehaver",
-        "cs": "Fasádní zahrady"
+        "cs": "Fasádní zahrady",
+        "pl": "Ogrody fasadowe"
       },
       "minzoom": 12,
       "source": {
@@ -85,7 +88,8 @@
           "ca": "Jardí vertical",
           "es": "Jardín de fachada",
           "da": "Facadehave",
-          "cs": "Fasádní zahrada"
+          "cs": "Fasádní zahrada",
+          "pl": "Ogród fasadowy"
         }
       },
       "description": {
@@ -100,7 +104,8 @@
         "ca": "Jardins verticals",
         "es": "Jardines de fachada",
         "da": "Facadehaver",
-        "cs": "Fasádní zahrady"
+        "cs": "Fasádní zahrady",
+        "pl": "Ogrody fasadowe"
       },
       "tagRenderings": [
         "images",
@@ -116,7 +121,8 @@
             "es": "Orientación: {direction} (donde 0=N y 90=O)",
             "da": "Orientering: {direction} (hvor 0=N og 90=O)",
             "ca": "Orientació: {direction} (on 0=N y 90=O)",
-            "cs": "Orientace: {direction} (kde 0=N a 90=O)"
+            "cs": "Orientace: {direction} (kde 0=N a 90=O)",
+            "pl": "Orientacja: {direction} (gdzie 0=N i 90=E)"
           },
           "question": {
             "nl": "Hoe is de tuin georiënteerd?",
@@ -129,7 +135,8 @@
             "es": "¿Cual es la orientación del jardín?",
             "da": "Hvad er havens orientering?",
             "ca": "Quina és l'orientació del jardí?",
-            "cs": "Jaká je orientace zahrady?"
+            "cs": "Jaká je orientace zahrady?",
+            "pl": "Jaka jest orientacja ogrodu?"
           },
           "freeform": {
             "type": "direction",
@@ -158,7 +165,8 @@
                 "nb_NO": "Hagen er ikke i skyggen",
                 "da": "Haven er i fuld sol",
                 "cs": "Zahrada je na přímém slunci",
-                "ca": "El jardí està completament al sol"
+                "ca": "El jardí està completament al sol",
+                "pl": "Ogród jest w pełnym słońcu"
               }
             },
             {
@@ -201,7 +209,8 @@
                 "nb_NO": "Hagen er i skyggen",
                 "da": "Haven ligger i skygge",
                 "cs": "Zahrada je ve stínu",
-                "ca": "El jardí està a l'ombra"
+                "ca": "El jardí està a l'ombra",
+                "pl": "Ogród jest w cieniu"
               }
             }
           ],
@@ -218,7 +227,8 @@
             "nb_NO": "Er hagen i skygge eller ei?",
             "da": "Er haven skyggefuld eller solrig?",
             "cs": "Je zahrada zastíněná nebo slunná?",
-            "ca": "El jardí està al sol o a l'ombra?"
+            "ca": "El jardí està al sol o a l'ombra?",
+            "pl": "Czy ogród jest zacieniony czy słoneczny?"
           }
         },
         {
@@ -236,7 +246,8 @@
             "da": "Er der installeret en vandtønde til haven?",
             "cs": "Je do zahrady instalován sud na vodu?",
             "ca": "Hi ha un barril d'aigua instal·lat per al jardí?",
-            "es": "¿Hay un barril de agua instalado para el jardín?"
+            "es": "¿Hay un barril de agua instalado para el jardín?",
+            "pl": "Czy w ogrodzie zainstalowano beczkę na wodę?"
           },
           "mappings": [
             {
@@ -259,7 +270,8 @@
                 "da": "Der er en regntønde",
                 "cs": "K dispozici je sud na dešťovou vodu",
                 "ca": "Hi ha un barril de pluja",
-                "es": "Hay un barril de lluvia"
+                "es": "Hay un barril de lluvia",
+                "pl": "Jest beczka na deszczówkę"
               }
             },
             {
@@ -282,7 +294,8 @@
                 "da": "Der er ingen regntønde",
                 "cs": "Sud na dešťovou vodu není k dispozici",
                 "ca": "No hi ha un barril de pluja",
-                "es": "No hay barril de lluvia"
+                "es": "No hay barril de lluvia",
+                "pl": "Nie ma beczki na deszczówkę"
               }
             }
           ]
@@ -301,7 +314,8 @@
             "nb_NO": "Konstruksjonsdato for hagen: {start_date}",
             "da": "Anlægsdato for haven: {start_date}",
             "cs": "Datum výstavby zahrady: {start_date}",
-            "ca": "Data de construcció del jardí: {start_date}"
+            "ca": "Data de construcció del jardí: {start_date}",
+            "pl": "Data budowy ogrodu: {start_date}"
           },
           "question": {
             "nl": "Wanneer werd de tuin aangelegd? (vul gewoon een jaartal in)",
@@ -315,7 +329,8 @@
             "nb_NO": "Når ble hagen opprettet? (Årstall holder.)",
             "da": "Hvornår blev haven bygget? (et år er nok)",
             "cs": "Kdy byla zahrada postavena? (rok je postačující)",
-            "ca": "Quan es va construir el jardí? (l'any és suficient)"
+            "ca": "Quan es va construir el jardí? (l'any és suficient)",
+            "pl": "Kiedy powstał ogród? (rok wystarczy)"
           },
           "freeform": {
             "key": "start_date",
@@ -344,7 +359,8 @@
                 "nb_NO": "Det finnes spisbare planter",
                 "da": "Der er spiselige planter",
                 "cs": "Jsou zde jedlé rostliny",
-                "ca": "Hi han plantes comestibles"
+                "ca": "Hi han plantes comestibles",
+                "pl": "Istnieją rośliny jadalne"
               }
             },
             {
@@ -365,7 +381,8 @@
                 "nb_NO": "Det finnes ingen spisbare planter",
                 "da": "Der er ikke spiselige planter",
                 "cs": "Nejsou zde jedlé rostliny",
-                "ca": "No hi han plantes comestibles"
+                "ca": "No hi han plantes comestibles",
+                "pl": "Nie ma roślin jadalnych"
               }
             }
           ],
@@ -381,7 +398,8 @@
             "nb_NO": "Finnes det noen spisbare planter?",
             "da": "Er der nogle spiselige planter?",
             "cs": "Jsou zde jedlé rostliny?",
-            "ca": "Hi ha alguna planta comestible?"
+            "ca": "Hi ha alguna planta comestible?",
+            "pl": "Czy są jakieś rośliny jadalne?"
           }
         },
         {
@@ -399,7 +417,8 @@
             "nb_NO": "Hva slags planter vokser her?",
             "da": "Hvilke slags planter vokser her?",
             "cs": "Jaké druhy rostlin zde rostou?",
-            "ca": "Quin tipus de plantes creixen aquí?"
+            "ca": "Quin tipus de plantes creixen aquí?",
+            "pl": "Jakie rośliny tu rosną?"
           },
           "mappings": [
             {
@@ -415,7 +434,8 @@
                 "da": "Der er vinstokke",
                 "cs": "Zde jsou révy",
                 "es": "Esto son viñedos",
-                "ca": "Hi ha vinyes"
+                "ca": "Hi ha vinyes",
+                "pl": "Są winorośle"
               }
             },
             {
@@ -431,7 +451,8 @@
                 "da": "Der er blomstrende planter",
                 "cs": "Jsou zde kvetoucí rostliny",
                 "es": "Hay plantas con flores",
-                "ca": "Hi ha plantes amb flors"
+                "ca": "Hi ha plantes amb flors",
+                "pl": "Są rośliny kwitnące"
               }
             },
             {
@@ -447,7 +468,8 @@
                 "es": "Hay arbustos",
                 "da": "Der er buske",
                 "ca": "Hi ha arbustos",
-                "cs": "Jsou zde keře"
+                "cs": "Jsou zde keře",
+                "pl": "Są krzewy"
               }
             },
             {
@@ -463,7 +485,8 @@
                 "da": "Der er bunddækkende planter",
                 "cs": "Jsou zde půdopokryvné rostliny",
                 "es": "Hay plantas cubresuelos",
-                "ca": "Hi ha plantes que cobreixen el sòl"
+                "ca": "Hi ha plantes que cobreixen el sòl",
+                "pl": "Istnieją rośliny okrywowe"
               }
             }
           ],
@@ -500,7 +523,8 @@
             "nb_NO": "Ekstra beskrivende info om hagen (hvis det trengs og ikke er gjengitt ovenfor)",
             "da": "Ekstra beskrivende info om haven (hvis nødvendigt og endnu ikke beskrevet ovenfor)",
             "cs": "Další popisné informace o zahradě (pokud jsou potřeba a nejsou popsány výše)",
-            "ca": "Informació descriptiva complementària sobre el jardí (si és necesaria y no està encara descrit dalt)"
+            "ca": "Informació descriptiva complementària sobre el jardí (si és necesaria y no està encara descrit dalt)",
+            "pl": "Dodatkowe informacje opisujące ogród (jeśli są potrzebne i nie zostały jeszcze opisane powyżej)"
           },
           "freeform": {
             "key": "description",
@@ -527,7 +551,8 @@
             "es": "un jardín de fachada",
             "nb_NO": "en fronthage",
             "da": "en facadehave",
-            "cs": "fasádní zahrada"
+            "cs": "fasádní zahrada",
+            "pl": "ogród fasadowy"
           },
           "description": {
             "nl": "Voeg geveltuintje toe",
@@ -541,7 +566,8 @@
             "es": "Añadir un jardín de fachada",
             "nb_NO": "Legg til en fronthage",
             "da": "Tilføj en facadehave",
-            "cs": "Přidat fasádní zahradu"
+            "cs": "Přidat fasádní zahradu",
+            "pl": "Dodaj ogród fasadowy"
           }
         }
       ],

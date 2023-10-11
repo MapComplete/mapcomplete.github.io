@@ -8,7 +8,8 @@
     "nl": "Fietsknooppuntennetwerken",
     "fr": "Réseau de Nœuds Cyclistes",
     "ca": "Xarxa de nodes ciclistes",
-    "cs": "Sítě uzlů cyklu"
+    "cs": "Sítě uzlů cyklu",
+    "pl": "Sieci węzłów rowerowych"
   },
   "description": {
     "en": "This map shows cycle node networks and allows you to add new nodes easily",
@@ -18,7 +19,8 @@
     "fr": "Cette carte montre les réseaux de nœuds cyclistes et vous permet d'ajouter facilement de nouveaux nœuds",
     "ca": "Aquest mapa mostra xarxes de nodes ciclistes i et permet afegir-ne de nous de manera senzilla",
     "da": "Dette kort viser cykel netværk og giver dig mulighed for nemt at tilføje nye punkter",
-    "cs": "Tato mapa zobrazuje sítě uzlů cyklu a umožňuje snadno přidávat nové uzly"
+    "cs": "Tato mapa zobrazuje sítě uzlů cyklu a umožňuje snadno přidávat nové uzly",
+    "pl": "Mapa ta przedstawia sieci węzłów rowerowych i umożliwia łatwe dodawanie nowych węzłów"
   },
   "icon": "./assets/themes/cyclenodes/logo.svg",
   "hideFromOverview": true,
@@ -92,7 +94,8 @@
             "nl": "Wanneer werd deze node-naar-node verbinding het laast gesurveyed?",
             "fr": "Quand cette liaison de nœud à nœud a-t-elle été contrôlée sur le terrain pour la dernière fois ?",
             "ca": "Quan es va comprovar per última vegada aquest enllaç node a node presencialment?",
-            "cs": "Kdy bylo toto propojení mezi uzly naposledy zkontrolováno?"
+            "cs": "Kdy bylo toto propojení mezi uzly naposledy zkontrolováno?",
+            "pl": "Kiedy ostatnio badano to połączenie węzła z węzłem?"
           },
           "render": {
             "en": "This node to node link was last surveyed on {survey:date}",
@@ -130,7 +133,8 @@
         "fr": "noeuds",
         "pa_PK": "نوڈ",
         "cs": "uzly",
-        "eu": "nodoak"
+        "eu": "nodoak",
+        "pl": "węzły"
       },
       "source": {
         "osmTags": {
@@ -181,7 +185,8 @@
             "nl": "Wanneer is dit fietsknooppunt voor het laatst gecontroleerd?",
             "fr": "Quand ce nœud cyclable a-t-il été vérifié sur le terrain pour la dernière fois ?",
             "ca": "Quan va ser sondejat aquest node ciclista per última vegada?",
-            "cs": "Kdy byl tento uzel cyklu naposledy zkontrolován?"
+            "cs": "Kdy byl tento uzel cyklu naposledy zkontrolován?",
+            "pl": "Kiedy ostatni raz badano ten węzeł rowerowy?"
           },
           "render": {
             "en": "This cycle node was last surveyed on {survey:date}",

@@ -23,7 +23,8 @@
     "da": "På dette kort er forskellige sundhedsrelaterede emner vist",
     "nl": "Op deze kaart vind je dokters, apothekers, kinesisten, ziekenhuizen en andere gezondheidsgerelateerde diensten",
     "cs": "Na této mapě jsou zobrazeny různé položky související se zdravotní péčí",
-    "es": "En este mapa se muestran varios elementos relacionados con la salud"
+    "es": "En este mapa se muestran varios elementos relacionados con la salud",
+    "pl": "Na tej mapie pokazane są różne elementy związane z opieką zdrowotną"
   },
   "icon": "./assets/layers/doctors/doctors.svg",
   "startLat": 50.8465573,

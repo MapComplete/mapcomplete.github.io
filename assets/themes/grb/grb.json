@@ -15,7 +15,8 @@
     "es": "Este tema es un intento de automatizar la importación GRB.",
     "da": "Dette tema er et forsøg på at hjælpe med at automatisere GRB-importen.",
     "ca": "Aquest tema és un intent d'automatitzar la importació GRB.",
-    "cs": "Toto téma je pokusem o automatizaci importu GRB."
+    "cs": "Toto téma je pokusem o automatizaci importu GRB.",
+    "pl": "Ten temat jest próbą pomocy w automatyzacji importu GRB."
   },
   "icon": "./assets/themes/grb/logo.svg",
   "startLat": 51.0249,
@@ -205,7 +206,9 @@
           "render": {
             "en": "Has been imported from GRB, reference number is {source:geometry:ref}",
             "de": "Wurde von GRB importiert, Referenznummer ist {source:geometry:ref}",
-            "ca": "Ha estat importat des de GRB, el número de referència és {source:geometry:ref}"
+            "ca": "Ha estat importat des de GRB, el número de referència és {source:geometry:ref}",
+            "cs": "Byl importován z GRB, referenční číslo je {source:geometry:ref}",
+            "pl": "Został zaimportowany z GRB, numer referencyjny to {source:geometry:ref}"
           },
           "condition": "source:geometry:ref~*"
         },

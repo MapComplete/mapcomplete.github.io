@@ -12,7 +12,7 @@
     "ca": "Etimologia: com rep el nom un carrer?",
     "da": "Åbn oprindelseskort",
     "nb_NO": "Åpent etymologikart",
-    "cs": "Otevřít etymologickou mapu",
+    "cs": "Etymologie - podle čeho se ulice jmenuje?",
     "es": "Etimología - a qué se debe el nombre de una calle?",
     "pl": "Etymologia - od czego pochodzi nazwa ulicy?"
   },
@@ -27,7 +27,8 @@
     "es": "¿Cual es el origen de un topónimo?",
     "ca": "Quin és l'origen d'un topònim?",
     "da": "Hvad er oprindelsen af et stednavn?",
-    "cs": "Jaký je původ toponyma?"
+    "cs": "Jaký je původ toponyma?",
+    "pl": "Jakie jest pochodzenie toponimów?"
   },
   "description": {
     "en": "On this map, you can see what an object is named after. The streets, buildings, ... come from OpenStreetMap which got linked with Wikidata. In the popup, you'll see the Wikipedia article (if it exists) or a wikidata box of what the object is named after. If the object itself has a wikipedia page, that'll be shown too.<br/><br/><b>You can help contribute too!</b>Zoom in enough and <i>all</i> streets will show up. You can click one and a Wikidata-search box will popup. With a few clicks, you can add an etymology link. Note that you need a free OpenStreetMap account to do this.",
@@ -167,7 +168,8 @@
           "ca": "Llocs culturals sense informació etimològica",
           "da": "Kulturelle steder uden oprindelses information",
           "nb_NO": "Kulturelle steder uten etymologi-info",
-          "cs": "Kulturní místa bez etymologických informací"
+          "cs": "Kulturní místa bez etymologických informací",
+          "pl": "Miejsca kulturowe bez informacji o etymologii"
         },
         "minzoom": 18,
         "source": {
@@ -235,7 +237,8 @@
           "da": "Sundhed og sociale steder uden oprindelses information",
           "nb_NO": "Helse- og sosiale steder uten etymologi-info",
           "cs": "Zdravotní a sociální místa bez etymologických informací",
-          "es": "Lugares sanitarios y sociales sin información etimológica"
+          "es": "Lugares sanitarios y sociales sin información etimológica",
+          "pl": "Miejsca związane ze zdrowiem i społeczeństwem bez informacji o etymologii"
         },
         "minzoom": 18,
         "source": {
@@ -267,7 +270,8 @@
           "ca": "Llocs esportius sense informació etimològica",
           "da": "Sportspladser uden oprindelses information",
           "nb_NO": "Sportssteder uten etymologi-info",
-          "cs": "Sportovní místa bez etymologických informací"
+          "cs": "Sportovní místa bez etymologických informací",
+          "pl": "Miejsca sportowe bez informacji o etymologii"
         },
         "minzoom": 18,
         "source": {

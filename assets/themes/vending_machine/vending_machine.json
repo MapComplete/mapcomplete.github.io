@@ -5,14 +5,18 @@
     "nl": "Verkoopautomaten",
     "de": "Verkaufsautomaten",
     "fr": "Distributeurs",
-    "ca": "Màquines expenedores"
+    "ca": "Màquines expenedores",
+    "cs": "Prodejní automaty",
+    "pl": "Automaty sprzedające"
   },
   "description": {
     "en": "Find vending machines for everything",
     "nl": "Vind verkoopautomaten voor alles",
     "de": "Finde Verkaufautomaten für Alles",
     "fr": "Trouver tous les distributeurs",
-    "ca": "Troba màquines expenedores per a tot"
+    "ca": "Troba màquines expenedores per a tot",
+    "cs": "Najít prodejní automaty na vše",
+    "pl": "Znajdź automaty sprzedające do wszystkiego"
   },
   "icon": "./assets/layers/vending_machine/vending_machine.svg",
   "startLat": 53.21102,
