@@ -1,0 +1,324 @@
+{
+    "address": {
+        "description": "地址",
+        "name": "OSM中已知的地址",
+        "tagRenderings": {
+            "fixme": {
+                "question": "这里应被如何修复？请做出解释"
+            },
+            "housenumber": {
+                "mappings": {
+                    "0": {
+                        "then": "这个建筑物没有门牌号"
+                    }
+                },
+                "question": "这个屋子的门牌号是多少？",
+                "render": "门牌号是 <b>{addr:housenumber}</b>"
+            },
+            "street": {
+                "question": "这个地址位于哪条街道？",
+                "render": "这个地址位于<b>{addr:street}</b>街"
+            }
+        },
+        "title": {
+            "render": "已知的地址"
+        }
+    },
+    "ambulancestation": {
+        "name": "救护车站地图",
+        "presets": {
+            "0": {
+                "description": "向地图中添加一个救护车站",
+                "title": "救护车站"
+            }
+        },
+        "tagRenderings": {
+            "ambulance-agency": {
+                "question": "哪家机构运营这个站点？",
+                "render": "这个站点由 {operator}运营"
+            },
+            "ambulance-name": {
+                "question": "这个救护车站叫什么名字？",
+                "render": "这个站点名为 {name}."
+            },
+            "ambulance-operator-type": {
+                "mappings": {
+                    "0": {
+                        "then": "这个站点由政府运营。"
+                    }
+                }
+            }
+        }
+    },
+    "artwork": {
+        "description": "一个雕塑、半身像、涂鸦和其他全球艺术品的地图"
+    },
+    "bench": {
+        "name": "长椅",
+        "presets": {
+            "0": {
+                "title": "长椅"
+            }
+        },
+        "tagRenderings": {
+            "bench-backrest": {
+                "mappings": {
+                    "1": {
+                        "then": "有靠背"
+                    },
+                    "2": {
+                        "then": "<b>没有</b>靠背"
+                    }
+                },
+                "question": "这个长椅有靠背吗？"
+            },
+            "bench-colour": {
+                "mappings": {
+                    "0": {
+                        "then": "颜色：棕"
+                    },
+                    "1": {
+                        "then": "颜色：绿"
+                    },
+                    "2": {
+                        "then": "颜色：灰"
+                    },
+                    "3": {
+                        "then": "颜色：白"
+                    },
+                    "4": {
+                        "then": "颜色：红"
+                    },
+                    "5": {
+                        "then": "颜色：黑"
+                    },
+                    "6": {
+                        "then": "颜色：蓝"
+                    },
+                    "7": {
+                        "then": "颜色：黄"
+                    }
+                },
+                "question": "这个长椅是什么颜色的？",
+                "render": "颜色： {colour}"
+            },
+            "bench-direction": {
+                "question": "坐在长椅上的时候你目视的方向是哪边？",
+                "render": "坐在长椅上的时候目视方向为 {direction}°方位。"
+            },
+            "bench-material": {
+                "mappings": {
+                    "0": {
+                        "then": "座椅是木制的"
+                    },
+                    "1": {
+                        "then": "座椅是金属制的"
+                    },
+                    "2": {
+                        "then": "座椅是石制的"
+                    },
+                    "3": {
+                        "then": "座椅是混凝土制的"
+                    },
+                    "4": {
+                        "then": "座椅是塑料制的"
+                    },
+                    "5": {
+                        "then": "座椅是不锈钢制的"
+                    }
+                },
+                "question": "这个长椅（或座椅）是用什么材料做的？",
+                "render": "材质: {material}"
+            },
+            "bench-seats": {
+                "question": "这个长椅有几个座位？",
+                "render": "{seats}座"
+            },
+            "bench-survey:date": {
+                "question": "上次对这个长椅实地调查是什么时候？",
+                "render": "这个长椅于 {survey:date}最后一次实地调查"
+            }
+        },
+        "title": {
+            "render": "长椅"
+        }
+    },
+    "bench_at_pt": {
+        "name": "在公交站点的长椅",
+        "tagRenderings": {
+            "bench_at_pt-bench_type": {
+                "mappings": {
+                    "1": {
+                        "then": "站立长凳"
+                    }
+                }
+            },
+            "bench_at_pt-name": {
+                "render": "{name}"
+            }
+        },
+        "title": {
+            "mappings": {
+                "0": {
+                    "then": "在公交站点的长椅"
+                },
+                "1": {
+                    "then": "在庇护所的长椅"
+                }
+            },
+            "render": "长椅"
+        }
+    },
+    "bicycle_library": {
+        "tagRenderings": {
+            "bicycle-library-target-group": {
+                "question": "谁可以从这里借出自行车？"
+            }
+        }
+    },
+    "bicycle_tube_vending_machine": {
+        "tagRenderings": {
+            "Still in use?": {
+                "mappings": {
+                    "0": {
+                        "then": "这个借还机正常工作"
+                    },
+                    "1": {
+                        "then": "这个借还机已经损坏"
+                    },
+                    "2": {
+                        "then": "这个借还机被关闭了"
+                    }
+                }
+            }
+        }
+    },
+    "bike_cafe": {
+        "name": "自行车咖啡",
+        "presets": {
+            "0": {
+                "title": "自行车咖啡"
+            }
+        },
+        "tagRenderings": {
+            "bike_cafe-bike-pump": {
+                "mappings": {
+                    "0": {
+                        "then": "这家自行车咖啡为每个人提供打气筒"
+                    },
+                    "1": {
+                        "then": "这家自行车咖啡不为每个人提供打气筒"
+                    }
+                },
+                "question": "这家自行车咖啡为每个使用者提供打气筒吗？"
+            },
+            "bike_cafe-name": {
+                "question": "这个自行车咖啡的名字是什么？",
+                "render": "这家自行车咖啡叫做 {name}"
+            },
+            "bike_cafe-repair-service": {
+                "mappings": {
+                    "0": {
+                        "then": "这家自行车咖啡可以修车"
+                    },
+                    "1": {
+                        "then": "这家自行车咖啡不能修车"
+                    }
+                },
+                "question": "这家自行车咖啡t提供修车服务吗？"
+            },
+            "bike_cafe-repair-tools": {
+                "mappings": {
+                    "0": {
+                        "then": "这家自行车咖啡为DIY修理者提供工具"
+                    },
+                    "1": {
+                        "then": "这家自行车咖啡不为DIY修理者提供工具"
+                    }
+                },
+                "question": "这里有供你修车用的工具吗？"
+            },
+            "opening_hours": {
+                "override": {
+                    "question": "这家自行车咖啡什么时候开门营业？"
+                }
+            }
+        },
+        "title": {
+            "mappings": {
+                "0": {
+                    "then": "自行车咖啡 <i>{name}</i>"
+                }
+            },
+            "render": "自行车咖啡"
+        }
+    },
+    "questions": {
+        "tagRenderings": {
+            "dog-access": {
+                "mappings": {
+                    "0": {
+                        "then": "允许犬只"
+                    },
+                    "1": {
+                        "then": "<b>不</b>允许犬只"
+                    },
+                    "2": {
+                        "then": "允许犬只，但必须拴绳"
+                    },
+                    "3": {
+                        "then": "允许犬只，且可自由放养"
+                    }
+                },
+                "question": "犬只是否在这个商业体中允许？"
+            },
+            "email": {
+                "question": "{title()} 的电子邮箱地址为何？"
+            },
+            "opening_hours": {
+                "question": "{title()} 的开放时间为何？",
+                "render": "<h3>开放时间</h3> {opening_hours_table(opening_hours)}"
+            },
+            "payment-options": {
+                "mappings": {
+                    "0": {
+                        "then": "可用现金"
+                    },
+                    "1": {
+                        "then": "可用信用卡"
+                    }
+                },
+                "question": "这里支持哪些支付方式？"
+            },
+            "payment-options-advanced": {
+                "override": {
+                    "mappings+": {
+                        "0": {
+                            "then": "使用专用APP支付"
+                        },
+                        "1": {
+                            "then": "使用会员卡支付"
+                        }
+                    }
+                }
+            },
+            "phone": {
+                "question": "{title()} 的电话号码为何？"
+            },
+            "website": {
+                "question": "{title()} 的网站为何？"
+            },
+            "wikipedia": {
+                "mappings": {
+                    "0": {
+                        "then": "尚未有连接到的维基百科页面"
+                    },
+                    "1": {
+                        "then": "尚未有连接到的维基百科页面"
+                    }
+                },
+                "question": "在Wikidata上对应的实体是什么？"
+            }
+        }
+    }
+}
