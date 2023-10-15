@@ -98,6 +98,7 @@
         "en": "Which vehicles are allowed to charge here?",
         "nl": "Welke voertuigen kunnen hier opgeladen worden?",
         "ca": "Quins vehicles tenen permesa la carrega aquí?",
+        "cs": "Jaká vozidla je zde povoleno nabíjet?",
         "da": "Hvilke køretøjer må oplades her?",
         "de": "Welche Fahrzeuge können hier laden?",
         "es": "¿A qué vehículos se permite la carga aquí?"
@@ -111,6 +112,7 @@
             "en": "<b>Bicycles</b> can be charged here",
             "nl": "<b>Elektrische fietsen</b> kunnen hier opgeladen worden",
             "ca": "Aquí es poden carregar <b>bicicletes</b>",
+            "cs": "<b>Jízdní kola</b> lze nabíjet zde",
             "da": "<b> Cykler</b> kan oplades her",
             "de": "Hier können <b>Fahrräder</b> laden",
             "es": "Aquí se pueden cargar <b>bicicletas</b>"
@@ -123,6 +125,7 @@
             "en": "<b>Cars</b> can be charged here",
             "nl": "<b>Elektrische auto's</b> kunnen hier opgeladen worden",
             "ca": "Aquí es poden carregar <b>cotxes</b>",
+            "cs": "<b>Vozidla</b> lze nabíjet zde",
             "da": "<b>Biler</b> kan oplades her",
             "de": "Hier können <b>Autos</b> laden",
             "es": "Aquí se pueden cargar <b>coches</b>"
@@ -135,6 +138,7 @@
             "en": "<b>Scooters</b> can be charged here",
             "nl": "<b>Elektrische scooters</b> (snorfiets of bromfiets) kunnen hier opgeladen worden",
             "ca": "Aquí es poden carregar <b>Scooters</b>",
+            "cs": "<b>Koloběžky</b> lze nabíjet zde",
             "da": "<b>Scootere</b> kan oplades her",
             "de": "Hier können <b>Roller</b> laden",
             "es": "Aquí se pueden cargar <b>scooters</b>"
@@ -147,6 +151,7 @@
             "en": "<b>Heavy good vehicles</b> (such as trucks) can be charged here",
             "nl": "<b>Vrachtwagens</b> kunnen hier opgeladen worden",
             "ca": "Aquí es poden carregar <b>camions o trailers</b>",
+            "cs": "<b>Těžká nákladní vozidla</b> (např. nákladní automobily) lze nabíjet zde",
             "da": "<b> Tunge varebiler</b> (f.eks. lastbiler) kan oplades her",
             "de": "Hier können <b>LKW</b> laden"
           }
@@ -158,6 +163,7 @@
             "en": "<b>Buses</b> can be charged here",
             "nl": "<b>Bussen</b> kunnen hier opgeladen worden",
             "ca": "Aquí es poden carregar <b>busos</b>",
+            "cs": "<b>Autobusy</b> lze nabít zde",
             "da": "<b> Busser</b> kan oplades her",
             "de": "Hier können <b>Busse</b> laden",
             "es": "Aquí se pueden cargar <b>buses</b>"
@@ -171,6 +177,7 @@
         "en": "Who is allowed to use this charging station?",
         "nl": "Wie mag er dit oplaadpunt gebruiken?",
         "ca": "Qui pot utilitzar aquesta estació de càrrega?",
+        "cs": "Kdo může tuto nabíjecí stanici používat?",
         "da": "Hvem må bruge denne ladestation?",
         "de": "Wer darf diese Ladestation benutzen?",
         "es": "¿A quién se le permite utilizar esta estación de carga?"
@@ -179,6 +186,7 @@
         "en": "Access is {access}",
         "nl": "Toegang voor {access}",
         "ca": "L'accés està {access}",
+        "cs": "Přístup je {access}",
         "da": "Adgang er {access}",
         "de": "Zugang ist {access}",
         "es": "El acceso está {access}"
@@ -196,6 +204,7 @@
             "en": "Anyone can use this charging station (payment might be needed)",
             "nl": "Toegankelijk voor iedereen (mogelijks met aanmelden en/of te betalen)",
             "ca": "Qualsevol pot utilitzar aquest punt de càrrega (pot requerir un pagament)",
+            "cs": "Tuto nabíjecí stanici může používat kdokoli (může být vyžadována platba)",
             "da": "Alle kan bruge denne ladestation (betaling kan være nødvendig)",
             "de": "Jeder kann die Station nutzen (eventuell gegen Bezahlung)",
             "es": "Cualquiera puede utilizar esta estación de carga (puede requerirse un pago)"
@@ -207,6 +216,7 @@
             "en": "Anyone can use this charging station (payment might be needed)",
             "nl": "Toegankelijk voor iedereen (mogelijks met aanmelden en/of te betalen)",
             "ca": "Qualsevol persona pot utilitzar aquesta estació de recàrrega (pot ser calgui un pagament)",
+            "cs": "Tuto nabíjecí stanici může používat kdokoli (může být vyžadována platba)",
             "da": "Alle kan bruge denne ladestation (betaling kan være nødvendig)",
             "de": "Jeder kann diese Ladestation nutzen (eventuell gegen Bezahlung)",
             "es": "Cualquiera puede utilizar esta estación de carga (puede requerirse un pago)"
@@ -219,6 +229,7 @@
             "en": "Only customers of the place this station belongs to can use this charging station<br/><span class='subtle'>E.g. a charging station operated by hotel which is only usable by their guests</span>",
             "nl": "Enkel <b>klanten van de bijhorende plaats</b> mogen dit oplaadpunt gebruiken<br/><span class='subtle'>Bv. op de parking van een hotel en enkel toegankelijk voor klanten van dit hotel</span>",
             "ca": "Sols clientes del lloc al que pertany aquest punt de càrrega poden utilitzar-lo <br/><span class='subtle'>p.e. un punt de càrrega per un hotel que sols poden utilizar-los els hostes</span>",
+            "cs": "Tuto nabíjecí stanici mohou používat pouze zákazníci místa, ke kterému tato stanice patří<br/><span class='subtle'>Např. nabíjecí stanice provozovaná hotelem, kterou mohou používat pouze jeho hosté</span>",
             "da": "Kun kunder på det sted, denne station tilhører, kan bruge denne ladestation<br/><span class='subtle'>F.eks. en ladestation, der drives af hotellet, og som kun kan bruges af deres gæster</span>",
             "de": "Nur Kunden des Ortes, zu dem diese Station gehört, können diese Ladestation nutzen<br/><span class='subtle'>Z.B. eine von einem Hotel betriebene Ladestation, die nur von dessen Gästen genutzt werden kann</span>",
             "es": "Solo clientes del lugar al que pertenece esta estación la pueden utilizar <br/><span class='subtle'>Ej. una estación de carga operada por un hotel que solo es utilizable por sus huéspedes</span>"
@@ -230,6 +241,7 @@
             "en": "A <b>key</b> must be requested to access this charging station<br/><span class='subtle'>E.g. a charging station operated by hotel which is only usable by their guests, which receive a key from the reception to unlock the charging station</span>",
             "nl": "Een <b>sleutel</b> is nodig om dit oplaadpunt te gebruiken<br/><span class='subtle'>Bv. voor klanten van een hotel of een bar, die de sleutel aan de receptie kunnen krijgen</span>",
             "ca": "S'ha de sol·licitar una <b>clau</b> per a utilitzar aquest punt de càrrega<br/><span class='subtle'>p.e un punt de càrrega operat per un hotel nomes utilitzable pel seus hostes, els quals reben una clau des de recepció per a desbloquejar el punt de càrrega</span>",
+            "cs": "Pro přístup k této nabíjecí stanici je nutné vyžádat <b>klíč</b><br/><span class='subtle'>Např. nabíjecí stanice provozovaná hotelem, kterou mohou používat pouze jejich hosté, kteří od recepce obdrží klíč k odemknutí nabíjecí stanice</span>",
             "da": "Der skal anmodes om en <b>-nøgle</b> for at få adgang til denne ladestation<br/><span class='subtle'>F.eks. en ladestation, der drives af hotellet, og som kun kan bruges af deres gæster, og som modtager en nøgle fra receptionen for at låse ladestationen op</span>",
             "de": "Für den Zugang zur Station muss ein <b>Schlüssel</b> angefordert werden<br/><span class='subtle'>z.B. eine von einem Hotel betriebene Ladestation, die nur von dessen Gästen genutzt werden kann, die an der Rezeption einen Schlüssel erhalten, um die Ladestation aufzuschließen</span>",
             "es": "Se debe de solicitar una <b>llave</b> para utilizar esta estación de carga<br/><span class='subtle'>Ej. una estación de carga operada por un hotel que solo es utilizable por sus huéspedes, que reciben una llave de la recepción para desbloquear la estación de carga</span>"
@@ -241,6 +253,7 @@
             "en": "Not accessible to the general public (e.g. only accessible to the owners, employees, …)",
             "nl": "Niet toegankelijk voor het publiek <br/><span class='subtle'>Bv. enkel toegankelijk voor de eigenaar, medewerkers, ...</span>",
             "ca": "No accessible per al públic general (p.e. només accessible pels propietaris, empleats, …)",
+            "cs": "Nepřístupné široké veřejnosti (např. přístupné pouze majitelům, zaměstnancům, ...)",
             "da": "Ikke tilgængelig for offentligheden (f.eks. kun tilgængelig for ejere, ansatte, ...)",
             "de": "Die Station ist nicht für die Allgemeinheit zugänglich (z. B. nur für die Eigentümer, Mitarbeiter, …)",
             "es": "No accesible al público general (ej. solo accesible a los propietarios, empleados, ...)"
@@ -252,6 +265,7 @@
             "en": "This charging station is accessible to the public during certain hours or conditions. Restrictions might apply, but general use is allowed.",
             "nl": "Dit oplaadstation is publiek toegankelijk onder voorwaarden (bv. enkel tijdens bepaalde uren). ",
             "ca": "Aquesta estació de càrrega és accessible al públic durant certes hores o condicions. Es poden aplicar restriccions, però es permet l'ús general.",
+            "cs": "Tato nabíjecí stanice je v určitých hodinách nebo za určitých podmínek přístupná veřejnosti. Mohou zde platit omezení, ale obecné použití je povoleno.",
             "de": "Diese Ladestation ist zu gewissen Öffnungszeiten oder Bedingungen öffentlich zugänglich. Einschränkungen sind möglich, aber generelle Nutzung ist erlaubt."
           }
         }
@@ -263,6 +277,7 @@
         "en": "{capacity} vehicles can be charged here at the same time",
         "nl": "{capacity} voertuigen kunnen hier op hetzelfde moment opgeladen worden",
         "ca": "Aquí es poden carregar {capacity} vehicles a l'hora",
+        "cs": "{capacity} vozidel zde mohou být současně nabíjena",
         "da": "{capacity} køretøjer kan oplades her på samme tid",
         "de": "Hier können {capacity} Fahrzeuge gleichzeitig laden",
         "es": "Aquí se pueden cargar {capacity} vehículos al mismo tiempo"
@@ -271,6 +286,7 @@
         "en": "How much vehicles can be charged here at the same time?",
         "nl": "Hoeveel voertuigen kunnen hier opgeladen worden?",
         "ca": "Quants vehicles es poden carregar a la vegada?",
+        "cs": "Kolik vozidel zde lze nabíjet najednou?",
         "da": "Hvor mange køretøjer kan oplades her på samme tid?",
         "de": "Wie viele Fahrzeuge können hier gleichzeitig laden?",
         "es": "¿Cuántos vehículos se pueden cargar a la vez aquí?"
@@ -286,6 +302,7 @@
         "en": "Which charging connections are available here?",
         "nl": "Welke laadaansluitingen zijn hier beschikbaar?",
         "ca": "Quins tipus de connexions de càrrega estan disponibles aquí?",
+        "cs": "Jaké nabíjecí přípojky jsou zde k dispozici?",
         "da": "Hvilke ladestik er tilgængelige her?",
         "de": "Welche Ladeanschlüsse gibt es hier?",
         "es": "¿Qué tipo de conexiones de carga están disponibles aquí?"
@@ -299,6 +316,7 @@
             "en": "<b>Schuko wall plug</b> without ground pin (CEE7/4 type F)",
             "nl": "<b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F)",
             "ca": "<b>Endoll de paret Schuko</b> sense pin a terra (CEE7/4 tipus F)",
+            "cs": "<b>Schuko nástěnná zástrčka</b> bez zemního kolíku (CEE7/4 typu F)",
             "da": "<b>Schuko vægstik</b> uden jordstift (CEE7/4 type F)",
             "de": "<b>Schuko-Stecker</b> ohne Erdungsstift (CEE7/4 Typ F)",
             "es": "<b>Enchufe de pared Schuko</b> sin pin de tierra (CEE7/4 tipo F)"
@@ -331,6 +349,7 @@
             "en": "<b>Schuko wall plug</b> without ground pin (CEE7/4 type F)",
             "nl": "<b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F)",
             "ca": "<b>Endoll de paret Schuko</b> sense pin a terra (CEE7/4 tipus F)",
+            "cs": "<b>Schuko nástěnná zástrčka</b> bez zemního kolíku (CEE7/4 typu F)",
             "da": "<b>Schuko vægstik</b> uden jordstift (CEE7/4 type F)",
             "de": "<b>Schuko-Stecker</b> ohne Erdungsstift (CEE7/4 Typ F)",
             "es": "<b>Enchufe de pared Schuko</b> sin pin de tierra (CEE7/4 tipo F)"
@@ -348,6 +367,7 @@
             "en": "<b>European wall plug</b> with ground pin (CEE7/4 type E)",
             "nl": "<b>Europese stekker</b> met aardingspin (CEE7/4 type E)",
             "ca": "<b>Endoll de paret Europeu</b> amb pin de terra (CEE7/4 tipus E)",
+            "cs": "<b>Evropská zástrčka</b> se zemnícím kolíkem (CEE7/4 typ E)",
             "da": "<b>Europæisk vægstik</b> med jordstik (CEE7/4 type E)",
             "de": "<b>Europäischer Netzstecker</b> mit Erdungsstift (CEE7/4 Typ E)",
             "es": "<b>Enchufe de pared Europeo</b> con pin de tierra (CEE7/4 tipo E)"
@@ -368,6 +388,7 @@
             "en": "<b>European wall plug</b> with ground pin (CEE7/4 type E)",
             "nl": "<b>Europese stekker</b> met aardingspin (CEE7/4 type E)",
             "ca": "<b>Endoll de paret Europeu</b> amb pin a terra (CEE7/4 tipus E)",
+            "cs": "<b>Evropská zástrčka</b> se zemnícím kolíkem (CEE7/4 typ E)",
             "da": "<b>Europæisk vægstik</b> med jordstik (CEE7/4 type E)",
             "de": "<b>Europäischer Netzstecker</b> mit Erdungsstift (CEE7/4 Typ E)",
             "es": "<b>Enchufe de pared Europeo</b> con pin de tierra (CEE7/4 tipo E)"
@@ -450,6 +471,7 @@
             "en": "<b>Type 1 with cable</b> (J1772)",
             "nl": "<b>Type 1 met kabel</b> (J1772)",
             "ca": "<b>Tipus 1 amb cable</b> (J1772)",
+            "cs": "<b>Type 1 s kabelem</b> (J1772)",
             "da": "<b>Type 1 med kabel</b> (J1772)",
             "de": "<b>Typ 1 mit Kabel</b> (J1772)",
             "es": "<b>Tipo 1 con cable</b> (J1772)"
@@ -496,6 +518,7 @@
             "en": "<b>Type 1 with cable</b> (J1772)",
             "nl": "<b>Type 1 met kabel</b> (J1772)",
             "ca": "<b>Tipus 1 amb cable</b> (J1772)",
+            "cs": "<b>Type 1 s kabelem</b> (J1772)",
             "da": "<b>Type 1 med kabel</b> (J1772)",
             "de": "<b>Typ 1 mit Kabel</b> (J1772)",
             "es": "<b>Tipo 1 con cable</b> (J1772)"
@@ -513,6 +536,7 @@
             "en": "<b>Type 1 <i>without</i> cable</b> (J1772)",
             "nl": "<b>Type 1 <i>zonder</i> kabel</b> (J1772)",
             "ca": "<b>Tipus 1 <i>sense</i> cable</b> (J1772)",
+            "cs": "<b>Type 1 <i> bez</i> kabelu</b> (J1772)",
             "da": "<b>Type 1 <i>uden</i> kabel</b> (J1772)",
             "de": "<b>Typ 1 <i>ohne</i> Kabel</b> (J1772)",
             "es": "<b>Tipo 1 <i>sin</i> cable</b> (J1772)"
@@ -559,6 +583,7 @@
             "en": "<b>Type 1 <i>without</i> cable</b> (J1772)",
             "nl": "<b>Type 1 <i>zonder</i> kabel</b> (J1772)",
             "ca": "<b>Tipus 1 <i>sense</i> cable</b> (J1772)",
+            "cs": "<b>Type 1 <i> bez</i> kabelu</b> (J1772)",
             "da": "<b>Type 1 <i>uden</i> kabel</b> (J1772)",
             "de": "<b> Typ 1 <i>ohne </i> Kabel</b> (J1772)",
             "es": "<b>Tipo 1 <i>sin</i> cable</b> (J1772)"
@@ -576,6 +601,7 @@
             "en": "<b>Type 1 CCS</b> (aka Type 1 Combo)",
             "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo)",
             "ca": "<b>CSS 1Tipus 1</b> (també conegut com Tipus 1 combo)",
+            "cs": "<b>Typ 1 CCS</b> (aka Typ 1 Combo)",
             "da": "<b>Type 1 CCS</b> (også kendt som Type 1 Combo)",
             "de": "<b>Typ 1 CCS</b> (Typ 1 Combo)",
             "es": "<b>CSS Tipo 1</b> (también conocido como Tipo 1 Combo)"
@@ -622,6 +648,7 @@
             "en": "<b>Type 1 CCS</b> (aka Type 1 Combo)",
             "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo)",
             "ca": "<b>CSS Tipus 1</b> (també conegut com a Tipus 1 Combo)",
+            "cs": "<b>Typ 1 CCS</b> (aka Typ 1 Combo)",
             "da": "<b>Type 1 CCS</b> (også kendt som Type 1 Combo)",
             "de": "<b> Typ 1 CCS </b> (auch bekannt als Typ 1 Combo)",
             "es": "<b>CSS Tipo 1</b> (también conocido como Tipo 1 Combo)"
@@ -703,6 +730,7 @@
             "en": "<b>Type 2</b> (mennekes)",
             "nl": "<b>Type 2</b> (mennekes)",
             "ca": "<b>Tipus 2</b> (mennekes)",
+            "cs": "<b>Typ 2</b> (mennekes)",
             "da": "<b>Type 2</b> (mennekes)",
             "de": "<b>Typ 2</b> (Mennekes)",
             "es": "<b>Tipo 2</b> (mennekes)"
@@ -749,6 +777,7 @@
             "en": "<b>Type 2</b> (mennekes)",
             "nl": "<b>Type 2</b> (mennekes)",
             "ca": "<b>Tipus 2</b> (mennekes)",
+            "cs": "<b>Typ 2</b> (mennekes)",
             "da": "<b> Type 2</b> (mennekes)",
             "de": "<b>Typ 2</b> (Mennekes)",
             "es": "<b>Tipo 2</b> (mennekes)"
@@ -766,6 +795,7 @@
             "en": "<b>Type 2 CCS</b> (mennekes)",
             "nl": "<b>Type 2 CCS</b> (mennekes)",
             "ca": "<b>CSS Tipus 2</b> (mennekes)",
+            "cs": "<b>Typ 2 CCS</b> (mennekes)",
             "da": "<b>Type 2 CCS</b> (mennekes)",
             "de": "<b>Typ 2 CCS</b> (Mennekes)",
             "es": "<b>CSS Tipo 2</b> (mennekes)"
@@ -812,6 +842,7 @@
             "en": "<b>Type 2 CCS</b> (mennekes)",
             "nl": "<b>Type 2 CCS</b> (mennekes)",
             "ca": "<b>CSS Tipus 2</b> (mennekes)",
+            "cs": "<b>Typ 2 CCS</b> (mennekes)",
             "da": "<b>Type 2 CCS</b> (mennekes)",
             "de": "<b>Typ 2 CCS</b> (mennekes)",
             "es": "<b>CSS Tipo 2</b> (mennekes)"
@@ -829,6 +860,7 @@
             "en": "<b>Type 2 with cable</b> (mennekes)",
             "nl": "<b>Type 2 met kabel</b> (J1772)",
             "ca": "<b>Tipus 2 amb cable</b> (mennekes)",
+            "cs": "<b>Typ 2 s kabelem</b> (mennekes)",
             "da": "<b>Type 2 med kabel</b> (mennekes)",
             "de": "<b>Typ 2 mit Kabel</b> (Mennekes)",
             "es": "<b>Tipo 2 con cable</b> (mennekes)"
@@ -875,6 +907,7 @@
             "en": "<b>Type 2 with cable</b> (mennekes)",
             "nl": "<b>Type 2 met kabel</b> (J1772)",
             "ca": "<b>Tipus 2 amb cable</b> (mennekes)",
+            "cs": "<b>Typ 2 s kabelem</b> (mennekes)",
             "da": "<b>Type 2 med kabel</b> (mennekes)",
             "de": "<b>Typ 2 mit Kabel</b> (mennekes)",
             "es": "<b>Tipo 2 con cable</b> (mennekes)"
@@ -892,6 +925,7 @@
             "en": "<b>Tesla Supercharger CCS</b> (a branded type2_css)",
             "nl": "<b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo)",
             "ca": "<b>CCS Supercarregador Tesla</b> (un cable de la marca Tesla Tipus2_css)",
+            "cs": "<b>Tesla Supercharger CCS</b> (značkový typ2_css)",
             "da": "<b>Tesla Supercharger CCS</b> (en mærkevare type2_css)",
             "de": "<b>Tesla Supercharger CCS</b> (Typ 2 CSS von Tesla)",
             "es": "<b>CCS Supercargador Tesla</b> (un tipo2_css con marca)"
@@ -938,6 +972,7 @@
             "en": "<b>Tesla Supercharger CCS</b> (a branded type2_css)",
             "nl": "<b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo)",
             "ca": "<b>CCS Supercarregador Tesla</b> (un cable de la marca Tesla Tipus2_css)",
+            "cs": "<b>Tesla Supercharger CCS</b> (značkový typ2_css)",
             "da": "<b>Tesla Supercharger CCS</b> (en mærkevare type2_css)",
             "de": "<b>Tesla Supercharger CCS</b> (ein Markenzeichen von type2_css)",
             "es": "<b>CCS Supercargador Tesla</b> (un tipo2_css con marca)"
@@ -1091,6 +1126,7 @@
             "en": "<b>USB</b> to charge phones and small electronics",
             "nl": "<b>USB</b> om GSMs en kleine electronica op te laden",
             "ca": "<b>USB</b> per a carregar mòbils i dispositius petits",
+            "cs": "<b>USB</b> pro nabíjení telefonů a malé elektroniky",
             "da": "<b>USB</b> til opladning af telefoner og mindre elektronik",
             "de": "<b>USB</b> zum Aufladen von Handys und kleinen Elektrogeräten",
             "es": "<b>USB</b> para cargar teléfonos y dispositivos pequeños"
@@ -1111,6 +1147,7 @@
             "en": "<b>USB</b> to charge phones and small electronics",
             "nl": "<b>USB</b> om GSMs en kleine electronica op te laden",
             "ca": "<b>USB</b> per a carregar mòbils i dispositius petits",
+            "cs": "<b>USB</b> pro nabíjení telefonů a maléh elektroniky",
             "da": "<b>USB</b> til opladning af telefoner og mindre elektronik",
             "de": "<b>USB</b> zum Aufladen von Handys und kleinen Elektrogeräten",
             "es": "<b>USB</b> para cargar teléfonos y dispositivos pequeños"
@@ -4003,6 +4040,7 @@
           "en": "When is this charging station opened?",
           "nl": "Wanneer is dit oplaadpunt beschikbaar??",
           "ca": "Quan està oberta aquesta estació de càrrega?",
+          "cs": "Kdy je tato nabíjecí stanice otevřena?",
           "de": "Wann ist die Ladestation geöffnet?",
           "pl": "Kiedy otwiera się ta stacja ładowania?"
         }
@@ -4015,6 +4053,7 @@
         "en": "Does one have to pay to use this charging station?",
         "nl": "Moet men betalen om dit oplaadpunt te gebruiken?",
         "ca": "Hi ha que pagar per utilitzar aquest punt de càrrega?",
+        "cs": "Musí se za použití této nabíjecí stanice platit?",
         "da": "Skal man betale for at bruge denne ladestation?",
         "de": "Muss man für die Nutzung dieser Ladestation bezahlen?",
         "es": "¿Hay que pagar para utilizar esta estación de carga?"
@@ -4033,6 +4072,7 @@
             "nl": "Gratis te gebruiken (zonder aan te melden)",
             "en": "Free to use (without authenticating)",
             "ca": "ús gratuït (sense autentificació)",
+            "cs": "Zdarma k použití (bez ověření)",
             "da": "Gratis at bruge (uden godkendelse)",
             "de": "Die Nutzung ist kostenlos, keine Authentifizierung erforderlich"
           }
@@ -4050,6 +4090,7 @@
             "nl": "Gratis te gebruiken, maar aanmelden met een applicatie is verplicht",
             "en": "Free to use, but one has to authenticate",
             "ca": "Ús gratuït, però un s'ha d'autentificar",
+            "cs": "Používání je zdarma, ale je třeba se ověřit",
             "da": "Gratis at bruge, men man skal godkende",
             "de": "Die Nutzung ist kostenlos, Authentifizierung erforderlich"
           }
@@ -4064,6 +4105,7 @@
             "nl": "Gratis te gebruiken",
             "en": "Free to use",
             "ca": "Ús gratuït",
+            "cs": "Použití zdarma",
             "da": "Gratis at bruge",
             "de": "Kostenlose Nutzung"
           },
@@ -4080,6 +4122,7 @@
             "nl": "Betalend te gebruiken, maar gratis voor klanten van het bijhorende hotel/café/ziekenhuis/…",
             "en": "Paid use, but free for customers of the hotel/pub/hospital/… who operates the charging station",
             "ca": "De pagament, però gratuït per als clients de l'hotel/bar/hospital/… que gestiona l'estació de càrrega",
+            "cs": "Placené použití, ale zdarma pro zákazníky hotelu/podniku/nemocnice/..., který dobíjecí stanici provozuje",
             "da": "Betalt brug, men gratis for kunder på det hotel/pub/hospital/... der driver ladestationen",
             "de": "Die Nutzung ist kostenpflichtig, aber für Kunden des Betreibers der Einrichtung, wie Hotel, Krankenhaus, … kostenlos",
             "es": "De pago, pero gratis para clientes del hotel/pub/hostpital... quien opera la estación de carga"
@@ -4096,6 +4139,7 @@
             "nl": "Betalend",
             "en": "Paid use",
             "ca": "Ús de pagament",
+            "cs": "Placené použití",
             "da": "Betalt brug",
             "de": "Die Nutzung ist kostenpflichtig",
             "es": "Uso de pago"
@@ -4109,6 +4153,7 @@
         "en": "How much does one have to pay to use this charging station?",
         "nl": "Hoeveel moet men betalen om dit oplaadpunt te gebruiken?",
         "ca": "Quant cal pagar per utilitzar aquesta estació de càrrega?",
+        "cs": "Kolik se za použití této nabíjecí stanice platí?",
         "da": "Hvor meget skal man betale for at bruge denne ladestation?",
         "de": "Wie viel muss man für die Nutzung dieser Ladestation bezahlen?",
         "es": "¿Cuánto hay que pagar para utilizar esta estación de carga?"
@@ -4117,6 +4162,7 @@
         "en": "Using this charging station costs <b>{charge}</b>",
         "nl": "Dit oplaadpunt gebruiken kost <b>{charge}</b>",
         "ca": "Utilitzar aquesta estació de càrrega costa <b>{charge}</b>",
+        "cs": "Použití této nabíjecí stanice stojí <b>{charge}</b>",
         "da": "Brug af denne ladestation koster <b>{charge}</b>",
         "de": "Die Nutzung dieser Ladestation kostet <b>{charge}</b>",
         "es": "Utilizar esta estación de carga cuesta <b>{charge}</b>"
@@ -4145,6 +4191,7 @@
         "en": "What kind of authentication is available at the charging station?",
         "nl": "Hoe kan men zich aanmelden aan dit oplaadstation?",
         "ca": "Quin tipus d'autenticació hi ha disponible a l'estació de càrrega?",
+        "cs": "Jaký druh ověření je na nabíjecí stanici k dispozici?",
         "da": "Hvilken form for godkendelse er tilgængelig ved ladestationen?",
         "de": "Welche Art der Authentifizierung ist an der Ladestation möglich?",
         "es": "¿Qué tipo de autenticación está disponible en esta estación de carga?",
@@ -4159,6 +4206,7 @@
             "en": "Authentication by a membership card",
             "nl": "Aanmelden met een lidkaart is mogelijk",
             "ca": "Autenticació mitjançant una targeta de soci",
+            "cs": "Ověření pomocí členské karty",
             "da": "Godkendelse med et medlemskort",
             "de": "Authentifizierung per Mitgliedskarte",
             "es": "Autenticación mediante tarjeta de membresía",
@@ -4172,6 +4220,7 @@
             "en": "Authentication by an app",
             "nl": "Aanmelden via een applicatie is mogelijk",
             "ca": "Autenticació mitjançant una aplicació",
+            "cs": "Ověření pomocí aplikace",
             "da": "Godkendelse med en app",
             "de": "Authentifizierung per App",
             "es": "Autenticación mediante aplicación",
@@ -4185,6 +4234,7 @@
             "en": "Authentication via phone call is available",
             "nl": "Aanmelden door te bellen naar een telefoonnummer is mogelijk",
             "ca": "L'autenticació per trucada telefònica està disponible",
+            "cs": "Ověření prostřednictvím telefonního hovoru je k dispozici",
             "da": "Godkendelse via telefonopkald er tilgængelig",
             "de": "Authentifizierung per Anruf ist möglich",
             "es": "Autenticación mediante llamada telefónica disponible",
@@ -4198,6 +4248,7 @@
             "en": "Authentication via SMS is available",
             "nl": "Aanmelden via SMS is mogelijk",
             "ca": "L'autenticació per SMS està disponible",
+            "cs": "Ověření prostřednictvím SMS je k dispozici",
             "da": "Godkendelse via SMS er tilgængelig",
             "de": "Authentifizierung per SMS ist möglich",
             "es": "Autenticación mediante SMS disponible",
@@ -4211,6 +4262,7 @@
             "en": "Authentication via NFC is available",
             "nl": "Aanmelden via NFC is mogelijk",
             "ca": "L'autenticació mitjançant NFC està disponible",
+            "cs": "Ověření prostřednictvím NFC je k dispozici",
             "da": "Godkendelse via NFC er tilgængelig",
             "de": "Authentifizierung per NFC ist möglich",
             "es": "Autenticación mediante NFC disponible",
@@ -4224,6 +4276,7 @@
             "en": "Authentication via Money Card is available",
             "nl": "Aanmelden met Money Card is mogelijk",
             "ca": "L'autenticació mitjançant targeta de pagament està disponible",
+            "cs": "Ověřování prostřednictvím karty Money Card je k dispozici",
             "da": "Godkendelse via Money Card er tilgængelig",
             "de": "Authentifizierung per Geldkarte ist möglich",
             "es": "Autenticación mediante Money Card disponible"
@@ -4236,6 +4289,7 @@
             "en": "Authentication via debit card is available",
             "nl": "Aanmelden met een betaalkaart is mogelijk",
             "ca": "L'autenticació mitjançant targeta de debit està disponible",
+            "cs": "Ověření prostřednictvím debetní karty je k dispozici",
             "da": "Godkendelse via betalingskort er tilgængelig",
             "de": "Authentifizierung per Kreditkarte ist möglich",
             "es": "Autenticación mediante tarjeta de débito disponible",
@@ -4249,6 +4303,7 @@
             "en": "Charging here is (also) possible without authentication",
             "nl": "Hier opladen is (ook) mogelijk zonder aan te melden",
             "ca": "Carregar aquí (també) és possible sense autenticació",
+            "cs": "Nabíjení je zde možné (i) bez ověření",
             "da": "Opladning her er (også) muligt uden godkendelse",
             "de": "Das Laden ist hier (auch) ohne Authentifizierung möglich",
             "es": "La carga aquí (también) es posible sin autenticación",
@@ -4269,6 +4324,7 @@
         "en": "Authenticate by calling or SMS'ing to <a href='tel:{authentication:phone_call:number}'>{authentication:phone_call:number}</a>",
         "nl": "Aanmelden door te bellen of te SMS'en naar <a href='tel:{authentication:phone_call:number}'>{authentication:phone_call:number}</a>",
         "ca": "Autentiqueu-vos trucant o enviant SMS a <a href='tel:{authentication:phone_call:number}'>{authentication:phone_call:number}</a>",
+        "cs": "Ověření voláním nebo SMS na <a href='tel:{authentication:phone_call:number}'>{authentication:phone_call:number}</a>",
         "da": "Godkend dig ved at ringe eller sende en sms til <a href='tel:{authentication:phone_call:number}'>{authentication:phone_call:number}</a>",
         "de": "Authentifizierung durch Anruf oder SMS an <a href='tel:{authentication:phone_call:number}'>{authentication:phone_call:number}</a>"
       },
@@ -4276,6 +4332,7 @@
         "en": "What's the phone number for authentication call or SMS?",
         "nl": "Wat is het telefoonnummer dat men moet bellen of SMS'en om zich aan te melden?",
         "ca": "Quin és el número de telèfon per a la trucada d'autenticació o SMS?",
+        "cs": "Jaké je telefonní číslo pro ověřovací hovor nebo SMS?",
         "da": "Hvad er telefonnummeret til godkendelsesopkald eller SMS?",
         "de": "Wie lautet die Telefonnummer für den Authentifizierungsanruf oder die SMS?",
         "es": "¿Cual es el número de teléfono para la llamada de autenticación o SMS?"
@@ -4297,6 +4354,7 @@
         "en": "What is the maximum amount of time one is allowed to stay here?",
         "nl": "Hoelang mag een voertuig hier blijven staan?",
         "ca": "Quina és la quantitat màxima de temps que es permet permaneixer aquí?",
+        "cs": "Jaká je maximální doba, po kterou zde můžete zůstat?",
         "da": "Hvad er den maksimale tid, man må opholde sig her?",
         "de": "Wie lange darf man hier maximal parken?",
         "es": "¿Cuál es la máxima cantidad de tiempo que se permite permanecer aquí?"
@@ -4319,6 +4377,7 @@
             "en": "No timelimit on leaving your vehicle here",
             "nl": "Geen maximum parkeertijd",
             "ca": "No hi ha límit de temps per a deixar el teu vehicle aquí",
+            "cs": "Žádný časový limit na opuštění vozidla zde",
             "da": "Ingen tidsbegrænsning på at forlade dit køretøj her",
             "de": "Keine Höchstparkdauer",
             "es": "No hay límite de tiempo para dejar tu vehículo aquí"
@@ -4340,6 +4399,7 @@
         "en": "Part of the network <b>{network}</b>",
         "nl": "Maakt deel uit van het <b>{network}</b>-netwerk",
         "ca": "Part de la xarxa <b>{network}</b>",
+        "cs": "Část sítě <b>{network}</b>",
         "da": "En del af netværket <b>{network}</b>",
         "de": "Teil des Netzwerks <b>{network}</b>",
         "es": "Parte de la red <b>{network}</b>"
@@ -4348,6 +4408,7 @@
         "en": "Is this charging station part of a network?",
         "nl": "Is dit oplaadpunt deel van een groter netwerk?",
         "ca": "Aquesta estació de càrrega forma part d'una xarxa?",
+        "cs": "Je tato nabíjecí stanice součástí sítě?",
         "da": "Er denne ladestation en del af et netværk?",
         "de": "Ist diese Ladestation Teil eines Netzwerks?",
         "es": "¿Esta estación de carga forma parte de una red?",
@@ -4363,6 +4424,7 @@
             "en": "Not part of a bigger network, e.g. because the charging station is maintained by a local business",
             "nl": "Maakt geen deel uit van een groter netwerk, een lokale zaak of organisatie beheert dit oplaadpunt",
             "ca": "No forma part d'una xarxa més gran, p.e. perqué l'estació de càrrega la manté un negoci local",
+            "cs": "Není součástí větší sítě, např. proto, že dobíjecí stanici spravuje místní podnik",
             "da": "Ikke en del af et større netværk, f.eks. fordi ladestationen vedligeholdes af en lokal virksomhed",
             "de": "Nicht Teil eines größeren Netzwerks, z. B. weil die Ladestation von einem lokalen Unternehmen betrieben wird",
             "es": "No forma parte de una red más grande, ej. porque la estación de carga la mantiene un negocio local"
@@ -4374,6 +4436,7 @@
             "en": "Not part of a bigger network",
             "nl": "Maakt geen deel uit van een groter netwerk",
             "ca": "No forma part d'una xarxa major",
+            "cs": "Není součástí větší sítě",
             "da": "Ikke en del af et større netværk",
             "de": "Nicht Teil eines größeren Netzwerks",
             "es": "No forma parte de una red mayor",
@@ -4425,6 +4488,7 @@
         "en": "Who is the operator of this charging station?",
         "nl": "Wie beheert dit oplaadpunt?",
         "ca": "Qui és l'operadora d'aquesta estació de càrrega?",
+        "cs": "Kdo je provozovatelem této nabíjecí stanice?",
         "da": "Hvem er operatøren af denne ladestation?",
         "de": "Wer ist der Betreiber dieser Ladestation?",
         "es": "¿Quien es la operadora de esta estación de carga?"
@@ -4433,6 +4497,7 @@
         "en": "This charging station is operated by {operator}",
         "nl": "Wordt beheerd door {operator}",
         "ca": "Aquesta estació de càrrega l'opera {operator}",
+        "cs": "Tuto nabíjecí stanici provozuje {operator}",
         "da": "Denne ladestation drives af {operator}",
         "de": "Die Station wird betrieben von {operator}",
         "es": "Esta estación de carga la opera {operator}",
@@ -4495,6 +4560,7 @@
         "en": "What is the email address of the operator?",
         "nl": "Wat is het email-adres van de operator?",
         "ca": "Quin és el correu electrònic de l'operadora?",
+        "cs": "Jaká je e-mailová adresa provozovatele?",
         "da": "Hvad er operatørens e-mail-adresse?",
         "de": "Wie lautet die E-Mail-Adresse des Betreibers?",
         "es": "¿Cual es la dirección de correo electrónico de esta operadora?"
@@ -4503,6 +4569,7 @@
         "en": "In case of problems, send an email to <a href='mailto:{email}'>{email}</a>",
         "nl": "Bij problemen, email naar <a href='mailto:{email}'>{email}</a>",
         "ca": "En cas de problemes, envia un email a <a href='mailto:{email}'>{email}</a>",
+        "cs": "V případě problémů pošlete e-mail na <a href='mailto:{email}'>{email}</a>",
         "da": "I tilfælde af problemer kan du sende en e-mail til <a href='mailto:{email}'>{email}</a>",
         "de": "Bei Problemen senden Sie bitte eine E-Mail an <a href='mailto:{email}'>{email}</a>",
         "es": "En caso de problemas, envía un correo electrónico a <a href='mailto:{email}'>{email}</a>"
@@ -4559,6 +4626,7 @@
         "en": "Is this charging point in use?",
         "nl": "Is dit oplaadpunt operationeel?",
         "ca": "Està en ús aquest punt de recàrrega?",
+        "cs": "Je toto nabíjecí místo v provozu?",
         "da": "Er denne ladestander i brug?",
         "de": "Ist die Station in Betrieb?",
         "es": "¿Está en uso este punto de carga?"
@@ -4578,6 +4646,7 @@
             "en": "This charging station works",
             "nl": "Dit oplaadpunt werkt",
             "ca": "Aquesta estació de càrrega funciona",
+            "cs": "Tato nabíjecí stanice funguje",
             "da": "Denne ladestation fungerer",
             "de": "Die Station ist in Betrieb",
             "es": "Esta estación de carga funciona",
@@ -4598,6 +4667,7 @@
             "en": "This charging station is broken",
             "nl": "Dit oplaadpunt is kapot",
             "ca": "Aquesta estació de carrega està trencada",
+            "cs": "Tato nabíjecí stanice je rozbitá",
             "da": "Denne ladestation er i stykker",
             "de": "Die Station ist defekt",
             "es": "Esta estación de carga está rota",
@@ -4618,6 +4688,7 @@
             "en": "A charging station is planned here",
             "nl": "Hier zal binnenkort een oplaadpunt gebouwd worden",
             "ca": "Aquí està prevista una estació de recàrrega",
+            "cs": "Plánuje se zde nabíjecí stanice",
             "da": "Her er der planlagt en ladestation",
             "de": "Die Station ist erst in Planung",
             "es": "Aquí está planeada una estación de carga",
@@ -4658,6 +4729,7 @@
             "en": "This charging station has beed permanently disabled and is not in use anymore but is still visible",
             "nl": "Dit oplaadpunt is niet meer in gebruik maar is wel nog aanwezig",
             "ca": "Aquesta estació de recàrrega s'ha desactivat permanentment i ja no s'utilitza, però encara és visible",
+            "cs": "Tato nabíjecí stanice byla trvale vypnuta a již se nepoužívá, ale je stále viditelná",
             "da": "Denne ladestation er blevet permanent deaktiveret og er ikke længere i brug, men er stadig synlig",
             "de": "Die Station ist dauerhaft geschlossen und nicht mehr in Nutzung, aber noch sichtbar",
             "es": "Esta estación de carga se ha deshabilitado de forma permanente y ya no está en uso pero todavía es visible"
@@ -4671,6 +4743,7 @@
         "en": "Does one have to pay a parking fee while charging?",
         "nl": "Moet men parkeergeld betalen tijdens het opladen?",
         "ca": "Cal pagar una taxa d'aparcament mentre es carrega?",
+        "cs": "Musí se při nabíjení platit parkovné?",
         "da": "Skal man betale parkeringsafgift, mens man oplader?",
         "de": "Muss man während des Ladens eine Parkgebühr bezahlen?",
         "es": "¿Hay que pagar una tasa de aparcamiento mientras se carga?",
@@ -4683,6 +4756,7 @@
             "en": "No additional parking cost while charging",
             "nl": "Geen extra parkeerkost tijdens het opladen",
             "ca": "No cal pagar una taxa addicional mentres es carrega",
+            "cs": "Žádné další náklady na parkování při nabíjení",
             "da": "Ingen ekstra parkeringsomkostninger under opladning",
             "de": "Keine zusätzlichen Parkkosten während des Ladens",
             "es": "No hay costes de aparcamiento adicionales mientras se carga",
@@ -4695,6 +4769,7 @@
             "en": "An additional parking fee should be paid while charging",
             "nl": "Tijdens het opladen moet er parkeergeld betaald worden",
             "ca": "Cal pagar una taxa addicional d'aparcament mentres es carrega",
+            "cs": "Při nabíjení by se měl platit dodatečný poplatek za parkování",
             "da": "Der skal betales et ekstra parkeringsgebyr under opladning",
             "de": "Während des Ladens ist eine zusätzliche Parkgebühr zu entrichten",
             "es": "Se deberá de pagar una tasa adicional de aparcamiento mientras se carga",
