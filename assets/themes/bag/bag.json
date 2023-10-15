@@ -108,7 +108,8 @@
             "ca": "La referència al BAG és <b>{ref:bag}</b>",
             "zgh": "ⵜⴳⴰ ⵜⵙⴰⵖⵓⵍⵜ ⴳ BAG <b>{ref:bag}</b>",
             "es": "La referencia de BAG es <b>{ref:bag}</b>",
-            "cs": "Reference v BAG je <b>{ref:bag}</b>"
+            "cs": "Reference v BAG je <b>{ref:bag}</b>",
+            "pl": "Numer referencyjny w BAG to <b>{ref:bag}</b>"
           },
           "mappings": [
             {
@@ -296,7 +297,8 @@
             "fr": "La référence dans BAG est <b>{_bag_obj:ref:bag}</b>",
             "ca": "La referència a BAG és <b>{_bag_obj:ref:bag}</b>",
             "es": "La referencia en BAG es <b>{_bag_obj:ref:bag}</b>",
-            "cs": "Reference v BAG je <b>{_bag_obj:ref:bag}</b>"
+            "cs": "Reference v BAG je <b>{_bag_obj:ref:bag}</b>",
+            "pl": "Odniesienie w BAG to <b>{_bag_obj:ref:bag}</b>"
           }
         },
         {
@@ -324,7 +326,8 @@
                 "ca": "L’edifici es va començar al <b> {_bag_obj:start_date}</b>",
                 "cs": "Stavba byla zahájena v <b>{_bag_obj:start_date}</b>",
                 "nb_NO": "Oppføring startet <b>{_bag_obj:start_date}</b>",
-                "es": "Este edificio se empezó a construir en <b>{_bag_obj:start_date}</b>"
+                "es": "Este edificio se empezó a construir en <b>{_bag_obj:start_date}</b>",
+                "pl": "Budynek został zbudowany w <b>{_bag_obj:start_date}</b>"
               }
             }
           ]
@@ -352,7 +355,8 @@
                 "fr": "Le type de bâtiment sera <b>{_bag_obj:construction}</b>",
                 "ca": "El tipus d'edifici serà <b>{_bag_obj:construction}</b>",
                 "cs": "Typ budovy bude <b>{_bag_obj:construction}</b>",
-                "es": "El tipo de edificio será un <b>{_bag_obj:construction}</b>"
+                "es": "El tipo de edificio será un <b>{_bag_obj:construction}</b>",
+                "pl": "Budynek będzie o typie <b>{_bag_obj:construction}</b>"
               }
             }
           ]

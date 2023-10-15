@@ -7,6 +7,7 @@
     "fr": "Distributeurs",
     "ca": "Màquines expenedores",
     "cs": "Prodejní automaty",
+    "es": "Máquinas expendedoras",
     "pl": "Automaty sprzedające"
   },
   "description": {
@@ -16,7 +17,8 @@
     "fr": "Trouver tous les distributeurs",
     "ca": "Troba màquines expenedores per a tot",
     "cs": "Najít prodejní automaty na vše",
-    "pl": "Znajdź automaty sprzedające do wszystkiego"
+    "es": "Encontrar máquinas expendedoras para todo",
+    "pl": "Znajdź wszelakie automaty sprzedające"
   },
   "icon": "./assets/layers/vending_machine/vending_machine.svg",
   "startLat": 53.21102,
