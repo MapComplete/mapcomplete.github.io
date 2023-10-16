@@ -6,8 +6,7 @@
     "de": "Radwege und Straßen",
     "fr": "Pistes cyclables et routes",
     "es": "Carriles bici y carreteras",
-    "ca": "Vies ciclistes i carreteres",
-    "cs": "Cyklostezky a silnice"
+    "ca": "Vies ciclistes i carreteres"
   },
   "minzoom": 16,
   "source": {
@@ -204,8 +203,7 @@
         "de": "Was für ein Radweg ist hier?",
         "es": "¿Qué tipo de carril bici hay aquí?",
         "fr": "Quel type de piste cyclable il y a ici ?",
-        "ca": "Quin tipus de via ciclista hi ha aquí?",
-        "cs": "Co je to za cyklostezku?"
+        "ca": "Quin tipus de via ciclista hi ha aquí?"
       },
       "condition": {
         "and": [
@@ -223,8 +221,7 @@
             "de": "Es gibt eine geteilte Fahrspur",
             "es": "Hay un carril compartido",
             "fr": "Il y a une voie partagée",
-            "ca": "Hi ha un carril compartit",
-            "cs": "Je zde sdílený jízdní pruh"
+            "ca": "Hi ha un carril compartit"
           }
         },
         {
@@ -235,8 +232,7 @@
             "de": "Es gibt eine Spur neben der Straße (getrennt durch eine Straßenmarkierung)",
             "es": "Hay un carril a lado de la carretera (separado con pintura)",
             "fr": "Il y a une piste cyclable separée de la route",
-            "ca": "Hi ha un carril al costat de la carretera (separat amb pintura)",
-            "cs": "Vedle silnice je pruh (oddělený barvou)"
+            "ca": "Hi ha un carril al costat de la carretera (separat amb pintura)"
           }
         },
         {
@@ -247,8 +243,7 @@
             "de": "Es gibt einen Weg, aber keinen Radweg, der auf der Karte getrennt von dieser Straße eingezeichnet ist.",
             "es": "Hay una pista, pero no hay un carril bici dibujado separado de esta carretera en el mapa.",
             "fr": "Il y a une piste cyclable, mais elle n'est pas séparée de la route sur la carte.",
-            "ca": "Hi ha una pista, però no hi ha una via ciclista dibuixada separada d'aquesta carretera al mapa.",
-            "cs": "Na mapě je vyznačena stezka, ale žádná cyklostezka odděleně od této silnice."
+            "ca": "Hi ha una pista, però no hi ha una via ciclista dibuixada separada d'aquesta carretera al mapa."
           }
         },
         {
@@ -259,8 +254,7 @@
             "de": "Hier ist ein getrennter Radweg vorhanden",
             "es": "Hay un carril bici dibujado por separado",
             "fr": "Il y a une piste cyclable dessinée séparement",
-            "ca": "Hi ha una via ciclista dibuixada per separat",
-            "cs": "K dispozici je samostatně vedená cyklostezka"
+            "ca": "Hi ha una via ciclista dibuixada per separat"
           }
         },
         {
@@ -271,8 +265,7 @@
             "de": "Es gibt keinen Radweg",
             "es": "No hay carril bici",
             "fr": "Il n'y a pas de piste cyclable",
-            "ca": "No hi ha via ciclista",
-            "cs": "Není zde žádná cyklostezka"
+            "ca": "No hi ha via ciclista"
           },
           "hideInAnswer": "cycleway=opposite"
         },
@@ -284,8 +277,7 @@
             "de": "Es gibt keinen Radweg",
             "es": "No hay carril bici",
             "fr": "Il n'y a pas de piste cyclable",
-            "ca": "No hi ha via ciclista",
-            "cs": "Není zde žádná cyklostezka"
+            "ca": "No hi ha via ciclista"
           },
           "hideInAnswer": "cycleway!=opposite",
           "addExtraTags": [
@@ -370,8 +362,7 @@
         "de": "Ist das eine Fahrradstraße?",
         "es": "¿Esta es una ciclocalle?",
         "fr": "Est-ce une route cyclable ?",
-        "ca": "Açò és un ciclocarrer?",
-        "cs": "Je toto cyklostezka?"
+        "ca": "Açò és un ciclocarrer?"
       },
       "condition": {
         "and": [
@@ -389,8 +380,7 @@
             "de": "Dies ist eine Fahrradstraße in einer 30km/h Zone.",
             "es": "Esta es una ciclocalle, y una zona 30km/h.",
             "fr": "C'est une rue cyclable, et une zone à 30 km/h.",
-            "ca": "Açò és un ciclocarrer, i una zona de 30km/h.",
-            "cs": "Jedná se o cyklostezku a zónu s rychlostí 30 km/h."
+            "ca": "Açò és un ciclocarrer, i una zona de 30km/h."
           },
           "addExtraTags": [
             "overtaking:motor_vehicle=no",
@@ -406,8 +396,7 @@
             "de": "Dies ist eine Fahrradstraße",
             "es": "Esta es una ciclocalle",
             "fr": "Ceci est une route cyclable",
-            "ca": "Açò és un ciclocarrer",
-            "cs": "Tohle je cyklostezka"
+            "ca": "Açò és un ciclocarrer"
           },
           "hideInAnswer": "_country=be"
         },
@@ -419,8 +408,7 @@
             "de": "Dies ist keine Fahrradstraße.",
             "es": "Esta no es una ciclocalle.",
             "fr": "Ceci n'est pas une rue cyclable",
-            "ca": "Açò no és un ciclocarrer.",
-            "cs": "Toto není cyklostezka."
+            "ca": "Açò no és un ciclocarrer."
           },
           "addExtraTags": [
             "overtaking:motor_vehicle="
@@ -438,8 +426,7 @@
         "es": "La velocidad máxima en esta carretera es de {maxspeed} km/h",
         "fr": "La vitesse maximum dans cette rue est de {maxspeed} km/h",
         "ca": "La velocitat màxima a aquesta carretera és {maxspeed} km/h",
-        "pl": "Maksymalna prędkość na tej drodze to {maxspeed} km/h",
-        "cs": "Maximální rychlost na této silnici je {maxspeed} km/h"
+        "pl": "Maksymalna prędkość na tej drodze to {maxspeed} km/h"
       },
       "freeform": {
         "key": "maxspeed",
@@ -462,8 +449,7 @@
             "es": "La velocidad máxima es de 20km/h",
             "fr": "La vitesse maximum est de 20 km/h",
             "pl": "Maksymalna prędkość tutaj to 20 km/h",
-            "ca": "La velocitat màxima és de 20km/h",
-            "cs": "Maximální rychlost je 20 km/h"
+            "ca": "La velocitat màxima és de 20km/h"
           }
         },
         {
@@ -475,8 +461,7 @@
             "es": "La velocidad máxima es de 30km/h",
             "fr": "La vitesse maximum est de 30 km/h",
             "pl": "Maksymalna prędkość tutaj to 30 km/h",
-            "ca": "La velocitat màxima és de 30km/h",
-            "cs": "Maximální rychlost je 30 km/h"
+            "ca": "La velocitat màxima és de 30km/h"
           }
         },
         {
@@ -488,8 +473,7 @@
             "es": "La velocidad máxima es de 50km/h",
             "fr": "La vitesse maximum est de 50 km/h",
             "pl": "Maksymalna prędkość tutaj to 50 km/h",
-            "ca": "La velocitat màxima és de 50km/h",
-            "cs": "Maximální rychlost je 50 km/h"
+            "ca": "La velocitat màxima és de 50km/h"
           }
         },
         {
@@ -502,8 +486,7 @@
             "es": "La velocidad máxima es de 70km/h",
             "fr": "La vitesse maximum est de 70 km/h",
             "pl": "Maksymalna prędkość tutaj to 70 km/h",
-            "ca": "La velocitat màxima és de 70km/h",
-            "cs": "Maximální rychlost je 70 km/h"
+            "ca": "La velocitat màxima és de 70km/h"
           }
         },
         {
@@ -516,8 +499,7 @@
             "es": "La velocidad máxima es de 90km/h",
             "fr": "La vitesse maximum est de 90 km/h",
             "ca": "La velocitat màxima és de 90km/h",
-            "pl": "Maksymalna prędkość tutaj to 90 km/h",
-            "cs": "Maximální rychlost je 90 km/h"
+            "pl": "Maksymalna prędkość tutaj to 90 km/h"
           }
         }
       ],
@@ -529,8 +511,7 @@
         "es": "¿Cual es la velocidad máxima en esta calle?",
         "fr": "Quelle est la vitesse maximum dans cette rue ?",
         "ca": "Quina és la velocitat màxima a aquest carrer?",
-        "pl": "Jaka jest maksymalna prędkość na tej ulicy?",
-        "cs": "Jaká je maximální rychlost na této silnici?"
+        "pl": "Jaka jest maksymalna prędkość na tej ulicy?"
       },
       "id": "Maxspeed (for road)"
     },
@@ -541,8 +522,7 @@
         "de": "Der Radweg ist aus {cycleway:surface}",
         "es": "Este carril bici está hecho de {cycleway:surface}",
         "fr": "Cette piste cyclable est faite de {cycleway:surface}",
-        "ca": "Aquesta via ciclista està feta de {cycleway:surface}",
-        "cs": "Povrch cyklostezky je {cycleway:surface}"
+        "ca": "Aquesta via ciclista està feta de {cycleway:surface}"
       },
       "freeform": {
         "key": "cycleway:surface"
@@ -563,8 +543,7 @@
             "de": "Dieser Radweg hat keinen festen Belag",
             "es": "Este carril bici no está pavimentado",
             "fr": "Cette piste cyclable n'est pas goudronnée",
-            "ca": "Aquesta via ciclista no està pavimentada",
-            "cs": "Tato cyklostezka je nezpevněná"
+            "ca": "Aquesta via ciclista no està pavimentada"
           },
           "hideInAnswer": true
         },
@@ -576,8 +555,7 @@
             "de": "Dieser Radweg hat einen festen Belag",
             "es": "Este carril bici está pavimentado",
             "fr": "Cette piste cyclable est goudronée",
-            "ca": "Aquesta via ciclista està pavimentada",
-            "cs": "Tato cyklostezka je zpevněná"
+            "ca": "Aquesta via ciclista està pavimentada"
           },
           "hideInAnswer": true
         },
@@ -589,8 +567,7 @@
             "de": "Der Radweg ist aus Asphalt",
             "es": "Este carril bici está hecho de asfalto",
             "fr": "Cette piste cyclable est asphaltée",
-            "ca": "Aquesta via ciclista està feta d'asfalt",
-            "cs": "Tato cyklostezka je z asfaltu"
+            "ca": "Aquesta via ciclista està feta d'asfalt"
           }
         },
         {
@@ -601,8 +578,7 @@
             "de": "Dieser Fahrradweg besteht aus ebenen Pflastersteinen",
             "es": "Este carril bici está hecho de piedras de pavimento suaves",
             "fr": "Cette piste cyclable est faite de petits pavés",
-            "ca": "Aquesta via ciclista està feta de pedres de paviment suaus",
-            "cs": "Tato cyklostezka je tvořena hladkou dlažbou"
+            "ca": "Aquesta via ciclista està feta de pedres de paviment suaus"
           }
         },
         {
@@ -613,8 +589,7 @@
             "de": "Der Radweg ist aus Beton",
             "es": "Este carril bici está hecho de hormigón",
             "fr": "Cette piste cyclable est bétonée",
-            "ca": "Aquesta via ciclista està feta de formigó",
-            "cs": "Tato cyklostezka je betonová"
+            "ca": "Aquesta via ciclista està feta de formigó"
           }
         },
         {
@@ -624,8 +599,7 @@
             "nl": "Dit fietspad is gemaakt van kasseien (natuurlijk of verwerkt)",
             "de": "Dieser Radweg besteht aus Kopfsteinpflaster",
             "fr": "Cette piste cyclable est faite de pavés (taillé ou non)",
-            "ca": "Aquesta via ciclista està feta de llambordes (sense tallar o muntar)",
-            "cs": "Tato cyklostezka je z dlážděných kamenů (neotesaných nebo usazených)"
+            "ca": "Aquesta via ciclista està feta de llambordes (sense tallar o muntar)"
           },
           "hideInAnswer": true
         },
@@ -636,8 +610,7 @@
             "nl": "Dit fietspad is gemaakt van ruwe, natuurlijke kasseien",
             "de": "Dieser Fahrradweg besteht aus unregelmäßigem, unbehauenem Kopfsteinpflaster",
             "fr": "Cette piste cyclable est en pavés bruts et naturels",
-            "ca": "Aquesta via ciclista està feta de llambordes naturals",
-            "cs": "Tato cyklostezka je vyrobena ze surové přírodního kamene"
+            "ca": "Aquesta via ciclista està feta de llambordes naturals"
           }
         },
         {
@@ -647,8 +620,7 @@
             "nl": "Dit fietspad is gemaakt van vlakke, rechthoekige kasseien",
             "de": "Dieser Fahrradweg besteht aus regelmäßigem, behauenem Kopfsteinpflaster",
             "fr": "Cette piste cyclable est en pavés plats ou carrés",
-            "ca": "Aquesta via ciclista està feta de llamborda plana i quadrada",
-            "cs": "Tato cyklostezka je tvořena plochou čtvercovou dlažbou"
+            "ca": "Aquesta via ciclista està feta de llamborda plana i quadrada"
           }
         },
         {
@@ -659,8 +631,7 @@
             "de": "Der Radweg ist aus Holz",
             "es": "Este carril bici está hecho de madera",
             "fr": "Cette piste cyclable est faite en bois",
-            "ca": "Aquesta via ciclista està feta de fusta",
-            "cs": "Tato cyklostezka je dřevěná"
+            "ca": "Aquesta via ciclista està feta de fusta"
           }
         },
         {
@@ -671,8 +642,7 @@
             "de": "Der Radweg ist aus Schotter",
             "es": "Este carril bici está hecho de grava",
             "fr": "Cette piste cyclable est faite en graviers",
-            "ca": "Aquesta via ciclista està feta de grava",
-            "cs": "Tato cyklostezka je štěrková"
+            "ca": "Aquesta via ciclista està feta de grava"
           }
         },
         {
@@ -683,8 +653,7 @@
             "de": "Dieser Radweg besteht aus feinem Schotter",
             "es": "Este carril bici está hecho de gravilla",
             "fr": "Cette piste cyclable est faite en graviers fins",
-            "ca": "Aquesta via ciclista està feta de grava fina",
-            "cs": "Tato cyklostezka je tvořena jemným štěrkem"
+            "ca": "Aquesta via ciclista està feta de grava fina"
           }
         },
         {
@@ -693,8 +662,7 @@
             "en": "This cycleway is made of pebblestone",
             "nl": "Dit fietspad is gemaakt van kiezelsteentjes",
             "de": "Der Radweg ist aus Kies",
-            "fr": "Cette piste cyclable est en cailloux",
-            "cs": "Tato cyklostezka je z oblázkového kamene"
+            "fr": "Cette piste cyclable est en cailloux"
           }
         },
         {
@@ -704,8 +672,7 @@
             "nl": "Dit fietspad is gemaakt van aarde",
             "de": "Dieser Radweg besteht aus Rohboden",
             "es": "Este carril bici está hecho de tierra natural",
-            "fr": "Cette piste cyclable est faite en sol brut",
-            "cs": "Tato cyklostezka je vyrobena ze surové zeminy"
+            "fr": "Cette piste cyclable est faite en sol brut"
           }
         }
       ],
@@ -715,8 +682,7 @@
         "de": "Was ist der Belag dieses Radwegs?",
         "es": "¿De qué superficie está hecho este carril bici?",
         "fr": "De quoi est faite la surface de la piste cyclable ?",
-        "ca": "De quina superfície està fet aquesta via ciclista?",
-        "cs": "Jaký je povrch cyklostezky?"
+        "ca": "De quina superfície està fet aquesta via ciclista?"
       },
       "id": "Cycleway:surface"
     },
@@ -727,8 +693,7 @@
         "de": "Wie eben ist dieser Radweg?",
         "es": "¿Cual es la suavidad de este carril bici?",
         "fr": "Quel est l'état de la piste cyclable ?",
-        "ca": "Quina és la suavitat d'aquesta via ciclista?",
-        "cs": "Jaká je hladkost této cyklostezky?"
+        "ca": "Quina és la suavitat d'aquesta via ciclista?"
       },
       "condition": {
         "or": [
@@ -745,8 +710,7 @@
             "nl": "Geschikt voor fijne rollers: rollerblade, skateboard",
             "de": "Geeignet für dünne Rollen: Rollerblades, Skateboard",
             "fr": "Utilisable pour les patins : patins à roulettes, skateboard",
-            "ca": "Utilitzable per a rodets prims: patins, monopatí",
-            "cs": "Použitelné pro malá kolečka: kolečkové brusle, skateboardy"
+            "ca": "Utilitzable per a rodets prims: patins, monopatí"
           }
         },
         {
@@ -756,8 +720,7 @@
             "nl": "Geschikt voor fijne wielen: racefiets",
             "de": "Geeignet für dünne Reifen: Rennrad",
             "fr": "Utilisable pour les roues fines : vélo de course",
-            "ca": "Utilitzable per a rodes primes: bicicleta de carreres",
-            "cs": "Použitelné pro úzká kola: závodní kolo"
+            "ca": "Utilitzable per a rodes primes: bicicleta de carreres"
           }
         },
         {
@@ -768,8 +731,7 @@
             "de": "Geeignet für normale Reifen: Fahrrad, Rollstuhl, Scooter",
             "es": "Utilizable para ruedas normales: bici de ciudad, sillas de ruedas, scooter",
             "fr": "Utilisable pour les roues traditionelles : vélo, chaise roulante, trotinettes",
-            "ca": "Utilitzable per a rodes normals: bici de ciutat, cadira de rodes, patinets",
-            "cs": "Použitelné pro běžná kola: městské kolo, invalidní vozík, skútr"
+            "ca": "Utilitzable per a rodes normals: bici de ciutat, cadira de rodes, patinets"
           }
         },
         {
@@ -779,8 +741,7 @@
             "nl": "Geschikt voor brede wielen: trekfiets, auto, rickshaw",
             "de": "Geeignet für breite Reifen: Trekkingfahrrad, Auto, Rikscha",
             "fr": "Utilisable pour les roues robustes : VTT, voitures, pousse-pousse",
-            "ca": "Utilitzable per a rodes robustes: bicicleta de senderisme, cotxe, rickshaw",
-            "cs": "Použitelné pro robustní kola: trekingové kolo, auto, rikša"
+            "ca": "Utilitzable per a rodes robustes: bicicleta de senderisme, cotxe, rickshaw"
           }
         },
         {
@@ -790,8 +751,7 @@
             "nl": "Geschikt voor voertuigen met hoge banden: lichte terreinwagen",
             "de": "Geeignet für Fahrzeuge mit großer Bodenfreiheit: leichte Geländewagen",
             "fr": "Utilisable pour les véhicules à dégagement élevé : véhicule tout-terrain léger",
-            "ca": "Utilitzable per a vehicles amb gran espai lliure: vehicle tot terreny lleuger",
-            "cs": "Použitelné pro vozidla s vysokou světlou výškou: lehké terénní vozidlo"
+            "ca": "Utilitzable per a vehicles amb gran espai lliure: vehicle tot terreny lleuger"
           }
         },
         {
@@ -801,8 +761,7 @@
             "nl": "Geschikt voor terreinwagens: zware terreinwagen",
             "de": "Geeignet für Geländefahrzeuge: schwerer Geländewagen",
             "fr": "Utilisable pour les véhicules tout-terrain : véhicule tout-terrain lourd",
-            "ca": "Utilitzable per a vehicles tot terreny: vehicle tot terreny resistent",
-            "cs": "Použitelné pro terénní vozidla: těžké terénní vozidlo"
+            "ca": "Utilitzable per a vehicles tot terreny: vehicle tot terreny resistent"
           }
         },
         {
@@ -812,8 +771,7 @@
             "nl": "Geschikt voor gespecialiseerde terreinwagens: tractor, alleterreinwagen",
             "de": "Geeignet für Geländefahrzeuge: Traktor, ATV",
             "fr": "Utilisable pour les véhicules hors route spécialisés : tracteur, véhicule 4x4",
-            "ca": "Utilitzable per a vehicles tot terreny especialitzats: tractor, ATV",
-            "cs": "Použitelné pro specializovaná terénní vozidla: traktor, ATV"
+            "ca": "Utilitzable per a vehicles tot terreny especialitzats: tractor, ATV"
           }
         },
         {
@@ -822,8 +780,7 @@
             "en": "Impassable / No wheeled vehicle",
             "nl": "Niet geschikt voor voertuigen met wielen",
             "de": "Unpassierbar / Keine bereiften Fahrzeuge",
-            "fr": "Impasse / Aucun véhicule roulant",
-            "cs": "Neprůjezdné / Zákaz vjezdu vozidel"
+            "fr": "Impasse / Aucun véhicule roulant"
           }
         }
       ],
@@ -837,8 +794,7 @@
         "id": "Jalan ini terbuat dari {surface}",
         "es": "Esta carretera está hecha de {surface}",
         "fr": "Cette route est faite de {surface}",
-        "ca": "Aquesta carretera està feta de {surface}",
-        "cs": "Tato silnice je vyrobena z {surface}"
+        "ca": "Aquesta carretera està feta de {surface}"
       },
       "freeform": {
         "key": "surface"
@@ -850,8 +806,7 @@
             "en": "This cycleway is unhardened",
             "nl": "Dit fietspad is onverhard",
             "de": "Dieser Radweg ist nicht befestigt",
-            "fr": "Cette piste cycable est non durcie",
-            "cs": "Tato cyklostezka není zpevněná"
+            "fr": "Cette piste cycable est non durcie"
           },
           "hideInAnswer": true
         },
@@ -864,8 +819,7 @@
             "id": "Jalur sepeda ini diaspal",
             "es": "Este carril bici está pavimentado",
             "fr": "Cette piste cyclable est pavée",
-            "ca": "Aquest carril bici està pavimentat",
-            "cs": "Tato cyklostezka je zpevněná"
+            "ca": "Aquest carril bici està pavimentat"
           },
           "hideInAnswer": true
         },
@@ -878,8 +832,7 @@
             "id": "Jalur sepeda ini terbuat dari aspal",
             "es": "Este carril bici está hecho de asfalto",
             "fr": "Cette piste cyclable est asphaltée",
-            "ca": "Aquest carril bici està fet d'asfalt",
-            "cs": "Tato cyklostezka je z asfaltu"
+            "ca": "Aquest carril bici està fet d'asfalt"
           }
         },
         {
@@ -889,8 +842,7 @@
             "nl": "Dit fietspad is gemaakt van straatstenen",
             "de": "Dieser Fahrradweg besteht aus ebenen Pflastersteinen",
             "id": "Jalur sepeda ini terbuat dari batu paving halus",
-            "fr": "Cette piste cyclable est faite en pavés lisses",
-            "cs": "Tato cyklostezka je tvořena hladkými dlažebními kostkami"
+            "fr": "Cette piste cyclable est faite en pavés lisses"
           }
         },
         {
@@ -902,8 +854,7 @@
             "id": "Jalur sepeda ini terbuat dari beton",
             "es": "Este carril bici está hecho de hormigón",
             "fr": "Cette piste cyclable est betonée",
-            "ca": "Aquest carril bici està fet de formigó",
-            "cs": "Tato cyklostezka je betonová"
+            "ca": "Aquest carril bici està fet de formigó"
           }
         },
         {
@@ -913,8 +864,7 @@
             "nl": "Dit fietspad is gemaakt van kasseien (natuurlijk of verwerkt)",
             "de": "Dieser Radweg besteht aus Kopfsteinpflaster",
             "id": "Jalur sepeda ini terbuat dari cobblestone (unhewn atau sett)",
-            "fr": "Cette piste cyclable est faite de pavés (taillé ou non)",
-            "cs": "Tato cyklostezka je vyrobena z dlážděného kamene (netesaného nebo vydlabaného)"
+            "fr": "Cette piste cyclable est faite de pavés (taillé ou non)"
           },
           "hideInAnswer": true
         },
@@ -925,8 +875,7 @@
             "nl": "Dit fietspad is gemaakt van ruwe, natuurlijke kasseien",
             "de": "Dieser Fahrradweg besteht aus unregelmäßigem, unbehauenem Kopfsteinpflaster",
             "id": "Jalur sepeda ini terbuat dari batu bulat alami",
-            "fr": "Cette piste cyclable est en pavés bruts et naturels",
-            "cs": "Tato cyklostezka je vyrobena ze surového přírodního dlažebního kamene"
+            "fr": "Cette piste cyclable est en pavés bruts et naturels"
           }
         },
         {
@@ -935,8 +884,7 @@
             "en": "This cycleway is made of flat, square cobblestone",
             "nl": "Dit fietspad is gemaakt van vlakke, rechthoekige kasseien",
             "de": "Dieser Fahrradweg besteht aus regelmäßigem, behauenem Kopfsteinpflaster",
-            "fr": "Cette piste cyclable est en pavés plats ou carrés",
-            "cs": "Tato cyklostezka je vyrobena z ploché čtvercové dlažební kostky"
+            "fr": "Cette piste cyclable est en pavés plats ou carrés"
           }
         },
         {
@@ -948,8 +896,7 @@
             "id": "Jalur sepeda ini terbuat dari kayu",
             "es": "Este carril bici está hecho de madera",
             "fr": "Cette piste cyclable est faite en bois",
-            "ca": "Aquest carril bici està fet de fusta",
-            "cs": "Tato cyklostezka je vyrobena ze dřeva"
+            "ca": "Aquest carril bici està fet de fusta"
           }
         },
         {
@@ -961,8 +908,7 @@
             "id": "Jalur sepeda ini terbuat dari kerikil",
             "es": "Este carril bici está hecho de grava",
             "fr": "Cette piste cyclable est faite en graviers",
-            "ca": "Aquesta via ciclista està feta de grava",
-            "cs": "Tato cyklostezka je ze štěrku"
+            "ca": "Aquesta via ciclista està feta de grava"
           }
         },
         {
@@ -974,8 +920,7 @@
             "id": "Jalur sepeda ini terbuat dari kerikil halus",
             "es": "Este carril bici está hecho de gravilla",
             "fr": "Cette piste cyclable est faite en graviers fins",
-            "ca": "Aquesta via ciclista està feta de gravilla",
-            "cs": "Tato cyklostezka je vyrobena z jemného štěrku"
+            "ca": "Aquesta via ciclista està feta de gravilla"
           }
         },
         {
@@ -985,8 +930,7 @@
             "nl": "Dit fietspad is gemaakt van kiezelsteentjes",
             "de": "Der Radweg ist aus Kies",
             "id": "Jalur sepeda ini terbuat dari batu kerikil",
-            "fr": "Cette piste cyclable est en cailloux",
-            "cs": "Tato cyklostezka je z oblázků"
+            "fr": "Cette piste cyclable est en cailloux"
           }
         },
         {
@@ -996,8 +940,7 @@
             "nl": "Dit fietspad is gemaakt van aarde",
             "de": "Dieser Radweg besteht aus Rohboden",
             "id": "Jalur sepeda ini terbuat dari tanah alami",
-            "fr": "Cette piste cyclable est faite en sol brut",
-            "cs": "Tato cyklostezka je vyrobena ze surové půdy"
+            "fr": "Cette piste cyclable est faite en sol brut"
           }
         }
       ],
@@ -1008,8 +951,7 @@
         "id": "Permukaan jalannya terbuat dari apa?",
         "es": "¿De qué esta hecha la superficie de esta calle?",
         "fr": "De quel materiel est faite cette rue ?",
-        "ca": "De què està feta la superfície d'aquest carrer?",
-        "cs": "Z čeho je povrch ulice vyroben?"
+        "ca": "De què està feta la superfície d'aquest carrer?"
       },
       "id": "Surface of the road"
     },
@@ -1036,8 +978,7 @@
             "id": "Dapat digunakan untuk roller tipis: rollerblade, skateboard",
             "nl": "Bruikbaar voor kleine, harde wielen: rollerblade, skateboard",
             "fr": "Utilisable pour les patins : patins à roulettes, skateboard",
-            "ca": "Utilitzable per rodets: patins en línia, monopatí",
-            "cs": "Použitelné pro malé kolečka: kolečkové brusle, skateboard"
+            "ca": "Utilitzable per rodets: patins en línia, monopatí"
           }
         },
         {
@@ -1830,7 +1771,6 @@
     "de": "Infrastruktur, die man mit dem Fahrrad befahren kann, begleitet von diesbezüglichen Fragen",
     "es": "Toda la infraestructura sobre la que alguien puede ir en bici, acompañado de preguntas sobre esta infraestructura\"",
     "fr": "Toutes les infrastructures sur lesquelles quelqu'un peut rouler, accompagnées de questions sur cette infrastructure",
-    "ca": "Totes les infraestructures per les quals algú pot ciclar, acompanyades de preguntes sobre aquesta infraestructura",
-    "cs": "Veškerá infrastruktura, kterou může někdo projet na kole, doplněná o otázky týkající se této infrastruktury"
+    "ca": "Totes les infraestructures per les quals algú pot ciclar, acompanyades de preguntes sobre aquesta infraestructura"
   }
 }

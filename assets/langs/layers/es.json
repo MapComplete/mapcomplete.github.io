@@ -4510,7 +4510,7 @@
             "toilet-access": {
                 "mappings": {
                     "0": {
-                        "then": "Acceso público"
+                        "then": "Acceso públic"
                     },
                     "1": {
                         "then": "Solo accesible a clientes"
@@ -4619,13 +4619,13 @@
             "toilet-access": {
                 "mappings": {
                     "0": {
-                        "then": "Acceso público"
+                        "then": "Acceso públic"
                     },
                     "3": {
                         "then": "Accesible, pero hay que pedir la llave para entrar"
                     },
                     "4": {
-                        "then": "Acceso público"
+                        "then": "De acceso público"
                     }
                 },
                 "render": "El acceso es {toilets:access}"

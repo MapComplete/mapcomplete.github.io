@@ -337,8 +337,7 @@
           "es": "{title()} ha cerrado permanentemente",
           "da": "{title()} er lukket permanent",
           "fr": "{title()} est définitivement fermé",
-          "ca": "{title()} ha tancat permanentment",
-          "cs": "{title()} byla trvale uzavřena"
+          "ca": "{title()} ha tancat permanentment"
         },
         "changesetMessage": "shop_closed"
       }
