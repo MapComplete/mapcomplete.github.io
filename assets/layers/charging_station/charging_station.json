@@ -30,6 +30,7 @@
       "en": "Charging station",
       "nl": "Oplaadpunt",
       "ca": "Estació de càrrega",
+      "cs": "Nabíjecí stanice",
       "de": "Ladestation",
       "es": "Estación de carga",
       "pl": "Stacja ładowania"
@@ -51,6 +52,7 @@
           "en": "Charging station for electrical bicycles",
           "nl": "Oplaadpunt voor elektrische fietsen",
           "ca": "Estació de càrrega per a bicicletes elèctriques",
+          "cs": "Nabíjecí stanice pro elektrická jízdní kola",
           "de": "Ladestation für Elektrofahrräder",
           "es": "Estación de carga para bicicletas eléctricas"
         }
@@ -71,6 +73,7 @@
           "en": "Charging station for cars",
           "nl": "Oplaadpunt voor elektrische auto's",
           "ca": "Estació de càrrega per a cotxes",
+          "cs": "Nabíjecí stanice pro automobily",
           "de": "Ladestation für Autos",
           "es": "Estación de carga para coches"
         }
@@ -406,6 +409,7 @@
             "en": "<b>Chademo</b>",
             "nl": "<b>Chademo</b>",
             "ca": "<b>Chademo</b>",
+            "cs": "<b>Chademo</b>",
             "da": "<b>Chademo</b>",
             "de": "<b>Chademo-Anschluss</b>",
             "es": "<b>Chademo</b>",
@@ -453,6 +457,7 @@
             "en": "<b>Chademo</b>",
             "nl": "<b>Chademo</b>",
             "ca": "<b>Chademo</b>",
+            "cs": "<b>Chademo</b>",
             "da": "<b>Chademo</b>",
             "de": "<b>Chademo-Anschluss</b>",
             "es": "<b>Chademo</b>",
@@ -666,6 +671,7 @@
             "en": "<b>Tesla Supercharger</b>",
             "nl": "<b>Tesla Supercharger</b>",
             "ca": "<b>Supercarregador de Tesla</b>",
+            "cs": "<b>Tesla Supercharger</b>",
             "da": "<b>Tesla Supercharger</b>",
             "de": "<b>Tesla Supercharger</b>",
             "es": "<b>Supercargador de Tesla</b>"
@@ -712,6 +718,7 @@
             "en": "<b>Tesla Supercharger</b>",
             "nl": "<b>Tesla Supercharger</b>",
             "ca": "<b>Supercarregador de Tesla</b>",
+            "cs": "<b>Tesla Supercharger</b>",
             "da": "<b>Tesla Supercharger</b>",
             "de": "<b>Tesla Supercharger</b>",
             "es": "<b>Supercargador de Tesla</b>",
@@ -990,6 +997,7 @@
             "en": "<b>Tesla Supercharger (destination)</b>",
             "nl": "<b>Tesla Supercharger (destination)</b>",
             "ca": "<b>Supercarregador Tesla (destí)</b>",
+            "cs": "<b>Tesla Supercharger (cíl)</b>",
             "da": "<b> Tesla Supercharger (destination)</b>",
             "de": "<b>Tesla Supercharger (Destination)</b>",
             "es": "<b>Supercargador Tesla (destino</b>"
@@ -1042,6 +1050,7 @@
             "en": "<b>Tesla Supercharger (destination)</b>",
             "nl": "<b>Tesla Supercharger (destination)</b>",
             "ca": "<b>Supercarregador Tesla (destí)</b>",
+            "cs": "<b>Tesla Supercharger (cíl)</b>",
             "da": "<b> Tesla Supercharger (destination)</b>",
             "de": "<b>Tesla Supercharger (Destination)</b>",
             "es": "<b>Supercargador Tesla (destino)</b>"
@@ -1059,6 +1068,7 @@
             "en": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla)",
             "nl": "<b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo)",
             "ca": "<b>Supercarregador Tesla (destí)</b> (Un tipus 2 amb un cable marca tesla)",
+            "cs": "<b>Tesla supercharger (cíl)</b> (Typ 2 s kabelem označeným jako Tesla)",
             "de": "<b>Tesla Supercharger (Destination)</b> (Typ 2 mit Kabel von Tesla)",
             "es": "<b>Supercargador Tesla (destino)</b> (Un Tipo 2 con un cable de marca tesla)"
           },
@@ -4585,12 +4595,14 @@
         "en": "What is the website where one can find more information about this charging station?",
         "nl": "Wat is de website waar men meer info kan vinden over dit oplaadpunt?",
         "ca": "Quina és la pàgina web on es pot trobar més informació sobre aquest punt de recàrrega?",
+        "cs": "Jaká je webová stránka, kde lze najít další informace o této nabíjecí stanici?",
         "de": "Auf welcher Webseite kann man weitere Informationen über diese Ladestation finden?"
       },
       "render": {
         "en": "More info on <a href='{website}'>{website}</a>",
         "nl": "Meer informatie op <a href='{website}'>{website}</a>",
         "ca": "Més info a <a href='{website}'>{website}</a>",
+        "cs": "Více informací na <a href='{website}'>{website}</a>",
         "de": "Weitere Informationen unter <a href='{website}'>{website}</a>"
       },
       "freeform": {
@@ -5203,6 +5215,7 @@
             "en": " minutes",
             "nl": " minuten",
             "ca": " minuts",
+            "cs": " minuty",
             "de": " Minuten",
             "es": " minutos",
             "eu": " ·minutu",
@@ -5214,6 +5227,7 @@
             "en": " minute",
             "nl": " minuut",
             "ca": " minut",
+            "cs": " minut",
             "de": " Minute",
             "es": " minuto",
             "eu": " ·minutu",
@@ -5236,6 +5250,7 @@
             "en": " hours",
             "nl": " uren",
             "ca": " hores",
+            "cs": " hodiny",
             "de": " Stunden",
             "es": " horas",
             "eu": " ·ordu",
@@ -5246,6 +5261,7 @@
             "en": " hour",
             "nl": " uur",
             "ca": " hora",
+            "cs": " hodin",
             "de": " Stunde",
             "es": " hora",
             "eu": " ·ordu",
@@ -5265,6 +5281,7 @@
             "en": " days",
             "nl": " day",
             "ca": " dies",
+            "cs": " dny",
             "de": " Tage",
             "es": " días",
             "eu": " ·egun",
@@ -5275,6 +5292,7 @@
             "en": " day",
             "nl": " dag",
             "ca": " dia",
+            "cs": " den",
             "de": " Tag",
             "es": " día",
             "eu": " ·egun",
@@ -5317,6 +5335,7 @@
             "en": "Volts",
             "nl": "volt",
             "ca": "Volts",
+            "cs": "Volty",
             "de": "Volt",
             "es": "Voltios",
             "eu": "Voltio",
@@ -5358,6 +5377,7 @@
             "en": "A",
             "nl": "A",
             "ca": "A",
+            "cs": "A",
             "de": "Ein",
             "es": "A",
             "eu": "A"
@@ -5395,6 +5415,7 @@
             "en": "kilowatt",
             "nl": "kilowatt",
             "ca": "quilovats",
+            "cs": "kilowatt",
             "de": "Kilowatt",
             "es": "kilvatio",
             "eu": "kilovatio",
@@ -5411,6 +5432,7 @@
             "en": "megawatt",
             "nl": "megawatt",
             "ca": "megavats",
+            "cs": "megawatt",
             "de": "Megawatt",
             "es": "megavatio",
             "eu": "megawatt",
