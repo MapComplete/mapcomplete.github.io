@@ -67,7 +67,8 @@
           "nl": "{brand} pakketautomaat",
           "ca": "{brand} bústia intel·ligent",
           "fr": "Casier à colis {brand}",
-          "pl": "Paczkomat {brand}"
+          "pl": "Paczkomat {brand}",
+          "cs": "{brand} skříňka na balíky"
         }
       }
     ]
@@ -226,7 +227,8 @@
           "nl": "Referentie",
           "pa_PK": "ہوالہ",
           "ca": "Referència",
-          "fr": "Référence"
+          "fr": "Référence",
+          "cs": "Reference"
         }
       },
       "render": {
@@ -234,7 +236,8 @@
         "de": "Dieses Paketschließfach hat die Kennnummer {ref}",
         "nl": "Deze pakketautomaat heeft de referentie {ref}",
         "ca": "Aquesta bústia intel·ligent té la referència {ref}",
-        "fr": "Ce casier a colis porte la référence {ref}"
+        "fr": "Ce casier a colis porte la référence {ref}",
+        "cs": "Tato schránka na balíky má reference {ref}"
       }
     },
     {

@@ -9,7 +9,8 @@
     "nl": "Reclame",
     "pt": "Anunciar",
     "he": "פרסומת",
-    "eu": "Iragarri"
+    "eu": "Iragarri",
+    "pl": "Reklama"
   },
   "minzoom": 15,
   "source": {
@@ -63,7 +64,8 @@
           "es": "Mupi",
           "en": "Poster Box",
           "de": "Posterbox",
-          "cs": "Skříň na plakáty"
+          "cs": "Skříň na plakáty",
+          "pl": "Pudełko plakatowe"
         }
       },
       {
@@ -170,7 +172,8 @@
           "cs": "Plachta",
           "nl": "Spandoek",
           "fr": "Bâche",
-          "eu": "Olana"
+          "eu": "Olana",
+          "pl": "Brezent"
         }
       },
       {
@@ -187,7 +190,8 @@
           "cs": "Totem",
           "nl": "Aanplakzuil",
           "fr": "Totem",
-          "eu": "Totem"
+          "eu": "Totem",
+          "pl": "Totem"
         }
       },
       {
@@ -216,7 +220,8 @@
     "de": "Wir vervollständigen Daten von Werbeanlagen mit Referenz-, Betreiber- und Beleuchtungsdaten",
     "cs": "Doplníme údaje z reklamních prvků s referencemi, provozovatelem a osvětlením",
     "pt": "Iremos completar os dados das funcionalidades publicitárias com referência, operador e iluminado",
-    "eu": "Publizitate-ezaugarrien datuak osatuko ditugu erreferentziarekin, operadorearekin eta argiztatuarekin."
+    "eu": "Publizitate-ezaugarrien datuak osatuko ditugu erreferentziarekin, operadorearekin eta argiztatuarekin.",
+    "pl": "Uzupełnimy dane z obiektów reklamowych o referencję, operatora i oświetlenie"
   },
   "tagRenderings": [
     "images",
@@ -345,7 +350,8 @@
             "en": "This is a poster Box",
             "de": "Dies ist eine Posterbox",
             "cs": "Toto je skříň na plakáty",
-            "fr": "C'est une sucette (panneau avec affiches)"
+            "fr": "C'est une sucette (panneau avec affiches)",
+            "pl": "To jest pudełko plakatowe"
           },
           "icon": {
             "path": "./assets/themes/advertising/poster_box.svg",
@@ -425,7 +431,8 @@
             "en": "This is a tarp (a weatherproof piece of textile with an advertising message)",
             "de": "Dies ist eine Plane (ein wetterfestes Textilstück mit einer Werbebotschaft)",
             "cs": "Toto je plachta (kus textilu s reklamním sdělením odolný proti povětrnostním vlivům)",
-            "fr": "C'est une bâche (un morceau de textile résistant aux intempéries avec un message publicitaire)"
+            "fr": "C'est une bâche (un morceau de textile résistant aux intempéries avec un message publicitaire)",
+            "pl": "To jest plandeka (odporny na warunki atmosferyczne kawałek materiału tekstylnego z przekazem reklamowym)"
           },
           "icon": {
             "path": "./assets/themes/advertising/tarp.svg",
@@ -444,7 +451,8 @@
             "en": "This is a totem",
             "de": "Dies ist ein Totem",
             "cs": "Toto je totem",
-            "fr": "C'est un totem"
+            "fr": "C'est un totem",
+            "pl": "To jest totem"
           },
           "icon": {
             "path": "./assets/themes/advertising/totem.svg",
@@ -604,7 +612,8 @@
               "nl": "Dit is een neonlamp",
               "pt": "Esta é uma luz de tubo de néon",
               "fr": "C'est une lampe à tube néon",
-              "he": "זהו תאורת ניאון"
+              "he": "זהו תאורת ניאון",
+              "pl": "To jest lampa neonowa"
             },
             "hideInAnswer": "advertising!=sign"
           }
@@ -815,7 +824,8 @@
             "en": "Funding sign",
             "de": "Finanzierungsschild",
             "cs": "Cedule pro financování",
-            "pt": "sinal de financiamento"
+            "pt": "sinal de financiamento",
+            "pl": "Znak finansowania"
           },
           "hideInAnswer": {
             "or": [
@@ -1117,7 +1127,8 @@
         "de": "eine freistehende Posterbox",
         "cs": "volně stojící plakátovací skříň",
         "pt": "uma caixa de pôster independente",
-        "fr": "un panneau à affiches scellé au sol"
+        "fr": "un panneau à affiches scellé au sol",
+        "pl": "wolnostojąca skrzynka plakatowa"
       },
       "exampleImages": [
         "./assets/themes/advertising/Mupi_spain.jpg",
@@ -1135,7 +1146,8 @@
         "de": "eine wandmontierte Posterbox",
         "cs": "plakátovací skříň připevněná na stěnu",
         "pt": "uma caixa de pôster montada em uma parede",
-        "fr": "un panneau à affiches monté sur un mur"
+        "fr": "un panneau à affiches monté sur un mur",
+        "pl": "skrzynka plakatowa montowana na ścianie"
       },
       "snapToLayer": "walls_and_buildings"
     },
@@ -1194,7 +1206,8 @@
         "cs": "Válcová venkovní konstrukce, která zobrazuje reklamy",
         "fr": "Une structure extérieure cylindrique qui affiche de la publicité",
         "nl": "Een cylindervormige structuur die buiten staat waarop advertenties staan",
-        "pt": "Uma estrutura exterior cilíndrica que mostra anúncios"
+        "pt": "Uma estrutura exterior cilíndrica que mostra anúncios",
+        "pl": "Cylindryczna konstrukcja zewnętrzna, na której pokazywane są reklamy"
       },
       "exampleImages": [
         "./assets/themes/advertising/AdvertisingColumn_001.jpg",
@@ -1277,7 +1290,8 @@
         "cs": "plachta",
         "nl": "een spandoek",
         "fr": "une bâche",
-        "pt": "uma lona"
+        "pt": "uma lona",
+        "pl": "plandeka"
       },
       "description": {
         "en": "A piece of waterproof textile with a printed message, permanently anchored on a wall",
@@ -1287,7 +1301,8 @@
         "cs": "Kus nepromokavého textilu s natištěným vzkazem, trvale připevněný na stěnu",
         "nl": "Een stuk groot, weerbestendig textiel met opgedrukte reclameboodschap die permanent aan de muur hangt",
         "pt": "Uma peça de tecido impermeável com uma mensagem impressa, permanentemente ancorada na parede",
-        "fr": "Une pièce de textile imperméable avec un message imprimé, ancrée de façon permanente sur un mur."
+        "fr": "Une pièce de textile imperméable avec un message imprimé, ancrée de façon permanente sur un mur.",
+        "pl": "Kawałek wodoodpornej tkaniny z nadrukowanym przesłaniem, trwale przymocowany do ściany"
       },
       "exampleImages": [
         "./assets/themes/advertising/tarp_feder.jpg",
@@ -1307,7 +1322,8 @@
         "de": "ein Totem",
         "cs": "totem",
         "fr": "un totem",
-        "pt": "um totem"
+        "pt": "um totem",
+        "pl": "totem"
       },
       "exampleImages": [
         "./assets/themes/advertising/AdvertisingTotem_004.jpg",
@@ -1339,7 +1355,8 @@
         "cs": "Používá se pro reklamní nápisy, neonové nápisy, loga a vstupní nápisy institucí",
         "fr": "Désigne une enseigne publicitaire, une enseigne néon, les logos ou des indications d'entrées",
         "pt": "Usado para sinais publicitários, sinais de néon, logotipos e sinais de entrada institucionais",
-        "eu": "Iragarki publizitarioetarako, neon-karteletarako, logotipoetarako eta erakundeen sarrera-seinaleetarako erabiltzen da"
+        "eu": "Iragarki publizitarioetarako, neon-karteletarako, logotipoetarako eta erakundeen sarrera-seinaleetarako erabiltzen da",
+        "pl": "Używany do znaków reklamowych, neonów, logo i znaków wejściowych do instytucji"
       },
       "exampleImages": [
         "./assets/themes/advertising/Waitrose_sign.jpg",

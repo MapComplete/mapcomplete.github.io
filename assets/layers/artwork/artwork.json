@@ -101,7 +101,8 @@
     "zh_Hans": "一个雕塑、半身像、涂鸦和其他全球艺术品的地图",
     "nb_NO": "Statuer, byster, graffiti, og andre kunstverk verden over",
     "zgh": "ⵢⴰⵜ ⵜⴽⴰⵕⴹⴰ ⵉⵕⵥⵎⵏ ⵅⴼ ⵉⵙⴼⵔⵉⵙⵏ, ⵉⵖⵔⴰⵙⵏ ⴷ ⵜⵡⵓⵔⵉⵡⵉⵏ ⵜⵉⵏⴰⵥⵓⵕⵉⵏ ⵢⴰⴹⵏⵉⵏ ⴳ ⵓⵎⴰⴹⴰⵍ",
-    "eu": "Estatuen, bustoen, graffitien eta mundu osoko beste artelan batzuen mapa irekia"
+    "eu": "Estatuen, bustoen, graffitien eta mundu osoko beste artelan batzuen mapa irekia",
+    "pl": "Otwarta mapa posągów, popiersi, graffiti i innych dzieł sztuki z całego świata"
   },
   "minzoom": 12,
   "presets": [
@@ -124,7 +125,7 @@
         "gl": "Obra de arte",
         "hu": "Műalkotás",
         "id": "Karya Seni",
-        "pl": "Dzieło sztuki",
+        "pl": "dzieło sztuki",
         "pt": "uma obra de arte",
         "pt_BR": "uma obra de arte",
         "sv": "Konstverk",
@@ -508,7 +509,8 @@
             "ca": "Tallat a la fusta",
             "es": "Tallado en madera",
             "he": "גילוף בעץ",
-            "eu": "Egur taila"
+            "eu": "Egur taila",
+            "pl": "Rzeźbienie w drewnie"
           }
         }
       ],

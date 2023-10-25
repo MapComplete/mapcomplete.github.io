@@ -17,7 +17,7 @@
   "title": {
     "render": {
       "en": "Bicycle tube vending machine",
-      "nl": "Fietsbanden-verkoopsautomaat",
+      "nl": "Fietsbanden-verkoopautomaat",
       "fr": "Distributeur automatique de chambre à air de vélo",
       "it": "Distributore automatico di camere d’aria per bici",
       "de": "Fahrradschlauch-Automat",
@@ -36,7 +36,8 @@
           "en": "Bicycle tube vending machine {name}",
           "ca": "Màquina expenedora de cambres d'aire de bicicletes {name}",
           "de": "{name} Fahrradschlauch-Automat",
-          "cs": "Automat na cyklistické pláště{name}"
+          "cs": "Automat na cyklistické pláště{name}",
+          "nl": "Fietsbanden-verkoopautomaat {name}"
         }
       }
     ]
@@ -184,13 +185,15 @@
         "en": "How much does a bicycle tube cost?",
         "ca": "Quant costa una cambra d'aire de bicicleta?",
         "de": "Wie viel kostet ein Fahrradschlauch?",
-        "cs": "Kolik stojí duše na kolo?"
+        "cs": "Kolik stojí duše na kolo?",
+        "nl": "Hoeveel kost een fietsband?"
       },
       "render": {
         "en": "A bicycle tube costs {charge}",
         "ca": "Una cambra d'aire de bicicleta costa {charge}",
         "de": "Ein Fahrradschlauch kostet {charge}",
-        "cs": "Cena jedné duše {charge}"
+        "cs": "Cena jedné duše {charge}",
+        "nl": "Een fietsband kost {charge}"
       },
       "freeform": {
         "key": "charge"
@@ -203,7 +206,8 @@
         "en": "Which brand of tubes are sold here?",
         "ca": "Quines marques de cambres d'aire es venen aquí?",
         "de": "Welche Fahrradschläuche werden hier verkauft?",
-        "cs": "Jaká značka duší je zde prodávána?"
+        "cs": "Jaká značka duší je zde prodávána?",
+        "nl": "Welk merk banden wordt hier verkocht?"
       },
       "freeform": {
         "key": "brand"
@@ -212,7 +216,8 @@
         "en": "{brand} tubes are sold here",
         "ca": "Aquí es venen cambres d'aire {brand}",
         "de": "Hier werden Fahrradschläuche von {brand} verkauft",
-        "cs": "{brand} duše jsou zde prodávány"
+        "cs": "{brand} duše jsou zde prodávány",
+        "nl": "{brand} banden worden hier verkocht"
       },
       "mappings": [
         {
@@ -221,7 +226,8 @@
             "en": "Continental tubes are sold here",
             "ca": "Aquí es venen cambres d'aire Continental",
             "de": "Hier werden Fahrradschläuche von Continental verkauft",
-            "cs": "Continental duše jsou zde prodávány"
+            "cs": "Continental duše jsou zde prodávány",
+            "nl": "Continental banden worden hier verkocht"
           }
         },
         {
@@ -230,7 +236,8 @@
             "en": "Schwalbe tubes are sold here",
             "ca": "Aquí es venen cambres d'aire Schwalbe",
             "de": "Hier werden Fahrradschläuche von Schwalbe verkauft",
-            "cs": "Schwalbe duše jsou zde prodávány"
+            "cs": "Schwalbe duše jsou zde prodávány",
+            "nl": "Schwalbe banden worden hier verkocht"
           }
         }
       ],
@@ -242,7 +249,8 @@
         "en": "Who maintains this vending machine?",
         "ca": "Qui manté aquesta màquina expenedora?",
         "de": "Wer betreibt den Automaten?",
-        "cs": "Kdo se stará o tento automat?"
+        "cs": "Kdo se stará o tento automat?",
+        "nl": "Wie onderhoudt deze verkoopautomaat?"
       },
       "render": "This vending machine is maintained by {operator}",
       "mappings": [
@@ -252,7 +260,8 @@
             "en": "Maintained by Schwalbe",
             "ca": "Mantés per Schwalbe",
             "de": "Betrieben von Schwalbe",
-            "cs": "Udržuje Schwalbe"
+            "cs": "Udržuje Schwalbe",
+            "nl": "Onderhouden door Schwalbe"
           }
         },
         {
@@ -261,7 +270,8 @@
             "en": "Maintained by Continental",
             "ca": "Mantés per Continental",
             "de": "Betrieben von Continental",
-            "cs": "Udržuje Continental"
+            "cs": "Udržuje Continental",
+            "nl": "Onderhouden door Continental"
           }
         }
       ],
@@ -276,7 +286,8 @@
         "en": "Are other biycle accessories sold here?",
         "ca": "Es venen altres accessoris per a bicicletes aquí?",
         "de": "Wird weiteres Fahrradzubehör verkauft?",
-        "cs": "Prodávají se zde další doplňky na kolo?"
+        "cs": "Prodávají se zde další doplňky na kolo?",
+        "nl": "Worden hier andere fietsaccessoires verkocht?"
       },
       "mappings": [
         {

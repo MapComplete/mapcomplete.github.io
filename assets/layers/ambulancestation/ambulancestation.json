@@ -16,7 +16,8 @@
     "cs": "Mapa stanic rychlé záchranné služby",
     "ca": "Mapa d'estacions d'ambulàncies",
     "nb_NO": "Kart over ambulansestasjoner",
-    "he": "מפת תחנות אמבולנסים"
+    "he": "מפת תחנות אמבולנסים",
+    "pl": "Mapa stacji pogotowia ratunkowego"
   },
   "minzoom": 12,
   "source": {
@@ -41,7 +42,8 @@
       "cs": "Stanice rychlé záchranné služby",
       "ca": "Estació d'Ambulàncies",
       "nb_NO": "Ambulansestasjon",
-      "he": "תחנת אמבולנס"
+      "he": "תחנת אמבולנס",
+      "pl": "Stacja pogotowia ratunkowego"
     }
   },
   "description": {
@@ -57,7 +59,8 @@
     "da": "En ambulancestation er et område til opbevaring af ambulancekøretøjer, medicinsk udstyr, personlige værnemidler og andre medicinske forsyninger.",
     "cs": "Stanice záchranné služby je prostor pro umístění sanitních vozidel, zdravotnického vybavení, osobních ochranných prostředků a dalšího zdravotnického materiálu.",
     "ca": "Una estició d'abulàncies és una àrea per a emmagatzemar ambulàncies, equipament mèdic, equips de protecció personal i altres subministraments mèdics.",
-    "he": "תחנת אמבולנס היא אזור לאחסון רכבי אמבולנס, ציוד רפואי, ציוד מגן אישי וציוד רפואי אחר."
+    "he": "תחנת אמבולנס היא אזור לאחסון רכבי אמבולנס, ציוד רפואי, ציוד מגן אישי וציוד רפואי אחר.",
+    "pl": "Stacja pogotowia ratunkowego to miejsce przechowywania pojazdów ambulansów, sprzętu medycznego, środków ochrony osobistej i innych artykułów medycznych."
   },
   "tagRenderings": [
     {
@@ -80,7 +83,8 @@
         "cs": "Jak se jmenuje tato stanice záchranné služby?",
         "ca": "Quin és el nom d'aquesta estació d'ambulàncies?",
         "zh_Hans": "这个救护车站叫什么名字？",
-        "he": "איך קוראים לתחנת האמבולנס הזו?"
+        "he": "איך קוראים לתחנת האמבולנס הזו?",
+        "pl": "Jak nazywa się ta stacja pogotowia ratunkowego?"
       },
       "render": {
         "en": "This station is called {name}.",
@@ -97,7 +101,8 @@
         "cs": "Tato stanice se jmenuje {name}.",
         "ca": "Aquesta estació es diu {name}.",
         "zh_Hans": "这个站点名为 {name}.",
-        "he": "תחנה זו נקראת {name}."
+        "he": "תחנה זו נקראת {name}.",
+        "pl": "Ta stacja nazywa się {name}."
       }
     },
     {
@@ -118,7 +123,8 @@
         "da": "Hvad er vejnavnet, hvor stationen ligger?",
         "cs": "Jak se jmenuje ulice, kde se stanice nachází?",
         "ca": "Quin és el nom del carrer on es troba l'estació?",
-        "he": "מה שם הרחוב שבו נמצאת התחנה?"
+        "he": "מה שם הרחוב שבו נמצאת התחנה?",
+        "pl": "Jak nazywa się ulica, przy której znajduje się stacja?"
       },
       "render": {
         "en": "This station is along a highway called {addr:street}.",
@@ -187,7 +193,8 @@
         "cs": "Jaká organizace tuto stanici provozuje?",
         "ca": "Quina agència opera aquesta estació?",
         "zh_Hans": "哪家机构运营这个站点？",
-        "he": "איזו סוכנות מפעילה את התחנה הזו?"
+        "he": "איזו סוכנות מפעילה את התחנה הזו?",
+        "pl": "Jaka agencja obsługuje tę stację?"
       },
       "render": {
         "en": "This station is operated by {operator}.",
@@ -203,7 +210,8 @@
         "cs": "Tuto stanici provozuje společnost {operator}.",
         "ca": "Aquesta estació l'opera {operator}.",
         "zh_Hans": "这个站点由 {operator}运营",
-        "he": "תחנה זו מופעלת על ידי {operator}."
+        "he": "תחנה זו מופעלת על ידי {operator}.",
+        "pl": "Ta stacja jest obsługiwana przez {operator}."
       },
       "freeform": {
         "key": "operator"
@@ -224,7 +232,8 @@
         "da": "Hvordan klassificeres stationsoperatøren?",
         "cs": "Jak je klasifikován provozovatel stanice?",
         "ca": "Com es classifica l'operador de l'estació?",
-        "he": "כיצד מסווג מפעיל התחנה?"
+        "he": "כיצד מסווג מפעיל התחנה?",
+        "pl": "Jak klasyfikowany jest operator stacji?"
       },
       "render": {
         "en": "The operator is a(n) {operator:type} entity.",
@@ -263,7 +272,8 @@
             "cs": "Provozovatelem stanice je vláda.",
             "ca": "El govern opera aquesta estació.",
             "zh_Hans": "这个站点由政府运营。",
-            "he": "התחנה מופעלת על ידי הממשלה."
+            "he": "התחנה מופעלת על ידי הממשלה.",
+            "pl": "Stacja jest zarządzana przez rząd."
           }
         },
         {
@@ -285,7 +295,8 @@
             "da": "Stationen drives af en samfundsbaseret eller uformel organisation.",
             "cs": "Provozovatelem stanice je komunitní nebo neformální organizace.",
             "ca": "Aquesta estació l'opera una comunitat o organització informal.",
-            "he": "התחנה מופעלת על ידי ארגון קהילתי, או לא רשמי."
+            "he": "התחנה מופעלת על ידי ארגון קהילתי, או לא רשמי.",
+            "pl": "Stacja jest obsługiwana przez organizację społeczną lub nieformalną."
           }
         },
         {
@@ -306,7 +317,8 @@
             "da": "Stationen drives af en formel gruppe af frivillige.",
             "cs": "Stanice je provozována formální skupinou dobrovolníků.",
             "ca": "Aquesta estació l'opera un grup formal de voluntaris.",
-            "he": "התחנה מופעלת על ידי קבוצה רשמית של מתנדבים."
+            "he": "התחנה מופעלת על ידי קבוצה רשמית של מתנדבים.",
+            "pl": "Stacja obsługiwana jest przez formalną grupę wolontariuszy."
           }
         },
         {
@@ -327,7 +339,8 @@
             "da": "Stationen er privatdrevet.",
             "cs": "Stanice je provozována soukromým subjektem.",
             "ca": "Aquesta estació l'opera una entitat privada.",
-            "he": "‍התחנה מופעלת באופן פרטי."
+            "he": "‍התחנה מופעלת באופן פרטי.",
+            "pl": "Stacja jest własnością prywatną."
           }
         }
       ]
@@ -354,7 +367,8 @@
         "nb_NO": "en ambulansestasjon",
         "da": "en ambulancestation",
         "cs": "stanice rychlé záchranné služby",
-        "ca": "una estació d'ambulàncies"
+        "ca": "una estació d'ambulàncies",
+        "pl": "stacja pogotowia ratunkowego"
       },
       "description": {
         "en": "Add an ambulance station to the map",
@@ -372,7 +386,8 @@
         "da": "Tilføj en ambulancestation til kortet",
         "cs": "Přidat na mapu stanici záchranné služby",
         "ca": "Afegeix una estació d'ambulàncies al mapa",
-        "he": "הוספת תחנת אמבולנס למפה"
+        "he": "הוספת תחנת אמבולנס למפה",
+        "pl": "Dodaj stację pogotowia ratunkowego do mapy"
       }
     }
   ],
