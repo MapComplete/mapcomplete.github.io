@@ -63,7 +63,8 @@
         "then": {
           "en": "Post partner at {name}",
           "de": "Postfiliale im {name}",
-          "ca": "Col·laborador postal a {name}"
+          "ca": "Col·laborador postal a {name}",
+          "cs": "Poštovní partner v {name}"
         }
       }
     ]

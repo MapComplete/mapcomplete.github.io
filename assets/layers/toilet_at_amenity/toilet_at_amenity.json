@@ -17,7 +17,7 @@
       "de": "Toilette in Einrichtung",
       "nl": "Toilet in een voorziening",
       "ca": "Lavabo a la instal·lació",
-      "cs": "Veřejný záchod"
+      "cs": "Toaleta v objektu"
     },
     "mappings": [
       {
@@ -85,7 +85,7 @@
             "nl": "Enkel toegankelijk voor klanten van de voorziening",
             "fr": "Accessibles uniquement au clients du lieu",
             "ca": "Només accessible a clients de l'instal·lació",
-            "cs": "Přístup pouze pro zákazníky"
+            "cs": "Přístup pouze zákazníkům zařízení občanské vybavenosti"
           }
         },
         {

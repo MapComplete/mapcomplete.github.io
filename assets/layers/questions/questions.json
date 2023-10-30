@@ -854,7 +854,7 @@
             "es": "No hay enchufes disponibles en el interior para los clientes, pero cargar puede ser posible si se pregunta al personal",
             "da": "Der er ingen stikkontakter til rådighed indendørs for kunderne, men opladning kan være mulig, hvis man beder personalet om det",
             "nb_NO": "Det er ingen tilgjengelige stikkontakter for kunder som sitter innendørs, men lading kan være mulig hvis man spør betjeningen",
-            "cs": "V interiéru nejsou zákazníkům k dispozici žádné el. zásuvky, ale na požádání personálu je možné je nabíjet"
+            "cs": "V interiéru nejsou zákazníkům k dispozici žádné el. zásuvky, ale na požádání personálu je možné nabíjet"
           },
           "if": "service:electricity=ask"
         },
