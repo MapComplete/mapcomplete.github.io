@@ -3440,7 +3440,7 @@
                         "then": "Der Übergang hat eine Verkehrsinsel"
                     },
                     "1": {
-                        "then": "Diese Ampel hat eine Taste, um ein grünes Signal anzufordern"
+                        "then": "Der Übergang hat <b>keine</b> Verkehrsinsel"
                     }
                 },
                 "question": "Gibt es an diesem Übergang eine Verkehrsinsel?"
