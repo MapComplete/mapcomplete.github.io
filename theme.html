@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- We disable 'user-scalable'. As we are working with a map, the user might zoom in using a popup, close the popup and _not_ be able to zoom out again. -->
     <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
     <!-- CSP -->
     <link href="./css/mobile.css" rel="stylesheet"/>
@@ -16,7 +17,7 @@
     <!-- THEME-SPECIFIC -->
     <!-- Every theme gets their own html page, this is created by a script; this part will be removed except for the index -->
     <title>MapComplete</title>
-    <link href="./assets/add-aa4bd0ba.svg" rel="icon" sizes="any" type="image/svg+xml">
+    <link href="./assets/add-ad16ed3c.svg" rel="icon" sizes="any" type="image/svg+xml">
     <meta content="./assets/SocialImage.png" property="og:image">
     <meta content="MapComplete - editable, thematic maps with OpenStreetMap" property="og:title">
     <meta content="MapComplete is a platform to visualize OpenStreetMap on a specific topic and to easily contribute data back to it."
@@ -35,29 +36,31 @@
 
     <!-- THEME-SPECIFIC-END-->
 
-  <script type="module" crossorigin src="./assets/theme-f1b9e992.js"></script>
-  <link rel="modulepreload" crossorigin href="./assets/Utils-81aafc52.js">
-  <link rel="modulepreload" crossorigin href="./assets/Svg-32095da9.js">
-  <link rel="modulepreload" crossorigin href="./assets/LocalStorageSource-df033e8b.js">
-  <link rel="modulepreload" crossorigin href="./assets/Tr-9e2aa2b1.js">
+  <script type="module" crossorigin src="./assets/theme-b19c9cfb.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/Utils-cf50a89b.js">
+  <link rel="modulepreload" crossorigin href="./assets/Svg-c40d398a.js">
+  <link rel="modulepreload" crossorigin href="./assets/LocalStorageSource-9618259f.js">
+  <link rel="modulepreload" crossorigin href="./assets/Translation-7c765b23.js">
   <link rel="modulepreload" crossorigin href="./assets/_commonjsHelpers-87174ba5.js">
-  <link rel="modulepreload" crossorigin href="./assets/Constants-67d7c1d8.js">
-  <link rel="modulepreload" crossorigin href="./assets/FixImages-d9c4b7f7.js">
+  <link rel="modulepreload" crossorigin href="./assets/PointRenderingConfig-cf13f646.js">
+  <link rel="modulepreload" crossorigin href="./assets/Constants-a7ecafef.js">
+  <link rel="modulepreload" crossorigin href="./assets/FixImages-d1cdda83.js">
   <link rel="modulepreload" crossorigin href="./assets/tw-merge-79e96412.js">
-  <link rel="modulepreload" crossorigin href="./assets/ToSvelte-77ee3eec.js">
-  <link rel="modulepreload" crossorigin href="./assets/Loading-60635475.js">
-  <link rel="modulepreload" crossorigin href="./assets/store.legacy-2a1c0432.js">
-  <link rel="modulepreload" crossorigin href="./assets/LanguagePicker-b9b83465.js">
-  <link rel="modulepreload" crossorigin href="./assets/If-95569ffc.js">
-  <link rel="modulepreload" crossorigin href="./assets/BackButton-0fa52f11.js">
+  <link rel="modulepreload" crossorigin href="./assets/ToSvelte-f2417bec.js">
+  <link rel="modulepreload" crossorigin href="./assets/Loading-dbfdadb0.js">
+  <link rel="modulepreload" crossorigin href="./assets/Tr-9878b3af.js">
+  <link rel="modulepreload" crossorigin href="./assets/OsmConnection-fb7edfd8.js">
+  <link rel="modulepreload" crossorigin href="./assets/LanguagePicker-93109310.js">
+  <link rel="modulepreload" crossorigin href="./assets/If-ef5868ed.js">
+  <link rel="modulepreload" crossorigin href="./assets/BackButton-3fbe6af6.js">
   <link rel="modulepreload" crossorigin href="./assets/defineProperty-ef1b11c3.js">
-  <link rel="modulepreload" crossorigin href="./assets/ExtraFunctions-d5e493a8.js">
-  <link rel="modulepreload" crossorigin href="./assets/Filterview-0be106b8.js">
-  <link rel="modulepreload" crossorigin href="./assets/OsmConnection-3695ea72.js">
-  <link rel="modulepreload" crossorigin href="./assets/FeatureSwitchState-66c16193.js">
-  <link rel="modulepreload" crossorigin href="./assets/ThemeViewGUI-00bd3eb6.js">
-  <link rel="stylesheet" href="./assets/ThemeViewGUI-faf7c2a9.css">
-  <link rel="stylesheet" href="./assets/ExtraFunctions-61aeedfe.css">
+  <link rel="modulepreload" crossorigin href="./assets/TabbedGroup-b25df9bb.js">
+  <link rel="modulepreload" crossorigin href="./assets/FeatureSwitchState-bcebe573.js">
+  <link rel="modulepreload" crossorigin href="./assets/Filterview-91ea661e.js">
+  <link rel="modulepreload" crossorigin href="./assets/ThemeViewGUI-311d8b4a.js">
+  <link rel="modulepreload" crossorigin href="./assets/AllKnownLayouts-9699c432.js">
+  <link rel="stylesheet" href="./assets/ThemeViewGUI-8d775733.css">
+  <link rel="stylesheet" href="./assets/TabbedGroup-f35bb668.css">
 </head>
 <body>
 
@@ -84,7 +87,7 @@
             <div class="flex justify-between items-end w-full">
                 
             <!-- IMAGE-START -->
-            <img class="p-8 h-32 w-32 self-start" src="./assets/add-aa4bd0ba.svg">
+            <img class="p-8 h-32 w-32 self-start" src="./assets/add-ad16ed3c.svg">
             <!-- IMAGE-END -->
                 <div class="h-min subtle"> 
                 Version
