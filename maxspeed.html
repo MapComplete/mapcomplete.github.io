@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!-- WARNING: index.html serves as a template. If you want to change something, change it there -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- We disable 'user-scalable'. As we are working with a map, the user might zoom in using a popup, close the popup and _not_ be able to zoom out again. -->
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+    <meta http-equiv ="Report-To" content='{"group":"csp-endpoint", "max_age": 86400,"endpoints": [{"url": "https://report.mapcomplete.org/csp"}], "include_subdomains": true}'>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' ; child-src 'self' blob:  ; img-src * data: ; connect-src 'self' * *.wikipedia.org https://127.0.0.1:8111 https://a.coct.aerial.openstreetmap.org.za https://a.hampshire.aerial.openstreetmap.org.uk https://a.surrey.aerial.openstreetmap.org.uk https://a.tile-cyclosm.openstreetmap.fr https://a.tile.openstreetmap.fr https://a.tile.openstreetmap.hu https://a.tile.osm-tools.org https://a.tiles.mapbox.com https://agis.charlottecountyfl.gov https://ags.myokaloosa.com https://ags2.colliercountyfl.gov https://ags3.scgov.net https://api.dataforsyningen.dk https://api.flickr.com https://api.imgur.com https://api.lantmateriet.se https://api.mangrove.reviews https://api.maptiler.com https://api.openstreetmap.org https://apps.kontur.io https://arcgis5.roktech.net https://b.coct.aerial.openstreetmap.org.za https://b.hampshire.aerial.openstreetmap.org.uk https://b.surrey.aerial.openstreetmap.org.uk https://b.tile-cyclosm.openstreetmap.fr https://b.tile.openstreetmap.fr https://b.tile.openstreetmap.hu https://b.tile.osm-tools.org https://b.tiles.mapbox.com https://basemap.nationalmap.gov https://basemaps.cartocdn.com https://basemaps.linz.govt.nz https://bdgex.eb.mil.br https://c.coct.aerial.openstreetmap.org.za https://c.hampshire.aerial.openstreetmap.org.uk https://c.surrey.aerial.openstreetmap.org.uk https://c.tile-cyclosm.openstreetmap.fr https://c.tile.openstreetmap.fr https://c.tile.openstreetmap.hu https://c.tile.osm-tools.org https://c.tiles.mapbox.com https://ca.dep.state.fl.us https://cache.kartverket.no https://cartes.geogratis.gc.ca https://cartografia.dgterritorio.gov.pt https://cityimg.capetown.gov.za https://clarity.maptiles.arcgis.com https://cogeoxyz.b-cdn.net https://commons.wikimedia.org https://cteco.uconn.edu https://d.tile.osm-tools.org https://d.tiles.mapbox.com https://d1zqyi8v6vm8p9.cloudfront.net https://data.actmapi.act.gov.au https://data4.actmapi.act.gov.au https://debica.geoportal2.pl https://dnrmaps.wi.gov https://egis.pinellas.gov https://elevation.nationalmap.gov https://engineergis.co.wood.oh.us https://fbinter.stadt-berlin.de https://g.naplesgov.com https://gaia.inegi.org.mx https://gdi-niederrhein-geodienste.de https://ge.ch https://geo.api.vlaanderen.be https://geo.nls.uk https://geo.so.ch https://geo1.oit.ohio.gov https://geoadmin.agroindustria.gob.ar https://geodata.md.gov https://geodaten.erlangen.de https://geodaten.mainz.de https://geodaten.metropoleruhr.de https://geodienste.hamburg.de https://geodienste.sachsen.de https://geodienste.staedteregion-aachen.de https://geodourados.dourados.ms.gov.br https://geolittoral.din.developpement-durable.gouv.fr https://geoportal-worms.de https://geoportal.dgu.hr https://geoportal.gliwice.eu https://geoportal.md https://geoportal.openlabs.cc https://geoserveis.icgc.cat https://geoserver.sefin.fortaleza.ce.gov.br https://geoservices-urbis.irisnet.be https://geoservices.buergernetz.bz.it https://geoservices.wallonie.be https://geoservices1.civis.bz.it https://geoweb.martin.fl.us https://geowebdienste.frankfurt.de https://gic-plateau.s3.ap-northeast-1.amazonaws.com https://gint.mainz.de https://gis.apfo.usda.gov https://gis.brevardfl.gov https://gis.citruspa.org https://gis.cityofmarcoisland.com:6443 https://gis.cookcountyil.gov https://gis.dogami.oregon.gov https://gis.fairfield-city.org https://gis.hennepin.us https://gis.level2.si https://gis.lfrz.gv.at https://gis.losalamosnm.us https://gis.maine.gov https://gis.mapa.lodz.pl https://gis.mercercountyohio.org https://gis.morgantownwv.gov https://gis.sanjuanco.com https://gis.stmk.gv.at https://gis.sumtercountyfl.gov https://gis.tirol.gv.at https://gis1.um.wroc.pl https://gis5.stuttgart.de https://gisbasemap.ecan.govt.nz https://gisimg.co.dakota.mn.us https://gismaps.kingcounty.gov https://gismaps.vdem.virginia.gov https://gisservices.oakgov.com https://gissvr4.leepa.org https://giswas1.mepnet.cz https://gisweb-adapters.bcpa.net https://gisweb.bozeman.net https://gisweb.miamidade.gov https://graph.mapillary.com https://gravitystorm.dev.openstreetmap.org https://gstore.unm.edu https://idecan1.grafcan.es https://ideib.caib.es https://imagenes.ign.gob.ar https://imagerie.data.grandlyon.com https://imagery.dcgis.dc.gov https://imagery.firstmap.delaware.gov https://imagery.gis.in.gov https://imagery.openstreetmap.fr https://imagery.pasda.psu.edu https://imagery.tnris.org https://imageserver.gisdata.mn.gov https://imageserverintra.miamidade.gov https://img.nj.gov https://interraster.leoncountyfl.gov https://isk.geobasis-bb.de https://kaart.maaamet.ee https://karta.kalmar.se https://karta.lidingo.se https://kartor.sollentuna.se https://kartta.hsy.fi https://kataster.bev.gv.at https://kortforsyningen.kms.dk https://kyraster.ky.gov https://lancut.geoportal2.pl https://lidar-hillshade-2019.openstreetmap.lu https://lubaczow.geoportal2.pl https://lvmgeoserver.lvm.lv https://m.wikidata.org https://map.bern.ch https://map.cazzaserver.com https://map.stadt.sg.ch https://mapa.lodz.pl https://mapillary.com https://mapping.launceston.tas.gov.au https://mapproxy.codefor.de https://mapproxy.osm.ch https://maproulette.org https://maps.co.palm-beach.fl.us https://maps.columbus.gov https://maps.ctmetro.org https://maps.edc.uri.edu https://maps.geogratis.gc.ca https://maps.hillsboroughcounty.org https://maps.matsugov.us https://maps.six.nsw.gov.au https://maps.snoco.org https://maps.vcgi.vermont.gov https://maps.wien.gv.at https://maps2.cattco.org https://maps2.dcgis.dc.gov https://maps2.scpafl.org https://maps2.vcgov.org https://maps2.vmr.gov.ua https://mapservices.onemap.sg https://mapsneu.wien.gv.at https://mapwarper.net https://mapy.geoportal.gov.pl https://mcgis.mesacounty.us https://mcgis4.monroecounty-fl.gov https://mgis.chmr.gov.ua https://moldova-map.md https://my-api.plantnet.org https://nominatim.openstreetmap.org https://ofmozaika.tiles.freemap.sk https://ogc.muenchen.de https://opaskartta.turku.fi https://opencache.statkart.no https://opencache2.statkart.no https://opencache3.statkart.no https://opengeodata.goteborg.se https://openmap.stockholm.se https://orthos.its.ny.gov https://ortos.dgterritorio.gov.pt https://osm-a.zby.cz https://osm-americana.github.io https://osm-b.zby.cz https://osm-c.zby.cz https://osm.cycle.travel https://osm.rrze.fau.de https://osmtools.septima.dk https://otgportal.com.ua https://ovc.catastro.meh.es https://overpass-api.de https://overpass.kumi.systems https://overpass.openstreetmap.ru https://ows-raster.geo.tg.ch https://ows.geo.tg.ch https://pgeo3.rio.rj.gov.br https://pietervdvn.goatcounter.com https://polaris3g.mecklenburgcountync.gov https://portal.ketteringoh.org https://portal.spatial.nsw.gov.au https://powiatrzeszowski.geoportal2.pl https://proxy-ign.openstreetmap.fr https://query.wikidata.org https://raw.githubusercontent.com https://seminolearcgis.seminolecountyfl.gov:6443 https://server.arcgisonline.com https://service.pdok.nl https://services.arcgisonline.com https://services.datafordeler.dk https://services.geo.zg.ch https://services.kansasgis.org https://services.nconemap.gov https://servisi.lgia.gov.lv https://siba.geosphere.fr https://siemianowice.geoportal2.pl https://sig.se.gob.ar https://sitmappe.comune.bologna.it https://sitplan.um.bytom.pl https://spropczyce.geoportal2.pl https://stalowawola.geoportal2.pl https://terinfo.ujbuda.hu https://terkep.torokbalint.hu https://tile.openstreetmap.bzh https://tile.openstreetmap.org https://tile.ourmap.us https://tiles-a.basemaps.cartocdn.com https://tiles-b.basemaps.cartocdn.com https://tiles-c.basemaps.cartocdn.com https://tiles-d.basemaps.cartocdn.com https://tiles-eu.stadiamaps.com https://tiles.arcgis.com https://tiles.basemaps.cartocdn.com https://tiles.codefor.de https://tiles.craig.fr https://tiles.kartat.kapsi.fi https://tiles.openaerialmap.org https://tiles.stadiamaps.com https://tms-pnoa-ma.idee.es https://tms.cadastre.openstreetmap.fr https://tms.osm-hr.org https://upload.wikimedia.org https://vogis.cnv.at https://waapi.webatlas.no https://wikidata.org https://wms-vuduciel2.makina-corpus.net https://wms.geo.admin.ch https://wms.geo.bs.ch https://wms.geo.sh.ch https://wms.geonorge.no https://wms.ign.gob.ar https://wms.nlsc.gov.tw https://wms.openstreetmap.de https://wms.openstreetmap.fr https://wms.zh.ch https://wmts1.geoportail.lu https://wmts2.geoportail.lu https://wmts3.geoportail.lu https://wmts4.geoportail.lu https://www.cartografia.servizirl.it https://www.fairfaxcounty.gov https://www.gds-srv.hessen.de https://www.geo.euskadi.eus https://www.geodatenportal.sachsen-anhalt.de https://www.geoservice.apps.be.ch https://www.geoservicos.ide.df.gov.br https://www.gis.sjcfl.us https://www.jaraguadosul.sc.gov.br https://www.mapillary.com https://www.mymanatee.org https://www.ogd.stadt-zuerich.ch https://www.openstreetmap.org https://www.orka-mv.de https://www.pagis.org https://www.portlandmaps.com https://www.townlands.ie https://www.wikidata.org https://www.wms.nrw.de https://wxs.ign.fr https://zelonewolf.github.io ; report-to https://report.mapcomplete.org/csp ; worker-src 'self' blob: ; style-src 'self' 'unsafe-inline' ; script-src 'self' https://gc.zgo.at/count.js 'sha256-bxvNMLkJxivKwf2oc9SVruAwZV95z1xUMASzaqv3UZo='">
+    <link href="./css/mobile.css" rel="stylesheet"/>
+    <link href="./css/openinghourstable.css" rel="stylesheet"/>
+    <link href="./css/tagrendering.css" rel="stylesheet"/>
+    <link href="css/ReviewElement.css" rel="stylesheet"/>
+    <link href="./css/index-tailwind-output.css" rel="stylesheet"/>
+    <link href="./css/wikipedia.css" rel="stylesheet"/>
+    <meta content="website" property="og:type">
+
+    <title>Maxspeed</title>
+<link rel="manifest" href="maxspeed.webmanifest">
+
+    <meta property="og:image" content="assets/generated/images/public_assets_generated_images_social_image_maxspeed_512.png">
+    <meta property="og:title" content="Maxspeed">
+    <meta property="og:description" content="This map shows the legally allowed maximum speed on every road.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@mapcomplete.org">
+    <meta name="twitter:creator" content="@pietervdvn">
+    <meta name="twitter:title" content="Maxspeed">
+    <meta name="twitter:description" content="This map shows the legally allowed maximum speed on every road.">
+    <meta name="twitter:image" content="assets/generated/images/public_assets_generated_images_social_image_maxspeed_Wide512.png">
+
+<link rel="icon" href="./assets/maxspeed_logo-92f07ae7.svg" sizes="any" type="image/svg+xml">
+
+  <script type="module" crossorigin src="./assets/maxspeed-6ed92b25.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/Utils-cf50a89b.js">
+  <link rel="modulepreload" crossorigin href="./assets/Svg-c40d398a.js">
+  <link rel="modulepreload" crossorigin href="./assets/LocalStorageSource-9618259f.js">
+  <link rel="modulepreload" crossorigin href="./assets/Translation-d256d157.js">
+  <link rel="modulepreload" crossorigin href="./assets/_commonjsHelpers-87174ba5.js">
+  <link rel="modulepreload" crossorigin href="./assets/PointRenderingConfig-e4273380.js">
+  <link rel="modulepreload" crossorigin href="./assets/Constants-d9eb7d4b.js">
+  <link rel="modulepreload" crossorigin href="./assets/FixImages-3cb27c04.js">
+  <link rel="modulepreload" crossorigin href="./assets/tw-merge-79e96412.js">
+  <link rel="modulepreload" crossorigin href="./assets/ToSvelte-f2417bec.js">
+  <link rel="modulepreload" crossorigin href="./assets/Loading-dbfdadb0.js">
+  <link rel="modulepreload" crossorigin href="./assets/Tr-82dd0cdb.js">
+  <link rel="modulepreload" crossorigin href="./assets/OsmConnection-22c14bfc.js">
+  <link rel="modulepreload" crossorigin href="./assets/LanguagePicker-b7d523bf.js">
+  <link rel="modulepreload" crossorigin href="./assets/If-089961c0.js">
+  <link rel="modulepreload" crossorigin href="./assets/BackButton-3fbe6af6.js">
+  <link rel="modulepreload" crossorigin href="./assets/defineProperty-ef1b11c3.js">
+  <link rel="modulepreload" crossorigin href="./assets/TabbedGroup-f3bff3d7.js">
+  <link rel="modulepreload" crossorigin href="./assets/FeatureSwitchState-8fb067a5.js">
+  <link rel="modulepreload" crossorigin href="./assets/Filterview-6e501b01.js">
+  <link rel="modulepreload" crossorigin href="./assets/ThemeViewGUI-a0ab920d.js">
+  <link rel="stylesheet" href="./assets/ThemeViewGUI-8d775733.css">
+  <link rel="stylesheet" href="./assets/TabbedGroup-f35bb668.css">
+</head>
+<body>
+
+
+<div class="h-full" id="maindiv">
+    <div id="default-main h-full">
+        <div class="w-full h-screen flex flex-col items-center justify-between  p-8">
+            <div class="w-full h-full flex flex-col items-center">
+
+                <div id="default-title">
+                    <h1 lang="ca">Carregant Velocitat…</h1>
+<h1 lang="cs">Načítání Maximální rychlost…</h1>
+<h1 lang="da">Indlæser Højeste hastighed...</h1>
+<h1 lang="de">Lade Höchstgeschwindigkeit…</h1>
+<h1 lang="en">Loading Maxspeed…</h1>
+<h1 lang="es">Cargando Velocidad…</h1>
+<h1 lang="fr">Chargement de Vitesse maximale…</h1>
+<h1 lang="hu">Maxspeed betöltése…</h1>
+<h1 lang="it">Scaricamento Maxspeed…</h1>
+<h1 lang="nb_NO">Laster inn Maxspeed…</h1>
+<h1 lang="nl">Maximale snelheden wordt geladen…</h1>
+<h1 lang="pl">Wczytywanie Prędkość maksymalna…</h1>
+<h1 lang="pt">A carregar Maxspeed…</h1>
+<h1 lang="zh_Hant">載入 最高速限…</h1>
+                </div>
+
+                <p class="text-xl" id="descriptions-while-loading">
+                    <span lang="en">This map shows the legally allowed maximum speed on every road.</span>
+<span lang="de">Diese Karte zeigt die zulässige Höchstgeschwindigkeit auf jeder Straße.</span>
+<span lang="fr">Cette carte montre la vitesse maximale autorisée sur les routes.</span>
+<span lang="nl">Deze kaart toont de maximumsnelheid voor elke straat.</span>
+<span lang="da">Dette kort viser den lovligt tilladte maksimale hastighed på hver vej.</span>
+<span lang="cs">Tato mapa zobrazuje zákonem povolenou maximální rychlost na každé silnici.</span>
+<span lang="es">Este mapa muestra la velocidad máxima permitida legalmente en cada carretera.</span>
+<span lang="ca">Aquest mapa mostra la velocitat màxima permesa legalment a cada carretera.</span>
+<span lang="zh_Hant">這份地圖顯示每一條道路的法定允許的最高速限。</span>
+<span lang="pl">Ta mapa pokazuje prawnie dozwoloną maksymalną prędkość na każdej drodze.</span>
+                </p>
+                <p>
+                    Powered by OpenStreetMap
+                </p>
+            </div>
+
+            <div class="flex justify-between items-end w-full">
+                
+            <img class='p-8 h-32 w-32 self-start' src='./assets/maxspeed_logo-92f07ae7.svg' />
+                <div class="h-min subtle"> 
+                0.34.7
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div id="belowmap" class="absolute top-0 left-0 -z-10">Below</div>
+<script>let lang = (
+(navigator.languages && navigator.languages[0]) ||
+navigator.language ||
+navigator["userLanguage"] ||
+"en"
+).substr(0, 2)
+
+function filterLangs(maindiv) {
+let foundLangs = 0
+for (const child of Array.from(maindiv.children)) {
+if (child.attributes.getNamedItem("lang")?.value === lang) {
+foundLangs++
+}
+}
+if (foundLangs === 0) {
+lang = "en"
+}
+for (const child of Array.from(maindiv.children)) {
+const childLang = child.attributes.getNamedItem("lang")
+if (childLang === undefined) {
+continue
+}
+if (childLang.value === lang) {
+continue
+}
+child.parentElement.removeChild(child)
+}
+}
+
+filterLangs(document.getElementById("descriptions-while-loading"))
+filterLangs(document.getElementById("default-title"))
+</script>
+
+
+<script async data-goatcounter="https://pietervdvn.goatcounter.com/count" src="https://gc.zgo.at/count.js" crossorigin="anonymous" integrity="sha384-gtO6vSydQeOAGGK19NHrlVLNtaDSJjN4aGMWschK+dwAZOdPQWbjXgL+FM5XsgFJ"></script>
+
+    
+
+</body>
+</html>

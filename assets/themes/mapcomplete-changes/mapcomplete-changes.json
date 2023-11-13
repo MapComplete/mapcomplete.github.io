@@ -353,20 +353,12 @@
                     "then": "./assets/themes/fritures/logo.svg"
                   },
                   {
-                    "if": "theme=fruit_trees",
-                    "then": "./assets/themes/fruit_trees/fruit_tree.svg"
-                  },
-                  {
                     "if": "theme=ghostbikes",
                     "then": "./assets/themes/ghostbikes/logo.svg"
                   },
                   {
                     "if": "theme=grb",
                     "then": "./assets/themes/grb/logo.svg"
-                  },
-                  {
-                    "if": "theme=grb_fixme",
-                    "then": "./assets/svg/bug.svg"
                   },
                   {
                     "if": "theme=guideposts",
