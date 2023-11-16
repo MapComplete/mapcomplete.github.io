@@ -285,6 +285,7 @@
         }
     },
     "animal_shelter": {
+        "description": "Ein Tierheim ist eine Einrichtung, in die notleidende Tiere gebracht werden und wo das Personal (ob freiwillig oder nicht) sie füttert und pflegt, sie rehabilitiert und bei Bedarf heilt. Diese Definition umfasst Zwinger für ausgesetzte Hunde, Katzenheime für ausgesetzte Katzen, Unterkünfte für andere ausgesetzte Haustiere und Wildtier-Auffangstationen. ",
         "name": "Tierheime",
         "presets": {
             "0": {
@@ -1869,6 +1870,15 @@
             "mappings": {
                 "0": {
                     "then": "<i>{name}</i>"
+                },
+                "1": {
+                    "then": "Bar"
+                },
+                "2": {
+                    "then": "Café"
+                },
+                "3": {
+                    "then": "Nachtclub"
                 }
             },
             "render": "Kneipe"
@@ -4215,6 +4225,7 @@
         "name": "Trinkwasserstellen",
         "presets": {
             "0": {
+                "description": "Typischerweise ein Trinkbrunnen, Wasserhahn, Brunnen oder eine natürliche Quelle",
                 "title": "eine Trinkwasserstelle"
             }
         },
@@ -5431,6 +5442,28 @@
                 "title": "ein Wegweiser"
             }
         },
+        "tagRenderings": {
+            "type": {
+                "mappings": {
+                    "0": {
+                        "then": "Dieser Wegweiser zeigt Fahrradrouten"
+                    },
+                    "1": {
+                        "then": "Dieser Wegweiser zeigt Wanderwege"
+                    },
+                    "2": {
+                        "then": "Dieser Wegweiser zeigt Mountainbike-Routen"
+                    },
+                    "3": {
+                        "then": "Dieser Wegweiser zeigt Reitwege"
+                    },
+                    "4": {
+                        "then": "Dieser Wegweiser zeigt Skirouten"
+                    }
+                },
+                "question": "Welche Arten von Routen werden auf diesem Wegweiser angezeigt?"
+            }
+        },
         "title": "Wegweiser"
     },
     "hackerspace": {
@@ -5685,6 +5718,30 @@
                     }
                 }
             }
+        }
+    },
+    "ice_cream": {
+        "description": "Ein Ort, an dem Eiscreme an der Theke verkauft wird",
+        "name": "Eisdielen",
+        "presets": {
+            "0": {
+                "description": "Ein Geschäft, in dem man nur Eiscreme und damit verbundene Artikel kaufen kann. Normalerweise wird das Eis mit der Hand portioniert.",
+                "title": "eine Eisdiele"
+            }
+        },
+        "tagRenderings": {
+            "1": {
+                "question": "Wie heißt diese Eisdiele?",
+                "render": "Diese Eisdiele heißt <b>{name}</b>"
+            }
+        },
+        "title": {
+            "mappings": {
+                "0": {
+                    "then": "{name}"
+                }
+            },
+            "render": "Eisdiele"
         }
     },
     "icons": {
@@ -7851,6 +7908,23 @@
                 "question": "Wann wurde dieses Objekt zuletzt geprüft?",
                 "render": "Dieses Objekt wurde zuletzt geprüft am <b>{survey:date}</b>"
             },
+            "vegan": {
+                "mappings": {
+                    "0": {
+                        "then": "Dieser Ort verkauft <b>nur vegane</b> Produkte"
+                    },
+                    "1": {
+                        "then": "Dieser Laden hat ein großes veganes Angebot"
+                    },
+                    "2": {
+                        "then": "Dieser Laden hat ein <b>begrenztes veganes</b> Angebot"
+                    },
+                    "3": {
+                        "then": "Dieser Laden bietet keine veganen Produkte an"
+                    }
+                },
+                "question": "Bietet dieser Ort eine vegane Option an?"
+            },
             "website": {
                 "question": "Wie lautet die Webseite von {title()}?"
             },
@@ -8219,6 +8293,41 @@
             "render": "Recyclinganlage"
         }
     },
+    "route_marker": {
+        "description": "Routenmarkierungen sind kleine Markierungen, die häufig entlang offizieller Wander-/Rad-/Reit-/Skirouten zu finden sind, um die Richtung der Route anzuzeigen.",
+        "name": "Routenmarkierungen",
+        "presets": {
+            "0": {
+                "description": "Ein Routenmarker ist ein kleiner Marker, der oft entlang offizieller Wander-/Fahrrad-/Reit-/Skirouten zu finden ist, um die Richtung der Route anzuzeigen.",
+                "title": "ein Routenmarker"
+            }
+        },
+        "tagRenderings": {
+            "type": {
+                "mappings": {
+                    "0": {
+                        "then": "Dies ist ein Routenmarker für eine Fahrradstrecke."
+                    },
+                    "1": {
+                        "then": "Dies ist ein Routenmarker für eine Wanderroute."
+                    },
+                    "2": {
+                        "then": "Dies ist ein Routenmarker für eine Mountainbikestrecke."
+                    },
+                    "3": {
+                        "then": "Dies ist ein Routenmarker für eine Reitroute."
+                    },
+                    "4": {
+                        "then": "Dies ist ein Routenmarker für eine Skiroute."
+                    }
+                },
+                "question": "Für welche Art von Route ist dieser Marker?"
+            }
+        },
+        "title": {
+            "render": "Routenmarker"
+        }
+    },
     "school": {
         "name": "Grund- und weiterführende Schulen",
         "presets": {
@@ -8429,6 +8538,20 @@
                     "render": "Das ist ein {shop}"
                 }
             },
+            "key_cutter": {
+                "mappings": {
+                    "0": {
+                        "then": "Dieser Laden ist auch auf das Schlüsselschneiden spezialisiert"
+                    },
+                    "1": {
+                        "then": "Dieser Laden bietet Schlüsselschneiden als Dienstleistung an"
+                    },
+                    "2": {
+                        "then": "Dieser Laden bietet kein Schlüsselschneiden als Dienstleistung an"
+                    }
+                },
+                "question": "Bietet dieser Laden Schlüsselschneiden an?"
+            },
             "organic": {
                 "mappings": {
                     "0": {
@@ -8535,7 +8658,38 @@
     },
     "slow_roads": {
         "description": "Alle autofreien Straßen",
+        "name": "Pfade, autofreie und geschwindigkeitsreduzierte Straßen",
         "tagRenderings": {
+            "explanation": {
+                "mappings": {
+                    "0": {
+                        "then": "Dies ist eine Wohnstraße"
+                    },
+                    "1": {
+                        "then": "Dies ist eine breite, autofreie Straße"
+                    },
+                    "2": {
+                        "then": "Dies ist ein Fußweg"
+                    },
+                    "3": {
+                        "then": "Dies ist ein schmaler Pfad"
+                    },
+                    "4": {
+                        "then": "Dies ist ein Reitweg"
+                    },
+                    "5": {
+                        "then": "Dies ist eine Zufahrtsstraße"
+                    }
+                }
+            },
+            "slow_road_is_lit": {
+                "mappings": {
+                    "1": {
+                        "then": "Nicht beleuchtet"
+                    }
+                },
+                "question": "Ist diese Straße nachts beleuchtet?"
+            },
             "slow_roads-surface": {
                 "mappings": {
                     "0": {
@@ -8563,8 +8717,29 @@
                         "then": "Die Oberfläche ist <b>gepflastert</b>"
                     }
                 },
+                "question": "Welche Oberfläche hat diese Straße?",
                 "render": "Die Oberfläche ist <b>{surface}</b>"
             }
+        },
+        "title": {
+            "mappings": {
+                "1": {
+                    "then": "Fußweg"
+                },
+                "2": {
+                    "then": "Radweg"
+                },
+                "3": {
+                    "then": "Fußgängerzone"
+                },
+                "4": {
+                    "then": "Wohnstraße"
+                },
+                "5": {
+                    "then": "Schmaler Pfad"
+                }
+            },
+            "render": "Geschwindigkeitsreduzierte Straße"
         }
     },
     "speed_camera": {
@@ -9600,6 +9775,7 @@
         }
     },
     "trail": {
+        "description": "Markierte Wanderwege",
         "name": "Wanderwege",
         "tagRenderings": {
             "Color": {
@@ -9616,7 +9792,47 @@
                     "3": {
                         "then": "Gelber Weg"
                     }
-                }
+                },
+                "question": "Was ist die Referenzfarbe dieses Weges?",
+                "render": "Die Referenzfarbe ist {colour}"
+            },
+            "Name": {
+                "question": "Wie heißt dieser Weg?",
+                "render": "Dieser Weg heißt <b>{name}</b>"
+            },
+            "Operator tag": {
+                "mappings": {
+                    "0": {
+                        "then": "Dieser Weg wird von Natuurpunt gepflegt"
+                    },
+                    "1": {
+                        "then": "Dieser Weg wird von {operator} gepflegt"
+                    }
+                },
+                "question": "Wer pflegt diesen Weg?",
+                "render": "Dieser Weg wird von {operator} gepflegt"
+            },
+            "Wheelchair access": {
+                "mappings": {
+                    "0": {
+                        "then": "Dieser Weg ist rollstuhlgerecht"
+                    },
+                    "1": {
+                        "then": "Dieser Weg ist nicht rollstuhlgerecht"
+                    }
+                },
+                "question": "Ist dieser Weg rollstuhlgerecht?"
+            },
+            "pushchair access": {
+                "mappings": {
+                    "0": {
+                        "then": "Dieser Weg ist mit einem Kinderwagen zugänglich"
+                    },
+                    "1": {
+                        "then": "Dieser Weg ist nicht mit einem Kinderwagen zugänglich"
+                    }
+                },
+                "question": "Ist dieser Weg mit einem Kinderwagen zugänglich?"
             },
             "trail-length": {
                 "render": "Der Wanderweg ist {_length:km} Kilometer lang"
