@@ -8979,6 +8979,9 @@
                     },
                     "4": {
                         "then": "The surface is <b>concrete</b>"
+                    },
+                    "5": {
+                        "then": "The surface is <b>fine gravel</b>"
                     }
                 },
                 "question": "Which is the surface of this sport pitch?",
