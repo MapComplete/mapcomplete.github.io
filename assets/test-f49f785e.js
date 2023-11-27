@@ -1,2 +1,0 @@
-import"./modulepreload-polyfill-ec808ebb.js";import{q as o}from"./qrcode-9aaad964.js";function n(r,t){const e=o(0,"L");e.addData(r),e.make(),document.getElementById(t).innerHTML=e.createImgTag()}n("http://127.0.0.1:1234/theme.html?layout=cyclofix&z=14&lat=51.21571770000094&lon=3.219866599996749&layer-range=true&layer-gps_location=false#theme-menu:download","qr");
-//# sourceMappingURL=test-f49f785e.js.map
