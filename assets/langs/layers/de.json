@@ -8979,6 +8979,9 @@
                     },
                     "4": {
                         "then": "Der Belag ist aus <b>Beton</b>"
+                    },
+                    "5": {
+                        "then": "Die Oberfläche ist <b>feiner Kies</b>"
                     }
                 },
                 "question": "Welchen Belag hat der Sportplatz?",
