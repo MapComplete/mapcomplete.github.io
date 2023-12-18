@@ -67811,9 +67811,37 @@
         }
       ],
       "condition": {
-        "and": [
-          "vending=elongated_coin",
-          "amenity=vending_machine"
+        "or": [
+          {
+            "and": [
+              "vending=elongated_coin",
+              "amenity=vending_machine"
+            ]
+          },
+          {
+            "and": [
+              "vending=elongated_coin",
+              "amenity=vending_machine"
+            ]
+          },
+          {
+            "and": [
+              "leisure=playground",
+              "playground!=forest"
+            ]
+          },
+          {
+            "and": [
+              "leisure=playground",
+              "playground!=forest"
+            ]
+          },
+          {
+            "and": [
+              "vending=elongated_coin",
+              "amenity=vending_machine"
+            ]
+          }
         ]
       }
     },
@@ -77163,6 +77191,20 @@
             "cs": "Povrch je <b>zpevněný</b>"
           },
           "hideInAnswer": true
+        },
+        {
+          "if": "surface=tartan",
+          "then": {
+            "en": "The surface is tartan - a synthetic, springy surface typically seen on athletic pistes",
+            "nl": "De ondergrond bestaat uit Tartan - een synthetisch, elastisch en poreus materiaal dat je ook vindt op atletiekpistes"
+          }
+        },
+        {
+          "if": "surface=rubber",
+          "then": {
+            "en": "The surface is made from rubber, such as rubber tiles, rubber mulch or a big rubber area",
+            "nl": "De ondergrond bestaat uit rubber, zoals rubberen tegels, rubber snippers of een groot rubberen oppervlak"
+          }
         }
       ],
       "id": "playground-surface",
@@ -79259,6 +79301,13 @@
             "en": "The surface is <b>fine gravel</b>",
             "nl": "De ondergrond bestaat uit <b>grind</b>",
             "de": "Die Oberfläche ist <b>feiner Kies</b>"
+          }
+        },
+        {
+          "if": "surface=tartan",
+          "then": {
+            "en": "The surface of this track is Tartan, a synthetic, slightly springy, porous surface",
+            "nl": "De ondergrond is Tartan, een synthetisch, licht verende en poreuze ondergrond"
           }
         }
       ],
