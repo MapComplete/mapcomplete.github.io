@@ -302,7 +302,8 @@
           "es": "Bomba rota",
           "da": "Defekt pumpe",
           "cs": "Rozbitý vzduchový kompresor",
-          "pl": "Zepsuta pompka"
+          "pl": "Zepsuta pompka",
+          "pt": "Bomba quebrada"
         }
       },
       {
@@ -331,7 +332,8 @@
           "es": "Bomba rota",
           "da": "Defekt pumpe",
           "cs": "Rozbitý vzduchový kompresor",
-          "pl": "Zepsuta pompka"
+          "pl": "Zepsuta pompka",
+          "pt": "Bomba quebrada"
         }
       },
       {
@@ -346,7 +348,8 @@
           "fr": "Peinture murale",
           "pl": "Mural ścienny",
           "pt_BR": "Pintura mural",
-          "zh_Hans": "墙上的画"
+          "zh_Hans": "墙上的画",
+          "pt": "Pintura mural"
         }
       },
       {
@@ -361,7 +364,8 @@
           "fr": "Peinture murale",
           "pl": "Mural ścienny",
           "pt_BR": "Pintura mural",
-          "zh_Hans": "墙上的画"
+          "zh_Hans": "墙上的画",
+          "pt": "Pintura mural"
         }
       },
       {
@@ -377,7 +381,8 @@
           "eu": "Eskultura",
           "pl": "Rzeźba",
           "pt_BR": "Escultura",
-          "zh_Hans": "雕像"
+          "zh_Hans": "雕像",
+          "pt": "Escultura"
         }
       },
       {
@@ -393,7 +398,8 @@
           "eu": "Eskultura",
           "pl": "Rzeźba",
           "pt_BR": "Escultura",
-          "zh_Hans": "雕像"
+          "zh_Hans": "雕像",
+          "pt": "Escultura"
         }
       },
       {
@@ -522,7 +528,8 @@
           "da": "Cykelpumpe <i>{name}</i>",
           "cs": "Vzduchový kompresor <i>{name}</i>",
           "ca": "Bomba per a bicicletes <i>{name}</i>",
-          "pl": "Pompka do rowerów <i>{name}</i>"
+          "pl": "Pompka do rowerów <i>{name}</i>",
+          "pt": "Bomba de bicicleta <i>{name}</i>"
         }
       },
       {
@@ -546,7 +553,8 @@
           "es": "Bomba para bicicletas",
           "da": "Cykelpumpe",
           "cs": "Vzduchový kompresor",
-          "pl": "Pompka do rowerów"
+          "pl": "Pompka do rowerów",
+          "pt": "Bomba de bicicleta"
         }
       },
       {
@@ -571,7 +579,8 @@
           "da": "Cykelpumpe <i>{name}</i>",
           "cs": "Vzduchový kompresor <i>{name}</i>",
           "ca": "Bomba per a bicicletes <i>{name}</i>",
-          "pl": "Pompka do rowerów <i>{name}</i>"
+          "pl": "Pompka do rowerów <i>{name}</i>",
+          "pt": "Bomba de bicicleta <i>{name}</i>"
         }
       },
       {
@@ -595,7 +604,8 @@
           "es": "Bomba para bicicletas",
           "da": "Cykelpumpe",
           "cs": "Vzduchový kompresor",
-          "pl": "Pompka do rowerów"
+          "pl": "Pompka do rowerów",
+          "pt": "Bomba de bicicleta"
         }
       },
       {
@@ -610,7 +620,8 @@
           "fr": "Bâche",
           "eu": "Olana",
           "pl": "Brezent",
-          "pt_BR": "Lona"
+          "pt_BR": "Lona",
+          "pt": "Lona"
         }
       },
       {
@@ -625,7 +636,8 @@
           "fr": "Bâche",
           "eu": "Olana",
           "pl": "Brezent",
-          "pt_BR": "Lona"
+          "pt_BR": "Lona",
+          "pt": "Lona"
         }
       },
       {
@@ -1012,7 +1024,8 @@
           "eu": "Pantaila",
           "pl": "Ekran",
           "pt_BR": "Tela",
-          "zh_Hans": "屏幕"
+          "zh_Hans": "屏幕",
+          "pt": "Ecrã"
         }
       },
       {
@@ -1028,7 +1041,8 @@
           "eu": "Pantaila",
           "pl": "Ekran",
           "pt_BR": "Tela",
-          "zh_Hans": "屏幕"
+          "zh_Hans": "屏幕",
+          "pt": "Ecrã"
         }
       },
       {
@@ -1267,7 +1281,8 @@
           "eu": "Ikurrina",
           "pl": "Flaga",
           "pt_BR": "Bandeira",
-          "zh_Hans": "旗帜"
+          "zh_Hans": "旗帜",
+          "pt": "Bandeira"
         }
       },
       {
@@ -1283,7 +1298,8 @@
           "eu": "Ikurrina",
           "pl": "Flaga",
           "pt_BR": "Bandeira",
-          "zh_Hans": "旗帜"
+          "zh_Hans": "旗帜",
+          "pt": "Bandeira"
         }
       },
       {
@@ -1348,7 +1364,8 @@
           "pt_BR": "Placa",
           "eu": "Kartela",
           "pl": "Znak",
-          "zh_Hans": "标志"
+          "zh_Hans": "标志",
+          "pt": "Placa"
         }
       },
       {
@@ -1363,7 +1380,8 @@
           "pt_BR": "Placa",
           "eu": "Kartela",
           "pl": "Znak",
-          "zh_Hans": "标志"
+          "zh_Hans": "标志",
+          "pt": "Placa"
         }
       },
       {
@@ -1507,7 +1525,8 @@
           "eu": "Totem",
           "pl": "Totem",
           "pt_BR": "Totem",
-          "zh_Hans": "图腾"
+          "zh_Hans": "图腾",
+          "pt": "Totem"
         }
       },
       {
@@ -1523,7 +1542,8 @@
           "eu": "Totem",
           "pl": "Totem",
           "pt_BR": "Totem",
-          "zh_Hans": "图腾"
+          "zh_Hans": "图腾",
+          "pt": "Totem"
         }
       },
       {
@@ -2089,7 +2109,8 @@
           "he": "תחנת אמבולנס",
           "pl": "Stacja pogotowia ratunkowego",
           "pt_BR": "Estação de Ambulância",
-          "zh_Hans": "救护站"
+          "zh_Hans": "救护站",
+          "pt": "Estação de Ambulância"
         }
       },
       {
@@ -2111,7 +2132,8 @@
           "he": "תחנת אמבולנס",
           "pl": "Stacja pogotowia ratunkowego",
           "pt_BR": "Estação de Ambulância",
-          "zh_Hans": "救护站"
+          "zh_Hans": "救护站",
+          "pt": "Estação de Ambulância"
         }
       },
       {
@@ -2128,7 +2150,8 @@
           "es": "Estación de bicis (bomba y reparación)",
           "da": "Cykelstation (pumpe og reparation)",
           "ca": "Estació de bicicletes (bomba i reparació)",
-          "cs": "Cyklistická stanice (pumpa a opravna)"
+          "cs": "Cyklistická stanice (pumpa a opravna)",
+          "pt": "Estação de bicicletas (bomba e reparo)"
         }
       },
       {
@@ -2145,7 +2168,8 @@
           "es": "Estación de bicis (bomba y reparación)",
           "da": "Cykelstation (pumpe og reparation)",
           "ca": "Estació de bicicletes (bomba i reparació)",
-          "cs": "Cyklistická stanice (pumpa a opravna)"
+          "cs": "Cyklistická stanice (pumpa a opravna)",
+          "pt": "Estação de bicicletas (bomba e reparo)"
         }
       },
       {
@@ -2159,7 +2183,8 @@
           "fr": "Petit panneau",
           "pl": "Tablica",
           "pt_BR": "Quadro",
-          "zh_Hans": "木板"
+          "zh_Hans": "木板",
+          "pt": "Quadro"
         }
       },
       {
@@ -2173,7 +2198,8 @@
           "fr": "Petit panneau",
           "pl": "Tablica",
           "pt_BR": "Quadro",
-          "zh_Hans": "木板"
+          "zh_Hans": "木板",
+          "pt": "Quadro"
         }
       },
       {
@@ -2390,7 +2416,8 @@
           "eu": "Zutabea",
           "pl": "Kolumna",
           "pt_BR": "Coluna",
-          "zh_Hans": "专栏"
+          "zh_Hans": "专栏",
+          "pt": "Coluna"
         }
       },
       {
@@ -2406,7 +2433,8 @@
           "eu": "Zutabea",
           "pl": "Kolumna",
           "pt_BR": "Coluna",
-          "zh_Hans": "专栏"
+          "zh_Hans": "专栏",
+          "pt": "Coluna"
         }
       },
       {
@@ -2594,7 +2622,8 @@
           "cs": "Skříň na plakáty",
           "pl": "Pudełko plakatowe",
           "pt_BR": "Caixa de pôster",
-          "zh_Hans": "海报盒"
+          "zh_Hans": "海报盒",
+          "pt": "Caixa de pôster"
         }
       },
       {
@@ -2607,7 +2636,8 @@
           "cs": "Skříň na plakáty",
           "pl": "Pudełko plakatowe",
           "pt_BR": "Caixa de pôster",
-          "zh_Hans": "海报盒"
+          "zh_Hans": "海报盒",
+          "pt": "Caixa de pôster"
         }
       },
       {
@@ -3942,7 +3972,8 @@
           "cs": "{name}",
           "eu": "{name}",
           "pl": "{name}",
-          "pt_BR": "{name}"
+          "pt_BR": "{name}",
+          "pt": "{name}"
         }
       },
       {
@@ -3964,7 +3995,8 @@
           "cs": "Půjčovna kol",
           "ca": "Lloguer de bicicletes",
           "pl": "Wypożyczalnia rowerów",
-          "pt_BR": "Aluguel de bicicleta"
+          "pt_BR": "Aluguel de bicicleta",
+          "pt": "Aluguel de bicicleta"
         }
       },
       {
@@ -3992,7 +4024,8 @@
           "cs": "{name}",
           "eu": "{name}",
           "pl": "{name}",
-          "pt_BR": "{name}"
+          "pt_BR": "{name}",
+          "pt": "{name}"
         }
       },
       {
@@ -4014,7 +4047,8 @@
           "cs": "Půjčovna kol",
           "ca": "Lloguer de bicicletes",
           "pl": "Wypożyczalnia rowerów",
-          "pt_BR": "Aluguel de bicicleta"
+          "pt_BR": "Aluguel de bicicleta",
+          "pt": "Aluguel de bicicleta"
         }
       },
       {
@@ -4042,7 +4076,8 @@
           "cs": "{name}",
           "eu": "{name}",
           "pl": "{name}",
-          "pt_BR": "{name}"
+          "pt_BR": "{name}",
+          "pt": "{name}"
         }
       },
       {
@@ -4064,7 +4099,8 @@
           "cs": "Půjčovna kol",
           "ca": "Lloguer de bicicletes",
           "pl": "Wypożyczalnia rowerów",
-          "pt_BR": "Aluguel de bicicleta"
+          "pt_BR": "Aluguel de bicicleta",
+          "pt": "Aluguel de bicicleta"
         }
       },
       {
@@ -4511,7 +4547,8 @@
           "he": "שלט חוצות",
           "pl": "Bilbord",
           "pt_BR": "Outdoor",
-          "zh_Hans": "广告牌"
+          "zh_Hans": "广告牌",
+          "pt": "Outdoor"
         }
       },
       {
@@ -4525,7 +4562,8 @@
           "he": "שלט חוצות",
           "pl": "Bilbord",
           "pt_BR": "Outdoor",
-          "zh_Hans": "广告牌"
+          "zh_Hans": "广告牌",
+          "pt": "Outdoor"
         }
       },
       {
@@ -5107,7 +5145,8 @@
           "es": "Barrera Ciclista",
           "da": "Cykelbarriere",
           "cs": "Cyklistická bariéra",
-          "pt_BR": "Barreira para ciclistas"
+          "pt_BR": "Barreira para ciclistas",
+          "pt": "Barreira para ciclistas"
         }
       },
       {
@@ -5121,7 +5160,8 @@
           "es": "Barrera Ciclista",
           "da": "Cykelbarriere",
           "cs": "Cyklistická bariéra",
-          "pt_BR": "Barreira para ciclistas"
+          "pt_BR": "Barreira para ciclistas",
+          "pt": "Barreira para ciclistas"
         }
       },
       {
@@ -5643,7 +5683,8 @@
           "he": "כספומט {brand}",
           "pl": "Bankomat {brand}",
           "pt_BR": "Caixa eletrônico {brand}",
-          "es": "Cajero automático de {brand}"
+          "es": "Cajero automático de {brand}",
+          "pt": "Multibanco {brand}"
         }
       },
       {
@@ -5660,7 +5701,8 @@
           "eu": "Kutxazaina",
           "pl": "Bankomat",
           "pt_BR": "Caixa eletrônico",
-          "es": "Cajero automático"
+          "es": "Cajero automático",
+          "pt": "Multibanco"
         }
       },
       {
@@ -5681,7 +5723,8 @@
           "he": "כספומט {brand}",
           "pl": "Bankomat {brand}",
           "pt_BR": "Caixa eletrônico {brand}",
-          "es": "Cajero automático de {brand}"
+          "es": "Cajero automático de {brand}",
+          "pt": "Multibanco {brand}"
         }
       },
       {
@@ -5698,7 +5741,8 @@
           "eu": "Kutxazaina",
           "pl": "Bankomat",
           "pt_BR": "Caixa eletrônico",
-          "es": "Cajero automático"
+          "es": "Cajero automático",
+          "pt": "Multibanco"
         }
       },
       {
@@ -5921,7 +5965,8 @@
           "cs": "Automat na cyklistické pláště{name}",
           "nl": "Fietsbanden-verkoopautomaat {name}",
           "pt_BR": "Máquina de venda de câmara de ar para bicicleta {name}",
-          "es": "Máquina expendedora de cámaras de bicicleta {name}"
+          "es": "Máquina expendedora de cámaras de bicicleta {name}",
+          "pt": "Máquina de venda de câmara de ar para bicicleta {name}"
         }
       },
       {
@@ -5961,7 +6006,8 @@
           "cs": "Automat na cyklistické pláště{name}",
           "nl": "Fietsbanden-verkoopautomaat {name}",
           "pt_BR": "Máquina de venda de câmara de ar para bicicleta {name}",
-          "es": "Máquina expendedora de cámaras de bicicleta {name}"
+          "es": "Máquina expendedora de cámaras de bicicleta {name}",
+          "pt": "Máquina de venda de câmara de ar para bicicleta {name}"
         }
       },
       {
@@ -6836,7 +6882,8 @@
           "nl": "{name}",
           "da": "{name}",
           "pl": "{name}",
-          "cs": "{name}"
+          "cs": "{name}",
+          "pt": "{name}"
         }
       },
       {
@@ -6876,7 +6923,8 @@
           "nl": "{name}",
           "da": "{name}",
           "pl": "{name}",
-          "cs": "{name}"
+          "cs": "{name}",
+          "pt": "{name}"
         }
       },
       {
@@ -7639,7 +7687,8 @@
           "cs": "Sloupek",
           "pa_PK": "بولارڈ",
           "eu": "Bolardoa",
-          "pt_BR": "Pilar"
+          "pt_BR": "Pilar",
+          "pt": "Pilar"
         }
       },
       {
@@ -7662,7 +7711,8 @@
           "pa_PK": "رُکاوٹ",
           "he": "מחסום",
           "eu": "Barrera",
-          "pt_BR": "Barreira"
+          "pt_BR": "Barreira",
+          "pt": "Barreira"
         }
       },
       {
@@ -7679,7 +7729,8 @@
           "cs": "Sloupek",
           "pa_PK": "بولارڈ",
           "eu": "Bolardoa",
-          "pt_BR": "Pilar"
+          "pt_BR": "Pilar",
+          "pt": "Pilar"
         }
       },
       {
@@ -7702,7 +7753,8 @@
           "pa_PK": "رُکاوٹ",
           "he": "מחסום",
           "eu": "Barrera",
-          "pt_BR": "Barreira"
+          "pt_BR": "Barreira",
+          "pt": "Barreira"
         }
       },
       {
@@ -11723,7 +11775,8 @@
         "he": "זהו {advertising}",
         "pl": "To jest {advertising}",
         "pt_BR": "Isso é uma {advertising}",
-        "zh_Hans": "这是一个{advertising}"
+        "zh_Hans": "这是一个{advertising}",
+        "pt": "Isto é uma {advertising}"
       },
       "question": {
         "ca": "Quin tipus d'element publicitari és aquest?",
@@ -11734,7 +11787,8 @@
         "fr": "De quel type de dispositif publicitaire s'agit-il ?",
         "pl": "Jakiego rodzaju jest to obiekt reklamowy?",
         "pt_BR": "Que tipo de recurso de publicitário é este?",
-        "zh_Hans": "这是哪种类型的广告功能？"
+        "zh_Hans": "这是哪种类型的广告功能？",
+        "pt": "Que tipo de recurso de publicitário é este?"
       },
       "freeform": {
         "key": "advertising",
@@ -11804,7 +11858,8 @@
             "nl": "Dit is een aanplakzuil",
             "pt_BR": "Isto é uma coluna",
             "pl": "To jest kolumna",
-            "zh_Hans": "这是一个专栏"
+            "zh_Hans": "这是一个专栏",
+            "pt": "Isto é uma coluna"
           },
           "icon": {
             "path": "./assets/themes/advertising/column.svg",
@@ -11828,7 +11883,8 @@
             "pt_BR": "Isto é uma bandeira",
             "he": "זה דגל",
             "pl": "To jest flaga",
-            "zh_Hans": "这是一面旗帜"
+            "zh_Hans": "这是一面旗帜",
+            "pt": "Isto é uma bandeira"
           },
           "icon": {
             "path": "./assets/themes/advertising/flag.svg",
@@ -11850,7 +11906,8 @@
             "fr": "C'est une sucette (panneau avec affiches)",
             "pl": "To jest pudełko plakatowe",
             "pt_BR": "Isso é um quadro de pôster",
-            "zh_Hans": "这是海报盒"
+            "zh_Hans": "这是海报盒",
+            "pt": "Isto é um quadro de pôster"
           },
           "icon": {
             "path": "./assets/themes/advertising/poster_box.svg",
@@ -11872,7 +11929,8 @@
             "fr": "C'est un écran",
             "pl": "To jest ekran",
             "pt_BR": "Isso é uma tela",
-            "zh_Hans": "这是一个屏幕"
+            "zh_Hans": "这是一个屏幕",
+            "pt": "Isto é um ecrã"
           },
           "icon": {
             "path": "./assets/themes/advertising/screen.svg",
@@ -11894,7 +11952,8 @@
             "fr": "C'est une sculpture",
             "pl": "To jest rzeźba",
             "pt_BR": "Isso é uma escultura",
-            "zh_Hans": "这是一个雕塑"
+            "zh_Hans": "这是一个雕塑",
+            "pt": "Isto é uma escultura"
           },
           "icon": {
             "path": "./assets/themes/advertising/sculpture.svg",
@@ -11916,7 +11975,8 @@
             "fr": "C'est une enseigne (indique le nom du lieu/magasin)",
             "pt_BR": "Isto é uma placa",
             "pl": "To jest znak",
-            "zh_Hans": "这是一个标志"
+            "zh_Hans": "这是一个标志",
+            "pt": "Isto é uma placa"
           },
           "icon": {
             "path": "./assets/themes/advertising/sign.svg",
@@ -11938,7 +11998,8 @@
             "fr": "C'est une bâche (un morceau de textile résistant aux intempéries avec un message publicitaire)",
             "pl": "To jest plandeka (odporny na warunki atmosferyczne kawałek materiału tekstylnego z przekazem reklamowym)",
             "pt_BR": "Isso é uma lona (uma peça de tecido à prova de intempéries com uma mensagem publicitária)",
-            "zh_Hans": "这是防水布（带有广告信息的防风雨纺织品）"
+            "zh_Hans": "这是防水布（带有广告信息的防风雨纺织品）",
+            "pt": "Isto é uma lona (uma peça de tecido à prova de intempéries com uma mensagem publicitária)"
           },
           "icon": {
             "path": "./assets/themes/advertising/tarp.svg",
@@ -11960,7 +12021,8 @@
             "fr": "C'est un totem",
             "pl": "To jest totem",
             "pt_BR": "Isso é um totem",
-            "zh_Hans": "这是一个图腾"
+            "zh_Hans": "这是一个图腾",
+            "pt": "Isto é um totem"
           },
           "icon": {
             "path": "./assets/themes/advertising/totem.svg",
@@ -11982,7 +12044,8 @@
             "fr": "C'est une peinture murale",
             "pl": "To jest mural ścienny",
             "pt_BR": "Isso é uma pintura mural",
-            "zh_Hans": "这是一幅壁画"
+            "zh_Hans": "这是一幅壁画",
+            "pt": "Isto é uma pintura mural"
           },
           "icon": {
             "path": "./assets/themes/advertising/wall_painting.svg",
@@ -14457,7 +14520,8 @@
         "he": "האם היצירה הזו משמשת כספסל?",
         "pl": "Czy to dzieło sztuki pełni funkcję ławki?",
         "pt_BR": "Essa obra de arte serve como banco?",
-        "es": "¿Sirve esta obra de arte como banco?"
+        "es": "¿Sirve esta obra de arte como banco?",
+        "pt": "Esta obra de arte serve como banco?"
       },
       "mappings": [
         {
@@ -14472,7 +14536,8 @@
             "he": "יצירה זו משמשת גם כספסל",
             "pl": "To dzieło sztuki pełni również funkcję ławki",
             "pt_BR": "Essa obra de arte também serve como banco",
-            "es": "Esta obra de arte también sirve de banco"
+            "es": "Esta obra de arte también sirve de banco",
+            "pt": "Esta obra de arte também serve como banco"
           }
         },
         {
@@ -14488,7 +14553,8 @@
             "he": "יצירה זו אינה משמשת כספסל",
             "pl": "To dzieło sztuki nie pełni funkcji ławki",
             "pt_BR": "Essa obra de arte não serve como banco",
-            "es": "Esta obra no sirve de banco"
+            "es": "Esta obra no sirve de banco",
+            "pt": "Esta obra de arte não serve como banco"
           }
         },
         {
@@ -14504,7 +14570,8 @@
             "he": "יצירה זו אינה משמשת כספסל",
             "pl": "To dzieło sztuki nie pełni funkcji ławki",
             "pt_BR": "Essa obra de arte não serve como banco",
-            "es": "Esta obra no sirve de banco"
+            "es": "Esta obra no sirve de banco",
+            "pt": "Esta obra de arte não serve como banco"
           },
           "hideInAnswer": true
         }
@@ -14536,6 +14603,7 @@
             "fr": "Ce banc a deux côtés avec un dossier partagé",
             "pl": "Ta ławka jest dwustronna ze wspólnym oparciem",
             "pt_BR": "Esse banco é de dois lados e compartilha o encosto",
+            "pt": "Esse banco é de dois lados e partilha o encosto",
             "_context": "layers:bench.tagRenderings.bench-backrest.mappings.0.then"
           },
           "icon": {
@@ -15419,6 +15487,7 @@
             "ca": "Aquest banc <span class='subtle'>(probablement)</span> no té cap inscripció",
             "cs": "Tato lavička <span class='subtle'>(pravděpodobně)</span> nemá nápis",
             "pt_BR": "Esse banco <span class='subtle'>provavelmente</span> não tem uma inscrição",
+            "pt": "Esse banco <span class='subtle'>provavelmente</span> não tem uma inscrição",
             "_context": "layers:bench.tagRenderings.bench-inscription.mappings.1.then"
           },
           "hideInAnswer": true
@@ -15566,7 +15635,8 @@
         "he": "שמו של כספומט זה הוא {name}",
         "pl": "Nazwa tego bankomatu to {name}",
         "pt_BR": "O nome desse caixa eletrônico é {name}",
-        "es": "El nombre del banco de este cajero automático es {name}"
+        "es": "El nombre del banco de este cajero automático es {name}",
+        "pt": "O nome deste multibanco é {name}"
       },
       "condition": {
         "and": [
@@ -15588,7 +15658,8 @@
         "he": "איזה מותג הכספומט הזה?",
         "pl": "Jakiej marki jest ten bankomat?",
         "pt_BR": "De qual marca é esse caixa eletrônico?",
-        "es": "¿De qué banco es este cajero?"
+        "es": "¿De qué banco es este cajero?",
+        "pt": "De qual marca é este multibanco?"
       },
       "freeform": {
         "key": "brand",
@@ -15604,7 +15675,8 @@
           "he": "שם מותג",
           "pl": "Nazwa handlowa",
           "pt_BR": "Nome da marca",
-          "es": "Marca"
+          "es": "Marca",
+          "pt": "Nome da marca"
         },
         "inline": true
       },
@@ -15618,7 +15690,8 @@
         "cs": "Značka tohoto bankomatu je {brand}",
         "he": "המותג של כספומט זה הוא {brand}",
         "pt_BR": "A marca desse caixa eletrônico é {brand}",
-        "es": "El banco de este cajero automático es {brand}"
+        "es": "El banco de este cajero automático es {brand}",
+        "pt": "A marca deste multibanco é {brand}"
       },
       "condition": {
         "or": [
@@ -15650,7 +15723,8 @@
         "he": "איזו חברה מפעילה את הכספומט הזה?",
         "pl": "Jaka firma obsługuje ten bankomat?",
         "pt_BR": "Qual companhia opera esse caixa eletrônico?",
-        "es": "¿De qué banco es este cajero automático?"
+        "es": "¿De qué banco es este cajero automático?",
+        "pt": "Qual companhia opera este multibanco?"
       },
       "freeform": {
         "key": "operator",
@@ -15665,7 +15739,8 @@
           "he": "מפעיל",
           "eu": "Operadorea",
           "pt_BR": "Operador",
-          "es": "Operador"
+          "es": "Operador",
+          "pt": "Operador"
         },
         "inline": true
       },
@@ -15680,7 +15755,8 @@
         "he": "הכספומט מופעל על ידי {operator}",
         "pl": "Ten bankomat jest obsługiwany przez {operator}",
         "pt_BR": "O caixa eletrônico é operado por {operator}",
-        "es": "El cajero es de {operator}"
+        "es": "El cajero es de {operator}",
+        "pt": "O multibanco é operado por {operator}"
       }
     },
     {
@@ -15780,7 +15856,8 @@
         "cs": "Lze z tohoto bankomatu vybírat hotovost?",
         "he": "האם אתה יכול למשוך מזומן מהכספומט הזה?",
         "pt_BR": "Você pode sacar dinheiro nesse caixa eletrônico?",
-        "es": "¿Se puede sacar dinero de este cajero?"
+        "es": "¿Se puede sacar dinero de este cajero?",
+        "pt": "Pode levantar dinheiro neste multibanco?"
       },
       "mappings": [
         {
@@ -15795,7 +15872,8 @@
             "he": "אתה יכול למשוך מזומן מהכספומט הזה",
             "pl": "Z tego bankomatu można wypłacić pieniądze",
             "pt_BR": "Você pode sacar dinheiro nesse caixa eletrônico",
-            "es": "Puede retirar dinero de este cajero automático"
+            "es": "Puede retirar dinero de este cajero automático",
+            "pt": "Pode levantar dinheiro neste multibanco"
           },
           "hideInAnswer": true
         },
@@ -15809,7 +15887,8 @@
             "cs": "Z tohoto bankomatu můžete vybírat hotovost",
             "he": "אתה יכול למשוך מזומן מהכספומט הזה",
             "pt_BR": "Você pode sacar dinheiro nesse caixa eletrônico",
-            "es": "Puede retirar dinero de este cajero automático"
+            "es": "Puede retirar dinero de este cajero automático",
+            "pt": "Pode levantar dinheiro neste multibanco"
           }
         },
         {
@@ -15822,7 +15901,8 @@
             "cs": "Z tohoto bankomatu nelze vybírat hotovost",
             "he": "לא ניתן למשוך מזומן מכספומט זה",
             "pt_BR": "Você não pode sacar dinheiro nesse caixa eletrônico",
-            "es": "No puede retirar dinero de este cajero automático"
+            "es": "No puede retirar dinero de este cajero automático",
+            "pt": "Não pode levantar dinheiro neste multibanco"
           }
         }
       ],
@@ -15845,7 +15925,8 @@
         "he": "האם אתה יכול להפקיד מזומן בכספומט הזה?",
         "pl": "Czy ten bankomat pozwala wpłacać pieniądze?",
         "pt_BR": "Você pode depositar dinheiro nesse caixa eletrônico?",
-        "es": "¿Se puede ingresar dinero en efectivo en este cajero?"
+        "es": "¿Se puede ingresar dinero en efectivo en este cajero?",
+        "pt": "Pode depositar dinheiro neste multibanco?"
       },
       "mappings": [
         {
@@ -15861,7 +15942,8 @@
             "he": "כנראה שלא תוכל להפקיד מזומן בכספומט הזה",
             "pl": "Prawdopodobnie ten bankomat nie pozwala wpłacać pieniędzy",
             "pt_BR": "Você provavelmente não pode depositar dinheiro nesse caixa eletrônico",
-            "es": "Es probable que no pueda ingresar dinero en efectivo en este cajero automático"
+            "es": "Es probable que no pueda ingresar dinero en efectivo en este cajero automático",
+            "pt": "Provavelmente não pode depositar dinheiro neste multibanco"
           },
           "hideInAnswer": true
         },
@@ -15878,7 +15960,8 @@
             "he": "אתה יכול להפקיד מזומן לכספומט זה",
             "pl": "Ten bankomat pozwala wpłacać pieniądze",
             "pt_BR": "Você pode depositar dinheiro nesse caixa eletrônico",
-            "es": "Puede ingresar dinero en efectivo en este cajero automático"
+            "es": "Puede ingresar dinero en efectivo en este cajero automático",
+            "pt": "Pode depositar dinheiro neste mutibanco"
           }
         },
         {
@@ -15894,7 +15977,8 @@
             "he": "לא ניתן להפקיד מזומן לכספומט זה",
             "pl": "Ten bankomat nie pozwala wpłacać pieniędzy",
             "pt_BR": "Você não pode depositar dinheiro nesse caixa eletrônico",
-            "es": "No se puede ingresar dinero en efectivo en este cajero automático"
+            "es": "No se puede ingresar dinero en efectivo en este cajero automático",
+            "pt": "Não pode depositar dinheiro neste multibanco"
           }
         }
       ],
@@ -15934,7 +16018,8 @@
         "ca": "Quins bitllets pots retirar aquí?",
         "pl": "Jakie banknoty można tutaj wypłacić?",
         "pt_BR": "Quais notas você pode sacar aqui?",
-        "es": "¿Qué billetes puede retirar aquí?"
+        "es": "¿Qué billetes puede retirar aquí?",
+        "pt": "Quais notas pode levantar aqui?"
       },
       "multiAnswer": true,
       "mappings": [
@@ -15949,7 +16034,8 @@
             "ca": "es poden retirar bitllets de 5 euros",
             "fr": "On peut retirer des billets de 5 euros",
             "pt_BR": "Notas de 5 euros podem ser sacadas",
-            "es": "Se pueden retirar billetes de 5 euros"
+            "es": "Se pueden retirar billetes de 5 euros",
+            "pt": "Notas de 5 euros podem ser levantadas"
           }
         },
         {
@@ -15963,7 +16049,8 @@
             "ca": "es poden retirar bitllets de 10 euros",
             "fr": "On peut retirer des billets de 10 euros",
             "pt_BR": "Notas de 10 euros podem ser sacadas",
-            "es": "Se pueden retirar billetes de 10 euros"
+            "es": "Se pueden retirar billetes de 10 euros",
+            "pt": "Notas de 10 euros podem ser levantadas"
           }
         },
         {
@@ -15977,7 +16064,8 @@
             "ca": "es poden retirar bitllets de 20 euros",
             "fr": "On peut retirer des billets de 20 euros",
             "pt_BR": "Notas de 20 euros podem ser sacadas",
-            "es": "Se pueden retirar billetes de 20 euros"
+            "es": "Se pueden retirar billetes de 20 euros",
+            "pt": "Notas de 20 euros podem ser levantadas"
           }
         },
         {
@@ -15991,7 +16079,8 @@
             "ca": "es poden retirar bitllets de 50 euros",
             "fr": "On peut retirer des billets de 50 euros",
             "pt_BR": "Notas de 50 euros podem ser sacadas",
-            "es": "Se pueden retirar billetes de 50 euros"
+            "es": "Se pueden retirar billetes de 50 euros",
+            "pt": "Notas de 50 euros podem ser levantadas"
           }
         },
         {
@@ -16005,7 +16094,8 @@
             "ca": "es poden retirar bitllets de 100 euros",
             "fr": "On peut retirer des billets de 100 euros",
             "pt_BR": "Notas de 100 euros podem ser sacadas",
-            "es": "Se pueden retirar billetes de 100 euros"
+            "es": "Se pueden retirar billetes de 100 euros",
+            "pt": "Notas de 100 euros podem ser levantadas"
           }
         },
         {
@@ -16019,7 +16109,8 @@
             "ca": "es poden retirar bitllets de 200 euros",
             "fr": "On peut retirer des billets de 200 euros",
             "pt_BR": "Notas de 200 euros podem ser sacadas",
-            "es": "Se pueden retirar billetes de 200 euros"
+            "es": "Se pueden retirar billetes de 200 euros",
+            "pt": "Notas de 200 euros podem ser levantadas"
           }
         },
         {
@@ -16033,7 +16124,8 @@
             "ca": "es poden retirar bitllets de 500 euros",
             "fr": "On peut retirer des billets de 500 euros",
             "pt_BR": "Notas de 500 euros podem ser sacadas",
-            "es": "Se pueden retirar billetes de 500 euros"
+            "es": "Se pueden retirar billetes de 500 euros",
+            "pt": "Notas de 500 euros podem ser levantadas"
           }
         }
       ]
@@ -16048,7 +16140,8 @@
         "cs": "Má tento bankomat hlasový výstup pro zrakově postižené uživatele?",
         "he": "האם לכספומט הזה יש פלט דיבור למשתמשים לקויי ראייה?",
         "pt_BR": "Esse caixa eletrônico tem saída de fala para usuários com deficiência visual?",
-        "es": "¿Dispone este cajero automático de salida de voz para usuarios con discapacidad visual?"
+        "es": "¿Dispone este cajero automático de salida de voz para usuarios con discapacidad visual?",
+        "pt": "Este multibanco tem saída de fala para utilizadores com deficiência visual?"
       },
       "mappings": [
         {
@@ -16061,7 +16154,8 @@
             "cs": "Tento bankomat má řečový výstup, který je obvykle dostupný přes konektor pro sluchátka",
             "he": "לכספומט זה יש פלט דיבור, זמין בדרך כלל דרך שקע אוזניות",
             "pt_BR": "Este caixa eletrônico possui saída de fala, geralmente disponível por meio de um plug de fone de ouvido",
-            "es": "Este cajero automático tiene salida de voz, normalmente disponible a través de una toma de auriculares"
+            "es": "Este cajero automático tiene salida de voz, normalmente disponible a través de una toma de auriculares",
+            "pt": "Este multibanco tem saída de fala, geralmente disponível por meio de um plug de auscultadores"
           }
         },
         {
@@ -16074,7 +16168,8 @@
             "cs": "Tento bankomat nemá hlasový výstup",
             "he": "לכספומט זה אין פלט דיבור",
             "pt_BR": "Esse caixa eletrônico não possui saída de fala",
-            "es": "Este cajero no tiene salida de voz"
+            "es": "Este cajero no tiene salida de voz",
+            "pt": "Este multibanco não possui saída de fala"
           }
         }
       ],
@@ -16101,6 +16196,7 @@
         "es": "{language_chooser(speech_output,¿En qué idiomas tiene salida de voz este cajero automático?,Este cajero automático tiene salida de voz en &LBRACElanguage&LPARENS&RPARENS:font-bold&RBRACE,Este cajero automático tiene salida de voz en &LBRACElanguage&LPARENS&RPARENS:font-bold&RBRACE,,,)}",
         "he": "{language_chooser(speech_output,באילו שפות יש לכספומט הזה פלט דיבור?,לכספומט הזה יש פלט דיבור ב &LBRACElanguage&LPARENS&RPARENS:font-bold&RBRACE,לכספומט הזה יש פלט דיבור ב &LBRACElanguage&LPARENS&RPARENS:font-bold&RBRACE,,,)}",
         "nl": "{language_chooser(speech_output,In welke taal is de spraak van deze geldautomaat?,Deze geldautomaat heeft spraak in &LBRACElanguage&LPARENS&RPARENS:font-bold&RBRACE,Deze automaat heeft spraak in &LBRACElanguage&LPARENS&RPARENS:font-bold&RBRACE,,,)}",
+        "pt": "{language_chooser(speech_output,Em que línguas este multibanco tem saída de fala?,Este multibanco tem saída de fala em &LBRACElanguage&LPARENS&RPARENS:font-bold&RBRACE,This ATM has speech output in &LBRACElanguage&LPARENS&RPARENS:font-bold&RBRACE,,,)}",
         "pt_BR": "{language_chooser(speech_output,Em quais línguas esse caixa eletrônico tem saída de fala?,Este caixa eletrônico tem saída de fala em &LBRACElanguage&LPARENS&RPARENS:font-bold&RBRACE,Este caixa eletrônico tem saída de fala em &LBRACElanguage&LPARENS&RPARENS:font-bold&RBRACE,,,)}"
       }
     },
@@ -16116,7 +16212,8 @@
         "he": "האם לבנק הזה יש כספומט?",
         "pl": "Czy ten bank ma bankomat?",
         "pt_BR": "Esse banco tem caixa eletrônico?",
-        "es": "¿Este banco tiene cajero automático?"
+        "es": "¿Este banco tiene cajero automático?",
+        "pt": "Este banco tem multibanco?"
       },
       "mappings": [
         {
@@ -16131,7 +16228,8 @@
             "he": "לבנק הזה יש כספומט",
             "pl": "Ten bank ma bankomat",
             "pt_BR": "Este banco tem um caixa eletrônico",
-            "es": "Este banco tiene un cajero automático"
+            "es": "Este banco tiene un cajero automático",
+            "pt": "Este banco tem um multibanco"
           }
         },
         {
@@ -16145,7 +16243,8 @@
             "cs": "Tato banka <b>nemá bankomat</b>",
             "pl": "Ten bank <b>nie ma</b> bankomatu",
             "pt_BR": "Este banco <b>não</b> tem um caixa eletrônico",
-            "es": "Este banco <b>no tiene</b> cajero automático"
+            "es": "Este banco <b>no tiene</b> cajero automático",
+            "pt": "Este banco <b>não</b> tem um multibanco"
           }
         },
         {
@@ -16157,7 +16256,8 @@
             "ca": "Aquest banc té un caixer, però està mapejat com a un element diferent",
             "cs": "Tato banka má bankomat, ale je namapován jako jiná ikona",
             "pt_BR": "Este banco tem um caixa eletrônico, mas está mapeado como um ícone diferente",
-            "es": "Este banco tiene un cajero automático, pero aparece con un icono diferente"
+            "es": "Este banco tiene un cajero automático, pero aparece con un icono diferente",
+            "pt": "Este banco tem um multibanco, mas está mapeado como um ícone diferente"
           }
         }
       ],
@@ -17553,7 +17653,8 @@
         "fr": "Est-ce que ce banc inclut un élément artistique ?",
         "pl": "Czy ta ławka ma wbudowane dzieło sztuki?",
         "pt_BR": "Esse banco tem um elemento artístico?",
-        "es": "¿Tiene este banco un elemento artístico?"
+        "es": "¿Tiene este banco un elemento artístico?",
+        "pt": "Este banco tem um elemento artístico?"
       },
       "mappings": [
         {
@@ -17571,7 +17672,8 @@
             "he": "לספסל זה יצירת אמנות משולבת",
             "pl": "Ta ławka ma wbudowane dzieło sztuki",
             "pt_BR": "Esse banco tem uma obra de arte integrada",
-            "es": "Este banco tiene una obra de arte integrada"
+            "es": "Este banco tiene una obra de arte integrada",
+            "pt": "Este banco tem uma obra de arte integrada"
           }
         },
         {
@@ -17586,7 +17688,8 @@
             "cs": "Tato lavička nemá integrované umělecké dílo",
             "he": "לספסל זה אין יצירת אמנות משולבת",
             "pl": "Ta ławka nie ma wbudowanego dzieła sztuki",
-            "pt_BR": "Esse banco não tem uma obra de arte integrada"
+            "pt_BR": "Esse banco não tem uma obra de arte integrada",
+            "pt": "Este banco não tem uma obra de arte integrada"
           },
           "addExtraTags": [
             "tourism="
@@ -17601,7 +17704,8 @@
             "de": "Die Bank hat <span class=\"subtle\">vermutlich</span> kein integriertes Kunstwerk",
             "cs": "Tato lavička <span class=\"subtle\">pravděpodobně</span> nemá integrované umělecké dílo",
             "pt_BR": "Esse banco <span class=\"subtle\">provavelmente</span> não tem uma obra de arte integrada",
-            "es": "Este banco <span class=\"subtle\">probablemente</span> no tiene una obra de arte integrada"
+            "es": "Este banco <span class=\"subtle\">probablemente</span> no tiene una obra de arte integrada",
+            "pt": "Este banco <span class=\"subtle\">provavelmente</span> não tem uma obra de arte integrada"
           },
           "hideInAnswer": true
         }
@@ -17615,7 +17719,8 @@
         "fr": "Par ex. il intègre une peinture, statue ou autre élément non commune, travail cratif",
         "pl": "Np. jest na niej coś namalowane, ma rzeźbę lub inną nietrywialną pracę",
         "pt_BR": "Ex. possui uma pintura integrada, estátua ou outro trabalho criativo não trivial",
-        "es": "Por ejemplo, si lleva integrado un cuadro, una estatua u otra obra creativa no trivial"
+        "es": "Por ejemplo, si lleva integrado un cuadro, una estatua u otra obra creativa no trivial",
+        "pt": "Ex. possui uma pintura integrada, estátua ou outro trabalho criativo não trivial"
       },
       "condition": {
         "or": [
@@ -17692,7 +17797,8 @@
             "es": "Hay un banco normal aquí",
             "cs": "Zde je normální lavička k sezení",
             "ca": "Aquí hi ha un banc normal",
-            "pt_BR": "Há um banco comum, para sentar, aqui"
+            "pt_BR": "Há um banco comum, para sentar, aqui",
+            "pt": "Há um banco comum, para sentar, aqui"
           }
         },
         {
@@ -17753,7 +17859,8 @@
         "fr": "De quel type de location de vélo s'agit-il ?",
         "cs": "O jakou půjčovnu jízdních kol se jedná?",
         "ca": "Quin tipus de lloguer de bicicletes és aquest?",
-        "pt_BR": "Qual tipo de aluguel de bicicletas é esse?"
+        "pt_BR": "Qual tipo de aluguel de bicicletas é esse?",
+        "pt": "Qual tipo de aluguel de bicicletas é este?"
       },
       "mappings": [
         {
@@ -17772,7 +17879,8 @@
             "fr": "C'est un magasin dont l'activité principale est la location de vélo",
             "cs": "Jedná se o obchod, jehož hlavním zaměřením je půjčování jízdních kol",
             "ca": "Es tracta d'una botiga que té com a objectiu principal el lloguer de bicicletes",
-            "pt_BR": "Essa é uma loja cujo foco principal é o aluguel de bicicletas"
+            "pt_BR": "Essa é uma loja cujo foco principal é o aluguel de bicicletas",
+            "pt": "Esta é uma loja cujo foco principal é o aluguel de bicicletas"
           }
         },
         {
@@ -17786,7 +17894,8 @@
             "fr": "C'est une agence louant diverses choses et/ou voitures. Elle loue également des vélos, mais ce n'est pas sa principale activité",
             "cs": "Jedná se o půjčovnu, která pronajímá různé předměty a/nebo vozidla. Pronajímá také jízdní kola, ale to není hlavní náplní",
             "ca": "Es tracta d'una empresa de lloguer que lloga diversos objectes i/o vehicles. També lloga bicicletes, però aquest no és l'objectiu principal",
-            "pt_BR": "Esse é um negócio de aluguel que aluga variados objetos e/ou veículos. Eles também alugam bicicletas, mas esse não é o foco principal"
+            "pt_BR": "Esse é um negócio de aluguel que aluga variados objetos e/ou veículos. Eles também alugam bicicletas, mas esse não é o foco principal",
+            "pt": "Esse é um negócio de aluguel que aluga variados objetos e/ou veículos. Eles também alugam bicicletas, mas esse não é o foco principal"
           }
         },
         {
@@ -17805,7 +17914,8 @@
             "fr": "C'est un magasin qui vend ou répare des vélos mais peut également en louer",
             "cs": "Jedná se o prodejnu, která prodává nebo opravuje jízdní kola, ale také je pronajímá",
             "ca": "Es tracta d'una botiga que ven o repara bicicletes, però també lloga bicicletes",
-            "pt_BR": "Essa é uma loja que vende ou conserta bicicletas, mas também aluga elas"
+            "pt_BR": "Essa é uma loja que vende ou conserta bicicletas, mas também aluga elas",
+            "pt": "Esta é uma loja que vende ou conserta bicicletas, mas também aluga elas"
           }
         },
         {
@@ -17822,7 +17932,8 @@
             "da": "Dette er en automatiseret dockingstation, hvor en cykel låses mekanisk fast i en struktur",
             "cs": "Jedná se o automatickou dokovací stanici, kde je jízdní kolo mechanicky uzamčeno ke konstrukci",
             "ca": "Es tracta d'una estació d'acoblament automatitzada, on una bicicleta es bloqueja mecànicament a una estructura",
-            "pt_BR": "Esta é uma estação de ancoragem automatizada, onde uma bicicleta é travada mecanicamente a uma estrutura"
+            "pt_BR": "Esta é uma estação de ancoragem automatizada, onde uma bicicleta é travada mecanicamente a uma estrutura",
+            "pt": "Esta é uma estação de ancoragem automatizada, onde uma bicicleta é travada mecanicamente a uma estrutura"
           }
         },
         {
@@ -17840,7 +17951,8 @@
             "da": "Der er en maskine til stede, som udleverer og modtager nøgler, eventuelt efter autentificering og/eller betaling. Cyklerne er parkeret i nærheden",
             "cs": "Přítomný je automat, který vydává a přijímá klíče, případně po ověření pravosti a/nebo zaplacení. Jízdní kola jsou zaparkována v blízkosti",
             "ca": "Hi ha una màquina present que dispensa i accepta claus, eventualment després de l'autenticació i/o el pagament. Les bicicletes estan aparcades a prop",
-            "pt_BR": "Uma máquina está presente que dispensa e aceita chaves, geralmente após autenticação e/ou pagamento. As bicicletas estão estacionadas nas proximidades"
+            "pt_BR": "Uma máquina está presente que dispensa e aceita chaves, geralmente após autenticação e/ou pagamento. As bicicletas estão estacionadas nas proximidades",
+            "pt": "Uma máquina que dispensa e aceita chaves está presente, geralmente após autenticação e/ou pagamento. As bicicletas estão estacionadas nas proximidades"
           }
         },
         {
@@ -17857,7 +17969,8 @@
             "da": "Dette er et afleveringssted, f.eks. en reserveret parkeringsplads til cykler, som er tydeligt markeret som værende forbeholdt udlejningstjenesten",
             "cs": "Jedná se o místo předání, např. vyhrazené parkoviště pro umístění jízdních kol, zřetelně označené jako místo určené pouze pro půjčovnu",
             "ca": "Aquest és un punt de baixada, p. ex. un aparcament reservat per col·locar les bicicletes marcades clarament com a només per al servei de lloguer",
-            "pt_BR": "Este é um ponto de devolução, p. ex. um estacionamento reservado para colocar as bicicletas claramente marcadas como sendo apenas para o serviço de aluguel"
+            "pt_BR": "Este é um ponto de devolução, p. ex. um estacionamento reservado para colocar as bicicletas claramente marcadas como sendo apenas para o serviço de aluguel",
+            "pt": "Este é um ponto de devolução, p. ex. um estacionamento reservado para pôr as bicicletas claramente marcadas como ser apenas para o serviço de aluguel"
           }
         }
       ],
@@ -19443,7 +19556,8 @@
         "fr": "Quels types de vélos et d’accessoires peuvent être loués ici ?",
         "cs": "Jaká jízdní kola a příslušenství se zde půjčují?",
         "ca": "Quin tipus de bicicletes i accessoris es lloguen aquí?",
-        "pt_BR": "Quais tipos de bicicleta e acessórios podem ser alugados aqui?"
+        "pt_BR": "Quais tipos de bicicleta e acessórios podem ser alugados aqui?",
+        "pt": "Quais tipos de bicicleta e acessórios podem ser alugados aqui?"
       },
       "render": {
         "en": "{rental} is rented here",
@@ -19454,7 +19568,8 @@
         "fr": "{rental} est louable ici",
         "cs": "Zde si můžete půjčit {rental}",
         "ca": "{rental} es lloga aquí",
-        "pt_BR": "{rental} é alugado aqui"
+        "pt_BR": "{rental} é alugado aqui",
+        "pt": "{rental} é alugado aqui"
       },
       "freeform": {
         "key": "rental",
@@ -19473,7 +19588,8 @@
             "fr": "Des vélos de ville peuvent être loués ici",
             "cs": "Zde si můžete půjčit běžná městská kola",
             "ca": "Aquí es poden llogar bicicletes de ciutat normals",
-            "pt_BR": "Bicicletas urbanas comuns podem ser alugadas aqui"
+            "pt_BR": "Bicicletas urbanas comuns podem ser alugadas aqui",
+            "pt": "Bicicletas urbanas comuns podem ser alugadas aqui"
           }
         },
         {
@@ -19487,7 +19603,8 @@
             "fr": "Des vélos électriques peuvent être loués ici",
             "cs": "Zde si můžete půjčit elektrokola",
             "ca": "Aquí es poden llogar bicicletes elèctriques",
-            "pt_BR": "Bicicletas elétricas podem ser alugadas aqui"
+            "pt_BR": "Bicicletas elétricas podem ser alugadas aqui",
+            "pt": "Bicicletas elétricas podem ser alugadas aqui"
           }
         },
         {
@@ -19501,7 +19618,8 @@
             "fr": "Des BMX peuvent être loués ici",
             "cs": "Zde si můžete půjčit BMX kola",
             "ca": "Aquí es poden llogar BMX",
-            "pt_BR": "Bicicletas BMX podem ser alugadas aqui"
+            "pt_BR": "Bicicletas BMX podem ser alugadas aqui",
+            "pt": "Bicicletas BMX podem ser alugadas aqui"
           }
         },
         {
@@ -19515,7 +19633,8 @@
             "fr": "Des vélos de montagne peuvent être loués ici",
             "cs": "Zde si můžete půjčit horská kola",
             "ca": "Aquí es poden llogar bicicletes de muntanya",
-            "pt_BR": "Bicicletas de montanha podem ser alugadas aqui"
+            "pt_BR": "Bicicletas de montanha podem ser alugadas aqui",
+            "pt": "Bicicletas de montanha podem ser alugadas aqui"
           }
         },
         {
@@ -19529,7 +19648,8 @@
             "fr": "Des vélos d'enfants peuvent être loués ici",
             "cs": "Zde si můžete půjčit dětská kola",
             "ca": "Aquí es poden llogar bicicletes infantils",
-            "pt_BR": "Bicicletas para crianças podem ser alugadas aqui"
+            "pt_BR": "Bicicletas para crianças podem ser alugadas aqui",
+            "pt": "Bicicletas para crianças podem ser alugadas aqui"
           }
         },
         {
@@ -19543,7 +19663,8 @@
             "es": "Aquí se pueden alquilar tándems",
             "cs": "Zde si můžete půjčit tandemová kola",
             "ca": "Aquí es poden llogar tàndems",
-            "pt_BR": "Bicicletas tandem podem ser alugadas aqui"
+            "pt_BR": "Bicicletas tandem podem ser alugadas aqui",
+            "pt": "Bicicletas tandem podem ser alugadas aqui"
           }
         },
         {
@@ -19557,7 +19678,8 @@
             "fr": "Des vélos de course peuvent être loués ici",
             "cs": "Zde si můžete půjčit závodní kola",
             "ca": "Aquí es poden llogar bicicletes de carreres",
-            "pt_BR": "Bicicletas de estrada podem ser alugadas aqui"
+            "pt_BR": "Bicicletas de estrada podem ser alugadas aqui",
+            "pt": "Bicicletas de estrada podem ser alugadas aqui"
           }
         },
         {
@@ -19571,7 +19693,8 @@
             "da": "Cykelhjelme kan lejes her",
             "cs": "Zde si můžete půjčit cyklistické přilby",
             "ca": "Aquí es poden llogar cascos de bicicleta",
-            "pt_BR": "Capacetes de ciclismo podem ser alugados aqui"
+            "pt_BR": "Capacetes de ciclismo podem ser alugados aqui",
+            "pt": "Capacetes de ciclismo podem ser alugados aqui"
           }
         }
       ],
@@ -19605,7 +19728,8 @@
         "cs": "Kolik typů kol si zde můžete pronajmout?",
         "es": "¿Cuántos bicis de ciudad se pueden alquilar aquí?",
         "ca": "Quants Bicicletes de ciutat es poden llogar aquí?",
-        "pt_BR": "Quantos bicicletas urbanas podem ser alugados aqui?"
+        "pt_BR": "Quantos bicicletas urbanas podem ser alugados aqui?",
+        "pt": "Quantos bicicletas urbanas podem ser alugados aqui?"
       },
       "render": {
         "en": "{capacity:city_bike} city bikes can be rented here",
@@ -19615,7 +19739,8 @@
         "cs": "{capacity:city_bike} typů si můžete pronajmout zde",
         "es": "{capacity:city_bike} bicis de ciudad pueden alquilarse aquí",
         "ca": "{capacity:city_bike} Bicicletes de ciutat es poden llogar aquí",
-        "pt_BR": "{capacity:city_bike} bicicletas urbanas podem ser alugados aqui"
+        "pt_BR": "{capacity:city_bike} bicicletas urbanas podem ser alugados aqui",
+        "pt": "{capacity:city_bike} bicicletas urbanas podem ser alugados aqui"
       },
       "freeform": {
         "key": "capacity:city_bike",
@@ -19701,7 +19826,8 @@
         "cs": "Kolik typů kol si zde můžete pronajmout?",
         "es": "¿Cuántos bicis eléctricas se pueden alquilar aquí?",
         "ca": "Quants bicicletes elèctriques es poden llogar aquí?",
-        "pt_BR": "Quantos bicicletas elétricas podem ser alugados aqui?"
+        "pt_BR": "Quantos bicicletas elétricas podem ser alugados aqui?",
+        "pt": "Quantos bicicletas elétricas podem ser alugados aqui?"
       },
       "render": {
         "en": "{capacity:ebike} electrical bikes can be rented here",
@@ -19711,7 +19837,8 @@
         "cs": "{capacity:ebike} typů si můžete pronajmout zde",
         "es": "{capacity:ebike} bicis eléctricas pueden alquilarse aquí",
         "ca": "{capacity:ebike} bicicletes elèctriques es poden llogar aquí",
-        "pt_BR": "{capacity:ebike} bicicletas elétricas podem ser alugados aqui"
+        "pt_BR": "{capacity:ebike} bicicletas elétricas podem ser alugados aqui",
+        "pt": "{capacity:ebike} bicicletas elétricas podem ser alugados aqui"
       },
       "freeform": {
         "key": "capacity:ebike",
@@ -19797,7 +19924,8 @@
         "cs": "Kolik typů kol si zde můžete pronajmout?",
         "es": "¿Cuántos bicis infantiles se pueden alquilar aquí?",
         "ca": "Quants bicicletes per a xiquets es poden llogar aquí?",
-        "pt_BR": "Quantos bicicletas para crianças podem ser alugados aqui?"
+        "pt_BR": "Quantos bicicletas para crianças podem ser alugados aqui?",
+        "pt": "Quantos bicicletas para crianças podem ser alugados aqui?"
       },
       "render": {
         "en": "{capacity:kid_bike} bikes for children can be rented here",
@@ -19807,7 +19935,8 @@
         "cs": "{capacity:kid_bike} typů si můžete pronajmout zde",
         "es": "{capacity:kid_bike} bicis infantiles pueden alquilarse aquí",
         "ca": "{capacity:kid_bike} bicicletes per a xiquets es poden llogar aquí",
-        "pt_BR": "{capacity:kid_bike} bicicletas para crianças podem ser alugados aqui"
+        "pt_BR": "{capacity:kid_bike} bicicletas para crianças podem ser alugados aqui",
+        "pt": "{capacity:kid_bike} bicicletas para crianças podem ser alugados aqui"
       },
       "freeform": {
         "key": "capacity:kid_bike",
@@ -19893,7 +20022,8 @@
         "cs": "Kolik typů kol si zde můžete pronajmout?",
         "es": "¿Cuántos bicis BMX se pueden alquilar aquí?",
         "ca": "Quants Bicicletes BMX es poden llogar aquí?",
-        "pt_BR": "Quantos bicicletas BMX podem ser alugados aqui?"
+        "pt_BR": "Quantos bicicletas BMX podem ser alugados aqui?",
+        "pt": "Quantos bicicletas BMX podem ser alugados aqui?"
       },
       "render": {
         "en": "{capacity:bmx} BMX bikes can be rented here",
@@ -19903,7 +20033,8 @@
         "cs": "{capacity:bmx} typů si můžete pronajmout zde",
         "es": "{capacity:bmx} bicis BMX pueden alquilarse aquí",
         "ca": "{capacity:bmx} Bicicletes BMX es poden llogar aquí",
-        "pt_BR": "{capacity:bmx} bicicletas BMX podem ser alugados aqui"
+        "pt_BR": "{capacity:bmx} bicicletas BMX podem ser alugados aqui",
+        "pt": "{capacity:bmx} bicicletas BMX podem ser alugados aqui"
       },
       "freeform": {
         "key": "capacity:bmx",
@@ -19989,7 +20120,8 @@
         "cs": "Kolik typů kol si zde můžete pronajmout?",
         "es": "¿Cuántos bicicletas de montaña se pueden alquilar aquí?",
         "ca": "Quants bicicletas de muntanya es poden llogar aquí?",
-        "pt_BR": "Quantos bicicletas de montanha podem ser alugados aqui?"
+        "pt_BR": "Quantos bicicletas de montanha podem ser alugados aqui?",
+        "pt": "Quantos bicicletas de montanha podem ser alugados aqui?"
       },
       "render": {
         "en": "{capacity:mtb} mountainbikes can be rented here",
@@ -19999,7 +20131,8 @@
         "cs": "{capacity:mtb} typů si můžete pronajmout zde",
         "es": "{capacity:mtb} bicicletas de montaña pueden alquilarse aquí",
         "ca": "{capacity:mtb} bicicletas de muntanya es poden llogar aquí",
-        "pt_BR": "{capacity:mtb} bicicletas de montanha podem ser alugados aqui"
+        "pt_BR": "{capacity:mtb} bicicletas de montanha podem ser alugados aqui",
+        "pt": "{capacity:mtb} bicicletas de montanha podem ser alugados aqui"
       },
       "freeform": {
         "key": "capacity:mtb",
@@ -20085,7 +20218,8 @@
         "cs": "Kolik typů kol si zde můžete pronajmout?",
         "es": "¿Cuántos alforjas de bicicleta se pueden alquilar aquí?",
         "ca": "Quants maletes de bicicletes es poden llogar aquí?",
-        "pt_BR": "Quantos alforjes de bicicleta podem ser alugados aqui?"
+        "pt_BR": "Quantos alforjes de bicicleta podem ser alugados aqui?",
+        "pt": "Quantos alforjes de bicicleta podem ser alugados aqui?"
       },
       "render": {
         "en": "{capacity:bicycle_pannier} bicycle panniers can be rented here",
@@ -20095,7 +20229,8 @@
         "cs": "{capacity:bicycle_pannier} typů si můžete pronajmout zde",
         "es": "{capacity:bicycle_pannier} alforjas de bicicleta pueden alquilarse aquí",
         "ca": "{capacity:bicycle_pannier} maletes de bicicletes es poden llogar aquí",
-        "pt_BR": "{capacity:bicycle_pannier} alforjes de bicicleta podem ser alugados aqui"
+        "pt_BR": "{capacity:bicycle_pannier} alforjes de bicicleta podem ser alugados aqui",
+        "pt": "{capacity:bicycle_pannier} alforjes de bicicleta podem ser alugados aqui"
       },
       "freeform": {
         "key": "capacity:bicycle_pannier",
@@ -20181,7 +20316,8 @@
         "cs": "Kolik typů kol si zde můžete pronajmout?",
         "es": "¿Cuántos tándem se pueden alquilar aquí?",
         "ca": "Quants tàndem es poden llogar aquí?",
-        "pt_BR": "Quantos tandem podem ser alugados aqui?"
+        "pt_BR": "Quantos tandem podem ser alugados aqui?",
+        "pt": "Quantos tandem podem ser alugados aqui?"
       },
       "render": {
         "en": "{capacity:tandem_bicycle} tandem can be rented here",
@@ -20191,7 +20327,8 @@
         "cs": "{capacity:tandem_bicycle} typů si můžete pronajmout zde",
         "es": "{capacity:tandem_bicycle} tándem pueden alquilarse aquí",
         "ca": "{capacity:tandem_bicycle} tàndem es poden llogar aquí",
-        "pt_BR": "{capacity:tandem_bicycle} tandem podem ser alugados aqui"
+        "pt_BR": "{capacity:tandem_bicycle} tandem podem ser alugados aqui",
+        "pt": "{capacity:tandem_bicycle} tandem podem ser alugados aqui"
       },
       "freeform": {
         "key": "capacity:tandem_bicycle",
@@ -61237,7 +61374,8 @@
         "hu": "Működési állapota: <i>{operational_status}</i>",
         "es": "El estado operacional es <i>{operational_status}</i>",
         "ca": "L'estat operatiu és <i>{operational_status}</i>",
-        "cs": "Provozní stav je <i>{operational_status}</i>"
+        "cs": "Provozní stav je <i>{operational_status}</i>",
+        "pt": "O estado operacional é: <i>{operational_status}</i>"
       },
       "freeform": {
         "key": "operational_status",
@@ -62305,7 +62443,8 @@
         "da": "Kan en cykel køre forbi denne barriere?",
         "cs": "Může tuto bariéru překonat jízdní kolo?",
         "ca": "Una bicicleta pot passar aquesta barrera?",
-        "pt_BR": "Uma bicicleta pode passar por essa barreira?"
+        "pt_BR": "Uma bicicleta pode passar por essa barreira?",
+        "pt": "Uma bicicleta pode passar por esta barreira?"
       },
       "mappings": [
         {
@@ -62320,7 +62459,8 @@
             "es": "Un ciclista puede pasar esto.",
             "cs": "Cyklista ji může projet.",
             "ca": "Un ciclista pot passar-hi.",
-            "pt_BR": "Um ciclista pode passar por isso."
+            "pt_BR": "Um ciclista pode passar por isso.",
+            "pt": "Um ciclista pode passar por isto."
           }
         },
         {
@@ -62335,7 +62475,8 @@
             "es": "Un ciclista no puede pasar esto.",
             "cs": "Cyklista tudy nemůže projet.",
             "ca": "Un ciclista no pot passar-hi.",
-            "pt_BR": "Um ciclista não pode passar por isso."
+            "pt_BR": "Um ciclista não pode passar por isso.",
+            "pt": "Um ciclista não pode passar por isst."
           }
         }
       ],
@@ -62356,7 +62497,8 @@
             "da": "Dette er en enkelt pullert på vejen",
             "cs": "Jedná se o jeden sloupek na silnici",
             "ca": "Aquest és un únic piló a la carretera",
-            "pt_BR": "Esse é um único pilar na estrada"
+            "pt_BR": "Esse é um único pilar na estrada",
+            "pt": "Esse é um único pilar na estrada"
           }
         },
         {
@@ -62371,7 +62513,8 @@
             "da": "Dette er en cykelbarriere, der bremser cyklisterne",
             "cs": "Jedná se o cyklistickou bariéru, která zpomaluje cyklisty",
             "ca": "Açò és una barrera ciclista que relantitza als ciclistes",
-            "pt_BR": "Isso é uma barreira para ciclistas que reduz a velocidade dos ciclistas"
+            "pt_BR": "Isso é uma barreira para ciclistas que reduz a velocidade dos ciclistas",
+            "pt": "Isto é uma barreira para ciclistas que reduz a velocidade dos ciclistas"
           }
         }
       ],
@@ -62396,7 +62539,8 @@
         "cs": "Co je to za sloupek?",
         "nb_NO": "Hva slags pullert er dette?",
         "ca": "Quin tipus de bol·lard és aquest?",
-        "pt_BR": "Que tipo de pilar é esse?"
+        "pt_BR": "Que tipo de pilar é esse?",
+        "pt": "Que tipo de pilar é esse?"
       },
       "condition": {
         "or": [
@@ -62418,7 +62562,8 @@
             "es": "Bolardo extraíble",
             "cs": "Odnímatelný sloupek",
             "nb_NO": "Senk- eller fjernbar pullert",
-            "pt_BR": "Pilar removível"
+            "pt_BR": "Pilar removível",
+            "pt": "Pilar removível"
           }
         },
         {
@@ -62434,7 +62579,8 @@
             "da": "Fast pullert",
             "cs": "Pevný sloupek",
             "nb_NO": "Fast pullert",
-            "pt_BR": "Pilar fixo"
+            "pt_BR": "Pilar fixo",
+            "pt": "Pilar fixo"
           }
         },
         {
@@ -62450,7 +62596,8 @@
             "cs": "Sklopný sloupek",
             "ca": "Piló retràctil",
             "nb_NO": "Pullert som kan klappes ned",
-            "pt_BR": "Pilar retrátil"
+            "pt_BR": "Pilar retrátil",
+            "pt": "Pilar retrátil"
           }
         },
         {
@@ -62466,7 +62613,8 @@
             "cs": "Pružný sloupek, obvykle plastový",
             "ca": "Piló flexible, normalment de plàstic",
             "nb_NO": "Fleksibel pullert, vanligvis plastikk",
-            "pt_BR": "Pilar flexível, geralmente plástico"
+            "pt_BR": "Pilar flexível, geralmente plástico",
+            "pt": "Pilar flexível, geralmente plástico"
           }
         },
         {
@@ -62482,7 +62630,8 @@
             "da": "Opstigende pullert",
             "cs": "Vyjíždějící sloupek",
             "nb_NO": "Oppstigende pullert",
-            "pt_BR": "Pilar elevatório"
+            "pt_BR": "Pilar elevatório",
+            "pt": "Pilar elevatório"
           }
         }
       ],
@@ -62500,7 +62649,8 @@
         "cs": "O jakou cyklistickou bariéru se jedná?",
         "nb_NO": "Hva slags sykkelbarrière er dette?",
         "ca": "Quin tipus de barrera ciclista és aquesta?",
-        "pt_BR": "Que tipo de barreira para ciclistas é essa?"
+        "pt_BR": "Que tipo de barreira para ciclistas é essa?",
+        "pt": "Que tipo de barreira para ciclistas é esta?"
       },
       "condition": {
         "or": [
@@ -62521,7 +62671,8 @@
             "da": "Enkelt, kun to barrierer med et mellemrum",
             "cs": "Jednoduchý, jen dvě překážky s mezerou mezi nimi",
             "ca": "Simple, simplement dos barreres amb un espai al mig",
-            "pt_BR": "Simples, apenas duas barreiras com um espaço no meio"
+            "pt_BR": "Simples, apenas duas barreiras com um espaço no meio",
+            "pt": "Simples, apenas duas barreiras com um espaço no meio"
           },
           "icon": {
             "path": "./assets/themes/cycle_infra/Cycle_barrier_single.png",
@@ -62541,7 +62692,8 @@
             "cs": "Dvojitý, dvě bariéry za sebou",
             "nb_NO": "Dobbel, to barrièrer etter hverandre",
             "ca": "Doble, dues barreres una darrere l'altra",
-            "pt_BR": "Duplo, duas barreiras uma atrás da outra"
+            "pt_BR": "Duplo, duas barreiras uma atrás da outra",
+            "pt": "Duplo, duas barreiras uma atrás da outra"
           },
           "icon": {
             "path": "./assets/themes/cycle_infra/Cycle_barrier_double.svg",
@@ -62561,7 +62713,8 @@
             "cs": "Trojitá, tři bariéry za sebou",
             "nb_NO": "Trippel, tre barrièrer etter hverandre",
             "ca": "Triple, tres barreres una darrere l'altra",
-            "pt_BR": "Triplo, três barreiras uma atrás da outra"
+            "pt_BR": "Triplo, três barreiras uma atrás da outra",
+            "pt": "Triplo, três barreiras uma atrás da outra"
           },
           "icon": {
             "path": "./assets/themes/cycle_infra/Cycle_barrier_triple.png",
@@ -62580,7 +62733,8 @@
             "da": "Squeeze gate, mellemrummet er mindre i toppen end i bunden",
             "ca": "Barrera de seguretat, l'espai és menor a la part superior que a l'inferior",
             "cs": "Zúžená brána, mezera nahoře je menší než dole",
-            "pt_BR": "Portão estreito, a abertura é menor na parte superior do que na parte inferior"
+            "pt_BR": "Portão estreito, a abertura é menor na parte superior do que na parte inferior",
+            "pt": "Portão estreito, a abertura é menor na parte superior do que na parte inferior"
           },
           "icon": {
             "path": "./assets/themes/cycle_infra/Cycle_barrier_squeeze.png",
@@ -62615,7 +62769,8 @@
         "da": "Hvor stort er mellemrummet udover barrieren?",
         "cs": "Jak široká je mezera, která zbývá vedle bariéry?",
         "ca": "Com d'ample és el buit que queda als costats de la barrera?",
-        "pt_BR": "Qual é a largura da abertura deixada ao lado da barreira?"
+        "pt_BR": "Qual é a largura da abertura deixada ao lado da barreira?",
+        "pt": "Qual é a largura da abertura deixada ao lado da barreira?"
       },
       "condition": {
         "and": [
@@ -62652,7 +62807,8 @@
         "da": "Plads mellem barrierer (langs vejens længde): {width:separation} m",
         "cs": "Prostor mezi svodidly (po celé délce silnice): {width:separation} m",
         "ca": "Espai entre barreres (al llarg de la longitud de la carretera): {width:separation} m",
-        "pt_BR": "Espaço entre as barreiras (ao longo do comprimento da estrada): {width:separation} m"
+        "pt_BR": "Espaço entre as barreiras (ao longo do comprimento da estrada): {width:separation} m",
+        "pt": "Espaço entre as barreiras (ao longo do comprimento da estrada): {width:separation} m"
       },
       "question": {
         "en": "How much space is there between the barriers (along the length of the road)?",
@@ -62664,7 +62820,8 @@
         "da": "Hvor meget plads er der mellem bommene (på langs af vejen)?",
         "cs": "Jak velký je prostor mezi svodidly (po celé délce silnice)?",
         "ca": "Quant espai hi ha entre les barreres (al llarg de la longitud de la carretera)?",
-        "pt_BR": "Quanto espaço há entre as barreiras (ao longo do comprimento da estrada)?"
+        "pt_BR": "Quanto espaço há entre as barreiras (ao longo do comprimento da estrada)?",
+        "pt": "Quanto espaço há entre as barreiras (ao longo do comprimento da estrada)?"
       },
       "condition": {
         "and": [
@@ -62704,7 +62861,8 @@
         "da": "Bredde af åbning: {width:opening} m",
         "cs": "Šířka otvoru: {width:opening} m",
         "ca": "Amplada de l'apertura: {width:opening} m",
-        "pt_BR": "Largura da abertura: {width:opening} m"
+        "pt_BR": "Largura da abertura: {width:opening} m",
+        "pt": "Largura da abertura: {width:opening} m"
       },
       "question": {
         "en": "How wide is the smallest opening next to the barriers?",
@@ -62716,7 +62874,8 @@
         "da": "Hvor bred er den mindste åbning ved siden af barriererne?",
         "cs": "Jak široký je nejmenší otvor vedle bariér?",
         "ca": "Quina amplitud té l'obertura més petita al costat de les barreres?",
-        "pt_BR": "Qual é a largura da menor abertura ao lado das barreiras?"
+        "pt_BR": "Qual é a largura da menor abertura ao lado das barreiras?",
+        "pt": "Qual é a largura da menor abertura ao lado das barreiras?"
       },
       "condition": {
         "and": [
@@ -62756,7 +62915,8 @@
         "da": "Overlapning: {overlap} m",
         "cs": "Překrývání: {overlap} m",
         "ca": "Solapat: {overlap} m",
-        "pt_BR": "Sobreposição: {overlap} m"
+        "pt_BR": "Sobreposição: {overlap} m",
+        "pt": "Sobreposição: {overlap} m"
       },
       "question": {
         "en": "How much overlap do the barriers have?",
@@ -62768,7 +62928,8 @@
         "da": "Hvor meget overlap har barriererne?",
         "cs": "Jak moc se bariéry překrývají?",
         "ca": "Quant es solapen les barreres?",
-        "pt_BR": "Quanto as barreiras se sobrepõem?"
+        "pt_BR": "Quanto as barreiras se sobrepõem?",
+        "pt": "Quanto as barreiras se sobrepõem?"
       },
       "condition": {
         "and": [
@@ -62872,7 +63033,8 @@
         "da": "Tilbyder denne cykelcafé en cykelpumpe til brug for alle?",
         "cs": "Nabízí tato cyklistická kavárna vzduchový kompresor na kolo k použití pro kohokoli?",
         "ca": "Aquest cafè ciclista ofereix una bomba de bicicletes per a qualsevol persona?",
-        "pt_BR": "Esse café para ciclistas oferece uma bomba de ar para qualquer um usar?"
+        "pt_BR": "Esse café para ciclistas oferece uma bomba de ar para qualquer um usar?",
+        "pt": "Este café para ciclistas oferece uma bomba de ar para qualquer um usar?"
       },
       "mappings": [
         {
@@ -62890,7 +63052,8 @@
             "da": "Denne cykelcafé tilbyder en cykelpumpe til enhver",
             "cs": "Tato cyklistická kavárna nabízí vzduchový kompresor na kolo pro každého",
             "ca": "Aquest cafè ciclista ofereix una bomba per a bicicletes per a qualsevol persona",
-            "pt_BR": "Esse café para ciclistas oferece uma bomba de ar para todos"
+            "pt_BR": "Esse café para ciclistas oferece uma bomba de ar para todos",
+            "pt": "Este café para ciclistas oferece uma bomba de ar para todos"
           }
         },
         {
@@ -62908,7 +63071,8 @@
             "da": "Denne cykelcafé tilbyder ikke en cykelpumpe til nogen",
             "cs": "Tato cyklistická kavárna nenabízí vzduchový kompresor na kolo",
             "ca": "Aquest cafè ciclista no ofereix una bomba per a bicicletes per a qualsevol persona",
-            "pt_BR": "Esse café para ciclistas não oferece uma bomba de ar para ninguém"
+            "pt_BR": "Esse café para ciclistas não oferece uma bomba de ar para ninguém",
+            "pt": "Este café para ciclistas não oferece uma bomba de ar para ninguém"
           }
         }
       ],
@@ -64167,6 +64331,7 @@
         "cs": "Využití služby mytí stojí {service:bicycle:cleaning:charge}",
         "ca": "Utilitzar el servei de rentat costa {service:bicycle:cleaning:charge}",
         "pt_BR": "Usar o serviço de limpeza custa {service:bicycle:cleaning:charge}",
+        "pt": "Usar o serviço de limpeza custa {service:bicycle:cleaning:charge}",
         "_context": "layers:bike_cleaning.tagRenderings.bike_cleaning-service:bicycle:cleaning:charge.render"
       },
       "condition": {
@@ -64253,6 +64418,7 @@
             "cs": "Služba mytí je k dispozici zdarma",
             "ca": "El servei de rentat és gratuït",
             "pt_BR": "O serviço de limpeza é grátis para usar",
+            "pt": "O serviço de limpeza é grátis para usar",
             "_context": "layers:bike_cleaning.tagRenderings.bike_cleaning-service:bicycle:cleaning:charge.mappings.0.then"
           },
           "addExtraTags": [
@@ -65204,7 +65370,8 @@
         "cs": "Kolik stojí duše na kolo?",
         "nl": "Hoeveel kost een fietsband?",
         "pt_BR": "Quanto custa uma câmara de ar para bicicleta?",
-        "es": "¿Cuánto cuesta una cámara para la bicicleta?"
+        "es": "¿Cuánto cuesta una cámara para la bicicleta?",
+        "pt": "Quanto custa uma câmara de ar para bicicleta?"
       },
       "render": {
         "en": "A bicycle tube costs {charge}",
@@ -65213,7 +65380,8 @@
         "cs": "Cena jedné duše {charge}",
         "nl": "Een fietsband kost {charge}",
         "pt_BR": "Uma câmara de ar para bicicleta custa {charge}",
-        "es": "Una cámara para bicicletas cuesta {charge}"
+        "es": "Una cámara para bicicletas cuesta {charge}",
+        "pt": "Uma câmara de ar para bicicleta custa {charge}"
       },
       "freeform": {
         "key": "charge",
@@ -65235,7 +65403,8 @@
         "cs": "Jaká značka duší je zde prodávána?",
         "nl": "Welk merk banden wordt hier verkocht?",
         "pt_BR": "Quais marcas de câmara de ar são vendidas aqui?",
-        "es": "¿Qué cámaras se venden aquí?"
+        "es": "¿Qué cámaras se venden aquí?",
+        "pt": "Quais marcas de câmara de ar são vendidas aqui?"
       },
       "freeform": {
         "key": "brand",
@@ -65248,7 +65417,8 @@
         "cs": "{brand} duše jsou zde prodávány",
         "nl": "{brand} banden worden hier verkocht",
         "pt_BR": "câmaras de ar {brand} são vendidas aqui",
-        "es": "Las cámaras {brand} se venden aquí"
+        "es": "Las cámaras {brand} se venden aquí",
+        "pt": "câmaras de ar {brand} são vendidas aqui"
       },
       "mappings": [
         {
@@ -65260,7 +65430,8 @@
             "cs": "Continental duše jsou zde prodávány",
             "nl": "Continental banden worden hier verkocht",
             "pt_BR": "Câmaras de ar Continental são vendidas aqui",
-            "es": "Las cámaras Continental se venden aquí"
+            "es": "Las cámaras Continental se venden aquí",
+            "pt": "Câmaras de ar Continental são vendidas aqui"
           }
         },
         {
@@ -65272,7 +65443,8 @@
             "cs": "Schwalbe duše jsou zde prodávány",
             "nl": "Schwalbe banden worden hier verkocht",
             "pt_BR": "Câmaras de ar Schwalbe são vendidas aqui",
-            "es": "Las cámaras Schwalbe se venden aquí"
+            "es": "Las cámaras Schwalbe se venden aquí",
+            "pt": "Câmaras de ar Schwalbe são vendidas aqui"
           }
         }
       ],
@@ -65293,7 +65465,8 @@
         "cs": "Kdo se stará o tento automat?",
         "nl": "Wie onderhoudt deze verkoopautomaat?",
         "pt_BR": "Quem mantém essa máquina de venda?",
-        "es": "¿Quién mantiene esta máquina expendedora?"
+        "es": "¿Quién mantiene esta máquina expendedora?",
+        "pt": "Quem mantém esta máquina de venda?"
       },
       "render": "This vending machine is maintained by {operator}",
       "mappings": [
@@ -65306,7 +65479,8 @@
             "cs": "Udržuje Schwalbe",
             "nl": "Onderhouden door Schwalbe",
             "pt_BR": "Mantido pela Schwalbe",
-            "es": "Mantenido por Schwalbe"
+            "es": "Mantenido por Schwalbe",
+            "pt": "Mantido pela Schwalbe"
           }
         },
         {
@@ -65318,7 +65492,8 @@
             "cs": "Udržuje Continental",
             "nl": "Onderhouden door Continental",
             "pt_BR": "Mantido pela Continental",
-            "es": "Mantenido por Continental"
+            "es": "Mantenido por Continental",
+            "pt": "Mantido pela Continental"
           }
         }
       ],
@@ -65343,7 +65518,8 @@
         "cs": "Prodávají se zde další doplňky na kolo?",
         "nl": "Worden hier andere fietsaccessoires verkocht?",
         "pt_BR": "Outros acessórios para bicicleta são vendidos aqui?",
-        "es": "¿Se venden aquí otros accesorios para bicicletas?"
+        "es": "¿Se venden aquí otros accesorios para bicicletas?",
+        "pt": "Outros acessórios para bicicleta são vendidos aqui?"
       },
       "mappings": [
         {
@@ -65355,7 +65531,8 @@
             "de": "Hier werden Fahrradschläuche verkauft",
             "cs": "Zde se prodávají cyklistické duše",
             "pt_BR": "Câmaras de ar para bicicletas são vendidas aqui",
-            "es": "Aquí se venden cámaras de aire para bicicletas"
+            "es": "Aquí se venden cámaras de aire para bicicletas",
+            "pt": "Câmaras de ar para bicicletas são vendidas aqui"
           }
         },
         {
@@ -65367,7 +65544,8 @@
             "de": "Hier werden Fahrradlampen verkauft",
             "cs": "Zde se prodávají světla na jízdní kola",
             "pt_BR": "Luzes para bicicleta são vendidas aqui",
-            "es": "Las luces para bicicletas se venden aquí"
+            "es": "Las luces para bicicletas se venden aquí",
+            "pt": "Luzes para bicicleta são vendidas aqui"
           }
         },
         {
@@ -65379,7 +65557,8 @@
             "de": "Hier werden Fahrradhandschuhe verkauft",
             "cs": "Prodávají se zde rukavice",
             "pt_BR": "Luvas são vendidas aqui",
-            "es": "Los guantes se venden aquí"
+            "es": "Los guantes se venden aquí",
+            "pt": "Luvas são vendidas aqui"
           }
         },
         {
@@ -65391,7 +65570,8 @@
             "de": "Hier werden Fahrrad-Reparatursets verkauft",
             "cs": "Zde se prodávají sady na opravu jízdních kol",
             "pt_BR": "Kits para reparo de bicicleta são vendidos aqui",
-            "es": "Los kits de reparación de bicicletas se venden aquí"
+            "es": "Los kits de reparación de bicicletas se venden aquí",
+            "pt": "Kits para reparo de bicicleta são vendidos aqui"
           }
         },
         {
@@ -65403,7 +65583,8 @@
             "de": "Hier werden Fahrradpumpen verkauft",
             "cs": "Prodávají se zde pumpy na kolo",
             "pt_BR": "Bombas de ar para bicicleta são vendidas aqui",
-            "es": "Las bombas para bicicletas se venden aquí"
+            "es": "Las bombas para bicicletas se venden aquí",
+            "pt": "Bombas de ar para bicicleta são vendidas aqui"
           }
         },
         {
@@ -65415,7 +65596,8 @@
             "de": "Hier werden Fahrradschlösser verkauft",
             "cs": "Prodávají se zde zámky na kola",
             "pt_BR": "Cadeados para bicicleta são vendidos aqui",
-            "es": "Aquí se venden candados para bicicletas"
+            "es": "Aquí se venden candados para bicicletas",
+            "pt": "Cadeados para bicicleta são vendidos aqui"
           }
         }
       ],
@@ -65516,7 +65698,8 @@
         "da": "Hvor meget koster det at bruge rengøringsservicen?",
         "cs": "Kolik stojí využívání služby mytí?",
         "ca": "Molt costa utilitzar aquest servei de neteja?",
-        "pt_BR": "Quanto custa para usar esse serviço de limpeza?"
+        "pt_BR": "Quanto custa para usar esse serviço de limpeza?",
+        "pt": "Quanto custa para usar este serviço de limpeza?"
       },
       "render": {
         "en": "Using the cleaning service costs {charge}",
@@ -65527,7 +65710,8 @@
         "da": "Brug af rengøringsservice koster {charge}",
         "cs": "Využití služby mytí stojí {charge}",
         "ca": "L'ús del servei de neteja costa {charge}",
-        "pt_BR": "Usar o serviço de limpeza custa {charge}"
+        "pt_BR": "Usar o serviço de limpeza custa {charge}",
+        "pt": "Usar o serviço de limpeza custa {charge}"
       },
       "condition": {
         "or": [
@@ -65560,7 +65744,8 @@
             "da": "Gratis at bruge rengøringsservice",
             "cs": "Tato mycí služba je bezplatná",
             "ca": "Aquest servei de neteja és gratuït",
-            "pt_BR": "Esse serviço de limpeza é grátis para usar"
+            "pt_BR": "Esse serviço de limpeza é grátis para usar",
+            "pt": "Esst serviço de limpeza é grátis para usar"
           },
           "addExtraTags": [
             "charge="
@@ -65575,7 +65760,8 @@
             "ca": "Hi ha un cost per utilitzar aquest servei de neteja",
             "de": "Dieser Reinigungsservice ist kostenpflichtig",
             "cs": "Využití úklidové služby je zpoplatněno",
-            "pt_BR": "Há uma taxa para utilizar esse serviço de limpeza"
+            "pt_BR": "Há uma taxa para utilizar esse serviço de limpeza",
+            "pt": "Há uma taxa para utilizar este serviço de limpeza"
           }
         }
       ],
@@ -65681,7 +65867,8 @@
             "ca": "Suport de manillar",
             "da": "Styrholder",
             "cs": "Držák na řídítka",
-            "pt_BR": "Suporte para guidão"
+            "pt_BR": "Suporte para guidão",
+            "pt": "Suporte para guidão"
           },
           "icon": {
             "path": "./assets/layers/bike_parking/handlebar_holder.svg",
@@ -65703,7 +65890,8 @@
             "da": "Stativ",
             "cs": "Stojan",
             "eu": "Rack-a",
-            "pt_BR": "Suporte"
+            "pt_BR": "Suporte",
+            "pt": "Suporte"
           },
           "icon": {
             "path": "./assets/layers/bike_parking/rack.svg",
@@ -65725,7 +65913,8 @@
             "ca": "De dos nivells",
             "da": "To-lags",
             "cs": "Dvouúrovňové",
-            "pt_BR": "De dois níveis"
+            "pt_BR": "De dois níveis",
+            "pt": "De dois níveis"
           },
           "icon": {
             "path": "./assets/layers/bike_parking/two_tier.svg",
@@ -65750,7 +65939,8 @@
             "pa_PK": "شیڈ",
             "ca": "cobert",
             "eu": "Etxola",
-            "pt_BR": "Cabana"
+            "pt_BR": "Cabana",
+            "pt": "Cabana"
           },
           "icon": {
             "path": "./assets/layers/bike_parking/shed.svg",
@@ -65772,7 +65962,8 @@
             "cs": "Sloupek",
             "pa_PK": "بولارڈ",
             "eu": "Bolardo",
-            "pt_BR": "Pilar"
+            "pt_BR": "Pilar",
+            "pt": "Pilar"
           },
           "icon": {
             "path": "./assets/layers/bike_parking/bollard.svg",
@@ -65792,7 +65983,8 @@
             "da": "Et område på gulvet, der er markeret til cykelparkering",
             "cs": "Plocha na zemi označená pro parkování jízdních kol",
             "ca": "Una zona al terra que està senyalitzada per a l'aparcament de bicicletes",
-            "pt_BR": "Uma área no chão que é marcada para o estacionamento de bicicletas"
+            "pt_BR": "Uma área no chão que é marcada para o estacionamento de bicicletas",
+            "pt": "Uma área no chão que é marcada para o estacionamento de bicicletas"
           }
         }
       ],
@@ -65989,7 +66181,8 @@
         "da": "Hvor mange cykler er der plads til på denne cykelparkering (inklusive mulige ladcykler)?",
         "cs": "Kolik jízdních kol se vejde na toto parkoviště (včetně případných nákladních kol)?",
         "ca": "Quantes bicicletes caben en aquest aparcament de bicicletes (incloent possibles bicicletes de càrrega)?",
-        "pt_BR": "Quantas bicicletas cabem nesse estacionamento de bicicletas (incluindo possíveis bicicletas de carga)?"
+        "pt_BR": "Quantas bicicletas cabem nesse estacionamento de bicicletas (incluindo possíveis bicicletas de carga)?",
+        "pt": "Quantas bicicletas cabem neste estacionamento de bicicletas (incluindo possíveis bicicletas de carga)?"
       },
       "render": {
         "en": "Place for {capacity} bikes",
@@ -70765,7 +70958,8 @@
         "zh_Hans": "这个救护车站叫什么名字？",
         "he": "איך קוראים לתחנת האמבולנס הזו?",
         "pl": "Jak nazywa się ta stacja pogotowia ratunkowego?",
-        "pt_BR": "Qual o nome dessa estação de ambulância?"
+        "pt_BR": "Qual o nome dessa estação de ambulância?",
+        "pt": "Qual o nome desta estação de ambulância?"
       },
       "render": {
         "en": "This station is called {name}.",
@@ -70784,7 +70978,8 @@
         "zh_Hans": "这个站点名为 {name}.",
         "he": "תחנה זו נקראת {name}.",
         "pl": "Ta stacja nazywa się {name}.",
-        "pt_BR": "Esta estação é chamada de {name}."
+        "pt_BR": "Esta estação é chamada de {name}.",
+        "pt": "Esta estação é chamada de {name}."
       },
       "condition": {
         "or": [
@@ -70815,7 +71010,8 @@
         "he": "מה שם הרחוב שבו נמצאת התחנה?",
         "pl": "Jak nazywa się ulica, przy której znajduje się stacja?",
         "pt_BR": "Como é o nome da rua em que a estação está localizada?",
-        "zh_Hans": "车站所在的街道名称是什么？"
+        "zh_Hans": "车站所在的街道名称是什么？",
+        "pt": "Como é o nome da rua em que a estação está localizada?"
       },
       "render": {
         "en": "This station is along a highway called {addr:street}.",
@@ -70832,7 +71028,8 @@
         "ca": "Aquesta estació es troba al costat d'una via anomenada {addr:street}.",
         "he": "תחנה זו נמצאת לאורך כביש מהיר בשם {addr:street}.",
         "pt_BR": "Essa estação está em uma via chamada {addr:street}.",
-        "zh_Hans": "该站位于一条名为 {addr:street} 的公路沿线。"
+        "zh_Hans": "该站位于一条名为 {addr:street} 的公路沿线。",
+        "pt": "Esta estação está numa autoestrada chamada {addr:street}."
       },
       "condition": {
         "or": [
@@ -70858,7 +71055,8 @@
         "ca": "On es troba aquesta estació? (p.e. nom del barri, poble o ciutat)",
         "he": "היכן ממוקמת התחנה? (למשל שם השכונה, הכפר או העיירה)",
         "pt_BR": "Onde está localizada a estação? (por exemplo, nome do bairro, vila ou cidade)",
-        "zh_Hans": "车站位于哪里？ （例如邻里、村庄或城镇的名称）"
+        "zh_Hans": "车站位于哪里？ （例如邻里、村庄或城镇的名称）",
+        "pt": "Onde está a estação localizada ? (por exemplo, nome do bairro, vila ou cidade)"
       },
       "freeform": {
         "key": "addr:place",
@@ -70878,7 +71076,8 @@
         "ca": "Aquesta estació es troba a {addr:place}.",
         "he": "תחנה זו נמצאת בתוך {addr:place}.",
         "pt_BR": "Essa estação está localizada em {addr:place}.",
-        "zh_Hans": "该站位于{addr:place}内。"
+        "zh_Hans": "该站位于{addr:place}内。",
+        "pt": "Esta estação está localizada em {addr:place}."
       },
       "condition": {
         "or": [
@@ -70905,7 +71104,8 @@
         "zh_Hans": "哪家机构运营这个站点？",
         "he": "איזו סוכנות מפעילה את התחנה הזו?",
         "pl": "Jaka agencja obsługuje tę stację?",
-        "pt_BR": "Qual agência opera essa estação?"
+        "pt_BR": "Qual agência opera essa estação?",
+        "pt": "Qual agência opera esta estação?"
       },
       "render": {
         "en": "This station is operated by {operator}.",
@@ -70923,7 +71123,8 @@
         "zh_Hans": "这个站点由 {operator}运营",
         "he": "תחנה זו מופעלת על ידי {operator}.",
         "pl": "Ta stacja jest obsługiwana przez {operator}.",
-        "pt_BR": "Essa estação é operada pelo(a) {operator}."
+        "pt_BR": "Essa estação é operada pelo(a) {operator}.",
+        "pt": "Esta estação é operada pelo(a) {operator}."
       },
       "freeform": {
         "key": "operator",
@@ -70954,7 +71155,8 @@
         "he": "כיצד מסווג מפעיל התחנה?",
         "pl": "Jak klasyfikowany jest operator stacji?",
         "pt_BR": "Como essa estação é classificada?",
-        "zh_Hans": "车站运营商如何分类？"
+        "zh_Hans": "车站运营商如何分类？",
+        "pt": "Como esta estação é classificada?"
       },
       "render": {
         "en": "The operator is a(n) {operator:type} entity.",
@@ -70969,7 +71171,8 @@
         "cs": "Operátor je {operator:type} entita.",
         "ca": "L'operadora és una entitat del tipus {operator:type}.",
         "pt_BR": "O operador é uma entidade {operator:type}.",
-        "zh_Hans": "运营者是一个 {operator:type} 实体。"
+        "zh_Hans": "运营者是一个 {operator:type} 实体。",
+        "pt": "O operador é uma entidade {operator:type}."
       },
       "freeform": {
         "key": "operator:type",
@@ -70998,7 +71201,8 @@
             "zh_Hans": "这个站点由政府运营。",
             "he": "התחנה מופעלת על ידי הממשלה.",
             "pl": "Stacja jest zarządzana przez rząd.",
-            "pt_BR": "A estação é operada pelo governo."
+            "pt_BR": "A estação é operada pelo governo.",
+            "pt": "A estação é operada pelo governo."
           }
         },
         {
@@ -71023,7 +71227,8 @@
             "he": "התחנה מופעלת על ידי ארגון קהילתי, או לא רשמי.",
             "pl": "Stacja jest obsługiwana przez organizację społeczną lub nieformalną.",
             "pt_BR": "A estação é operada por uma organização comunitária ou informal.",
-            "zh_Hans": "该站由社区或非正式组织运营。"
+            "zh_Hans": "该站由社区或非正式组织运营。",
+            "pt": "A estação é operada por uma organização comunitária ou informal."
           }
         },
         {
@@ -71047,7 +71252,8 @@
             "he": "התחנה מופעלת על ידי קבוצה רשמית של מתנדבים.",
             "pl": "Stacja obsługiwana jest przez formalną grupę wolontariuszy.",
             "pt_BR": "A estação é operada por um grupo formal de voluntários.",
-            "zh_Hans": "该站由一群正式的志愿者运营。"
+            "zh_Hans": "该站由一群正式的志愿者运营。",
+            "pt": "A estação é operada por um grupo formal de voluntários."
           }
         },
         {
@@ -71071,7 +71277,8 @@
             "he": "‍התחנה מופעלת באופן פרטי.",
             "pl": "Stacja jest własnością prywatną.",
             "pt_BR": "A estação é operada de forma privada.",
-            "zh_Hans": "该站是私人经营的。"
+            "zh_Hans": "该站是私人经营的。",
+            "pt": "A estação é operada de forma privada."
           }
         }
       ],
@@ -80430,7 +80637,8 @@
         "de": "Betrieben von {operator}",
         "ca": "Operat per {operator}",
         "es": "Operado por {operator}",
-        "cs": "Provozuje {operator}"
+        "cs": "Provozuje {operator}",
+        "pt": "Operado por {operator}"
       },
       "id": "surveillance_camera_Operator",
       "condition": {
@@ -81553,7 +81761,8 @@
         "es": "Se mide a una altura de 1,30 m",
         "ca": "Es mesura a una alçada d'1,30 m",
         "pt_BR": "Isso é medido a uma altura de 1,30m",
-        "cs": "Měří se ve výšce 1,30 m"
+        "cs": "Měří se ve výšce 1,30 m",
+        "pt": "Isto é medido a uma altura de 1,30m"
       },
       "condition": {
         "or": [
