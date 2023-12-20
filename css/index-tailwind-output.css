@@ -876,24 +876,14 @@ video {
   margin-bottom: 1rem;
 }
 
-.mx-1 {
-  margin-left: 0.25rem;
-  margin-right: 0.25rem;
-}
-
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
-.mx-10 {
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
-}
-
-.my-3 {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
 }
 
 .mx-12 {
@@ -919,10 +909,6 @@ video {
 
 .mb-16 {
   margin-bottom: 4rem;
-}
-
-.mr-6 {
-  margin-right: 1.5rem;
 }
 
 .mt-1 {
@@ -967,10 +953,6 @@ video {
 
 .ml-4 {
   margin-left: 1rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
 }
 
 .mt-8 {
@@ -1089,12 +1071,12 @@ video {
   height: 6rem;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
 .h-full {
   height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .h-32 {
@@ -1124,8 +1106,8 @@ video {
   height: fit-content;
 }
 
-.h-16 {
-  height: 4rem;
+.h-0 {
+  height: 0px;
 }
 
 .h-4 {
@@ -1150,6 +1132,10 @@ video {
 
 .h-5 {
   height: 1.25rem;
+}
+
+.h-16 {
+  height: 4rem;
 }
 
 .h-48 {
@@ -1220,10 +1206,6 @@ video {
   width: 1.5rem;
 }
 
-.w-16 {
-  width: 4rem;
-}
-
 .w-screen {
   width: 100vw;
 }
@@ -1238,12 +1220,12 @@ video {
   width: 6rem;
 }
 
-.w-4 {
-  width: 1rem;
-}
-
 .w-0 {
   width: 0px;
+}
+
+.w-4 {
+  width: 1rem;
 }
 
 .w-3 {
@@ -1258,12 +1240,12 @@ video {
   width: 2.75rem;
 }
 
-.w-64 {
-  width: 16rem;
+.w-16 {
+  width: 4rem;
 }
 
-.w-1\/2 {
-  width: 50%;
+.w-64 {
+  width: 16rem;
 }
 
 .w-14 {
@@ -1352,16 +1334,16 @@ video {
   cursor: pointer;
 }
 
-.cursor-wait {
-  cursor: wait;
-}
-
 .cursor-zoom-in {
   cursor: zoom-in;
 }
 
 .resize {
   resize: both;
+}
+
+.list-none {
+  list-style-type: none;
 }
 
 .appearance-none {
@@ -1702,6 +1684,11 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
+.border-gray-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(107 114 128 / var(--tw-border-opacity));
+}
+
 .border-subtle {
   --tw-border-opacity: 1;
   border-color: rgb(219 234 254 / var(--tw-border-opacity));
@@ -1725,11 +1712,6 @@ video {
 .border-gray-400 {
   --tw-border-opacity: 1;
   border-color: rgb(156 163 175 / var(--tw-border-opacity));
-}
-
-.border-gray-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(107 114 128 / var(--tw-border-opacity));
 }
 
 .border-gray-800 {
@@ -1788,24 +1770,24 @@ video {
   padding: 2rem;
 }
 
-.p-2 {
-  padding: 0.5rem;
-}
-
 .p-4 {
   padding: 1rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .p-1 {
   padding: 0.25rem;
 }
 
-.p-0 {
-  padding: 0px;
-}
-
 .p-0\.5 {
   padding: 0.125rem;
+}
+
+.p-0 {
+  padding: 0px;
 }
 
 .p-12 {
@@ -1832,6 +1814,10 @@ video {
   padding-right: 0.75rem;
 }
 
+.pr-2 {
+  padding-right: 0.5rem;
+}
+
 .pr-12 {
   padding-right: 3rem;
 }
@@ -1840,16 +1826,12 @@ video {
   padding-left: 0.25rem;
 }
 
-.pr-2 {
-  padding-right: 0.5rem;
+.pr-1 {
+  padding-right: 0.25rem;
 }
 
 .pl-2 {
   padding-left: 0.5rem;
-}
-
-.pr-4 {
-  padding-right: 1rem;
 }
 
 .pt-0\.5 {
@@ -1872,8 +1854,8 @@ video {
   padding-left: 1rem;
 }
 
-.pr-1 {
-  padding-right: 0.25rem;
+.pr-4 {
+  padding-right: 1rem;
 }
 
 .pl-3 {
@@ -1917,6 +1899,11 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .text-3xl {
@@ -2020,6 +2007,11 @@ video {
 
 .tracking-tight {
   letter-spacing: -0.025em;
+}
+
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -2246,10 +2238,6 @@ body {
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
-.focusable {
-  /* Not a 'real' class, but rather an indication to FloatOver and ModalRight to, when they open, grab the focus */
-}
-
 svg,
 img {
   box-sizing: content-box;
@@ -2397,7 +2385,7 @@ button.selected svg path, .button.selected svg path {
   fill: var(--catch-detail-foregroundcolor) !important;
 }
 
-button:not(.no-image-background) svg path, .button:not(.no-image-background) svg path {
+button:not(.no-image-background):not(.soft) svg path, .button:not(.no-image-background):not(.soft) svg path {
   fill: var(--interactive-foreground) !important;
   transition: all 250ms;
 }
@@ -2473,7 +2461,7 @@ button.link:hover {
   fill: var(--foreground-color) !important;
 }
 
-label {
+label:not(.neutral-label) {
   /**
      * Label should _contain_ the input element
      */
@@ -2484,32 +2472,31 @@ label {
   border-radius: 0.5rem;
   background-color: var(--low-interaction-background);
   width: 100%;
-  display: block;
   box-sizing: border-box;
   transition: all 250ms;
 }
 
-label:hover {
+label:hover:not(.neutral-label) {
   background-color: var(--catch-detail-color);
   color: var(--catch-detail-foregroundcolor);
   border: 2px solid var(--interactive-contrast)
 }
 
-label:not(.no-image-background) img {
+label:not(.no-image-background):not(.neutral-label) img {
   padding: 0.25rem;
   border-radius: 0.25rem;
   background: var(--low-interaction-background);
 }
 
-label svg path {
+label:not(.neutral-label) svg path {
   transition: all 250ms;
 }
 
-label:hover:not(.no-image-background) svg path {
+label:hover:not(.no-image-background):not(.neutral-label) svg path {
   fill: var(--catch-detail-foregroundcolor) !important;
 }
 
-label.checked {
+label.checked:not(.neutral-label) {
   border: 2px solid var(--foreground-color);
 }
 
@@ -2520,6 +2507,16 @@ label.checked {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   width: 100%;
+}
+
+button.soft, .button.soft {
+  border: 2px solid var(--interactive-background);
+  margin: 0;
+}
+
+button.soft:hover, .button.soft:hover {
+  background-color: var(--interactive-background);
+  color: var(--interactive-foreground);
 }
 
 .links-as-button a {
@@ -2536,7 +2533,7 @@ label.checked {
 
 .links-as-button a:hover {
   background-color: var(--interactive-background);
-  color: var(--catch-detail-foregroundcolor);
+  color: var(--interactive-foregroundcolor);
   border-color: var(--catch-detail-color-contrast);
 }
 
@@ -2757,6 +2754,18 @@ a.link-underline {
   overflow: visible !important;
 }
 
+.compass_arrow {
+  width: calc( 2.5rem - 1px ) ;
+  height: calc( 2.5rem - 1px )
+}
+
+@media (min-width: 640px) {
+  .compass_arrow {
+    width: calc( 2.75rem - 1px ) ;
+    height: calc( 2.75rem - 1px )
+  }
+}
+
 @-webkit-keyframes glowing-drop-shadow {
   from {
     -webkit-filter: drop-shadow(5px 5px 60px rgb(128 128 128 / 0.6));
@@ -2864,6 +2873,10 @@ a.link-underline {
     margin: 0.5rem;
   }
 
+  .sm\:m-1 {
+    margin: 0.25rem;
+  }
+
   .sm\:mx-1 {
     margin-left: 0.25rem;
     margin-right: 0.25rem;
@@ -2895,6 +2908,10 @@ a.link-underline {
 
   .sm\:w-24 {
     width: 6rem;
+  }
+
+  .sm\:w-1\/2 {
+    width: 50%;
   }
 
   .sm\:flex-nowrap {

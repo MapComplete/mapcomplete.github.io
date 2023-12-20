@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <!-- We disable 'user-scalable'. As we are working with a map, the user might zoom in using a popup, close the popup and _not_ be able to zoom out again. -->
-    <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport">
     <!-- CSP -->
     <link href="./css/mobile.css" rel="stylesheet"/>
     <link href="./css/openinghourstable.css" rel="stylesheet"/>
@@ -36,30 +36,35 @@
 
     <!-- THEME-SPECIFIC-END-->
 
-  <script type="module" crossorigin src="./assets/theme-22643f99.js"></script>
+  <script type="module" crossorigin src="./assets/theme-a0c0c87f.js"></script>
   <link rel="modulepreload" crossorigin href="./assets/Utils-e10b1bf1.js">
-  <link rel="modulepreload" crossorigin href="./assets/index-6329303c.js">
-  <link rel="modulepreload" crossorigin href="./assets/LocalStorageSource-09491bc5.js">
-  <link rel="modulepreload" crossorigin href="./assets/tw-merge-b997a5f8.js">
-  <link rel="modulepreload" crossorigin href="./assets/Tr-a8ece87b.js">
-  <link rel="modulepreload" crossorigin href="./assets/Constants-db26b868.js">
-  <link rel="modulepreload" crossorigin href="./assets/Dropdown-f171d3a2.js">
-  <link rel="modulepreload" crossorigin href="./assets/ToSvelte-65a688ca.js">
-  <link rel="modulepreload" crossorigin href="./assets/Loading-eb4fbe4c.js">
-  <link rel="modulepreload" crossorigin href="./assets/OsmConnection-1ef211a1.js">
-  <link rel="modulepreload" crossorigin href="./assets/LanguagePicker-27771735.js">
-  <link rel="modulepreload" crossorigin href="./assets/If-df25531c.js">
-  <link rel="modulepreload" crossorigin href="./assets/BackButton-e9663e4c.js">
-  <link rel="modulepreload" crossorigin href="./assets/Add-46d93e26.js">
-  <link rel="modulepreload" crossorigin href="./assets/FeatureSwitchState-e759c8d3.js">
-  <link rel="modulepreload" crossorigin href="./assets/Filterview-c33e8392.js">
-  <link rel="modulepreload" crossorigin href="./assets/Community-d5a5c1d9.js">
-  <link rel="modulepreload" crossorigin href="./assets/ThemeViewGUI-5e902348.js">
-  <link rel="modulepreload" crossorigin href="./assets/AllKnownLayouts-bb5acdf5.js">
+  <link rel="modulepreload" crossorigin href="./assets/index-08b4b005.js">
+  <link rel="modulepreload" crossorigin href="./assets/UIEventSource-005cc286.js">
+  <link rel="modulepreload" crossorigin href="./assets/LocalStorageSource-003d43ed.js">
+  <link rel="modulepreload" crossorigin href="./assets/Svg-df9a5a92.js">
+  <link rel="modulepreload" crossorigin href="./assets/Tr-a7a9d213.js">
+  <link rel="modulepreload" crossorigin href="./assets/Constants-f895f623.js">
+  <link rel="modulepreload" crossorigin href="./assets/tw-merge-2cd9e3ed.js">
+  <link rel="modulepreload" crossorigin href="./assets/Dropdown-d5d89761.js">
+  <link rel="modulepreload" crossorigin href="./assets/ToSvelte-460944ec.js">
+  <link rel="modulepreload" crossorigin href="./assets/Loading-0bbd67f7.js">
+  <link rel="modulepreload" crossorigin href="./assets/OsmConnection-8aa41cfe.js">
+  <link rel="modulepreload" crossorigin href="./assets/LanguagePicker-b2fe04cb.js">
+  <link rel="modulepreload" crossorigin href="./assets/Checkbox-60133e13.js">
+  <link rel="modulepreload" crossorigin href="./assets/BackButton-d24c9e61.js">
+  <link rel="modulepreload" crossorigin href="./assets/Add-734ddf3c.js">
+  <link rel="modulepreload" crossorigin href="./assets/TabbedGroup-15c57dfd.js">
+  <link rel="modulepreload" crossorigin href="./assets/FeatureSwitchState-d61c5808.js">
+  <link rel="modulepreload" crossorigin href="./assets/Community-77649a9a.js">
+  <link rel="modulepreload" crossorigin href="./assets/Motion-f90607d6.js">
+  <link rel="modulepreload" crossorigin href="./assets/Filterview-7b0c4140.js">
+  <link rel="modulepreload" crossorigin href="./assets/PrivacyPolicy-01bb685a.js">
+  <link rel="modulepreload" crossorigin href="./assets/ThemeViewGUI-21c63689.js">
+  <link rel="modulepreload" crossorigin href="./assets/AllKnownLayouts-68f9a451.js">
   <link rel="stylesheet" href="./assets/ThemeViewGUI-8d775733.css">
-  <link rel="stylesheet" href="./assets/Add-1ee72d36.css">
+  <link rel="stylesheet" href="./assets/TabbedGroup-9baeb10d.css">
 </head>
-<body>
+<body tabindex="-1">
 
 
 <div class="h-screen" id="maindiv">
@@ -84,7 +89,7 @@
             <div class="flex justify-between items-start w-full">
                 
             <!-- IMAGE-START -->
-            <img class="p-8 h-32 w-32 self-start" src="./assets/add-ad16ed3c.svg">
+            <img aria-hidden="true" class="p-8 h-32 w-32 self-start" src="./assets/add-ad16ed3c.svg">
             <!-- IMAGE-END -->
                 <div class="h-min subtle"> 
                 Version
@@ -94,7 +99,7 @@
         </div>
     </div>
 </div>
-<div id="belowmap" class="absolute top-0 left-0 -z-10">Below</div>
+<div aria-hidden="true" id="belowmap" class="absolute top-0 left-0 -z-10">Below</div>
 <script src="./src/UI/RemoveOtherLanguages.js"></script>
 
 
