@@ -7661,7 +7661,7 @@
                         "then": "Sense accés per a cadires de rodes"
                     },
                     "2": {
-                        "then": "Sols hi ha un lavabo per a usuaris amb cadira de rodes"
+                        "then": "És només un lavabo per a usuaris amb cadira de rodes"
                     }
                 },
                 "question": "Hi ha un lavabo específic per a usuaris amb cadira de rodes?"

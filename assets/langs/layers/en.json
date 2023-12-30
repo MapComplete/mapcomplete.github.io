@@ -6115,6 +6115,11 @@
                 }
             },
             "render": "Note"
+        },
+        "titleIcons": {
+            "0": {
+                "ariaLabel": "See on OpenStreetMap.org"
+            }
         }
     },
     "observation_tower": {
@@ -7356,6 +7361,11 @@
                 "editButtonAriaLabel": "Edit phone number",
                 "question": "What is the phone number of {title()}?"
             },
+            "qr_code": {
+                "render": {
+                    "after": "Scan this code to open this location on another device"
+                }
+            },
             "repeated": {
                 "render": "Multiple, identical objects can be found on floors {repeat_on}."
             },
@@ -7375,6 +7385,13 @@
                     }
                 },
                 "question": "Does this amenity have electrical outlets, available to customers when they are inside?"
+            },
+            "share": {
+                "render": {
+                    "special": {
+                        "text": "Share this location"
+                    }
+                }
             },
             "single_level": {
                 "mappings": {
@@ -8026,7 +8043,7 @@
         "name": "Shop",
         "presets": {
             "0": {
-                "description": "Add a new shop",
+                "description": "You can specify later on what this shop sells.",
                 "title": "a shop"
             }
         },
@@ -9779,7 +9796,7 @@
                     "1": {
                         "then": {
                             "special": {
-                                "text": "<b class='alert'>You have {_unreadMessages}</b><br/>Open your inbox"
+                                "text": "<b class='alert'>You have {_unreadMessages} messages</b><br/>Open your inbox"
                             }
                         }
                     }
@@ -9788,7 +9805,7 @@
             "language_picker": {
                 "mappings": {
                     "0": {
-                        "then": "The language was set via an URL-parameter and cannot be set by the user.²"
+                        "then": "The language was set via an URL-parameter and cannot be set by the user."
                     }
                 }
             },

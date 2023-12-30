@@ -1118,12 +1118,12 @@ video {
   height: 50%;
 }
 
-.h-3 {
-  height: 0.75rem;
-}
-
 .h-7 {
   height: 1.75rem;
+}
+
+.h-3 {
+  height: 0.75rem;
 }
 
 .h-11 {
@@ -1142,18 +1142,6 @@ video {
   height: 12rem;
 }
 
-.h-56 {
-  height: 14rem;
-}
-
-.h-20 {
-  height: 5rem;
-}
-
-.h-10 {
-  height: 2.5rem;
-}
-
 .h-40 {
   height: 10rem;
 }
@@ -1162,8 +1150,20 @@ video {
   height: 16rem;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .h-80 {
   height: 20rem;
+}
+
+.h-56 {
+  height: 14rem;
+}
+
+.h-20 {
+  height: 5rem;
 }
 
 .max-h-12 {
@@ -1176,10 +1176,6 @@ video {
 
 .max-h-64 {
   max-height: 16rem;
-}
-
-.max-h-7 {
-  max-height: 1.75rem;
 }
 
 .max-h-60 {
@@ -1228,12 +1224,12 @@ video {
   width: 1rem;
 }
 
-.w-3 {
-  width: 0.75rem;
-}
-
 .w-7 {
   width: 1.75rem;
+}
+
+.w-3 {
+  width: 0.75rem;
 }
 
 .w-11 {
@@ -1246,10 +1242,6 @@ video {
 
 .w-64 {
   width: 16rem;
-}
-
-.w-14 {
-  width: 3.5rem;
 }
 
 .w-auto {
@@ -1347,6 +1339,10 @@ video {
           appearance: none;
 }
 
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -1431,6 +1427,11 @@ video {
   row-gap: 0.25rem;
 }
 
+.gap-x-4 {
+  -webkit-column-gap: 1rem;
+          column-gap: 1rem;
+}
+
 .gap-x-0\.5 {
   -webkit-column-gap: 0.125rem;
           column-gap: 0.125rem;
@@ -1445,20 +1446,44 @@ video {
   row-gap: 0.5rem;
 }
 
+.gap-x-1 {
+  -webkit-column-gap: 0.25rem;
+          column-gap: 0.25rem;
+}
+
 .gap-x-2 {
   -webkit-column-gap: 0.5rem;
           column-gap: 0.5rem;
 }
 
-.gap-x-1 {
-  -webkit-column-gap: 0.25rem;
-          column-gap: 0.25rem;
+.space-x-0\.5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.125rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.125rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-0 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0px * var(--tw-space-x-reverse));
+  margin-left: calc(0px * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-x-1 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.25rem * var(--tw-space-x-reverse));
   margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-y-0\.5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.125rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.125rem * var(--tw-space-y-reverse));
+}
+
+.space-y-0 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0px * var(--tw-space-y-reverse));
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -1549,6 +1574,10 @@ video {
   text-overflow: clip;
 }
 
+.break-words {
+  overflow-wrap: break-word;
+}
+
 .break-all {
   word-break: break-all;
 }
@@ -1581,11 +1610,6 @@ video {
   border-radius: 0.125rem;
 }
 
-.rounded-l {
-  border-top-left-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
-}
-
 .rounded-t {
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
@@ -1598,6 +1622,11 @@ video {
 
 .rounded-b {
   border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.rounded-l {
+  border-top-left-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
 }
 
@@ -1808,6 +1837,11 @@ video {
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .pr-2 {
@@ -2284,6 +2318,14 @@ input[type=text] {
   width: 100%;
 }
 
+.debug input, .debug textarea {
+  border: 6px solid red
+}
+
+.debug label input, .debug label textarea {
+  border: 1px solid grey;
+}
+
 /************************* BIG CATEGORIES ********************************/
 
 /**
@@ -2457,45 +2499,6 @@ button.link:hover {
   fill: var(--foreground-color) !important;
 }
 
-label:not(.neutral-label) {
-  /**
-     * Label should _contain_ the input element
-     */
-  border: 2px solid var(--interactive-background);
-  padding: 0.25rem;
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
-  border-radius: 0.5rem;
-  background-color: var(--low-interaction-background);
-  width: 100%;
-  box-sizing: border-box;
-  transition: all 250ms;
-}
-
-label:hover:not(.neutral-label) {
-  background-color: var(--catch-detail-color);
-  color: var(--catch-detail-foregroundcolor);
-  border: 2px solid var(--interactive-contrast)
-}
-
-label:not(.no-image-background):not(.neutral-label) img {
-  padding: 0.25rem;
-  border-radius: 0.25rem;
-  background: var(--low-interaction-background);
-}
-
-label:not(.neutral-label) svg path {
-  transition: all 250ms;
-}
-
-label:hover:not(.no-image-background):not(.neutral-label) svg path {
-  fill: var(--catch-detail-foregroundcolor) !important;
-}
-
-label.checked:not(.neutral-label) {
-  border: 2px solid var(--foreground-color);
-}
-
 .links-w-full a:not(.weblate-link) {
   display: flex;
   -webkit-column-gap: 0.25rem;
@@ -2544,6 +2547,55 @@ select {
 
 select:hover {
   border-color: var(--catch-detail-color-contrast);
+}
+
+.neutral-label{
+  /** This label styles as normal text. It's power comes from the many :not(.neutral-label) entries.
+     * Placed here for autocompletion
+     */
+}
+
+label:not(.neutral-label):not(.button) {
+  /**
+     * Label should _contain_ the input element
+     */
+  border: 2px solid var(--interactive-background);
+  padding: 0.25rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--low-interaction-background);
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 250ms;
+}
+
+label.button {
+  width: 100%;
+}
+
+label:hover:not(.neutral-label) {
+  background-color: var(--catch-detail-color);
+  color: var(--catch-detail-foregroundcolor);
+  border: 2px solid var(--interactive-contrast)
+}
+
+label:not(.no-image-background):not(.neutral-label) img {
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  background: var(--low-interaction-background);
+}
+
+label:not(.neutral-label) svg path {
+  transition: all 250ms;
+}
+
+label:hover:not(.no-image-background):not(.neutral-label) svg path {
+  fill: var(--catch-detail-foregroundcolor) !important;
+}
+
+label.checked:not(.neutral-label) {
+  border: 2px solid var(--foreground-color);
 }
 
 /************************* OTHER CATEGORIES ********************************/
@@ -2891,14 +2943,6 @@ a.link-underline {
     margin-right: 1rem;
   }
 
-  .sm\:mr-2 {
-    margin-right: 0.5rem;
-  }
-
-  .sm\:flex {
-    display: flex;
-  }
-
   .sm\:h-24 {
     height: 6rem;
   }
@@ -2913,14 +2957,6 @@ a.link-underline {
 
   .sm\:flex-nowrap {
     flex-wrap: nowrap;
-  }
-
-  .sm\:items-stretch {
-    align-items: stretch;
-  }
-
-  .sm\:justify-between {
-    justify-content: space-between;
   }
 
   .sm\:border-4 {

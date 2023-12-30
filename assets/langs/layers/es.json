@@ -1452,6 +1452,22 @@
     },
     "bike_shop": {
         "description": "Una tiene que vende específicamente bicis u objetos relacionados",
+        "filter": {
+            "1": {
+                "options": {
+                    "0": {
+                        "question": "Vende bicicletas de segunda mano"
+                    }
+                }
+            },
+            "2": {
+                "options": {
+                    "0": {
+                        "question": "Ofrece herramientas para autorreparación de bicis"
+                    }
+                }
+            }
+        },
         "name": "Taller/tienda de bicis",
         "presets": {
             "0": {
@@ -3498,7 +3514,7 @@
                 "question": "¿Están permitidos los perros en este negocio?"
             },
             "email": {
-                "question": "¿Cual es la direccióm de correo electrónico de {title()}?"
+                "question": "¿Cuál es la dirección de correo electrónico de {title()}?"
             },
             "induction-loop": {
                 "mappings": {

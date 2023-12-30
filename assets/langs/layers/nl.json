@@ -3529,6 +3529,9 @@
                 },
                 "1": {
                     "then": "Dit is een waterkraan of waterpomp met ondrinkbaar water.<div class='subtle'>Bijvoorbeeld een waterkraan met regenwater om planten water mee te geven</div"
+                },
+                "2": {
+                    "then": "Dit is een historische, manuele waterpomp waar geen drinkwater uitkomt"
                 }
             }
         },
@@ -3536,6 +3539,7 @@
         "name": "Drinkbaar water",
         "presets": {
             "0": {
+                "description": "Meestal een drinkwaterfonteintje, waterkraan, waterput of natuurlijke bron",
                 "title": "drinkbaar water"
             }
         },
@@ -3581,10 +3585,56 @@
                 "question": "Heeft dit drinkwaterpunt een geintegreerd kunstwerk?",
                 "questionHint": "Bijvoorbeeld een standbeeld of ander, niet-triviaal kunstwerk"
             },
+            "fee": {
+                "mappings": {
+                    "0": {
+                        "then": "Gratis te gebruiken"
+                    },
+                    "1": {
+                        "then": "Men moet betalen om dit drinkwaterpunt te gebruiken"
+                    }
+                },
+                "question": "Is dit drinkwaterpunt gratis te gebruiken?"
+            },
+            "opening_hours_24_7": {
+                "override": {
+                    "+mappings": {
+                        "0": {
+                            "then": "Dit drinkwaterpunt is dit seizoen gesloten. De openingsuren worden dus niet weergegeven."
+                        }
+                    },
+                    "questionHint": "Tijdens deze openingsuren is dit drinkwaterpunt bruikbaar."
+                }
+            },
             "render-closest-drinking-water": {
                 "render": "<a href='#{_closest_other_drinking_water_id}'>Er bevindt zich een ander drinkwaterpunt op {_closest_other_drinking_water_distance} meter</a>"
             },
+            "seasonal": {
+                "mappings": {
+                    "0": {
+                        "then": "Dit drinkwaterpunt is heel het jaar door beschikbaar"
+                    },
+                    "1": {
+                        "then": "Dit drinkwaterpunt is enkel in de zomer beschikbaar"
+                    },
+                    "2": {
+                        "then": "Dit drinkwaterpunt is gesloten in de winter"
+                    }
+                },
+                "question": "Is dit drinkwaterpunt heel het jaar door beschikbaar?"
+            },
             "type": {
+                "mappings": {
+                    "0": {
+                        "then": "Dit is een waterhappertje - een drinkwaterfonteintje waarbij een waterstraaltje omhoog spuit. Dit kan permanent werken of door op een drukknop te duwen."
+                    },
+                    "1": {
+                        "then": "Dit is een hervulpunt voor drinkwaterflessen. De waterstraal wordt omlaag gestuurd wanneer op een drukknop geduwd wordt of wanneer er beweging gedetecteerd wordt. Rechtstreeks van de waterstraal drinking kan moeilijk of zelfs onmogelijk zijn."
+                    },
+                    "2": {
+                        "then": "Dit is een waterkraan. Het water strooomt naar beneden en het volume wordt door een knop of draaimechanisme geregeld."
+                    }
+                },
                 "question": "Wat voor soort drinkwaterpunt is dit?"
             }
         },
@@ -5363,6 +5413,11 @@
                 }
             },
             "render": "Note"
+        },
+        "titleIcons": {
+            "0": {
+                "ariaLabel": "Bekijk op OpenStreetMap.org"
+            }
         }
     },
     "observation_tower": {
@@ -6486,6 +6541,11 @@
                 "editButtonAriaLabel": "Pas telefoonnummer aan",
                 "question": "Wat is het telefoonnummer van {title()}?"
             },
+            "qr_code": {
+                "render": {
+                    "after": "Scan deze code om deze locatie op een ander apparaat te zien"
+                }
+            },
             "repeated": {
                 "render": "Er zijn verschillende, identieke objecten op verdiepingen {repeat_on}."
             },
@@ -6505,6 +6565,13 @@
                     }
                 },
                 "question": "Zijn er stekkers beschikbaar voor klanten die binnen zitten?"
+            },
+            "share": {
+                "render": {
+                    "special": {
+                        "text": "Deel deze locatie"
+                    }
+                }
             },
             "single_level": {
                 "mappings": {
@@ -8485,6 +8552,32 @@
                 },
                 "question": "Moeten onbeantwoorde vragen om beurt of allemaal samen getoond worden?"
             },
+            "background-layer": {
+                "mappings": {
+                    "0": {
+                        "then": "Gebruik de standaard achtergrondlaag"
+                    },
+                    "1": {
+                        "then": "Gebruik OpenStreetMap-carto altijd als achtergrondlaag"
+                    },
+                    "2": {
+                        "then": "Gebruik luchtfoto's als standaard achtergrondlaag"
+                    },
+                    "3": {
+                        "then": "Gebruik altijd een kaart di niet op OpenStreetMap gebaseerd is als achtergrond"
+                    },
+                    "4": {
+                        "then": "Gebruik altijd <span class='code'>{__current_background}</span>) als achtergrondlaag. Dit is de huidige achtergrond."
+                    },
+                    "5": {
+                        "then": "Gebruik <span class='code'>{mapcomplete-preferred-background-layer}</span> altijd als achtergrondlaag"
+                    }
+                },
+                "question": "Welke achtergrondlaag moet altijd gebruikt worden?"
+            },
+            "background-layer-readonly": {
+                "render": "Deze kaart heeft een achtegrondlaag instgesteld. Je instellingen worden niet gebruikt"
+            },
             "contributor-thanks": {
                 "mappings": {
                     "0": {
@@ -8499,6 +8592,13 @@
                     }
                 }
             },
+            "fixate-north": {
+                "mappings": {
+                    "0": {
+                        "then": "Sta kaartrotatie toe"
+                    }
+                }
+            },
             "inbox": {
                 "mappings": {
                     "0": {
@@ -8508,6 +8608,11 @@
                             }
                         }
                     }
+                }
+            },
+            "mangrove-keys": {
+                "render": {
+                    "after": "Iedereen die dit bestand bezit, kan met jouw identiteit wijzigingen maken"
                 }
             },
             "picture-license": {
@@ -8527,6 +8632,41 @@
                 },
                 "question": "Met welke licentie wil je je afbeeldingen toevoegen?"
             },
+            "show_crosshair": {
+                "questionHint": "Dit kan helpen om nieuwe elementen accuraat te plaatsen"
+            },
+            "show_debug": {
+                "mappings": {
+                    "0": {
+                        "then": "Toon debug-informatie"
+                    },
+                    "1": {
+                        "then": "Verberg debug-informatie"
+                    },
+                    "2": {
+                        "then": "Verberg debug-informatie"
+                    }
+                },
+                "question": "Moet debug-informatie getoond worden?"
+            },
+            "show_tags": {
+                "mappings": {
+                    "0": {
+                        "then": "Verberg data-attributen"
+                    },
+                    "1": {
+                        "then": "Toon data-attributen bij wijzigingen indien je meer dan {__userjourney_tagsVisibleAt} changesets hebt gemaakt"
+                    },
+                    "2": {
+                        "then": "Toon de data-attributen die toegepast zullen worden bij wijzigingen"
+                    },
+                    "3": {
+                        "then": "Toon de data-attributen die toegepast zullen worden bij wijzigingen en toon een tabel met alle data-attributen bij elk object."
+                    }
+                },
+                "question": "Moeten de data-attributen getoond worden?",
+                "questionHint": "<b>Data-attributen</b> zijn stukjes data die elk element in OpenStreetMap heeft. Dit is technische data die in de databank komt. Je hoeft deze informatie niet te kennen om aanpassingen te maken met MapComplete, maar geavanceerde gebruikers kunnen dit als referentie gebruiken."
+            },
             "translation-completeness": {
                 "mappings": {
                     "0": {
@@ -8541,6 +8681,20 @@
                         "then": "Klik op het 'vertaal'-icoontje die naast een stukje tekst staat om deze tekst te vertalen of aan te passen. Hiervoor heb je een (gratis) Weblate-account nodig. Indien je jouw account maakt met dezelfde naam als je OSM-gebruikersnaam, dan zullen de vertaalknoppen automatisch verschijnen."
                     }
                 }
+            },
+            "translation-mode": {
+                "mappings": {
+                    "0": {
+                        "then": "Verberg de knoppen om een vertaling in te voeren."
+                    },
+                    "1": {
+                        "then": "Toon een knopje om snel vertalingen te maken indien MapComplete op een groot scherm is geopend"
+                    },
+                    "2": {
+                        "then": "Toon een knopje om snel vertalingen te maken op mobiel en op grote schermen"
+                    }
+                },
+                "question": "Wil je MapComplete helpen vertalen?"
             },
             "translation-thanks": {
                 "mappings": {

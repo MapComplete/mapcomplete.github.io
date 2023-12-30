@@ -1952,7 +1952,7 @@
                         "question": "Verfügt über einen <div style='display: inline-block'><b><b>Typ 1 </b> (J1772)</b> <img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/Type1_J1772.svg'/></div> Stecker mit Kabel"
                     },
                     "5": {
-                        "question": "Verfügt über einen <div style='display: inline-block'><b>Typ 1 (J1772)</b>Stecker <i>ohne</i> Kabel<img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/Type1_J1772.svg'/></div>"
+                        "question": "Verfügt über einen <div style='display: inline-block'><b><b>Typ 1 (J1772)</b>Stecker <i>ohne</i> Kabel</b><img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/Type1_J1772.svg'/></div>"
                     },
                     "6": {
                         "question": "Verfügt über einen <div style='display: inline-block'><b>Typ 1 CCS (Typ 1 Combo)</b><img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/Type1-ccs.svg'/></div> Stecker"
@@ -1993,15 +1993,22 @@
         "name": "Ladestationen",
         "presets": {
             "0": {
-                "title": "eine Ladestation für Elektrofahrräder"
+                "title": "Ladestation für Elektrofahrräder"
             },
             "1": {
-                "title": "Eine Ladestation für Elektrofahrzeuge"
+                "title": "Ladestation für Elektrofahrräder"
             }
         },
         "tagRenderings": {
+            "Auth phone": {
+                "question": "Wie lautet die Telefonnummer für den Authentifizierungsanruf oder die SMS?",
+                "render": "Authentifiziere dich, indem du anrufst oder eine SMS sendest an <a href='tel:{authentication:phone_call:number}'>{authentication:phone_call:number}</a>"
+            },
             "Authentication": {
                 "mappings": {
+                    "0": {
+                        "then": "Authentifizierung durch eine Mitgliedskarte"
+                    },
                     "1": {
                         "then": "Authentifizierung per App"
                     },
@@ -2283,13 +2290,21 @@
             "rewritten-questions": {
                 "renderings": {
                     "0": {
-                        "question": "Wie viele Stecker vom Typ {{description}} sind hier vorhanden?"
+                        "question": "Wie viele Stecker vom Typ {{description}} sind hier vorhanden?",
+                        "render": "Hier sind <b class='text-xl'>{{{key}}}</b> Stecker vom Typ {{description}} verfügbar"
                     },
                     "1": {
                         "mappings": {
                             "then": "{{description}} liefert {{commonVoltages}} Volt"
                         },
-                        "question": "Welche Spannung liefern die {{description}}?"
+                        "question": "Welche Spannung liefern die {{description}}?",
+                        "render": "{{description}} liefert {canonical({{key}}:voltage)}"
+                    },
+                    "2": {
+                        "mappings": {
+                            "then": "{{description}} liefert maximal {{commonCurrent}} A"
+                        },
+                        "question": "Welchen Strom bieten die Stecker mit {{description}}?"
                     }
                 }
             },

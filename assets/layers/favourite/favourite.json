@@ -11754,6 +11754,938 @@
       }
     },
     {
+      "id": "share",
+      "labels": [
+        "added_by_default"
+      ],
+      "metacondition": "_supports_sharing=yes",
+      "render": {
+        "en": "{share_link(,Share this location)}",
+        "nl": "{share_link(,Deel deze locatie)}"
+      },
+      "condition": {
+        "or": [
+          "amenity=atm",
+          "amenity=bank",
+          "amenity=post_office",
+          "amenity=bench",
+          "amenity=bicycle_rental",
+          "amenity=bicycle_library",
+          "amenity=binoculars",
+          "amenity=public_bookcase",
+          "amenity=bar",
+          "amenity=pub",
+          "amenity=cafe",
+          "amenity=biergarten",
+          "amenity=nightclub",
+          "amenity=charging_station",
+          "amenity=toilets",
+          "amenity=clock",
+          "amenity=bicycle_repair_station",
+          "amenity=bicycle_wash",
+          "amenity=bike_wash",
+          "amenity=bicycle_rental",
+          "amenity=bicycle_library",
+          "amenity=bicycle_parking",
+          "amenity=charging_station",
+          "amenity=college",
+          "amenity=university",
+          "amenity=school",
+          "amenity=childcare",
+          "amenity=kindergarten",
+          "amenity=fast_food",
+          "amenity=restaurant",
+          "amenity=ice_cream",
+          "amenity=fast_food",
+          "amenity=restaurant",
+          "amenity=fire_station",
+          "amenity=doctors",
+          "amenity=dentist",
+          "amenity=hospital",
+          "amenity=clinic",
+          "amenity=pharmacy",
+          "amenity=ice_cream",
+          "amenity=parking_space",
+          "amenity=atm",
+          "amenity=bank",
+          "amenity=bench",
+          "amenity=bicycle_library",
+          "amenity=bicycle_rental",
+          "amenity=bicycle_wash",
+          "amenity=bike_wash",
+          "amenity=bicycle_parking",
+          "amenity=bicycle_repair_station",
+          "amenity=binoculars",
+          "amenity=bar",
+          "amenity=pub",
+          "amenity=cafe",
+          "amenity=biergarten",
+          "amenity=nightclub",
+          "amenity=charging_station",
+          "amenity=clock",
+          "amenity=dentist",
+          "amenity=doctors",
+          "amenity=fire_station",
+          "amenity=fast_food",
+          "amenity=restaurant",
+          "amenity=hospital",
+          "amenity=clinic",
+          "amenity=ice_cream",
+          "amenity=childcare",
+          "amenity=kindergarten",
+          "amenity=parcel_locker",
+          "amenity=parking",
+          "amenity=parking_space",
+          "amenity=pharmacy",
+          "amenity=post_box",
+          "amenity=post_office",
+          "amenity=public_bookcase",
+          "association=cycling",
+          "association=bicycle",
+          "association=cycling",
+          "association=bicycle",
+          "barrier=wall",
+          "barrier=wall",
+          "barrier=wall",
+          "barrier=kerb",
+          "barrier=wall",
+          "barrier=bollard",
+          "barrier=cycle_barrier",
+          "barrier=wall",
+          "barrier=wall",
+          "barrier=kerb",
+          "barrier=bollard",
+          "barrier=cycle_barrier",
+          "barrier=kerb",
+          "climbing=route",
+          "climbing=route",
+          "club=climbing",
+          "club=bicycle",
+          "club=cycling",
+          "club=bicycle",
+          "club=cycling",
+          "club=climbing",
+          "construction:amenity=charging_station",
+          "construction:amenity=charging_station",
+          "construction:amenity=charging_station",
+          "cyclestreet=yes",
+          "cyclestreet=yes",
+          "cyclestreet=yes",
+          "cyclestreet=yes",
+          "cycleway=lane",
+          "cycleway=shared_lane",
+          "cycleway=track",
+          "cycleway=lane",
+          "cycleway=shared_lane",
+          "cycleway=track",
+          "cycleway=lane",
+          "cycleway=shared_lane",
+          "cycleway=track",
+          "cycleway=lane",
+          "cycleway=shared_lane",
+          "cycleway=track",
+          "disused:amenity=charging_station",
+          "disused:amenity=charging_station",
+          "disused:amenity=charging_station",
+          "emergency=defibrillator",
+          "emergency=fire_hydrant",
+          "emergency=fire_extinguisher",
+          "emergency=ambulance_station",
+          "emergency=ambulance_station",
+          "emergency=fire_hydrant",
+          "healthcare=physiotherapist",
+          "healthcare=physiotherapist",
+          "highway=cycleway",
+          "highway=residential",
+          "highway=tertiary",
+          "highway=unclassified",
+          "highway=primary",
+          "highway=secondary",
+          "highway=tertiary_link",
+          "highway=primary_link",
+          "highway=secondary_link",
+          "highway=service",
+          "highway=footway",
+          "highway=pedestrian",
+          "highway=living_street",
+          "highway=traffic_signals",
+          "highway=crossing",
+          "highway=bus_stop",
+          "highway=elevator",
+          "highway=steps",
+          "highway=cycleway",
+          "highway=residential",
+          "highway=tertiary",
+          "highway=unclassified",
+          "highway=primary",
+          "highway=secondary",
+          "highway=tertiary_link",
+          "highway=primary_link",
+          "highway=secondary_link",
+          "highway=service",
+          "highway=footway",
+          "highway=pedestrian",
+          "highway=living_street",
+          {
+            "and": [
+              "bicycle=designated",
+              "highway=path"
+            ]
+          },
+          "highway=traffic_signals",
+          "highway=crossing",
+          "highway=elevator",
+          "highway=cycleway",
+          "highway=residential",
+          "highway=tertiary",
+          "highway=unclassified",
+          "highway=primary",
+          "highway=secondary",
+          "highway=tertiary_link",
+          "highway=primary_link",
+          "highway=secondary_link",
+          "highway=service",
+          "highway=footway",
+          "highway=pedestrian",
+          "highway=living_street",
+          "highway=traffic_signals",
+          "highway=crossing",
+          "highway=speed_camera",
+          "highway=speed_display",
+          "highway=traffic_signals",
+          "highway=crossing",
+          "highway=cycleway",
+          "highway=residential",
+          "highway=tertiary",
+          "highway=unclassified",
+          "highway=primary",
+          "highway=secondary",
+          "highway=tertiary_link",
+          "highway=primary_link",
+          "highway=secondary_link",
+          "highway=service",
+          "highway=footway",
+          "highway=pedestrian",
+          "highway=living_street",
+          {
+            "and": [
+              "bicycle=designated",
+              "highway=path"
+            ]
+          },
+          "emergency=defibrillator",
+          "indoor=door",
+          "indoor=room",
+          "indoor=wall",
+          "indoor=level",
+          "information=guidepost",
+          "leisure=dog_park",
+          {
+            "and": [
+              "dog=unleashed",
+              "leisure=park"
+            ]
+          },
+          "emergency=fire_extinguisher",
+          "highway=elevator",
+          "highway=crossing",
+          "indoor=room",
+          "indoor=area",
+          "indoor=wall",
+          "indoor=door",
+          "indoor=level",
+          "indoor=door",
+          "indoor=area",
+          "indoor=door",
+          "information=guidepost",
+          "information=map",
+          "information=board",
+          "information=map",
+          "isced:level:2011=early_childhood",
+          "isced:level:2011=early_childhood",
+          "leisure=picnic_table",
+          "leisure=hackerspace",
+          "leisure=bird_hide",
+          "leisure=nature_reserve",
+          "leisure=bird_hide",
+          "leisure=fitness_centre",
+          "leisure=fitness_station",
+          "leisure=hackerspace",
+          "leisure=nature_reserve",
+          "memorial=ghost_bike",
+          "memorial=ghost_bike",
+          "ngo=bicycle",
+          "ngo=cycling",
+          "ngo=bicycle",
+          "office=government",
+          "planned:amenity=charging_station",
+          "planned:amenity=charging_station",
+          "planned:amenity=charging_station",
+          "post_office=post_partner",
+          "service:bicycle:cleaning=yes",
+          "service:bicycle:cleaning=diy",
+          "service:bicycle:rental=yes",
+          "service:bicycle:rental=yes",
+          "shop=bicycle",
+          "shop=bicycle",
+          "sport=cycling",
+          "theme=bicycle",
+          "theme=cycling",
+          "tourism=artwork",
+          {
+            "and": [
+              "bicycle=designated",
+              "highway=path"
+            ]
+          },
+          {
+            "and": [
+              "sport=climbing",
+              {
+                "or": [
+                  "club~.+",
+                  "office~.+"
+                ]
+              }
+            ]
+          },
+          "information=guidepost",
+          {
+            "and": [
+              "shop=sports",
+              {
+                "or": [
+                  "sport=bicycle",
+                  "sport=cycling",
+                  "sport="
+                ]
+              },
+              "service:bicycle:retail!=no",
+              "service:bicycle:repair!=no"
+            ]
+          },
+          "ngo=cycling",
+          "service:bicycle:cleaning=yes",
+          "service:bicycle:cleaning=diy",
+          "service:bicycle:rental=yes",
+          "sport=cycling",
+          "theme=bicycle",
+          "theme=cycling",
+          {
+            "and": [
+              "amenity=school",
+              {
+                "or": [
+                  "isced:2011:level~.*bachelor.*",
+                  "isced:2011:level~.*master.*"
+                ]
+              }
+            ]
+          },
+          "tourism=hotel",
+          {
+            "and": [
+              "bicycle=designated",
+              "highway=path"
+            ]
+          },
+          "tourism=map",
+          {
+            "and": [
+              "boundary=protected_area",
+              "protect_class!=98"
+            ]
+          },
+          "amenity=bench",
+          "amenity=toilets",
+          "amenity=bar",
+          "amenity=pub",
+          "amenity=cafe",
+          "amenity=biergarten",
+          "amenity=nightclub",
+          "amenity=fast_food",
+          "amenity=restaurant",
+          "amenity=parking",
+          "amenity=parking_space",
+          "amenity=toilets",
+          "amenity=pharmacy",
+          "amenity=doctors",
+          "amenity=hospital",
+          "amenity=clinic",
+          "amenity=reception_desk",
+          "amenity=parking",
+          "barrier=kerb",
+          "barrier=wall",
+          "cyclestreet=yes",
+          "cycleway=lane",
+          "cycleway=shared_lane",
+          "cycleway=track",
+          "generator:source=wind",
+          "highway=cycleway",
+          "highway=residential",
+          "highway=tertiary",
+          "highway=unclassified",
+          "highway=primary",
+          "highway=secondary",
+          "highway=tertiary_link",
+          "highway=primary_link",
+          "highway=secondary_link",
+          "highway=service",
+          "highway=footway",
+          "highway=pedestrian",
+          "highway=living_street",
+          "highway=elevator",
+          "indoor=room",
+          "indoor=area",
+          "indoor=wall",
+          "indoor=door",
+          "indoor=level",
+          "indoor=door",
+          "information=map",
+          "information=board",
+          "information=guidepost",
+          "leisure=picnic_table",
+          "office=government",
+          "tourism=map",
+          "tourism=hotel",
+          "tower:type=observation",
+          {
+            "and": [
+              "bicycle=designated",
+              "highway=path"
+            ]
+          },
+          "tourism=artwork",
+          {
+            "and": [
+              "shop=sports",
+              {
+                "or": [
+                  "sport=bicycle",
+                  "sport=cycling",
+                  "sport="
+                ]
+              },
+              "service:bicycle:retail!=no",
+              "service:bicycle:repair!=no"
+            ]
+          },
+          {
+            "and": [
+              "sport=climbing",
+              {
+                "or": [
+                  "club~.+",
+                  "office~.+"
+                ]
+              }
+            ]
+          },
+          "tourism=hotel",
+          "tourism=map",
+          {
+            "and": [
+              "boundary=protected_area",
+              "protect_class!=98"
+            ]
+          },
+          "tower:type=observation",
+          {
+            "and": [
+              "vending=parcel_pickup;parcel_mail_in",
+              "amenity=vending_machine"
+            ]
+          },
+          "leisure=picnic_table",
+          "post_office=post_partner",
+          "surface:colour=rainbow",
+          {
+            "and": [
+              "footway=crossing",
+              "highway=footway"
+            ]
+          },
+          "amenity=reception_desk",
+          "amenity=recycling",
+          "amenity=school",
+          "amenity=shelter",
+          "amenity=shower",
+          "amenity=college",
+          "amenity=university",
+          "amenity=toilets",
+          "amenity=veterinary",
+          "amenity=waste_basket",
+          "amenity=waste_disposal",
+          "amenity=veterinary",
+          "amenity=fast_food",
+          "amenity=restaurant",
+          "amenity=waste_basket",
+          "amenity=bench",
+          "amenity=post_box",
+          "amenity=post_office",
+          "barrier=wall",
+          "cyclestreet=yes",
+          "cycleway=lane",
+          "cycleway=shared_lane",
+          "cycleway=track",
+          "generator:source=wind",
+          "highway=speed_camera",
+          "highway=speed_display",
+          "highway=steps",
+          "highway=street_lamp",
+          "leisure=pitch",
+          "leisure=sports_centre",
+          {
+            "and": [
+              "amenity=school",
+              {
+                "or": [
+                  "isced:2011:level~.*bachelor.*",
+                  "isced:2011:level~.*master.*"
+                ]
+              }
+            ]
+          },
+          "amenity=parcel_locker",
+          "highway=bus_stop",
+          "highway=crossing",
+          "highway=cycleway",
+          "highway=residential",
+          "highway=tertiary",
+          "highway=unclassified",
+          "highway=primary",
+          "highway=secondary",
+          "highway=tertiary_link",
+          "highway=primary_link",
+          "highway=secondary_link",
+          "highway=service",
+          "highway=footway",
+          "highway=pedestrian",
+          "highway=living_street",
+          "leisure=dog_park",
+          "leisure=picnic_table",
+          "natural=tree",
+          "surface:colour=rainbow",
+          "toilets=yes",
+          {
+            "and": [
+              "dog=unleashed",
+              "leisure=park"
+            ]
+          },
+          "post_office=post_partner",
+          {
+            "and": [
+              "vending=parcel_pickup;parcel_mail_in",
+              "amenity=vending_machine"
+            ]
+          },
+          {
+            "and": [
+              "footway=crossing",
+              "highway=footway"
+            ]
+          },
+          {
+            "and": [
+              "bicycle=designated",
+              "highway=path"
+            ]
+          },
+          "amenity=pharmacy",
+          "amenity=ice_cream",
+          "amenity=toilets",
+          "amenity=shower",
+          "amenity=bicycle_parking",
+          "amenity=parking",
+          "amenity=shelter",
+          "amenity=waste_basket",
+          "amenity=recycling",
+          "amenity=waste_disposal",
+          "amenity=waste_basket",
+          "barrier=wall",
+          "highway=street_lamp",
+          "highway=bus_stop",
+          "leisure=pitch",
+          "leisure=pitch",
+          "leisure=fitness_centre",
+          "leisure=fitness_station",
+          "leisure=sports_centre",
+          "natural=tree",
+          "toilets=yes",
+          {
+            "and": [
+              "sport=climbing",
+              "climbing!~route",
+              "climbing!=route_top",
+              "climbing!=route_bottom",
+              "leisure!~sports_centre"
+            ]
+          },
+          {
+            "and": [
+              "climbing=",
+              {
+                "or": [
+                  "barrier=retaining_wall",
+                  "natural=cliff",
+                  "natural=rock",
+                  "natural=stone"
+                ]
+              },
+              "sport!=climbing"
+            ]
+          },
+          {
+            "and": [
+              {
+                "or": [
+                  "craft=shoe_repair",
+                  "craft=key_cutter",
+                  "shop~.+"
+                ]
+              },
+              "shop!=mall"
+            ]
+          },
+          {
+            "and": [
+              {
+                "or": [
+                  "amenity=drinking_water",
+                  "disused:amenity=drinking_water",
+                  "drinking_water=yes"
+                ]
+              },
+              "man_made!=reservoir_covered",
+              "access!=permissive",
+              "access!=private"
+            ]
+          },
+          {
+            "and": [
+              "amenity=vending_machine",
+              "vending~.*bicycle_tube.*"
+            ]
+          },
+          {
+            "and": [
+              {
+                "or": [
+                  "amenity=drinking_water",
+                  "disused:amenity=drinking_water",
+                  "drinking_water=yes"
+                ]
+              },
+              "man_made!=reservoir_covered",
+              "access!=permissive",
+              "access!=private"
+            ]
+          },
+          {
+            "and": [
+              {
+                "or": [
+                  "amenity=drinking_water",
+                  "disused:amenity=drinking_water",
+                  "drinking_water=yes"
+                ]
+              },
+              "man_made!=reservoir_covered",
+              "access!=permissive",
+              "access!=private"
+            ]
+          },
+          {
+            "and": [
+              "vending=elongated_coin",
+              "amenity=vending_machine"
+            ]
+          },
+          {
+            "and": [
+              {
+                "or": [
+                  "craft=shoe_repair",
+                  "craft=key_cutter",
+                  "shop~.+"
+                ]
+              },
+              "shop!=mall"
+            ]
+          },
+          {
+            "and": [
+              {
+                "or": [
+                  "highway=motorway",
+                  "highway=trunk",
+                  "highway=motorway",
+                  "highway=trunk_link",
+                  "highway=motorway_link"
+                ]
+              },
+              "area!=yes",
+              "type!=multipolygon"
+            ]
+          },
+          {
+            "and": [
+              {
+                "or": [
+                  "amenity=drinking_water",
+                  "disused:amenity=drinking_water",
+                  "drinking_water=yes"
+                ]
+              },
+              "man_made!=reservoir_covered",
+              "access!=permissive",
+              "access!=private"
+            ]
+          },
+          {
+            "and": [
+              {
+                "or": [
+                  "craft=shoe_repair",
+                  "craft=key_cutter",
+                  "shop~.+"
+                ]
+              },
+              "shop!=mall"
+            ]
+          },
+          {
+            "and": [
+              "vending=parking_tickets",
+              "amenity=vending_machine"
+            ]
+          },
+          {
+            "and": [
+              "amenity=vending_machine",
+              "vending~.*bicycle_tube.*"
+            ]
+          },
+          {
+            "and": [
+              "sport=climbing",
+              "climbing!~route",
+              "climbing!=route_top",
+              "climbing!=route_bottom",
+              "leisure!~sports_centre"
+            ]
+          },
+          {
+            "and": [
+              "climbing=",
+              {
+                "or": [
+                  "barrier=retaining_wall",
+                  "natural=cliff",
+                  "natural=rock",
+                  "natural=stone"
+                ]
+              },
+              "sport!=climbing"
+            ]
+          },
+          {
+            "and": [
+              {
+                "or": [
+                  "amenity=drinking_water",
+                  "disused:amenity=drinking_water",
+                  "drinking_water=yes"
+                ]
+              },
+              "man_made!=reservoir_covered",
+              "access!=permissive",
+              "access!=private"
+            ]
+          },
+          {
+            "and": [
+              "vending=elongated_coin",
+              "amenity=vending_machine"
+            ]
+          },
+          {
+            "and": [
+              {
+                "or": [
+                  "highway=motorway",
+                  "highway=trunk",
+                  "highway=motorway",
+                  "highway=trunk_link",
+                  "highway=motorway_link"
+                ]
+              },
+              "area!=yes",
+              "type!=multipolygon"
+            ]
+          },
+          {
+            "and": [
+              "vending=parking_tickets",
+              "amenity=vending_machine"
+            ]
+          },
+          {
+            "and": [
+              "leisure=playground",
+              "playground!=forest"
+            ]
+          },
+          {
+            "and": [
+              {
+                "or": [
+                  "craft=shoe_repair",
+                  "craft=key_cutter",
+                  "shop~.+"
+                ]
+              },
+              "shop!=mall"
+            ]
+          },
+          {
+            "and": [
+              "man_made=surveillance",
+              {
+                "or": [
+                  "surveillance:type=camera",
+                  "surveillance:type=ALPR",
+                  "surveillance:type=ANPR"
+                ]
+              }
+            ]
+          },
+          {
+            "and": [
+              "vending=public_transport_tickets",
+              "amenity=vending_machine"
+            ]
+          },
+          {
+            "and": [
+              "route=bus",
+              "type=route"
+            ]
+          },
+          {
+            "and": [
+              "amenity=vending_machine",
+              "vending!~(parking_tickets|public_transport_tickets|bottle_return|excrement_bags|elongated_coin)"
+            ]
+          },
+          {
+            "and": [
+              {
+                "or": [
+                  "craft=shoe_repair",
+                  "craft=key_cutter",
+                  "shop~.+"
+                ]
+              },
+              "shop!=mall"
+            ]
+          },
+          {
+            "and": [
+              "leisure=playground",
+              "playground!=forest"
+            ]
+          },
+          {
+            "and": [
+              {
+                "or": [
+                  "craft=shoe_repair",
+                  "craft=key_cutter",
+                  "shop~.+"
+                ]
+              },
+              "shop!=mall"
+            ]
+          },
+          {
+            "and": [
+              "man_made=surveillance",
+              {
+                "or": [
+                  "surveillance:type=camera",
+                  "surveillance:type=ALPR",
+                  "surveillance:type=ANPR"
+                ]
+              }
+            ]
+          },
+          {
+            "and": [
+              "route=bus",
+              "type=route"
+            ]
+          },
+          {
+            "and": [
+              "amenity=vending_machine",
+              "vending!~(parking_tickets|public_transport_tickets|bottle_return|excrement_bags|elongated_coin)"
+            ]
+          },
+          {
+            "and": [
+              "vending=parking_tickets",
+              "amenity=vending_machine"
+            ]
+          },
+          {
+            "and": [
+              "vending=elongated_coin",
+              "amenity=vending_machine"
+            ]
+          },
+          {
+            "and": [
+              "vending=public_transport_tickets",
+              "amenity=vending_machine"
+            ]
+          },
+          "FIXME~.+",
+          "FIXME~.+",
+          "advertising~.+",
+          "advertising~.+",
+          "bicycle_rental~.+",
+          "bicycle_rental~.+",
+          "bicycle_rental~.+",
+          "building~.+",
+          "building~.+",
+          "building~.+",
+          "building~.+",
+          "building~.+",
+          "building~.+",
+          "building~.+",
+          "building~.+",
+          "building~.+",
+          "door~.+",
+          "door~.+",
+          "door~.+",
+          "entrance~.+",
+          "entrance~.+",
+          "entrance~.+",
+          "fixme~.+",
+          "fixme~.+",
+          "name:etymology~.+",
+          "name:etymology~.+",
+          "name:etymology:wikidata~.+",
+          "name:etymology:wikidata~.+",
+          "rental~.*bicycle.*",
+          "rental~.*bicycle.*",
+          "rental~.*bicycle.*"
+        ]
+      }
+    },
+    {
       "id": "type",
       "render": {
         "ca": "Açò és un {advertising}",
@@ -18382,7 +19314,7 @@
         "ja": "{title()}のEメールアドレスは何ですか？",
         "sl": "Kakšen naslov elektronske pošte ima {title()}?",
         "fil": "Ano ang email address ng {title()}?",
-        "es": "¿Cual es la direccióm de correo electrónico de {title()}?",
+        "es": "¿Cuál es la dirección de correo electrónico de {title()}?",
         "zh_Hans": "{title()} 的电子邮箱地址为何？",
         "da": "Hvad er mailadressen på {title()}?",
         "cs": "Jaká je e-mailová adresa {title()}?"
@@ -29661,7 +30593,8 @@
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:schuko}</b> plugs of type <b>Schuko wall plug</b> without ground pin (CEE7/4 type F) available here",
-        "nl": "Hier zijn <b class='text-xl'>{socket:schuko}</b> stekkers van het type <b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F)"
+        "nl": "Hier zijn <b class='text-xl'>{socket:schuko}</b> stekkers van het type <b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F)",
+        "de": "Hier sind <b class='text-xl'>{socket:schuko}</b> Stecker vom Typ [object Object] verfügbar"
       },
       "icon": "./assets/layers/charging_station/CEE7_4F.svg",
       "freeform": {
@@ -29697,7 +30630,8 @@
       },
       "render": {
         "en": "<b>Schuko wall plug</b> without ground pin (CEE7/4 type F) outputs {canonical(socket:schuko:voltage)}",
-        "nl": "<b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F) heeft een spanning van {canonical(socket:schuko:voltage)}"
+        "nl": "<b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F) heeft een spanning van {canonical(socket:schuko:voltage)}",
+        "de": "[object Object] liefert {canonical(socket:schuko:voltage)}"
       },
       "freeform": {
         "key": "socket:schuko:voltage",
@@ -29737,7 +30671,8 @@
       ],
       "question": {
         "en": "What current do the plugs with <b>Schuko wall plug</b> without ground pin (CEE7/4 type F) offer?",
-        "nl": "Welke stroom levert de stekker van type <b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F)?"
+        "nl": "Welke stroom levert de stekker van type <b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F)?",
+        "de": "Welchen Strom bieten die Stecker mit [object Object]?"
       },
       "render": {
         "en": "<b>Schuko wall plug</b> without ground pin (CEE7/4 type F) outputs at most {canonical(socket:schuko:current)}",
@@ -29753,7 +30688,8 @@
           "if": "socket:schuko:current=16 A",
           "then": {
             "en": "<b>Schuko wall plug</b> without ground pin (CEE7/4 type F) outputs at most 16 A",
-            "nl": "<b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F) levert een stroom van maximaal 16 A"
+            "nl": "<b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F) levert een stroom van maximaal 16 A",
+            "de": "[object Object] liefert maximal 16 A"
           }
         }
       ],
@@ -29826,7 +30762,8 @@
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:typee}</b> plugs of type <b>European wall plug</b> with ground pin (CEE7/4 type E) available here",
-        "nl": "Hier zijn <b class='text-xl'>{socket:typee}</b> stekkers van het type <b>Europese stekker</b> met aardingspin (CEE7/4 type E)"
+        "nl": "Hier zijn <b class='text-xl'>{socket:typee}</b> stekkers van het type <b>Europese stekker</b> met aardingspin (CEE7/4 type E)",
+        "de": "Hier sind <b class='text-xl'>{socket:typee}</b> Stecker vom Typ [object Object] verfügbar"
       },
       "icon": "./assets/layers/charging_station/TypeE.svg",
       "freeform": {
@@ -29862,7 +30799,8 @@
       },
       "render": {
         "en": "<b>European wall plug</b> with ground pin (CEE7/4 type E) outputs {canonical(socket:typee:voltage)}",
-        "nl": "<b>Europese stekker</b> met aardingspin (CEE7/4 type E) heeft een spanning van {canonical(socket:typee:voltage)}"
+        "nl": "<b>Europese stekker</b> met aardingspin (CEE7/4 type E) heeft een spanning van {canonical(socket:typee:voltage)}",
+        "de": "[object Object] liefert {canonical(socket:typee:voltage)}"
       },
       "freeform": {
         "key": "socket:typee:voltage",
@@ -29902,7 +30840,8 @@
       ],
       "question": {
         "en": "What current do the plugs with <b>European wall plug</b> with ground pin (CEE7/4 type E) offer?",
-        "nl": "Welke stroom levert de stekker van type <b>Europese stekker</b> met aardingspin (CEE7/4 type E)?"
+        "nl": "Welke stroom levert de stekker van type <b>Europese stekker</b> met aardingspin (CEE7/4 type E)?",
+        "de": "Welchen Strom bieten die Stecker mit [object Object]?"
       },
       "render": {
         "en": "<b>European wall plug</b> with ground pin (CEE7/4 type E) outputs at most {canonical(socket:typee:current)}",
@@ -29918,7 +30857,8 @@
           "if": "socket:typee:current=16 A",
           "then": {
             "en": "<b>European wall plug</b> with ground pin (CEE7/4 type E) outputs at most 16 A",
-            "nl": "<b>Europese stekker</b> met aardingspin (CEE7/4 type E) levert een stroom van maximaal 16 A"
+            "nl": "<b>Europese stekker</b> met aardingspin (CEE7/4 type E) levert een stroom van maximaal 16 A",
+            "de": "[object Object] liefert maximal 16 A"
           }
         }
       ],
@@ -29998,7 +30938,8 @@
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:chademo}</b> plugs of type <b>Chademo</b> available here",
-        "nl": "Hier zijn <b class='text-xl'>{socket:chademo}</b> stekkers van het type <b>Chademo</b>"
+        "nl": "Hier zijn <b class='text-xl'>{socket:chademo}</b> stekkers van het type <b>Chademo</b>",
+        "de": "Hier sind <b class='text-xl'>{socket:chademo}</b> Stecker vom Typ [object Object] verfügbar"
       },
       "icon": "./assets/layers/charging_station/Chademo_type4.svg",
       "freeform": {
@@ -30034,7 +30975,8 @@
       },
       "render": {
         "en": "<b>Chademo</b> outputs {canonical(socket:chademo:voltage)}",
-        "nl": "<b>Chademo</b> heeft een spanning van {canonical(socket:chademo:voltage)}"
+        "nl": "<b>Chademo</b> heeft een spanning van {canonical(socket:chademo:voltage)}",
+        "de": "[object Object] liefert {canonical(socket:chademo:voltage)}"
       },
       "freeform": {
         "key": "socket:chademo:voltage",
@@ -30074,7 +31016,8 @@
       ],
       "question": {
         "en": "What current do the plugs with <b>Chademo</b> offer?",
-        "nl": "Welke stroom levert de stekker van type <b>Chademo</b>?"
+        "nl": "Welke stroom levert de stekker van type <b>Chademo</b>?",
+        "de": "Welchen Strom bieten die Stecker mit [object Object]?"
       },
       "render": {
         "en": "<b>Chademo</b> outputs at most {canonical(socket:chademo:current)}",
@@ -30090,7 +31033,8 @@
           "if": "socket:chademo:current=120 A",
           "then": {
             "en": "<b>Chademo</b> outputs at most 120 A",
-            "nl": "<b>Chademo</b> levert een stroom van maximaal 120 A"
+            "nl": "<b>Chademo</b> levert een stroom van maximaal 120 A",
+            "de": "[object Object] liefert maximal 120 A"
           }
         }
       ],
@@ -30163,7 +31107,8 @@
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:type1_cable}</b> plugs of type <b>Type 1 with cable</b> (J1772) available here",
-        "nl": "Hier zijn <b class='text-xl'>{socket:type1_cable}</b> stekkers van het type <b>Type 1 met kabel</b> (J1772)"
+        "nl": "Hier zijn <b class='text-xl'>{socket:type1_cable}</b> stekkers van het type <b>Type 1 met kabel</b> (J1772)",
+        "de": "Hier sind <b class='text-xl'>{socket:type1_cable}</b> Stecker vom Typ [object Object] verfügbar"
       },
       "icon": "./assets/layers/charging_station/Type1_J1772.svg",
       "freeform": {
@@ -30199,7 +31144,8 @@
       },
       "render": {
         "en": "<b>Type 1 with cable</b> (J1772) outputs {canonical(socket:type1_cable:voltage)}",
-        "nl": "<b>Type 1 met kabel</b> (J1772) heeft een spanning van {canonical(socket:type1_cable:voltage)}"
+        "nl": "<b>Type 1 met kabel</b> (J1772) heeft een spanning van {canonical(socket:type1_cable:voltage)}",
+        "de": "[object Object] liefert {canonical(socket:type1_cable:voltage)}"
       },
       "freeform": {
         "key": "socket:type1_cable:voltage",
@@ -30248,7 +31194,8 @@
       ],
       "question": {
         "en": "What current do the plugs with <b>Type 1 with cable</b> (J1772) offer?",
-        "nl": "Welke stroom levert de stekker van type <b>Type 1 met kabel</b> (J1772)?"
+        "nl": "Welke stroom levert de stekker van type <b>Type 1 met kabel</b> (J1772)?",
+        "de": "Welchen Strom bieten die Stecker mit [object Object]?"
       },
       "render": {
         "en": "<b>Type 1 with cable</b> (J1772) outputs at most {canonical(socket:type1_cable:current)}",
@@ -30264,7 +31211,8 @@
           "if": "socket:type1_cable:current=32 A",
           "then": {
             "en": "<b>Type 1 with cable</b> (J1772) outputs at most 32 A",
-            "nl": "<b>Type 1 met kabel</b> (J1772) levert een stroom van maximaal 32 A"
+            "nl": "<b>Type 1 met kabel</b> (J1772) levert een stroom van maximaal 32 A",
+            "de": "[object Object] liefert maximal 32 A"
           }
         }
       ],
@@ -30344,7 +31292,8 @@
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:type1}</b> plugs of type <b>Type 1 <i>without</i> cable</b> (J1772) available here",
-        "nl": "Hier zijn <b class='text-xl'>{socket:type1}</b> stekkers van het type <b>Type 1 <i>zonder</i> kabel</b> (J1772)"
+        "nl": "Hier zijn <b class='text-xl'>{socket:type1}</b> stekkers van het type <b>Type 1 <i>zonder</i> kabel</b> (J1772)",
+        "de": "Hier sind <b class='text-xl'>{socket:type1}</b> Stecker vom Typ [object Object] verfügbar"
       },
       "icon": "./assets/layers/charging_station/Type1_J1772.svg",
       "freeform": {
@@ -30380,7 +31329,8 @@
       },
       "render": {
         "en": "<b>Type 1 <i>without</i> cable</b> (J1772) outputs {canonical(socket:type1:voltage)}",
-        "nl": "<b>Type 1 <i>zonder</i> kabel</b> (J1772) heeft een spanning van {canonical(socket:type1:voltage)}"
+        "nl": "<b>Type 1 <i>zonder</i> kabel</b> (J1772) heeft een spanning van {canonical(socket:type1:voltage)}",
+        "de": "[object Object] liefert {canonical(socket:type1:voltage)}"
       },
       "freeform": {
         "key": "socket:type1:voltage",
@@ -30429,7 +31379,8 @@
       ],
       "question": {
         "en": "What current do the plugs with <b>Type 1 <i>without</i> cable</b> (J1772) offer?",
-        "nl": "Welke stroom levert de stekker van type <b>Type 1 <i>zonder</i> kabel</b> (J1772)?"
+        "nl": "Welke stroom levert de stekker van type <b>Type 1 <i>zonder</i> kabel</b> (J1772)?",
+        "de": "Welchen Strom bieten die Stecker mit [object Object]?"
       },
       "render": {
         "en": "<b>Type 1 <i>without</i> cable</b> (J1772) outputs at most {canonical(socket:type1:current)}",
@@ -30445,7 +31396,8 @@
           "if": "socket:type1:current=32 A",
           "then": {
             "en": "<b>Type 1 <i>without</i> cable</b> (J1772) outputs at most 32 A",
-            "nl": "<b>Type 1 <i>zonder</i> kabel</b> (J1772) levert een stroom van maximaal 32 A"
+            "nl": "<b>Type 1 <i>zonder</i> kabel</b> (J1772) levert een stroom van maximaal 32 A",
+            "de": "[object Object] liefert maximal 32 A"
           }
         }
       ],
@@ -30539,7 +31491,8 @@
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:type1_combo}</b> plugs of type <b>Type 1 CCS</b> (aka Type 1 Combo) available here",
-        "nl": "Hier zijn <b class='text-xl'>{socket:type1_combo}</b> stekkers van het type <b>Type 1 CCS</b> (ook gekend als Type 1 Combo)"
+        "nl": "Hier zijn <b class='text-xl'>{socket:type1_combo}</b> stekkers van het type <b>Type 1 CCS</b> (ook gekend als Type 1 Combo)",
+        "de": "Hier sind <b class='text-xl'>{socket:type1_combo}</b> Stecker vom Typ [object Object] verfügbar"
       },
       "icon": "./assets/layers/charging_station/Type1-ccs.svg",
       "freeform": {
@@ -30575,7 +31528,8 @@
       },
       "render": {
         "en": "<b>Type 1 CCS</b> (aka Type 1 Combo) outputs {canonical(socket:type1_combo:voltage)}",
-        "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo) heeft een spanning van {canonical(socket:type1_combo:voltage)}"
+        "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo) heeft een spanning van {canonical(socket:type1_combo:voltage)}",
+        "de": "[object Object] liefert {canonical(socket:type1_combo:voltage)}"
       },
       "freeform": {
         "key": "socket:type1_combo:voltage",
@@ -30624,7 +31578,8 @@
       ],
       "question": {
         "en": "What current do the plugs with <b>Type 1 CCS</b> (aka Type 1 Combo) offer?",
-        "nl": "Welke stroom levert de stekker van type <b>Type 1 CCS</b> (ook gekend als Type 1 Combo)?"
+        "nl": "Welke stroom levert de stekker van type <b>Type 1 CCS</b> (ook gekend als Type 1 Combo)?",
+        "de": "Welchen Strom bieten die Stecker mit [object Object]?"
       },
       "render": {
         "en": "<b>Type 1 CCS</b> (aka Type 1 Combo) outputs at most {canonical(socket:type1_combo:current)}",
@@ -30640,14 +31595,16 @@
           "if": "socket:type1_combo:current=50 A",
           "then": {
             "en": "<b>Type 1 CCS</b> (aka Type 1 Combo) outputs at most 50 A",
-            "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo) levert een stroom van maximaal 50 A"
+            "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo) levert een stroom van maximaal 50 A",
+            "de": "[object Object] liefert maximal 50 A"
           }
         },
         {
           "if": "socket:type1_combo:current=125 A",
           "then": {
             "en": "<b>Type 1 CCS</b> (aka Type 1 Combo) outputs at most 125 A",
-            "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo) levert een stroom van maximaal 125 A"
+            "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo) levert een stroom van maximaal 125 A",
+            "de": "[object Object] liefert maximal 125 A"
           }
         }
       ],
@@ -30741,7 +31698,8 @@
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:tesla_supercharger}</b> plugs of type <b>Tesla Supercharger</b> available here",
-        "nl": "Hier zijn <b class='text-xl'>{socket:tesla_supercharger}</b> stekkers van het type <b>Tesla Supercharger</b>"
+        "nl": "Hier zijn <b class='text-xl'>{socket:tesla_supercharger}</b> stekkers van het type <b>Tesla Supercharger</b>",
+        "de": "Hier sind <b class='text-xl'>{socket:tesla_supercharger}</b> Stecker vom Typ [object Object] verfügbar"
       },
       "icon": "./assets/layers/charging_station/Tesla-hpwc-model-s.svg",
       "freeform": {
@@ -30777,7 +31735,8 @@
       },
       "render": {
         "en": "<b>Tesla Supercharger</b> outputs {canonical(socket:tesla_supercharger:voltage)}",
-        "nl": "<b>Tesla Supercharger</b> heeft een spanning van {canonical(socket:tesla_supercharger:voltage)}"
+        "nl": "<b>Tesla Supercharger</b> heeft een spanning van {canonical(socket:tesla_supercharger:voltage)}",
+        "de": "[object Object] liefert {canonical(socket:tesla_supercharger:voltage)}"
       },
       "freeform": {
         "key": "socket:tesla_supercharger:voltage",
@@ -30817,7 +31776,8 @@
       ],
       "question": {
         "en": "What current do the plugs with <b>Tesla Supercharger</b> offer?",
-        "nl": "Welke stroom levert de stekker van type <b>Tesla Supercharger</b>?"
+        "nl": "Welke stroom levert de stekker van type <b>Tesla Supercharger</b>?",
+        "de": "Welchen Strom bieten die Stecker mit [object Object]?"
       },
       "render": {
         "en": "<b>Tesla Supercharger</b> outputs at most {canonical(socket:tesla_supercharger:current)}",
@@ -30833,14 +31793,16 @@
           "if": "socket:tesla_supercharger:current=125 A",
           "then": {
             "en": "<b>Tesla Supercharger</b> outputs at most 125 A",
-            "nl": "<b>Tesla Supercharger</b> levert een stroom van maximaal 125 A"
+            "nl": "<b>Tesla Supercharger</b> levert een stroom van maximaal 125 A",
+            "de": "[object Object] liefert maximal 125 A"
           }
         },
         {
           "if": "socket:tesla_supercharger:current=350 A",
           "then": {
             "en": "<b>Tesla Supercharger</b> outputs at most 350 A",
-            "nl": "<b>Tesla Supercharger</b> levert een stroom van maximaal 350 A"
+            "nl": "<b>Tesla Supercharger</b> levert een stroom van maximaal 350 A",
+            "de": "[object Object] liefert maximal 350 A"
           }
         }
       ],
@@ -30927,7 +31889,8 @@
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:type2}</b> plugs of type <b>Type 2</b> (mennekes) available here",
-        "nl": "Hier zijn <b class='text-xl'>{socket:type2}</b> stekkers van het type <b>Type 2</b> (mennekes)"
+        "nl": "Hier zijn <b class='text-xl'>{socket:type2}</b> stekkers van het type <b>Type 2</b> (mennekes)",
+        "de": "Hier sind <b class='text-xl'>{socket:type2}</b> Stecker vom Typ [object Object] verfügbar"
       },
       "icon": "./assets/layers/charging_station/Type2_socket.svg",
       "freeform": {
@@ -30963,7 +31926,8 @@
       },
       "render": {
         "en": "<b>Type 2</b> (mennekes) outputs {canonical(socket:type2:voltage)}",
-        "nl": "<b>Type 2</b> (mennekes) heeft een spanning van {canonical(socket:type2:voltage)}"
+        "nl": "<b>Type 2</b> (mennekes) heeft een spanning van {canonical(socket:type2:voltage)}",
+        "de": "[object Object] liefert {canonical(socket:type2:voltage)}"
       },
       "freeform": {
         "key": "socket:type2:voltage",
@@ -31012,7 +31976,8 @@
       ],
       "question": {
         "en": "What current do the plugs with <b>Type 2</b> (mennekes) offer?",
-        "nl": "Welke stroom levert de stekker van type <b>Type 2</b> (mennekes)?"
+        "nl": "Welke stroom levert de stekker van type <b>Type 2</b> (mennekes)?",
+        "de": "Welchen Strom bieten die Stecker mit [object Object]?"
       },
       "render": {
         "en": "<b>Type 2</b> (mennekes) outputs at most {canonical(socket:type2:current)}",
@@ -31028,14 +31993,16 @@
           "if": "socket:type2:current=16 A",
           "then": {
             "en": "<b>Type 2</b> (mennekes) outputs at most 16 A",
-            "nl": "<b>Type 2</b> (mennekes) levert een stroom van maximaal 16 A"
+            "nl": "<b>Type 2</b> (mennekes) levert een stroom van maximaal 16 A",
+            "de": "[object Object] liefert maximal 16 A"
           }
         },
         {
           "if": "socket:type2:current=32 A",
           "then": {
             "en": "<b>Type 2</b> (mennekes) outputs at most 32 A",
-            "nl": "<b>Type 2</b> (mennekes) levert een stroom van maximaal 32 A"
+            "nl": "<b>Type 2</b> (mennekes) levert een stroom van maximaal 32 A",
+            "de": "[object Object] liefert maximal 32 A"
           }
         }
       ],
@@ -31115,7 +32082,8 @@
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:type2_combo}</b> plugs of type <b>Type 2 CCS</b> (mennekes) available here",
-        "nl": "Hier zijn <b class='text-xl'>{socket:type2_combo}</b> stekkers van het type <b>Type 2 CCS</b> (mennekes)"
+        "nl": "Hier zijn <b class='text-xl'>{socket:type2_combo}</b> stekkers van het type <b>Type 2 CCS</b> (mennekes)",
+        "de": "Hier sind <b class='text-xl'>{socket:type2_combo}</b> Stecker vom Typ [object Object] verfügbar"
       },
       "icon": "./assets/layers/charging_station/Type2_CCS.svg",
       "freeform": {
@@ -31151,7 +32119,8 @@
       },
       "render": {
         "en": "<b>Type 2 CCS</b> (mennekes) outputs {canonical(socket:type2_combo:voltage)}",
-        "nl": "<b>Type 2 CCS</b> (mennekes) heeft een spanning van {canonical(socket:type2_combo:voltage)}"
+        "nl": "<b>Type 2 CCS</b> (mennekes) heeft een spanning van {canonical(socket:type2_combo:voltage)}",
+        "de": "[object Object] liefert {canonical(socket:type2_combo:voltage)}"
       },
       "freeform": {
         "key": "socket:type2_combo:voltage",
@@ -31200,7 +32169,8 @@
       ],
       "question": {
         "en": "What current do the plugs with <b>Type 2 CCS</b> (mennekes) offer?",
-        "nl": "Welke stroom levert de stekker van type <b>Type 2 CCS</b> (mennekes)?"
+        "nl": "Welke stroom levert de stekker van type <b>Type 2 CCS</b> (mennekes)?",
+        "de": "Welchen Strom bieten die Stecker mit [object Object]?"
       },
       "render": {
         "en": "<b>Type 2 CCS</b> (mennekes) outputs at most {canonical(socket:type2_combo:current)}",
@@ -31216,14 +32186,16 @@
           "if": "socket:type2_combo:current=125 A",
           "then": {
             "en": "<b>Type 2 CCS</b> (mennekes) outputs at most 125 A",
-            "nl": "<b>Type 2 CCS</b> (mennekes) levert een stroom van maximaal 125 A"
+            "nl": "<b>Type 2 CCS</b> (mennekes) levert een stroom van maximaal 125 A",
+            "de": "[object Object] liefert maximal 125 A"
           }
         },
         {
           "if": "socket:type2_combo:current=350 A",
           "then": {
             "en": "<b>Type 2 CCS</b> (mennekes) outputs at most 350 A",
-            "nl": "<b>Type 2 CCS</b> (mennekes) levert een stroom van maximaal 350 A"
+            "nl": "<b>Type 2 CCS</b> (mennekes) levert een stroom van maximaal 350 A",
+            "de": "[object Object] liefert maximal 350 A"
           }
         }
       ],
@@ -31296,7 +32268,8 @@
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:type2_cable}</b> plugs of type <b>Type 2 with cable</b> (mennekes) available here",
-        "nl": "Hier zijn <b class='text-xl'>{socket:type2_cable}</b> stekkers van het type <b>Type 2 met kabel</b> (J1772)"
+        "nl": "Hier zijn <b class='text-xl'>{socket:type2_cable}</b> stekkers van het type <b>Type 2 met kabel</b> (J1772)",
+        "de": "Hier sind <b class='text-xl'>{socket:type2_cable}</b> Stecker vom Typ [object Object] verfügbar"
       },
       "icon": "./assets/layers/charging_station/Type2_tethered.svg",
       "freeform": {
@@ -31332,7 +32305,8 @@
       },
       "render": {
         "en": "<b>Type 2 with cable</b> (mennekes) outputs {canonical(socket:type2_cable:voltage)}",
-        "nl": "<b>Type 2 met kabel</b> (J1772) heeft een spanning van {canonical(socket:type2_cable:voltage)}"
+        "nl": "<b>Type 2 met kabel</b> (J1772) heeft een spanning van {canonical(socket:type2_cable:voltage)}",
+        "de": "[object Object] liefert {canonical(socket:type2_cable:voltage)}"
       },
       "freeform": {
         "key": "socket:type2_cable:voltage",
@@ -31381,7 +32355,8 @@
       ],
       "question": {
         "en": "What current do the plugs with <b>Type 2 with cable</b> (mennekes) offer?",
-        "nl": "Welke stroom levert de stekker van type <b>Type 2 met kabel</b> (J1772)?"
+        "nl": "Welke stroom levert de stekker van type <b>Type 2 met kabel</b> (J1772)?",
+        "de": "Welchen Strom bieten die Stecker mit [object Object]?"
       },
       "render": {
         "en": "<b>Type 2 with cable</b> (mennekes) outputs at most {canonical(socket:type2_cable:current)}",
@@ -31397,14 +32372,16 @@
           "if": "socket:type2_cable:current=16 A",
           "then": {
             "en": "<b>Type 2 with cable</b> (mennekes) outputs at most 16 A",
-            "nl": "<b>Type 2 met kabel</b> (J1772) levert een stroom van maximaal 16 A"
+            "nl": "<b>Type 2 met kabel</b> (J1772) levert een stroom van maximaal 16 A",
+            "de": "[object Object] liefert maximal 16 A"
           }
         },
         {
           "if": "socket:type2_cable:current=32 A",
           "then": {
             "en": "<b>Type 2 with cable</b> (mennekes) outputs at most 32 A",
-            "nl": "<b>Type 2 met kabel</b> (J1772) levert een stroom van maximaal 32 A"
+            "nl": "<b>Type 2 met kabel</b> (J1772) levert een stroom van maximaal 32 A",
+            "de": "[object Object] liefert maximal 32 A"
           }
         }
       ],
@@ -31484,7 +32461,8 @@
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:tesla_supercharger_ccs}</b> plugs of type <b>Tesla Supercharger CCS</b> (a branded type2_css) available here",
-        "nl": "Hier zijn <b class='text-xl'>{socket:tesla_supercharger_ccs}</b> stekkers van het type <b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo)"
+        "nl": "Hier zijn <b class='text-xl'>{socket:tesla_supercharger_ccs}</b> stekkers van het type <b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo)",
+        "de": "Hier sind <b class='text-xl'>{socket:tesla_supercharger_ccs}</b> Stecker vom Typ [object Object] verfügbar"
       },
       "icon": "./assets/layers/charging_station/Type2_CCS.svg",
       "freeform": {
@@ -31520,7 +32498,8 @@
       },
       "render": {
         "en": "<b>Tesla Supercharger CCS</b> (a branded type2_css) outputs {canonical(socket:tesla_supercharger_ccs:voltage)}",
-        "nl": "<b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo) heeft een spanning van {canonical(socket:tesla_supercharger_ccs:voltage)}"
+        "nl": "<b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo) heeft een spanning van {canonical(socket:tesla_supercharger_ccs:voltage)}",
+        "de": "[object Object] liefert {canonical(socket:tesla_supercharger_ccs:voltage)}"
       },
       "freeform": {
         "key": "socket:tesla_supercharger_ccs:voltage",
@@ -31569,7 +32548,8 @@
       ],
       "question": {
         "en": "What current do the plugs with <b>Tesla Supercharger CCS</b> (a branded type2_css) offer?",
-        "nl": "Welke stroom levert de stekker van type <b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo)?"
+        "nl": "Welke stroom levert de stekker van type <b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo)?",
+        "de": "Welchen Strom bieten die Stecker mit [object Object]?"
       },
       "render": {
         "en": "<b>Tesla Supercharger CCS</b> (a branded type2_css) outputs at most {canonical(socket:tesla_supercharger_ccs:current)}",
@@ -31585,14 +32565,16 @@
           "if": "socket:tesla_supercharger_ccs:current=125 A",
           "then": {
             "en": "<b>Tesla Supercharger CCS</b> (a branded type2_css) outputs at most 125 A",
-            "nl": "<b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo) levert een stroom van maximaal 125 A"
+            "nl": "<b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo) levert een stroom van maximaal 125 A",
+            "de": "[object Object] liefert maximal 125 A"
           }
         },
         {
           "if": "socket:tesla_supercharger_ccs:current=350 A",
           "then": {
             "en": "<b>Tesla Supercharger CCS</b> (a branded type2_css) outputs at most 350 A",
-            "nl": "<b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo) levert een stroom van maximaal 350 A"
+            "nl": "<b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo) levert een stroom van maximaal 350 A",
+            "de": "[object Object] liefert maximal 350 A"
           }
         }
       ],
@@ -31665,7 +32647,8 @@
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:tesla_destination}</b> plugs of type <b>Tesla Supercharger (destination)</b> available here",
-        "nl": "Hier zijn <b class='text-xl'>{socket:tesla_destination}</b> stekkers van het type <b>Tesla Supercharger (destination)</b>"
+        "nl": "Hier zijn <b class='text-xl'>{socket:tesla_destination}</b> stekkers van het type <b>Tesla Supercharger (destination)</b>",
+        "de": "Hier sind <b class='text-xl'>{socket:tesla_destination}</b> Stecker vom Typ [object Object] verfügbar"
       },
       "icon": "./assets/layers/charging_station/Tesla-hpwc-model-s.svg",
       "freeform": {
@@ -31701,7 +32684,8 @@
       },
       "render": {
         "en": "<b>Tesla Supercharger (destination)</b> outputs {canonical(socket:tesla_destination:voltage)}",
-        "nl": "<b>Tesla Supercharger (destination)</b> heeft een spanning van {canonical(socket:tesla_destination:voltage)}"
+        "nl": "<b>Tesla Supercharger (destination)</b> heeft een spanning van {canonical(socket:tesla_destination:voltage)}",
+        "de": "[object Object] liefert {canonical(socket:tesla_destination:voltage)}"
       },
       "freeform": {
         "key": "socket:tesla_destination:voltage",
@@ -31741,7 +32725,8 @@
       ],
       "question": {
         "en": "What current do the plugs with <b>Tesla Supercharger (destination)</b> offer?",
-        "nl": "Welke stroom levert de stekker van type <b>Tesla Supercharger (destination)</b>?"
+        "nl": "Welke stroom levert de stekker van type <b>Tesla Supercharger (destination)</b>?",
+        "de": "Welchen Strom bieten die Stecker mit [object Object]?"
       },
       "render": {
         "en": "<b>Tesla Supercharger (destination)</b> outputs at most {canonical(socket:tesla_destination:current)}",
@@ -31757,14 +32742,16 @@
           "if": "socket:tesla_destination:current=125 A",
           "then": {
             "en": "<b>Tesla Supercharger (destination)</b> outputs at most 125 A",
-            "nl": "<b>Tesla Supercharger (destination)</b> levert een stroom van maximaal 125 A"
+            "nl": "<b>Tesla Supercharger (destination)</b> levert een stroom van maximaal 125 A",
+            "de": "[object Object] liefert maximal 125 A"
           }
         },
         {
           "if": "socket:tesla_destination:current=350 A",
           "then": {
             "en": "<b>Tesla Supercharger (destination)</b> outputs at most 350 A",
-            "nl": "<b>Tesla Supercharger (destination)</b> levert een stroom van maximaal 350 A"
+            "nl": "<b>Tesla Supercharger (destination)</b> levert een stroom van maximaal 350 A",
+            "de": "[object Object] liefert maximal 350 A"
           }
         }
       ],
@@ -31851,7 +32838,8 @@
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:tesla_destination}</b> plugs of type <b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) available here",
-        "nl": "Hier zijn <b class='text-xl'>{socket:tesla_destination}</b> stekkers van het type <b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo)"
+        "nl": "Hier zijn <b class='text-xl'>{socket:tesla_destination}</b> stekkers van het type <b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo)",
+        "de": "Hier sind <b class='text-xl'>{socket:tesla_destination}</b> Stecker vom Typ [object Object] verfügbar"
       },
       "icon": "./assets/layers/charging_station/Type2_tethered.svg",
       "freeform": {
@@ -31887,7 +32875,8 @@
       },
       "render": {
         "en": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) outputs {canonical(socket:tesla_destination:voltage)}",
-        "nl": "<b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo) heeft een spanning van {canonical(socket:tesla_destination:voltage)}"
+        "nl": "<b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo) heeft een spanning van {canonical(socket:tesla_destination:voltage)}",
+        "de": "[object Object] liefert {canonical(socket:tesla_destination:voltage)}"
       },
       "freeform": {
         "key": "socket:tesla_destination:voltage",
@@ -31936,7 +32925,8 @@
       ],
       "question": {
         "en": "What current do the plugs with <b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) offer?",
-        "nl": "Welke stroom levert de stekker van type <b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo)?"
+        "nl": "Welke stroom levert de stekker van type <b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo)?",
+        "de": "Welchen Strom bieten die Stecker mit [object Object]?"
       },
       "render": {
         "en": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) outputs at most {canonical(socket:tesla_destination:current)}",
@@ -31952,14 +32942,16 @@
           "if": "socket:tesla_destination:current=16 A",
           "then": {
             "en": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) outputs at most 16 A",
-            "nl": "<b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo) levert een stroom van maximaal 16 A"
+            "nl": "<b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo) levert een stroom van maximaal 16 A",
+            "de": "[object Object] liefert maximal 16 A"
           }
         },
         {
           "if": "socket:tesla_destination:current=32 A",
           "then": {
             "en": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) outputs at most 32 A",
-            "nl": "<b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo) levert een stroom van maximaal 32 A"
+            "nl": "<b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo) levert een stroom van maximaal 32 A",
+            "de": "[object Object] liefert maximal 32 A"
           }
         }
       ],
@@ -32039,7 +33031,8 @@
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:USB-A}</b> plugs of type <b>USB</b> to charge phones and small electronics available here",
-        "nl": "Hier zijn <b class='text-xl'>{socket:USB-A}</b> stekkers van het type <b>USB</b> om GSMs en kleine electronica op te laden"
+        "nl": "Hier zijn <b class='text-xl'>{socket:USB-A}</b> stekkers van het type <b>USB</b> om GSMs en kleine electronica op te laden",
+        "de": "Hier sind <b class='text-xl'>{socket:USB-A}</b> Stecker vom Typ [object Object] verfügbar"
       },
       "icon": "./assets/layers/charging_station/usb_port.svg",
       "freeform": {
@@ -32075,7 +33068,8 @@
       },
       "render": {
         "en": "<b>USB</b> to charge phones and small electronics outputs {canonical(socket:USB-A:voltage)}",
-        "nl": "<b>USB</b> om GSMs en kleine electronica op te laden heeft een spanning van {canonical(socket:USB-A:voltage)}"
+        "nl": "<b>USB</b> om GSMs en kleine electronica op te laden heeft een spanning van {canonical(socket:USB-A:voltage)}",
+        "de": "[object Object] liefert {canonical(socket:USB-A:voltage)}"
       },
       "freeform": {
         "key": "socket:USB-A:voltage",
@@ -32115,7 +33109,8 @@
       ],
       "question": {
         "en": "What current do the plugs with <b>USB</b> to charge phones and small electronics offer?",
-        "nl": "Welke stroom levert de stekker van type <b>USB</b> om GSMs en kleine electronica op te laden?"
+        "nl": "Welke stroom levert de stekker van type <b>USB</b> om GSMs en kleine electronica op te laden?",
+        "de": "Welchen Strom bieten die Stecker mit [object Object]?"
       },
       "render": {
         "en": "<b>USB</b> to charge phones and small electronics outputs at most {canonical(socket:USB-A:current)}",
@@ -32131,14 +33126,16 @@
           "if": "socket:USB-A:current=1 A",
           "then": {
             "en": "<b>USB</b> to charge phones and small electronics outputs at most 1 A",
-            "nl": "<b>USB</b> om GSMs en kleine electronica op te laden levert een stroom van maximaal 1 A"
+            "nl": "<b>USB</b> om GSMs en kleine electronica op te laden levert een stroom van maximaal 1 A",
+            "de": "[object Object] liefert maximal 1 A"
           }
         },
         {
           "if": "socket:USB-A:current=2 A",
           "then": {
             "en": "<b>USB</b> to charge phones and small electronics outputs at most 2 A",
-            "nl": "<b>USB</b> om GSMs en kleine electronica op te laden levert een stroom van maximaal 2 A"
+            "nl": "<b>USB</b> om GSMs en kleine electronica op te laden levert een stroom van maximaal 2 A",
+            "de": "[object Object] liefert maximal 2 A"
           }
         }
       ],
@@ -32218,7 +33215,8 @@
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:bosch_3pin}</b> plugs of type <b>Bosch Active Connect with 3 pins</b> and cable available here",
-        "nl": "Hier zijn <b class='text-xl'>{socket:bosch_3pin}</b> stekkers van het type <b>Bosch Active Connect met 3 pinnen</b> aan een kabel"
+        "nl": "Hier zijn <b class='text-xl'>{socket:bosch_3pin}</b> stekkers van het type <b>Bosch Active Connect met 3 pinnen</b> aan een kabel",
+        "de": "Hier sind <b class='text-xl'>{socket:bosch_3pin}</b> Stecker vom Typ [object Object] verfügbar"
       },
       "icon": "./assets/layers/charging_station/bosch-3pin.svg",
       "freeform": {
@@ -32254,7 +33252,8 @@
       },
       "render": {
         "en": "<b>Bosch Active Connect with 3 pins</b> and cable outputs {canonical(socket:bosch_3pin:voltage)}",
-        "nl": "<b>Bosch Active Connect met 3 pinnen</b> aan een kabel heeft een spanning van {canonical(socket:bosch_3pin:voltage)}"
+        "nl": "<b>Bosch Active Connect met 3 pinnen</b> aan een kabel heeft een spanning van {canonical(socket:bosch_3pin:voltage)}",
+        "de": "[object Object] liefert {canonical(socket:bosch_3pin:voltage)}"
       },
       "freeform": {
         "key": "socket:bosch_3pin:voltage",
@@ -32284,7 +33283,8 @@
       ],
       "question": {
         "en": "What current do the plugs with <b>Bosch Active Connect with 3 pins</b> and cable offer?",
-        "nl": "Welke stroom levert de stekker van type <b>Bosch Active Connect met 3 pinnen</b> aan een kabel?"
+        "nl": "Welke stroom levert de stekker van type <b>Bosch Active Connect met 3 pinnen</b> aan een kabel?",
+        "de": "Welchen Strom bieten die Stecker mit [object Object]?"
       },
       "render": {
         "en": "<b>Bosch Active Connect with 3 pins</b> and cable outputs at most {canonical(socket:bosch_3pin:current)}",
@@ -32357,7 +33357,8 @@
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:bosch_5pin}</b> plugs of type <b>Bosch Active Connect with 5 pins</b> and cable available here",
-        "nl": "Hier zijn <b class='text-xl'>{socket:bosch_5pin}</b> stekkers van het type <b>Bosch Active Connect met 5 pinnen</b> aan een kabel"
+        "nl": "Hier zijn <b class='text-xl'>{socket:bosch_5pin}</b> stekkers van het type <b>Bosch Active Connect met 5 pinnen</b> aan een kabel",
+        "de": "Hier sind <b class='text-xl'>{socket:bosch_5pin}</b> Stecker vom Typ [object Object] verfügbar"
       },
       "icon": "./assets/layers/charging_station/bosch-5pin.svg",
       "freeform": {
@@ -32393,7 +33394,8 @@
       },
       "render": {
         "en": "<b>Bosch Active Connect with 5 pins</b> and cable outputs {canonical(socket:bosch_5pin:voltage)}",
-        "nl": "<b>Bosch Active Connect met 5 pinnen</b> aan een kabel heeft een spanning van {canonical(socket:bosch_5pin:voltage)}"
+        "nl": "<b>Bosch Active Connect met 5 pinnen</b> aan een kabel heeft een spanning van {canonical(socket:bosch_5pin:voltage)}",
+        "de": "[object Object] liefert {canonical(socket:bosch_5pin:voltage)}"
       },
       "freeform": {
         "key": "socket:bosch_5pin:voltage",
@@ -32423,7 +33425,8 @@
       ],
       "question": {
         "en": "What current do the plugs with <b>Bosch Active Connect with 5 pins</b> and cable offer?",
-        "nl": "Welke stroom levert de stekker van type <b>Bosch Active Connect met 5 pinnen</b> aan een kabel?"
+        "nl": "Welke stroom levert de stekker van type <b>Bosch Active Connect met 5 pinnen</b> aan een kabel?",
+        "de": "Welchen Strom bieten die Stecker mit [object Object]?"
       },
       "render": {
         "en": "<b>Bosch Active Connect with 5 pins</b> and cable outputs at most {canonical(socket:bosch_5pin:current)}",
@@ -32717,7 +33720,8 @@
           "ifnot": "authentication:membership_card=no",
           "then": {
             "en": "Authentication by a membership card",
-            "nl": "Aanmelden met een lidkaart is mogelijk"
+            "nl": "Aanmelden met een lidkaart is mogelijk",
+            "de": "Authentifizierung durch eine Mitgliedskarte"
           }
         },
         {
@@ -32807,11 +33811,13 @@
       "id": "Auth phone",
       "render": {
         "en": "Authenticate by calling or SMS'ing to <a href='tel:{authentication:phone_call:number}'>{authentication:phone_call:number}</a>",
-        "nl": "Aanmelden door te bellen of te SMS'en naar <a href='tel:{authentication:phone_call:number}'>{authentication:phone_call:number}</a>"
+        "nl": "Aanmelden door te bellen of te SMS'en naar <a href='tel:{authentication:phone_call:number}'>{authentication:phone_call:number}</a>",
+        "de": "Authentifiziere dich, indem du anrufst oder eine SMS sendest an <a href='tel:{authentication:phone_call:number}'>{authentication:phone_call:number}</a>"
       },
       "question": {
         "en": "What's the phone number for authentication call or SMS?",
-        "nl": "Wat is het telefoonnummer dat men moet bellen of SMS'en om zich aan te melden?"
+        "nl": "Wat is het telefoonnummer dat men moet bellen of SMS'en om zich aan te melden?",
+        "de": "Wie lautet die Telefonnummer für den Authentifizierungsanruf oder die SMS?"
       },
       "freeform": {
         "key": "authentication:phone_call:number",
@@ -59920,7 +60926,7 @@
             "nl": "Er is alleen een toilet voor rolstoelgebruikers",
             "de": "Es gibt nur eine barrierefreie Toilette für Rollstuhlfahrer",
             "da": "Der er kun et særligt toilet til kørestolsbrugere",
-            "ca": "Sols hi ha un lavabo per a usuaris amb cadira de rodes",
+            "ca": "És només un lavabo per a usuaris amb cadira de rodes",
             "cs": "K dispozici je pouze vyhrazená toaleta pro vozíčkáře"
           }
         }
@@ -60553,7 +61559,8 @@
           "if": "fountain=bubbler",
           "icon": "./assets/layers/drinking_water/bubbler.svg",
           "then": {
-            "en": "This is a bubbler fountain. A water jet to drink from is sent upwards, typically controlled by a push button."
+            "en": "This is a bubbler fountain. A water jet to drink from is sent upwards, typically controlled by a push button.",
+            "nl": "Dit is een waterhappertje - een drinkwaterfonteintje waarbij een waterstraaltje omhoog spuit. Dit kan permanent werken of door op een drukknop te duwen."
           },
           "addExtraTags": [
             "man_made="
@@ -60563,7 +61570,8 @@
           "if": "fountain=bottle_refill",
           "icon": "./assets/layers/drinking_water/bottle.svg",
           "then": {
-            "en": "This is a bottle refill point where the water is sent downwards, typically controlled by a push button or a motion sensor. Drinking directly from the stream might be very hard or impossible."
+            "en": "This is a bottle refill point where the water is sent downwards, typically controlled by a push button or a motion sensor. Drinking directly from the stream might be very hard or impossible.",
+            "nl": "Dit is een hervulpunt voor drinkwaterflessen. De waterstraal wordt omlaag gestuurd wanneer op een drukknop geduwd wordt of wanneer er beweging gedetecteerd wordt. Rechtstreeks van de waterstraal drinking kan moeilijk of zelfs onmogelijk zijn."
           },
           "addExtraTags": [
             "man_made=",
@@ -60574,7 +61582,8 @@
           "if": "man_made=water_tap",
           "icon": "./assets/layers/drinking_water/tap.svg",
           "then": {
-            "en": "This is a water tap. The water flows downward and the stream is controlled by a valve or push-button."
+            "en": "This is a water tap. The water flows downward and the stream is controlled by a valve or push-button.",
+            "nl": "Dit is een waterkraan. Het water strooomt naar beneden en het volume wordt door een knop of draaimechanisme geregeld."
           },
           "addExtraTags": [
             "fountain="
@@ -60665,19 +61674,22 @@
     {
       "id": "drinking_water_fee",
       "question": {
-        "en": "Is this drinking water point free to use?"
+        "en": "Is this drinking water point free to use?",
+        "nl": "Is dit drinkwaterpunt gratis te gebruiken?"
       },
       "mappings": [
         {
           "if": "fee=no",
           "then": {
-            "en": "Free to use"
+            "en": "Free to use",
+            "nl": "Gratis te gebruiken"
           }
         },
         {
           "if": "fee=yes",
           "then": {
-            "en": "One needs to pay to use this drinking water point"
+            "en": "One needs to pay to use this drinking water point",
+            "nl": "Men moet betalen om dit drinkwaterpunt te gebruiken"
           }
         }
       ],
@@ -60703,26 +61715,30 @@
     {
       "id": "seasonal",
       "question": {
-        "en": "Is this drinking water point available all year round?"
+        "en": "Is this drinking water point available all year round?",
+        "nl": "Is dit drinkwaterpunt heel het jaar door beschikbaar?"
       },
       "mappings": [
         {
           "if": "seasonal=no",
           "then": {
-            "en": "This drinking water point is available all around the year"
+            "en": "This drinking water point is available all around the year",
+            "nl": "Dit drinkwaterpunt is heel het jaar door beschikbaar"
           }
         },
         {
           "if": "seasonal=summer",
           "then": {
-            "en": "This drinking water point is only available in summer"
+            "en": "This drinking water point is only available in summer",
+            "nl": "Dit drinkwaterpunt is enkel in de zomer beschikbaar"
           }
         },
         {
           "if": "seasonal=spring;summer;autumn",
           "icon": "./assets/layers/drinking_water/no_winter.svg",
           "then": {
-            "en": "This drinking water point is closed during the winter"
+            "en": "This drinking water point is closed during the winter",
+            "nl": "Dit drinkwaterpunt is gesloten in de winter"
           }
         }
       ],
@@ -60835,7 +61851,8 @@
             ]
           },
           "then": {
-            "en": "This drinking water fountain is closed this season. As such, the opening hours are not shown."
+            "en": "This drinking water fountain is closed this season. As such, the opening hours are not shown.",
+            "nl": "Dit drinkwaterpunt is dit seizoen gesloten. De openingsuren worden dus niet weergegeven."
           },
           "hideInAnswer": true
         },
@@ -60858,7 +61875,8 @@
         }
       ],
       "questionHint": {
-        "en": "These are the opening hours if the drinking water fountain is operational."
+        "en": "These are the opening hours if the drinking water fountain is operational.",
+        "nl": "Tijdens deze openingsuren is dit drinkwaterpunt bruikbaar."
       },
       "condition": {
         "and": [
@@ -76626,7 +77644,7 @@
       },
       "freeform": {
         "key": "min_age",
-        "type": "pnat",
+        "type": "nat",
         "inline": true
       },
       "id": "playground-min_age",
@@ -82926,6 +83944,14 @@
           "then": "<img textmode='🐕' alt='dogs are allowed' src='./assets/layers/questions/dogs_allowed.svg'>"
         }
       ]
+    },
+    {
+      "id": "direction",
+      "labels": [
+        "defaults",
+        "in_favourite"
+      ],
+      "render": "{direction_indicator()}"
     }
   ]
 }

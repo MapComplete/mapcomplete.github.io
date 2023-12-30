@@ -16,8 +16,9 @@
       "id": "images",
       "description": "This block shows the known images which are linked with the `image`-keys, but also via `mapillary` and `wikidata` and shows the button to upload new images",
       "render": {
-        "*": "{image_carousel()}{image_upload()}{nearby_images()}"
-      }
+        "*": "{image_carousel()}{image_upload()}{nearby_images():my-4}"
+      },
+      "classes": "my-4"
     },
     {
       "id": "mapillary",
@@ -253,7 +254,7 @@
         "ja": "{title()}のEメールアドレスは何ですか？",
         "sl": "Kakšen naslov elektronske pošte ima {title()}?",
         "fil": "Ano ang email address ng {title()}?",
-        "es": "¿Cual es la direccióm de correo electrónico de {title()}?",
+        "es": "¿Cuál es la dirección de correo electrónico de {title()}?",
         "zh_Hans": "{title()} 的电子邮箱地址为何？",
         "da": "Hvad er mailadressen på {title()}?",
         "cs": "Jaká je e-mailová adresa {title()}?"
@@ -1583,6 +1584,9 @@
     },
     {
       "id": "last_edit",
+      "labels": [
+        "added_by_default"
+      ],
       "description": "Gives some metainfo about the last edit and who did edit it - rendering only",
       "condition": {
         "and": [
@@ -1622,6 +1626,9 @@
     },
     {
       "id": "just_created",
+      "labels": [
+        "added_by_default"
+      ],
       "description": "This element shows a 'thank you' that the contributor has recently created this element",
       "classes": "rounded-xl thanks",
       "mappings": [
@@ -2609,6 +2616,38 @@
           }
         }
       ]
+    },
+    {
+      "id": "qr_code",
+      "labels": [
+        "added_by_default"
+      ],
+      "classes": "flex items-center gap-x-2",
+      "render": {
+        "special": {
+          "type": "qr_code"
+        },
+        "after": {
+          "en": "Scan this code to open this location on another device",
+          "nl": "Scan deze code om deze locatie op een ander apparaat te zien"
+        }
+      }
+    },
+    {
+      "id": "share",
+      "labels": [
+        "added_by_default"
+      ],
+      "metacondition": "_supports_sharing=yes",
+      "render": {
+        "special": {
+          "type": "share_link",
+          "text": {
+            "en": "Share this location",
+            "nl": "Deel deze locatie"
+          }
+        }
+      }
     }
   ]
 }
