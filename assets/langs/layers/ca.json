@@ -284,6 +284,26 @@
             "render": "Estació d'Ambulàncies"
         }
     },
+    "animal_shelter": {
+        "name": "Refugi d'animals",
+        "presets": {
+            "0": {
+                "title": "un refugi d'animals"
+            }
+        },
+        "tagRenderings": {
+            "2": {
+                "question": "Quin nom té aquest refugi d'animals?"
+            },
+            "6": {
+                "mappings": {
+                    "0": {
+                        "then": "Els animals romanen ací fins que son adoptats per un nou propietari"
+                    }
+                }
+            }
+        }
+    },
     "artwork": {
         "description": "Un mapa obert d'estàtues, busts, grafitis i altres obres d'art del tot el món",
         "name": "Obres d'art",
