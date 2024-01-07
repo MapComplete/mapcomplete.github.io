@@ -27416,6 +27416,45 @@
       }
     },
     {
+      "id": "stairs_incline",
+      "render": {
+        "en": "These stairs have an incline of {incline}"
+      },
+      "freeform": {
+        "key": "incline",
+        "type": "slope",
+        "inline": true
+      },
+      "question": {
+        "en": "What is the incline of these stairs?"
+      },
+      "mappings": [
+        {
+          "if": "incline=up",
+          "then": {
+            "en": "The upward direction is {direction_absolute()}"
+          },
+          "hideInAnswer": true
+        },
+        {
+          "if": "incline=down",
+          "then": {
+            "en": "The downward direction is {direction_absolute()}"
+          },
+          "hideInAnswer": true
+        }
+      ],
+      "condition": {
+        "and": [
+          {
+            "and": [
+              "highway=steps"
+            ]
+          }
+        ]
+      }
+    },
+    {
       "render": {
         "en": "The name of this bookcase is {name}",
         "nl": "De naam van dit boekenruilkastje is {name}",
@@ -30586,15 +30625,15 @@
       "question": {
         "en": "How much plugs of type <b>Schuko wall plug</b> without ground pin (CEE7/4 type F) are available here?",
         "nl": "Hoeveel stekkers van type <b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F) heeft dit oplaadpunt?",
-        "ca": "Quants connectors del tipus [object Object] hi han disponibles aquí?",
-        "cs": "Kolik zástrček typu [object Object] je k dispozici?",
-        "da": "Hvor mange stik af typen [object Object] er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ [object Object] sind hier vorhanden?"
+        "ca": "Quants connectors del tipus <b>Schuko wall plug</b> without ground pin (CEE7/4 type F) hi han disponibles aquí?",
+        "cs": "Kolik zástrček typu <b>Schuko wall plug</b> without ground pin (CEE7/4 type F) je k dispozici?",
+        "da": "Hvor mange stik af typen <b>Schuko wall plug</b> without ground pin (CEE7/4 type F) er tilgængelige her?",
+        "de": "Wie viele Stecker vom Typ <b>Schuko wall plug</b> without ground pin (CEE7/4 type F) sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:schuko}</b> plugs of type <b>Schuko wall plug</b> without ground pin (CEE7/4 type F) available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:schuko}</b> stekkers van het type <b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F)",
-        "de": "Hier sind <b class='text-xl'>{socket:schuko}</b> Stecker vom Typ [object Object] verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:schuko}</b> Stecker vom Typ <b>Schuko wall plug</b> without ground pin (CEE7/4 type F) verfügbar"
       },
       "icon": "./assets/layers/charging_station/CEE7_4F.svg",
       "freeform": {
@@ -30625,13 +30664,13 @@
       "question": {
         "en": "What voltage do the plugs with <b>Schuko wall plug</b> without ground pin (CEE7/4 type F) offer?",
         "nl": "Welke spanning levert de stekker van type <b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F)",
-        "cs": "Jaké napětí mají zástrčky s [object Object] ?",
-        "de": "Welche Spannung liefern die [object Object]?"
+        "cs": "Jaké napětí mají zástrčky s <b>Schuko wall plug</b> without ground pin (CEE7/4 type F) ?",
+        "de": "Welche Spannung liefern die <b>Schuko wall plug</b> without ground pin (CEE7/4 type F)?"
       },
       "render": {
         "en": "<b>Schuko wall plug</b> without ground pin (CEE7/4 type F) outputs {canonical(socket:schuko:voltage)}",
         "nl": "<b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F) heeft een spanning van {canonical(socket:schuko:voltage)}",
-        "de": "[object Object] liefert {canonical(socket:schuko:voltage)}"
+        "de": "<b>Schuko wall plug</b> without ground pin (CEE7/4 type F) liefert {canonical(socket:schuko:voltage)}"
       },
       "freeform": {
         "key": "socket:schuko:voltage",
@@ -30644,8 +30683,8 @@
           "then": {
             "en": "<b>Schuko wall plug</b> without ground pin (CEE7/4 type F) outputs 230 volt",
             "nl": "<b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F) heeft een spanning van 230 volt",
-            "cs": "[object Object] výstup 230 voltů",
-            "de": "[object Object] liefert 230 Volt"
+            "cs": "<b>Schuko wall plug</b> without ground pin (CEE7/4 type F) výstup 230 voltů",
+            "de": "<b>Schuko wall plug</b> without ground pin (CEE7/4 type F) liefert 230 Volt"
           }
         }
       ],
@@ -30672,7 +30711,7 @@
       "question": {
         "en": "What current do the plugs with <b>Schuko wall plug</b> without ground pin (CEE7/4 type F) offer?",
         "nl": "Welke stroom levert de stekker van type <b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F)?",
-        "de": "Welchen Strom bieten die Stecker mit [object Object]?"
+        "de": "Welchen Strom bieten die Stecker mit <b>Schuko wall plug</b> without ground pin (CEE7/4 type F)?"
       },
       "render": {
         "en": "<b>Schuko wall plug</b> without ground pin (CEE7/4 type F) outputs at most {canonical(socket:schuko:current)}",
@@ -30689,7 +30728,7 @@
           "then": {
             "en": "<b>Schuko wall plug</b> without ground pin (CEE7/4 type F) outputs at most 16 A",
             "nl": "<b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F) levert een stroom van maximaal 16 A",
-            "de": "[object Object] liefert maximal 16 A"
+            "de": "<b>Schuko wall plug</b> without ground pin (CEE7/4 type F) liefert maximal 16 A"
           }
         }
       ],
@@ -30755,15 +30794,15 @@
       "question": {
         "en": "How much plugs of type <b>European wall plug</b> with ground pin (CEE7/4 type E) are available here?",
         "nl": "Hoeveel stekkers van type <b>Europese stekker</b> met aardingspin (CEE7/4 type E) heeft dit oplaadpunt?",
-        "ca": "Quants connectors del tipus [object Object] hi han disponibles aquí?",
-        "cs": "Kolik zástrček typu [object Object] je k dispozici?",
-        "da": "Hvor mange stik af typen [object Object] er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ [object Object] sind hier vorhanden?"
+        "ca": "Quants connectors del tipus <b>European wall plug</b> with ground pin (CEE7/4 type E) hi han disponibles aquí?",
+        "cs": "Kolik zástrček typu <b>European wall plug</b> with ground pin (CEE7/4 type E) je k dispozici?",
+        "da": "Hvor mange stik af typen <b>European wall plug</b> with ground pin (CEE7/4 type E) er tilgængelige her?",
+        "de": "Wie viele Stecker vom Typ <b>European wall plug</b> with ground pin (CEE7/4 type E) sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:typee}</b> plugs of type <b>European wall plug</b> with ground pin (CEE7/4 type E) available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:typee}</b> stekkers van het type <b>Europese stekker</b> met aardingspin (CEE7/4 type E)",
-        "de": "Hier sind <b class='text-xl'>{socket:typee}</b> Stecker vom Typ [object Object] verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:typee}</b> Stecker vom Typ <b>European wall plug</b> with ground pin (CEE7/4 type E) verfügbar"
       },
       "icon": "./assets/layers/charging_station/TypeE.svg",
       "freeform": {
@@ -30794,13 +30833,13 @@
       "question": {
         "en": "What voltage do the plugs with <b>European wall plug</b> with ground pin (CEE7/4 type E) offer?",
         "nl": "Welke spanning levert de stekker van type <b>Europese stekker</b> met aardingspin (CEE7/4 type E)",
-        "cs": "Jaké napětí mají zástrčky s [object Object] ?",
-        "de": "Welche Spannung liefern die [object Object]?"
+        "cs": "Jaké napětí mají zástrčky s <b>European wall plug</b> with ground pin (CEE7/4 type E) ?",
+        "de": "Welche Spannung liefern die <b>European wall plug</b> with ground pin (CEE7/4 type E)?"
       },
       "render": {
         "en": "<b>European wall plug</b> with ground pin (CEE7/4 type E) outputs {canonical(socket:typee:voltage)}",
         "nl": "<b>Europese stekker</b> met aardingspin (CEE7/4 type E) heeft een spanning van {canonical(socket:typee:voltage)}",
-        "de": "[object Object] liefert {canonical(socket:typee:voltage)}"
+        "de": "<b>European wall plug</b> with ground pin (CEE7/4 type E) liefert {canonical(socket:typee:voltage)}"
       },
       "freeform": {
         "key": "socket:typee:voltage",
@@ -30813,8 +30852,8 @@
           "then": {
             "en": "<b>European wall plug</b> with ground pin (CEE7/4 type E) outputs 230 volt",
             "nl": "<b>Europese stekker</b> met aardingspin (CEE7/4 type E) heeft een spanning van 230 volt",
-            "cs": "[object Object] výstup 230 voltů",
-            "de": "[object Object] liefert 230 Volt"
+            "cs": "<b>European wall plug</b> with ground pin (CEE7/4 type E) výstup 230 voltů",
+            "de": "<b>European wall plug</b> with ground pin (CEE7/4 type E) liefert 230 Volt"
           }
         }
       ],
@@ -30841,7 +30880,7 @@
       "question": {
         "en": "What current do the plugs with <b>European wall plug</b> with ground pin (CEE7/4 type E) offer?",
         "nl": "Welke stroom levert de stekker van type <b>Europese stekker</b> met aardingspin (CEE7/4 type E)?",
-        "de": "Welchen Strom bieten die Stecker mit [object Object]?"
+        "de": "Welchen Strom bieten die Stecker mit <b>European wall plug</b> with ground pin (CEE7/4 type E)?"
       },
       "render": {
         "en": "<b>European wall plug</b> with ground pin (CEE7/4 type E) outputs at most {canonical(socket:typee:current)}",
@@ -30858,7 +30897,7 @@
           "then": {
             "en": "<b>European wall plug</b> with ground pin (CEE7/4 type E) outputs at most 16 A",
             "nl": "<b>Europese stekker</b> met aardingspin (CEE7/4 type E) levert een stroom van maximaal 16 A",
-            "de": "[object Object] liefert maximal 16 A"
+            "de": "<b>European wall plug</b> with ground pin (CEE7/4 type E) liefert maximal 16 A"
           }
         }
       ],
@@ -30931,15 +30970,15 @@
       "question": {
         "en": "How much plugs of type <b>Chademo</b> are available here?",
         "nl": "Hoeveel stekkers van type <b>Chademo</b> heeft dit oplaadpunt?",
-        "ca": "Quants connectors del tipus [object Object] hi han disponibles aquí?",
-        "cs": "Kolik zástrček typu [object Object] je k dispozici?",
-        "da": "Hvor mange stik af typen [object Object] er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ [object Object] sind hier vorhanden?"
+        "ca": "Quants connectors del tipus <b>Chademo</b> hi han disponibles aquí?",
+        "cs": "Kolik zástrček typu <b>Chademo</b> je k dispozici?",
+        "da": "Hvor mange stik af typen <b>Chademo</b> er tilgængelige her?",
+        "de": "Wie viele Stecker vom Typ <b>Chademo</b> sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:chademo}</b> plugs of type <b>Chademo</b> available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:chademo}</b> stekkers van het type <b>Chademo</b>",
-        "de": "Hier sind <b class='text-xl'>{socket:chademo}</b> Stecker vom Typ [object Object] verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:chademo}</b> Stecker vom Typ <b>Chademo</b> verfügbar"
       },
       "icon": "./assets/layers/charging_station/Chademo_type4.svg",
       "freeform": {
@@ -30970,13 +31009,13 @@
       "question": {
         "en": "What voltage do the plugs with <b>Chademo</b> offer?",
         "nl": "Welke spanning levert de stekker van type <b>Chademo</b>",
-        "cs": "Jaké napětí mají zástrčky s [object Object] ?",
-        "de": "Welche Spannung liefern die [object Object]?"
+        "cs": "Jaké napětí mají zástrčky s <b>Chademo</b> ?",
+        "de": "Welche Spannung liefern die <b>Chademo</b>?"
       },
       "render": {
         "en": "<b>Chademo</b> outputs {canonical(socket:chademo:voltage)}",
         "nl": "<b>Chademo</b> heeft een spanning van {canonical(socket:chademo:voltage)}",
-        "de": "[object Object] liefert {canonical(socket:chademo:voltage)}"
+        "de": "<b>Chademo</b> liefert {canonical(socket:chademo:voltage)}"
       },
       "freeform": {
         "key": "socket:chademo:voltage",
@@ -30989,8 +31028,8 @@
           "then": {
             "en": "<b>Chademo</b> outputs 500 volt",
             "nl": "<b>Chademo</b> heeft een spanning van 500 volt",
-            "cs": "[object Object] výstup 500 voltů",
-            "de": "[object Object] liefert 500 Volt"
+            "cs": "<b>Chademo</b> výstup 500 voltů",
+            "de": "<b>Chademo</b> liefert 500 Volt"
           }
         }
       ],
@@ -31017,7 +31056,7 @@
       "question": {
         "en": "What current do the plugs with <b>Chademo</b> offer?",
         "nl": "Welke stroom levert de stekker van type <b>Chademo</b>?",
-        "de": "Welchen Strom bieten die Stecker mit [object Object]?"
+        "de": "Welchen Strom bieten die Stecker mit <b>Chademo</b>?"
       },
       "render": {
         "en": "<b>Chademo</b> outputs at most {canonical(socket:chademo:current)}",
@@ -31034,7 +31073,7 @@
           "then": {
             "en": "<b>Chademo</b> outputs at most 120 A",
             "nl": "<b>Chademo</b> levert een stroom van maximaal 120 A",
-            "de": "[object Object] liefert maximal 120 A"
+            "de": "<b>Chademo</b> liefert maximal 120 A"
           }
         }
       ],
@@ -31100,15 +31139,15 @@
       "question": {
         "en": "How much plugs of type <b>Type 1 with cable</b> (J1772) are available here?",
         "nl": "Hoeveel stekkers van type <b>Type 1 met kabel</b> (J1772) heeft dit oplaadpunt?",
-        "ca": "Quants connectors del tipus [object Object] hi han disponibles aquí?",
-        "cs": "Kolik zástrček typu [object Object] je k dispozici?",
-        "da": "Hvor mange stik af typen [object Object] er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ [object Object] sind hier vorhanden?"
+        "ca": "Quants connectors del tipus <b>Type 1 with cable</b> (J1772) hi han disponibles aquí?",
+        "cs": "Kolik zástrček typu <b>Type 1 with cable</b> (J1772) je k dispozici?",
+        "da": "Hvor mange stik af typen <b>Type 1 with cable</b> (J1772) er tilgængelige her?",
+        "de": "Wie viele Stecker vom Typ <b>Type 1 with cable</b> (J1772) sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:type1_cable}</b> plugs of type <b>Type 1 with cable</b> (J1772) available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:type1_cable}</b> stekkers van het type <b>Type 1 met kabel</b> (J1772)",
-        "de": "Hier sind <b class='text-xl'>{socket:type1_cable}</b> Stecker vom Typ [object Object] verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:type1_cable}</b> Stecker vom Typ <b>Type 1 with cable</b> (J1772) verfügbar"
       },
       "icon": "./assets/layers/charging_station/Type1_J1772.svg",
       "freeform": {
@@ -31139,13 +31178,13 @@
       "question": {
         "en": "What voltage do the plugs with <b>Type 1 with cable</b> (J1772) offer?",
         "nl": "Welke spanning levert de stekker van type <b>Type 1 met kabel</b> (J1772)",
-        "cs": "Jaké napětí mají zástrčky s [object Object] ?",
-        "de": "Welche Spannung liefern die [object Object]?"
+        "cs": "Jaké napětí mají zástrčky s <b>Type 1 with cable</b> (J1772) ?",
+        "de": "Welche Spannung liefern die <b>Type 1 with cable</b> (J1772)?"
       },
       "render": {
         "en": "<b>Type 1 with cable</b> (J1772) outputs {canonical(socket:type1_cable:voltage)}",
         "nl": "<b>Type 1 met kabel</b> (J1772) heeft een spanning van {canonical(socket:type1_cable:voltage)}",
-        "de": "[object Object] liefert {canonical(socket:type1_cable:voltage)}"
+        "de": "<b>Type 1 with cable</b> (J1772) liefert {canonical(socket:type1_cable:voltage)}"
       },
       "freeform": {
         "key": "socket:type1_cable:voltage",
@@ -31158,8 +31197,8 @@
           "then": {
             "en": "<b>Type 1 with cable</b> (J1772) outputs 200 volt",
             "nl": "<b>Type 1 met kabel</b> (J1772) heeft een spanning van 200 volt",
-            "cs": "[object Object] výstup 200 voltů",
-            "de": "[object Object] liefert 200 Volt"
+            "cs": "<b>Type 1 with cable</b> (J1772) výstup 200 voltů",
+            "de": "<b>Type 1 with cable</b> (J1772) liefert 200 Volt"
           }
         },
         {
@@ -31167,8 +31206,8 @@
           "then": {
             "en": "<b>Type 1 with cable</b> (J1772) outputs 240 volt",
             "nl": "<b>Type 1 met kabel</b> (J1772) heeft een spanning van 240 volt",
-            "cs": "[object Object] výstup 240 voltů",
-            "de": "[object Object] liefert 240 Volt"
+            "cs": "<b>Type 1 with cable</b> (J1772) výstup 240 voltů",
+            "de": "<b>Type 1 with cable</b> (J1772) liefert 240 Volt"
           }
         }
       ],
@@ -31195,7 +31234,7 @@
       "question": {
         "en": "What current do the plugs with <b>Type 1 with cable</b> (J1772) offer?",
         "nl": "Welke stroom levert de stekker van type <b>Type 1 met kabel</b> (J1772)?",
-        "de": "Welchen Strom bieten die Stecker mit [object Object]?"
+        "de": "Welchen Strom bieten die Stecker mit <b>Type 1 with cable</b> (J1772)?"
       },
       "render": {
         "en": "<b>Type 1 with cable</b> (J1772) outputs at most {canonical(socket:type1_cable:current)}",
@@ -31212,7 +31251,7 @@
           "then": {
             "en": "<b>Type 1 with cable</b> (J1772) outputs at most 32 A",
             "nl": "<b>Type 1 met kabel</b> (J1772) levert een stroom van maximaal 32 A",
-            "de": "[object Object] liefert maximal 32 A"
+            "de": "<b>Type 1 with cable</b> (J1772) liefert maximal 32 A"
           }
         }
       ],
@@ -31285,15 +31324,15 @@
       "question": {
         "en": "How much plugs of type <b>Type 1 <i>without</i> cable</b> (J1772) are available here?",
         "nl": "Hoeveel stekkers van type <b>Type 1 <i>zonder</i> kabel</b> (J1772) heeft dit oplaadpunt?",
-        "ca": "Quants connectors del tipus [object Object] hi han disponibles aquí?",
-        "cs": "Kolik zástrček typu [object Object] je k dispozici?",
-        "da": "Hvor mange stik af typen [object Object] er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ [object Object] sind hier vorhanden?"
+        "ca": "Quants connectors del tipus <b>Type 1 <i>without</i> cable</b> (J1772) hi han disponibles aquí?",
+        "cs": "Kolik zástrček typu <b>Type 1 <i>without</i> cable</b> (J1772) je k dispozici?",
+        "da": "Hvor mange stik af typen <b>Type 1 <i>without</i> cable</b> (J1772) er tilgængelige her?",
+        "de": "Wie viele Stecker vom Typ <b>Type 1 <i>without</i> cable</b> (J1772) sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:type1}</b> plugs of type <b>Type 1 <i>without</i> cable</b> (J1772) available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:type1}</b> stekkers van het type <b>Type 1 <i>zonder</i> kabel</b> (J1772)",
-        "de": "Hier sind <b class='text-xl'>{socket:type1}</b> Stecker vom Typ [object Object] verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:type1}</b> Stecker vom Typ <b>Type 1 <i>without</i> cable</b> (J1772) verfügbar"
       },
       "icon": "./assets/layers/charging_station/Type1_J1772.svg",
       "freeform": {
@@ -31324,13 +31363,13 @@
       "question": {
         "en": "What voltage do the plugs with <b>Type 1 <i>without</i> cable</b> (J1772) offer?",
         "nl": "Welke spanning levert de stekker van type <b>Type 1 <i>zonder</i> kabel</b> (J1772)",
-        "cs": "Jaké napětí mají zástrčky s [object Object] ?",
-        "de": "Welche Spannung liefern die [object Object]?"
+        "cs": "Jaké napětí mají zástrčky s <b>Type 1 <i>without</i> cable</b> (J1772) ?",
+        "de": "Welche Spannung liefern die <b>Type 1 <i>without</i> cable</b> (J1772)?"
       },
       "render": {
         "en": "<b>Type 1 <i>without</i> cable</b> (J1772) outputs {canonical(socket:type1:voltage)}",
         "nl": "<b>Type 1 <i>zonder</i> kabel</b> (J1772) heeft een spanning van {canonical(socket:type1:voltage)}",
-        "de": "[object Object] liefert {canonical(socket:type1:voltage)}"
+        "de": "<b>Type 1 <i>without</i> cable</b> (J1772) liefert {canonical(socket:type1:voltage)}"
       },
       "freeform": {
         "key": "socket:type1:voltage",
@@ -31343,8 +31382,8 @@
           "then": {
             "en": "<b>Type 1 <i>without</i> cable</b> (J1772) outputs 200 volt",
             "nl": "<b>Type 1 <i>zonder</i> kabel</b> (J1772) heeft een spanning van 200 volt",
-            "cs": "[object Object] výstup 200 voltů",
-            "de": "[object Object] liefert 200 Volt"
+            "cs": "<b>Type 1 <i>without</i> cable</b> (J1772) výstup 200 voltů",
+            "de": "<b>Type 1 <i>without</i> cable</b> (J1772) liefert 200 Volt"
           }
         },
         {
@@ -31352,8 +31391,8 @@
           "then": {
             "en": "<b>Type 1 <i>without</i> cable</b> (J1772) outputs 240 volt",
             "nl": "<b>Type 1 <i>zonder</i> kabel</b> (J1772) heeft een spanning van 240 volt",
-            "cs": "[object Object] výstup 240 voltů",
-            "de": "[object Object] liefert 240 Volt"
+            "cs": "<b>Type 1 <i>without</i> cable</b> (J1772) výstup 240 voltů",
+            "de": "<b>Type 1 <i>without</i> cable</b> (J1772) liefert 240 Volt"
           }
         }
       ],
@@ -31380,7 +31419,7 @@
       "question": {
         "en": "What current do the plugs with <b>Type 1 <i>without</i> cable</b> (J1772) offer?",
         "nl": "Welke stroom levert de stekker van type <b>Type 1 <i>zonder</i> kabel</b> (J1772)?",
-        "de": "Welchen Strom bieten die Stecker mit [object Object]?"
+        "de": "Welchen Strom bieten die Stecker mit <b>Type 1 <i>without</i> cable</b> (J1772)?"
       },
       "render": {
         "en": "<b>Type 1 <i>without</i> cable</b> (J1772) outputs at most {canonical(socket:type1:current)}",
@@ -31397,7 +31436,7 @@
           "then": {
             "en": "<b>Type 1 <i>without</i> cable</b> (J1772) outputs at most 32 A",
             "nl": "<b>Type 1 <i>zonder</i> kabel</b> (J1772) levert een stroom van maximaal 32 A",
-            "de": "[object Object] liefert maximal 32 A"
+            "de": "<b>Type 1 <i>without</i> cable</b> (J1772) liefert maximal 32 A"
           }
         }
       ],
@@ -31484,15 +31523,15 @@
       "question": {
         "en": "How much plugs of type <b>Type 1 CCS</b> (aka Type 1 Combo) are available here?",
         "nl": "Hoeveel stekkers van type <b>Type 1 CCS</b> (ook gekend als Type 1 Combo) heeft dit oplaadpunt?",
-        "ca": "Quants connectors del tipus [object Object] hi han disponibles aquí?",
-        "cs": "Kolik zástrček typu [object Object] je k dispozici?",
-        "da": "Hvor mange stik af typen [object Object] er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ [object Object] sind hier vorhanden?"
+        "ca": "Quants connectors del tipus <b>Type 1 CCS</b> (aka Type 1 Combo) hi han disponibles aquí?",
+        "cs": "Kolik zástrček typu <b>Type 1 CCS</b> (aka Type 1 Combo) je k dispozici?",
+        "da": "Hvor mange stik af typen <b>Type 1 CCS</b> (aka Type 1 Combo) er tilgængelige her?",
+        "de": "Wie viele Stecker vom Typ <b>Type 1 CCS</b> (aka Type 1 Combo) sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:type1_combo}</b> plugs of type <b>Type 1 CCS</b> (aka Type 1 Combo) available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:type1_combo}</b> stekkers van het type <b>Type 1 CCS</b> (ook gekend als Type 1 Combo)",
-        "de": "Hier sind <b class='text-xl'>{socket:type1_combo}</b> Stecker vom Typ [object Object] verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:type1_combo}</b> Stecker vom Typ <b>Type 1 CCS</b> (aka Type 1 Combo) verfügbar"
       },
       "icon": "./assets/layers/charging_station/Type1-ccs.svg",
       "freeform": {
@@ -31523,13 +31562,13 @@
       "question": {
         "en": "What voltage do the plugs with <b>Type 1 CCS</b> (aka Type 1 Combo) offer?",
         "nl": "Welke spanning levert de stekker van type <b>Type 1 CCS</b> (ook gekend als Type 1 Combo)",
-        "cs": "Jaké napětí mají zástrčky s [object Object] ?",
-        "de": "Welche Spannung liefern die [object Object]?"
+        "cs": "Jaké napětí mají zástrčky s <b>Type 1 CCS</b> (aka Type 1 Combo) ?",
+        "de": "Welche Spannung liefern die <b>Type 1 CCS</b> (aka Type 1 Combo)?"
       },
       "render": {
         "en": "<b>Type 1 CCS</b> (aka Type 1 Combo) outputs {canonical(socket:type1_combo:voltage)}",
         "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo) heeft een spanning van {canonical(socket:type1_combo:voltage)}",
-        "de": "[object Object] liefert {canonical(socket:type1_combo:voltage)}"
+        "de": "<b>Type 1 CCS</b> (aka Type 1 Combo) liefert {canonical(socket:type1_combo:voltage)}"
       },
       "freeform": {
         "key": "socket:type1_combo:voltage",
@@ -31542,8 +31581,8 @@
           "then": {
             "en": "<b>Type 1 CCS</b> (aka Type 1 Combo) outputs 400 volt",
             "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo) heeft een spanning van 400 volt",
-            "cs": "[object Object] výstup 400 voltů",
-            "de": "[object Object] liefert 400 Volt"
+            "cs": "<b>Type 1 CCS</b> (aka Type 1 Combo) výstup 400 voltů",
+            "de": "<b>Type 1 CCS</b> (aka Type 1 Combo) liefert 400 Volt"
           }
         },
         {
@@ -31551,8 +31590,8 @@
           "then": {
             "en": "<b>Type 1 CCS</b> (aka Type 1 Combo) outputs 1000 volt",
             "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo) heeft een spanning van 1000 volt",
-            "cs": "[object Object] výstup 1000 voltů",
-            "de": "[object Object] liefert 1000 Volt"
+            "cs": "<b>Type 1 CCS</b> (aka Type 1 Combo) výstup 1000 voltů",
+            "de": "<b>Type 1 CCS</b> (aka Type 1 Combo) liefert 1000 Volt"
           }
         }
       ],
@@ -31579,7 +31618,7 @@
       "question": {
         "en": "What current do the plugs with <b>Type 1 CCS</b> (aka Type 1 Combo) offer?",
         "nl": "Welke stroom levert de stekker van type <b>Type 1 CCS</b> (ook gekend als Type 1 Combo)?",
-        "de": "Welchen Strom bieten die Stecker mit [object Object]?"
+        "de": "Welchen Strom bieten die Stecker mit <b>Type 1 CCS</b> (aka Type 1 Combo)?"
       },
       "render": {
         "en": "<b>Type 1 CCS</b> (aka Type 1 Combo) outputs at most {canonical(socket:type1_combo:current)}",
@@ -31596,7 +31635,7 @@
           "then": {
             "en": "<b>Type 1 CCS</b> (aka Type 1 Combo) outputs at most 50 A",
             "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo) levert een stroom van maximaal 50 A",
-            "de": "[object Object] liefert maximal 50 A"
+            "de": "<b>Type 1 CCS</b> (aka Type 1 Combo) liefert maximal 50 A"
           }
         },
         {
@@ -31604,7 +31643,7 @@
           "then": {
             "en": "<b>Type 1 CCS</b> (aka Type 1 Combo) outputs at most 125 A",
             "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo) levert een stroom van maximaal 125 A",
-            "de": "[object Object] liefert maximal 125 A"
+            "de": "<b>Type 1 CCS</b> (aka Type 1 Combo) liefert maximal 125 A"
           }
         }
       ],
@@ -31691,15 +31730,15 @@
       "question": {
         "en": "How much plugs of type <b>Tesla Supercharger</b> are available here?",
         "nl": "Hoeveel stekkers van type <b>Tesla Supercharger</b> heeft dit oplaadpunt?",
-        "ca": "Quants connectors del tipus [object Object] hi han disponibles aquí?",
-        "cs": "Kolik zástrček typu [object Object] je k dispozici?",
-        "da": "Hvor mange stik af typen [object Object] er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ [object Object] sind hier vorhanden?"
+        "ca": "Quants connectors del tipus <b>Tesla Supercharger</b> hi han disponibles aquí?",
+        "cs": "Kolik zástrček typu <b>Tesla Supercharger</b> je k dispozici?",
+        "da": "Hvor mange stik af typen <b>Tesla Supercharger</b> er tilgængelige her?",
+        "de": "Wie viele Stecker vom Typ <b>Tesla Supercharger</b> sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:tesla_supercharger}</b> plugs of type <b>Tesla Supercharger</b> available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:tesla_supercharger}</b> stekkers van het type <b>Tesla Supercharger</b>",
-        "de": "Hier sind <b class='text-xl'>{socket:tesla_supercharger}</b> Stecker vom Typ [object Object] verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:tesla_supercharger}</b> Stecker vom Typ <b>Tesla Supercharger</b> verfügbar"
       },
       "icon": "./assets/layers/charging_station/Tesla-hpwc-model-s.svg",
       "freeform": {
@@ -31730,13 +31769,13 @@
       "question": {
         "en": "What voltage do the plugs with <b>Tesla Supercharger</b> offer?",
         "nl": "Welke spanning levert de stekker van type <b>Tesla Supercharger</b>",
-        "cs": "Jaké napětí mají zástrčky s [object Object] ?",
-        "de": "Welche Spannung liefern die [object Object]?"
+        "cs": "Jaké napětí mají zástrčky s <b>Tesla Supercharger</b> ?",
+        "de": "Welche Spannung liefern die <b>Tesla Supercharger</b>?"
       },
       "render": {
         "en": "<b>Tesla Supercharger</b> outputs {canonical(socket:tesla_supercharger:voltage)}",
         "nl": "<b>Tesla Supercharger</b> heeft een spanning van {canonical(socket:tesla_supercharger:voltage)}",
-        "de": "[object Object] liefert {canonical(socket:tesla_supercharger:voltage)}"
+        "de": "<b>Tesla Supercharger</b> liefert {canonical(socket:tesla_supercharger:voltage)}"
       },
       "freeform": {
         "key": "socket:tesla_supercharger:voltage",
@@ -31749,8 +31788,8 @@
           "then": {
             "en": "<b>Tesla Supercharger</b> outputs 480 volt",
             "nl": "<b>Tesla Supercharger</b> heeft een spanning van 480 volt",
-            "cs": "[object Object] výstup 480 voltů",
-            "de": "[object Object] liefert 480 Volt"
+            "cs": "<b>Tesla Supercharger</b> výstup 480 voltů",
+            "de": "<b>Tesla Supercharger</b> liefert 480 Volt"
           }
         }
       ],
@@ -31777,7 +31816,7 @@
       "question": {
         "en": "What current do the plugs with <b>Tesla Supercharger</b> offer?",
         "nl": "Welke stroom levert de stekker van type <b>Tesla Supercharger</b>?",
-        "de": "Welchen Strom bieten die Stecker mit [object Object]?"
+        "de": "Welchen Strom bieten die Stecker mit <b>Tesla Supercharger</b>?"
       },
       "render": {
         "en": "<b>Tesla Supercharger</b> outputs at most {canonical(socket:tesla_supercharger:current)}",
@@ -31794,7 +31833,7 @@
           "then": {
             "en": "<b>Tesla Supercharger</b> outputs at most 125 A",
             "nl": "<b>Tesla Supercharger</b> levert een stroom van maximaal 125 A",
-            "de": "[object Object] liefert maximal 125 A"
+            "de": "<b>Tesla Supercharger</b> liefert maximal 125 A"
           }
         },
         {
@@ -31802,7 +31841,7 @@
           "then": {
             "en": "<b>Tesla Supercharger</b> outputs at most 350 A",
             "nl": "<b>Tesla Supercharger</b> levert een stroom van maximaal 350 A",
-            "de": "[object Object] liefert maximal 350 A"
+            "de": "<b>Tesla Supercharger</b> liefert maximal 350 A"
           }
         }
       ],
@@ -31882,15 +31921,15 @@
       "question": {
         "en": "How much plugs of type <b>Type 2</b> (mennekes) are available here?",
         "nl": "Hoeveel stekkers van type <b>Type 2</b> (mennekes) heeft dit oplaadpunt?",
-        "ca": "Quants connectors del tipus [object Object] hi han disponibles aquí?",
-        "cs": "Kolik zástrček typu [object Object] je k dispozici?",
-        "da": "Hvor mange stik af typen [object Object] er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ [object Object] sind hier vorhanden?"
+        "ca": "Quants connectors del tipus <b>Type 2</b> (mennekes) hi han disponibles aquí?",
+        "cs": "Kolik zástrček typu <b>Type 2</b> (mennekes) je k dispozici?",
+        "da": "Hvor mange stik af typen <b>Type 2</b> (mennekes) er tilgængelige her?",
+        "de": "Wie viele Stecker vom Typ <b>Type 2</b> (mennekes) sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:type2}</b> plugs of type <b>Type 2</b> (mennekes) available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:type2}</b> stekkers van het type <b>Type 2</b> (mennekes)",
-        "de": "Hier sind <b class='text-xl'>{socket:type2}</b> Stecker vom Typ [object Object] verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:type2}</b> Stecker vom Typ <b>Type 2</b> (mennekes) verfügbar"
       },
       "icon": "./assets/layers/charging_station/Type2_socket.svg",
       "freeform": {
@@ -31921,13 +31960,13 @@
       "question": {
         "en": "What voltage do the plugs with <b>Type 2</b> (mennekes) offer?",
         "nl": "Welke spanning levert de stekker van type <b>Type 2</b> (mennekes)",
-        "cs": "Jaké napětí mají zástrčky s [object Object] ?",
-        "de": "Welche Spannung liefern die [object Object]?"
+        "cs": "Jaké napětí mají zástrčky s <b>Type 2</b> (mennekes) ?",
+        "de": "Welche Spannung liefern die <b>Type 2</b> (mennekes)?"
       },
       "render": {
         "en": "<b>Type 2</b> (mennekes) outputs {canonical(socket:type2:voltage)}",
         "nl": "<b>Type 2</b> (mennekes) heeft een spanning van {canonical(socket:type2:voltage)}",
-        "de": "[object Object] liefert {canonical(socket:type2:voltage)}"
+        "de": "<b>Type 2</b> (mennekes) liefert {canonical(socket:type2:voltage)}"
       },
       "freeform": {
         "key": "socket:type2:voltage",
@@ -31940,8 +31979,8 @@
           "then": {
             "en": "<b>Type 2</b> (mennekes) outputs 230 volt",
             "nl": "<b>Type 2</b> (mennekes) heeft een spanning van 230 volt",
-            "cs": "[object Object] výstup 230 voltů",
-            "de": "[object Object] liefert 230 Volt"
+            "cs": "<b>Type 2</b> (mennekes) výstup 230 voltů",
+            "de": "<b>Type 2</b> (mennekes) liefert 230 Volt"
           }
         },
         {
@@ -31949,8 +31988,8 @@
           "then": {
             "en": "<b>Type 2</b> (mennekes) outputs 400 volt",
             "nl": "<b>Type 2</b> (mennekes) heeft een spanning van 400 volt",
-            "cs": "[object Object] výstup 400 voltů",
-            "de": "[object Object] liefert 400 Volt"
+            "cs": "<b>Type 2</b> (mennekes) výstup 400 voltů",
+            "de": "<b>Type 2</b> (mennekes) liefert 400 Volt"
           }
         }
       ],
@@ -31977,7 +32016,7 @@
       "question": {
         "en": "What current do the plugs with <b>Type 2</b> (mennekes) offer?",
         "nl": "Welke stroom levert de stekker van type <b>Type 2</b> (mennekes)?",
-        "de": "Welchen Strom bieten die Stecker mit [object Object]?"
+        "de": "Welchen Strom bieten die Stecker mit <b>Type 2</b> (mennekes)?"
       },
       "render": {
         "en": "<b>Type 2</b> (mennekes) outputs at most {canonical(socket:type2:current)}",
@@ -31994,7 +32033,7 @@
           "then": {
             "en": "<b>Type 2</b> (mennekes) outputs at most 16 A",
             "nl": "<b>Type 2</b> (mennekes) levert een stroom van maximaal 16 A",
-            "de": "[object Object] liefert maximal 16 A"
+            "de": "<b>Type 2</b> (mennekes) liefert maximal 16 A"
           }
         },
         {
@@ -32002,7 +32041,7 @@
           "then": {
             "en": "<b>Type 2</b> (mennekes) outputs at most 32 A",
             "nl": "<b>Type 2</b> (mennekes) levert een stroom van maximaal 32 A",
-            "de": "[object Object] liefert maximal 32 A"
+            "de": "<b>Type 2</b> (mennekes) liefert maximal 32 A"
           }
         }
       ],
@@ -32075,15 +32114,15 @@
       "question": {
         "en": "How much plugs of type <b>Type 2 CCS</b> (mennekes) are available here?",
         "nl": "Hoeveel stekkers van type <b>Type 2 CCS</b> (mennekes) heeft dit oplaadpunt?",
-        "ca": "Quants connectors del tipus [object Object] hi han disponibles aquí?",
-        "cs": "Kolik zástrček typu [object Object] je k dispozici?",
-        "da": "Hvor mange stik af typen [object Object] er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ [object Object] sind hier vorhanden?"
+        "ca": "Quants connectors del tipus <b>Type 2 CCS</b> (mennekes) hi han disponibles aquí?",
+        "cs": "Kolik zástrček typu <b>Type 2 CCS</b> (mennekes) je k dispozici?",
+        "da": "Hvor mange stik af typen <b>Type 2 CCS</b> (mennekes) er tilgængelige her?",
+        "de": "Wie viele Stecker vom Typ <b>Type 2 CCS</b> (mennekes) sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:type2_combo}</b> plugs of type <b>Type 2 CCS</b> (mennekes) available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:type2_combo}</b> stekkers van het type <b>Type 2 CCS</b> (mennekes)",
-        "de": "Hier sind <b class='text-xl'>{socket:type2_combo}</b> Stecker vom Typ [object Object] verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:type2_combo}</b> Stecker vom Typ <b>Type 2 CCS</b> (mennekes) verfügbar"
       },
       "icon": "./assets/layers/charging_station/Type2_CCS.svg",
       "freeform": {
@@ -32114,13 +32153,13 @@
       "question": {
         "en": "What voltage do the plugs with <b>Type 2 CCS</b> (mennekes) offer?",
         "nl": "Welke spanning levert de stekker van type <b>Type 2 CCS</b> (mennekes)",
-        "cs": "Jaké napětí mají zástrčky s [object Object] ?",
-        "de": "Welche Spannung liefern die [object Object]?"
+        "cs": "Jaké napětí mají zástrčky s <b>Type 2 CCS</b> (mennekes) ?",
+        "de": "Welche Spannung liefern die <b>Type 2 CCS</b> (mennekes)?"
       },
       "render": {
         "en": "<b>Type 2 CCS</b> (mennekes) outputs {canonical(socket:type2_combo:voltage)}",
         "nl": "<b>Type 2 CCS</b> (mennekes) heeft een spanning van {canonical(socket:type2_combo:voltage)}",
-        "de": "[object Object] liefert {canonical(socket:type2_combo:voltage)}"
+        "de": "<b>Type 2 CCS</b> (mennekes) liefert {canonical(socket:type2_combo:voltage)}"
       },
       "freeform": {
         "key": "socket:type2_combo:voltage",
@@ -32133,8 +32172,8 @@
           "then": {
             "en": "<b>Type 2 CCS</b> (mennekes) outputs 500 volt",
             "nl": "<b>Type 2 CCS</b> (mennekes) heeft een spanning van 500 volt",
-            "cs": "[object Object] výstup 500 voltů",
-            "de": "[object Object] liefert 500 Volt"
+            "cs": "<b>Type 2 CCS</b> (mennekes) výstup 500 voltů",
+            "de": "<b>Type 2 CCS</b> (mennekes) liefert 500 Volt"
           }
         },
         {
@@ -32142,8 +32181,8 @@
           "then": {
             "en": "<b>Type 2 CCS</b> (mennekes) outputs 920 volt",
             "nl": "<b>Type 2 CCS</b> (mennekes) heeft een spanning van 920 volt",
-            "cs": "[object Object] výstup 920 voltů",
-            "de": "[object Object] liefert 920 Volt"
+            "cs": "<b>Type 2 CCS</b> (mennekes) výstup 920 voltů",
+            "de": "<b>Type 2 CCS</b> (mennekes) liefert 920 Volt"
           }
         }
       ],
@@ -32170,7 +32209,7 @@
       "question": {
         "en": "What current do the plugs with <b>Type 2 CCS</b> (mennekes) offer?",
         "nl": "Welke stroom levert de stekker van type <b>Type 2 CCS</b> (mennekes)?",
-        "de": "Welchen Strom bieten die Stecker mit [object Object]?"
+        "de": "Welchen Strom bieten die Stecker mit <b>Type 2 CCS</b> (mennekes)?"
       },
       "render": {
         "en": "<b>Type 2 CCS</b> (mennekes) outputs at most {canonical(socket:type2_combo:current)}",
@@ -32187,7 +32226,7 @@
           "then": {
             "en": "<b>Type 2 CCS</b> (mennekes) outputs at most 125 A",
             "nl": "<b>Type 2 CCS</b> (mennekes) levert een stroom van maximaal 125 A",
-            "de": "[object Object] liefert maximal 125 A"
+            "de": "<b>Type 2 CCS</b> (mennekes) liefert maximal 125 A"
           }
         },
         {
@@ -32195,7 +32234,7 @@
           "then": {
             "en": "<b>Type 2 CCS</b> (mennekes) outputs at most 350 A",
             "nl": "<b>Type 2 CCS</b> (mennekes) levert een stroom van maximaal 350 A",
-            "de": "[object Object] liefert maximal 350 A"
+            "de": "<b>Type 2 CCS</b> (mennekes) liefert maximal 350 A"
           }
         }
       ],
@@ -32261,15 +32300,15 @@
       "question": {
         "en": "How much plugs of type <b>Type 2 with cable</b> (mennekes) are available here?",
         "nl": "Hoeveel stekkers van type <b>Type 2 met kabel</b> (J1772) heeft dit oplaadpunt?",
-        "ca": "Quants connectors del tipus [object Object] hi han disponibles aquí?",
-        "cs": "Kolik zástrček typu [object Object] je k dispozici?",
-        "da": "Hvor mange stik af typen [object Object] er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ [object Object] sind hier vorhanden?"
+        "ca": "Quants connectors del tipus <b>Type 2 with cable</b> (mennekes) hi han disponibles aquí?",
+        "cs": "Kolik zástrček typu <b>Type 2 with cable</b> (mennekes) je k dispozici?",
+        "da": "Hvor mange stik af typen <b>Type 2 with cable</b> (mennekes) er tilgængelige her?",
+        "de": "Wie viele Stecker vom Typ <b>Type 2 with cable</b> (mennekes) sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:type2_cable}</b> plugs of type <b>Type 2 with cable</b> (mennekes) available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:type2_cable}</b> stekkers van het type <b>Type 2 met kabel</b> (J1772)",
-        "de": "Hier sind <b class='text-xl'>{socket:type2_cable}</b> Stecker vom Typ [object Object] verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:type2_cable}</b> Stecker vom Typ <b>Type 2 with cable</b> (mennekes) verfügbar"
       },
       "icon": "./assets/layers/charging_station/Type2_tethered.svg",
       "freeform": {
@@ -32300,13 +32339,13 @@
       "question": {
         "en": "What voltage do the plugs with <b>Type 2 with cable</b> (mennekes) offer?",
         "nl": "Welke spanning levert de stekker van type <b>Type 2 met kabel</b> (J1772)",
-        "cs": "Jaké napětí mají zástrčky s [object Object] ?",
-        "de": "Welche Spannung liefern die [object Object]?"
+        "cs": "Jaké napětí mají zástrčky s <b>Type 2 with cable</b> (mennekes) ?",
+        "de": "Welche Spannung liefern die <b>Type 2 with cable</b> (mennekes)?"
       },
       "render": {
         "en": "<b>Type 2 with cable</b> (mennekes) outputs {canonical(socket:type2_cable:voltage)}",
         "nl": "<b>Type 2 met kabel</b> (J1772) heeft een spanning van {canonical(socket:type2_cable:voltage)}",
-        "de": "[object Object] liefert {canonical(socket:type2_cable:voltage)}"
+        "de": "<b>Type 2 with cable</b> (mennekes) liefert {canonical(socket:type2_cable:voltage)}"
       },
       "freeform": {
         "key": "socket:type2_cable:voltage",
@@ -32319,8 +32358,8 @@
           "then": {
             "en": "<b>Type 2 with cable</b> (mennekes) outputs 230 volt",
             "nl": "<b>Type 2 met kabel</b> (J1772) heeft een spanning van 230 volt",
-            "cs": "[object Object] výstup 230 voltů",
-            "de": "[object Object] liefert 230 Volt"
+            "cs": "<b>Type 2 with cable</b> (mennekes) výstup 230 voltů",
+            "de": "<b>Type 2 with cable</b> (mennekes) liefert 230 Volt"
           }
         },
         {
@@ -32328,8 +32367,8 @@
           "then": {
             "en": "<b>Type 2 with cable</b> (mennekes) outputs 400 volt",
             "nl": "<b>Type 2 met kabel</b> (J1772) heeft een spanning van 400 volt",
-            "cs": "[object Object] výstup 400 voltů",
-            "de": "[object Object] liefert 400 Volt"
+            "cs": "<b>Type 2 with cable</b> (mennekes) výstup 400 voltů",
+            "de": "<b>Type 2 with cable</b> (mennekes) liefert 400 Volt"
           }
         }
       ],
@@ -32356,7 +32395,7 @@
       "question": {
         "en": "What current do the plugs with <b>Type 2 with cable</b> (mennekes) offer?",
         "nl": "Welke stroom levert de stekker van type <b>Type 2 met kabel</b> (J1772)?",
-        "de": "Welchen Strom bieten die Stecker mit [object Object]?"
+        "de": "Welchen Strom bieten die Stecker mit <b>Type 2 with cable</b> (mennekes)?"
       },
       "render": {
         "en": "<b>Type 2 with cable</b> (mennekes) outputs at most {canonical(socket:type2_cable:current)}",
@@ -32373,7 +32412,7 @@
           "then": {
             "en": "<b>Type 2 with cable</b> (mennekes) outputs at most 16 A",
             "nl": "<b>Type 2 met kabel</b> (J1772) levert een stroom van maximaal 16 A",
-            "de": "[object Object] liefert maximal 16 A"
+            "de": "<b>Type 2 with cable</b> (mennekes) liefert maximal 16 A"
           }
         },
         {
@@ -32381,7 +32420,7 @@
           "then": {
             "en": "<b>Type 2 with cable</b> (mennekes) outputs at most 32 A",
             "nl": "<b>Type 2 met kabel</b> (J1772) levert een stroom van maximaal 32 A",
-            "de": "[object Object] liefert maximal 32 A"
+            "de": "<b>Type 2 with cable</b> (mennekes) liefert maximal 32 A"
           }
         }
       ],
@@ -32454,15 +32493,15 @@
       "question": {
         "en": "How much plugs of type <b>Tesla Supercharger CCS</b> (a branded type2_css) are available here?",
         "nl": "Hoeveel stekkers van type <b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo) heeft dit oplaadpunt?",
-        "ca": "Quants connectors del tipus [object Object] hi han disponibles aquí?",
-        "cs": "Kolik zástrček typu [object Object] je k dispozici?",
-        "da": "Hvor mange stik af typen [object Object] er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ [object Object] sind hier vorhanden?"
+        "ca": "Quants connectors del tipus <b>Tesla Supercharger CCS</b> (a branded type2_css) hi han disponibles aquí?",
+        "cs": "Kolik zástrček typu <b>Tesla Supercharger CCS</b> (a branded type2_css) je k dispozici?",
+        "da": "Hvor mange stik af typen <b>Tesla Supercharger CCS</b> (a branded type2_css) er tilgængelige her?",
+        "de": "Wie viele Stecker vom Typ <b>Tesla Supercharger CCS</b> (a branded type2_css) sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:tesla_supercharger_ccs}</b> plugs of type <b>Tesla Supercharger CCS</b> (a branded type2_css) available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:tesla_supercharger_ccs}</b> stekkers van het type <b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo)",
-        "de": "Hier sind <b class='text-xl'>{socket:tesla_supercharger_ccs}</b> Stecker vom Typ [object Object] verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:tesla_supercharger_ccs}</b> Stecker vom Typ <b>Tesla Supercharger CCS</b> (a branded type2_css) verfügbar"
       },
       "icon": "./assets/layers/charging_station/Type2_CCS.svg",
       "freeform": {
@@ -32493,13 +32532,13 @@
       "question": {
         "en": "What voltage do the plugs with <b>Tesla Supercharger CCS</b> (a branded type2_css) offer?",
         "nl": "Welke spanning levert de stekker van type <b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo)",
-        "cs": "Jaké napětí mají zástrčky s [object Object] ?",
-        "de": "Welche Spannung liefern die [object Object]?"
+        "cs": "Jaké napětí mají zástrčky s <b>Tesla Supercharger CCS</b> (a branded type2_css) ?",
+        "de": "Welche Spannung liefern die <b>Tesla Supercharger CCS</b> (a branded type2_css)?"
       },
       "render": {
         "en": "<b>Tesla Supercharger CCS</b> (a branded type2_css) outputs {canonical(socket:tesla_supercharger_ccs:voltage)}",
         "nl": "<b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo) heeft een spanning van {canonical(socket:tesla_supercharger_ccs:voltage)}",
-        "de": "[object Object] liefert {canonical(socket:tesla_supercharger_ccs:voltage)}"
+        "de": "<b>Tesla Supercharger CCS</b> (a branded type2_css) liefert {canonical(socket:tesla_supercharger_ccs:voltage)}"
       },
       "freeform": {
         "key": "socket:tesla_supercharger_ccs:voltage",
@@ -32512,8 +32551,8 @@
           "then": {
             "en": "<b>Tesla Supercharger CCS</b> (a branded type2_css) outputs 500 volt",
             "nl": "<b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo) heeft een spanning van 500 volt",
-            "cs": "[object Object] výstup 500 voltů",
-            "de": "[object Object] liefert 500 Volt"
+            "cs": "<b>Tesla Supercharger CCS</b> (a branded type2_css) výstup 500 voltů",
+            "de": "<b>Tesla Supercharger CCS</b> (a branded type2_css) liefert 500 Volt"
           }
         },
         {
@@ -32521,8 +32560,8 @@
           "then": {
             "en": "<b>Tesla Supercharger CCS</b> (a branded type2_css) outputs 920 volt",
             "nl": "<b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo) heeft een spanning van 920 volt",
-            "cs": "[object Object] výstup 920 voltů",
-            "de": "[object Object] liefert 920 Volt"
+            "cs": "<b>Tesla Supercharger CCS</b> (a branded type2_css) výstup 920 voltů",
+            "de": "<b>Tesla Supercharger CCS</b> (a branded type2_css) liefert 920 Volt"
           }
         }
       ],
@@ -32549,7 +32588,7 @@
       "question": {
         "en": "What current do the plugs with <b>Tesla Supercharger CCS</b> (a branded type2_css) offer?",
         "nl": "Welke stroom levert de stekker van type <b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo)?",
-        "de": "Welchen Strom bieten die Stecker mit [object Object]?"
+        "de": "Welchen Strom bieten die Stecker mit <b>Tesla Supercharger CCS</b> (a branded type2_css)?"
       },
       "render": {
         "en": "<b>Tesla Supercharger CCS</b> (a branded type2_css) outputs at most {canonical(socket:tesla_supercharger_ccs:current)}",
@@ -32566,7 +32605,7 @@
           "then": {
             "en": "<b>Tesla Supercharger CCS</b> (a branded type2_css) outputs at most 125 A",
             "nl": "<b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo) levert een stroom van maximaal 125 A",
-            "de": "[object Object] liefert maximal 125 A"
+            "de": "<b>Tesla Supercharger CCS</b> (a branded type2_css) liefert maximal 125 A"
           }
         },
         {
@@ -32574,7 +32613,7 @@
           "then": {
             "en": "<b>Tesla Supercharger CCS</b> (a branded type2_css) outputs at most 350 A",
             "nl": "<b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo) levert een stroom van maximaal 350 A",
-            "de": "[object Object] liefert maximal 350 A"
+            "de": "<b>Tesla Supercharger CCS</b> (a branded type2_css) liefert maximal 350 A"
           }
         }
       ],
@@ -32640,15 +32679,15 @@
       "question": {
         "en": "How much plugs of type <b>Tesla Supercharger (destination)</b> are available here?",
         "nl": "Hoeveel stekkers van type <b>Tesla Supercharger (destination)</b> heeft dit oplaadpunt?",
-        "ca": "Quants connectors del tipus [object Object] hi han disponibles aquí?",
-        "cs": "Kolik zástrček typu [object Object] je k dispozici?",
-        "da": "Hvor mange stik af typen [object Object] er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ [object Object] sind hier vorhanden?"
+        "ca": "Quants connectors del tipus <b>Tesla Supercharger (destination)</b> hi han disponibles aquí?",
+        "cs": "Kolik zástrček typu <b>Tesla Supercharger (destination)</b> je k dispozici?",
+        "da": "Hvor mange stik af typen <b>Tesla Supercharger (destination)</b> er tilgængelige her?",
+        "de": "Wie viele Stecker vom Typ <b>Tesla Supercharger (destination)</b> sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:tesla_destination}</b> plugs of type <b>Tesla Supercharger (destination)</b> available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:tesla_destination}</b> stekkers van het type <b>Tesla Supercharger (destination)</b>",
-        "de": "Hier sind <b class='text-xl'>{socket:tesla_destination}</b> Stecker vom Typ [object Object] verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:tesla_destination}</b> Stecker vom Typ <b>Tesla Supercharger (destination)</b> verfügbar"
       },
       "icon": "./assets/layers/charging_station/Tesla-hpwc-model-s.svg",
       "freeform": {
@@ -32679,13 +32718,13 @@
       "question": {
         "en": "What voltage do the plugs with <b>Tesla Supercharger (destination)</b> offer?",
         "nl": "Welke spanning levert de stekker van type <b>Tesla Supercharger (destination)</b>",
-        "cs": "Jaké napětí mají zástrčky s [object Object] ?",
-        "de": "Welche Spannung liefern die [object Object]?"
+        "cs": "Jaké napětí mají zástrčky s <b>Tesla Supercharger (destination)</b> ?",
+        "de": "Welche Spannung liefern die <b>Tesla Supercharger (destination)</b>?"
       },
       "render": {
         "en": "<b>Tesla Supercharger (destination)</b> outputs {canonical(socket:tesla_destination:voltage)}",
         "nl": "<b>Tesla Supercharger (destination)</b> heeft een spanning van {canonical(socket:tesla_destination:voltage)}",
-        "de": "[object Object] liefert {canonical(socket:tesla_destination:voltage)}"
+        "de": "<b>Tesla Supercharger (destination)</b> liefert {canonical(socket:tesla_destination:voltage)}"
       },
       "freeform": {
         "key": "socket:tesla_destination:voltage",
@@ -32698,8 +32737,8 @@
           "then": {
             "en": "<b>Tesla Supercharger (destination)</b> outputs 480 volt",
             "nl": "<b>Tesla Supercharger (destination)</b> heeft een spanning van 480 volt",
-            "cs": "[object Object] výstup 480 voltů",
-            "de": "[object Object] liefert 480 Volt"
+            "cs": "<b>Tesla Supercharger (destination)</b> výstup 480 voltů",
+            "de": "<b>Tesla Supercharger (destination)</b> liefert 480 Volt"
           }
         }
       ],
@@ -32726,7 +32765,7 @@
       "question": {
         "en": "What current do the plugs with <b>Tesla Supercharger (destination)</b> offer?",
         "nl": "Welke stroom levert de stekker van type <b>Tesla Supercharger (destination)</b>?",
-        "de": "Welchen Strom bieten die Stecker mit [object Object]?"
+        "de": "Welchen Strom bieten die Stecker mit <b>Tesla Supercharger (destination)</b>?"
       },
       "render": {
         "en": "<b>Tesla Supercharger (destination)</b> outputs at most {canonical(socket:tesla_destination:current)}",
@@ -32743,7 +32782,7 @@
           "then": {
             "en": "<b>Tesla Supercharger (destination)</b> outputs at most 125 A",
             "nl": "<b>Tesla Supercharger (destination)</b> levert een stroom van maximaal 125 A",
-            "de": "[object Object] liefert maximal 125 A"
+            "de": "<b>Tesla Supercharger (destination)</b> liefert maximal 125 A"
           }
         },
         {
@@ -32751,7 +32790,7 @@
           "then": {
             "en": "<b>Tesla Supercharger (destination)</b> outputs at most 350 A",
             "nl": "<b>Tesla Supercharger (destination)</b> levert een stroom van maximaal 350 A",
-            "de": "[object Object] liefert maximal 350 A"
+            "de": "<b>Tesla Supercharger (destination)</b> liefert maximal 350 A"
           }
         }
       ],
@@ -32831,15 +32870,15 @@
       "question": {
         "en": "How much plugs of type <b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) are available here?",
         "nl": "Hoeveel stekkers van type <b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo) heeft dit oplaadpunt?",
-        "ca": "Quants connectors del tipus [object Object] hi han disponibles aquí?",
-        "cs": "Kolik zástrček typu [object Object] je k dispozici?",
-        "da": "Hvor mange stik af typen [object Object] er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ [object Object] sind hier vorhanden?"
+        "ca": "Quants connectors del tipus <b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) hi han disponibles aquí?",
+        "cs": "Kolik zástrček typu <b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) je k dispozici?",
+        "da": "Hvor mange stik af typen <b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) er tilgængelige her?",
+        "de": "Wie viele Stecker vom Typ <b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:tesla_destination}</b> plugs of type <b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:tesla_destination}</b> stekkers van het type <b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo)",
-        "de": "Hier sind <b class='text-xl'>{socket:tesla_destination}</b> Stecker vom Typ [object Object] verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:tesla_destination}</b> Stecker vom Typ <b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) verfügbar"
       },
       "icon": "./assets/layers/charging_station/Type2_tethered.svg",
       "freeform": {
@@ -32870,13 +32909,13 @@
       "question": {
         "en": "What voltage do the plugs with <b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) offer?",
         "nl": "Welke spanning levert de stekker van type <b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo)",
-        "cs": "Jaké napětí mají zástrčky s [object Object] ?",
-        "de": "Welche Spannung liefern die [object Object]?"
+        "cs": "Jaké napětí mají zástrčky s <b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) ?",
+        "de": "Welche Spannung liefern die <b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla)?"
       },
       "render": {
         "en": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) outputs {canonical(socket:tesla_destination:voltage)}",
         "nl": "<b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo) heeft een spanning van {canonical(socket:tesla_destination:voltage)}",
-        "de": "[object Object] liefert {canonical(socket:tesla_destination:voltage)}"
+        "de": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) liefert {canonical(socket:tesla_destination:voltage)}"
       },
       "freeform": {
         "key": "socket:tesla_destination:voltage",
@@ -32889,8 +32928,8 @@
           "then": {
             "en": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) outputs 230 volt",
             "nl": "<b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo) heeft een spanning van 230 volt",
-            "cs": "[object Object] výstup 230 voltů",
-            "de": "[object Object] liefert 230 Volt"
+            "cs": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) výstup 230 voltů",
+            "de": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) liefert 230 Volt"
           }
         },
         {
@@ -32898,8 +32937,8 @@
           "then": {
             "en": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) outputs 400 volt",
             "nl": "<b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo) heeft een spanning van 400 volt",
-            "cs": "[object Object] výstup 400 voltů",
-            "de": "[object Object] liefert 400 Volt"
+            "cs": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) výstup 400 voltů",
+            "de": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) liefert 400 Volt"
           }
         }
       ],
@@ -32926,7 +32965,7 @@
       "question": {
         "en": "What current do the plugs with <b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) offer?",
         "nl": "Welke stroom levert de stekker van type <b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo)?",
-        "de": "Welchen Strom bieten die Stecker mit [object Object]?"
+        "de": "Welchen Strom bieten die Stecker mit <b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla)?"
       },
       "render": {
         "en": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) outputs at most {canonical(socket:tesla_destination:current)}",
@@ -32943,7 +32982,7 @@
           "then": {
             "en": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) outputs at most 16 A",
             "nl": "<b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo) levert een stroom van maximaal 16 A",
-            "de": "[object Object] liefert maximal 16 A"
+            "de": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) liefert maximal 16 A"
           }
         },
         {
@@ -32951,7 +32990,7 @@
           "then": {
             "en": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) outputs at most 32 A",
             "nl": "<b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo) levert een stroom van maximaal 32 A",
-            "de": "[object Object] liefert maximal 32 A"
+            "de": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) liefert maximal 32 A"
           }
         }
       ],
@@ -33024,15 +33063,15 @@
       "question": {
         "en": "How much plugs of type <b>USB</b> to charge phones and small electronics are available here?",
         "nl": "Hoeveel stekkers van type <b>USB</b> om GSMs en kleine electronica op te laden heeft dit oplaadpunt?",
-        "ca": "Quants connectors del tipus [object Object] hi han disponibles aquí?",
-        "cs": "Kolik zástrček typu [object Object] je k dispozici?",
-        "da": "Hvor mange stik af typen [object Object] er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ [object Object] sind hier vorhanden?"
+        "ca": "Quants connectors del tipus <b>USB</b> to charge phones and small electronics hi han disponibles aquí?",
+        "cs": "Kolik zástrček typu <b>USB</b> to charge phones and small electronics je k dispozici?",
+        "da": "Hvor mange stik af typen <b>USB</b> to charge phones and small electronics er tilgængelige her?",
+        "de": "Wie viele Stecker vom Typ <b>USB</b> to charge phones and small electronics sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:USB-A}</b> plugs of type <b>USB</b> to charge phones and small electronics available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:USB-A}</b> stekkers van het type <b>USB</b> om GSMs en kleine electronica op te laden",
-        "de": "Hier sind <b class='text-xl'>{socket:USB-A}</b> Stecker vom Typ [object Object] verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:USB-A}</b> Stecker vom Typ <b>USB</b> to charge phones and small electronics verfügbar"
       },
       "icon": "./assets/layers/charging_station/usb_port.svg",
       "freeform": {
@@ -33063,13 +33102,13 @@
       "question": {
         "en": "What voltage do the plugs with <b>USB</b> to charge phones and small electronics offer?",
         "nl": "Welke spanning levert de stekker van type <b>USB</b> om GSMs en kleine electronica op te laden",
-        "cs": "Jaké napětí mají zástrčky s [object Object] ?",
-        "de": "Welche Spannung liefern die [object Object]?"
+        "cs": "Jaké napětí mají zástrčky s <b>USB</b> to charge phones and small electronics ?",
+        "de": "Welche Spannung liefern die <b>USB</b> to charge phones and small electronics?"
       },
       "render": {
         "en": "<b>USB</b> to charge phones and small electronics outputs {canonical(socket:USB-A:voltage)}",
         "nl": "<b>USB</b> om GSMs en kleine electronica op te laden heeft een spanning van {canonical(socket:USB-A:voltage)}",
-        "de": "[object Object] liefert {canonical(socket:USB-A:voltage)}"
+        "de": "<b>USB</b> to charge phones and small electronics liefert {canonical(socket:USB-A:voltage)}"
       },
       "freeform": {
         "key": "socket:USB-A:voltage",
@@ -33082,8 +33121,8 @@
           "then": {
             "en": "<b>USB</b> to charge phones and small electronics outputs 5 volt",
             "nl": "<b>USB</b> om GSMs en kleine electronica op te laden heeft een spanning van 5 volt",
-            "cs": "[object Object] výstup 5 voltů",
-            "de": "[object Object] liefert 5 Volt"
+            "cs": "<b>USB</b> to charge phones and small electronics výstup 5 voltů",
+            "de": "<b>USB</b> to charge phones and small electronics liefert 5 Volt"
           }
         }
       ],
@@ -33110,7 +33149,7 @@
       "question": {
         "en": "What current do the plugs with <b>USB</b> to charge phones and small electronics offer?",
         "nl": "Welke stroom levert de stekker van type <b>USB</b> om GSMs en kleine electronica op te laden?",
-        "de": "Welchen Strom bieten die Stecker mit [object Object]?"
+        "de": "Welchen Strom bieten die Stecker mit <b>USB</b> to charge phones and small electronics?"
       },
       "render": {
         "en": "<b>USB</b> to charge phones and small electronics outputs at most {canonical(socket:USB-A:current)}",
@@ -33127,7 +33166,7 @@
           "then": {
             "en": "<b>USB</b> to charge phones and small electronics outputs at most 1 A",
             "nl": "<b>USB</b> om GSMs en kleine electronica op te laden levert een stroom van maximaal 1 A",
-            "de": "[object Object] liefert maximal 1 A"
+            "de": "<b>USB</b> to charge phones and small electronics liefert maximal 1 A"
           }
         },
         {
@@ -33135,7 +33174,7 @@
           "then": {
             "en": "<b>USB</b> to charge phones and small electronics outputs at most 2 A",
             "nl": "<b>USB</b> om GSMs en kleine electronica op te laden levert een stroom van maximaal 2 A",
-            "de": "[object Object] liefert maximal 2 A"
+            "de": "<b>USB</b> to charge phones and small electronics liefert maximal 2 A"
           }
         }
       ],
@@ -33208,15 +33247,15 @@
       "question": {
         "en": "How much plugs of type <b>Bosch Active Connect with 3 pins</b> and cable are available here?",
         "nl": "Hoeveel stekkers van type <b>Bosch Active Connect met 3 pinnen</b> aan een kabel heeft dit oplaadpunt?",
-        "ca": "Quants connectors del tipus [object Object] hi han disponibles aquí?",
-        "cs": "Kolik zástrček typu [object Object] je k dispozici?",
-        "da": "Hvor mange stik af typen [object Object] er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ [object Object] sind hier vorhanden?"
+        "ca": "Quants connectors del tipus <b>Bosch Active Connect with 3 pins</b> and cable hi han disponibles aquí?",
+        "cs": "Kolik zástrček typu <b>Bosch Active Connect with 3 pins</b> and cable je k dispozici?",
+        "da": "Hvor mange stik af typen <b>Bosch Active Connect with 3 pins</b> and cable er tilgængelige her?",
+        "de": "Wie viele Stecker vom Typ <b>Bosch Active Connect with 3 pins</b> and cable sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:bosch_3pin}</b> plugs of type <b>Bosch Active Connect with 3 pins</b> and cable available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:bosch_3pin}</b> stekkers van het type <b>Bosch Active Connect met 3 pinnen</b> aan een kabel",
-        "de": "Hier sind <b class='text-xl'>{socket:bosch_3pin}</b> Stecker vom Typ [object Object] verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:bosch_3pin}</b> Stecker vom Typ <b>Bosch Active Connect with 3 pins</b> and cable verfügbar"
       },
       "icon": "./assets/layers/charging_station/bosch-3pin.svg",
       "freeform": {
@@ -33247,13 +33286,13 @@
       "question": {
         "en": "What voltage do the plugs with <b>Bosch Active Connect with 3 pins</b> and cable offer?",
         "nl": "Welke spanning levert de stekker van type <b>Bosch Active Connect met 3 pinnen</b> aan een kabel",
-        "cs": "Jaké napětí mají zástrčky s [object Object] ?",
-        "de": "Welche Spannung liefern die [object Object]?"
+        "cs": "Jaké napětí mají zástrčky s <b>Bosch Active Connect with 3 pins</b> and cable ?",
+        "de": "Welche Spannung liefern die <b>Bosch Active Connect with 3 pins</b> and cable?"
       },
       "render": {
         "en": "<b>Bosch Active Connect with 3 pins</b> and cable outputs {canonical(socket:bosch_3pin:voltage)}",
         "nl": "<b>Bosch Active Connect met 3 pinnen</b> aan een kabel heeft een spanning van {canonical(socket:bosch_3pin:voltage)}",
-        "de": "[object Object] liefert {canonical(socket:bosch_3pin:voltage)}"
+        "de": "<b>Bosch Active Connect with 3 pins</b> and cable liefert {canonical(socket:bosch_3pin:voltage)}"
       },
       "freeform": {
         "key": "socket:bosch_3pin:voltage",
@@ -33284,7 +33323,7 @@
       "question": {
         "en": "What current do the plugs with <b>Bosch Active Connect with 3 pins</b> and cable offer?",
         "nl": "Welke stroom levert de stekker van type <b>Bosch Active Connect met 3 pinnen</b> aan een kabel?",
-        "de": "Welchen Strom bieten die Stecker mit [object Object]?"
+        "de": "Welchen Strom bieten die Stecker mit <b>Bosch Active Connect with 3 pins</b> and cable?"
       },
       "render": {
         "en": "<b>Bosch Active Connect with 3 pins</b> and cable outputs at most {canonical(socket:bosch_3pin:current)}",
@@ -33350,15 +33389,15 @@
       "question": {
         "en": "How much plugs of type <b>Bosch Active Connect with 5 pins</b> and cable are available here?",
         "nl": "Hoeveel stekkers van type <b>Bosch Active Connect met 5 pinnen</b> aan een kabel heeft dit oplaadpunt?",
-        "ca": "Quants connectors del tipus [object Object] hi han disponibles aquí?",
-        "cs": "Kolik zástrček typu [object Object] je k dispozici?",
-        "da": "Hvor mange stik af typen [object Object] er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ [object Object] sind hier vorhanden?"
+        "ca": "Quants connectors del tipus <b>Bosch Active Connect with 5 pins</b> and cable hi han disponibles aquí?",
+        "cs": "Kolik zástrček typu <b>Bosch Active Connect with 5 pins</b> and cable je k dispozici?",
+        "da": "Hvor mange stik af typen <b>Bosch Active Connect with 5 pins</b> and cable er tilgængelige her?",
+        "de": "Wie viele Stecker vom Typ <b>Bosch Active Connect with 5 pins</b> and cable sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:bosch_5pin}</b> plugs of type <b>Bosch Active Connect with 5 pins</b> and cable available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:bosch_5pin}</b> stekkers van het type <b>Bosch Active Connect met 5 pinnen</b> aan een kabel",
-        "de": "Hier sind <b class='text-xl'>{socket:bosch_5pin}</b> Stecker vom Typ [object Object] verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:bosch_5pin}</b> Stecker vom Typ <b>Bosch Active Connect with 5 pins</b> and cable verfügbar"
       },
       "icon": "./assets/layers/charging_station/bosch-5pin.svg",
       "freeform": {
@@ -33389,13 +33428,13 @@
       "question": {
         "en": "What voltage do the plugs with <b>Bosch Active Connect with 5 pins</b> and cable offer?",
         "nl": "Welke spanning levert de stekker van type <b>Bosch Active Connect met 5 pinnen</b> aan een kabel",
-        "cs": "Jaké napětí mají zástrčky s [object Object] ?",
-        "de": "Welche Spannung liefern die [object Object]?"
+        "cs": "Jaké napětí mají zástrčky s <b>Bosch Active Connect with 5 pins</b> and cable ?",
+        "de": "Welche Spannung liefern die <b>Bosch Active Connect with 5 pins</b> and cable?"
       },
       "render": {
         "en": "<b>Bosch Active Connect with 5 pins</b> and cable outputs {canonical(socket:bosch_5pin:voltage)}",
         "nl": "<b>Bosch Active Connect met 5 pinnen</b> aan een kabel heeft een spanning van {canonical(socket:bosch_5pin:voltage)}",
-        "de": "[object Object] liefert {canonical(socket:bosch_5pin:voltage)}"
+        "de": "<b>Bosch Active Connect with 5 pins</b> and cable liefert {canonical(socket:bosch_5pin:voltage)}"
       },
       "freeform": {
         "key": "socket:bosch_5pin:voltage",
@@ -33426,7 +33465,7 @@
       "question": {
         "en": "What current do the plugs with <b>Bosch Active Connect with 5 pins</b> and cable offer?",
         "nl": "Welke stroom levert de stekker van type <b>Bosch Active Connect met 5 pinnen</b> aan een kabel?",
-        "de": "Welchen Strom bieten die Stecker mit [object Object]?"
+        "de": "Welchen Strom bieten die Stecker mit <b>Bosch Active Connect with 5 pins</b> and cable?"
       },
       "render": {
         "en": "<b>Bosch Active Connect with 5 pins</b> and cable outputs at most {canonical(socket:bosch_5pin:current)}",
@@ -70185,9 +70224,11 @@
         "ca": "Hi ha una impressora 3D disponible a aquest espai hacker?",
         "cs": "Je 3D tiskárna dostupné v tomto hackerspace?"
       },
+      "#iconsize": "large",
       "mappings": [
         {
           "if": "service:3dprinter=yes",
+          "icon": "./assets/layers/hackerspace/3d_printer.svg",
           "then": {
             "en": "There is a 3D-printer available at this hackerspace",
             "nl": "Er is een 3D-printer beschikbaar in deze hackerspace",
@@ -70223,9 +70264,11 @@
         "ca": "Hi ha un tallador laser disponible a aquest espai hacker?",
         "cs": "Je laserová řezačka dostupné v tomto hackerspace?"
       },
+      "#iconsize": "large",
       "mappings": [
         {
           "if": "service:lasercutter=yes",
+          "icon": "./assets/layers/hackerspace/lasercutter.svg",
           "then": {
             "en": "There is a laser cutter available at this hackerspace",
             "nl": "Er is een lasercutter beschikbaar in deze hackerspace",
@@ -70261,9 +70304,11 @@
         "ca": "Hi ha un trepant CNC disponible a aquest espai hacker?",
         "cs": "Je CNC vrtačka dostupné v tomto hackerspace?"
       },
+      "#iconsize": "large",
       "mappings": [
         {
           "if": "service:cnc_drilling_machine=yes",
+          "icon": "./assets/layers/hackerspace/cnc.svg",
           "then": {
             "en": "There is a CNC drill available at this hackerspace",
             "nl": "Er is een CNC-boormachine beschikbaar in deze hackerspace",
@@ -70284,6 +70329,246 @@
         }
       ],
       "id": "hackerspaces-service-cnc_drilling_machine",
+      "condition": {
+        "or": [
+          "leisure=hackerspace",
+          "leisure=hackerspace"
+        ]
+      }
+    },
+    {
+      "question": {
+        "en": "Is a multimedia studio available at this hackerspace?",
+        "nl": "Is er a multimedia studio beschikbaar in deze hackerspace?",
+        "de": "Gibt es a multimedia studio in diesem Hackerspace?",
+        "ca": "Hi ha a multimedia studio disponible a aquest espai hacker?",
+        "cs": "Je a multimedia studio dostupné v tomto hackerspace?"
+      },
+      "#iconsize": "large",
+      "mappings": [
+        {
+          "if": "service:media_studio=yes",
+          "icon": "./assets/layers/hackerspace/media_studio.svg",
+          "then": {
+            "en": "There is a multimedia studio available at this hackerspace",
+            "nl": "Er is a multimedia studio beschikbaar in deze hackerspace",
+            "de": "In diesem Hackerspace gibt es a multimedia studio",
+            "ca": "Hi ha a multimedia studio disponible a aquest espai hacker",
+            "cs": "V tomto prostoru hackerů je k dispozici a multimedia studio"
+          }
+        },
+        {
+          "if": "service:media_studio=no",
+          "then": {
+            "en": "There is no multimedia studio available at this hackerspace",
+            "nl": "Er is geen multimedia studio beschikbaar in deze hackerspace",
+            "de": "In diesem Hackerspace gibt es kein multimedia studio",
+            "ca": "No hi ha multimedia studio disponible a aquest espai hacker",
+            "cs": "V tomto prostoru hackerů není k dispozici žádný multimedia studio"
+          }
+        }
+      ],
+      "id": "hackerspaces-service-media_studio",
+      "condition": {
+        "or": [
+          "leisure=hackerspace",
+          "leisure=hackerspace"
+        ]
+      }
+    },
+    {
+      "question": {
+        "en": "Is a sewing machine available at this hackerspace?",
+        "nl": "Is er a sewing machine beschikbaar in deze hackerspace?",
+        "de": "Gibt es a sewing machine in diesem Hackerspace?",
+        "ca": "Hi ha a sewing machine disponible a aquest espai hacker?",
+        "cs": "Je a sewing machine dostupné v tomto hackerspace?"
+      },
+      "#iconsize": "large",
+      "mappings": [
+        {
+          "if": "service:sewing_machine=yes",
+          "icon": "./assets/layers/hackerspace/sewing_machine.svg",
+          "then": {
+            "en": "There is a sewing machine available at this hackerspace",
+            "nl": "Er is a sewing machine beschikbaar in deze hackerspace",
+            "de": "In diesem Hackerspace gibt es a sewing machine",
+            "ca": "Hi ha a sewing machine disponible a aquest espai hacker",
+            "cs": "V tomto prostoru hackerů je k dispozici a sewing machine"
+          }
+        },
+        {
+          "if": "service:sewing_machine=no",
+          "then": {
+            "en": "There is no sewing machine available at this hackerspace",
+            "nl": "Er is geen sewing machine beschikbaar in deze hackerspace",
+            "de": "In diesem Hackerspace gibt es kein sewing machine",
+            "ca": "No hi ha sewing machine disponible a aquest espai hacker",
+            "cs": "V tomto prostoru hackerů není k dispozici žádný sewing machine"
+          }
+        }
+      ],
+      "id": "hackerspaces-service-sewing_machine",
+      "condition": {
+        "or": [
+          "leisure=hackerspace",
+          "leisure=hackerspace"
+        ]
+      }
+    },
+    {
+      "question": {
+        "en": "Is a woodworking workshop available at this hackerspace?",
+        "nl": "Is er a woodworking workshop beschikbaar in deze hackerspace?",
+        "de": "Gibt es a woodworking workshop in diesem Hackerspace?",
+        "ca": "Hi ha a woodworking workshop disponible a aquest espai hacker?",
+        "cs": "Je a woodworking workshop dostupné v tomto hackerspace?"
+      },
+      "#iconsize": "large",
+      "mappings": [
+        {
+          "if": "service:workshop:wood=yes",
+          "icon": "./assets/layers/hackerspace/woodworking.svg",
+          "then": {
+            "en": "There is a woodworking workshop available at this hackerspace",
+            "nl": "Er is a woodworking workshop beschikbaar in deze hackerspace",
+            "de": "In diesem Hackerspace gibt es a woodworking workshop",
+            "ca": "Hi ha a woodworking workshop disponible a aquest espai hacker",
+            "cs": "V tomto prostoru hackerů je k dispozici a woodworking workshop"
+          }
+        },
+        {
+          "if": "service:workshop:wood=no",
+          "then": {
+            "en": "There is no woodworking workshop available at this hackerspace",
+            "nl": "Er is geen woodworking workshop beschikbaar in deze hackerspace",
+            "de": "In diesem Hackerspace gibt es kein woodworking workshop",
+            "ca": "No hi ha woodworking workshop disponible a aquest espai hacker",
+            "cs": "V tomto prostoru hackerů není k dispozici žádný woodworking workshop"
+          }
+        }
+      ],
+      "id": "hackerspaces-service-workshop:wood",
+      "condition": {
+        "or": [
+          "leisure=hackerspace",
+          "leisure=hackerspace"
+        ]
+      }
+    },
+    {
+      "question": {
+        "en": "Is a ceramics workshop available at this hackerspace?",
+        "nl": "Is er a ceramics workshop beschikbaar in deze hackerspace?",
+        "de": "Gibt es a ceramics workshop in diesem Hackerspace?",
+        "ca": "Hi ha a ceramics workshop disponible a aquest espai hacker?",
+        "cs": "Je a ceramics workshop dostupné v tomto hackerspace?"
+      },
+      "#iconsize": "large",
+      "mappings": [
+        {
+          "if": "service:workshop:ceramics=yes",
+          "icon": "./assets/layers/hackerspace/ceramics.svg",
+          "then": {
+            "en": "There is a ceramics workshop available at this hackerspace",
+            "nl": "Er is a ceramics workshop beschikbaar in deze hackerspace",
+            "de": "In diesem Hackerspace gibt es a ceramics workshop",
+            "ca": "Hi ha a ceramics workshop disponible a aquest espai hacker",
+            "cs": "V tomto prostoru hackerů je k dispozici a ceramics workshop"
+          }
+        },
+        {
+          "if": "service:workshop:ceramics=no",
+          "then": {
+            "en": "There is no ceramics workshop available at this hackerspace",
+            "nl": "Er is geen ceramics workshop beschikbaar in deze hackerspace",
+            "de": "In diesem Hackerspace gibt es kein ceramics workshop",
+            "ca": "No hi ha ceramics workshop disponible a aquest espai hacker",
+            "cs": "V tomto prostoru hackerů není k dispozici žádný ceramics workshop"
+          }
+        }
+      ],
+      "id": "hackerspaces-service-workshop:ceramics",
+      "condition": {
+        "or": [
+          "leisure=hackerspace",
+          "leisure=hackerspace"
+        ]
+      }
+    },
+    {
+      "question": {
+        "en": "Is a metal workshop available at this hackerspace?",
+        "nl": "Is er a metal workshop beschikbaar in deze hackerspace?",
+        "de": "Gibt es a metal workshop in diesem Hackerspace?",
+        "ca": "Hi ha a metal workshop disponible a aquest espai hacker?",
+        "cs": "Je a metal workshop dostupné v tomto hackerspace?"
+      },
+      "#iconsize": "large",
+      "mappings": [
+        {
+          "if": "service:workshop:metal=yes",
+          "icon": "./assets/layers/hackerspace/metal.svg",
+          "then": {
+            "en": "There is a metal workshop available at this hackerspace",
+            "nl": "Er is a metal workshop beschikbaar in deze hackerspace",
+            "de": "In diesem Hackerspace gibt es a metal workshop",
+            "ca": "Hi ha a metal workshop disponible a aquest espai hacker",
+            "cs": "V tomto prostoru hackerů je k dispozici a metal workshop"
+          }
+        },
+        {
+          "if": "service:workshop:metal=no",
+          "then": {
+            "en": "There is no meta workshop available at this hackerspace",
+            "nl": "Er is geen meta workshop beschikbaar in deze hackerspace",
+            "de": "In diesem Hackerspace gibt es kein meta workshop",
+            "ca": "No hi ha meta workshop disponible a aquest espai hacker",
+            "cs": "V tomto prostoru hackerů není k dispozici žádný meta workshop"
+          }
+        }
+      ],
+      "id": "hackerspaces-service-workshop:metal",
+      "condition": {
+        "or": [
+          "leisure=hackerspace",
+          "leisure=hackerspace"
+        ]
+      }
+    },
+    {
+      "question": {
+        "en": "Is a bicycle repair workshop available at this hackerspace?",
+        "nl": "Is er a bicycle repair workshop beschikbaar in deze hackerspace?",
+        "de": "Gibt es a bicycle repair workshop in diesem Hackerspace?",
+        "ca": "Hi ha a bicycle repair workshop disponible a aquest espai hacker?",
+        "cs": "Je a bicycle repair workshop dostupné v tomto hackerspace?"
+      },
+      "#iconsize": "large",
+      "mappings": [
+        {
+          "if": "service:bicycle:diy=yes",
+          "icon": "./assets/layers/hackerspace/bicycle.svg",
+          "then": {
+            "en": "There is a bicycle repair workshop available at this hackerspace",
+            "nl": "Er is a bicycle repair workshop beschikbaar in deze hackerspace",
+            "de": "In diesem Hackerspace gibt es a bicycle repair workshop",
+            "ca": "Hi ha a bicycle repair workshop disponible a aquest espai hacker",
+            "cs": "V tomto prostoru hackerů je k dispozici a bicycle repair workshop"
+          }
+        },
+        {
+          "if": "service:bicycle:diy=no",
+          "then": {
+            "en": "There is no bicycle repair workshop available at this hackerspace",
+            "nl": "Er is geen bicycle repair workshop beschikbaar in deze hackerspace",
+            "de": "In diesem Hackerspace gibt es kein bicycle repair workshop",
+            "ca": "No hi ha bicycle repair workshop disponible a aquest espai hacker",
+            "cs": "V tomto prostoru hackerů není k dispozici žádný bicycle repair workshop"
+          }
+        }
+      ],
+      "id": "hackerspaces-service-bicycle:diy",
       "condition": {
         "or": [
           "leisure=hackerspace",
