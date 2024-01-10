@@ -70410,7 +70410,7 @@
     {
       "question": {
         "en": "Is a multimedia studio available at this hackerspace?",
-        "nl": "Is er a multimedia studio beschikbaar in deze hackerspace?",
+        "nl": "Is er een multimedia-studio beschikbaar in deze hackerspace?",
         "de": "Gibt es a multimedia studio in diesem Hackerspace?",
         "ca": "Hi ha a multimedia studio disponible a aquest espai hacker?",
         "cs": "Je a multimedia studio dostupné v tomto hackerspace?"
@@ -70422,7 +70422,7 @@
           "icon": "./assets/layers/hackerspace/media_studio.svg",
           "then": {
             "en": "There is a multimedia studio available at this hackerspace",
-            "nl": "Er is a multimedia studio beschikbaar in deze hackerspace",
+            "nl": "Er is een multimedia-studio beschikbaar in deze hackerspace",
             "de": "In diesem Hackerspace gibt es a multimedia studio",
             "ca": "Hi ha a multimedia studio disponible a aquest espai hacker",
             "cs": "V tomto prostoru hackerů je k dispozici a multimedia studio"
@@ -70432,7 +70432,7 @@
           "if": "service:media_studio=no",
           "then": {
             "en": "There is no multimedia studio available at this hackerspace",
-            "nl": "Er is geen multimedia studio beschikbaar in deze hackerspace",
+            "nl": "Er is geen multimedia-studio beschikbaar in deze hackerspace",
             "de": "In diesem Hackerspace gibt es kein multimedia studio",
             "ca": "No hi ha multimedia studio disponible a aquest espai hacker",
             "cs": "V tomto prostoru hackerů není k dispozici žádný multimedia studio"
@@ -70450,7 +70450,7 @@
     {
       "question": {
         "en": "Is a sewing machine available at this hackerspace?",
-        "nl": "Is er a sewing machine beschikbaar in deze hackerspace?",
+        "nl": "Is er een naaimachine beschikbaar in deze hackerspace?",
         "de": "Gibt es a sewing machine in diesem Hackerspace?",
         "ca": "Hi ha a sewing machine disponible a aquest espai hacker?",
         "cs": "Je a sewing machine dostupné v tomto hackerspace?"
@@ -70462,7 +70462,7 @@
           "icon": "./assets/layers/hackerspace/sewing_machine.svg",
           "then": {
             "en": "There is a sewing machine available at this hackerspace",
-            "nl": "Er is a sewing machine beschikbaar in deze hackerspace",
+            "nl": "Er is een naaimachine beschikbaar in deze hackerspace",
             "de": "In diesem Hackerspace gibt es a sewing machine",
             "ca": "Hi ha a sewing machine disponible a aquest espai hacker",
             "cs": "V tomto prostoru hackerů je k dispozici a sewing machine"
@@ -70472,7 +70472,7 @@
           "if": "service:sewing_machine=no",
           "then": {
             "en": "There is no sewing machine available at this hackerspace",
-            "nl": "Er is geen sewing machine beschikbaar in deze hackerspace",
+            "nl": "Er is geen naaimachine beschikbaar in deze hackerspace",
             "de": "In diesem Hackerspace gibt es kein sewing machine",
             "ca": "No hi ha sewing machine disponible a aquest espai hacker",
             "cs": "V tomto prostoru hackerů není k dispozici žádný sewing machine"
@@ -70490,7 +70490,7 @@
     {
       "question": {
         "en": "Is a woodworking workshop available at this hackerspace?",
-        "nl": "Is er a woodworking workshop beschikbaar in deze hackerspace?",
+        "nl": "Is er een houtbewerkingsatelier beschikbaar in deze hackerspace?",
         "de": "Gibt es a woodworking workshop in diesem Hackerspace?",
         "ca": "Hi ha a woodworking workshop disponible a aquest espai hacker?",
         "cs": "Je a woodworking workshop dostupné v tomto hackerspace?"
@@ -70502,7 +70502,7 @@
           "icon": "./assets/layers/hackerspace/woodworking.svg",
           "then": {
             "en": "There is a woodworking workshop available at this hackerspace",
-            "nl": "Er is a woodworking workshop beschikbaar in deze hackerspace",
+            "nl": "Er is een houtbewerkingsatelier beschikbaar in deze hackerspace",
             "de": "In diesem Hackerspace gibt es a woodworking workshop",
             "ca": "Hi ha a woodworking workshop disponible a aquest espai hacker",
             "cs": "V tomto prostoru hackerů je k dispozici a woodworking workshop"
@@ -70512,7 +70512,7 @@
           "if": "service:workshop:wood=no",
           "then": {
             "en": "There is no woodworking workshop available at this hackerspace",
-            "nl": "Er is geen woodworking workshop beschikbaar in deze hackerspace",
+            "nl": "Er is geen houtbewerkingsatelier beschikbaar in deze hackerspace",
             "de": "In diesem Hackerspace gibt es kein woodworking workshop",
             "ca": "No hi ha woodworking workshop disponible a aquest espai hacker",
             "cs": "V tomto prostoru hackerů není k dispozici žádný woodworking workshop"
@@ -70530,7 +70530,7 @@
     {
       "question": {
         "en": "Is a ceramics workshop available at this hackerspace?",
-        "nl": "Is er a ceramics workshop beschikbaar in deze hackerspace?",
+        "nl": "Is er een keramiekatelier beschikbaar in deze hackerspace?",
         "de": "Gibt es a ceramics workshop in diesem Hackerspace?",
         "ca": "Hi ha a ceramics workshop disponible a aquest espai hacker?",
         "cs": "Je a ceramics workshop dostupné v tomto hackerspace?"
@@ -70542,7 +70542,7 @@
           "icon": "./assets/layers/hackerspace/ceramics.svg",
           "then": {
             "en": "There is a ceramics workshop available at this hackerspace",
-            "nl": "Er is a ceramics workshop beschikbaar in deze hackerspace",
+            "nl": "Er is een keramiekatelier beschikbaar in deze hackerspace",
             "de": "In diesem Hackerspace gibt es a ceramics workshop",
             "ca": "Hi ha a ceramics workshop disponible a aquest espai hacker",
             "cs": "V tomto prostoru hackerů je k dispozici a ceramics workshop"
@@ -70552,7 +70552,7 @@
           "if": "service:workshop:ceramics=no",
           "then": {
             "en": "There is no ceramics workshop available at this hackerspace",
-            "nl": "Er is geen ceramics workshop beschikbaar in deze hackerspace",
+            "nl": "Er is geen keramiekatelier beschikbaar in deze hackerspace",
             "de": "In diesem Hackerspace gibt es kein ceramics workshop",
             "ca": "No hi ha ceramics workshop disponible a aquest espai hacker",
             "cs": "V tomto prostoru hackerů není k dispozici žádný ceramics workshop"
@@ -70570,7 +70570,7 @@
     {
       "question": {
         "en": "Is a metal workshop available at this hackerspace?",
-        "nl": "Is er a metal workshop beschikbaar in deze hackerspace?",
+        "nl": "Is er een metaalatelier beschikbaar in deze hackerspace?",
         "de": "Gibt es a metal workshop in diesem Hackerspace?",
         "ca": "Hi ha a metal workshop disponible a aquest espai hacker?",
         "cs": "Je a metal workshop dostupné v tomto hackerspace?"
@@ -70582,7 +70582,7 @@
           "icon": "./assets/layers/hackerspace/metal.svg",
           "then": {
             "en": "There is a metal workshop available at this hackerspace",
-            "nl": "Er is a metal workshop beschikbaar in deze hackerspace",
+            "nl": "Er is een metaalatelier beschikbaar in deze hackerspace",
             "de": "In diesem Hackerspace gibt es a metal workshop",
             "ca": "Hi ha a metal workshop disponible a aquest espai hacker",
             "cs": "V tomto prostoru hackerů je k dispozici a metal workshop"
@@ -70592,7 +70592,7 @@
           "if": "service:workshop:metal=no",
           "then": {
             "en": "There is no metal workshop available at this hackerspace",
-            "nl": "Er is geen metal workshop beschikbaar in deze hackerspace",
+            "nl": "Er is geen metaalatelier beschikbaar in deze hackerspace",
             "de": "In diesem Hackerspace gibt es kein metal workshop",
             "ca": "No hi ha metal workshop disponible a aquest espai hacker",
             "cs": "V tomto prostoru hackerů není k dispozici žádný metal workshop"
@@ -70610,7 +70610,7 @@
     {
       "question": {
         "en": "Is a bicycle repair workshop available at this hackerspace?",
-        "nl": "Is er a bicycle repair workshop beschikbaar in deze hackerspace?",
+        "nl": "Is er een fietsherstelplaats beschikbaar in deze hackerspace?",
         "de": "Gibt es a bicycle repair workshop in diesem Hackerspace?",
         "ca": "Hi ha a bicycle repair workshop disponible a aquest espai hacker?",
         "cs": "Je a bicycle repair workshop dostupné v tomto hackerspace?"
@@ -70622,7 +70622,7 @@
           "icon": "./assets/layers/hackerspace/bicycle.svg",
           "then": {
             "en": "There is a bicycle repair workshop available at this hackerspace",
-            "nl": "Er is a bicycle repair workshop beschikbaar in deze hackerspace",
+            "nl": "Er is een fietsherstelplaats beschikbaar in deze hackerspace",
             "de": "In diesem Hackerspace gibt es a bicycle repair workshop",
             "ca": "Hi ha a bicycle repair workshop disponible a aquest espai hacker",
             "cs": "V tomto prostoru hackerů je k dispozici a bicycle repair workshop"
@@ -70632,7 +70632,7 @@
           "if": "service:bicycle:diy=no",
           "then": {
             "en": "There is no bicycle repair workshop available at this hackerspace",
-            "nl": "Er is geen bicycle repair workshop beschikbaar in deze hackerspace",
+            "nl": "Er is geen fietsherstelplaats beschikbaar in deze hackerspace",
             "de": "In diesem Hackerspace gibt es kein bicycle repair workshop",
             "ca": "No hi ha bicycle repair workshop disponible a aquest espai hacker",
             "cs": "V tomto prostoru hackerů není k dispozici žádný bicycle repair workshop"

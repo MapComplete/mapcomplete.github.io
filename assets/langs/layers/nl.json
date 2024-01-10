@@ -4516,6 +4516,30 @@
                         "2": {
                             "1": "een CNC-boormachine",
                             "2": "CNC-boormachine"
+                        },
+                        "3": {
+                            "1": "een multimedia-studio",
+                            "2": "multimedia-studio"
+                        },
+                        "4": {
+                            "1": "een naaimachine",
+                            "2": "naaimachine"
+                        },
+                        "5": {
+                            "1": "een houtbewerkingsatelier",
+                            "2": "houtbewerkingsatelier"
+                        },
+                        "6": {
+                            "1": "een keramiekatelier",
+                            "2": "keramiekatelier"
+                        },
+                        "7": {
+                            "1": "een metaalatelier",
+                            "2": "metaalatelier"
+                        },
+                        "8": {
+                            "1": "een fietsherstelplaats",
+                            "2": "fietsherstelplaats"
                         }
                     }
                 }
@@ -8541,6 +8565,20 @@
     "usersettings": {
         "description": "Een speciale lag die niet getoond wordt op de kaart, maar die de instellingen van de gebruiker weergeeft",
         "tagRenderings": {
+            "a11y-features": {
+                "mappings": {
+                    "0": {
+                        "then": "Schakel toegankelijkheidsmode aan wanneer op de pijltjestoetsen wordt geduwd om de kaart te bewegen"
+                    },
+                    "1": {
+                        "then": "Schakel de toegankelijkheidsmode altijd aan"
+                    },
+                    "2": {
+                        "then": "Gebruik geen toegankelijkheidsmode"
+                    }
+                },
+                "question": "Wanneer moet de toegankelijkheidsmode ingeschakeld worden?"
+            },
             "all-questions-at-once": {
                 "mappings": {
                     "0": {
@@ -8596,8 +8634,12 @@
                 "mappings": {
                     "0": {
                         "then": "Sta kaartrotatie toe"
+                    },
+                    "1": {
+                        "then": "Hou het noorden altijd naar boven"
                     }
-                }
+                },
+                "question": "Moet het noorden altijd naar boven getoond worden?"
             },
             "inbox": {
                 "mappings": {
@@ -8607,12 +8649,29 @@
                                 "text": "Ga naar je inbox"
                             }
                         }
+                    },
+                    "1": {
+                        "then": {
+                            "special": {
+                                "text": "<b class='alert'>Je hebt {_unreadMessages} ongelezen berichten</b><br/>Ga naar je inbox"
+                            }
+                        }
+                    }
+                }
+            },
+            "language_picker": {
+                "mappings": {
+                    "0": {
+                        "then": "De taal werd ingesteld via een URL-parameter en kan niet manueel ingesteld worden."
                     }
                 }
             },
             "mangrove-keys": {
                 "render": {
-                    "after": "Iedereen die dit bestand bezit, kan met jouw identiteit wijzigingen maken"
+                    "after": "Iedereen die dit bestand bezit, kan met jouw identiteit wijzigingen maken",
+                    "special": {
+                        "text": "Download de private sleutel van je Mangrove-account"
+                    }
                 }
             },
             "picture-license": {
@@ -8632,7 +8691,15 @@
                 },
                 "question": "Met welke licentie wil je je afbeeldingen toevoegen?"
             },
+            "settings-link": {
+                "render": {
+                    "special": {
+                        "text": "Open je instellingen op OpenStreetMap.org"
+                    }
+                }
+            },
             "show_crosshair": {
+                "question": "Moet er een kruisje getoond worden in het centrum van je display?",
                 "questionHint": "Dit kan helpen om nieuwe elementen accuraat te plaatsen"
             },
             "show_debug": {
