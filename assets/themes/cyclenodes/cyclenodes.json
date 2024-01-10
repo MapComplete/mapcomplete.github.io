@@ -214,8 +214,7 @@
             "en": "What is the reference number of this cycling node?",
             "nl": "Wat is het referentienummer van dit fietsknooppunt?",
             "de": "Wie lautet die Nummer des Knotenpunkts im Fahrradknotenpunktnetzwerk?",
-            "cs": "Jaké je referenční číslo tohoto cyklistického uzlu?",
-            "ca": "Quin és el número de referència d'aquest node ciclista?"
+            "cs": "Jaké je referenční číslo tohoto cyklistického uzlu?"
           },
           "freeform": {
             "key": "rcn_ref",
@@ -231,8 +230,7 @@
             "en": "This cycling node has reference number {rcn_ref}",
             "nl": "Dit fietsknooppunt heeft referentienummer {rcn_ref}",
             "de": "Knotenpunktnummer {rcn_ref} des Fahrradknotenpunktnetzwerks",
-            "cs": "Tento cyklistický uzel má referenční číslo {rcn_ref}",
-            "ca": "Aquest node ciclista té la referència número {rcn_ref}"
+            "cs": "Tento cyklistický uzel má referenční číslo {rcn_ref}"
           },
           "condition": "rcn_ref~*"
         },
