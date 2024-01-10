@@ -70520,11 +70520,11 @@
         {
           "if": "service:workshop:metal=no",
           "then": {
-            "en": "There is no meta workshop available at this hackerspace",
-            "nl": "Er is geen meta workshop beschikbaar in deze hackerspace",
-            "de": "In diesem Hackerspace gibt es kein meta workshop",
-            "ca": "No hi ha meta workshop disponible a aquest espai hacker",
-            "cs": "V tomto prostoru hackerů není k dispozici žádný meta workshop"
+            "en": "There is no metal workshop available at this hackerspace",
+            "nl": "Er is geen metal workshop beschikbaar in deze hackerspace",
+            "de": "In diesem Hackerspace gibt es kein metal workshop",
+            "ca": "No hi ha metal workshop disponible a aquest espai hacker",
+            "cs": "V tomto prostoru hackerů není k dispozici žádný metal workshop"
           }
         }
       ],
