@@ -79,6 +79,7 @@
       "question": {
         "en": "Which vehicles are allowed to charge here?",
         "nl": "Welke voertuigen kunnen hier opgeladen worden?",
+        "ca": "Quins vehicles tenen permesa la càrrega aquí?",
         "de": "Welche Fahrzeuge können hier laden?"
       },
       "multiAnswer": true,
@@ -89,6 +90,7 @@
           "then": {
             "en": "<b>Bicycles</b> can be charged here",
             "nl": "<b>Elektrische fietsen</b> kunnen hier opgeladen worden",
+            "ca": "Aquí es poden carregar <b>bicicletes</b>",
             "de": "Hier können <b>Fahrräder</b> laden"
           }
         },
@@ -98,6 +100,7 @@
           "then": {
             "en": "<b>Cars</b> can be charged here",
             "nl": "<b>Elektrische auto's</b> kunnen hier opgeladen worden",
+            "ca": "Aquí es poden carregar <b>cotxes</b>",
             "de": "Hier können <b>Autos</b> laden"
           }
         },
@@ -107,6 +110,7 @@
           "then": {
             "en": "<b>Scooters</b> can be charged here",
             "nl": "<b>Elektrische scooters</b> (snorfiets of bromfiets) kunnen hier opgeladen worden",
+            "ca": "Aquí es poden carregar <b>Scooters</b>",
             "de": "Hier können <b>Roller</b> laden"
           }
         },
@@ -116,6 +120,7 @@
           "then": {
             "en": "<b>Heavy good vehicles</b> (such as trucks) can be charged here",
             "nl": "<b>Vrachtwagens</b> kunnen hier opgeladen worden",
+            "ca": "Aquí es poden carregar <b>camions o trailers</b>",
             "de": "Hier können <b>LKW</b> laden"
           }
         },
@@ -125,6 +130,7 @@
           "then": {
             "en": "<b>Buses</b> can be charged here",
             "nl": "<b>Bussen</b> kunnen hier opgeladen worden",
+            "ca": "Aquí es poden carregar <b>autobusos</b>",
             "de": "Hier können <b>Busse</b> laden"
           }
         }
@@ -135,11 +141,13 @@
       "question": {
         "en": "Who is allowed to use this charging station?",
         "nl": "Wie mag er dit oplaadpunt gebruiken?",
+        "ca": "Qui pot utilitzar aquesta estació de càrrega?",
         "de": "Wer darf diese Ladestation benutzen?"
       },
       "render": {
         "en": "Access is {access}",
         "nl": "Toegang voor {access}",
+        "ca": "L'accés està {access}",
         "de": "Zugang ist {access}"
       },
       "freeform": {
@@ -154,6 +162,7 @@
           "then": {
             "en": "Anyone can use this charging station (payment might be needed)",
             "nl": "Toegankelijk voor iedereen (mogelijks met aanmelden en/of te betalen)",
+            "ca": "Qualsevol persona pot utilitzar aquesta estació de recàrrega (pot ser calgui un pagament)",
             "de": "Jeder kann die Station nutzen (eventuell gegen Bezahlung)"
           }
         },
@@ -162,6 +171,7 @@
           "then": {
             "en": "Anyone can use this charging station (payment might be needed)",
             "nl": "Toegankelijk voor iedereen (mogelijks met aanmelden en/of te betalen)",
+            "ca": "Qualsevol persona pot utilitzar aquesta estació de recàrrega (pot ser calgui un pagament)",
             "de": "Jeder kann diese Ladestation nutzen (eventuell gegen Bezahlung)"
           },
           "hideInAnswer": true
@@ -171,6 +181,7 @@
           "then": {
             "en": "Only customers of the place this station belongs to can use this charging station<br/><span class='subtle'>E.g. a charging station operated by hotel which is only usable by their guests</span>",
             "nl": "Enkel <b>klanten van de bijhorende plaats</b> mogen dit oplaadpunt gebruiken<br/><span class='subtle'>Bv. op de parking van een hotel en enkel toegankelijk voor klanten van dit hotel</span>",
+            "ca": "Sols clientes del lloc al que pertany aquest punt de càrrega poden utilitzar-lo <br/><span class='subtle'>p.e. un punt de càrrega d'un hotel que sols poden utilizar-los els hostes</span>",
             "de": "Nur Kunden des Ortes, zu dem diese Station gehört, können diese Ladestation nutzen<br/><span class='subtle'>Z.B. eine von einem Hotel betriebene Ladestation, die nur von dessen Gästen genutzt werden kann</span>"
           }
         },
@@ -179,6 +190,7 @@
           "then": {
             "en": "A <b>key</b> must be requested to access this charging station<br/><span class='subtle'>E.g. a charging station operated by hotel which is only usable by their guests, which receive a key from the reception to unlock the charging station</span>",
             "nl": "Een <b>sleutel</b> is nodig om dit oplaadpunt te gebruiken<br/><span class='subtle'>Bv. voor klanten van een hotel of een bar, die de sleutel aan de receptie kunnen krijgen</span>",
+            "ca": "S'ha de sol·licitar una <b>clau</b> per a utilitzar aquest punt de càrrega<br/><span class='subtle'>p.e un punt de càrrega operat per un hotel nomes utilitzable pel seus hostes, els quals reben una clau des de recepció per a desbloquejar el punt de càrrega</span>",
             "de": "Für den Zugang zur Station muss ein <b>Schlüssel</b> angefordert werden<br/><span class='subtle'>z.B. eine von einem Hotel betriebene Ladestation, die nur von dessen Gästen genutzt werden kann, die an der Rezeption einen Schlüssel erhalten, um die Ladestation aufzuschließen</span>"
           }
         },
@@ -187,6 +199,7 @@
           "then": {
             "en": "Not accessible to the general public (e.g. only accessible to the owners, employees, ...)",
             "nl": "Niet toegankelijk voor het publiek <br/><span class='subtle'>Bv. enkel toegankelijk voor de eigenaar, medewerkers ,...</span> ",
+            "ca": "No accessible per al públic general (p.e. només accessible pels propietaris, empleats, ...)",
             "de": "Die Station ist nicht für die Allgemeinheit zugänglich (z. B. nur für die Eigentümer, Mitarbeiter, …)"
           }
         },
@@ -195,6 +208,7 @@
           "then": {
             "en": "This charging station is accessible to the public during certain hours or conditions. Restrictions might apply, but general use is allowed.",
             "nl": "Dit oplaadstation is publiek toegankelijk onder voorwaarden (bv. enkel tijdens bepaalde uren). ",
+            "ca": "Aquesta estació de càrrega és accessible al públic durant certes hores o condicions. Es poden aplicar restriccions, però es permet l'ús general.",
             "de": "Diese Ladestation ist zu gewissen Öffnungszeiten oder Bedingungen öffentlich zugänglich. Einschränkungen sind möglich, aber generelle Nutzung ist erlaubt."
           }
         }
@@ -205,11 +219,13 @@
       "render": {
         "en": "{capacity} vehicles can be charged here at the same time",
         "nl": "{capacity} voertuigen kunnen hier op hetzelfde moment opgeladen worden",
+        "ca": "Aquí poden carregar {capacity} vehicles a l'hora",
         "de": "Hier können {capacity} Fahrzeuge gleichzeitig laden"
       },
       "question": {
         "en": "How much vehicles can be charged here at the same time?",
         "nl": "Hoeveel voertuigen kunnen hier opgeladen worden?",
+        "ca": "Quants vehicles poden carregar a la vegada?",
         "de": "Wie viele Fahrzeuge können hier gleichzeitig laden?"
       },
       "freeform": {
@@ -232,6 +248,7 @@
           "then": {
             "en": "<b>Schuko wall plug</b> without ground pin (CEE7/4 type F)",
             "nl": "<b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F)",
+            "ca": "<b>Endoll de paret Schuko</b> sense pin a terra (CEE7/4 tipus F)",
             "de": "<b>Schuko-Stecker</b> ohne Erdungsstift (CEE7/4 Typ F)"
           },
           "icon": {
@@ -326,6 +343,7 @@
           "then": {
             "en": "<b>Schuko wall plug</b> without ground pin (CEE7/4 type F)",
             "nl": "<b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F)",
+            "ca": "<b>Endoll de paret Schuko</b> sense pin a terra (CEE7/4 tipus F)",
             "de": "<b>Schuko-Stecker</b> ohne Erdungsstift (CEE7/4 Typ F)"
           },
           "hideInAnswer": true,
@@ -340,6 +358,7 @@
           "then": {
             "en": "<b>European wall plug</b> with ground pin (CEE7/4 type E)",
             "nl": "<b>Europese stekker</b> met aardingspin (CEE7/4 type E)",
+            "ca": "<b>Endoll de paret Europeu</b> amb pin a terra (CEE7/4 tipus E)",
             "de": "<b>Europäischer Netzstecker</b> mit Erdungsstift (CEE7/4 Typ E)"
           },
           "icon": {
@@ -403,6 +422,7 @@
           "then": {
             "en": "<b>European wall plug</b> with ground pin (CEE7/4 type E)",
             "nl": "<b>Europese stekker</b> met aardingspin (CEE7/4 type E)",
+            "ca": "<b>Endoll de paret Europeu</b> amb pin a terra (CEE7/4 tipus E)",
             "de": "<b>Europäischer Netzstecker</b> mit Erdungsstift (CEE7/4 Typ E)"
           },
           "hideInAnswer": true,
@@ -417,6 +437,7 @@
           "then": {
             "en": "<b>Chademo</b>",
             "nl": "<b>Chademo</b>",
+            "ca": "<b>CHAdeMo</b>",
             "de": "<b>Chademo-Anschluss</b>"
           },
           "icon": {
@@ -460,6 +481,7 @@
           "then": {
             "en": "<b>Chademo</b>",
             "nl": "<b>Chademo</b>",
+            "ca": "<b>CHAdeMo</b>",
             "de": "<b>Chademo-Anschluss</b>"
           },
           "hideInAnswer": true,
@@ -474,6 +496,7 @@
           "then": {
             "en": "<b>Type 1 with cable</b> (J1772)",
             "nl": "<b>Type 1 met kabel</b> (J1772)",
+            "ca": "<b>Tipus 1 amb cable</b>",
             "de": "<b>Typ 1 mit Kabel</b> (J1772)"
           },
           "icon": {
@@ -517,6 +540,7 @@
           "then": {
             "en": "<b>Type 1 with cable</b> (J1772)",
             "nl": "<b>Type 1 met kabel</b> (J1772)",
+            "ca": "<b>Tipus 1 amb cable</b>",
             "de": "<b>Typ 1 mit Kabel</b> (J1772)"
           },
           "hideInAnswer": true,
@@ -531,6 +555,7 @@
           "then": {
             "en": "<b>Type 1 <i>without</i> cable</b> (J1772)",
             "nl": "<b>Type 1 <i>zonder</i> kabel</b> (J1772)",
+            "ca": "<b>Tipus 1 <i>sense</i> cable</b>",
             "de": "<b>Typ 1 <i>ohne</i> Kabel</b> (J1772)"
           },
           "icon": {
@@ -574,6 +599,7 @@
           "then": {
             "en": "<b>Type 1 <i>without</i> cable</b> (J1772)",
             "nl": "<b>Type 1 <i>zonder</i> kabel</b> (J1772)",
+            "ca": "<b>Tipus 1 <i>sense</i> cable</b>(J1772)",
             "de": "<b> Typ 1 <i>ohne </i> Kabel</b> (J1772)"
           },
           "hideInAnswer": true,
@@ -588,6 +614,7 @@
           "then": {
             "en": "<b>Type 1 CCS</b> (aka Type 1 Combo)",
             "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo)",
+            "ca": "<b>CSS Tipus 1</b> (també conegut com a Tipus 1 Combo)",
             "de": "<b>Typ 1 CCS</b> (Typ 1 Combo)"
           },
           "icon": {
@@ -631,6 +658,7 @@
           "then": {
             "en": "<b>Type 1 CCS</b> (aka Type 1 Combo)",
             "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo)",
+            "ca": "<b>CSS Tipus 1</b> (també conegut com a Tipus 1 Combo)",
             "de": "<b> Typ 1 CCS </b> (auch bekannt als Typ 1 Combo)"
           },
           "hideInAnswer": true,
@@ -645,6 +673,7 @@
           "then": {
             "en": "<b>Tesla Supercharger</b>",
             "nl": "<b>Tesla Supercharger</b>",
+            "ca": "<b>Supercarregador de Tesla",
             "de": "<b>Tesla Supercharger</b>"
           },
           "icon": {
@@ -688,6 +717,7 @@
           "then": {
             "en": "<b>Tesla Supercharger</b>",
             "nl": "<b>Tesla Supercharger</b>",
+            "ca": "<b>Supercarregador de Tesla</b>",
             "de": "<b>Tesla Supercharger</b>"
           },
           "hideInAnswer": true,
@@ -702,6 +732,7 @@
           "then": {
             "en": "<b>Type 2</b> (mennekes)",
             "nl": "<b>Type 2</b> (mennekes)",
+            "ca": "<b>Tipus 2</b> (mennekes)",
             "de": "<b>Typ 2</b> (Mennekes)"
           },
           "icon": {
@@ -745,6 +776,7 @@
           "then": {
             "en": "<b>Type 2</b> (mennekes)",
             "nl": "<b>Type 2</b> (mennekes)",
+            "ca": "<b>Tipus 2</b> (mennekes)",
             "de": "<b>Typ 2</b> (Mennekes)"
           },
           "hideInAnswer": true,
@@ -759,6 +791,7 @@
           "then": {
             "en": "<b>Type 2 CCS</b> (mennekes)",
             "nl": "<b>Type 2 CCS</b> (mennekes)",
+            "ca": "<b>CSS Tipus 2</b> (mennekes)",
             "de": "<b>Typ 2 CCS</b> (Mennekes)"
           },
           "icon": {
@@ -802,6 +835,7 @@
           "then": {
             "en": "<b>Type 2 CCS</b> (mennekes)",
             "nl": "<b>Type 2 CCS</b> (mennekes)",
+            "ca": "<b>CSS Tipus 2</b> (mennekes)",
             "de": "<b>Typ 2 CCS</b> (mennekes)"
           },
           "hideInAnswer": true,
@@ -1656,6 +1690,7 @@
         "question": {
           "en": "When is this charging station opened?",
           "nl": "Wanneer is dit oplaadpunt beschikbaar??",
+          "ca": "Quan està oberta aquesta estació de càrrega?",
           "de": "Wann ist die Ladestation geöffnet?"
         }
       },
@@ -1666,6 +1701,7 @@
       "question": {
         "en": "Does one have to pay to use this charging station?",
         "nl": "Moet men betalen om dit oplaadpunt te gebruiken?",
+        "ca": "Hi ha que pagar per utilitzar aquest punt de càrrega?",
         "de": "Muss man für die Nutzung dieser Ladestation bezahlen?"
       },
       "mappings": [
@@ -1681,6 +1717,7 @@
           "then": {
             "nl": "Gratis te gebruiken (zonder aan te melden)",
             "en": "Free to use (without authenticating)",
+            "ca": "Ús gratuït (sense autentificació)",
             "de": "Die Nutzung ist kostenlos, keine Authentifizierung erforderlich"
           }
         },
@@ -1696,6 +1733,7 @@
           "then": {
             "nl": "Gratis te gebruiken, maar aanmelden met een applicatie is verplicht",
             "en": "Free to use, but one has to authenticate",
+            "ca": "Ús gratuït, però un s'ha d'autentificar",
             "de": "Die Nutzung ist kostenlos, Authentifizierung erforderlich"
           }
         },
@@ -1708,6 +1746,7 @@
           "then": {
             "nl": "Gratis te gebruiken",
             "en": "Free to use",
+            "ca": "Ús gratuït",
             "de": "Kostenlose Nutzung"
           },
           "hideInAnswer": true
@@ -1722,6 +1761,7 @@
           "then": {
             "nl": "Betalend te gebruiken, maar gratis voor klanten van het bijhorende hotel/café/ziekenhuis/...",
             "en": "Paid use, but free for customers of the hotel/pub/hospital/... who operates the charging station",
+            "ca": "De pagament, però gratuït per als clients de l'hotel/bar/hospital/... que gestiona l'estació de càrrega",
             "de": "Die Nutzung ist kostenpflichtig, aber für Kunden des Betreibers der Einrichtung, wie Hotel, Krankenhaus, … kostenlos"
           }
         },
@@ -1735,6 +1775,7 @@
           "then": {
             "nl": "Betalend",
             "en": "Paid use",
+            "ca": "Ús de pagament",
             "de": "Die Nutzung ist kostenpflichtig"
           }
         }
@@ -1745,11 +1786,13 @@
       "question": {
         "en": "How much does one have to pay to use this charging station?",
         "nl": "Hoeveel moet men betalen om dit oplaadpunt te gebruiken?",
+        "ca": "Quant cal pagar per utilitzar aquesta estació de càrrega?",
         "de": "Wie viel muss man für die Nutzung dieser Ladestation bezahlen?"
       },
       "render": {
         "en": "Using this charging station costs <b>{charge}</b>",
         "nl": "Dit oplaadpunt gebruiken kost <b>{charge}</b>",
+        "ca": "Utilitzar aquesta estació de càrrega costa <b>{charge}</b>",
         "de": "Die Nutzung dieser Ladestation kostet <b>{charge}</b>"
       },
       "freeform": {
@@ -1775,6 +1818,7 @@
       "question": {
         "en": "What kind of authentication is available at the charging station?",
         "nl": "Hoe kan men zich aanmelden aan dit oplaadstation?",
+        "ca": "Quin tipus d'autenticació hi ha disponible a l'estació de càrrega?",
         "de": "Welche Art der Authentifizierung ist an der Ladestation möglich?"
       },
       "multiAnswer": true,
@@ -1821,6 +1865,7 @@
           "then": {
             "en": "Authentication via NFC is available",
             "nl": "Aanmelden via NFC is mogelijk",
+            "ca": "L'autenticació mitjançant NFC està disponible",
             "de": "Authentifizierung per NFC ist möglich"
           }
         },
@@ -1830,6 +1875,7 @@
           "then": {
             "en": "Authentication via Money Card is available",
             "nl": "Aanmelden met Money Card is mogelijk",
+            "ca": "L'autenticació mitjançant targeta de pagament està disponible",
             "de": "Authentifizierung per Geldkarte ist möglich"
           }
         },
@@ -1839,6 +1885,7 @@
           "then": {
             "en": "Authentication via debit card is available",
             "nl": "Aanmelden met een betaalkaart is mogelijk",
+            "ca": "L'autenticació mitjançant targeta de debit està disponible",
             "de": "Authentifizierung per Kreditkarte ist möglich"
           }
         },
@@ -1848,6 +1895,7 @@
           "then": {
             "en": "Charging here is (also) possible without authentication",
             "nl": "Hier opladen is (ook) mogelijk zonder aan te melden",
+            "ca": "Carregar aquí (també) és possible sense autenticació",
             "de": "Das Laden ist hier (auch) ohne Authentifizierung möglich"
           }
         }
@@ -1887,6 +1935,7 @@
       "question": {
         "en": "What is the maximum amount of time one is allowed to stay here?",
         "nl": "Hoelang mag een voertuig hier blijven staan?",
+        "ca": "Quina és la quantitat màxima de temps que es permet permaneixer aquí?",
         "de": "Wie lange darf man hier maximal parken?"
       },
       "freeform": {
@@ -1895,6 +1944,7 @@
       "render": {
         "en": "One can stay at most <b>{canonical(maxstay)}</b>",
         "nl": "De maximale parkeertijd hier is <b>{canonical(maxstay)}</b>",
+        "ca": "Un pot quedar-se com a màxim <b>{canonical(maxstay)}</b>",
         "de": "Die maximale Parkdauer beträgt <b>{canonical(maxstay)}</b>"
       },
       "mappings": [
@@ -1903,6 +1953,7 @@
           "then": {
             "en": "No timelimit on leaving your vehicle here",
             "nl": "Geen maximum parkeertijd",
+            "ca": "No hi ha límit de temps per a deixar el teu vehicle aquí",
             "de": "Keine Höchstparkdauer"
           }
         }
@@ -1921,11 +1972,13 @@
       "render": {
         "en": "Part of the network <b>{network}</b>",
         "nl": "Maakt deel uit van het <b>{network}</b>-netwerk",
+        "ca": "Part de la xarxa <b>{network}</b>",
         "de": "Teil des Netzwerks <b>{network}</b>"
       },
       "question": {
         "en": "Is this charging station part of a network?",
         "nl": "Is dit oplaadpunt deel van een groter netwerk?",
+        "ca": "Aquesta estació de càrrega forma part d'una xarxa?",
         "de": "Ist diese Ladestation Teil eines Netzwerks?"
       },
       "freeform": {
@@ -1992,11 +2045,13 @@
       "question": {
         "en": "Who is the operator of this charging station?",
         "nl": "Wie beheert dit oplaadpunt?",
+        "ca": "Qui és l'operadora d'aquesta estació de càrrega?",
         "de": "Wer ist der Betreiber dieser Ladestation?"
       },
       "render": {
         "en": "This charging station is operated by {operator}",
         "nl": "Wordt beheerd door {operator}",
+        "ca": "Aquesta estació de càrrega l'opera {operator}",
         "de": "Die Station wird betrieben von {operator}"
       },
       "freeform": {
@@ -2012,6 +2067,7 @@
           "then": {
             "en": "Actually, {operator} is the network",
             "nl": "Eigenlijk is {operator} het netwerk waarvan het deel uitmaakt",
+            "ca": "De fet, {operator} és la xarxa",
             "de": "Eigentlich ist {operator} das Netzwerk"
           },
           "addExtraTags": [
@@ -2027,11 +2083,13 @@
       "question": {
         "en": "What number can one call if there is a problem with this charging station?",
         "nl": "Wat is het telefoonnummer van de beheerder van dit oplaadpunt?",
+        "ca": "A quin número es pot cridar si hi ha algun problema amb aquest punt de càrrega?",
         "de": "Welche Nummer kann man anrufen, wenn es ein Problem mit dieser Ladestation gibt?"
       },
       "render": {
         "en": "In case of problems, call <a href='tel:{phone}'>{phone}</a>",
         "nl": "Bij problemen, bel naar <a href='tel:{phone}'>{phone}</a>",
+        "ca": "En cas de problemes, truqueu a <a href='tel:{phone}'>{phone}</a>",
         "de": "Bei Problemen, anrufen unter <a href='tel:{phone}'>{phone}</a>"
       },
       "freeform": {
@@ -2044,11 +2102,13 @@
       "question": {
         "en": "What is the email address of the operator?",
         "nl": "Wat is het email-adres van de operator?",
+        "ca": "Quin és el correu electrònic de l'operadora?",
         "de": "Wie lautet die E-Mail-Adresse des Betreibers?"
       },
       "render": {
         "en": "In case of problems, send an email to <a href='mailto:{email}'>{email}</a>",
         "nl": "Bij problemen, email naar <a href='mailto:{email}'>{email}</a>",
+        "ca": "En cas de problemes, envia un email a <a href='mailto:{email}'>{email}</a>",
         "de": "Bei Problemen senden Sie bitte eine E-Mail an <a href='mailto:{email}'>{email}</a>"
       },
       "freeform": {
@@ -2097,6 +2157,7 @@
       "question": {
         "en": "Is this charging point in use?",
         "nl": "Is dit oplaadpunt operationeel?",
+        "ca": "Està en ús aquest punt de càrrega?",
         "de": "Ist die Station in Betrieb?"
       },
       "mappings": [
@@ -2113,6 +2174,7 @@
           "then": {
             "en": "This charging station works",
             "nl": "Dit oplaadpunt werkt",
+            "ca": "Aquesta estació de càrrega funciona",
             "de": "Die Station ist in Betrieb"
           }
         },
@@ -2129,6 +2191,7 @@
           "then": {
             "en": "This charging station is broken",
             "nl": "Dit oplaadpunt is kapot",
+            "ca": "Aquesta estació de carrega està trencada",
             "de": "Die Station ist defekt"
           }
         },
@@ -2145,6 +2208,7 @@
           "then": {
             "en": "A charging station is planned here",
             "nl": "Hier zal binnenkort een oplaadpunt gebouwd worden",
+            "ca": "Aquí està prevista una estació de recàrrega",
             "de": "Die Station ist erst in Planung"
           }
         },
@@ -2177,6 +2241,7 @@
           "then": {
             "en": "This charging station has beed permanently disabled and is not in use anymore but is still visible",
             "nl": "Dit oplaadpunt is niet meer in gebruik maar is wel nog aanwezig",
+            "ca": "Aquesta estació de recàrrega s'ha desactivat permanentment i ja no s'utilitza, però encara és visible",
             "de": "Die Station ist dauerhaft geschlossen und nicht mehr in Nutzung, aber noch sichtbar"
           }
         }
@@ -2187,6 +2252,7 @@
       "question": {
         "en": "Does one have to pay a parking fee while charging?",
         "nl": "Moet men parkeergeld betalen tijdens het opladen?",
+        "ca": "Cal pagar una taxa d'aparcament mentre es carrega?",
         "de": "Muss man während des Ladens eine Parkgebühr bezahlen?"
       },
       "mappings": [
@@ -2195,6 +2261,7 @@
           "then": {
             "en": "No additional parking cost while charging",
             "nl": "Geen extra parkeerkost tijdens het opladen",
+            "ca": "No cal pagar una taxa addicional mentres carrega",
             "de": "Keine zusätzlichen Parkkosten während des Ladens"
           }
         },
@@ -2203,6 +2270,7 @@
           "then": {
             "en": "An additional parking fee should be paid while charging",
             "nl": "Tijdens het opladen moet er parkeergeld betaald worden",
+            "ca": "Cal pagar una taxa addicional d'aparcament mentres carrega",
             "de": "Während des Ladens ist eine zusätzliche Parkgebühr zu entrichten"
           }
         }
