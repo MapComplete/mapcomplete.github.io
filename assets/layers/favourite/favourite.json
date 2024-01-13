@@ -18,7 +18,7 @@
               }
             ]
           },
-          "color": "red"
+          "color": "black"
         }
       ]
     }
@@ -84064,6 +84064,7 @@
       }
     }
   ],
+  "syncSelection": "global",
   "titleIcons": [
     {
       "id": "rating",
