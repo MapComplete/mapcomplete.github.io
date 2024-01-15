@@ -1,6 +1,6 @@
 {
-  "name": "Hackerspaces",
-  "short_name": "Hackerspaces",
+  "name": "Hackerspaces and makerspaces",
+  "short_name": "Hackerspaces and makerspaces",
   "start_url": "hackerspaces.html",
   "lang": "en",
   "display": "standalone",
