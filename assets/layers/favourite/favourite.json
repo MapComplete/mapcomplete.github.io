@@ -61514,6 +61514,7 @@
           }
         }
       ],
+      "multiAnswer": true,
       "id": "toilet-changing_table:location"
     },
     {
