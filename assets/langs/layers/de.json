@@ -1955,7 +1955,7 @@
                         "question": "Verfügt über einen <div style='display: inline-block'><b><b>Typ 1 (J1772)</b>Stecker <i>ohne</i> Kabel</b><img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/Type1_J1772.svg'/></div>"
                     },
                     "6": {
-                        "question": "Verfügt über einen <div style='display: inline-block'><b>Typ 1 CCS (Typ 1 Combo)</b><img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/Type1-ccs.svg'/></div> Stecker"
+                        "question": "Verfügt über einen <div style='display: inline-block'><b><b>Typ 1 CCS</b> (Typ 1 Combo)</b><img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/Type1-ccs.svg'/></div> Stecker"
                     },
                     "7": {
                         "question": "Verfügt über einen <div style='display: inline-block'><b><b>Tesla Supercharger</b></b> <img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/Tesla-hpwc-model-s.svg'/></div> Stecker"
@@ -2226,7 +2226,7 @@
                         "then": "Für den Zugang zur Station muss ein <b>Schlüssel</b> angefordert werden<br/><span class='subtle'>z.B. eine von einem Hotel betriebene Ladestation, die nur von dessen Gästen genutzt werden kann, die an der Rezeption einen Schlüssel erhalten, um die Ladestation aufzuschließen</span>"
                     },
                     "4": {
-                        "then": "Die Station ist nicht für die Allgemeinheit zugänglich (z. B. nur für die Eigentümer, Mitarbeiter, …)"
+                        "then": "Die Station ist nicht für die Allgemeinheit zugänglich (z. B. nur für die Eigentümer, Mitarbeiter, ...)"
                     },
                     "5": {
                         "then": "Diese Ladestation ist zu gewissen Öffnungszeiten oder Bedingungen öffentlich zugänglich. Einschränkungen sind möglich, aber generelle Nutzung ist erlaubt."
@@ -2259,7 +2259,7 @@
                         "then": "Kostenlose Nutzung"
                     },
                     "3": {
-                        "then": "Die Nutzung ist kostenpflichtig, aber für Kunden des Betreibers der Einrichtung, wie Hotel, Krankenhaus, … kostenlos"
+                        "then": "Die Nutzung ist kostenpflichtig, aber für Kunden des Betreibers der Einrichtung, wie Hotel, Krankenhaus, ... kostenlos"
                     },
                     "4": {
                         "then": "Die Nutzung ist kostenpflichtig"
@@ -2304,7 +2304,67 @@
                         "mappings": {
                             "then": "{{description}} liefert maximal {{commonCurrent}} A"
                         },
-                        "question": "Welchen Strom bieten die Stecker mit {{description}}?"
+                        "question": "Welchen Strom bieten die Stecker mit {{description}}?",
+                        "render": "{{description}} liefert maximal {canonical({{key}}:current)}"
+                    },
+                    "3": {
+                        "mappings": {
+                            "then": "{{description}} liefert maximal {{commonOutput}} A"
+                        },
+                        "question": "Welche Leistung liefert ein einzelner Stecker des Typs {{description}}?",
+                        "render": "{{description}} liefert maximal {canonical({{key}}:output)}"
+                    }
+                },
+                "rewrite": {
+                    "into": {
+                        "0": {
+                            "2": "<b>Schuko-Stecker</b> ohne Erdungsstift (CEE7/4 Typ F)"
+                        },
+                        "1": {
+                            "2": "<b>Europäischer Netzstecker</b> mit Erdungsstift (CEE7/4 Typ E)"
+                        },
+                        "2": {
+                            "2": "<b>Chademo-Stecker</b>"
+                        },
+                        "3": {
+                            "2": "<b>Typ 1 mit Kabel</b> (J1772)"
+                        },
+                        "4": {
+                            "2": "<b> Typ 1 <i>ohne </i> Kabel</b> (J1772)"
+                        },
+                        "5": {
+                            "2": "<b>Typ 1 CCS</b> (Typ 1 Combo)"
+                        },
+                        "6": {
+                            "2": "<b>Tesla Supercharger</b>"
+                        },
+                        "7": {
+                            "2": "<b>Typ 2</b> (Mennekes)"
+                        },
+                        "8": {
+                            "2": "<b>Typ 2 CCS</b> (Mennekes)"
+                        },
+                        "9": {
+                            "2": "<b>Typ 2 mit Kabel</b> (Mennekes)"
+                        },
+                        "10": {
+                            "2": "<b>Tesla Supercharger CCS</b> (Typ 2 CSS von Tesla)"
+                        },
+                        "11": {
+                            "2": "<b>Tesla Supercharger (Destination)</b>"
+                        },
+                        "12": {
+                            "2": "<b>Tesla Supercharger (Destination)</b> (Typ 2 mit Kabel von Tesla)"
+                        },
+                        "13": {
+                            "2": "<b>USB</b> zum Aufladen von Handys und kleinen Elektrogeräten"
+                        },
+                        "14": {
+                            "2": "<b> Bosch Active Connect mit 3 Pins </b> und Kabel"
+                        },
+                        "15": {
+                            "2": "<b> Bosch Active Connect mit 5 Pins </b> und Kabel"
+                        }
                     }
                 }
             },
@@ -3340,6 +3400,18 @@
                 "question": "Wie breit ist der Abstand zwischen Radweg und Straße?",
                 "render": "Der Sicherheitsabstand zu diesem Radweg beträgt {cycleway:buffer} m"
             },
+            "incline": {
+                "mappings": {
+                    "0": {
+                        "then": "Hier gibt es (wahrscheinlich) keine Steigung"
+                    },
+                    "1": {
+                        "then": "Die Straße hat eine Steigung"
+                    }
+                },
+                "question": "Hat {title()} eine Steigung?",
+                "render": "Die Straße hat {incline} Steigung"
+            },
             "is lit?": {
                 "mappings": {
                     "0": {
@@ -3632,6 +3704,9 @@
                 },
                 "1": {
                     "then": "Dies ist ein Wasserhahn oder eine Wasserpumpe mit nicht trinkbarem Wasser.<div class='subtle'>Beispiele sind Wasserhähne mit Regenwasser zum Zapfen von Wasser für nahe gelegene Pflanzen</div>"
+                },
+                "2": {
+                    "then": "Dies ist eine historische, manuelle Wasserpumpe, an der kein Trinkwasser zu finden ist"
                 }
             }
         },
@@ -3670,8 +3745,58 @@
                 "question": "Ist diese Trinkwasserstelle noch in Betrieb?",
                 "render": "Der Betriebsstatus ist <i>{operational_status}</i>"
             },
+            "bench-artwork": {
+                "mappings": {
+                    "0": {
+                        "then": "Die Trinkwasserstelle hat ein integriertes Kunstwerk"
+                    },
+                    "1": {
+                        "then": "Die Trinkwasserstelle hat kein integriertes Kunstwerk"
+                    },
+                    "2": {
+                        "then": "Die Trinkwasserstelle hat <span class=\"subtle\">wahrscheinlich</span> kein integriertes Kunstwerk"
+                    }
+                },
+                "question": "Verfügt der Trinkwasserbrunnen über ein künstlerisches Element?",
+                "questionHint": "Z.B. eine integrierte Statue oder andere künstlerische Werke"
+            },
+            "fee": {
+                "mappings": {
+                    "0": {
+                        "then": "Die Nutzung ist kostenlos"
+                    },
+                    "1": {
+                        "then": "Die Nutzung ist kostenpflichtig"
+                    }
+                },
+                "question": "Kann diese Trinkwasserstelle kostenlos genutzt werden?"
+            },
+            "opening_hours_24_7": {
+                "override": {
+                    "+mappings": {
+                        "0": {
+                            "then": "Der Trinkwasserbrunnen ist derzeit nicht in Betrieb. Deshalb werden keine Öffnungszeiten angezeigt."
+                        }
+                    },
+                    "questionHint": "Dies sind die Öffnungszeiten des Trinkwasserbrunnens, wenn dieser in Betrieb ist."
+                }
+            },
             "render-closest-drinking-water": {
                 "render": "<a href='#{_closest_other_drinking_water_id}'>Eine weitere Trinkwasserstelle befindet sich in {_closest_other_drinking_water_distance} Meter</a>"
+            },
+            "seasonal": {
+                "mappings": {
+                    "0": {
+                        "then": "Die Trinkwasserstelle ist ganzjährig in Betrieb"
+                    },
+                    "1": {
+                        "then": "Die Trinkwasserstelle ist nur im Sommer in Betrieb"
+                    },
+                    "2": {
+                        "then": "Die Trinkwasserstelle ist im Winter nicht in Betrieb"
+                    }
+                },
+                "question": "Ist die Trinkwasserstelle ganzjährig in Betrieb?"
             }
         },
         "title": {
@@ -4897,6 +5022,10 @@
                         "2": {
                             "1": "eine CNC-Fräse",
                             "2": "CNC-Fräse"
+                        },
+                        "4": {
+                            "1": "eine Nähmaschine",
+                            "2": "Nähmaschine"
                         }
                     }
                 }

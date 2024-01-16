@@ -14919,7 +14919,8 @@
             "he": "גילוף בעץ",
             "eu": "Egur taila",
             "pl": "Rzeźbienie w drewnie",
-            "pt_BR": "Entalhe"
+            "pt_BR": "Entalhe",
+            "it": "Scultura in legno"
           }
         }
       ],
@@ -15406,7 +15407,8 @@
         "ca": "Què representa aquesta obra d'art?",
         "he": "מה מתארת היצירה הזו?",
         "pl": "Co przedstawia to dzieło sztuki?",
-        "pt_BR": "O que esta obra de arte representa?"
+        "pt_BR": "O que esta obra de arte representa?",
+        "it": "Che cosa rappresenta quest'opera d'arte?"
       },
       "freeform": {
         "key": "subject:wikidata",
@@ -15424,7 +15426,8 @@
         "ca": "Aquesta obra d'art representa {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}",
         "fr": "Cette œuvre dépeint {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}",
         "pl": "To dzieło sztuki przedstawia {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}",
-        "pt_BR": "Essa arte representa {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}"
+        "pt_BR": "Essa arte representa {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}",
+        "it": "Quest'opera d'arte rappresenta {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}"
       },
       "labels": [
         "artwork-question"
@@ -15444,7 +15447,8 @@
         "pl": "Czy to dzieło sztuki pełni funkcję ławki?",
         "pt_BR": "Essa obra de arte serve como banco?",
         "es": "¿Sirve esta obra de arte como banco?",
-        "pt": "Esta obra de arte serve como banco?"
+        "pt": "Esta obra de arte serve como banco?",
+        "it": "Quest'opera d'arte funge da panchina?"
       },
       "mappings": [
         {
@@ -15460,7 +15464,8 @@
             "pl": "To dzieło sztuki pełni również funkcję ławki",
             "pt_BR": "Essa obra de arte também serve como banco",
             "es": "Esta obra de arte también sirve de banco",
-            "pt": "Esta obra de arte também serve como banco"
+            "pt": "Esta obra de arte também serve como banco",
+            "it": "Quest'opera d'arte funge anche da panchina"
           }
         },
         {
@@ -15477,7 +15482,8 @@
             "pl": "To dzieło sztuki nie pełni funkcji ławki",
             "pt_BR": "Essa obra de arte não serve como banco",
             "es": "Esta obra no sirve de banco",
-            "pt": "Esta obra de arte não serve como banco"
+            "pt": "Esta obra de arte não serve como banco",
+            "it": "Quest'opera d'arte non funge anche da panchina"
           }
         },
         {
@@ -15494,7 +15500,8 @@
             "pl": "To dzieło sztuki nie pełni funkcji ławki",
             "pt_BR": "Essa obra de arte não serve como banco",
             "es": "Esta obra no sirve de banco",
-            "pt": "Esta obra de arte não serve como banco"
+            "pt": "Esta obra de arte não serve como banco",
+            "it": "Quest'opera d'arte non funge anche da panchina"
           },
           "hideInAnswer": true
         }
@@ -16559,7 +16566,8 @@
         "pl": "Nazwa tego bankomatu to {name}",
         "pt_BR": "O nome desse caixa eletrônico é {name}",
         "es": "El nombre del banco de este cajero automático es {name}",
-        "pt": "O nome deste multibanco é {name}"
+        "pt": "O nome deste multibanco é {name}",
+        "it": "Il nome di questo sportello bancomat è {name}"
       },
       "condition": {
         "and": [
@@ -16663,7 +16671,8 @@
           "eu": "Operadorea",
           "pt_BR": "Operador",
           "es": "Operador",
-          "pt": "Operador"
+          "pt": "Operador",
+          "it": "Operatore"
         },
         "inline": true
       },
@@ -16780,7 +16789,8 @@
         "he": "האם אתה יכול למשוך מזומן מהכספומט הזה?",
         "pt_BR": "Você pode sacar dinheiro nesse caixa eletrônico?",
         "es": "¿Se puede sacar dinero de este cajero?",
-        "pt": "Pode levantar dinheiro neste multibanco?"
+        "pt": "Pode levantar dinheiro neste multibanco?",
+        "it": "Puoi prelevare dei contanti da questo sportello bancomat?"
       },
       "mappings": [
         {
@@ -16796,7 +16806,8 @@
             "pl": "Z tego bankomatu można wypłacić pieniądze",
             "pt_BR": "Você pode sacar dinheiro nesse caixa eletrônico",
             "es": "Puede retirar dinero de este cajero automático",
-            "pt": "Pode levantar dinheiro neste multibanco"
+            "pt": "Pode levantar dinheiro neste multibanco",
+            "it": "Puoi prelevare dei contanti da questo sportello bancomat"
           },
           "hideInAnswer": true
         },
@@ -16811,7 +16822,8 @@
             "he": "אתה יכול למשוך מזומן מהכספומט הזה",
             "pt_BR": "Você pode sacar dinheiro nesse caixa eletrônico",
             "es": "Puede retirar dinero de este cajero automático",
-            "pt": "Pode levantar dinheiro neste multibanco"
+            "pt": "Pode levantar dinheiro neste multibanco",
+            "it": "Puoi prelevare dei contanti da questo sportello bancomat"
           }
         },
         {
@@ -16825,7 +16837,8 @@
             "he": "לא ניתן למשוך מזומן מכספומט זה",
             "pt_BR": "Você não pode sacar dinheiro nesse caixa eletrônico",
             "es": "No puede retirar dinero de este cajero automático",
-            "pt": "Não pode levantar dinheiro neste multibanco"
+            "pt": "Não pode levantar dinheiro neste multibanco",
+            "it": "Non puoi prelevare dei contanti da questo sportello bancomat"
           }
         }
       ],
@@ -16849,7 +16862,8 @@
         "pl": "Czy ten bankomat pozwala wpłacać pieniądze?",
         "pt_BR": "Você pode depositar dinheiro nesse caixa eletrônico?",
         "es": "¿Se puede ingresar dinero en efectivo en este cajero?",
-        "pt": "Pode depositar dinheiro neste multibanco?"
+        "pt": "Pode depositar dinheiro neste multibanco?",
+        "it": "Puoi depositare dei contanti in questo sportello bancomat?"
       },
       "mappings": [
         {
@@ -16866,7 +16880,8 @@
             "pl": "Prawdopodobnie ten bankomat nie pozwala wpłacać pieniędzy",
             "pt_BR": "Você provavelmente não pode depositar dinheiro nesse caixa eletrônico",
             "es": "Es probable que no pueda ingresar dinero en efectivo en este cajero automático",
-            "pt": "Provavelmente não pode depositar dinheiro neste multibanco"
+            "pt": "Provavelmente não pode depositar dinheiro neste multibanco",
+            "it": "Probabilmente non puoi depositare dei contanti in questo sportello bancomat"
           },
           "hideInAnswer": true
         },
@@ -16884,7 +16899,8 @@
             "pl": "Ten bankomat pozwala wpłacać pieniądze",
             "pt_BR": "Você pode depositar dinheiro nesse caixa eletrônico",
             "es": "Puede ingresar dinero en efectivo en este cajero automático",
-            "pt": "Pode depositar dinheiro neste mutibanco"
+            "pt": "Pode depositar dinheiro neste mutibanco",
+            "it": "Puoi depositare dei contanti in questo sportello bancomat"
           }
         },
         {
@@ -16901,7 +16917,8 @@
             "pl": "Ten bankomat nie pozwala wpłacać pieniędzy",
             "pt_BR": "Você não pode depositar dinheiro nesse caixa eletrônico",
             "es": "No se puede ingresar dinero en efectivo en este cajero automático",
-            "pt": "Não pode depositar dinheiro neste multibanco"
+            "pt": "Não pode depositar dinheiro neste multibanco",
+            "it": "Non puoi depositare dei contanti in questo sportello bancomat"
           }
         }
       ],
@@ -16942,7 +16959,8 @@
         "pl": "Jakie banknoty można tutaj wypłacić?",
         "pt_BR": "Quais notas você pode sacar aqui?",
         "es": "¿Qué billetes puede retirar aquí?",
-        "pt": "Quais notas pode levantar aqui?"
+        "pt": "Quais notas pode levantar aqui?",
+        "it": "Quali banconote si possono ritirare qui?"
       },
       "multiAnswer": true,
       "mappings": [
@@ -16958,7 +16976,8 @@
             "fr": "On peut retirer des billets de 5 euros",
             "pt_BR": "Notas de 5 euros podem ser sacadas",
             "es": "Se pueden retirar billetes de 5 euros",
-            "pt": "Notas de 5 euros podem ser levantadas"
+            "pt": "Notas de 5 euros podem ser levantadas",
+            "it": "Si possono prelevare banconote da 5 euro"
           }
         },
         {
@@ -16973,7 +16992,8 @@
             "fr": "On peut retirer des billets de 10 euros",
             "pt_BR": "Notas de 10 euros podem ser sacadas",
             "es": "Se pueden retirar billetes de 10 euros",
-            "pt": "Notas de 10 euros podem ser levantadas"
+            "pt": "Notas de 10 euros podem ser levantadas",
+            "it": "Si possono prelevare banconote da 10 euro"
           }
         },
         {
@@ -16988,7 +17008,8 @@
             "fr": "On peut retirer des billets de 20 euros",
             "pt_BR": "Notas de 20 euros podem ser sacadas",
             "es": "Se pueden retirar billetes de 20 euros",
-            "pt": "Notas de 20 euros podem ser levantadas"
+            "pt": "Notas de 20 euros podem ser levantadas",
+            "it": "Si possono prelevare banconote da 20 euro"
           }
         },
         {
@@ -17003,7 +17024,8 @@
             "fr": "On peut retirer des billets de 50 euros",
             "pt_BR": "Notas de 50 euros podem ser sacadas",
             "es": "Se pueden retirar billetes de 50 euros",
-            "pt": "Notas de 50 euros podem ser levantadas"
+            "pt": "Notas de 50 euros podem ser levantadas",
+            "it": "Si possono prelevare banconote da 50 euro"
           }
         },
         {
@@ -17018,7 +17040,8 @@
             "fr": "On peut retirer des billets de 100 euros",
             "pt_BR": "Notas de 100 euros podem ser sacadas",
             "es": "Se pueden retirar billetes de 100 euros",
-            "pt": "Notas de 100 euros podem ser levantadas"
+            "pt": "Notas de 100 euros podem ser levantadas",
+            "it": "Si possono prelevare banconote da 100 euro"
           }
         },
         {
@@ -17033,7 +17056,8 @@
             "fr": "On peut retirer des billets de 200 euros",
             "pt_BR": "Notas de 200 euros podem ser sacadas",
             "es": "Se pueden retirar billetes de 200 euros",
-            "pt": "Notas de 200 euros podem ser levantadas"
+            "pt": "Notas de 200 euros podem ser levantadas",
+            "it": "Non si possono prelevare banconote da 200 euro"
           }
         },
         {
@@ -17048,7 +17072,8 @@
             "fr": "On peut retirer des billets de 500 euros",
             "pt_BR": "Notas de 500 euros podem ser sacadas",
             "es": "Se pueden retirar billetes de 500 euros",
-            "pt": "Notas de 500 euros podem ser levantadas"
+            "pt": "Notas de 500 euros podem ser levantadas",
+            "it": "Non si possono prelevare banconote da 500 euro"
           }
         }
       ]
@@ -22741,10 +22766,12 @@
     {
       "id": "incline",
       "question": {
-        "en": "Does {title()} have an incline?"
+        "en": "Does {title()} have an incline?",
+        "de": "Hat {title()} eine Steigung?"
       },
       "render": {
-        "en": "This road has an slope of {incline}"
+        "en": "This road has an slope of {incline}",
+        "de": "Die Straße hat {incline} Steigung"
       },
       "freeform": {
         "key": "incline",
@@ -22755,7 +22782,8 @@
         {
           "if": "incline=",
           "then": {
-            "en": "There is (probably) no incline here"
+            "en": "There is (probably) no incline here",
+            "de": "Hier gibt es (wahrscheinlich) keine Steigung"
           },
           "hideInAnswer": true
         },
@@ -22768,7 +22796,8 @@
             ]
           },
           "then": {
-            "en": "This road has a slope"
+            "en": "This road has a slope",
+            "de": "Die Straße hat eine Steigung"
           },
           "hideInAnswer": true
         }
@@ -29586,7 +29615,7 @@
             "en": "Not accessible to the general public (e.g. only accessible to the owners, employees, ...)",
             "nl": "Niet toegankelijk voor het publiek <br/><span class='subtle'>Bv. enkel toegankelijk voor de eigenaar, medewerkers ,...</span> ",
             "ca": "No accessible per al públic general (p.e. només accessible pels propietaris, empleats, ...)",
-            "de": "Die Station ist nicht für die Allgemeinheit zugänglich (z. B. nur für die Eigentümer, Mitarbeiter, …)"
+            "de": "Die Station ist nicht für die Allgemeinheit zugänglich (z. B. nur für die Eigentümer, Mitarbeiter, ...)"
           }
         },
         {
@@ -30666,12 +30695,12 @@
         "ca": "Quants connectors del tipus <b>Schuko wall plug</b> without ground pin (CEE7/4 type F) hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>Schuko wall plug</b> without ground pin (CEE7/4 type F) je k dispozici?",
         "da": "Hvor mange stik af typen <b>Schuko wall plug</b> without ground pin (CEE7/4 type F) er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ <b>Schuko wall plug</b> without ground pin (CEE7/4 type F) sind hier vorhanden?"
+        "de": "Wie viele Stecker vom Typ <b>Schuko-Stecker</b> ohne Erdungsstift (CEE7/4 Typ F) sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:schuko}</b> plugs of type <b>Schuko wall plug</b> without ground pin (CEE7/4 type F) available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:schuko}</b> stekkers van het type <b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F)",
-        "de": "Hier sind <b class='text-xl'>{socket:schuko}</b> Stecker vom Typ <b>Schuko wall plug</b> without ground pin (CEE7/4 type F) verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:schuko}</b> Stecker vom Typ <b>Schuko-Stecker</b> ohne Erdungsstift (CEE7/4 Typ F) verfügbar"
       },
       "icon": "./assets/layers/charging_station/CEE7_4F.svg",
       "freeform": {
@@ -30703,12 +30732,12 @@
         "en": "What voltage do the plugs with <b>Schuko wall plug</b> without ground pin (CEE7/4 type F) offer?",
         "nl": "Welke spanning levert de stekker van type <b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F)",
         "cs": "Jaké napětí mají zástrčky s <b>Schuko wall plug</b> without ground pin (CEE7/4 type F) ?",
-        "de": "Welche Spannung liefern die <b>Schuko wall plug</b> without ground pin (CEE7/4 type F)?"
+        "de": "Welche Spannung liefern die <b>Schuko-Stecker</b> ohne Erdungsstift (CEE7/4 Typ F)?"
       },
       "render": {
         "en": "<b>Schuko wall plug</b> without ground pin (CEE7/4 type F) outputs {canonical(socket:schuko:voltage)}",
         "nl": "<b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F) heeft een spanning van {canonical(socket:schuko:voltage)}",
-        "de": "<b>Schuko wall plug</b> without ground pin (CEE7/4 type F) liefert {canonical(socket:schuko:voltage)}"
+        "de": "<b>Schuko-Stecker</b> ohne Erdungsstift (CEE7/4 Typ F) liefert {canonical(socket:schuko:voltage)}"
       },
       "freeform": {
         "key": "socket:schuko:voltage",
@@ -30722,7 +30751,7 @@
             "en": "<b>Schuko wall plug</b> without ground pin (CEE7/4 type F) outputs 230 volt",
             "nl": "<b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F) heeft een spanning van 230 volt",
             "cs": "<b>Schuko wall plug</b> without ground pin (CEE7/4 type F) výstup 230 voltů",
-            "de": "<b>Schuko wall plug</b> without ground pin (CEE7/4 type F) liefert 230 Volt"
+            "de": "<b>Schuko-Stecker</b> ohne Erdungsstift (CEE7/4 Typ F) liefert 230 Volt"
           }
         }
       ],
@@ -30749,11 +30778,12 @@
       "question": {
         "en": "What current do the plugs with <b>Schuko wall plug</b> without ground pin (CEE7/4 type F) offer?",
         "nl": "Welke stroom levert de stekker van type <b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F)?",
-        "de": "Welchen Strom bieten die Stecker mit <b>Schuko wall plug</b> without ground pin (CEE7/4 type F)?"
+        "de": "Welchen Strom bieten die Stecker mit <b>Schuko-Stecker</b> ohne Erdungsstift (CEE7/4 Typ F)?"
       },
       "render": {
         "en": "<b>Schuko wall plug</b> without ground pin (CEE7/4 type F) outputs at most {canonical(socket:schuko:current)}",
-        "nl": "<b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F) levert een stroom van maximaal {canonical(socket:schuko:current)}"
+        "nl": "<b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F) levert een stroom van maximaal {canonical(socket:schuko:current)}",
+        "de": "<b>Schuko-Stecker</b> ohne Erdungsstift (CEE7/4 Typ F) liefert maximal {canonical(socket:schuko:current)}"
       },
       "freeform": {
         "key": "socket:schuko:current",
@@ -30766,7 +30796,7 @@
           "then": {
             "en": "<b>Schuko wall plug</b> without ground pin (CEE7/4 type F) outputs at most 16 A",
             "nl": "<b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F) levert een stroom van maximaal 16 A",
-            "de": "<b>Schuko wall plug</b> without ground pin (CEE7/4 type F) liefert maximal 16 A"
+            "de": "<b>Schuko-Stecker</b> ohne Erdungsstift (CEE7/4 Typ F) liefert maximal 16 A"
           }
         }
       ],
@@ -30792,11 +30822,13 @@
       ],
       "question": {
         "en": "What power output does a single plug of type <b>Schuko wall plug</b> without ground pin (CEE7/4 type F) offer?",
-        "nl": "Welk vermogen levert een enkele stekker van type <b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F)?"
+        "nl": "Welk vermogen levert een enkele stekker van type <b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F)?",
+        "de": "Welche Leistung liefert ein einzelner Stecker des Typs <b>Schuko-Stecker</b> ohne Erdungsstift (CEE7/4 Typ F)?"
       },
       "render": {
         "en": "<b>Schuko wall plug</b> without ground pin (CEE7/4 type F) outputs at most {canonical(socket:schuko:output)}",
-        "nl": "<b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F) levert een vermogen van maximaal {canonical(socket:schuko:output)}"
+        "nl": "<b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F) levert een vermogen van maximaal {canonical(socket:schuko:output)}",
+        "de": "<b>Schuko-Stecker</b> ohne Erdungsstift (CEE7/4 Typ F) liefert maximal {canonical(socket:schuko:output)}"
       },
       "freeform": {
         "key": "socket:schuko:output",
@@ -30808,7 +30840,8 @@
           "if": "socket:schuko:output=3.6 kW",
           "then": {
             "en": "<b>Schuko wall plug</b> without ground pin (CEE7/4 type F) outputs at most 3.6 kW A",
-            "nl": "<b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F) levert een vermogen van maximaal 3.6 kW A"
+            "nl": "<b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F) levert een vermogen van maximaal 3.6 kW A",
+            "de": "<b>Schuko-Stecker</b> ohne Erdungsstift (CEE7/4 Typ F) liefert maximal 3.6 kW A"
           }
         }
       ],
@@ -30835,12 +30868,12 @@
         "ca": "Quants connectors del tipus <b>European wall plug</b> with ground pin (CEE7/4 type E) hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>European wall plug</b> with ground pin (CEE7/4 type E) je k dispozici?",
         "da": "Hvor mange stik af typen <b>European wall plug</b> with ground pin (CEE7/4 type E) er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ <b>European wall plug</b> with ground pin (CEE7/4 type E) sind hier vorhanden?"
+        "de": "Wie viele Stecker vom Typ <b>Europäischer Netzstecker</b> mit Erdungsstift (CEE7/4 Typ E) sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:typee}</b> plugs of type <b>European wall plug</b> with ground pin (CEE7/4 type E) available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:typee}</b> stekkers van het type <b>Europese stekker</b> met aardingspin (CEE7/4 type E)",
-        "de": "Hier sind <b class='text-xl'>{socket:typee}</b> Stecker vom Typ <b>European wall plug</b> with ground pin (CEE7/4 type E) verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:typee}</b> Stecker vom Typ <b>Europäischer Netzstecker</b> mit Erdungsstift (CEE7/4 Typ E) verfügbar"
       },
       "icon": "./assets/layers/charging_station/TypeE.svg",
       "freeform": {
@@ -30872,12 +30905,12 @@
         "en": "What voltage do the plugs with <b>European wall plug</b> with ground pin (CEE7/4 type E) offer?",
         "nl": "Welke spanning levert de stekker van type <b>Europese stekker</b> met aardingspin (CEE7/4 type E)",
         "cs": "Jaké napětí mají zástrčky s <b>European wall plug</b> with ground pin (CEE7/4 type E) ?",
-        "de": "Welche Spannung liefern die <b>European wall plug</b> with ground pin (CEE7/4 type E)?"
+        "de": "Welche Spannung liefern die <b>Europäischer Netzstecker</b> mit Erdungsstift (CEE7/4 Typ E)?"
       },
       "render": {
         "en": "<b>European wall plug</b> with ground pin (CEE7/4 type E) outputs {canonical(socket:typee:voltage)}",
         "nl": "<b>Europese stekker</b> met aardingspin (CEE7/4 type E) heeft een spanning van {canonical(socket:typee:voltage)}",
-        "de": "<b>European wall plug</b> with ground pin (CEE7/4 type E) liefert {canonical(socket:typee:voltage)}"
+        "de": "<b>Europäischer Netzstecker</b> mit Erdungsstift (CEE7/4 Typ E) liefert {canonical(socket:typee:voltage)}"
       },
       "freeform": {
         "key": "socket:typee:voltage",
@@ -30891,7 +30924,7 @@
             "en": "<b>European wall plug</b> with ground pin (CEE7/4 type E) outputs 230 volt",
             "nl": "<b>Europese stekker</b> met aardingspin (CEE7/4 type E) heeft een spanning van 230 volt",
             "cs": "<b>European wall plug</b> with ground pin (CEE7/4 type E) výstup 230 voltů",
-            "de": "<b>European wall plug</b> with ground pin (CEE7/4 type E) liefert 230 Volt"
+            "de": "<b>Europäischer Netzstecker</b> mit Erdungsstift (CEE7/4 Typ E) liefert 230 Volt"
           }
         }
       ],
@@ -30918,11 +30951,12 @@
       "question": {
         "en": "What current do the plugs with <b>European wall plug</b> with ground pin (CEE7/4 type E) offer?",
         "nl": "Welke stroom levert de stekker van type <b>Europese stekker</b> met aardingspin (CEE7/4 type E)?",
-        "de": "Welchen Strom bieten die Stecker mit <b>European wall plug</b> with ground pin (CEE7/4 type E)?"
+        "de": "Welchen Strom bieten die Stecker mit <b>Europäischer Netzstecker</b> mit Erdungsstift (CEE7/4 Typ E)?"
       },
       "render": {
         "en": "<b>European wall plug</b> with ground pin (CEE7/4 type E) outputs at most {canonical(socket:typee:current)}",
-        "nl": "<b>Europese stekker</b> met aardingspin (CEE7/4 type E) levert een stroom van maximaal {canonical(socket:typee:current)}"
+        "nl": "<b>Europese stekker</b> met aardingspin (CEE7/4 type E) levert een stroom van maximaal {canonical(socket:typee:current)}",
+        "de": "<b>Europäischer Netzstecker</b> mit Erdungsstift (CEE7/4 Typ E) liefert maximal {canonical(socket:typee:current)}"
       },
       "freeform": {
         "key": "socket:typee:current",
@@ -30935,7 +30969,7 @@
           "then": {
             "en": "<b>European wall plug</b> with ground pin (CEE7/4 type E) outputs at most 16 A",
             "nl": "<b>Europese stekker</b> met aardingspin (CEE7/4 type E) levert een stroom van maximaal 16 A",
-            "de": "<b>European wall plug</b> with ground pin (CEE7/4 type E) liefert maximal 16 A"
+            "de": "<b>Europäischer Netzstecker</b> mit Erdungsstift (CEE7/4 Typ E) liefert maximal 16 A"
           }
         }
       ],
@@ -30961,11 +30995,13 @@
       ],
       "question": {
         "en": "What power output does a single plug of type <b>European wall plug</b> with ground pin (CEE7/4 type E) offer?",
-        "nl": "Welk vermogen levert een enkele stekker van type <b>Europese stekker</b> met aardingspin (CEE7/4 type E)?"
+        "nl": "Welk vermogen levert een enkele stekker van type <b>Europese stekker</b> met aardingspin (CEE7/4 type E)?",
+        "de": "Welche Leistung liefert ein einzelner Stecker des Typs <b>Europäischer Netzstecker</b> mit Erdungsstift (CEE7/4 Typ E)?"
       },
       "render": {
         "en": "<b>European wall plug</b> with ground pin (CEE7/4 type E) outputs at most {canonical(socket:typee:output)}",
-        "nl": "<b>Europese stekker</b> met aardingspin (CEE7/4 type E) levert een vermogen van maximaal {canonical(socket:typee:output)}"
+        "nl": "<b>Europese stekker</b> met aardingspin (CEE7/4 type E) levert een vermogen van maximaal {canonical(socket:typee:output)}",
+        "de": "<b>Europäischer Netzstecker</b> mit Erdungsstift (CEE7/4 Typ E) liefert maximal {canonical(socket:typee:output)}"
       },
       "freeform": {
         "key": "socket:typee:output",
@@ -30977,14 +31013,16 @@
           "if": "socket:typee:output=3 kW",
           "then": {
             "en": "<b>European wall plug</b> with ground pin (CEE7/4 type E) outputs at most 3 kW A",
-            "nl": "<b>Europese stekker</b> met aardingspin (CEE7/4 type E) levert een vermogen van maximaal 3 kW A"
+            "nl": "<b>Europese stekker</b> met aardingspin (CEE7/4 type E) levert een vermogen van maximaal 3 kW A",
+            "de": "<b>Europäischer Netzstecker</b> mit Erdungsstift (CEE7/4 Typ E) liefert maximal 3 kW A"
           }
         },
         {
           "if": "socket:typee:output=22 kW",
           "then": {
             "en": "<b>European wall plug</b> with ground pin (CEE7/4 type E) outputs at most 22 kW A",
-            "nl": "<b>Europese stekker</b> met aardingspin (CEE7/4 type E) levert een vermogen van maximaal 22 kW A"
+            "nl": "<b>Europese stekker</b> met aardingspin (CEE7/4 type E) levert een vermogen van maximaal 22 kW A",
+            "de": "<b>Europäischer Netzstecker</b> mit Erdungsstift (CEE7/4 Typ E) liefert maximal 22 kW A"
           }
         }
       ],
@@ -31011,12 +31049,12 @@
         "ca": "Quants connectors del tipus <b>Chademo</b> hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>Chademo</b> je k dispozici?",
         "da": "Hvor mange stik af typen <b>Chademo</b> er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ <b>Chademo</b> sind hier vorhanden?"
+        "de": "Wie viele Stecker vom Typ <b>Chademo-Stecker</b> sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:chademo}</b> plugs of type <b>Chademo</b> available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:chademo}</b> stekkers van het type <b>Chademo</b>",
-        "de": "Hier sind <b class='text-xl'>{socket:chademo}</b> Stecker vom Typ <b>Chademo</b> verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:chademo}</b> Stecker vom Typ <b>Chademo-Stecker</b> verfügbar"
       },
       "icon": "./assets/layers/charging_station/Chademo_type4.svg",
       "freeform": {
@@ -31048,12 +31086,12 @@
         "en": "What voltage do the plugs with <b>Chademo</b> offer?",
         "nl": "Welke spanning levert de stekker van type <b>Chademo</b>",
         "cs": "Jaké napětí mají zástrčky s <b>Chademo</b> ?",
-        "de": "Welche Spannung liefern die <b>Chademo</b>?"
+        "de": "Welche Spannung liefern die <b>Chademo-Stecker</b>?"
       },
       "render": {
         "en": "<b>Chademo</b> outputs {canonical(socket:chademo:voltage)}",
         "nl": "<b>Chademo</b> heeft een spanning van {canonical(socket:chademo:voltage)}",
-        "de": "<b>Chademo</b> liefert {canonical(socket:chademo:voltage)}"
+        "de": "<b>Chademo-Stecker</b> liefert {canonical(socket:chademo:voltage)}"
       },
       "freeform": {
         "key": "socket:chademo:voltage",
@@ -31067,7 +31105,7 @@
             "en": "<b>Chademo</b> outputs 500 volt",
             "nl": "<b>Chademo</b> heeft een spanning van 500 volt",
             "cs": "<b>Chademo</b> výstup 500 voltů",
-            "de": "<b>Chademo</b> liefert 500 Volt"
+            "de": "<b>Chademo-Stecker</b> liefert 500 Volt"
           }
         }
       ],
@@ -31094,11 +31132,12 @@
       "question": {
         "en": "What current do the plugs with <b>Chademo</b> offer?",
         "nl": "Welke stroom levert de stekker van type <b>Chademo</b>?",
-        "de": "Welchen Strom bieten die Stecker mit <b>Chademo</b>?"
+        "de": "Welchen Strom bieten die Stecker mit <b>Chademo-Stecker</b>?"
       },
       "render": {
         "en": "<b>Chademo</b> outputs at most {canonical(socket:chademo:current)}",
-        "nl": "<b>Chademo</b> levert een stroom van maximaal {canonical(socket:chademo:current)}"
+        "nl": "<b>Chademo</b> levert een stroom van maximaal {canonical(socket:chademo:current)}",
+        "de": "<b>Chademo-Stecker</b> liefert maximal {canonical(socket:chademo:current)}"
       },
       "freeform": {
         "key": "socket:chademo:current",
@@ -31111,7 +31150,7 @@
           "then": {
             "en": "<b>Chademo</b> outputs at most 120 A",
             "nl": "<b>Chademo</b> levert een stroom van maximaal 120 A",
-            "de": "<b>Chademo</b> liefert maximal 120 A"
+            "de": "<b>Chademo-Stecker</b> liefert maximal 120 A"
           }
         }
       ],
@@ -31137,11 +31176,13 @@
       ],
       "question": {
         "en": "What power output does a single plug of type <b>Chademo</b> offer?",
-        "nl": "Welk vermogen levert een enkele stekker van type <b>Chademo</b>?"
+        "nl": "Welk vermogen levert een enkele stekker van type <b>Chademo</b>?",
+        "de": "Welche Leistung liefert ein einzelner Stecker des Typs <b>Chademo-Stecker</b>?"
       },
       "render": {
         "en": "<b>Chademo</b> outputs at most {canonical(socket:chademo:output)}",
-        "nl": "<b>Chademo</b> levert een vermogen van maximaal {canonical(socket:chademo:output)}"
+        "nl": "<b>Chademo</b> levert een vermogen van maximaal {canonical(socket:chademo:output)}",
+        "de": "<b>Chademo-Stecker</b> liefert maximal {canonical(socket:chademo:output)}"
       },
       "freeform": {
         "key": "socket:chademo:output",
@@ -31153,7 +31194,8 @@
           "if": "socket:chademo:output=50 kW",
           "then": {
             "en": "<b>Chademo</b> outputs at most 50 kW A",
-            "nl": "<b>Chademo</b> levert een vermogen van maximaal 50 kW A"
+            "nl": "<b>Chademo</b> levert een vermogen van maximaal 50 kW A",
+            "de": "<b>Chademo-Stecker</b> liefert maximal 50 kW A"
           }
         }
       ],
@@ -31180,12 +31222,12 @@
         "ca": "Quants connectors del tipus <b>Type 1 with cable</b> (J1772) hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>Type 1 with cable</b> (J1772) je k dispozici?",
         "da": "Hvor mange stik af typen <b>Type 1 with cable</b> (J1772) er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ <b>Type 1 with cable</b> (J1772) sind hier vorhanden?"
+        "de": "Wie viele Stecker vom Typ <b>Typ 1 mit Kabel</b> (J1772) sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:type1_cable}</b> plugs of type <b>Type 1 with cable</b> (J1772) available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:type1_cable}</b> stekkers van het type <b>Type 1 met kabel</b> (J1772)",
-        "de": "Hier sind <b class='text-xl'>{socket:type1_cable}</b> Stecker vom Typ <b>Type 1 with cable</b> (J1772) verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:type1_cable}</b> Stecker vom Typ <b>Typ 1 mit Kabel</b> (J1772) verfügbar"
       },
       "icon": "./assets/layers/charging_station/Type1_J1772.svg",
       "freeform": {
@@ -31217,12 +31259,12 @@
         "en": "What voltage do the plugs with <b>Type 1 with cable</b> (J1772) offer?",
         "nl": "Welke spanning levert de stekker van type <b>Type 1 met kabel</b> (J1772)",
         "cs": "Jaké napětí mají zástrčky s <b>Type 1 with cable</b> (J1772) ?",
-        "de": "Welche Spannung liefern die <b>Type 1 with cable</b> (J1772)?"
+        "de": "Welche Spannung liefern die <b>Typ 1 mit Kabel</b> (J1772)?"
       },
       "render": {
         "en": "<b>Type 1 with cable</b> (J1772) outputs {canonical(socket:type1_cable:voltage)}",
         "nl": "<b>Type 1 met kabel</b> (J1772) heeft een spanning van {canonical(socket:type1_cable:voltage)}",
-        "de": "<b>Type 1 with cable</b> (J1772) liefert {canonical(socket:type1_cable:voltage)}"
+        "de": "<b>Typ 1 mit Kabel</b> (J1772) liefert {canonical(socket:type1_cable:voltage)}"
       },
       "freeform": {
         "key": "socket:type1_cable:voltage",
@@ -31236,7 +31278,7 @@
             "en": "<b>Type 1 with cable</b> (J1772) outputs 200 volt",
             "nl": "<b>Type 1 met kabel</b> (J1772) heeft een spanning van 200 volt",
             "cs": "<b>Type 1 with cable</b> (J1772) výstup 200 voltů",
-            "de": "<b>Type 1 with cable</b> (J1772) liefert 200 Volt"
+            "de": "<b>Typ 1 mit Kabel</b> (J1772) liefert 200 Volt"
           }
         },
         {
@@ -31245,7 +31287,7 @@
             "en": "<b>Type 1 with cable</b> (J1772) outputs 240 volt",
             "nl": "<b>Type 1 met kabel</b> (J1772) heeft een spanning van 240 volt",
             "cs": "<b>Type 1 with cable</b> (J1772) výstup 240 voltů",
-            "de": "<b>Type 1 with cable</b> (J1772) liefert 240 Volt"
+            "de": "<b>Typ 1 mit Kabel</b> (J1772) liefert 240 Volt"
           }
         }
       ],
@@ -31272,11 +31314,12 @@
       "question": {
         "en": "What current do the plugs with <b>Type 1 with cable</b> (J1772) offer?",
         "nl": "Welke stroom levert de stekker van type <b>Type 1 met kabel</b> (J1772)?",
-        "de": "Welchen Strom bieten die Stecker mit <b>Type 1 with cable</b> (J1772)?"
+        "de": "Welchen Strom bieten die Stecker mit <b>Typ 1 mit Kabel</b> (J1772)?"
       },
       "render": {
         "en": "<b>Type 1 with cable</b> (J1772) outputs at most {canonical(socket:type1_cable:current)}",
-        "nl": "<b>Type 1 met kabel</b> (J1772) levert een stroom van maximaal {canonical(socket:type1_cable:current)}"
+        "nl": "<b>Type 1 met kabel</b> (J1772) levert een stroom van maximaal {canonical(socket:type1_cable:current)}",
+        "de": "<b>Typ 1 mit Kabel</b> (J1772) liefert maximal {canonical(socket:type1_cable:current)}"
       },
       "freeform": {
         "key": "socket:type1_cable:current",
@@ -31289,7 +31332,7 @@
           "then": {
             "en": "<b>Type 1 with cable</b> (J1772) outputs at most 32 A",
             "nl": "<b>Type 1 met kabel</b> (J1772) levert een stroom van maximaal 32 A",
-            "de": "<b>Type 1 with cable</b> (J1772) liefert maximal 32 A"
+            "de": "<b>Typ 1 mit Kabel</b> (J1772) liefert maximal 32 A"
           }
         }
       ],
@@ -31315,11 +31358,13 @@
       ],
       "question": {
         "en": "What power output does a single plug of type <b>Type 1 with cable</b> (J1772) offer?",
-        "nl": "Welk vermogen levert een enkele stekker van type <b>Type 1 met kabel</b> (J1772)?"
+        "nl": "Welk vermogen levert een enkele stekker van type <b>Type 1 met kabel</b> (J1772)?",
+        "de": "Welche Leistung liefert ein einzelner Stecker des Typs <b>Typ 1 mit Kabel</b> (J1772)?"
       },
       "render": {
         "en": "<b>Type 1 with cable</b> (J1772) outputs at most {canonical(socket:type1_cable:output)}",
-        "nl": "<b>Type 1 met kabel</b> (J1772) levert een vermogen van maximaal {canonical(socket:type1_cable:output)}"
+        "nl": "<b>Type 1 met kabel</b> (J1772) levert een vermogen van maximaal {canonical(socket:type1_cable:output)}",
+        "de": "<b>Typ 1 mit Kabel</b> (J1772) liefert maximal {canonical(socket:type1_cable:output)}"
       },
       "freeform": {
         "key": "socket:type1_cable:output",
@@ -31331,14 +31376,16 @@
           "if": "socket:type1_cable:output=3.7 kW",
           "then": {
             "en": "<b>Type 1 with cable</b> (J1772) outputs at most 3.7 kW A",
-            "nl": "<b>Type 1 met kabel</b> (J1772) levert een vermogen van maximaal 3.7 kW A"
+            "nl": "<b>Type 1 met kabel</b> (J1772) levert een vermogen van maximaal 3.7 kW A",
+            "de": "<b>Typ 1 mit Kabel</b> (J1772) liefert maximal 3.7 kW A"
           }
         },
         {
           "if": "socket:type1_cable:output=7 kW",
           "then": {
             "en": "<b>Type 1 with cable</b> (J1772) outputs at most 7 kW A",
-            "nl": "<b>Type 1 met kabel</b> (J1772) levert een vermogen van maximaal 7 kW A"
+            "nl": "<b>Type 1 met kabel</b> (J1772) levert een vermogen van maximaal 7 kW A",
+            "de": "<b>Typ 1 mit Kabel</b> (J1772) liefert maximal 7 kW A"
           }
         }
       ],
@@ -31365,12 +31412,12 @@
         "ca": "Quants connectors del tipus <b>Type 1 <i>without</i> cable</b> (J1772) hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>Type 1 <i>without</i> cable</b> (J1772) je k dispozici?",
         "da": "Hvor mange stik af typen <b>Type 1 <i>without</i> cable</b> (J1772) er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ <b>Type 1 <i>without</i> cable</b> (J1772) sind hier vorhanden?"
+        "de": "Wie viele Stecker vom Typ <b> Typ 1 <i>ohne </i> Kabel</b> (J1772) sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:type1}</b> plugs of type <b>Type 1 <i>without</i> cable</b> (J1772) available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:type1}</b> stekkers van het type <b>Type 1 <i>zonder</i> kabel</b> (J1772)",
-        "de": "Hier sind <b class='text-xl'>{socket:type1}</b> Stecker vom Typ <b>Type 1 <i>without</i> cable</b> (J1772) verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:type1}</b> Stecker vom Typ <b> Typ 1 <i>ohne </i> Kabel</b> (J1772) verfügbar"
       },
       "icon": "./assets/layers/charging_station/Type1_J1772.svg",
       "freeform": {
@@ -31402,12 +31449,12 @@
         "en": "What voltage do the plugs with <b>Type 1 <i>without</i> cable</b> (J1772) offer?",
         "nl": "Welke spanning levert de stekker van type <b>Type 1 <i>zonder</i> kabel</b> (J1772)",
         "cs": "Jaké napětí mají zástrčky s <b>Type 1 <i>without</i> cable</b> (J1772) ?",
-        "de": "Welche Spannung liefern die <b>Type 1 <i>without</i> cable</b> (J1772)?"
+        "de": "Welche Spannung liefern die <b> Typ 1 <i>ohne </i> Kabel</b> (J1772)?"
       },
       "render": {
         "en": "<b>Type 1 <i>without</i> cable</b> (J1772) outputs {canonical(socket:type1:voltage)}",
         "nl": "<b>Type 1 <i>zonder</i> kabel</b> (J1772) heeft een spanning van {canonical(socket:type1:voltage)}",
-        "de": "<b>Type 1 <i>without</i> cable</b> (J1772) liefert {canonical(socket:type1:voltage)}"
+        "de": "<b> Typ 1 <i>ohne </i> Kabel</b> (J1772) liefert {canonical(socket:type1:voltage)}"
       },
       "freeform": {
         "key": "socket:type1:voltage",
@@ -31421,7 +31468,7 @@
             "en": "<b>Type 1 <i>without</i> cable</b> (J1772) outputs 200 volt",
             "nl": "<b>Type 1 <i>zonder</i> kabel</b> (J1772) heeft een spanning van 200 volt",
             "cs": "<b>Type 1 <i>without</i> cable</b> (J1772) výstup 200 voltů",
-            "de": "<b>Type 1 <i>without</i> cable</b> (J1772) liefert 200 Volt"
+            "de": "<b> Typ 1 <i>ohne </i> Kabel</b> (J1772) liefert 200 Volt"
           }
         },
         {
@@ -31430,7 +31477,7 @@
             "en": "<b>Type 1 <i>without</i> cable</b> (J1772) outputs 240 volt",
             "nl": "<b>Type 1 <i>zonder</i> kabel</b> (J1772) heeft een spanning van 240 volt",
             "cs": "<b>Type 1 <i>without</i> cable</b> (J1772) výstup 240 voltů",
-            "de": "<b>Type 1 <i>without</i> cable</b> (J1772) liefert 240 Volt"
+            "de": "<b> Typ 1 <i>ohne </i> Kabel</b> (J1772) liefert 240 Volt"
           }
         }
       ],
@@ -31457,11 +31504,12 @@
       "question": {
         "en": "What current do the plugs with <b>Type 1 <i>without</i> cable</b> (J1772) offer?",
         "nl": "Welke stroom levert de stekker van type <b>Type 1 <i>zonder</i> kabel</b> (J1772)?",
-        "de": "Welchen Strom bieten die Stecker mit <b>Type 1 <i>without</i> cable</b> (J1772)?"
+        "de": "Welchen Strom bieten die Stecker mit <b> Typ 1 <i>ohne </i> Kabel</b> (J1772)?"
       },
       "render": {
         "en": "<b>Type 1 <i>without</i> cable</b> (J1772) outputs at most {canonical(socket:type1:current)}",
-        "nl": "<b>Type 1 <i>zonder</i> kabel</b> (J1772) levert een stroom van maximaal {canonical(socket:type1:current)}"
+        "nl": "<b>Type 1 <i>zonder</i> kabel</b> (J1772) levert een stroom van maximaal {canonical(socket:type1:current)}",
+        "de": "<b> Typ 1 <i>ohne </i> Kabel</b> (J1772) liefert maximal {canonical(socket:type1:current)}"
       },
       "freeform": {
         "key": "socket:type1:current",
@@ -31474,7 +31522,7 @@
           "then": {
             "en": "<b>Type 1 <i>without</i> cable</b> (J1772) outputs at most 32 A",
             "nl": "<b>Type 1 <i>zonder</i> kabel</b> (J1772) levert een stroom van maximaal 32 A",
-            "de": "<b>Type 1 <i>without</i> cable</b> (J1772) liefert maximal 32 A"
+            "de": "<b> Typ 1 <i>ohne </i> Kabel</b> (J1772) liefert maximal 32 A"
           }
         }
       ],
@@ -31500,11 +31548,13 @@
       ],
       "question": {
         "en": "What power output does a single plug of type <b>Type 1 <i>without</i> cable</b> (J1772) offer?",
-        "nl": "Welk vermogen levert een enkele stekker van type <b>Type 1 <i>zonder</i> kabel</b> (J1772)?"
+        "nl": "Welk vermogen levert een enkele stekker van type <b>Type 1 <i>zonder</i> kabel</b> (J1772)?",
+        "de": "Welche Leistung liefert ein einzelner Stecker des Typs <b> Typ 1 <i>ohne </i> Kabel</b> (J1772)?"
       },
       "render": {
         "en": "<b>Type 1 <i>without</i> cable</b> (J1772) outputs at most {canonical(socket:type1:output)}",
-        "nl": "<b>Type 1 <i>zonder</i> kabel</b> (J1772) levert een vermogen van maximaal {canonical(socket:type1:output)}"
+        "nl": "<b>Type 1 <i>zonder</i> kabel</b> (J1772) levert een vermogen van maximaal {canonical(socket:type1:output)}",
+        "de": "<b> Typ 1 <i>ohne </i> Kabel</b> (J1772) liefert maximal {canonical(socket:type1:output)}"
       },
       "freeform": {
         "key": "socket:type1:output",
@@ -31516,28 +31566,32 @@
           "if": "socket:type1:output=3.7 kW",
           "then": {
             "en": "<b>Type 1 <i>without</i> cable</b> (J1772) outputs at most 3.7 kW A",
-            "nl": "<b>Type 1 <i>zonder</i> kabel</b> (J1772) levert een vermogen van maximaal 3.7 kW A"
+            "nl": "<b>Type 1 <i>zonder</i> kabel</b> (J1772) levert een vermogen van maximaal 3.7 kW A",
+            "de": "<b> Typ 1 <i>ohne </i> Kabel</b> (J1772) liefert maximal 3.7 kW A"
           }
         },
         {
           "if": "socket:type1:output=6.6 kW",
           "then": {
             "en": "<b>Type 1 <i>without</i> cable</b> (J1772) outputs at most 6.6 kW A",
-            "nl": "<b>Type 1 <i>zonder</i> kabel</b> (J1772) levert een vermogen van maximaal 6.6 kW A"
+            "nl": "<b>Type 1 <i>zonder</i> kabel</b> (J1772) levert een vermogen van maximaal 6.6 kW A",
+            "de": "<b> Typ 1 <i>ohne </i> Kabel</b> (J1772) liefert maximal 6.6 kW A"
           }
         },
         {
           "if": "socket:type1:output=7 kW",
           "then": {
             "en": "<b>Type 1 <i>without</i> cable</b> (J1772) outputs at most 7 kW A",
-            "nl": "<b>Type 1 <i>zonder</i> kabel</b> (J1772) levert een vermogen van maximaal 7 kW A"
+            "nl": "<b>Type 1 <i>zonder</i> kabel</b> (J1772) levert een vermogen van maximaal 7 kW A",
+            "de": "<b> Typ 1 <i>ohne </i> Kabel</b> (J1772) liefert maximal 7 kW A"
           }
         },
         {
           "if": "socket:type1:output=7.2 kW",
           "then": {
             "en": "<b>Type 1 <i>without</i> cable</b> (J1772) outputs at most 7.2 kW A",
-            "nl": "<b>Type 1 <i>zonder</i> kabel</b> (J1772) levert een vermogen van maximaal 7.2 kW A"
+            "nl": "<b>Type 1 <i>zonder</i> kabel</b> (J1772) levert een vermogen van maximaal 7.2 kW A",
+            "de": "<b> Typ 1 <i>ohne </i> Kabel</b> (J1772) liefert maximal 7.2 kW A"
           }
         }
       ],
@@ -31564,12 +31618,12 @@
         "ca": "Quants connectors del tipus <b>Type 1 CCS</b> (aka Type 1 Combo) hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>Type 1 CCS</b> (aka Type 1 Combo) je k dispozici?",
         "da": "Hvor mange stik af typen <b>Type 1 CCS</b> (aka Type 1 Combo) er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ <b>Type 1 CCS</b> (aka Type 1 Combo) sind hier vorhanden?"
+        "de": "Wie viele Stecker vom Typ <b>Typ 1 CCS</b> (Typ 1 Combo) sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:type1_combo}</b> plugs of type <b>Type 1 CCS</b> (aka Type 1 Combo) available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:type1_combo}</b> stekkers van het type <b>Type 1 CCS</b> (ook gekend als Type 1 Combo)",
-        "de": "Hier sind <b class='text-xl'>{socket:type1_combo}</b> Stecker vom Typ <b>Type 1 CCS</b> (aka Type 1 Combo) verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:type1_combo}</b> Stecker vom Typ <b>Typ 1 CCS</b> (Typ 1 Combo) verfügbar"
       },
       "icon": "./assets/layers/charging_station/Type1-ccs.svg",
       "freeform": {
@@ -31601,12 +31655,12 @@
         "en": "What voltage do the plugs with <b>Type 1 CCS</b> (aka Type 1 Combo) offer?",
         "nl": "Welke spanning levert de stekker van type <b>Type 1 CCS</b> (ook gekend als Type 1 Combo)",
         "cs": "Jaké napětí mají zástrčky s <b>Type 1 CCS</b> (aka Type 1 Combo) ?",
-        "de": "Welche Spannung liefern die <b>Type 1 CCS</b> (aka Type 1 Combo)?"
+        "de": "Welche Spannung liefern die <b>Typ 1 CCS</b> (Typ 1 Combo)?"
       },
       "render": {
         "en": "<b>Type 1 CCS</b> (aka Type 1 Combo) outputs {canonical(socket:type1_combo:voltage)}",
         "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo) heeft een spanning van {canonical(socket:type1_combo:voltage)}",
-        "de": "<b>Type 1 CCS</b> (aka Type 1 Combo) liefert {canonical(socket:type1_combo:voltage)}"
+        "de": "<b>Typ 1 CCS</b> (Typ 1 Combo) liefert {canonical(socket:type1_combo:voltage)}"
       },
       "freeform": {
         "key": "socket:type1_combo:voltage",
@@ -31620,7 +31674,7 @@
             "en": "<b>Type 1 CCS</b> (aka Type 1 Combo) outputs 400 volt",
             "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo) heeft een spanning van 400 volt",
             "cs": "<b>Type 1 CCS</b> (aka Type 1 Combo) výstup 400 voltů",
-            "de": "<b>Type 1 CCS</b> (aka Type 1 Combo) liefert 400 Volt"
+            "de": "<b>Typ 1 CCS</b> (Typ 1 Combo) liefert 400 Volt"
           }
         },
         {
@@ -31629,7 +31683,7 @@
             "en": "<b>Type 1 CCS</b> (aka Type 1 Combo) outputs 1000 volt",
             "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo) heeft een spanning van 1000 volt",
             "cs": "<b>Type 1 CCS</b> (aka Type 1 Combo) výstup 1000 voltů",
-            "de": "<b>Type 1 CCS</b> (aka Type 1 Combo) liefert 1000 Volt"
+            "de": "<b>Typ 1 CCS</b> (Typ 1 Combo) liefert 1000 Volt"
           }
         }
       ],
@@ -31656,11 +31710,12 @@
       "question": {
         "en": "What current do the plugs with <b>Type 1 CCS</b> (aka Type 1 Combo) offer?",
         "nl": "Welke stroom levert de stekker van type <b>Type 1 CCS</b> (ook gekend als Type 1 Combo)?",
-        "de": "Welchen Strom bieten die Stecker mit <b>Type 1 CCS</b> (aka Type 1 Combo)?"
+        "de": "Welchen Strom bieten die Stecker mit <b>Typ 1 CCS</b> (Typ 1 Combo)?"
       },
       "render": {
         "en": "<b>Type 1 CCS</b> (aka Type 1 Combo) outputs at most {canonical(socket:type1_combo:current)}",
-        "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo) levert een stroom van maximaal {canonical(socket:type1_combo:current)}"
+        "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo) levert een stroom van maximaal {canonical(socket:type1_combo:current)}",
+        "de": "<b>Typ 1 CCS</b> (Typ 1 Combo) liefert maximal {canonical(socket:type1_combo:current)}"
       },
       "freeform": {
         "key": "socket:type1_combo:current",
@@ -31673,7 +31728,7 @@
           "then": {
             "en": "<b>Type 1 CCS</b> (aka Type 1 Combo) outputs at most 50 A",
             "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo) levert een stroom van maximaal 50 A",
-            "de": "<b>Type 1 CCS</b> (aka Type 1 Combo) liefert maximal 50 A"
+            "de": "<b>Typ 1 CCS</b> (Typ 1 Combo) liefert maximal 50 A"
           }
         },
         {
@@ -31681,7 +31736,7 @@
           "then": {
             "en": "<b>Type 1 CCS</b> (aka Type 1 Combo) outputs at most 125 A",
             "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo) levert een stroom van maximaal 125 A",
-            "de": "<b>Type 1 CCS</b> (aka Type 1 Combo) liefert maximal 125 A"
+            "de": "<b>Typ 1 CCS</b> (Typ 1 Combo) liefert maximal 125 A"
           }
         }
       ],
@@ -31707,11 +31762,13 @@
       ],
       "question": {
         "en": "What power output does a single plug of type <b>Type 1 CCS</b> (aka Type 1 Combo) offer?",
-        "nl": "Welk vermogen levert een enkele stekker van type <b>Type 1 CCS</b> (ook gekend als Type 1 Combo)?"
+        "nl": "Welk vermogen levert een enkele stekker van type <b>Type 1 CCS</b> (ook gekend als Type 1 Combo)?",
+        "de": "Welche Leistung liefert ein einzelner Stecker des Typs <b>Typ 1 CCS</b> (Typ 1 Combo)?"
       },
       "render": {
         "en": "<b>Type 1 CCS</b> (aka Type 1 Combo) outputs at most {canonical(socket:type1_combo:output)}",
-        "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo) levert een vermogen van maximaal {canonical(socket:type1_combo:output)}"
+        "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo) levert een vermogen van maximaal {canonical(socket:type1_combo:output)}",
+        "de": "<b>Typ 1 CCS</b> (Typ 1 Combo) liefert maximal {canonical(socket:type1_combo:output)}"
       },
       "freeform": {
         "key": "socket:type1_combo:output",
@@ -31723,28 +31780,32 @@
           "if": "socket:type1_combo:output=50 kW",
           "then": {
             "en": "<b>Type 1 CCS</b> (aka Type 1 Combo) outputs at most 50 kW A",
-            "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo) levert een vermogen van maximaal 50 kW A"
+            "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo) levert een vermogen van maximaal 50 kW A",
+            "de": "<b>Typ 1 CCS</b> (Typ 1 Combo) liefert maximal 50 kW A"
           }
         },
         {
           "if": "socket:type1_combo:output=62.5 kW",
           "then": {
             "en": "<b>Type 1 CCS</b> (aka Type 1 Combo) outputs at most 62.5 kW A",
-            "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo) levert een vermogen van maximaal 62.5 kW A"
+            "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo) levert een vermogen van maximaal 62.5 kW A",
+            "de": "<b>Typ 1 CCS</b> (Typ 1 Combo) liefert maximal 62.5 kW A"
           }
         },
         {
           "if": "socket:type1_combo:output=150 kW",
           "then": {
             "en": "<b>Type 1 CCS</b> (aka Type 1 Combo) outputs at most 150 kW A",
-            "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo) levert een vermogen van maximaal 150 kW A"
+            "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo) levert een vermogen van maximaal 150 kW A",
+            "de": "<b>Typ 1 CCS</b> (Typ 1 Combo) liefert maximal 150 kW A"
           }
         },
         {
           "if": "socket:type1_combo:output=350 kW",
           "then": {
             "en": "<b>Type 1 CCS</b> (aka Type 1 Combo) outputs at most 350 kW A",
-            "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo) levert een vermogen van maximaal 350 kW A"
+            "nl": "<b>Type 1 CCS</b> (ook gekend als Type 1 Combo) levert een vermogen van maximaal 350 kW A",
+            "de": "<b>Typ 1 CCS</b> (Typ 1 Combo) liefert maximal 350 kW A"
           }
         }
       ],
@@ -31858,7 +31919,8 @@
       },
       "render": {
         "en": "<b>Tesla Supercharger</b> outputs at most {canonical(socket:tesla_supercharger:current)}",
-        "nl": "<b>Tesla Supercharger</b> levert een stroom van maximaal {canonical(socket:tesla_supercharger:current)}"
+        "nl": "<b>Tesla Supercharger</b> levert een stroom van maximaal {canonical(socket:tesla_supercharger:current)}",
+        "de": "<b>Tesla Supercharger</b> liefert maximal {canonical(socket:tesla_supercharger:current)}"
       },
       "freeform": {
         "key": "socket:tesla_supercharger:current",
@@ -31905,11 +31967,13 @@
       ],
       "question": {
         "en": "What power output does a single plug of type <b>Tesla Supercharger</b> offer?",
-        "nl": "Welk vermogen levert een enkele stekker van type <b>Tesla Supercharger</b>?"
+        "nl": "Welk vermogen levert een enkele stekker van type <b>Tesla Supercharger</b>?",
+        "de": "Welche Leistung liefert ein einzelner Stecker des Typs <b>Tesla Supercharger</b>?"
       },
       "render": {
         "en": "<b>Tesla Supercharger</b> outputs at most {canonical(socket:tesla_supercharger:output)}",
-        "nl": "<b>Tesla Supercharger</b> levert een vermogen van maximaal {canonical(socket:tesla_supercharger:output)}"
+        "nl": "<b>Tesla Supercharger</b> levert een vermogen van maximaal {canonical(socket:tesla_supercharger:output)}",
+        "de": "<b>Tesla Supercharger</b> liefert maximal {canonical(socket:tesla_supercharger:output)}"
       },
       "freeform": {
         "key": "socket:tesla_supercharger:output",
@@ -31921,21 +31985,24 @@
           "if": "socket:tesla_supercharger:output=120 kW",
           "then": {
             "en": "<b>Tesla Supercharger</b> outputs at most 120 kW A",
-            "nl": "<b>Tesla Supercharger</b> levert een vermogen van maximaal 120 kW A"
+            "nl": "<b>Tesla Supercharger</b> levert een vermogen van maximaal 120 kW A",
+            "de": "<b>Tesla Supercharger</b> liefert maximal 120 kW A"
           }
         },
         {
           "if": "socket:tesla_supercharger:output=150 kW",
           "then": {
             "en": "<b>Tesla Supercharger</b> outputs at most 150 kW A",
-            "nl": "<b>Tesla Supercharger</b> levert een vermogen van maximaal 150 kW A"
+            "nl": "<b>Tesla Supercharger</b> levert een vermogen van maximaal 150 kW A",
+            "de": "<b>Tesla Supercharger</b> liefert maximal 150 kW A"
           }
         },
         {
           "if": "socket:tesla_supercharger:output=250 kW",
           "then": {
             "en": "<b>Tesla Supercharger</b> outputs at most 250 kW A",
-            "nl": "<b>Tesla Supercharger</b> levert een vermogen van maximaal 250 kW A"
+            "nl": "<b>Tesla Supercharger</b> levert een vermogen van maximaal 250 kW A",
+            "de": "<b>Tesla Supercharger</b> liefert maximal 250 kW A"
           }
         }
       ],
@@ -31962,12 +32029,12 @@
         "ca": "Quants connectors del tipus <b>Type 2</b> (mennekes) hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>Type 2</b> (mennekes) je k dispozici?",
         "da": "Hvor mange stik af typen <b>Type 2</b> (mennekes) er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ <b>Type 2</b> (mennekes) sind hier vorhanden?"
+        "de": "Wie viele Stecker vom Typ <b>Typ 2</b> (Mennekes) sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:type2}</b> plugs of type <b>Type 2</b> (mennekes) available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:type2}</b> stekkers van het type <b>Type 2</b> (mennekes)",
-        "de": "Hier sind <b class='text-xl'>{socket:type2}</b> Stecker vom Typ <b>Type 2</b> (mennekes) verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:type2}</b> Stecker vom Typ <b>Typ 2</b> (Mennekes) verfügbar"
       },
       "icon": "./assets/layers/charging_station/Type2_socket.svg",
       "freeform": {
@@ -31999,12 +32066,12 @@
         "en": "What voltage do the plugs with <b>Type 2</b> (mennekes) offer?",
         "nl": "Welke spanning levert de stekker van type <b>Type 2</b> (mennekes)",
         "cs": "Jaké napětí mají zástrčky s <b>Type 2</b> (mennekes) ?",
-        "de": "Welche Spannung liefern die <b>Type 2</b> (mennekes)?"
+        "de": "Welche Spannung liefern die <b>Typ 2</b> (Mennekes)?"
       },
       "render": {
         "en": "<b>Type 2</b> (mennekes) outputs {canonical(socket:type2:voltage)}",
         "nl": "<b>Type 2</b> (mennekes) heeft een spanning van {canonical(socket:type2:voltage)}",
-        "de": "<b>Type 2</b> (mennekes) liefert {canonical(socket:type2:voltage)}"
+        "de": "<b>Typ 2</b> (Mennekes) liefert {canonical(socket:type2:voltage)}"
       },
       "freeform": {
         "key": "socket:type2:voltage",
@@ -32018,7 +32085,7 @@
             "en": "<b>Type 2</b> (mennekes) outputs 230 volt",
             "nl": "<b>Type 2</b> (mennekes) heeft een spanning van 230 volt",
             "cs": "<b>Type 2</b> (mennekes) výstup 230 voltů",
-            "de": "<b>Type 2</b> (mennekes) liefert 230 Volt"
+            "de": "<b>Typ 2</b> (Mennekes) liefert 230 Volt"
           }
         },
         {
@@ -32027,7 +32094,7 @@
             "en": "<b>Type 2</b> (mennekes) outputs 400 volt",
             "nl": "<b>Type 2</b> (mennekes) heeft een spanning van 400 volt",
             "cs": "<b>Type 2</b> (mennekes) výstup 400 voltů",
-            "de": "<b>Type 2</b> (mennekes) liefert 400 Volt"
+            "de": "<b>Typ 2</b> (Mennekes) liefert 400 Volt"
           }
         }
       ],
@@ -32054,11 +32121,12 @@
       "question": {
         "en": "What current do the plugs with <b>Type 2</b> (mennekes) offer?",
         "nl": "Welke stroom levert de stekker van type <b>Type 2</b> (mennekes)?",
-        "de": "Welchen Strom bieten die Stecker mit <b>Type 2</b> (mennekes)?"
+        "de": "Welchen Strom bieten die Stecker mit <b>Typ 2</b> (Mennekes)?"
       },
       "render": {
         "en": "<b>Type 2</b> (mennekes) outputs at most {canonical(socket:type2:current)}",
-        "nl": "<b>Type 2</b> (mennekes) levert een stroom van maximaal {canonical(socket:type2:current)}"
+        "nl": "<b>Type 2</b> (mennekes) levert een stroom van maximaal {canonical(socket:type2:current)}",
+        "de": "<b>Typ 2</b> (Mennekes) liefert maximal {canonical(socket:type2:current)}"
       },
       "freeform": {
         "key": "socket:type2:current",
@@ -32071,7 +32139,7 @@
           "then": {
             "en": "<b>Type 2</b> (mennekes) outputs at most 16 A",
             "nl": "<b>Type 2</b> (mennekes) levert een stroom van maximaal 16 A",
-            "de": "<b>Type 2</b> (mennekes) liefert maximal 16 A"
+            "de": "<b>Typ 2</b> (Mennekes) liefert maximal 16 A"
           }
         },
         {
@@ -32079,7 +32147,7 @@
           "then": {
             "en": "<b>Type 2</b> (mennekes) outputs at most 32 A",
             "nl": "<b>Type 2</b> (mennekes) levert een stroom van maximaal 32 A",
-            "de": "<b>Type 2</b> (mennekes) liefert maximal 32 A"
+            "de": "<b>Typ 2</b> (Mennekes) liefert maximal 32 A"
           }
         }
       ],
@@ -32105,11 +32173,13 @@
       ],
       "question": {
         "en": "What power output does a single plug of type <b>Type 2</b> (mennekes) offer?",
-        "nl": "Welk vermogen levert een enkele stekker van type <b>Type 2</b> (mennekes)?"
+        "nl": "Welk vermogen levert een enkele stekker van type <b>Type 2</b> (mennekes)?",
+        "de": "Welche Leistung liefert ein einzelner Stecker des Typs <b>Typ 2</b> (Mennekes)?"
       },
       "render": {
         "en": "<b>Type 2</b> (mennekes) outputs at most {canonical(socket:type2:output)}",
-        "nl": "<b>Type 2</b> (mennekes) levert een vermogen van maximaal {canonical(socket:type2:output)}"
+        "nl": "<b>Type 2</b> (mennekes) levert een vermogen van maximaal {canonical(socket:type2:output)}",
+        "de": "<b>Typ 2</b> (Mennekes) liefert maximal {canonical(socket:type2:output)}"
       },
       "freeform": {
         "key": "socket:type2:output",
@@ -32121,14 +32191,16 @@
           "if": "socket:type2:output=11 kW",
           "then": {
             "en": "<b>Type 2</b> (mennekes) outputs at most 11 kW A",
-            "nl": "<b>Type 2</b> (mennekes) levert een vermogen van maximaal 11 kW A"
+            "nl": "<b>Type 2</b> (mennekes) levert een vermogen van maximaal 11 kW A",
+            "de": "<b>Typ 2</b> (Mennekes) liefert maximal 11 kW A"
           }
         },
         {
           "if": "socket:type2:output=22 kW",
           "then": {
             "en": "<b>Type 2</b> (mennekes) outputs at most 22 kW A",
-            "nl": "<b>Type 2</b> (mennekes) levert een vermogen van maximaal 22 kW A"
+            "nl": "<b>Type 2</b> (mennekes) levert een vermogen van maximaal 22 kW A",
+            "de": "<b>Typ 2</b> (Mennekes) liefert maximal 22 kW A"
           }
         }
       ],
@@ -32155,12 +32227,12 @@
         "ca": "Quants connectors del tipus <b>Type 2 CCS</b> (mennekes) hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>Type 2 CCS</b> (mennekes) je k dispozici?",
         "da": "Hvor mange stik af typen <b>Type 2 CCS</b> (mennekes) er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ <b>Type 2 CCS</b> (mennekes) sind hier vorhanden?"
+        "de": "Wie viele Stecker vom Typ <b>Typ 2 CCS</b> (Mennekes) sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:type2_combo}</b> plugs of type <b>Type 2 CCS</b> (mennekes) available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:type2_combo}</b> stekkers van het type <b>Type 2 CCS</b> (mennekes)",
-        "de": "Hier sind <b class='text-xl'>{socket:type2_combo}</b> Stecker vom Typ <b>Type 2 CCS</b> (mennekes) verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:type2_combo}</b> Stecker vom Typ <b>Typ 2 CCS</b> (Mennekes) verfügbar"
       },
       "icon": "./assets/layers/charging_station/Type2_CCS.svg",
       "freeform": {
@@ -32192,12 +32264,12 @@
         "en": "What voltage do the plugs with <b>Type 2 CCS</b> (mennekes) offer?",
         "nl": "Welke spanning levert de stekker van type <b>Type 2 CCS</b> (mennekes)",
         "cs": "Jaké napětí mají zástrčky s <b>Type 2 CCS</b> (mennekes) ?",
-        "de": "Welche Spannung liefern die <b>Type 2 CCS</b> (mennekes)?"
+        "de": "Welche Spannung liefern die <b>Typ 2 CCS</b> (Mennekes)?"
       },
       "render": {
         "en": "<b>Type 2 CCS</b> (mennekes) outputs {canonical(socket:type2_combo:voltage)}",
         "nl": "<b>Type 2 CCS</b> (mennekes) heeft een spanning van {canonical(socket:type2_combo:voltage)}",
-        "de": "<b>Type 2 CCS</b> (mennekes) liefert {canonical(socket:type2_combo:voltage)}"
+        "de": "<b>Typ 2 CCS</b> (Mennekes) liefert {canonical(socket:type2_combo:voltage)}"
       },
       "freeform": {
         "key": "socket:type2_combo:voltage",
@@ -32211,7 +32283,7 @@
             "en": "<b>Type 2 CCS</b> (mennekes) outputs 500 volt",
             "nl": "<b>Type 2 CCS</b> (mennekes) heeft een spanning van 500 volt",
             "cs": "<b>Type 2 CCS</b> (mennekes) výstup 500 voltů",
-            "de": "<b>Type 2 CCS</b> (mennekes) liefert 500 Volt"
+            "de": "<b>Typ 2 CCS</b> (Mennekes) liefert 500 Volt"
           }
         },
         {
@@ -32220,7 +32292,7 @@
             "en": "<b>Type 2 CCS</b> (mennekes) outputs 920 volt",
             "nl": "<b>Type 2 CCS</b> (mennekes) heeft een spanning van 920 volt",
             "cs": "<b>Type 2 CCS</b> (mennekes) výstup 920 voltů",
-            "de": "<b>Type 2 CCS</b> (mennekes) liefert 920 Volt"
+            "de": "<b>Typ 2 CCS</b> (Mennekes) liefert 920 Volt"
           }
         }
       ],
@@ -32247,11 +32319,12 @@
       "question": {
         "en": "What current do the plugs with <b>Type 2 CCS</b> (mennekes) offer?",
         "nl": "Welke stroom levert de stekker van type <b>Type 2 CCS</b> (mennekes)?",
-        "de": "Welchen Strom bieten die Stecker mit <b>Type 2 CCS</b> (mennekes)?"
+        "de": "Welchen Strom bieten die Stecker mit <b>Typ 2 CCS</b> (Mennekes)?"
       },
       "render": {
         "en": "<b>Type 2 CCS</b> (mennekes) outputs at most {canonical(socket:type2_combo:current)}",
-        "nl": "<b>Type 2 CCS</b> (mennekes) levert een stroom van maximaal {canonical(socket:type2_combo:current)}"
+        "nl": "<b>Type 2 CCS</b> (mennekes) levert een stroom van maximaal {canonical(socket:type2_combo:current)}",
+        "de": "<b>Typ 2 CCS</b> (Mennekes) liefert maximal {canonical(socket:type2_combo:current)}"
       },
       "freeform": {
         "key": "socket:type2_combo:current",
@@ -32264,7 +32337,7 @@
           "then": {
             "en": "<b>Type 2 CCS</b> (mennekes) outputs at most 125 A",
             "nl": "<b>Type 2 CCS</b> (mennekes) levert een stroom van maximaal 125 A",
-            "de": "<b>Type 2 CCS</b> (mennekes) liefert maximal 125 A"
+            "de": "<b>Typ 2 CCS</b> (Mennekes) liefert maximal 125 A"
           }
         },
         {
@@ -32272,7 +32345,7 @@
           "then": {
             "en": "<b>Type 2 CCS</b> (mennekes) outputs at most 350 A",
             "nl": "<b>Type 2 CCS</b> (mennekes) levert een stroom van maximaal 350 A",
-            "de": "<b>Type 2 CCS</b> (mennekes) liefert maximal 350 A"
+            "de": "<b>Typ 2 CCS</b> (Mennekes) liefert maximal 350 A"
           }
         }
       ],
@@ -32298,11 +32371,13 @@
       ],
       "question": {
         "en": "What power output does a single plug of type <b>Type 2 CCS</b> (mennekes) offer?",
-        "nl": "Welk vermogen levert een enkele stekker van type <b>Type 2 CCS</b> (mennekes)?"
+        "nl": "Welk vermogen levert een enkele stekker van type <b>Type 2 CCS</b> (mennekes)?",
+        "de": "Welche Leistung liefert ein einzelner Stecker des Typs <b>Typ 2 CCS</b> (Mennekes)?"
       },
       "render": {
         "en": "<b>Type 2 CCS</b> (mennekes) outputs at most {canonical(socket:type2_combo:output)}",
-        "nl": "<b>Type 2 CCS</b> (mennekes) levert een vermogen van maximaal {canonical(socket:type2_combo:output)}"
+        "nl": "<b>Type 2 CCS</b> (mennekes) levert een vermogen van maximaal {canonical(socket:type2_combo:output)}",
+        "de": "<b>Typ 2 CCS</b> (Mennekes) liefert maximal {canonical(socket:type2_combo:output)}"
       },
       "freeform": {
         "key": "socket:type2_combo:output",
@@ -32314,7 +32389,8 @@
           "if": "socket:type2_combo:output=50 kW",
           "then": {
             "en": "<b>Type 2 CCS</b> (mennekes) outputs at most 50 kW A",
-            "nl": "<b>Type 2 CCS</b> (mennekes) levert een vermogen van maximaal 50 kW A"
+            "nl": "<b>Type 2 CCS</b> (mennekes) levert een vermogen van maximaal 50 kW A",
+            "de": "<b>Typ 2 CCS</b> (Mennekes) liefert maximal 50 kW A"
           }
         }
       ],
@@ -32341,12 +32417,12 @@
         "ca": "Quants connectors del tipus <b>Type 2 with cable</b> (mennekes) hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>Type 2 with cable</b> (mennekes) je k dispozici?",
         "da": "Hvor mange stik af typen <b>Type 2 with cable</b> (mennekes) er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ <b>Type 2 with cable</b> (mennekes) sind hier vorhanden?"
+        "de": "Wie viele Stecker vom Typ <b>Typ 2 mit Kabel</b> (Mennekes) sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:type2_cable}</b> plugs of type <b>Type 2 with cable</b> (mennekes) available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:type2_cable}</b> stekkers van het type <b>Type 2 met kabel</b> (J1772)",
-        "de": "Hier sind <b class='text-xl'>{socket:type2_cable}</b> Stecker vom Typ <b>Type 2 with cable</b> (mennekes) verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:type2_cable}</b> Stecker vom Typ <b>Typ 2 mit Kabel</b> (Mennekes) verfügbar"
       },
       "icon": "./assets/layers/charging_station/Type2_tethered.svg",
       "freeform": {
@@ -32378,12 +32454,12 @@
         "en": "What voltage do the plugs with <b>Type 2 with cable</b> (mennekes) offer?",
         "nl": "Welke spanning levert de stekker van type <b>Type 2 met kabel</b> (J1772)",
         "cs": "Jaké napětí mají zástrčky s <b>Type 2 with cable</b> (mennekes) ?",
-        "de": "Welche Spannung liefern die <b>Type 2 with cable</b> (mennekes)?"
+        "de": "Welche Spannung liefern die <b>Typ 2 mit Kabel</b> (Mennekes)?"
       },
       "render": {
         "en": "<b>Type 2 with cable</b> (mennekes) outputs {canonical(socket:type2_cable:voltage)}",
         "nl": "<b>Type 2 met kabel</b> (J1772) heeft een spanning van {canonical(socket:type2_cable:voltage)}",
-        "de": "<b>Type 2 with cable</b> (mennekes) liefert {canonical(socket:type2_cable:voltage)}"
+        "de": "<b>Typ 2 mit Kabel</b> (Mennekes) liefert {canonical(socket:type2_cable:voltage)}"
       },
       "freeform": {
         "key": "socket:type2_cable:voltage",
@@ -32397,7 +32473,7 @@
             "en": "<b>Type 2 with cable</b> (mennekes) outputs 230 volt",
             "nl": "<b>Type 2 met kabel</b> (J1772) heeft een spanning van 230 volt",
             "cs": "<b>Type 2 with cable</b> (mennekes) výstup 230 voltů",
-            "de": "<b>Type 2 with cable</b> (mennekes) liefert 230 Volt"
+            "de": "<b>Typ 2 mit Kabel</b> (Mennekes) liefert 230 Volt"
           }
         },
         {
@@ -32406,7 +32482,7 @@
             "en": "<b>Type 2 with cable</b> (mennekes) outputs 400 volt",
             "nl": "<b>Type 2 met kabel</b> (J1772) heeft een spanning van 400 volt",
             "cs": "<b>Type 2 with cable</b> (mennekes) výstup 400 voltů",
-            "de": "<b>Type 2 with cable</b> (mennekes) liefert 400 Volt"
+            "de": "<b>Typ 2 mit Kabel</b> (Mennekes) liefert 400 Volt"
           }
         }
       ],
@@ -32433,11 +32509,12 @@
       "question": {
         "en": "What current do the plugs with <b>Type 2 with cable</b> (mennekes) offer?",
         "nl": "Welke stroom levert de stekker van type <b>Type 2 met kabel</b> (J1772)?",
-        "de": "Welchen Strom bieten die Stecker mit <b>Type 2 with cable</b> (mennekes)?"
+        "de": "Welchen Strom bieten die Stecker mit <b>Typ 2 mit Kabel</b> (Mennekes)?"
       },
       "render": {
         "en": "<b>Type 2 with cable</b> (mennekes) outputs at most {canonical(socket:type2_cable:current)}",
-        "nl": "<b>Type 2 met kabel</b> (J1772) levert een stroom van maximaal {canonical(socket:type2_cable:current)}"
+        "nl": "<b>Type 2 met kabel</b> (J1772) levert een stroom van maximaal {canonical(socket:type2_cable:current)}",
+        "de": "<b>Typ 2 mit Kabel</b> (Mennekes) liefert maximal {canonical(socket:type2_cable:current)}"
       },
       "freeform": {
         "key": "socket:type2_cable:current",
@@ -32450,7 +32527,7 @@
           "then": {
             "en": "<b>Type 2 with cable</b> (mennekes) outputs at most 16 A",
             "nl": "<b>Type 2 met kabel</b> (J1772) levert een stroom van maximaal 16 A",
-            "de": "<b>Type 2 with cable</b> (mennekes) liefert maximal 16 A"
+            "de": "<b>Typ 2 mit Kabel</b> (Mennekes) liefert maximal 16 A"
           }
         },
         {
@@ -32458,7 +32535,7 @@
           "then": {
             "en": "<b>Type 2 with cable</b> (mennekes) outputs at most 32 A",
             "nl": "<b>Type 2 met kabel</b> (J1772) levert een stroom van maximaal 32 A",
-            "de": "<b>Type 2 with cable</b> (mennekes) liefert maximal 32 A"
+            "de": "<b>Typ 2 mit Kabel</b> (Mennekes) liefert maximal 32 A"
           }
         }
       ],
@@ -32484,11 +32561,13 @@
       ],
       "question": {
         "en": "What power output does a single plug of type <b>Type 2 with cable</b> (mennekes) offer?",
-        "nl": "Welk vermogen levert een enkele stekker van type <b>Type 2 met kabel</b> (J1772)?"
+        "nl": "Welk vermogen levert een enkele stekker van type <b>Type 2 met kabel</b> (J1772)?",
+        "de": "Welche Leistung liefert ein einzelner Stecker des Typs <b>Typ 2 mit Kabel</b> (Mennekes)?"
       },
       "render": {
         "en": "<b>Type 2 with cable</b> (mennekes) outputs at most {canonical(socket:type2_cable:output)}",
-        "nl": "<b>Type 2 met kabel</b> (J1772) levert een vermogen van maximaal {canonical(socket:type2_cable:output)}"
+        "nl": "<b>Type 2 met kabel</b> (J1772) levert een vermogen van maximaal {canonical(socket:type2_cable:output)}",
+        "de": "<b>Typ 2 mit Kabel</b> (Mennekes) liefert maximal {canonical(socket:type2_cable:output)}"
       },
       "freeform": {
         "key": "socket:type2_cable:output",
@@ -32500,14 +32579,16 @@
           "if": "socket:type2_cable:output=11 kW",
           "then": {
             "en": "<b>Type 2 with cable</b> (mennekes) outputs at most 11 kW A",
-            "nl": "<b>Type 2 met kabel</b> (J1772) levert een vermogen van maximaal 11 kW A"
+            "nl": "<b>Type 2 met kabel</b> (J1772) levert een vermogen van maximaal 11 kW A",
+            "de": "<b>Typ 2 mit Kabel</b> (Mennekes) liefert maximal 11 kW A"
           }
         },
         {
           "if": "socket:type2_cable:output=22 kW",
           "then": {
             "en": "<b>Type 2 with cable</b> (mennekes) outputs at most 22 kW A",
-            "nl": "<b>Type 2 met kabel</b> (J1772) levert een vermogen van maximaal 22 kW A"
+            "nl": "<b>Type 2 met kabel</b> (J1772) levert een vermogen van maximaal 22 kW A",
+            "de": "<b>Typ 2 mit Kabel</b> (Mennekes) liefert maximal 22 kW A"
           }
         }
       ],
@@ -32534,12 +32615,12 @@
         "ca": "Quants connectors del tipus <b>Tesla Supercharger CCS</b> (a branded type2_css) hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>Tesla Supercharger CCS</b> (a branded type2_css) je k dispozici?",
         "da": "Hvor mange stik af typen <b>Tesla Supercharger CCS</b> (a branded type2_css) er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ <b>Tesla Supercharger CCS</b> (a branded type2_css) sind hier vorhanden?"
+        "de": "Wie viele Stecker vom Typ <b>Tesla Supercharger CCS</b> (Typ 2 CSS von Tesla) sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:tesla_supercharger_ccs}</b> plugs of type <b>Tesla Supercharger CCS</b> (a branded type2_css) available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:tesla_supercharger_ccs}</b> stekkers van het type <b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo)",
-        "de": "Hier sind <b class='text-xl'>{socket:tesla_supercharger_ccs}</b> Stecker vom Typ <b>Tesla Supercharger CCS</b> (a branded type2_css) verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:tesla_supercharger_ccs}</b> Stecker vom Typ <b>Tesla Supercharger CCS</b> (Typ 2 CSS von Tesla) verfügbar"
       },
       "icon": "./assets/layers/charging_station/Type2_CCS.svg",
       "freeform": {
@@ -32571,12 +32652,12 @@
         "en": "What voltage do the plugs with <b>Tesla Supercharger CCS</b> (a branded type2_css) offer?",
         "nl": "Welke spanning levert de stekker van type <b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo)",
         "cs": "Jaké napětí mají zástrčky s <b>Tesla Supercharger CCS</b> (a branded type2_css) ?",
-        "de": "Welche Spannung liefern die <b>Tesla Supercharger CCS</b> (a branded type2_css)?"
+        "de": "Welche Spannung liefern die <b>Tesla Supercharger CCS</b> (Typ 2 CSS von Tesla)?"
       },
       "render": {
         "en": "<b>Tesla Supercharger CCS</b> (a branded type2_css) outputs {canonical(socket:tesla_supercharger_ccs:voltage)}",
         "nl": "<b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo) heeft een spanning van {canonical(socket:tesla_supercharger_ccs:voltage)}",
-        "de": "<b>Tesla Supercharger CCS</b> (a branded type2_css) liefert {canonical(socket:tesla_supercharger_ccs:voltage)}"
+        "de": "<b>Tesla Supercharger CCS</b> (Typ 2 CSS von Tesla) liefert {canonical(socket:tesla_supercharger_ccs:voltage)}"
       },
       "freeform": {
         "key": "socket:tesla_supercharger_ccs:voltage",
@@ -32590,7 +32671,7 @@
             "en": "<b>Tesla Supercharger CCS</b> (a branded type2_css) outputs 500 volt",
             "nl": "<b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo) heeft een spanning van 500 volt",
             "cs": "<b>Tesla Supercharger CCS</b> (a branded type2_css) výstup 500 voltů",
-            "de": "<b>Tesla Supercharger CCS</b> (a branded type2_css) liefert 500 Volt"
+            "de": "<b>Tesla Supercharger CCS</b> (Typ 2 CSS von Tesla) liefert 500 Volt"
           }
         },
         {
@@ -32599,7 +32680,7 @@
             "en": "<b>Tesla Supercharger CCS</b> (a branded type2_css) outputs 920 volt",
             "nl": "<b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo) heeft een spanning van 920 volt",
             "cs": "<b>Tesla Supercharger CCS</b> (a branded type2_css) výstup 920 voltů",
-            "de": "<b>Tesla Supercharger CCS</b> (a branded type2_css) liefert 920 Volt"
+            "de": "<b>Tesla Supercharger CCS</b> (Typ 2 CSS von Tesla) liefert 920 Volt"
           }
         }
       ],
@@ -32626,11 +32707,12 @@
       "question": {
         "en": "What current do the plugs with <b>Tesla Supercharger CCS</b> (a branded type2_css) offer?",
         "nl": "Welke stroom levert de stekker van type <b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo)?",
-        "de": "Welchen Strom bieten die Stecker mit <b>Tesla Supercharger CCS</b> (a branded type2_css)?"
+        "de": "Welchen Strom bieten die Stecker mit <b>Tesla Supercharger CCS</b> (Typ 2 CSS von Tesla)?"
       },
       "render": {
         "en": "<b>Tesla Supercharger CCS</b> (a branded type2_css) outputs at most {canonical(socket:tesla_supercharger_ccs:current)}",
-        "nl": "<b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo) levert een stroom van maximaal {canonical(socket:tesla_supercharger_ccs:current)}"
+        "nl": "<b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo) levert een stroom van maximaal {canonical(socket:tesla_supercharger_ccs:current)}",
+        "de": "<b>Tesla Supercharger CCS</b> (Typ 2 CSS von Tesla) liefert maximal {canonical(socket:tesla_supercharger_ccs:current)}"
       },
       "freeform": {
         "key": "socket:tesla_supercharger_ccs:current",
@@ -32643,7 +32725,7 @@
           "then": {
             "en": "<b>Tesla Supercharger CCS</b> (a branded type2_css) outputs at most 125 A",
             "nl": "<b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo) levert een stroom van maximaal 125 A",
-            "de": "<b>Tesla Supercharger CCS</b> (a branded type2_css) liefert maximal 125 A"
+            "de": "<b>Tesla Supercharger CCS</b> (Typ 2 CSS von Tesla) liefert maximal 125 A"
           }
         },
         {
@@ -32651,7 +32733,7 @@
           "then": {
             "en": "<b>Tesla Supercharger CCS</b> (a branded type2_css) outputs at most 350 A",
             "nl": "<b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo) levert een stroom van maximaal 350 A",
-            "de": "<b>Tesla Supercharger CCS</b> (a branded type2_css) liefert maximal 350 A"
+            "de": "<b>Tesla Supercharger CCS</b> (Typ 2 CSS von Tesla) liefert maximal 350 A"
           }
         }
       ],
@@ -32677,11 +32759,13 @@
       ],
       "question": {
         "en": "What power output does a single plug of type <b>Tesla Supercharger CCS</b> (a branded type2_css) offer?",
-        "nl": "Welk vermogen levert een enkele stekker van type <b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo)?"
+        "nl": "Welk vermogen levert een enkele stekker van type <b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo)?",
+        "de": "Welche Leistung liefert ein einzelner Stecker des Typs <b>Tesla Supercharger CCS</b> (Typ 2 CSS von Tesla)?"
       },
       "render": {
         "en": "<b>Tesla Supercharger CCS</b> (a branded type2_css) outputs at most {canonical(socket:tesla_supercharger_ccs:output)}",
-        "nl": "<b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo) levert een vermogen van maximaal {canonical(socket:tesla_supercharger_ccs:output)}"
+        "nl": "<b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo) levert een vermogen van maximaal {canonical(socket:tesla_supercharger_ccs:output)}",
+        "de": "<b>Tesla Supercharger CCS</b> (Typ 2 CSS von Tesla) liefert maximal {canonical(socket:tesla_supercharger_ccs:output)}"
       },
       "freeform": {
         "key": "socket:tesla_supercharger_ccs:output",
@@ -32693,7 +32777,8 @@
           "if": "socket:tesla_supercharger_ccs:output=50 kW",
           "then": {
             "en": "<b>Tesla Supercharger CCS</b> (a branded type2_css) outputs at most 50 kW A",
-            "nl": "<b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo) levert een vermogen van maximaal 50 kW A"
+            "nl": "<b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo) levert een vermogen van maximaal 50 kW A",
+            "de": "<b>Tesla Supercharger CCS</b> (Typ 2 CSS von Tesla) liefert maximal 50 kW A"
           }
         }
       ],
@@ -32720,12 +32805,12 @@
         "ca": "Quants connectors del tipus <b>Tesla Supercharger (destination)</b> hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>Tesla Supercharger (destination)</b> je k dispozici?",
         "da": "Hvor mange stik af typen <b>Tesla Supercharger (destination)</b> er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ <b>Tesla Supercharger (destination)</b> sind hier vorhanden?"
+        "de": "Wie viele Stecker vom Typ <b>Tesla Supercharger (Destination)</b> sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:tesla_destination}</b> plugs of type <b>Tesla Supercharger (destination)</b> available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:tesla_destination}</b> stekkers van het type <b>Tesla Supercharger (destination)</b>",
-        "de": "Hier sind <b class='text-xl'>{socket:tesla_destination}</b> Stecker vom Typ <b>Tesla Supercharger (destination)</b> verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:tesla_destination}</b> Stecker vom Typ <b>Tesla Supercharger (Destination)</b> verfügbar"
       },
       "icon": "./assets/layers/charging_station/Tesla-hpwc-model-s.svg",
       "freeform": {
@@ -32757,12 +32842,12 @@
         "en": "What voltage do the plugs with <b>Tesla Supercharger (destination)</b> offer?",
         "nl": "Welke spanning levert de stekker van type <b>Tesla Supercharger (destination)</b>",
         "cs": "Jaké napětí mají zástrčky s <b>Tesla Supercharger (destination)</b> ?",
-        "de": "Welche Spannung liefern die <b>Tesla Supercharger (destination)</b>?"
+        "de": "Welche Spannung liefern die <b>Tesla Supercharger (Destination)</b>?"
       },
       "render": {
         "en": "<b>Tesla Supercharger (destination)</b> outputs {canonical(socket:tesla_destination:voltage)}",
         "nl": "<b>Tesla Supercharger (destination)</b> heeft een spanning van {canonical(socket:tesla_destination:voltage)}",
-        "de": "<b>Tesla Supercharger (destination)</b> liefert {canonical(socket:tesla_destination:voltage)}"
+        "de": "<b>Tesla Supercharger (Destination)</b> liefert {canonical(socket:tesla_destination:voltage)}"
       },
       "freeform": {
         "key": "socket:tesla_destination:voltage",
@@ -32776,7 +32861,7 @@
             "en": "<b>Tesla Supercharger (destination)</b> outputs 480 volt",
             "nl": "<b>Tesla Supercharger (destination)</b> heeft een spanning van 480 volt",
             "cs": "<b>Tesla Supercharger (destination)</b> výstup 480 voltů",
-            "de": "<b>Tesla Supercharger (destination)</b> liefert 480 Volt"
+            "de": "<b>Tesla Supercharger (Destination)</b> liefert 480 Volt"
           }
         }
       ],
@@ -32803,11 +32888,12 @@
       "question": {
         "en": "What current do the plugs with <b>Tesla Supercharger (destination)</b> offer?",
         "nl": "Welke stroom levert de stekker van type <b>Tesla Supercharger (destination)</b>?",
-        "de": "Welchen Strom bieten die Stecker mit <b>Tesla Supercharger (destination)</b>?"
+        "de": "Welchen Strom bieten die Stecker mit <b>Tesla Supercharger (Destination)</b>?"
       },
       "render": {
         "en": "<b>Tesla Supercharger (destination)</b> outputs at most {canonical(socket:tesla_destination:current)}",
-        "nl": "<b>Tesla Supercharger (destination)</b> levert een stroom van maximaal {canonical(socket:tesla_destination:current)}"
+        "nl": "<b>Tesla Supercharger (destination)</b> levert een stroom van maximaal {canonical(socket:tesla_destination:current)}",
+        "de": "<b>Tesla Supercharger (Destination)</b> liefert maximal {canonical(socket:tesla_destination:current)}"
       },
       "freeform": {
         "key": "socket:tesla_destination:current",
@@ -32820,7 +32906,7 @@
           "then": {
             "en": "<b>Tesla Supercharger (destination)</b> outputs at most 125 A",
             "nl": "<b>Tesla Supercharger (destination)</b> levert een stroom van maximaal 125 A",
-            "de": "<b>Tesla Supercharger (destination)</b> liefert maximal 125 A"
+            "de": "<b>Tesla Supercharger (Destination)</b> liefert maximal 125 A"
           }
         },
         {
@@ -32828,7 +32914,7 @@
           "then": {
             "en": "<b>Tesla Supercharger (destination)</b> outputs at most 350 A",
             "nl": "<b>Tesla Supercharger (destination)</b> levert een stroom van maximaal 350 A",
-            "de": "<b>Tesla Supercharger (destination)</b> liefert maximal 350 A"
+            "de": "<b>Tesla Supercharger (Destination)</b> liefert maximal 350 A"
           }
         }
       ],
@@ -32854,11 +32940,13 @@
       ],
       "question": {
         "en": "What power output does a single plug of type <b>Tesla Supercharger (destination)</b> offer?",
-        "nl": "Welk vermogen levert een enkele stekker van type <b>Tesla Supercharger (destination)</b>?"
+        "nl": "Welk vermogen levert een enkele stekker van type <b>Tesla Supercharger (destination)</b>?",
+        "de": "Welche Leistung liefert ein einzelner Stecker des Typs <b>Tesla Supercharger (Destination)</b>?"
       },
       "render": {
         "en": "<b>Tesla Supercharger (destination)</b> outputs at most {canonical(socket:tesla_destination:output)}",
-        "nl": "<b>Tesla Supercharger (destination)</b> levert een vermogen van maximaal {canonical(socket:tesla_destination:output)}"
+        "nl": "<b>Tesla Supercharger (destination)</b> levert een vermogen van maximaal {canonical(socket:tesla_destination:output)}",
+        "de": "<b>Tesla Supercharger (Destination)</b> liefert maximal {canonical(socket:tesla_destination:output)}"
       },
       "freeform": {
         "key": "socket:tesla_destination:output",
@@ -32870,21 +32958,24 @@
           "if": "socket:tesla_destination:output=120 kW",
           "then": {
             "en": "<b>Tesla Supercharger (destination)</b> outputs at most 120 kW A",
-            "nl": "<b>Tesla Supercharger (destination)</b> levert een vermogen van maximaal 120 kW A"
+            "nl": "<b>Tesla Supercharger (destination)</b> levert een vermogen van maximaal 120 kW A",
+            "de": "<b>Tesla Supercharger (Destination)</b> liefert maximal 120 kW A"
           }
         },
         {
           "if": "socket:tesla_destination:output=150 kW",
           "then": {
             "en": "<b>Tesla Supercharger (destination)</b> outputs at most 150 kW A",
-            "nl": "<b>Tesla Supercharger (destination)</b> levert een vermogen van maximaal 150 kW A"
+            "nl": "<b>Tesla Supercharger (destination)</b> levert een vermogen van maximaal 150 kW A",
+            "de": "<b>Tesla Supercharger (Destination)</b> liefert maximal 150 kW A"
           }
         },
         {
           "if": "socket:tesla_destination:output=250 kW",
           "then": {
             "en": "<b>Tesla Supercharger (destination)</b> outputs at most 250 kW A",
-            "nl": "<b>Tesla Supercharger (destination)</b> levert een vermogen van maximaal 250 kW A"
+            "nl": "<b>Tesla Supercharger (destination)</b> levert een vermogen van maximaal 250 kW A",
+            "de": "<b>Tesla Supercharger (Destination)</b> liefert maximal 250 kW A"
           }
         }
       ],
@@ -32911,12 +33002,12 @@
         "ca": "Quants connectors del tipus <b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) je k dispozici?",
         "da": "Hvor mange stik af typen <b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ <b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) sind hier vorhanden?"
+        "de": "Wie viele Stecker vom Typ <b>Tesla Supercharger (Destination)</b> (Typ 2 mit Kabel von Tesla) sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:tesla_destination}</b> plugs of type <b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:tesla_destination}</b> stekkers van het type <b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo)",
-        "de": "Hier sind <b class='text-xl'>{socket:tesla_destination}</b> Stecker vom Typ <b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:tesla_destination}</b> Stecker vom Typ <b>Tesla Supercharger (Destination)</b> (Typ 2 mit Kabel von Tesla) verfügbar"
       },
       "icon": "./assets/layers/charging_station/Type2_tethered.svg",
       "freeform": {
@@ -32948,12 +33039,12 @@
         "en": "What voltage do the plugs with <b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) offer?",
         "nl": "Welke spanning levert de stekker van type <b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo)",
         "cs": "Jaké napětí mají zástrčky s <b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) ?",
-        "de": "Welche Spannung liefern die <b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla)?"
+        "de": "Welche Spannung liefern die <b>Tesla Supercharger (Destination)</b> (Typ 2 mit Kabel von Tesla)?"
       },
       "render": {
         "en": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) outputs {canonical(socket:tesla_destination:voltage)}",
         "nl": "<b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo) heeft een spanning van {canonical(socket:tesla_destination:voltage)}",
-        "de": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) liefert {canonical(socket:tesla_destination:voltage)}"
+        "de": "<b>Tesla Supercharger (Destination)</b> (Typ 2 mit Kabel von Tesla) liefert {canonical(socket:tesla_destination:voltage)}"
       },
       "freeform": {
         "key": "socket:tesla_destination:voltage",
@@ -32967,7 +33058,7 @@
             "en": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) outputs 230 volt",
             "nl": "<b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo) heeft een spanning van 230 volt",
             "cs": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) výstup 230 voltů",
-            "de": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) liefert 230 Volt"
+            "de": "<b>Tesla Supercharger (Destination)</b> (Typ 2 mit Kabel von Tesla) liefert 230 Volt"
           }
         },
         {
@@ -32976,7 +33067,7 @@
             "en": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) outputs 400 volt",
             "nl": "<b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo) heeft een spanning van 400 volt",
             "cs": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) výstup 400 voltů",
-            "de": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) liefert 400 Volt"
+            "de": "<b>Tesla Supercharger (Destination)</b> (Typ 2 mit Kabel von Tesla) liefert 400 Volt"
           }
         }
       ],
@@ -33003,11 +33094,12 @@
       "question": {
         "en": "What current do the plugs with <b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) offer?",
         "nl": "Welke stroom levert de stekker van type <b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo)?",
-        "de": "Welchen Strom bieten die Stecker mit <b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla)?"
+        "de": "Welchen Strom bieten die Stecker mit <b>Tesla Supercharger (Destination)</b> (Typ 2 mit Kabel von Tesla)?"
       },
       "render": {
         "en": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) outputs at most {canonical(socket:tesla_destination:current)}",
-        "nl": "<b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo) levert een stroom van maximaal {canonical(socket:tesla_destination:current)}"
+        "nl": "<b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo) levert een stroom van maximaal {canonical(socket:tesla_destination:current)}",
+        "de": "<b>Tesla Supercharger (Destination)</b> (Typ 2 mit Kabel von Tesla) liefert maximal {canonical(socket:tesla_destination:current)}"
       },
       "freeform": {
         "key": "socket:tesla_destination:current",
@@ -33020,7 +33112,7 @@
           "then": {
             "en": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) outputs at most 16 A",
             "nl": "<b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo) levert een stroom van maximaal 16 A",
-            "de": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) liefert maximal 16 A"
+            "de": "<b>Tesla Supercharger (Destination)</b> (Typ 2 mit Kabel von Tesla) liefert maximal 16 A"
           }
         },
         {
@@ -33028,7 +33120,7 @@
           "then": {
             "en": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) outputs at most 32 A",
             "nl": "<b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo) levert een stroom van maximaal 32 A",
-            "de": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) liefert maximal 32 A"
+            "de": "<b>Tesla Supercharger (Destination)</b> (Typ 2 mit Kabel von Tesla) liefert maximal 32 A"
           }
         }
       ],
@@ -33054,11 +33146,13 @@
       ],
       "question": {
         "en": "What power output does a single plug of type <b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) offer?",
-        "nl": "Welk vermogen levert een enkele stekker van type <b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo)?"
+        "nl": "Welk vermogen levert een enkele stekker van type <b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo)?",
+        "de": "Welche Leistung liefert ein einzelner Stecker des Typs <b>Tesla Supercharger (Destination)</b> (Typ 2 mit Kabel von Tesla)?"
       },
       "render": {
         "en": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) outputs at most {canonical(socket:tesla_destination:output)}",
-        "nl": "<b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo) levert een vermogen van maximaal {canonical(socket:tesla_destination:output)}"
+        "nl": "<b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo) levert een vermogen van maximaal {canonical(socket:tesla_destination:output)}",
+        "de": "<b>Tesla Supercharger (Destination)</b> (Typ 2 mit Kabel von Tesla) liefert maximal {canonical(socket:tesla_destination:output)}"
       },
       "freeform": {
         "key": "socket:tesla_destination:output",
@@ -33070,14 +33164,16 @@
           "if": "socket:tesla_destination:output=11 kW",
           "then": {
             "en": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) outputs at most 11 kW A",
-            "nl": "<b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo) levert een vermogen van maximaal 11 kW A"
+            "nl": "<b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo) levert een vermogen van maximaal 11 kW A",
+            "de": "<b>Tesla Supercharger (Destination)</b> (Typ 2 mit Kabel von Tesla) liefert maximal 11 kW A"
           }
         },
         {
           "if": "socket:tesla_destination:output=22 kW",
           "then": {
             "en": "<b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) outputs at most 22 kW A",
-            "nl": "<b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo) levert een vermogen van maximaal 22 kW A"
+            "nl": "<b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo) levert een vermogen van maximaal 22 kW A",
+            "de": "<b>Tesla Supercharger (Destination)</b> (Typ 2 mit Kabel von Tesla) liefert maximal 22 kW A"
           }
         }
       ],
@@ -33104,12 +33200,12 @@
         "ca": "Quants connectors del tipus <b>USB</b> to charge phones and small electronics hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>USB</b> to charge phones and small electronics je k dispozici?",
         "da": "Hvor mange stik af typen <b>USB</b> to charge phones and small electronics er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ <b>USB</b> to charge phones and small electronics sind hier vorhanden?"
+        "de": "Wie viele Stecker vom Typ <b>USB</b> zum Aufladen von Handys und kleinen Elektrogeräten sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:USB-A}</b> plugs of type <b>USB</b> to charge phones and small electronics available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:USB-A}</b> stekkers van het type <b>USB</b> om GSMs en kleine electronica op te laden",
-        "de": "Hier sind <b class='text-xl'>{socket:USB-A}</b> Stecker vom Typ <b>USB</b> to charge phones and small electronics verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:USB-A}</b> Stecker vom Typ <b>USB</b> zum Aufladen von Handys und kleinen Elektrogeräten verfügbar"
       },
       "icon": "./assets/layers/charging_station/usb_port.svg",
       "freeform": {
@@ -33141,12 +33237,12 @@
         "en": "What voltage do the plugs with <b>USB</b> to charge phones and small electronics offer?",
         "nl": "Welke spanning levert de stekker van type <b>USB</b> om GSMs en kleine electronica op te laden",
         "cs": "Jaké napětí mají zástrčky s <b>USB</b> to charge phones and small electronics ?",
-        "de": "Welche Spannung liefern die <b>USB</b> to charge phones and small electronics?"
+        "de": "Welche Spannung liefern die <b>USB</b> zum Aufladen von Handys und kleinen Elektrogeräten?"
       },
       "render": {
         "en": "<b>USB</b> to charge phones and small electronics outputs {canonical(socket:USB-A:voltage)}",
         "nl": "<b>USB</b> om GSMs en kleine electronica op te laden heeft een spanning van {canonical(socket:USB-A:voltage)}",
-        "de": "<b>USB</b> to charge phones and small electronics liefert {canonical(socket:USB-A:voltage)}"
+        "de": "<b>USB</b> zum Aufladen von Handys und kleinen Elektrogeräten liefert {canonical(socket:USB-A:voltage)}"
       },
       "freeform": {
         "key": "socket:USB-A:voltage",
@@ -33160,7 +33256,7 @@
             "en": "<b>USB</b> to charge phones and small electronics outputs 5 volt",
             "nl": "<b>USB</b> om GSMs en kleine electronica op te laden heeft een spanning van 5 volt",
             "cs": "<b>USB</b> to charge phones and small electronics výstup 5 voltů",
-            "de": "<b>USB</b> to charge phones and small electronics liefert 5 Volt"
+            "de": "<b>USB</b> zum Aufladen von Handys und kleinen Elektrogeräten liefert 5 Volt"
           }
         }
       ],
@@ -33187,11 +33283,12 @@
       "question": {
         "en": "What current do the plugs with <b>USB</b> to charge phones and small electronics offer?",
         "nl": "Welke stroom levert de stekker van type <b>USB</b> om GSMs en kleine electronica op te laden?",
-        "de": "Welchen Strom bieten die Stecker mit <b>USB</b> to charge phones and small electronics?"
+        "de": "Welchen Strom bieten die Stecker mit <b>USB</b> zum Aufladen von Handys und kleinen Elektrogeräten?"
       },
       "render": {
         "en": "<b>USB</b> to charge phones and small electronics outputs at most {canonical(socket:USB-A:current)}",
-        "nl": "<b>USB</b> om GSMs en kleine electronica op te laden levert een stroom van maximaal {canonical(socket:USB-A:current)}"
+        "nl": "<b>USB</b> om GSMs en kleine electronica op te laden levert een stroom van maximaal {canonical(socket:USB-A:current)}",
+        "de": "<b>USB</b> zum Aufladen von Handys und kleinen Elektrogeräten liefert maximal {canonical(socket:USB-A:current)}"
       },
       "freeform": {
         "key": "socket:USB-A:current",
@@ -33204,7 +33301,7 @@
           "then": {
             "en": "<b>USB</b> to charge phones and small electronics outputs at most 1 A",
             "nl": "<b>USB</b> om GSMs en kleine electronica op te laden levert een stroom van maximaal 1 A",
-            "de": "<b>USB</b> to charge phones and small electronics liefert maximal 1 A"
+            "de": "<b>USB</b> zum Aufladen von Handys und kleinen Elektrogeräten liefert maximal 1 A"
           }
         },
         {
@@ -33212,7 +33309,7 @@
           "then": {
             "en": "<b>USB</b> to charge phones and small electronics outputs at most 2 A",
             "nl": "<b>USB</b> om GSMs en kleine electronica op te laden levert een stroom van maximaal 2 A",
-            "de": "<b>USB</b> to charge phones and small electronics liefert maximal 2 A"
+            "de": "<b>USB</b> zum Aufladen von Handys und kleinen Elektrogeräten liefert maximal 2 A"
           }
         }
       ],
@@ -33238,11 +33335,13 @@
       ],
       "question": {
         "en": "What power output does a single plug of type <b>USB</b> to charge phones and small electronics offer?",
-        "nl": "Welk vermogen levert een enkele stekker van type <b>USB</b> om GSMs en kleine electronica op te laden?"
+        "nl": "Welk vermogen levert een enkele stekker van type <b>USB</b> om GSMs en kleine electronica op te laden?",
+        "de": "Welche Leistung liefert ein einzelner Stecker des Typs <b>USB</b> zum Aufladen von Handys und kleinen Elektrogeräten?"
       },
       "render": {
         "en": "<b>USB</b> to charge phones and small electronics outputs at most {canonical(socket:USB-A:output)}",
-        "nl": "<b>USB</b> om GSMs en kleine electronica op te laden levert een vermogen van maximaal {canonical(socket:USB-A:output)}"
+        "nl": "<b>USB</b> om GSMs en kleine electronica op te laden levert een vermogen van maximaal {canonical(socket:USB-A:output)}",
+        "de": "<b>USB</b> zum Aufladen von Handys und kleinen Elektrogeräten liefert maximal {canonical(socket:USB-A:output)}"
       },
       "freeform": {
         "key": "socket:USB-A:output",
@@ -33254,14 +33353,16 @@
           "if": "socket:USB-A:output=5W",
           "then": {
             "en": "<b>USB</b> to charge phones and small electronics outputs at most 5W A",
-            "nl": "<b>USB</b> om GSMs en kleine electronica op te laden levert een vermogen van maximaal 5W A"
+            "nl": "<b>USB</b> om GSMs en kleine electronica op te laden levert een vermogen van maximaal 5W A",
+            "de": "<b>USB</b> zum Aufladen von Handys und kleinen Elektrogeräten liefert maximal 5W A"
           }
         },
         {
           "if": "socket:USB-A:output=10W",
           "then": {
             "en": "<b>USB</b> to charge phones and small electronics outputs at most 10W A",
-            "nl": "<b>USB</b> om GSMs en kleine electronica op te laden levert een vermogen van maximaal 10W A"
+            "nl": "<b>USB</b> om GSMs en kleine electronica op te laden levert een vermogen van maximaal 10W A",
+            "de": "<b>USB</b> zum Aufladen von Handys und kleinen Elektrogeräten liefert maximal 10W A"
           }
         }
       ],
@@ -33288,12 +33389,12 @@
         "ca": "Quants connectors del tipus <b>Bosch Active Connect with 3 pins</b> and cable hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>Bosch Active Connect with 3 pins</b> and cable je k dispozici?",
         "da": "Hvor mange stik af typen <b>Bosch Active Connect with 3 pins</b> and cable er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ <b>Bosch Active Connect with 3 pins</b> and cable sind hier vorhanden?"
+        "de": "Wie viele Stecker vom Typ <b> Bosch Active Connect mit 3 Pins </b> und Kabel sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:bosch_3pin}</b> plugs of type <b>Bosch Active Connect with 3 pins</b> and cable available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:bosch_3pin}</b> stekkers van het type <b>Bosch Active Connect met 3 pinnen</b> aan een kabel",
-        "de": "Hier sind <b class='text-xl'>{socket:bosch_3pin}</b> Stecker vom Typ <b>Bosch Active Connect with 3 pins</b> and cable verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:bosch_3pin}</b> Stecker vom Typ <b> Bosch Active Connect mit 3 Pins </b> und Kabel verfügbar"
       },
       "icon": "./assets/layers/charging_station/bosch-3pin.svg",
       "freeform": {
@@ -33325,12 +33426,12 @@
         "en": "What voltage do the plugs with <b>Bosch Active Connect with 3 pins</b> and cable offer?",
         "nl": "Welke spanning levert de stekker van type <b>Bosch Active Connect met 3 pinnen</b> aan een kabel",
         "cs": "Jaké napětí mají zástrčky s <b>Bosch Active Connect with 3 pins</b> and cable ?",
-        "de": "Welche Spannung liefern die <b>Bosch Active Connect with 3 pins</b> and cable?"
+        "de": "Welche Spannung liefern die <b> Bosch Active Connect mit 3 Pins </b> und Kabel?"
       },
       "render": {
         "en": "<b>Bosch Active Connect with 3 pins</b> and cable outputs {canonical(socket:bosch_3pin:voltage)}",
         "nl": "<b>Bosch Active Connect met 3 pinnen</b> aan een kabel heeft een spanning van {canonical(socket:bosch_3pin:voltage)}",
-        "de": "<b>Bosch Active Connect with 3 pins</b> and cable liefert {canonical(socket:bosch_3pin:voltage)}"
+        "de": "<b> Bosch Active Connect mit 3 Pins </b> und Kabel liefert {canonical(socket:bosch_3pin:voltage)}"
       },
       "freeform": {
         "key": "socket:bosch_3pin:voltage",
@@ -33361,11 +33462,12 @@
       "question": {
         "en": "What current do the plugs with <b>Bosch Active Connect with 3 pins</b> and cable offer?",
         "nl": "Welke stroom levert de stekker van type <b>Bosch Active Connect met 3 pinnen</b> aan een kabel?",
-        "de": "Welchen Strom bieten die Stecker mit <b>Bosch Active Connect with 3 pins</b> and cable?"
+        "de": "Welchen Strom bieten die Stecker mit <b> Bosch Active Connect mit 3 Pins </b> und Kabel?"
       },
       "render": {
         "en": "<b>Bosch Active Connect with 3 pins</b> and cable outputs at most {canonical(socket:bosch_3pin:current)}",
-        "nl": "<b>Bosch Active Connect met 3 pinnen</b> aan een kabel levert een stroom van maximaal {canonical(socket:bosch_3pin:current)}"
+        "nl": "<b>Bosch Active Connect met 3 pinnen</b> aan een kabel levert een stroom van maximaal {canonical(socket:bosch_3pin:current)}",
+        "de": "<b> Bosch Active Connect mit 3 Pins </b> und Kabel liefert maximal {canonical(socket:bosch_3pin:current)}"
       },
       "freeform": {
         "key": "socket:bosch_3pin:current",
@@ -33395,11 +33497,13 @@
       ],
       "question": {
         "en": "What power output does a single plug of type <b>Bosch Active Connect with 3 pins</b> and cable offer?",
-        "nl": "Welk vermogen levert een enkele stekker van type <b>Bosch Active Connect met 3 pinnen</b> aan een kabel?"
+        "nl": "Welk vermogen levert een enkele stekker van type <b>Bosch Active Connect met 3 pinnen</b> aan een kabel?",
+        "de": "Welche Leistung liefert ein einzelner Stecker des Typs <b> Bosch Active Connect mit 3 Pins </b> und Kabel?"
       },
       "render": {
         "en": "<b>Bosch Active Connect with 3 pins</b> and cable outputs at most {canonical(socket:bosch_3pin:output)}",
-        "nl": "<b>Bosch Active Connect met 3 pinnen</b> aan een kabel levert een vermogen van maximaal {canonical(socket:bosch_3pin:output)}"
+        "nl": "<b>Bosch Active Connect met 3 pinnen</b> aan een kabel levert een vermogen van maximaal {canonical(socket:bosch_3pin:output)}",
+        "de": "<b> Bosch Active Connect mit 3 Pins </b> und Kabel liefert maximal {canonical(socket:bosch_3pin:output)}"
       },
       "freeform": {
         "key": "socket:bosch_3pin:output",
@@ -33430,12 +33534,12 @@
         "ca": "Quants connectors del tipus <b>Bosch Active Connect with 5 pins</b> and cable hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>Bosch Active Connect with 5 pins</b> and cable je k dispozici?",
         "da": "Hvor mange stik af typen <b>Bosch Active Connect with 5 pins</b> and cable er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ <b>Bosch Active Connect with 5 pins</b> and cable sind hier vorhanden?"
+        "de": "Wie viele Stecker vom Typ <b> Bosch Active Connect mit 5 Pins </b> und Kabel sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:bosch_5pin}</b> plugs of type <b>Bosch Active Connect with 5 pins</b> and cable available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:bosch_5pin}</b> stekkers van het type <b>Bosch Active Connect met 5 pinnen</b> aan een kabel",
-        "de": "Hier sind <b class='text-xl'>{socket:bosch_5pin}</b> Stecker vom Typ <b>Bosch Active Connect with 5 pins</b> and cable verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:bosch_5pin}</b> Stecker vom Typ <b> Bosch Active Connect mit 5 Pins </b> und Kabel verfügbar"
       },
       "icon": "./assets/layers/charging_station/bosch-5pin.svg",
       "freeform": {
@@ -33467,12 +33571,12 @@
         "en": "What voltage do the plugs with <b>Bosch Active Connect with 5 pins</b> and cable offer?",
         "nl": "Welke spanning levert de stekker van type <b>Bosch Active Connect met 5 pinnen</b> aan een kabel",
         "cs": "Jaké napětí mají zástrčky s <b>Bosch Active Connect with 5 pins</b> and cable ?",
-        "de": "Welche Spannung liefern die <b>Bosch Active Connect with 5 pins</b> and cable?"
+        "de": "Welche Spannung liefern die <b> Bosch Active Connect mit 5 Pins </b> und Kabel?"
       },
       "render": {
         "en": "<b>Bosch Active Connect with 5 pins</b> and cable outputs {canonical(socket:bosch_5pin:voltage)}",
         "nl": "<b>Bosch Active Connect met 5 pinnen</b> aan een kabel heeft een spanning van {canonical(socket:bosch_5pin:voltage)}",
-        "de": "<b>Bosch Active Connect with 5 pins</b> and cable liefert {canonical(socket:bosch_5pin:voltage)}"
+        "de": "<b> Bosch Active Connect mit 5 Pins </b> und Kabel liefert {canonical(socket:bosch_5pin:voltage)}"
       },
       "freeform": {
         "key": "socket:bosch_5pin:voltage",
@@ -33503,11 +33607,12 @@
       "question": {
         "en": "What current do the plugs with <b>Bosch Active Connect with 5 pins</b> and cable offer?",
         "nl": "Welke stroom levert de stekker van type <b>Bosch Active Connect met 5 pinnen</b> aan een kabel?",
-        "de": "Welchen Strom bieten die Stecker mit <b>Bosch Active Connect with 5 pins</b> and cable?"
+        "de": "Welchen Strom bieten die Stecker mit <b> Bosch Active Connect mit 5 Pins </b> und Kabel?"
       },
       "render": {
         "en": "<b>Bosch Active Connect with 5 pins</b> and cable outputs at most {canonical(socket:bosch_5pin:current)}",
-        "nl": "<b>Bosch Active Connect met 5 pinnen</b> aan een kabel levert een stroom van maximaal {canonical(socket:bosch_5pin:current)}"
+        "nl": "<b>Bosch Active Connect met 5 pinnen</b> aan een kabel levert een stroom van maximaal {canonical(socket:bosch_5pin:current)}",
+        "de": "<b> Bosch Active Connect mit 5 Pins </b> und Kabel liefert maximal {canonical(socket:bosch_5pin:current)}"
       },
       "freeform": {
         "key": "socket:bosch_5pin:current",
@@ -33537,11 +33642,13 @@
       ],
       "question": {
         "en": "What power output does a single plug of type <b>Bosch Active Connect with 5 pins</b> and cable offer?",
-        "nl": "Welk vermogen levert een enkele stekker van type <b>Bosch Active Connect met 5 pinnen</b> aan een kabel?"
+        "nl": "Welk vermogen levert een enkele stekker van type <b>Bosch Active Connect met 5 pinnen</b> aan een kabel?",
+        "de": "Welche Leistung liefert ein einzelner Stecker des Typs <b> Bosch Active Connect mit 5 Pins </b> und Kabel?"
       },
       "render": {
         "en": "<b>Bosch Active Connect with 5 pins</b> and cable outputs at most {canonical(socket:bosch_5pin:output)}",
-        "nl": "<b>Bosch Active Connect met 5 pinnen</b> aan een kabel levert een vermogen van maximaal {canonical(socket:bosch_5pin:output)}"
+        "nl": "<b>Bosch Active Connect met 5 pinnen</b> aan een kabel levert een vermogen van maximaal {canonical(socket:bosch_5pin:output)}",
+        "de": "<b> Bosch Active Connect mit 5 Pins </b> und Kabel liefert maximal {canonical(socket:bosch_5pin:output)}"
       },
       "freeform": {
         "key": "socket:bosch_5pin:output",
@@ -33723,7 +33830,7 @@
             "nl": "Betalend te gebruiken, maar gratis voor klanten van het bijhorende hotel/café/ziekenhuis/...",
             "en": "Paid use, but free for customers of the hotel/pub/hospital/... who operates the charging station",
             "ca": "De pagament, però gratuït per als clients de l'hotel/bar/hospital/... que gestiona l'estació de càrrega",
-            "de": "Die Nutzung ist kostenpflichtig, aber für Kunden des Betreibers der Einrichtung, wie Hotel, Krankenhaus, … kostenlos"
+            "de": "Die Nutzung ist kostenpflichtig, aber für Kunden des Betreibers der Einrichtung, wie Hotel, Krankenhaus, ... kostenlos"
           }
         },
         {
@@ -61785,21 +61892,24 @@
       "id": "drinking_water_fee",
       "question": {
         "en": "Is this drinking water point free to use?",
-        "nl": "Is dit drinkwaterpunt gratis te gebruiken?"
+        "nl": "Is dit drinkwaterpunt gratis te gebruiken?",
+        "de": "Kann diese Trinkwasserstelle kostenlos genutzt werden?"
       },
       "mappings": [
         {
           "if": "fee=no",
           "then": {
             "en": "Free to use",
-            "nl": "Gratis te gebruiken"
+            "nl": "Gratis te gebruiken",
+            "de": "Die Nutzung ist kostenlos"
           }
         },
         {
           "if": "fee=yes",
           "then": {
             "en": "One needs to pay to use this drinking water point",
-            "nl": "Men moet betalen om dit drinkwaterpunt te gebruiken"
+            "nl": "Men moet betalen om dit drinkwaterpunt te gebruiken",
+            "de": "Die Nutzung ist kostenpflichtig"
           }
         }
       ],
@@ -61826,21 +61936,24 @@
       "id": "seasonal",
       "question": {
         "en": "Is this drinking water point available all year round?",
-        "nl": "Is dit drinkwaterpunt heel het jaar door beschikbaar?"
+        "nl": "Is dit drinkwaterpunt heel het jaar door beschikbaar?",
+        "de": "Ist die Trinkwasserstelle ganzjährig in Betrieb?"
       },
       "mappings": [
         {
           "if": "seasonal=no",
           "then": {
             "en": "This drinking water point is available all around the year",
-            "nl": "Dit drinkwaterpunt is heel het jaar door beschikbaar"
+            "nl": "Dit drinkwaterpunt is heel het jaar door beschikbaar",
+            "de": "Die Trinkwasserstelle ist ganzjährig in Betrieb"
           }
         },
         {
           "if": "seasonal=summer",
           "then": {
             "en": "This drinking water point is only available in summer",
-            "nl": "Dit drinkwaterpunt is enkel in de zomer beschikbaar"
+            "nl": "Dit drinkwaterpunt is enkel in de zomer beschikbaar",
+            "de": "Die Trinkwasserstelle ist nur im Sommer in Betrieb"
           }
         },
         {
@@ -61848,7 +61961,8 @@
           "icon": "./assets/layers/drinking_water/no_winter.svg",
           "then": {
             "en": "This drinking water point is closed during the winter",
-            "nl": "Dit drinkwaterpunt is gesloten in de winter"
+            "nl": "Dit drinkwaterpunt is gesloten in de winter",
+            "de": "Die Trinkwasserstelle ist im Winter nicht in Betrieb"
           }
         }
       ],
@@ -61962,7 +62076,8 @@
           },
           "then": {
             "en": "This drinking water fountain is closed this season. As such, the opening hours are not shown.",
-            "nl": "Dit drinkwaterpunt is dit seizoen gesloten. De openingsuren worden dus niet weergegeven."
+            "nl": "Dit drinkwaterpunt is dit seizoen gesloten. De openingsuren worden dus niet weergegeven.",
+            "de": "Der Trinkwasserbrunnen ist derzeit nicht in Betrieb. Deshalb werden keine Öffnungszeiten angezeigt."
           },
           "hideInAnswer": true
         },
@@ -61986,7 +62101,8 @@
       ],
       "questionHint": {
         "en": "These are the opening hours if the drinking water fountain is operational.",
-        "nl": "Tijdens deze openingsuren is dit drinkwaterpunt bruikbaar."
+        "nl": "Tijdens deze openingsuren is dit drinkwaterpunt bruikbaar.",
+        "de": "Dies sind die Öffnungszeiten des Trinkwasserbrunnens, wenn dieser in Betrieb ist."
       },
       "condition": {
         "and": [
@@ -62011,7 +62127,8 @@
       "id": "drinking_water_bench-artwork",
       "question": {
         "en": "Does this drinking water fountain have an artistic element?",
-        "nl": "Heeft dit drinkwaterpunt een geintegreerd kunstwerk?"
+        "nl": "Heeft dit drinkwaterpunt een geintegreerd kunstwerk?",
+        "de": "Verfügt der Trinkwasserbrunnen über ein künstlerisches Element?"
       },
       "mappings": [
         {
@@ -62021,14 +62138,16 @@
           ],
           "then": {
             "en": "This drinking water point has an integrated artwork",
-            "nl": "Dit drinkwaterpunt heeft een geintegreerd kunstwerk"
+            "nl": "Dit drinkwaterpunt heeft een geintegreerd kunstwerk",
+            "de": "Die Trinkwasserstelle hat ein integriertes Kunstwerk"
           }
         },
         {
           "if": "not:tourism:artwork=yes",
           "then": {
             "en": "This drinking water point does not have an integrated artwork",
-            "nl": "Dit drinkwaterpunt heeft geen geïntegreerd kunstwerk"
+            "nl": "Dit drinkwaterpunt heeft geen geïntegreerd kunstwerk",
+            "de": "Die Trinkwasserstelle hat kein integriertes Kunstwerk"
           },
           "addExtraTags": [
             "tourism="
@@ -62038,14 +62157,16 @@
           "if": "tourism=",
           "then": {
             "en": "This drinking water point <span class=\"subtle\">probably</span> doesn't have an integrated artwork",
-            "nl": "Dit drinkwaterpunt heeft <span class=\"subtle\">waarschijnlijk</span> geen geïntegreerd kunstwerk"
+            "nl": "Dit drinkwaterpunt heeft <span class=\"subtle\">waarschijnlijk</span> geen geïntegreerd kunstwerk",
+            "de": "Die Trinkwasserstelle hat <span class=\"subtle\">wahrscheinlich</span> kein integriertes Kunstwerk"
           },
           "hideInAnswer": true
         }
       ],
       "questionHint": {
         "en": "E.g. it has an integrated statue or other non-trivial, creative work",
-        "nl": "Bijvoorbeeld een standbeeld of ander, niet-triviaal kunstwerk"
+        "nl": "Bijvoorbeeld een standbeeld of ander, niet-triviaal kunstwerk",
+        "de": "Z.B. eine integrierte Statue oder andere künstlerische Werke"
       },
       "condition": {
         "and": [
@@ -70451,7 +70572,7 @@
       "question": {
         "en": "Is a sewing machine available at this hackerspace?",
         "nl": "Is er een naaimachine beschikbaar in deze hackerspace?",
-        "de": "Gibt es a sewing machine in diesem Hackerspace?",
+        "de": "Gibt es eine Nähmaschine in diesem Hackerspace?",
         "ca": "Hi ha a sewing machine disponible a aquest espai hacker?",
         "cs": "Je a sewing machine dostupné v tomto hackerspace?"
       },
@@ -70463,7 +70584,7 @@
           "then": {
             "en": "There is a sewing machine available at this hackerspace",
             "nl": "Er is een naaimachine beschikbaar in deze hackerspace",
-            "de": "In diesem Hackerspace gibt es a sewing machine",
+            "de": "In diesem Hackerspace gibt es eine Nähmaschine",
             "ca": "Hi ha a sewing machine disponible a aquest espai hacker",
             "cs": "V tomto prostoru hackerů je k dispozici a sewing machine"
           }
@@ -70473,7 +70594,7 @@
           "then": {
             "en": "There is no sewing machine available at this hackerspace",
             "nl": "Er is geen naaimachine beschikbaar in deze hackerspace",
-            "de": "In diesem Hackerspace gibt es kein sewing machine",
+            "de": "In diesem Hackerspace gibt es kein Nähmaschine",
             "ca": "No hi ha sewing machine disponible a aquest espai hacker",
             "cs": "V tomto prostoru hackerů není k dispozici žádný sewing machine"
           }

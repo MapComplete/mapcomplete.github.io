@@ -317,10 +317,12 @@
             "sewing_machine",
             {
               "en": "a sewing machine",
+              "de": "eine Nähmaschine",
               "nl": "een naaimachine"
             },
             {
               "en": "sewing machine",
+              "de": "Nähmaschine",
               "nl": "naaimachine"
             },
             "./assets/layers/hackerspace/sewing_machine.svg"
