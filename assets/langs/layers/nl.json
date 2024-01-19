@@ -7965,20 +7965,20 @@
             "toilet-changing_table:location": {
                 "mappings": {
                     "0": {
-                        "then": "De luiertafel bevindt zich in de vrouwentoiletten "
+                        "then": "Er bevindt zich een luiertafel in de vrouwentoiletten "
                     },
                     "1": {
-                        "then": "De luiertafel bevindt zich in de herentoiletten "
+                        "then": "Er bevindt zich een luiertafel in de herentoiletten "
                     },
                     "2": {
-                        "then": "De luiertafel bevindt zich in de rolstoeltoegankelijke toilet "
+                        "then": "Er bevindt zich een luiertafel in de rolstoeltoegankelijke toilet "
                     },
                     "3": {
-                        "then": "De luiertafel bevindt zich in een daartoe voorziene kamer "
+                        "then": "Er bevindt zich een luiertafel in een daartoe voorziene kamer "
                     }
                 },
                 "question": "Waar bevindt de luiertafel zich?",
-                "render": "De luiertafel bevindt zich in {changing_table:location}"
+                "render": "Er bevindt zich een luiertafel in {changing_table:location}"
             },
             "toilet-charge": {
                 "freeform": {

@@ -11760,6 +11760,7 @@
       ],
       "metacondition": "_supports_sharing=yes",
       "render": {
+        "de": "{share_link(,Standort teilen)}",
         "en": "{share_link(,Share this location)}",
         "nl": "{share_link(,Deel deze locatie)}"
       },
@@ -18981,7 +18982,8 @@
       ],
       "editButtonAriaLabel": {
         "en": "Edit website",
-        "nl": "Pas website aan"
+        "nl": "Pas website aan",
+        "de": "Webseite bearbeiten"
       },
       "condition": {
         "or": [
@@ -19361,7 +19363,8 @@
       },
       "editButtonAriaLabel": {
         "en": "Edit email address",
-        "nl": "Pas emailadres aan"
+        "nl": "Pas emailadres aan",
+        "de": "E-Mail Adresse bearbeiten"
       },
       "condition": {
         "or": [
@@ -19681,7 +19684,8 @@
       },
       "editButtonAriaLabel": {
         "en": "Edit phone number",
-        "nl": "Pas telefoonnummer aan"
+        "nl": "Pas telefoonnummer aan",
+        "de": "Telefonnummer bearbeiten"
       },
       "condition": {
         "or": [
@@ -27448,7 +27452,8 @@
       "id": "stairs_incline",
       "render": {
         "en": "These stairs have an incline of {incline}",
-        "ca": "Aquestes escales tenen una inclinació de {incline}"
+        "ca": "Aquestes escales tenen una inclinació de {incline}",
+        "de": "Die Treppe hat eine Steigung von {incline}"
       },
       "freeform": {
         "key": "incline",
@@ -27457,14 +27462,16 @@
       },
       "question": {
         "en": "What is the incline of these stairs?",
-        "ca": "Quina és la inclinació d'aquestes escales?"
+        "ca": "Quina és la inclinació d'aquestes escales?",
+        "de": "Welche Steigung hat die Treppe?"
       },
       "mappings": [
         {
           "if": "incline=up",
           "then": {
             "en": "The upward direction is {direction_absolute()}",
-            "ca": "La direcció ascendent és {direction_absolute()}"
+            "ca": "La direcció ascendent és {direction_absolute()}",
+            "de": "Die Aufwärtsrichtung ist {direction_absolute()}"
           },
           "hideInAnswer": true
         },
@@ -27472,7 +27479,8 @@
           "if": "incline=down",
           "then": {
             "en": "The downward direction is {direction_absolute()}",
-            "ca": "La direcció descendent és {direction_absolute()}"
+            "ca": "La direcció descendent és {direction_absolute()}",
+            "de": "Die Abwärtsrichtung ist {direction_absolute()}"
           },
           "hideInAnswer": true
         }
@@ -61389,10 +61397,10 @@
         "cs": "Kde je umístěn přebalovací pult?"
       },
       "render": {
-        "en": "The changing table is located at {changing_table:location}",
-        "de": "Die Wickeltabelle befindet sich in {changing_table:location}",
+        "en": "A changing table is located at {changing_table:location}",
+        "de": "Ein Wickeltisch befindet sich in {changing_table:location}",
         "fr": "Emplacement de la table à langer : {changing_table:location}",
-        "nl": "De luiertafel bevindt zich in {changing_table:location}",
+        "nl": "Er bevindt zich een luiertafel in {changing_table:location}",
         "it": "Il fasciatoio si trova presso {changing_table:location}",
         "es": "El cambiador está en {changing_table:location}",
         "da": "Puslebordet er placeret på {changing_table:location}",
@@ -61464,10 +61472,10 @@
       "mappings": [
         {
           "then": {
-            "en": "The changing table is in the toilet for women. ",
-            "de": "Der Wickeltisch befindet sich in der Damentoilette. ",
+            "en": "A changing table is in the toilet for women",
+            "de": "Ein Wickeltisch ist in der Damentoilette vorhanden",
             "fr": "La table à langer est dans les toilettes pour femmes. ",
-            "nl": "De luiertafel bevindt zich in de vrouwentoiletten ",
+            "nl": "Er bevindt zich een luiertafel in de vrouwentoiletten ",
             "it": "Il fasciatoio è nei servizi igienici femminili. ",
             "da": "Puslebordet er på toilettet til kvinder. ",
             "ca": "El canviador està al lavabo per a dones. ",
@@ -61477,10 +61485,10 @@
         },
         {
           "then": {
-            "en": "The changing table is in the toilet for men. ",
-            "de": "Der Wickeltisch befindet sich in der Herrentoilette. ",
+            "en": "A changing table is in the toilet for men",
+            "de": "Ein Wickeltisch ist in der Herrentoilette vorhanden",
             "fr": "La table à langer est dans les toilettes pour hommes. ",
-            "nl": "De luiertafel bevindt zich in de herentoiletten ",
+            "nl": "Er bevindt zich een luiertafel in de herentoiletten ",
             "it": "Il fasciatoio è nei servizi igienici maschili. ",
             "ca": "El canviador està al lavabo per a homes. ",
             "cs": "Přebalovací pult je na pánské toaletě. "
@@ -61490,10 +61498,10 @@
         {
           "if": "changing_table:location=wheelchair_toilet",
           "then": {
-            "en": "The changing table is in the toilet for wheelchair users. ",
-            "de": "Der Wickeltisch befindet sich in der Toilette für Rollstuhlfahrer. ",
+            "en": "A changing table is in the toilet for wheelchair users",
+            "de": "Ein Wickeltisch ist in der barrierefreien Toilette vorhanden",
             "fr": "La table à langer est dans les toilettes pour personnes à mobilité réduite. ",
-            "nl": "De luiertafel bevindt zich in de rolstoeltoegankelijke toilet ",
+            "nl": "Er bevindt zich een luiertafel in de rolstoeltoegankelijke toilet ",
             "it": "Il fasciatoio è nei servizi igienici per persone in sedia a rotelle. ",
             "da": "Puslebordet er på toilettet for kørestolsbrugere. ",
             "ca": "El canviador està al lavabo per a usuaris de cadira de rodes. ",
@@ -61503,10 +61511,10 @@
         {
           "if": "changing_table:location=dedicated_room",
           "then": {
-            "en": "The changing table is in a dedicated room. ",
-            "de": "Der Wickeltisch befindet sich in einem eigenen Raum. ",
+            "en": "A changing table is in a dedicated room",
+            "de": "Ein Wickeltisch befindet sich in einem eigenen Raum",
             "fr": "La table à langer est dans un espace dédié. ",
-            "nl": "De luiertafel bevindt zich in een daartoe voorziene kamer ",
+            "nl": "Er bevindt zich een luiertafel in een daartoe voorziene kamer ",
             "it": "Il fasciatoio è in una stanza dedicata. ",
             "es": "El cambiador está en una habitación dedicada ",
             "da": "Vuggestuen står i et særligt rum. ",
@@ -61771,7 +61779,8 @@
       "id": "drinking_water_type",
       "question": {
         "en": "What type of drinking water point is this?",
-        "nl": "Wat voor soort drinkwaterpunt is dit?"
+        "nl": "Wat voor soort drinkwaterpunt is dit?",
+        "de": "Um welche Art von Trinkwasserentnahmestelle handelt es sich?"
       },
       "mappings": [
         {
@@ -61779,7 +61788,8 @@
           "icon": "./assets/layers/drinking_water/bubbler.svg",
           "then": {
             "en": "This is a bubbler fountain. A water jet to drink from is sent upwards, typically controlled by a push button.",
-            "nl": "Dit is een waterhappertje - een drinkwaterfonteintje waarbij een waterstraaltje omhoog spuit. Dit kan permanent werken of door op een drukknop te duwen."
+            "nl": "Dit is een waterhappertje - een drinkwaterfonteintje waarbij een waterstraaltje omhoog spuit. Dit kan permanent werken of door op een drukknop te duwen.",
+            "de": "Dies ist ein Sprudelbrunnen. Ein Wasserstrahl zum Trinken wird nach oben gerichtet und in der Regel durch einen Druckknopf gesteuert."
           },
           "addExtraTags": [
             "man_made="
@@ -61790,7 +61800,8 @@
           "icon": "./assets/layers/drinking_water/bottle.svg",
           "then": {
             "en": "This is a bottle refill point where the water is sent downwards, typically controlled by a push button or a motion sensor. Drinking directly from the stream might be very hard or impossible.",
-            "nl": "Dit is een hervulpunt voor drinkwaterflessen. De waterstraal wordt omlaag gestuurd wanneer op een drukknop geduwd wordt of wanneer er beweging gedetecteerd wordt. Rechtstreeks van de waterstraal drinking kan moeilijk of zelfs onmogelijk zijn."
+            "nl": "Dit is een hervulpunt voor drinkwaterflessen. De waterstraal wordt omlaag gestuurd wanneer op een drukknop geduwd wordt of wanneer er beweging gedetecteerd wordt. Rechtstreeks van de waterstraal drinking kan moeilijk of zelfs onmogelijk zijn.",
+            "de": "Dies ist eine Flaschenauffüllstation, an der das Wasser nach unten geleitet wird, in der Regel durch einen Druckknopf oder einen Bewegungssensor gesteuert. Direkt aus dem Wasserstrahl zu trinken, kann sehr schwierig oder unmöglich sein."
           },
           "addExtraTags": [
             "man_made=",
@@ -61802,7 +61813,8 @@
           "icon": "./assets/layers/drinking_water/tap.svg",
           "then": {
             "en": "This is a water tap. The water flows downward and the stream is controlled by a valve or push-button.",
-            "nl": "Dit is een waterkraan. Het water strooomt naar beneden en het volume wordt door een knop of draaimechanisme geregeld."
+            "nl": "Dit is een waterkraan. Het water strooomt naar beneden en het volume wordt door een knop of draaimechanisme geregeld.",
+            "de": "Dies ist ein Wasserhahn. Das Wasser fließt nach unten und der Wasserstrahl wird durch ein Ventil oder einen Druckknopf gesteuert."
           },
           "addExtraTags": [
             "fountain="
@@ -69377,7 +69389,8 @@
           "if": "diet:vegetarian=on_demand",
           "then": {
             "en": "Some dishes might be adapted to a vegetarian version, but this should be demanded",
-            "nl": "Sommige gerechten kunnen op vraag vegetarisch gemaakt worden"
+            "nl": "Sommige gerechten kunnen op vraag vegetarisch gemaakt worden",
+            "de": "Einige Gerichte können auf Nachfrage in eine vegetarische Version umgewandelt werden"
           }
         }
       ],
@@ -69461,7 +69474,8 @@
           "if": "diet:vegan=on_demand",
           "then": {
             "en": "Some dishes might be adapted to a vegan version if asked for",
-            "nl": "Op vraag kan een veganistische variant van een gerecht gemaakt worden"
+            "nl": "Op vraag kan een veganistische variant van een gerecht gemaakt worden",
+            "de": "Einige Gerichte können auf Nachfrage in eine vegane Version umgewandelt werden"
           }
         }
       ],
@@ -70534,7 +70548,7 @@
       "question": {
         "en": "Is a multimedia studio available at this hackerspace?",
         "nl": "Is er een multimedia-studio beschikbaar in deze hackerspace?",
-        "de": "Gibt es a multimedia studio in diesem Hackerspace?",
+        "de": "Gibt es ein Multimediastudio in diesem Hackerspace?",
         "ca": "Hi ha a multimedia studio disponible a aquest espai hacker?",
         "cs": "Je a multimedia studio dostupné v tomto hackerspace?"
       },
@@ -70546,7 +70560,7 @@
           "then": {
             "en": "There is a multimedia studio available at this hackerspace",
             "nl": "Er is een multimedia-studio beschikbaar in deze hackerspace",
-            "de": "In diesem Hackerspace gibt es a multimedia studio",
+            "de": "In diesem Hackerspace gibt es ein Multimediastudio",
             "ca": "Hi ha a multimedia studio disponible a aquest espai hacker",
             "cs": "V tomto prostoru hackerů je k dispozici a multimedia studio"
           }
@@ -70556,7 +70570,7 @@
           "then": {
             "en": "There is no multimedia studio available at this hackerspace",
             "nl": "Er is geen multimedia-studio beschikbaar in deze hackerspace",
-            "de": "In diesem Hackerspace gibt es kein multimedia studio",
+            "de": "In diesem Hackerspace gibt es kein Multimediastudio",
             "ca": "No hi ha multimedia studio disponible a aquest espai hacker",
             "cs": "V tomto prostoru hackerů není k dispozici žádný multimedia studio"
           }
@@ -70614,7 +70628,7 @@
       "question": {
         "en": "Is a woodworking workshop available at this hackerspace?",
         "nl": "Is er een houtbewerkingsatelier beschikbaar in deze hackerspace?",
-        "de": "Gibt es a woodworking workshop in diesem Hackerspace?",
+        "de": "Gibt es eine Holzwerkstatt in diesem Hackerspace?",
         "ca": "Hi ha a woodworking workshop disponible a aquest espai hacker?",
         "cs": "Je a woodworking workshop dostupné v tomto hackerspace?"
       },
@@ -70626,7 +70640,7 @@
           "then": {
             "en": "There is a woodworking workshop available at this hackerspace",
             "nl": "Er is een houtbewerkingsatelier beschikbaar in deze hackerspace",
-            "de": "In diesem Hackerspace gibt es a woodworking workshop",
+            "de": "In diesem Hackerspace gibt es eine Holzwerkstatt",
             "ca": "Hi ha a woodworking workshop disponible a aquest espai hacker",
             "cs": "V tomto prostoru hackerů je k dispozici a woodworking workshop"
           }
@@ -70636,7 +70650,7 @@
           "then": {
             "en": "There is no woodworking workshop available at this hackerspace",
             "nl": "Er is geen houtbewerkingsatelier beschikbaar in deze hackerspace",
-            "de": "In diesem Hackerspace gibt es kein woodworking workshop",
+            "de": "In diesem Hackerspace gibt es kein Holzwerkstatt",
             "ca": "No hi ha woodworking workshop disponible a aquest espai hacker",
             "cs": "V tomto prostoru hackerů není k dispozici žádný woodworking workshop"
           }
@@ -70654,7 +70668,7 @@
       "question": {
         "en": "Is a ceramics workshop available at this hackerspace?",
         "nl": "Is er een keramiekatelier beschikbaar in deze hackerspace?",
-        "de": "Gibt es a ceramics workshop in diesem Hackerspace?",
+        "de": "Gibt es eine Keramikwerkstatt in diesem Hackerspace?",
         "ca": "Hi ha a ceramics workshop disponible a aquest espai hacker?",
         "cs": "Je a ceramics workshop dostupné v tomto hackerspace?"
       },
@@ -70666,7 +70680,7 @@
           "then": {
             "en": "There is a ceramics workshop available at this hackerspace",
             "nl": "Er is een keramiekatelier beschikbaar in deze hackerspace",
-            "de": "In diesem Hackerspace gibt es a ceramics workshop",
+            "de": "In diesem Hackerspace gibt es eine Keramikwerkstatt",
             "ca": "Hi ha a ceramics workshop disponible a aquest espai hacker",
             "cs": "V tomto prostoru hackerů je k dispozici a ceramics workshop"
           }
@@ -70676,7 +70690,7 @@
           "then": {
             "en": "There is no ceramics workshop available at this hackerspace",
             "nl": "Er is geen keramiekatelier beschikbaar in deze hackerspace",
-            "de": "In diesem Hackerspace gibt es kein ceramics workshop",
+            "de": "In diesem Hackerspace gibt es kein Keramikwerkstatt",
             "ca": "No hi ha ceramics workshop disponible a aquest espai hacker",
             "cs": "V tomto prostoru hackerů není k dispozici žádný ceramics workshop"
           }
@@ -70694,7 +70708,7 @@
       "question": {
         "en": "Is a metal workshop available at this hackerspace?",
         "nl": "Is er een metaalatelier beschikbaar in deze hackerspace?",
-        "de": "Gibt es a metal workshop in diesem Hackerspace?",
+        "de": "Gibt es eine Metallwerkstatt in diesem Hackerspace?",
         "ca": "Hi ha a metal workshop disponible a aquest espai hacker?",
         "cs": "Je a metal workshop dostupné v tomto hackerspace?"
       },
@@ -70706,7 +70720,7 @@
           "then": {
             "en": "There is a metal workshop available at this hackerspace",
             "nl": "Er is een metaalatelier beschikbaar in deze hackerspace",
-            "de": "In diesem Hackerspace gibt es a metal workshop",
+            "de": "In diesem Hackerspace gibt es eine Metallwerkstatt",
             "ca": "Hi ha a metal workshop disponible a aquest espai hacker",
             "cs": "V tomto prostoru hackerů je k dispozici a metal workshop"
           }
@@ -70716,7 +70730,7 @@
           "then": {
             "en": "There is no metal workshop available at this hackerspace",
             "nl": "Er is geen metaalatelier beschikbaar in deze hackerspace",
-            "de": "In diesem Hackerspace gibt es kein metal workshop",
+            "de": "In diesem Hackerspace gibt es kein Metallwerkstatt",
             "ca": "No hi ha metal workshop disponible a aquest espai hacker",
             "cs": "V tomto prostoru hackerů není k dispozici žádný metal workshop"
           }
@@ -70734,7 +70748,7 @@
       "question": {
         "en": "Is a bicycle repair workshop available at this hackerspace?",
         "nl": "Is er een fietsherstelplaats beschikbaar in deze hackerspace?",
-        "de": "Gibt es a bicycle repair workshop in diesem Hackerspace?",
+        "de": "Gibt es eine Fahrradwerkstatt in diesem Hackerspace?",
         "ca": "Hi ha a bicycle repair workshop disponible a aquest espai hacker?",
         "cs": "Je a bicycle repair workshop dostupné v tomto hackerspace?"
       },
@@ -70746,7 +70760,7 @@
           "then": {
             "en": "There is a bicycle repair workshop available at this hackerspace",
             "nl": "Er is een fietsherstelplaats beschikbaar in deze hackerspace",
-            "de": "In diesem Hackerspace gibt es a bicycle repair workshop",
+            "de": "In diesem Hackerspace gibt es eine Fahrradwerkstatt",
             "ca": "Hi ha a bicycle repair workshop disponible a aquest espai hacker",
             "cs": "V tomto prostoru hackerů je k dispozici a bicycle repair workshop"
           }
@@ -70756,7 +70770,7 @@
           "then": {
             "en": "There is no bicycle repair workshop available at this hackerspace",
             "nl": "Er is geen fietsherstelplaats beschikbaar in deze hackerspace",
-            "de": "In diesem Hackerspace gibt es kein bicycle repair workshop",
+            "de": "In diesem Hackerspace gibt es kein Fahrradwerkstatt",
             "ca": "No hi ha bicycle repair workshop disponible a aquest espai hacker",
             "cs": "V tomto prostoru hackerů není k dispozici žádný bicycle repair workshop"
           }
@@ -78023,14 +78037,16 @@
           "if": "surface=tartan",
           "then": {
             "en": "The surface is tartan - a synthetic, springy surface typically seen on athletic pistes",
-            "nl": "De ondergrond bestaat uit Tartan - een synthetisch, elastisch en poreus materiaal dat je ook vindt op atletiekpistes"
+            "nl": "De ondergrond bestaat uit Tartan - een synthetisch, elastisch en poreus materiaal dat je ook vindt op atletiekpistes",
+            "de": "Der Belag ist aus Tartan - ein synthetischer, federnder Belag, der typischerweise auf Sportbahnen zu finden ist"
           }
         },
         {
           "if": "surface=rubber",
           "then": {
             "en": "The surface is made from rubber, such as rubber tiles, rubber mulch or a big rubber area",
-            "nl": "De ondergrond bestaat uit rubber, zoals rubberen tegels, rubber snippers of een groot rubberen oppervlak"
+            "nl": "De ondergrond bestaat uit rubber, zoals rubberen tegels, rubber snippers of een groot rubberen oppervlak",
+            "de": "Die Oberfläche besteht aus Gummi, z. B. aus Gummifliesen, Gummimulch oder einer großen Gummifläche"
           }
         }
       ],
@@ -80141,7 +80157,8 @@
           "then": {
             "en": "The surface of this track is Tartan, a synthetic, slightly springy, porous surface",
             "nl": "De ondergrond is Tartan, een synthetisch, licht verende en poreuze ondergrond",
-            "ca": "La superfície d'aquesta pista és Tartan, una superfície sintètica, lleugerament molla i porosa"
+            "ca": "La superfície d'aquesta pista és Tartan, una superfície sintètica, lleugerament molla i porosa",
+            "de": "Der Belag dieser Laufbahn ist Tartan, ein synthetischer, leicht federnder, poröser Belag"
           }
         }
       ],
@@ -83640,7 +83657,8 @@
       },
       "editButtonAriaLabel": {
         "en": "Edit phone number",
-        "nl": "Pas telefoonnummer aan"
+        "nl": "Pas telefoonnummer aan",
+        "de": "Telefonnummer bearbeiten"
       },
       "questionHint": {
         "en": "This is the number you can call in case of problems with the vending machine",
@@ -84305,6 +84323,7 @@
         "in_favourite"
       ],
       "render": {
+        "de": "{link(<img textmode='📞' alt='phone' src='./assets/layers/questions/phone.svg'/>,tel:&LBRACEphone&RBRACE,,,Telefon)}",
         "en": "{link(<img textmode='📞' alt='phone' src='./assets/layers/questions/phone.svg'/>,tel:&LBRACEphone&RBRACE,,,phone)}",
         "nl": "{link(<img textmode='📞' alt='phone' src='./assets/layers/questions/phone.svg'/>,tel:&LBRACEphone&RBRACE,,,Telefoneer)}"
       },
@@ -84313,6 +84332,7 @@
           "#": "ignore-image-in-then",
           "if": "contact:phone~*",
           "then": {
+            "de": "{link(<img textmode='📞' alt='phone' src='./assets/layers/questions/phone.svg'/>,tel:&LBRACEcontact:phone&RBRACE,,,Telefon)}",
             "en": "{link(<img textmode='📞' alt='phone' src='./assets/layers/questions/phone.svg'/>,tel:&LBRACEcontact:phone&RBRACE,,,phone)}",
             "nl": "{link(<img textmode='📞' alt='phone' src='./assets/layers/questions/phone.svg'/>,tel:&LBRACEcontact:phone&RBRACE,,,Telefoneer)}"
           }
@@ -84398,6 +84418,7 @@
         "defaults"
       ],
       "render": {
+        "de": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,https://openstreetmap.org/&LBRACEid&RBRACE,,,Auf openstreetmap.org öffnen)}",
         "en": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,https://openstreetmap.org/&LBRACEid&RBRACE,,,Open on openstreetmap.org)}",
         "nl": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,https://openstreetmap.org/&LBRACEid&RBRACE,,,Bekijk op openstreetmap.org)}"
       },
@@ -84410,6 +84431,7 @@
           "#": "ignore-image-in-then",
           "if": "_backend~*",
           "then": {
+            "de": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,&LBRACE_backend&RBRACE/&LBRACEid&RBRACE,,,Auf openstreetmap.org öffnen)}",
             "en": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,&LBRACE_backend&RBRACE/&LBRACEid&RBRACE,,,Open on openstreetmap.org)}",
             "nl": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,&LBRACE_backend&RBRACE/&LBRACEid&RBRACE,,,Bekijk op openstreetmap.org)}"
           }
