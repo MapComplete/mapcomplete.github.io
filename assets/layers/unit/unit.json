@@ -5,6 +5,8 @@
     "de": "Bibliotheksebene mit allen gängigen Einrichtungen.  Einrichtungen können _nur_ aus dieser Datei importiert werden."
   },
   "source": "special:library",
+  "pointRendering": null,
+  "lineRendering": null,
   "units": [
     {
       "quantity": "power",
@@ -397,7 +399,5 @@
         }
       ]
     }
-  ],
-  "pointRendering": null,
-  "lineRendering": null
+  ]
 }

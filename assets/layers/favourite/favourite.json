@@ -70454,6 +70454,14 @@
             "ca": "No hi ha Impressora 3D disponible a aquest espai hacker",
             "cs": "V tomto prostoru hackerů není k dispozici žádný 3D-tiskárna"
           }
+        },
+        {
+          "if": "service:3dprinter=limited",
+          "then": {
+            "en": "There is a limited 3D-printer available at this hackerspace",
+            "nl": "Er is een beperkte 3D-printer beschikbaar in deze hackerspace"
+          },
+          "hideInAnswer": true
         }
       ],
       "id": "hackerspaces-service-3dprinter",
@@ -70494,6 +70502,14 @@
             "ca": "No hi ha tallador laser disponible a aquest espai hacker",
             "cs": "V tomto prostoru hackerů není k dispozici žádný laserová řezačka"
           }
+        },
+        {
+          "if": "service:lasercutter=limited",
+          "then": {
+            "en": "There is a limited laser cutter available at this hackerspace",
+            "nl": "Er is een beperkte lasercutter beschikbaar in deze hackerspace"
+          },
+          "hideInAnswer": true
         }
       ],
       "id": "hackerspaces-service-lasercutter",
@@ -70534,6 +70550,14 @@
             "ca": "No hi ha trepant CNC disponible a aquest espai hacker",
             "cs": "V tomto prostoru hackerů není k dispozici žádný CNC vrtačka"
           }
+        },
+        {
+          "if": "service:cnc_drilling_machine=limited",
+          "then": {
+            "en": "There is a limited CNC drill available at this hackerspace",
+            "nl": "Er is een beperkte CNC-boormachine beschikbaar in deze hackerspace"
+          },
+          "hideInAnswer": true
         }
       ],
       "id": "hackerspaces-service-cnc_drilling_machine",
@@ -70574,6 +70598,14 @@
             "ca": "No hi ha multimedia studio disponible a aquest espai hacker",
             "cs": "V tomto prostoru hackerů není k dispozici žádný multimedia studio"
           }
+        },
+        {
+          "if": "service:media_studio=limited",
+          "then": {
+            "en": "There is a limited multimedia studio available at this hackerspace",
+            "nl": "Er is een beperkte multimedia-studio beschikbaar in deze hackerspace"
+          },
+          "hideInAnswer": false
         }
       ],
       "id": "hackerspaces-service-media_studio",
@@ -70614,6 +70646,14 @@
             "ca": "No hi ha sewing machine disponible a aquest espai hacker",
             "cs": "V tomto prostoru hackerů není k dispozici žádný sewing machine"
           }
+        },
+        {
+          "if": "service:sewing_machine=limited",
+          "then": {
+            "en": "There is a limited sewing machine available at this hackerspace",
+            "nl": "Er is een beperkte naaimachine beschikbaar in deze hackerspace"
+          },
+          "hideInAnswer": true
         }
       ],
       "id": "hackerspaces-service-sewing_machine",
@@ -70654,6 +70694,14 @@
             "ca": "No hi ha woodworking workshop disponible a aquest espai hacker",
             "cs": "V tomto prostoru hackerů není k dispozici žádný woodworking workshop"
           }
+        },
+        {
+          "if": "service:workshop:wood=limited",
+          "then": {
+            "en": "There is a limited woodworking workshop available at this hackerspace",
+            "nl": "Er is een beperkte houtbewerkingsatelier beschikbaar in deze hackerspace"
+          },
+          "hideInAnswer": false
         }
       ],
       "id": "hackerspaces-service-workshop:wood",
@@ -70694,6 +70742,14 @@
             "ca": "No hi ha ceramics workshop disponible a aquest espai hacker",
             "cs": "V tomto prostoru hackerů není k dispozici žádný ceramics workshop"
           }
+        },
+        {
+          "if": "service:workshop:ceramics=limited",
+          "then": {
+            "en": "There is a limited ceramics workshop available at this hackerspace",
+            "nl": "Er is een beperkte keramiekatelier beschikbaar in deze hackerspace"
+          },
+          "hideInAnswer": false
         }
       ],
       "id": "hackerspaces-service-workshop:ceramics",
@@ -70734,6 +70790,14 @@
             "ca": "No hi ha metal workshop disponible a aquest espai hacker",
             "cs": "V tomto prostoru hackerů není k dispozici žádný metal workshop"
           }
+        },
+        {
+          "if": "service:workshop:metal=limited",
+          "then": {
+            "en": "There is a limited metal workshop available at this hackerspace",
+            "nl": "Er is een beperkte metaalatelier beschikbaar in deze hackerspace"
+          },
+          "hideInAnswer": false
         }
       ],
       "id": "hackerspaces-service-workshop:metal",
@@ -70774,6 +70838,14 @@
             "ca": "No hi ha bicycle repair workshop disponible a aquest espai hacker",
             "cs": "V tomto prostoru hackerů není k dispozici žádný bicycle repair workshop"
           }
+        },
+        {
+          "if": "service:bicycle:diy=limited",
+          "then": {
+            "en": "There is a limited bicycle repair workshop available at this hackerspace",
+            "nl": "Er is een beperkte fietsherstelplaats beschikbaar in deze hackerspace"
+          },
+          "hideInAnswer": false
         }
       ],
       "id": "hackerspaces-service-bicycle:diy",
@@ -84276,13 +84348,14 @@
         "defaults",
         "in_favourite"
       ],
-      "#": "Titleicon showing 'open until 17:00'",
+      "#": "Titleicon showing e.g. 'open until 17:00'",
       "icon": {
         "class": "w-20 mx-1 flex items-center"
       },
       "render": "{opening_hours_state()}",
       "condition": {
         "or": [
+          "opening_hours~*",
           "seasonal=",
           "seasonal=no",
           {

@@ -1059,6 +1059,10 @@ video {
   display: contents;
 }
 
+.\!contents {
+  display: contents !important;
+}
+
 .list-item {
   display: list-item;
 }
@@ -1244,6 +1248,10 @@ video {
   width: 16rem;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .w-auto {
   width: auto;
 }
@@ -1283,6 +1291,10 @@ video {
 
 .shrink {
   flex-shrink: 1;
+}
+
+.flex-grow {
+  flex-grow: 1;
 }
 
 .grow {

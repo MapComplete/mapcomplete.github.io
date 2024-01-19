@@ -4498,6 +4498,9 @@
                             },
                             "1": {
                                 "then": "Er is geen {negative-name} beschikbaar in deze hackerspace"
+                            },
+                            "2": {
+                                "then": "Er is een beperkte {negative-name} beschikbaar in deze hackerspace"
                             }
                         },
                         "question": "Is er {device-name} beschikbaar in deze hackerspace?"

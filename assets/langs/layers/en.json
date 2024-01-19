@@ -1809,6 +1809,24 @@
             "render": "Bird watching place"
         }
     },
+    "brothel": {
+        "description": "An establishment specifically dedicated to prostitution. ",
+        "name": "Brothels",
+        "presets": {
+            "0": {
+                "title": "a brothel"
+            }
+        },
+        "tagRenderings": {
+            "name": {
+                "question": "What is the name of this brothel?",
+                "render": "This brothel is named <b>{name}</b>"
+            }
+        },
+        "title": {
+            "render": "Brothel"
+        }
+    },
     "cafe_pub": {
         "deletion": {
             "extraDeleteReasons": {
@@ -2383,6 +2401,26 @@
                 }
             },
             "render": "Charging station"
+        }
+    },
+    "cinema": {
+        "description": " A place showing movies (films), generally open to the public for a fee. Commonly referred to as a movie theater in the US",
+        "name": "Cinema",
+        "tagRenderings": {
+            "cinema_type": {
+                "mappings": {
+                    "0": {
+                        "then": "This is a normal cinema showing movies for all ages"
+                    },
+                    "1": {
+                        "then": "This is an erotic cinema showing adult movies"
+                    }
+                },
+                "question": "What type of cinema is this?"
+            }
+        },
+        "title": {
+            "render": "Cinema"
         }
     },
     "climbing": {
@@ -5024,6 +5062,9 @@
                             },
                             "1": {
                                 "then": "There is no {negative-name} available at this hackerspace"
+                            },
+                            "2": {
+                                "then": "There is a limited {negative-name} available at this hackerspace"
                             }
                         },
                         "question": "Is {device-name} available at this hackerspace?"
@@ -8782,6 +8823,24 @@
                 }
             },
             "render": "Street Lamp"
+        }
+    },
+    "stripclub": {
+        "description": "A venue where erotic dance, striptease, or lap dances are performed commercially. ",
+        "name": "Stripclubs",
+        "presets": {
+            "0": {
+                "title": "a stripclub"
+            }
+        },
+        "tagRenderings": {
+            "name": {
+                "question": "What is the name of this stripclub?",
+                "render": "This stripclub is named <b>{name}</b>"
+            }
+        },
+        "title": {
+            "render": "Stripclub"
         }
     },
     "surveillance_camera": {

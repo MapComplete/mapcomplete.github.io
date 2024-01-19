@@ -1,0 +1,1 @@
+{"version":3,"file":"test-c6b7017e.js","sources":["../../src/test.ts"],"sourcesContent":["import SvelteUIElement from \"./UI/Base/SvelteUIElement\"\nimport Test from \"./UI/Test.svelte\"\n\nnew SvelteUIElement(Test, {}).AttachTo(\"maindiv\")\n"],"names":["SvelteUIElement","Test"],"mappings":"2dAGA,IAAIA,EAAgBC,EAAM,CAAA,CAAE,EAAE,SAAS,SAAS"}

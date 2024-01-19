@@ -1,0 +1,2 @@
+import"./Utils-498bb79d.js";import{S as s,i as a,s as i,c,m,n as p,t as f,g as l,j as u,k as _}from"./index-f508aba0.js";import{h as $}from"./Icon-3dde7dcd.js";import"./tw-merge-2cd9e3ed.js";function g(o){let t,e;return t=new $({props:{clss:"h-16 w-16",icon:"heart",color:"#ff0000"}}),{c(){c(t.$$.fragment)},m(n,r){m(t,n,r),e=!0},p,i(n){e||(f(t.$$.fragment,n),e=!0)},o(n){l(t.$$.fragment,n),e=!1},d(n){u(t,n)}}}class h extends s{constructor(t){super(),a(this,t,null,g,i,{})}}new _(h,{}).AttachTo("maindiv");
+//# sourceMappingURL=test-c6b7017e.js.map
