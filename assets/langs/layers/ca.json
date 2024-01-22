@@ -2112,6 +2112,13 @@
                     }
                 }
             }
+        },
+        "title": {
+            "mappings": {
+                "1": {
+                    "then": "Estació de càrrega per a cotxes"
+                }
+            }
         }
     },
     "climbing": {
