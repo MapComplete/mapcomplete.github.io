@@ -84359,8 +84359,6 @@
       "condition": {
         "or": [
           "opening_hours~*",
-          "seasonal=",
-          "seasonal=no",
           {
             "or": [
               {
