@@ -10985,12 +10985,12 @@
     {
       "id": "entrance_info",
       "render": {
-        "ca": "<h3>Entrades</h3>Aquest edifici té {_entrances_count} entrades:{multi(_entrance_properties_with_width,Una <a href='#&LBRACEid&RBRACE'>entrada </a> de &LBRACEcanonical&LPARENSwidth&RPARENS&RBRACE)}{_entrances_count_without_width_count} entrades encara no tenen informació d'amplada",
-        "cs": "<h3>Vchody</h3>Tato budova má {_entrances_count} vchodů:{multi(_entrance_properties_with_width,<a href='#&LBRACEid&RBRACE'>vchod</a> &LBRACEcanonical&LPARENSwidth&RPARENS&RBRACE)}{_entrances_count_without_width_count} vchody zatím nemají informace o šířce",
-        "da": "<h3>Indgange</h3>Denne bygning har {_entrances_count} indgange:{multi(_entrance_properties_with_width,En <a href='#&LBRACEid&RBRACE'>indgang</a> på &LBRACEcanonical&LPARENSwidth&RPARENS&RBRACE)}{_entrances_count_without_width_count} indgange har endnu ikke oplysninger om bredde",
-        "de": "<h3>Eingänge</h3>Das Gebäude hat {_entrances_count} Eingänge:{multi(_entrance_properties_with_width,Ein <a href='#&LBRACEid&RBRACE'>Eingang</a> von &LBRACEcanonical&LPARENSwidth&RPARENS&RBRACE)}{_entrances_count_without_width_count} Eingänge haben keine Angaben zur Breite",
-        "en": "<h3>Entrances</h3>This building has {_entrances_count} entrances:{multi(_entrance_properties_with_width,An <a href='#&LBRACEid&RBRACE'>entrance</a> of &LBRACEcanonical&LPARENSwidth&RPARENS&RBRACE)}{_entrances_count_without_width_count} entrances don't have width information yet",
-        "nl": "<h3>Ingangen</h3>Dit gebouw heeft {_entrances_count} ingangen:{multi(_entrance_properties_with_width,Een <a href='#&LBRACEid&RBRACE'>ingang</a> van &LBRACEcanonical&LPARENSwidth&RPARENS&RBRACE)}{_entrances_count_without_width_count} ingangen hebben nog geen informatie over de breedte"
+        "ca": "<h3>Entrades</h3>Aquest edifici té {_entrances_count} entrades:{multi(_entrance_properties_with_width,Una <a href='#&LBRACEid&RBRACE'>entrada </a> de &LBRACEcanonical&LPARENSwidth&RPARENS&RBRACE,)}{_entrances_count_without_width_count} entrades encara no tenen informació d'amplada",
+        "cs": "<h3>Vchody</h3>Tato budova má {_entrances_count} vchodů:{multi(_entrance_properties_with_width,<a href='#&LBRACEid&RBRACE'>vchod</a> &LBRACEcanonical&LPARENSwidth&RPARENS&RBRACE,)}{_entrances_count_without_width_count} vchody zatím nemají informace o šířce",
+        "da": "<h3>Indgange</h3>Denne bygning har {_entrances_count} indgange:{multi(_entrance_properties_with_width,En <a href='#&LBRACEid&RBRACE'>indgang</a> på &LBRACEcanonical&LPARENSwidth&RPARENS&RBRACE,)}{_entrances_count_without_width_count} indgange har endnu ikke oplysninger om bredde",
+        "de": "<h3>Eingänge</h3>Das Gebäude hat {_entrances_count} Eingänge:{multi(_entrance_properties_with_width,Ein <a href='#&LBRACEid&RBRACE'>Eingang</a> von &LBRACEcanonical&LPARENSwidth&RPARENS&RBRACE,)}{_entrances_count_without_width_count} Eingänge haben keine Angaben zur Breite",
+        "en": "<h3>Entrances</h3>This building has {_entrances_count} entrances:{multi(_entrance_properties_with_width,An <a href='#&LBRACEid&RBRACE'>entrance</a> of &LBRACEcanonical&LPARENSwidth&RPARENS&RBRACE,)}{_entrances_count_without_width_count} entrances don't have width information yet",
+        "nl": "<h3>Ingangen</h3>Dit gebouw heeft {_entrances_count} ingangen:{multi(_entrance_properties_with_width,Een <a href='#&LBRACEid&RBRACE'>ingang</a> van &LBRACEcanonical&LPARENSwidth&RPARENS&RBRACE,)}{_entrances_count_without_width_count} ingangen hebben nog geen informatie over de breedte"
       },
       "mappings": [
         {
