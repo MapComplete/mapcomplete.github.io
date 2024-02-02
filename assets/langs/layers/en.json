@@ -235,6 +235,63 @@
             }
         }
     },
+    "aerialway": {
+        "description": "Various forms of transport for passengers and goods that use wires, including cable cars, gondolas, chair lifts, drag lifts, and zip lines. ",
+        "name": "Aerialways",
+        "pointRendering": {
+            "1": {
+                "label": {
+                    "render": "{name}"
+                }
+            }
+        },
+        "tagRenderings": {
+            "length": {
+                "render": "This aerialway is {_length:km} kilometer long"
+            },
+            "type": {
+                "mappings": {
+                    "0": {
+                        "then": "This is a cable car where the car goes up and down again on the same cable."
+                    },
+                    "1": {
+                        "then": "This is a gondola where the cars go around in continuous circles"
+                    },
+                    "2": {
+                        "then": "An open chairlift with seats to sit on and open to the outside air."
+                    },
+                    "3": {
+                        "then": "An aerialway which has both chairs and gondolas in the same continuous track"
+                    },
+                    "4": {
+                        "then": "A drag lift"
+                    },
+                    "5": {
+                        "then": "A drag lift with T-shaped carriers for two passengers at a time"
+                    },
+                    "6": {
+                        "then": "A drag lift with L-shaped bars for a single passenger at a time"
+                    },
+                    "7": {
+                        "then": "A drag lift with a platter to drag a single passenger at a time"
+                    },
+                    "8": {
+                        "then": "A tow line which which drags skieers"
+                    },
+                    "9": {
+                        "then": "A magic carpet (a conveyor belt on the ground)"
+                    },
+                    "10": {
+                        "then": "A zip line. (A touristical attraction where adventurous people go down at high speeds) "
+                    }
+                },
+                "question": "What type of aerialway is this?"
+            }
+        },
+        "title": {
+            "render": "Aerialway {name}"
+        }
+    },
     "ambulancestation": {
         "description": "An ambulance station is an area for storage of ambulance vehicles, medical equipment, personal protective equipment, and other medical supplies.",
         "name": "Map of ambulance stations",
@@ -530,8 +587,8 @@
                 "render": {
                     "special": {
                         "question": "In which languages does this ATM have speech output?",
-                        "render_list_item": "This ATM has speech output in {language():font-bold}",
-                        "render_single_language": "This ATM has speech output in {language():font-bold}"
+                        "render_list_item": "This ATM has speech output in {language()}",
+                        "render_single_language": "This ATM has speech output in {language()}"
                     }
                 }
             }
@@ -1343,6 +1400,21 @@
                     }
                 },
                 "question": "What is the relative location of this bicycle parking?"
+            },
+            "fee": {
+                "mappings": {
+                    "0": {
+                        "then": "One has to <b>pay</b> to use this bicycle parking"
+                    },
+                    "1": {
+                        "then": "Free to use"
+                    }
+                },
+                "question": "Are these bicycle parkings free to use?"
+            },
+            "operator_phone": {
+                "question": "What is the phone number of the operator of this bicycle parking?",
+                "questionHint": "One might be able to call this number in case of problems, e.g. to remove unmaintained bicycles"
             }
         },
         "title": {
@@ -3897,8 +3969,8 @@
                 "render": {
                     "special": {
                         "question": "In which languages does this elevator have speech output?",
-                        "render_list_item": "This elevator has speech output in {language():font-bold}",
-                        "render_single_language": "This elevator has speech output in {language():font-bold}"
+                        "render_list_item": "This elevator has speech output in {language()}",
+                        "render_single_language": "This elevator has speech output in {language()}"
                     }
                 }
             },
@@ -3929,8 +4001,8 @@
                 "render": {
                     "special": {
                         "question": "In which languages does this elevator have tactile writing (braille)?",
-                        "render_list_item": "This elevator has tactile writing in {language():font-bold}",
-                        "render_single_language": "This elevator has tactile writing in {language():font-bold}"
+                        "render_list_item": "This elevator has tactile writing in {language()}",
+                        "render_single_language": "This elevator has tactile writing in {language()}"
                     }
                 }
             }
@@ -5661,6 +5733,25 @@
                     "then": "Add a new point"
                 }
             }
+        }
+    },
+    "love_hotel": {
+        "description": "A love hotel is a type of short-stay hotel found around the world operated primarily for the purpose of allowing guests privacy for sexual activities",
+        "name": "Love hotels",
+        "presets": {
+            "0": {
+                "description": "A love hotel is a type of short-stay hotel found around the world operated primarily for the purpose of allowing guests privacy for sexual activities.",
+                "title": "a love hotel"
+            }
+        },
+        "tagRenderings": {
+            "name": {
+                "question": "What is the name of this love hotel?",
+                "render": "This love hotel is named <b>{name}</b>"
+            }
+        },
+        "title": {
+            "render": "Love Hotel <i>{name}</i>"
         }
     },
     "map": {
@@ -7990,7 +8081,7 @@
                         "no_known_languages": "The main language of this school is unknown",
                         "question": "What is the main language of this school?<div class='subtle'>What language is spoken with the students in non-language related courses and with the administration?</div>",
                         "render_all": "The following languages are used in this school:{list()}",
-                        "render_single_language": "{language():font-bold} is the main language of this school"
+                        "render_single_language": "{language()} is the main language of this school"
                     }
                 }
             },
@@ -8075,9 +8166,9 @@
     },
     "shops": {
         "deletion": {
-            "extraDeleteReasons": {
+            "nonDeleteMappings": {
                 "0": {
-                    "explanation": "{title()} has closed down permanently"
+                    "then": "{title()} has closed down permanently"
                 }
             }
         },
@@ -8255,6 +8346,41 @@
         },
         "title": {
             "render": "Shower"
+        }
+    },
+    "ski_piste": {
+        "description": "Ski and snowboard pistes",
+        "name": "Ski and snowboard pistes",
+        "tagRenderings": {
+            "length": {
+                "render": "This part of the ski piste is {_length:km} kilometer long"
+            },
+            "piste_difficulty": {
+                "mappings": {
+                    "0": {
+                        "then": "Novice (green)"
+                    },
+                    "1": {
+                        "then": "Easy (blue)"
+                    },
+                    "2": {
+                        "then": "Intermediate (red)"
+                    },
+                    "3": {
+                        "then": "Advanced (black)"
+                    },
+                    "4": {
+                        "then": "Expert (orange/double black)"
+                    },
+                    "5": {
+                        "then": "Freeride"
+                    }
+                },
+                "question": "What is the difficulty of this piste?"
+            }
+        },
+        "title": {
+            "render": "Ski piste {name}"
         }
     },
     "slow_roads": {
@@ -8661,8 +8787,8 @@
                 "render": {
                     "special": {
                         "question": "In which languages is there tactile writing (braille) for navigation? <img src='./assets/layers/stairs/Braille_stairs.jpg' style='height: 300px; width: auto; display: block;' />",
-                        "render_list_item": "These stairs have tactile writing in {language():font-bold}",
-                        "render_single_language": "These stairs have tactile writing in {language():font-bold}"
+                        "render_list_item": "These stairs have tactile writing in {language()}",
+                        "render_single_language": "These stairs have tactile writing in {language()}"
                     }
                 }
             }

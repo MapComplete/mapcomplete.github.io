@@ -385,8 +385,8 @@
                 "render": {
                     "special": {
                         "question": "In welke taal is de spraak van deze geldautomaat?",
-                        "render_list_item": "Deze geldautomaat heeft spraak in {language():font-bold}",
-                        "render_single_language": "Deze automaat heeft spraak in {language():font-bold}"
+                        "render_list_item": "Deze geldautomaat heeft spraak in {language()}",
+                        "render_single_language": "Deze automaat heeft spraak in {language()}"
                     }
                 }
             }
@@ -1198,6 +1198,21 @@
                     }
                 },
                 "question": "Wat is de relatieve locatie van deze parking??"
+            },
+            "fee": {
+                "mappings": {
+                    "0": {
+                        "then": "<b>Betalende</b> fietsparking"
+                    },
+                    "1": {
+                        "then": "Gratis te gebruiken"
+                    }
+                },
+                "question": "Is deze fietsenstalling gratis te gebruiken?"
+            },
+            "operator_phone": {
+                "question": "Wat is het telefoonnummer van de operator van deze fietsenstalling?",
+                "questionHint": "Men kan dit nummer bellen om bv. fietswrakken of defecten te melden"
             }
         },
         "title": {
@@ -3684,8 +3699,8 @@
                 "render": {
                     "special": {
                         "question": "In welke talen heeft deze lift gesproken tekst?",
-                        "render_list_item": "Deze lift heeft gesproken tekst in het {language():font-bold}",
-                        "render_single_language": "Deze lift heeft gesproken tekst in het {language():font-bold}"
+                        "render_list_item": "Deze lift heeft gesproken tekst in het {language()}",
+                        "render_single_language": "Deze lift heeft gesproken tekst in het {language()}"
                     }
                 }
             },
@@ -3693,8 +3708,8 @@
                 "render": {
                     "special": {
                         "question": "In welke talen heeft deze lift voelbaar schrift (braille)?",
-                        "render_list_item": "Deze lift heeft voelbaar schrift in het {language():font-bold}",
-                        "render_single_language": "Deze lift heeft voelbaar schrift in het {language():font-bold}"
+                        "render_list_item": "Deze lift heeft voelbaar schrift in het {language()}",
+                        "render_single_language": "Deze lift heeft voelbaar schrift in het {language()}"
                     }
                 }
             }
@@ -7082,9 +7097,9 @@
     },
     "shops": {
         "deletion": {
-            "extraDeleteReasons": {
+            "nonDeleteMappings": {
                 "0": {
-                    "explanation": "{title()} is permanent gestopt"
+                    "then": "{title()} is permanent gestopt"
                 }
             }
         },
@@ -7536,8 +7551,8 @@
                 "render": {
                     "special": {
                         "question": "In welke talen is er voelbaar schrift (braille) voor navigatie? <img src='./assets/layers/stairs/Braille_stairs.jpg' style='height: 300px; width: auto; display: block;' />",
-                        "render_list_item": "Deze trap heeft voelbaar schrijft in {language():font-bold}",
-                        "render_single_language": "Deze trap heeft voelbaar schrijft in {language():font-bold}"
+                        "render_list_item": "Deze trap heeft voelbaar schrijft in {language()}",
+                        "render_single_language": "Deze trap heeft voelbaar schrijft in {language()}"
                     }
                 }
             }
