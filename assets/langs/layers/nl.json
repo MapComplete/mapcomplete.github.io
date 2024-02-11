@@ -5770,6 +5770,9 @@
             "mappings": {
                 "0": {
                     "then": "Parkeerplek voor gehandicapten"
+                },
+                "1": {
+                    "then": "Parkeerplek voor opladen van elektrische voertuigen"
                 }
             },
             "render": "Parkeerplek"
@@ -8497,6 +8500,23 @@
         },
         "title": {
             "render": "Boom"
+        }
+    },
+    "trolley_bay": {
+        "tagRenderings": {
+            "denominations": {
+                "mappings": {
+                    "0": {
+                        "then": "Munten van 50 cent worden geaccepteerd"
+                    },
+                    "1": {
+                        "then": "Munten van 1 euro worden geaccepteerd"
+                    },
+                    "2": {
+                        "then": "Munten van 2 euro worden geaccepteerd"
+                    }
+                }
+            }
         }
     },
     "unit": {

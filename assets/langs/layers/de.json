@@ -9673,6 +9673,23 @@
             "render": "Baum"
         }
     },
+    "trolley_bay": {
+        "tagRenderings": {
+            "denominations": {
+                "mappings": {
+                    "0": {
+                        "then": "50-Cent-Münzen werden akzeptiert"
+                    },
+                    "1": {
+                        "then": "1-Euro-Münzen werden akzeptiert"
+                    },
+                    "2": {
+                        "then": "2-Euro-Münzen werden akzeptiert"
+                    }
+                }
+            }
+        }
+    },
     "unit": {
         "description": "Bibliotheksebene mit allen gängigen Einrichtungen.  Einrichtungen können _nur_ aus dieser Datei importiert werden.",
         "units": {

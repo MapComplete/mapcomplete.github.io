@@ -681,6 +681,17 @@
             }
         }
     },
+    "trolley_bay": {
+        "tagRenderings": {
+            "denominations": {
+                "mappings": {
+                    "0": {
+                        "then": "Koin 50 sen diterima"
+                    }
+                }
+            }
+        }
+    },
     "unit": {
         "units": {
             "0": {

@@ -4699,6 +4699,23 @@
             "render": "Árbol"
         }
     },
+    "trolley_bay": {
+        "tagRenderings": {
+            "denominations": {
+                "mappings": {
+                    "0": {
+                        "then": "Se aceptan monedas de 50 céntimos"
+                    },
+                    "1": {
+                        "then": "Se aceptan monedas de 1 euro"
+                    },
+                    "2": {
+                        "then": "Se aceptan monedas de 2 euros"
+                    }
+                }
+            }
+        }
+    },
     "unit": {
         "units": {
             "3": {
