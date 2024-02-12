@@ -50,7 +50,8 @@
           ]
         },
         "then": {
-          "en": "Ski piste {name}"
+          "en": "Ski piste {name}",
+          "de": "Skipiste {name}"
         }
       },
       {
@@ -66,7 +67,8 @@
           ]
         },
         "then": {
-          "en": "Ski piste {name}"
+          "en": "Ski piste {name}",
+          "de": "Skipiste {name}"
         }
       },
       {
@@ -5981,7 +5983,8 @@
           "en": "Sports centre",
           "de": "Sportzentrum",
           "ca": "Centre esportiu",
-          "cs": "Sportovní centrum"
+          "cs": "Sportovní centrum",
+          "id": "Pusat olahraga"
         }
       },
       {
@@ -5999,7 +6002,8 @@
           "en": "Sports centre",
           "de": "Sportzentrum",
           "ca": "Centre esportiu",
-          "cs": "Sportovní centrum"
+          "cs": "Sportovní centrum",
+          "id": "Pusat olahraga"
         }
       },
       {
@@ -9182,27 +9186,31 @@
       {
         "if": "emergency=assembly_point",
         "then": {
-          "en": "Assembly point during emergencies"
+          "en": "Assembly point during emergencies",
+          "de": "Sammelplatz bei Notfällen"
         }
       },
       {
         "if": "emergency=disaster_response",
         "then": {
           "en": "Disaster response organization",
-          "it": "Organizzazione per la risposta ai disastri"
+          "it": "Organizzazione per la risposta ai disastri",
+          "de": "Katastrophenschutzorganisation"
         }
       },
       {
         "if": "emergency=assembly_point",
         "then": {
-          "en": "Assembly point during emergencies"
+          "en": "Assembly point during emergencies",
+          "de": "Sammelplatz bei Notfällen"
         }
       },
       {
         "if": "emergency=disaster_response",
         "then": {
           "en": "Disaster response organization",
-          "it": "Organizzazione per la risposta ai disastri"
+          "it": "Organizzazione per la risposta ai disastri",
+          "de": "Katastrophenschutzorganisation"
         }
       },
       {
@@ -10400,13 +10408,15 @@
       {
         "if": "amenity=love_hotel",
         "then": {
-          "en": "Love Hotel <i>{name}</i>"
+          "en": "Love Hotel <i>{name}</i>",
+          "de": "Love Hotel <i>{name}</i>"
         }
       },
       {
         "if": "amenity=love_hotel",
         "then": {
-          "en": "Love Hotel <i>{name}</i>"
+          "en": "Love Hotel <i>{name}</i>",
+          "de": "Love Hotel <i>{name}</i>"
         }
       },
       {
@@ -11158,7 +11168,8 @@
           ]
         },
         "then": {
-          "en": "Aerialway {name}"
+          "en": "Aerialway {name}",
+          "de": "Seilbahn {name}"
         }
       },
       {
@@ -11170,7 +11181,8 @@
           ]
         },
         "then": {
-          "en": "Aerialway {name}"
+          "en": "Aerialway {name}",
+          "de": "Seilbahn {name}"
         }
       },
       {
@@ -22625,7 +22637,7 @@
           "then": {
             "en": "There is a lane next to the road (separated with paint)",
             "nl": "Er is een fietspad aangrenzend aan de weg (gescheiden met verf)",
-            "de": "Es gibt eine Spur neben der Straße (getrennt durch eine Straßenmarkierung)",
+            "de": "Es gibt einen Radfahrstreifen neben der Straße (getrennt durch eine Straßenmarkierung)",
             "es": "Hay un carril a lado de la carretera (separado con pintura)",
             "fr": "Il y a une piste cyclable separée de la route",
             "ca": "Hi ha un carril al costat de la carretera (separat amb pintura)",
@@ -27930,7 +27942,8 @@
             "nl": "Dit is een roltrap",
             "de": "Das ist eine Rolltreppe",
             "ca": "Açò és una escala mecànica",
-            "cs": "Jedná se o eskalátor"
+            "cs": "Jedná se o eskalátor",
+            "id": "Ini adalah eskalator"
           }
         },
         {
@@ -27940,7 +27953,8 @@
             "nl": "Dit is geen roltrap",
             "de": "Das ist keine Rolltreppe",
             "ca": "Açò no és una escala mecànica",
-            "cs": "Nejedná se o eskalátor"
+            "cs": "Nejedná se o eskalátor",
+            "id": "Ini bukan eskalator"
           }
         },
         {
@@ -27950,7 +27964,8 @@
             "nl": "Dit is geen roltrap",
             "de": "Das ist keine Rolltreppe",
             "ca": "Això no és una escala mecànica",
-            "cs": "Nejedná se o eskalátor"
+            "cs": "Nejedná se o eskalátor",
+            "id": "Ini bukan eskalator"
           },
           "hideInAnswer": true
         }
@@ -27969,7 +27984,8 @@
         "nl": "Heeft deze trap een leuning?",
         "de": "Hat die Treppe einen Handlauf?",
         "ca": "Aquestes escales tenen un passamà?",
-        "cs": "Má toto schodiště zábradlí?"
+        "cs": "Má toto schodiště zábradlí?",
+        "id": "Apakah tangga ini memiliki pegangan?"
       },
       "mappings": [
         {
@@ -27979,7 +27995,8 @@
             "nl": "Deze trap heeft een leuning",
             "de": "Die Treppe hat einen Handlauf",
             "ca": "Aquestes escales tenen barana",
-            "cs": "Tyto schody mají zábradlí"
+            "cs": "Tyto schody mají zábradlí",
+            "id": "Tangga ini memiliki pegangan tangan"
           }
         },
         {
@@ -27989,7 +28006,8 @@
             "nl": "Deze trap heeft <b>geen</b> leuning",
             "de": "Die Treppe hat <b>keinen</b> Handlauf",
             "ca": "Aquestes escales <b>no</b> tenen un passamà",
-            "cs": "Tyto schody <b>nemají</b> zábradlí"
+            "cs": "Tyto schody <b>nemají</b> zábradlí",
+            "id": "Tangga ini <b>tidak </b>memiliki pegangan tangan"
           }
         }
       ],
@@ -28138,7 +28156,8 @@
       "render": {
         "en": "These stairs have an incline of {incline}",
         "ca": "Aquestes escales tenen una inclinació de {incline}",
-        "de": "Die Treppe hat eine Steigung von {incline}"
+        "de": "Die Treppe hat eine Steigung von {incline}",
+        "id": "Tangga ini memiliki kemiringan sebesar {incline}"
       },
       "freeform": {
         "key": "incline",
@@ -28148,7 +28167,8 @@
       "question": {
         "en": "What is the incline of these stairs?",
         "ca": "Quina és la inclinació d'aquestes escales?",
-        "de": "Welche Steigung hat die Treppe?"
+        "de": "Welche Steigung hat die Treppe?",
+        "id": "Berapa kemiringan tangga ini?"
       },
       "mappings": [
         {
@@ -28156,7 +28176,8 @@
           "then": {
             "en": "The upward direction is {direction_absolute()}",
             "ca": "La direcció ascendent és {direction_absolute()}",
-            "de": "Die Aufwärtsrichtung ist {direction_absolute()}"
+            "de": "Die Aufwärtsrichtung ist {direction_absolute()}",
+            "id": "Arah ke atas adalah {direction_absolute()}"
           },
           "hideInAnswer": true
         },
@@ -28165,7 +28186,8 @@
           "then": {
             "en": "The downward direction is {direction_absolute()}",
             "ca": "La direcció descendent és {direction_absolute()}",
-            "de": "Die Abwärtsrichtung ist {direction_absolute()}"
+            "de": "Die Abwärtsrichtung ist {direction_absolute()}",
+            "id": "Arah ke bawah adalah {direction_absolute()}"
           },
           "hideInAnswer": true
         }
@@ -67456,14 +67478,16 @@
       "id": "bike_parking_fee",
       "question": {
         "en": "Are these bicycle parkings free to use?",
-        "nl": "Is deze fietsenstalling gratis te gebruiken?"
+        "nl": "Is deze fietsenstalling gratis te gebruiken?",
+        "de": "Sind die Fahrradparkplätze kostenlos zu benutzen?"
       },
       "mappings": [
         {
           "if": "fee=yes",
           "then": {
             "en": "One has to <b>pay</b> to use this bicycle parking",
-            "nl": "<b>Betalende</b> fietsparking"
+            "nl": "<b>Betalende</b> fietsparking",
+            "de": "Man muss <b>zahlen</b>, um den Fahrradparkplatz zu nutzen"
           }
         },
         {
@@ -67471,7 +67495,8 @@
           "alsoShowIf": "fee=",
           "then": {
             "en": "Free to use",
-            "nl": "Gratis te gebruiken"
+            "nl": "Gratis te gebruiken",
+            "de": "Die Nutzung ist kostenlos"
           }
         }
       ],
@@ -67576,11 +67601,13 @@
       "id": "operator_phone",
       "question": {
         "en": "What is the phone number of the operator of this bicycle parking?",
-        "nl": "Wat is het telefoonnummer van de operator van deze fietsenstalling?"
+        "nl": "Wat is het telefoonnummer van de operator van deze fietsenstalling?",
+        "de": "Wie lautet die Telefonnummer des Betreibers dieses Fahrradparkplatzes?"
       },
       "questionHint": {
         "en": "One might be able to call this number in case of problems, e.g. to remove unmaintained bicycles",
-        "nl": "Men kan dit nummer bellen om bv. fietswrakken of defecten te melden"
+        "nl": "Men kan dit nummer bellen om bv. fietswrakken of defecten te melden",
+        "de": "Man könnte diese Nummer anrufen, wenn es Probleme gibt, z. B. um nicht gewartete Fahrräder zu entfernen"
       },
       "icon": "./assets/layers/questions/phone.svg",
       "freeform": {
@@ -67870,11 +67897,13 @@
       },
       "question": {
         "en": "What is the name of this assembly point?",
-        "it": "Qual è il nome di questo punto di raccolta?"
+        "it": "Qual è il nome di questo punto di raccolta?",
+        "de": "Wie lautet der Name dieser Sammelstelle?"
       },
       "render": {
         "en": "This assembly point is named <b>{name}</b>",
-        "it": "Questo punto di raccolta si chiama <b>{name}</b>"
+        "it": "Questo punto di raccolta si chiama <b>{name}</b>",
+        "de": "Diese Sammelstelle hat den Namen <b>{name}</b>"
       },
       "condition": {
         "or": [
@@ -67887,11 +67916,13 @@
       "id": "assembly_point_operator",
       "render": {
         "en": "This assembly point is operated by <b>{operator}</b>",
-        "it": "Questo punto di raccolta è gestita da <b>{operator}</b>"
+        "it": "Questo punto di raccolta è gestita da <b>{operator}</b>",
+        "de": "Diese Sammelstelle wird von <b>{operator}</b> betrieben"
       },
       "question": {
         "en": "What organization operates this assembly point?",
-        "it": "Quale organizzazione gestisce questo punto di raccolta?"
+        "it": "Quale organizzazione gestisce questo punto di raccolta?",
+        "de": "Welche Organisation betreibt diese Sammelstelle?"
       },
       "freeform": {
         "key": "operator",
@@ -67909,7 +67940,8 @@
       "id": "disaster_type",
       "question": {
         "en": "For which disaster type is this assembly point meant?",
-        "it": "Per quali tipi di disastro è pensato questo punto di raccolta?"
+        "it": "Per quali tipi di disastro è pensato questo punto di raccolta?",
+        "de": "Für welche Art von Katastrophe ist diese Sammelstelle gedacht?"
       },
       "multiAnswer": true,
       "mappings": [
@@ -67918,7 +67950,8 @@
           "ifnot": "assembly_point:earthquake=",
           "then": {
             "en": "Earthquake",
-            "it": "Terremoto"
+            "it": "Terremoto",
+            "de": "Erdbeben"
           },
           "icon": {
             "path": "./assets/layers/assembly_point/earthquake.svg",
@@ -67930,7 +67963,8 @@
           "ifnot": "assembly_point:flood=",
           "then": {
             "en": "Flood",
-            "it": "Alluvione"
+            "it": "Alluvione",
+            "de": "Flut"
           },
           "icon": {
             "path": "./assets/layers/assembly_point/flood.svg",
@@ -67942,7 +67976,8 @@
           "ifnot": "assembly_point:fire=",
           "then": {
             "en": "Fire",
-            "it": "Incendio"
+            "it": "Incendio",
+            "de": "Feuer"
           },
           "icon": {
             "path": "./assets/layers/assembly_point/fire.svg",
@@ -67954,7 +67989,8 @@
           "ifnot": "assembly_point:landslide=",
           "then": {
             "en": "Landslide",
-            "it": "Frana"
+            "it": "Frana",
+            "de": "Erdrutsch"
           },
           "icon": {
             "path": "./assets/layers/assembly_point/landslide.svg",
@@ -67977,11 +68013,13 @@
       },
       "question": {
         "en": "What is the name of this organization?",
-        "it": "Qual è il nome di questa organizzazione?"
+        "it": "Qual è il nome di questa organizzazione?",
+        "de": "Wie lautet der Name dieser Organisation?"
       },
       "render": {
         "en": "This organization is named <b>{name}</b>",
-        "it": "Questa organizzazione si chiama <b>{name}</b>"
+        "it": "Questa organizzazione si chiama <b>{name}</b>",
+        "de": "Diese Organisation heißt <b>{name}</b>"
       },
       "condition": {
         "or": [
@@ -71651,7 +71689,8 @@
           "if": "service:3dprinter=limited",
           "then": {
             "en": "There is a limited 3D-printer available at this hackerspace",
-            "nl": "Er is een beperkte 3D-printer beschikbaar in deze hackerspace"
+            "nl": "Er is een beperkte 3D-printer beschikbaar in deze hackerspace",
+            "de": "Es gibt einen limitierten 3D-Drucker in diesem Hackerspace"
           },
           "hideInAnswer": true
         }
@@ -71699,7 +71738,8 @@
           "if": "service:lasercutter=limited",
           "then": {
             "en": "There is a limited laser cutter available at this hackerspace",
-            "nl": "Er is een beperkte lasercutter beschikbaar in deze hackerspace"
+            "nl": "Er is een beperkte lasercutter beschikbaar in deze hackerspace",
+            "de": "Es gibt einen limitierten Laserschneider in diesem Hackerspace"
           },
           "hideInAnswer": true
         }
@@ -71747,7 +71787,8 @@
           "if": "service:cnc_drilling_machine=limited",
           "then": {
             "en": "There is a limited CNC drill available at this hackerspace",
-            "nl": "Er is een beperkte CNC-boormachine beschikbaar in deze hackerspace"
+            "nl": "Er is een beperkte CNC-boormachine beschikbaar in deze hackerspace",
+            "de": "Es gibt einen limitierten CNC-Fräse in diesem Hackerspace"
           },
           "hideInAnswer": true
         }
@@ -71795,7 +71836,8 @@
           "if": "service:media_studio=limited",
           "then": {
             "en": "There is a limited multimedia studio available at this hackerspace",
-            "nl": "Er is een beperkte multimedia-studio beschikbaar in deze hackerspace"
+            "nl": "Er is een beperkte multimedia-studio beschikbaar in deze hackerspace",
+            "de": "Es gibt einen limitierten Multimediastudio in diesem Hackerspace"
           },
           "hideInAnswer": false
         }
@@ -71843,7 +71885,8 @@
           "if": "service:sewing_machine=limited",
           "then": {
             "en": "There is a limited sewing machine available at this hackerspace",
-            "nl": "Er is een beperkte naaimachine beschikbaar in deze hackerspace"
+            "nl": "Er is een beperkte naaimachine beschikbaar in deze hackerspace",
+            "de": "Es gibt einen limitierten Nähmaschine in diesem Hackerspace"
           },
           "hideInAnswer": true
         }
@@ -71891,7 +71934,8 @@
           "if": "service:workshop:wood=limited",
           "then": {
             "en": "There is a limited woodworking workshop available at this hackerspace",
-            "nl": "Er is een beperkte houtbewerkingsatelier beschikbaar in deze hackerspace"
+            "nl": "Er is een beperkte houtbewerkingsatelier beschikbaar in deze hackerspace",
+            "de": "Es gibt einen limitierten Holzwerkstatt in diesem Hackerspace"
           },
           "hideInAnswer": false
         }
@@ -71939,7 +71983,8 @@
           "if": "service:workshop:ceramics=limited",
           "then": {
             "en": "There is a limited ceramics workshop available at this hackerspace",
-            "nl": "Er is een beperkte keramiekatelier beschikbaar in deze hackerspace"
+            "nl": "Er is een beperkte keramiekatelier beschikbaar in deze hackerspace",
+            "de": "Es gibt einen limitierten Keramikwerkstatt in diesem Hackerspace"
           },
           "hideInAnswer": false
         }
@@ -71987,7 +72032,8 @@
           "if": "service:workshop:metal=limited",
           "then": {
             "en": "There is a limited metal workshop available at this hackerspace",
-            "nl": "Er is een beperkte metaalatelier beschikbaar in deze hackerspace"
+            "nl": "Er is een beperkte metaalatelier beschikbaar in deze hackerspace",
+            "de": "Es gibt einen limitierten Metallwerkstatt in diesem Hackerspace"
           },
           "hideInAnswer": false
         }
@@ -72035,7 +72081,8 @@
           "if": "service:bicycle:diy=limited",
           "then": {
             "en": "There is a limited bicycle repair workshop available at this hackerspace",
-            "nl": "Er is een beperkte fietsherstelplaats beschikbaar in deze hackerspace"
+            "nl": "Er is een beperkte fietsherstelplaats beschikbaar in deze hackerspace",
+            "de": "Es gibt einen limitierten Fahrradwerkstatt in diesem Hackerspace"
           },
           "hideInAnswer": false
         }
@@ -73870,10 +73917,12 @@
     {
       "id": "love_hotel_name",
       "question": {
-        "en": "What is the name of this love hotel?"
+        "en": "What is the name of this love hotel?",
+        "de": "Wie lautet der Name des Love Hotels?"
       },
       "render": {
-        "en": "This love hotel is named <b>{name}</b>"
+        "en": "This love hotel is named <b>{name}</b>",
+        "de": "Der Name des Love Hotels lautet <b>{name}</b>"
       },
       "freeform": {
         "key": "name",
@@ -77939,78 +77988,90 @@
     },
     {
       "question": {
-        "en": "What type of aerialway is this?"
+        "en": "What type of aerialway is this?",
+        "de": "Um welchen Seilbahntyp handelt es sich?"
       },
       "id": "aerialway_type",
       "mappings": [
         {
           "if": "aerialway=cable_car",
           "then": {
-            "en": "This is a cable car where the car goes up and down again on the same cable."
+            "en": "This is a cable car where the car goes up and down again on the same cable.",
+            "de": "Es handelt sich um eine Seilbahn, bei der die Kabine auf demselben Seil nach oben und wieder nach unten fährt."
           },
           "icon": "./assets/layers/aerialway/cable_car.svg"
         },
         {
           "if": "aerialway=gondola",
           "then": {
-            "en": "This is a gondola where the cars go around in continuous circles"
+            "en": "This is a gondola where the cars go around in continuous circles",
+            "de": "Es handelt sich um eine Seilbahn, bei der die Kabinen in ständigen Kreisen fahren"
           },
           "icon": "./assets/layers/aerialway/gondola_lift.svg"
         },
         {
           "if": "aerialway=chair_lift",
           "then": {
-            "en": "An open chairlift with seats to sit on and open to the outside air."
+            "en": "An open chairlift with seats to sit on and open to the outside air.",
+            "de": "Ein offener Sessellift mit Sitzgelegenheiten und Zugang zur Außenluft."
           },
           "icon": "./assets/layers/aerialway/chair_lift.svg"
         },
         {
           "if": "aerialway=mixed",
           "then": {
-            "en": "An aerialway which has both chairs and gondolas in the same continuous track"
+            "en": "An aerialway which has both chairs and gondolas in the same continuous track",
+            "de": "Eine Seilbahn, die sowohl offene Sessel als auch geschlossene Gondeln auf einer durchgehenden Bahn hat"
           }
         },
         {
           "if": "aerialway=drag_lift",
           "then": {
-            "en": "A drag lift"
+            "en": "A drag lift",
+            "de": "Ein Schlepplift"
           },
           "hideInAnswer": true
         },
         {
           "if": "aerialway=t-bar",
           "then": {
-            "en": "A drag lift with T-shaped carriers for two passengers at a time"
+            "en": "A drag lift with T-shaped carriers for two passengers at a time",
+            "de": "Ein Schlepplift mit T-förmigen Trägern für jeweils zwei Passagiere"
           }
         },
         {
           "if": "aerialway=j-bar",
           "then": {
-            "en": "A drag lift with L-shaped bars for a single passenger at a time"
+            "en": "A drag lift with L-shaped bars for a single passenger at a time",
+            "de": "Ein Schlepplift mit L-förmigen Trägern für jeweils einen Passagier"
           }
         },
         {
           "if": "aerialway=platter",
           "then": {
-            "en": "A drag lift with a platter to drag a single passenger at a time"
+            "en": "A drag lift with a platter to drag a single passenger at a time",
+            "de": "Ein Schlepplift mit einem Teller für jeweils einen Passagier"
           }
         },
         {
           "if": "aerialway=rope_tow",
           "then": {
-            "en": "A tow line which which drags skieers"
+            "en": "A tow line which which drags skieers",
+            "de": "Eine Schleppleine, die Skifahrer mit sich zieht"
           }
         },
         {
           "if": "aerialway=magic_carpet",
           "then": {
-            "en": "A magic carpet (a conveyor belt on the ground)"
+            "en": "A magic carpet (a conveyor belt on the ground)",
+            "de": "Ein magic carpet (ein Förderband auf dem Boden)"
           }
         },
         {
           "if": "aerialway=zip_line",
           "then": {
-            "en": "A zip line. (A touristical attraction where adventurous people go down at high speeds) "
+            "en": "A zip line. (A touristical attraction where adventurous people go down at high speeds) ",
+            "de": "Eine Seilrutsche. (Eine Touristenattraktion, bei der abenteuerlustige Menschen mit hoher Geschwindigkeit hinunterfahren) "
           }
         }
       ],
@@ -78029,17 +78090,20 @@
     {
       "id": "duration",
       "question": {
-        "en": "How long takes a single journey with this elevator?"
+        "en": "How long takes a single journey with this elevator?",
+        "de": "Wie lange dauert eine Fahrt mit diesem Aufzug?"
       },
       "questionHint": {
-        "en": "This excludes the waiting time."
+        "en": "This excludes the waiting time.",
+        "de": "Dies schließt die Wartezeit aus."
       },
       "freeform": {
         "key": "duration",
         "inline": true
       },
       "render": {
-        "en": "A single journey takes {duration} minutes"
+        "en": "A single journey takes {duration} minutes",
+        "de": "Eine Fahrt dauert {duration} Minuten"
       },
       "condition": {
         "and": [
@@ -78056,10 +78120,12 @@
         "inline": true
       },
       "question": {
-        "en": "How many people fit a single carriage?"
+        "en": "How many people fit a single carriage?",
+        "de": "Wie viele Leute passen in eine Kabine?"
       },
       "render": {
-        "en": "{aerialway:occupancy} people fit a single carriage"
+        "en": "{aerialway:occupancy} people fit a single carriage",
+        "de": "{aerialway:occupancy} Leute passen in eine Kabine"
       },
       "condition": {
         "and": [
@@ -78169,7 +78235,8 @@
     {
       "id": "length",
       "render": {
-        "en": "This aerialway is {_length:km} kilometer long"
+        "en": "This aerialway is {_length:km} kilometer long",
+        "de": "Die Seilbahn hat eine Länge von {_length:km} km"
       },
       "condition": {
         "and": [
@@ -81256,7 +81323,8 @@
     },
     {
       "question": {
-        "en": "What is the difficulty of this piste?"
+        "en": "What is the difficulty of this piste?",
+        "de": "Was ist der Schwierigkeitsgrad der Piste?"
       },
       "id": "piste_difficulty",
       "condition": {
@@ -81275,37 +81343,43 @@
         {
           "if": "piste:difficulty=novice",
           "then": {
-            "en": "Novice (green)"
+            "en": "Novice (green)",
+            "de": "Anfänger (grün)"
           }
         },
         {
           "if": "piste:difficulty=easy",
           "then": {
-            "en": "Easy (blue)"
+            "en": "Easy (blue)",
+            "de": "Einfach (blau)"
           }
         },
         {
           "if": "piste:difficulty=intermediate",
           "then": {
-            "en": "Intermediate (red)"
+            "en": "Intermediate (red)",
+            "de": "Mittel (rot)"
           }
         },
         {
           "if": "piste:difficulty=advanced",
           "then": {
-            "en": "Advanced (black)"
+            "en": "Advanced (black)",
+            "de": "Fortgeschritten (schwarz)"
           }
         },
         {
           "if": "piste:difficulty=expert",
           "then": {
-            "en": "Expert (orange/double black)"
+            "en": "Expert (orange/double black)",
+            "de": "Experte (orange/doppel schwarz)"
           }
         },
         {
           "if": "piste:difficulty=freeride",
           "then": {
-            "en": "Freeride"
+            "en": "Freeride",
+            "de": "Freeride"
           }
         }
       ]
@@ -81313,7 +81387,8 @@
     {
       "id": "ski_piste_length",
       "render": {
-        "en": "This part of the ski piste is {_length:km} kilometer long"
+        "en": "This part of the ski piste is {_length:km} kilometer long",
+        "de": "Dieser Teil der Skipiste hat eine Länge von {_length:km} km"
       },
       "condition": {
         "and": [

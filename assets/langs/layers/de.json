@@ -235,6 +235,72 @@
             }
         }
     },
+    "aerialway": {
+        "description": "Alle Arten von seil- oder drahtgestütztem Personen- oder Gütertransport, wie Seilbahnen, Gondeln, Sessellifte, Schlepplifte. ",
+        "name": "Seilbahnen",
+        "pointRendering": {
+            "1": {
+                "label": {
+                    "render": "{name}"
+                }
+            }
+        },
+        "tagRenderings": {
+            "duration": {
+                "question": "Wie lange dauert eine Fahrt mit diesem Aufzug?",
+                "questionHint": "Dies schließt die Wartezeit aus.",
+                "render": "Eine Fahrt dauert {duration} Minuten"
+            },
+            "length": {
+                "render": "Die Seilbahn hat eine Länge von {_length:km} km"
+            },
+            "occupancy": {
+                "question": "Wie viele Leute passen in eine Kabine?",
+                "render": "{aerialway:occupancy} Leute passen in eine Kabine"
+            },
+            "type": {
+                "mappings": {
+                    "0": {
+                        "then": "Es handelt sich um eine Seilbahn, bei der die Kabine auf demselben Seil nach oben und wieder nach unten fährt."
+                    },
+                    "1": {
+                        "then": "Es handelt sich um eine Seilbahn, bei der die Kabinen in ständigen Kreisen fahren"
+                    },
+                    "2": {
+                        "then": "Ein offener Sessellift mit Sitzgelegenheiten und Zugang zur Außenluft."
+                    },
+                    "3": {
+                        "then": "Eine Seilbahn, die sowohl offene Sessel als auch geschlossene Gondeln auf einer durchgehenden Bahn hat"
+                    },
+                    "4": {
+                        "then": "Ein Schlepplift"
+                    },
+                    "5": {
+                        "then": "Ein Schlepplift mit T-förmigen Trägern für jeweils zwei Passagiere"
+                    },
+                    "6": {
+                        "then": "Ein Schlepplift mit L-förmigen Trägern für jeweils einen Passagier"
+                    },
+                    "7": {
+                        "then": "Ein Schlepplift mit einem Teller für jeweils einen Passagier"
+                    },
+                    "8": {
+                        "then": "Eine Schleppleine, die Skifahrer mit sich zieht"
+                    },
+                    "9": {
+                        "then": "Ein magic carpet (ein Förderband auf dem Boden)"
+                    },
+                    "10": {
+                        "then": "Eine Seilrutsche. (Eine Touristenattraktion, bei der abenteuerlustige Menschen mit hoher Geschwindigkeit hinunterfahren) "
+                    }
+                },
+                "question": "Um welchen Seilbahntyp handelt es sich?"
+            }
+        },
+        "title": {
+            "render": "Seilbahn {name}"
+        }
+    },
     "ambulancestation": {
         "description": "Eine Rettungswache ist ein Ort, an dem Rettungsfahrzeuge, medizinische Ausrüstung, persönliche Schutzausrüstung und anderes medizinisches Material untergebracht sind.",
         "name": "Rettungswachen",
@@ -424,6 +490,45 @@
                 }
             },
             "render": "Kunstwerk"
+        }
+    },
+    "assembly_point": {
+        "description": "Diese Ebene enthält Sammelplätze und Wartebereiche, in denen sich alle Mitarbeiter, Fahrgäste oder eine große Menschenmenge im Notfall versammeln.",
+        "name": "Notfallsammelplätze",
+        "presets": {
+            "0": {
+                "title": "ein Sammelplatz"
+            }
+        },
+        "tagRenderings": {
+            "assembly_point_name": {
+                "question": "Wie lautet der Name dieser Sammelstelle?",
+                "render": "Diese Sammelstelle hat den Namen <b>{name}</b>"
+            },
+            "assembly_point_operator": {
+                "question": "Welche Organisation betreibt diese Sammelstelle?",
+                "render": "Diese Sammelstelle wird von <b>{operator}</b> betrieben"
+            },
+            "disaster_type": {
+                "mappings": {
+                    "0": {
+                        "then": "Erdbeben"
+                    },
+                    "1": {
+                        "then": "Flut"
+                    },
+                    "2": {
+                        "then": "Feuer"
+                    },
+                    "3": {
+                        "then": "Erdrutsch"
+                    }
+                },
+                "question": "Für welche Art von Katastrophe ist diese Sammelstelle gedacht?"
+            }
+        },
+        "title": {
+            "render": "Sammelplatz bei Notfällen"
         }
     },
     "atm": {
@@ -1343,6 +1448,21 @@
                     }
                 },
                 "question": "Wo befinden sich diese Fahrradabstellplätze?"
+            },
+            "fee": {
+                "mappings": {
+                    "0": {
+                        "then": "Man muss <b>zahlen</b>, um den Fahrradparkplatz zu nutzen"
+                    },
+                    "1": {
+                        "then": "Die Nutzung ist kostenlos"
+                    }
+                },
+                "question": "Sind die Fahrradparkplätze kostenlos zu benutzen?"
+            },
+            "operator_phone": {
+                "question": "Wie lautet die Telefonnummer des Betreibers dieses Fahrradparkplatzes?",
+                "questionHint": "Man könnte diese Nummer anrufen, wenn es Probleme gibt, z. B. um nicht gewartete Fahrräder zu entfernen"
             }
         },
         "title": {
@@ -1807,6 +1927,24 @@
                 }
             },
             "render": "Ort zur Vogelbeobachtung"
+        }
+    },
+    "brothel": {
+        "description": "Eine Einrichtung, die speziell der Prostitution gewidmet ist. ",
+        "name": "Bordelle",
+        "presets": {
+            "0": {
+                "title": "ein Bordell"
+            }
+        },
+        "tagRenderings": {
+            "name": {
+                "question": "Wie lautet der Name des Bordells?",
+                "render": "Der Name des Bordells lautet <b>{name}</b>"
+            }
+        },
+        "title": {
+            "render": "Bordell"
         }
     },
     "cafe_pub": {
@@ -2383,6 +2521,26 @@
                 }
             },
             "render": "Ladestation"
+        }
+    },
+    "cinema": {
+        "description": " Ein Ort, an dem Filme gezeigt werden, die der Öffentlichkeit gegen Gebühr zugänglich sind",
+        "name": "Kino",
+        "tagRenderings": {
+            "cinema_type": {
+                "mappings": {
+                    "0": {
+                        "then": "Dies ist ein normales Kino, das Filme für alle Altersgruppen zeigt"
+                    },
+                    "1": {
+                        "then": "Dies ist ein Sex-Kino, das Erwachsenenfilme zeigt"
+                    }
+                },
+                "question": "Um welche Art von Kino handelt es sich?"
+            }
+        },
+        "title": {
+            "render": "Kino"
         }
     },
     "climbing": {
@@ -3087,7 +3245,7 @@
                         "then": "Es gibt eine geteilte Fahrspur"
                     },
                     "1": {
-                        "then": "Es gibt eine Spur neben der Straße (getrennt durch eine Straßenmarkierung)"
+                        "then": "Es gibt einen Radfahrstreifen neben der Straße (getrennt durch eine Straßenmarkierung)"
                     },
                     "2": {
                         "then": "Es gibt einen Weg, aber keinen Radweg, der auf der Karte getrennt von dieser Straße eingezeichnet ist."
@@ -3616,6 +3774,24 @@
     "direction": {
         "description": "Diese Ebene visualisiert Richtungen",
         "name": "Aufnahmewinkel der Kamera anzeigen"
+    },
+    "disaster_response": {
+        "description": "Diese Ebene umfasst Organisationen, deren Hauptziel es ist, der Zivilbevölkerung während und nach Natur- oder anthropogenen Katastrophen zu helfen, indem sie in dem betroffenen Gebiet tätig sind.",
+        "name": "Katastrophenschutzorganisationen",
+        "presets": {
+            "0": {
+                "title": "eine Katastrophenschutzorganisation"
+            }
+        },
+        "tagRenderings": {
+            "disaster_response_name": {
+                "question": "Wie lautet der Name dieser Organisation?",
+                "render": "Diese Organisation heißt <b>{name}</b>"
+            }
+        },
+        "title": {
+            "render": "Katastrophenschutzorganisation"
+        }
     },
     "doctors": {
         "description": "Diese Ebene zeigt Arztpraxen, Zahnärzte und andere Gesundheitseinrichtungen",
@@ -5024,6 +5200,9 @@
                             },
                             "1": {
                                 "then": "In diesem Hackerspace gibt es kein {negative-name}"
+                            },
+                            "2": {
+                                "then": "Es gibt einen limitierten {negative-name} in diesem Hackerspace"
                             }
                         },
                         "question": "Gibt es {device-name} in diesem Hackerspace?"
@@ -5620,6 +5799,25 @@
                     "then": "Objekt hinzufügen"
                 }
             }
+        }
+    },
+    "love_hotel": {
+        "description": "Ein Love Hotel ist eine Art Kurzzeithotel, das in erster Linie zu dem Zweck betrieben wird, den Gästen Privatsphäre für sexuelle Aktivitäten zu bieten",
+        "name": "Love Hotels",
+        "presets": {
+            "0": {
+                "description": "Ein Love Hotel ist eine Art Kurzzeithotel, das in erster Linie zu dem Zweck betrieben wird, den Gästen Privatsphäre für sexuelle Aktivitäten zu bieten",
+                "title": "ein Love Hotel"
+            }
+        },
+        "tagRenderings": {
+            "name": {
+                "question": "Wie lautet der Name des Love Hotels?",
+                "render": "Der Name des Love Hotels lautet <b>{name}</b>"
+            }
+        },
+        "title": {
+            "render": "Love Hotel <i>{name}</i>"
         }
     },
     "map": {
@@ -8216,6 +8414,41 @@
             "render": "Dusche"
         }
     },
+    "ski_piste": {
+        "description": "Ski- und Snowboardpisten",
+        "name": "Ski- und Snowboardpisten",
+        "tagRenderings": {
+            "length": {
+                "render": "Dieser Teil der Skipiste hat eine Länge von {_length:km} km"
+            },
+            "piste_difficulty": {
+                "mappings": {
+                    "0": {
+                        "then": "Anfänger (grün)"
+                    },
+                    "1": {
+                        "then": "Einfach (blau)"
+                    },
+                    "2": {
+                        "then": "Mittel (rot)"
+                    },
+                    "3": {
+                        "then": "Fortgeschritten (schwarz)"
+                    },
+                    "4": {
+                        "then": "Experte (orange/doppel schwarz)"
+                    },
+                    "5": {
+                        "then": "Freeride"
+                    }
+                },
+                "question": "Was ist der Schwierigkeitsgrad der Piste?"
+            }
+        },
+        "title": {
+            "render": "Skipiste {name}"
+        }
+    },
     "slow_roads": {
         "description": "Alle autofreien Straßen",
         "name": "Pfade, autofreie und geschwindigkeitsreduzierte Straßen",
@@ -8782,6 +9015,24 @@
                 }
             },
             "render": "Straßenlaterne"
+        }
+    },
+    "stripclub": {
+        "description": "Ein Ort, an dem erotische Tanz-, Striptease- oder Lapdances kommerziell durchgeführt werden. ",
+        "name": "Stripclubs",
+        "presets": {
+            "0": {
+                "title": "ein Stripclub"
+            }
+        },
+        "tagRenderings": {
+            "name": {
+                "question": "Wie lautet der Name des Stripclubs?",
+                "render": "Der Name des Stripclubs lautet <b>{name}</b>"
+            }
+        },
+        "title": {
+            "render": "Stripclub"
         }
     },
     "surveillance_camera": {
