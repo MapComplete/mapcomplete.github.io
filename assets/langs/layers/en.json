@@ -258,6 +258,17 @@
                 "question": "How many people fit a single carriage?",
                 "render": "{aerialway:occupancy} people fit a single carriage"
             },
+            "oneway": {
+                "mappings": {
+                    "0": {
+                        "then": "This aerialway can only be taken to the top"
+                    },
+                    "1": {
+                        "then": "This aerialway can be taken in both directions"
+                    }
+                },
+                "question": "In what direction can this aerialway be taken?"
+            },
             "type": {
                 "mappings": {
                     "0": {
