@@ -2,11 +2,13 @@
   "id": "openlovemap",
   "title": {
     "en": "Open Love Map",
-    "de": "Open Love Map"
+    "de": "Open Love Map",
+    "es": "Open Love Map"
   },
   "description": {
     "en": "<p><i>Love in the palm of your hand</i></p>Open Love Map lists various adult entries, such as brothels, erotic stores and stripclubs.",
-    "de": "<p><i>Liebe in der Hand</i></p>Open Love Map listet verschiedene Einträge für Erwachsene, wie Bordelle, Erotikshops und Stripclubs."
+    "de": "<p><i>Liebe in der Hand</i></p>Open Love Map listet verschiedene Einträge für Erwachsene, wie Bordelle, Erotikshops und Stripclubs.",
+    "es": "<p><i>Amor en la palma de tu mano</i></p>Open Love Map lista varias entradas para adultos, como burdeles, tiendas eróticas y clubs de striptease."
   },
   "icon": "./assets/layers/stripclub/stripclub.svg",
   "hideFromOverview": true,
@@ -26,13 +28,15 @@
         ],
         "name": {
           "en": "Erotic shops",
-          "de": "Erotikgeschäfte"
+          "de": "Erotikgeschäfte",
+          "es": "Tiendas eróticas"
         },
         "=presets": [
           {
             "title": {
               "en": "an erotic shop",
-              "de": "ein Erotikgeschäft"
+              "de": "ein Erotikgeschäft",
+              "es": "una tienda erótica"
             },
             "tags": [
               "shop=erotic"
@@ -105,7 +109,8 @@
           {
             "title": {
               "en": "a condom vending machine",
-              "de": "ein Kondomautomat"
+              "de": "ein Kondomautomat",
+              "es": "una máquina de venta de condones"
             },
             "tags": [
               "amenity=vending_machine",
@@ -182,7 +187,8 @@
           {
             "title": {
               "en": "an erotic cinema",
-              "de": "Ein Sex-Kino"
+              "de": "Ein Sex-Kino",
+              "es": "un cine erótico"
             },
             "tags": [
               "amenity=cinema",
@@ -210,7 +216,8 @@
             "id": "hotel-type",
             "question": {
               "en": "What type of hotel is this?",
-              "de": "Welche Art von Hotel ist das?"
+              "de": "Welche Art von Hotel ist das?",
+              "es": "¿Qué tipo de hotel es este?"
             },
             "mappings": [
               {
@@ -240,11 +247,13 @@
         "id": "has_video_booth",
         "question": {
           "en": "Does {title()} have a private video booth?",
-          "de": "Hat {title()} eine private Videokabine?"
+          "de": "Hat {title()} eine private Videokabine?",
+          "es": "¿Este {título()} tiene una cabina de video privada?"
         },
         "questionHint": {
           "en": "This is for use by a single person.",
-          "de": "Dies ist für die Nutzung durch eine einzelne Person vorgesehen."
+          "de": "Dies ist für die Nutzung durch eine einzelne Person vorgesehen.",
+          "es": "Esto es para uso de una sola persona."
         },
         "mappings": [
           {
