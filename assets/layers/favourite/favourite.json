@@ -14114,7 +14114,8 @@
             "eu": "Objektu honek iragarkiak ditu alde bakar batean",
             "pl": "Ten obiekt ma reklamy po jednej stronie",
             "pt_BR": "Este objeto tem anúncios em um único lado",
-            "zh_Hans": "该物体单面有广告"
+            "zh_Hans": "该物体单面有广告",
+            "it": "Questo oggetto ha la pubblicità solo da un lato"
           }
         },
         {
@@ -62304,7 +62305,7 @@
             "fr": "La table à langer est dans un espace dédié. ",
             "nl": "Er bevindt zich een luiertafel in een daartoe voorziene kamer ",
             "it": "Il fasciatoio è in una stanza dedicata. ",
-            "es": "El cambiador está en una habitación dedicada ",
+            "es": "El cambiador está en una habitación dedicada",
             "da": "Vuggestuen står i et særligt rum. ",
             "ca": "El canviador està en una habitació dedicada. ",
             "cs": "Přebalovací pult je ve vyhrazené místnosti. "
