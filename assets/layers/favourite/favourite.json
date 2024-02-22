@@ -7905,7 +7905,8 @@
         },
         "then": {
           "en": "Electric Vehicle Charging Parking Space",
-          "nl": "Parkeerplek voor opladen van elektrische voertuigen"
+          "nl": "Parkeerplek voor opladen van elektrische voertuigen",
+          "de": "Parkplatz zum Laden von Elektrofahrzeugen"
         }
       },
       {
@@ -7917,7 +7918,8 @@
         },
         "then": {
           "en": "Electric Vehicle Charging Parking Space",
-          "nl": "Parkeerplek voor opladen van elektrische voertuigen"
+          "nl": "Parkeerplek voor opladen van elektrische voertuigen",
+          "de": "Parkplatz zum Laden von Elektrofahrzeugen"
         }
       },
       {
@@ -9216,13 +9218,15 @@
       {
         "if": "emergency=mountain_rescue",
         "then": {
-          "en": "Mountain rescue station"
+          "en": "Mountain rescue station",
+          "de": "Bergrettungsstation"
         }
       },
       {
         "if": "emergency=mountain_rescue",
         "then": {
-          "en": "Mountain rescue station"
+          "en": "Mountain rescue station",
+          "de": "Bergrettungsstation"
         }
       },
       {
@@ -10422,13 +10426,15 @@
       {
         "if": "amenity=trolley_bay",
         "then": {
-          "en": "Trolley Bay"
+          "en": "Trolley Bay",
+          "de": "Einkaufswagenbucht"
         }
       },
       {
         "if": "amenity=trolley_bay",
         "then": {
-          "en": "Trolley Bay"
+          "en": "Trolley Bay",
+          "de": "Einkaufswagenbucht"
         }
       },
       {
@@ -62120,25 +62126,29 @@
       "id": "gender_segregated",
       "question": {
         "en": "Are these toilets gender-segregated?",
-        "nl": "Zijn deze toiletten gescheiden op basis van geslacht?"
+        "nl": "Zijn deze toiletten gescheiden op basis van geslacht?",
+        "de": "Sind diese Toiletten geschlechtergetrennt?"
       },
       "questionHint": {
         "en": "Are there separate stalls or separate areas for men and women and are they signposted as such?",
-        "nl": "Is er een aparte ruimte voor mannen en vrouwen en zijn deze ruimtes ook expliciet aangegeven?"
+        "nl": "Is er een aparte ruimte voor mannen en vrouwen en zijn deze ruimtes ook expliciet aangegeven?",
+        "de": "Gibt es getrennte Kabinen oder getrennte Bereiche für Männer und Frauen, und sind sie als solche ausgeschildert?"
       },
       "mappings": [
         {
           "if": "gender_segregated=yes",
           "then": {
             "en": "There is a separate, signposted area for men and women",
-            "nl": "Er zijn aparte ruimtes of toiletten voor mannen en vrouwen"
+            "nl": "Er zijn aparte ruimtes of toiletten voor mannen en vrouwen",
+            "de": "Es gibt einen separaten, ausgeschilderten Bereich für Männer und Frauen"
           }
         },
         {
           "if": "gender_segregated=no",
           "then": {
             "en": "There is no separate, signposted area for men and women",
-            "nl": "Mannen en vrouwen gebruiken dezelfde ruimtes en toiletten"
+            "nl": "Mannen en vrouwen gebruiken dezelfde ruimtes en toiletten",
+            "de": "Es gibt keinen getrennten, ausgeschilderten Bereich für Männer und Frauen"
           }
         }
       ]
@@ -62147,25 +62157,29 @@
       "id": "menstrual_products",
       "question": {
         "en": "Are free, menstrual products distributed here?",
-        "nl": "Zijn er gratis menstruatieproducten beschikbaar?"
+        "nl": "Zijn er gratis menstruatieproducten beschikbaar?",
+        "de": "Werden hier kostenlose Menstruationsprodukte verteilt?"
       },
       "questionHint": {
         "en": "This is only about menstrual products that are free of charge. If e.g. a vending machine is available which charges for menstrual products, ignore it for this question.",
-        "nl": "Dit gaat enkel over menstruatieproducten die gratis geschikbaar zijn. Indien er bv. een verkoopautomaat met menstruatieproducten is, negeer deze dan"
+        "nl": "Dit gaat enkel over menstruatieproducten die gratis geschikbaar zijn. Indien er bv. een verkoopautomaat met menstruatieproducten is, negeer deze dan",
+        "de": "Hier geht es nur um Menstruationsprodukte, die kostenlos sind. Wenn es z. B. einen Automaten gibt, an dem Menstruationsprodukte kostenpflichtig sind, wird er bei dieser Frage nicht berücksichtigt."
       },
       "mappings": [
         {
           "if": "toilets:menstrual_products=yes",
           "then": {
             "en": "Free menstrual products are available to all visitors of these toilets",
-            "nl": "Er zijn gratis menstruatieprocten beschikbaar voor alle bezoekers van deze toiletten"
+            "nl": "Er zijn gratis menstruatieprocten beschikbaar voor alle bezoekers van deze toiletten",
+            "de": "Für alle Besucher dieser Toiletten stehen kostenlose Menstruationsprodukte zur Verfügung"
           }
         },
         {
           "if": "toilets:menstrual_products=limited",
           "then": {
             "en": "Free menstrual products are available to some visitors of these toilets",
-            "nl": "De gratis menstruatieproducten zijn enkel beschikbaar in een deel van de toiletten"
+            "nl": "De gratis menstruatieproducten zijn enkel beschikbaar in een deel van de toiletten",
+            "de": "Für einige Besucher dieser Toiletten gibt es kostenlose Menstruationsprodukte"
           },
           "hideInAnswer": "gender_segregated=yes"
         },
@@ -62174,7 +62188,8 @@
           "alsoShowIf": "toilets:menstrual_products=",
           "then": {
             "en": "No free menstrual products are available here",
-            "nl": "Er zijn geen gratis menstruatieproducten beschikbaar"
+            "nl": "Er zijn geen gratis menstruatieproducten beschikbaar",
+            "de": "Hier gibt es keine kostenlosen Menstruationsprodukte"
           }
         }
       ],
@@ -62195,7 +62210,8 @@
       "id": "menstrual_products_location",
       "question": {
         "en": "Where are the free menstrual products located?",
-        "nl": "Waar bevinden de gratis menstruatieproducten zich?"
+        "nl": "Waar bevinden de gratis menstruatieproducten zich?",
+        "de": "Wo befinden sich die kostenlosen Menstruationsprodukte?"
       },
       "condition": {
         "and": [
@@ -62221,7 +62237,8 @@
       },
       "render": {
         "en": "The menstrual products are located in {toilets:menstrual_products:location}",
-        "nl": "De menstruatieproducten bevinden zich in {toilets:menstrual_products:location}"
+        "nl": "De menstruatieproducten bevinden zich in {toilets:menstrual_products:location}",
+        "de": "Die Menstruationsprodukte befinden sich in {toilets:menstrual_products:location}"
       },
       "freeform": {
         "key": "toilets:menstrual_products:location",
@@ -62231,7 +62248,8 @@
         {
           "then": {
             "en": "The free, menstrual products are located in the toilet for women",
-            "nl": "De gratis menstruatieproducten bevinden zich in het vrouwentoilet"
+            "nl": "De gratis menstruatieproducten bevinden zich in het vrouwentoilet",
+            "de": "Die kostenlosen Menstruationsprodukte befinden sich in der Toilette für Frauen"
           },
           "if": "toilets:menstrual_products:location=female_toilet",
           "alsoShowIf": "toilets:menstrual_products:location="
@@ -62239,7 +62257,8 @@
         {
           "then": {
             "en": "The free, menstrual products are located in the toilet for men",
-            "nl": "De gratis menstruatieproducten bevinden zich in het mannentoilet"
+            "nl": "De gratis menstruatieproducten bevinden zich in het mannentoilet",
+            "de": "Die kostenlosen Menstruationsprodukte befinden sich in der Toilette für Männer"
           },
           "if": "toilets:menstrual_products:location=male_toilet"
         },
@@ -62247,7 +62266,8 @@
           "if": "toilets:menstrual_products:location=wheelchair_toilet",
           "then": {
             "en": "The free, menstrual products are located in the toilet for wheelchair users",
-            "nl": "De gratis menstruatieproducten bevinden zich in het rolstoeltoegankelijke toilet"
+            "nl": "De gratis menstruatieproducten bevinden zich in het rolstoeltoegankelijke toilet",
+            "de": "Die kostenlosen Menstruationsprodukte befinden sich auf der Toilette für Rollstuhlfahrende"
           }
         }
       ]
@@ -71612,6 +71632,7 @@
     {
       "id": "wikidata",
       "render": {
+        "de": "<h3>Wikipedia-Seite über die verstorbene Person</h3>{wikipedia(subject:wikidata)}",
         "en": "<h3>Wikipedia page about the deceased person</h3>{wikipedia(subject:wikidata)}"
       },
       "condition": {
@@ -78362,20 +78383,23 @@
     {
       "id": "oneway",
       "question": {
-        "en": "In what direction can this aerialway be taken?"
+        "en": "In what direction can this aerialway be taken?",
+        "de": "In welche Richtung kann diese Seilbahn genutzt werden?"
       },
       "mappings": [
         {
           "if": "oneway=yes",
           "alsoShowIf": "oneway=",
           "then": {
-            "en": "This aerialway can only be taken to the top"
+            "en": "This aerialway can only be taken to the top",
+            "de": "Diese Seilbahn kann nur nach oben gefahren werden"
           }
         },
         {
           "if": "oneway=no",
           "then": {
-            "en": "This aerialway can be taken in both directions"
+            "en": "This aerialway can be taken in both directions",
+            "de": "Diese Seilbahn kann in beide Richtungen befahren werden"
           }
         }
       ],
@@ -84807,19 +84831,22 @@
     {
       "id": "covered",
       "question": {
-        "en": "Is this trolley bay covered?"
+        "en": "Is this trolley bay covered?",
+        "de": "Ist dieser Einkaufswagenplatz überdacht?"
       },
       "mappings": [
         {
           "if": "covered=yes",
           "then": {
-            "en": "This trolley bay is covered"
+            "en": "This trolley bay is covered",
+            "de": "Dieser Einkaufswagenplatz ist überdacht"
           }
         },
         {
           "if": "covered=no",
           "then": {
-            "en": "This trolley bay is not covered"
+            "en": "This trolley bay is not covered",
+            "de": "Dieser Einkaufswagenplatz ist nicht überdacht"
           }
         }
       ],
@@ -84833,19 +84860,22 @@
     {
       "id": "deposit",
       "question": {
-        "en": "Is a deposit (e.g. a coin) required for the trolleys?"
+        "en": "Is a deposit (e.g. a coin) required for the trolleys?",
+        "de": "Ist für die Einkaufswagen ein Pfand (z.B. eine Münze) erforderlich?"
       },
       "mappings": [
         {
           "if": "trolley:deposit=yes",
           "then": {
-            "en": "A deposit is required for the trolleys"
+            "en": "A deposit is required for the trolleys",
+            "de": "Für die Einkaufswagen ist ein Pfand zu hinterlegen"
           }
         },
         {
           "if": "trolley:deposit=no",
           "then": {
-            "en": "No deposit is required for the trolleys"
+            "en": "No deposit is required for the trolleys",
+            "de": "Für die Einkaufswagen ist kein Pfand erforderlich"
           }
         }
       ],
@@ -84866,7 +84896,8 @@
         ]
       },
       "question": {
-        "en": "What coins are accepted for the deposit?"
+        "en": "What coins are accepted for the deposit?",
+        "de": "Welche Münzen werden für die Pfandgebühr akzeptiert?"
       },
       "multiAnswer": true,
       "mappings": [
@@ -84923,7 +84954,8 @@
     {
       "id": "cart_types",
       "question": {
-        "en": "What kind of special trolleys are available?"
+        "en": "What kind of special trolleys are available?",
+        "de": "Welche Art von speziellen Einkaufswagen gibt es?"
       },
       "multiAnswer": true,
       "mappings": [
@@ -84931,42 +84963,48 @@
           "if": "trolley:magnifier=yes",
           "ifnot": "trolley:magnifier=no",
           "then": {
-            "en": "Trolleys with a magnifier are available"
+            "en": "Trolleys with a magnifier are available",
+            "de": "Einkaufswagen mit Lupe sind erhältlich"
           }
         },
         {
           "if": "trolley:wheelchair=yes",
           "ifnot": "trolley:wheelchair=no",
           "then": {
-            "en": "Trolleys for wheelchair users are available"
+            "en": "Trolleys for wheelchair users are available",
+            "de": "Einkaufswagen für Rollstuhlfahrer sind verfügbar"
           }
         },
         {
           "if": "trolley:children=yes",
           "ifnot": "trolley:children=no",
           "then": {
-            "en": "Trolleys for children are available"
+            "en": "Trolleys for children are available",
+            "de": "Einkaufswagen für Kinder sind verfügbar"
           }
         },
         {
           "if": "trolley:seats=yes",
           "ifnot": "trolley:seats=no",
           "then": {
-            "en": "Trolleys with seats for children are available"
+            "en": "Trolleys with seats for children are available",
+            "de": "Einkaufswagen mit Sitzen für Kinder sind verfügbar"
           }
         },
         {
           "if": "trolley:flatbed=yes",
           "ifnot": "trolley:flatbed=no",
           "then": {
-            "en": "Trolleys with a flatbed are available"
+            "en": "Trolleys with a flatbed are available",
+            "de": "Einkaufswagen mit Flachbett sind verfügbar"
           }
         },
         {
           "if": "trolley:vertical=yes",
           "ifnot": "trolley:vertical=no",
           "then": {
-            "en": "Vertical trolleys for sheet-like goods are available"
+            "en": "Vertical trolleys for sheet-like goods are available",
+            "de": "Vertikale Einkaufswagen für plattenförmige Güter sind verfügbar"
           }
         }
       ],
