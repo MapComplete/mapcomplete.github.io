@@ -77730,17 +77730,6 @@
           }
         },
         {
-          "if": "parking_space=private",
-          "then": {
-            "en": "This is a private parking space.",
-            "de": "Dies ist ein privater Stellplatz.",
-            "nl": "Dit is een privéparkeerplek.",
-            "pl": "To jest prywatne miejsce parkingowe.",
-            "ca": "Es tracta d'una plaça d'aparcament privada.",
-            "cs": "Jedná se o soukromé parkovací místo."
-          }
-        },
-        {
           "if": "parking_space=charging",
           "then": {
             "en": "This is parking space reserved for charging vehicles.",
