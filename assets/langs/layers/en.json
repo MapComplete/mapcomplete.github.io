@@ -9320,6 +9320,11 @@
             "render": "Stripclub"
         }
     },
+    "summary": {
+        "title": {
+            "render": "Summary"
+        }
+    },
     "surveillance_camera": {
         "description": "This layer shows surveillance cameras and allows a contributor to update information and add new cameras",
         "name": "Surveillance camera's",

@@ -1,0 +1,2 @@
+import"./Utils-2916eb3d.js";import{S as a,i as n,s as r,P as m,d as p,n as o,h as c,k as l}from"./index-303d939b.js";import{M as d}from"./MvtSource-78ebfba3.js";import"./UIEventSource-f4363691.js";import"./_commonjsHelpers-de833af9.js";import"./index-44f7831e.js";function u(s){let t;return{c(){t=m("No tests")},m(e,i){p(e,t,i)},p:o,i:o,o,d(e){e&&c(t)}}}class v extends a{constructor(t){super(),n(this,t,null,u,r,{})}}new d("https://example.org",void 0,void 0,void 0);new l(v,{}).AttachTo("maindiv");
+//# sourceMappingURL=test-e63f2ccf.js.map
