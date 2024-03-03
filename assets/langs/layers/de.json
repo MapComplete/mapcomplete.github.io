@@ -5658,6 +5658,12 @@
             "render": "Informationstafel"
         }
     },
+    "item_with_image": {
+        "name": "Element mit mindestens einem Bild",
+        "title": {
+            "render": "POI mit Bild"
+        }
+    },
     "kerbs": {
         "description": "Eine Ebene, die Bordsteine zeigt.",
         "filter": {
@@ -6993,6 +6999,101 @@
             "render": "Spielplatz"
         }
     },
+    "playground_equipment": {
+        "description": "Ebene mit Spielplatzausrüstung",
+        "name": "Spielplatzausstattung",
+        "presets": {
+            "0": {
+                "description": "Ein genauer Typ wird später gefragt",
+                "title": "ein Spielgerät"
+            }
+        },
+        "tagRenderings": {
+            "type": {
+                "freeform": {
+                    "placeholder": "Art des Geräts"
+                },
+                "mappings": {
+                    "0": {
+                        "then": "Das ist eine Schaukel"
+                    },
+                    "1": {
+                        "then": "Dies ist eine Struktur aus mehreren angeschlossenen Spielgeräten"
+                    },
+                    "2": {
+                        "then": "Das ist eine Rutsche"
+                    },
+                    "3": {
+                        "then": "Dies ist ein Sandkasten"
+                    },
+                    "4": {
+                        "then": "Dies ist ein Springreiter"
+                    },
+                    "5": {
+                        "then": "Dies ist ein Kletterrahmen"
+                    },
+                    "6": {
+                        "then": "Dies ist eine Wippe"
+                    },
+                    "7": {
+                        "then": "Das ist ein Spielhaus"
+                    },
+                    "8": {
+                        "then": "Dies ist ein Karussell"
+                    },
+                    "9": {
+                        "then": "Dies ist eine Korbschaukel"
+                    },
+                    "10": {
+                        "then": "Dies ist ein Seilzug"
+                    },
+                    "11": {
+                        "then": "Dies ist ein horizontaler Balken"
+                    },
+                    "12": {
+                        "then": "Dies ist ein Hüpfspiel"
+                    },
+                    "13": {
+                        "then": "Dies ist ein Planschbecken"
+                    },
+                    "14": {
+                        "then": "Das ist eine Kletterwand"
+                    },
+                    "15": {
+                        "then": "Das ist eine Karte"
+                    },
+                    "16": {
+                        "then": "Dies ist eine Brücke (entweder als eigenständiges Gerät oder als Teil einer größeren Struktur)"
+                    },
+                    "17": {
+                        "then": "Das ist ein Hüpfkissen"
+                    },
+                    "18": {
+                        "then": "Dies ist ein Aktivitätspanel"
+                    },
+                    "19": {
+                        "then": "Dies ist eine Jugendherberge"
+                    },
+                    "20": {
+                        "then": "Dies ist ein Trichter, mit dem man Trichterball spielen kann"
+                    },
+                    "21": {
+                        "then": "Dies ist ein sich drehender Kreis"
+                    }
+                },
+                "question": "Was ist das für ein Gerät?",
+                "render": "Das ist ein {playground}"
+            },
+            "wheelchair-access": {
+                "override": {
+                    "question": "Ist dieses Gerät mit Rollstuhl erreichbar?"
+                }
+            }
+        },
+        "title": {
+            "render": "Spielplatzgerät"
+        }
+    },
     "postboxes": {
         "description": "Die Ebene zeigt Briefkästen.",
         "name": "Briefkästen",
@@ -7007,6 +7108,43 @@
     },
     "postoffices": {
         "description": "Eine Ebene mit Postämtern.",
+        "filter": {
+            "1": {
+                "options": {
+                    "0": {
+                        "question": "Bietet Briefpost an"
+                    }
+                }
+            },
+            "2": {
+                "options": {
+                    "0": {
+                        "question": "Bietet Paketaufgabe an"
+                    }
+                }
+            },
+            "3": {
+                "options": {
+                    "0": {
+                        "question": "Bietet die Abholung von verpassten Paketen an"
+                    }
+                }
+            },
+            "4": {
+                "options": {
+                    "0": {
+                        "question": "Akzeptiert die Abholung von Paketen, die hierher geschickt werden"
+                    }
+                }
+            },
+            "5": {
+                "options": {
+                    "0": {
+                        "question": "Verkauft Briefmarken"
+                    }
+                }
+            }
+        },
         "name": "Poststellen",
         "presets": {
             "0": {
@@ -8563,13 +8701,123 @@
             "render": "Geschwindigkeitsreduzierte Straße"
         }
     },
-    "souvenir_note": {
+    "souvenir_coin": {
+        "description": "Ebene mit Automaten, die Souvenir-Münzen verkaufen",
+        "name": "Souvenir-Münzautomaten",
+        "presets": {
+            "0": {
+                "description": "Hinzufügen eines Automaten für Souvenirmünzen",
+                "title": "ein Souvenir-Münzautomaten"
+            }
+        },
         "tagRenderings": {
+            "charge": {
+                "freeform": {
+                    "placeholder": "Kosten (z.B. 2 EUR)"
+                },
+                "mappings": {
+                    "0": {
+                        "then": "Eine Souvenirmünze kostet 2 Euro"
+                    }
+                },
+                "question": "Wie viel kostet eine Souvenirmünze?",
+                "render": "Eine Souvenirmünze kostet {charge}"
+            },
+            "designs": {
+                "override": {
+                    "mappings": {
+                        "0": {
+                            "then": "Diese Maschine hat ein Design zur Verfügung"
+                        },
+                        "1": {
+                            "then": "Diese Maschine hat zwei Designs verfügbar"
+                        },
+                        "2": {
+                            "then": "Diese Maschine hat drei Designs verfügbar"
+                        },
+                        "3": {
+                            "then": "Diese Maschine hat vier Designs verfügbar"
+                        }
+                    },
+                    "render": "Diese Maschine hat {coin:design_count} Designs verfügbar"
+                }
+            },
+            "indoor": {
+                "mappings": {
+                    "0": {
+                        "then": "Diese Maschine befindet sich im Innenbereich."
+                    },
+                    "1": {
+                        "then": "Diese Maschine befindet sich im Freien."
+                    }
+                },
+                "question": "Ist diese Maschine im Innenbereich?"
+            }
+        },
+        "title": {
+            "render": "Souvenir-Münzautomat"
+        }
+    },
+    "souvenir_note": {
+        "description": "Ebene zeigt Maschinen, die Souvenir-Banknoten verkaufen",
+        "name": "Souvenir Banknotenmaschinen",
+        "presets": {
+            "0": {
+                "description": "Hinzufügen eines Automaten, der Souvenir-Banknoten verkauft",
+                "title": "eine Souvenir-Banknotenmaschine"
+            }
+        },
+        "tagRenderings": {
+            "charge": {
+                "freeform": {
+                    "placeholder": "Kosten (z.B. 2 EUR)"
+                },
+                "mappings": {
+                    "0": {
+                        "then": "Eine Souvenirnote kostet 2 Euro"
+                    },
+                    "1": {
+                        "then": "Eine Souvenirnote kostet 3 Euro"
+                    }
+                },
+                "question": "Wie viel kostet eine Souvenirnote?",
+                "render": "Eine Souvenirnote kostet {charge}"
+            },
             "designs": {
                 "freeform": {
                     "placeholder": "Motivanzahl (z.B. 5)"
-                }
+                },
+                "mappings": {
+                    "0": {
+                        "then": "Diese Maschine hat ein Design zur Verfügung."
+                    },
+                    "1": {
+                        "then": "Diese Maschine hat zwei Designs verfügbar."
+                    },
+                    "2": {
+                        "then": "Diese Maschine hat drei Designs verfügbar."
+                    },
+                    "3": {
+                        "then": "Diese Maschine hat vier Designs verfügbar."
+                    }
+                },
+                "question": "Wie viele Designs sind verfügbar?",
+                "render": "Diese Maschine verfügt über {note:design_count} Designs."
+            },
+            "indoor": {
+                "mappings": {
+                    "0": {
+                        "then": "Diese Maschine befindet sich im Innenbereich."
+                    },
+                    "1": {
+                        "then": "Diese Maschine befindet sich im Freien."
+                    }
+                },
+                "question": "Ist diese Maschine im Innenbereich?"
             }
+        },
+        "title": {
+            "render": "Souvenir-Banknotenautomat"
         }
     },
     "speed_camera": {
@@ -9070,6 +9318,11 @@
         },
         "title": {
             "render": "Stripclub"
+        }
+    },
+    "summary": {
+        "title": {
+            "render": "Übersicht"
         }
     },
     "surveillance_camera": {

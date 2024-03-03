@@ -5577,13 +5577,15 @@
       {
         "if": "playground~.+",
         "then": {
-          "en": "Playground device"
+          "en": "Playground device",
+          "de": "Spielplatzgerät"
         }
       },
       {
         "if": "playground~.+",
         "then": {
-          "en": "Playground device"
+          "en": "Playground device",
+          "de": "Spielplatzgerät"
         }
       },
       {
@@ -6159,7 +6161,8 @@
           ]
         },
         "then": {
-          "en": "Souvenir Coin Machine"
+          "en": "Souvenir Coin Machine",
+          "de": "Souvenir-Münzautomat"
         }
       },
       {
@@ -6170,7 +6173,8 @@
           ]
         },
         "then": {
-          "en": "Souvenir Banknote Machine"
+          "en": "Souvenir Banknote Machine",
+          "de": "Souvenir-Banknotenautomat"
         }
       },
       {
@@ -6237,7 +6241,8 @@
           ]
         },
         "then": {
-          "en": "Souvenir Coin Machine"
+          "en": "Souvenir Coin Machine",
+          "de": "Souvenir-Münzautomat"
         }
       },
       {
@@ -6248,7 +6253,8 @@
           ]
         },
         "then": {
-          "en": "Souvenir Banknote Machine"
+          "en": "Souvenir Banknote Machine",
+          "de": "Souvenir-Banknotenautomat"
         }
       },
       {
@@ -70320,7 +70326,7 @@
       },
       "render": {
         "en": "This machine has {coin:design_count} designs available",
-        "de": "Der Prägeautomat hat {coin:design_count} Motive zur Auswahl.",
+        "de": "Diese Maschine hat {coin:design_count} Designs verfügbar",
         "es": "Esta prensa tiene {coin:design_count} diseños disponibles.",
         "ca": "Esta premsa té {coin:design_count} dissenys disponibles.",
         "cs": "Tento lis na centy má k dispozici {coin:design_count} vzory.",
@@ -70331,7 +70337,7 @@
           "if": "coin:design_count=1",
           "then": {
             "en": "This machine has one design available",
-            "de": "Der Prägeautomat hat ein Motiv zur Auswahl.",
+            "de": "Diese Maschine hat ein Design zur Verfügung",
             "es": "Esta prensa tiene un diseño disponible.",
             "ca": "Esta premsa té un disseny disponible.",
             "cs": "Tento lis na peníze má k dispozici jeden design.",
@@ -70342,7 +70348,7 @@
           "if": "coin:design_count=2",
           "then": {
             "en": "This machine has two designs available",
-            "de": "Der Prägeautomat hat zwei Motive zur Auswahl.",
+            "de": "Diese Maschine hat zwei Designs verfügbar",
             "es": "Esta prensa tiene dos diseños disponibles.",
             "ca": "Esta premsa té dos dissenys disponibles.",
             "cs": "Tento lis na peníze má k dispozici dvě provedení.",
@@ -70353,7 +70359,7 @@
           "if": "coin:design_count=3",
           "then": {
             "en": "This machine has three designs available",
-            "de": "Der Prägeautomat hat drei Motive zur Auswahl.",
+            "de": "Diese Maschine hat drei Designs verfügbar",
             "es": "Esta prensa tiene tres diseños disponibles.",
             "ca": "Esta premsa té tres dissenys disponibles.",
             "cs": "Tento lis na peníze má k dispozici tři provedení.",
@@ -70364,7 +70370,7 @@
           "if": "coin:design_count=4",
           "then": {
             "en": "This machine has four designs available",
-            "de": "Der Prägeautomat hat vier Motive zur Auswahl.",
+            "de": "Diese Maschine hat vier Designs verfügbar",
             "es": "Esta prensa tiene cuatro diseños disponibles.",
             "ca": "Esta premsa té quatre dissenys disponibles.",
             "cs": "Tento lis na peníze má k dispozici čtyři provedení.",
@@ -70385,16 +70391,19 @@
     },
     {
       "question": {
-        "en": "How much does a souvenir coin cost?"
+        "en": "How much does a souvenir coin cost?",
+        "de": "Wie viel kostet eine Souvenirmünze?"
       },
       "id": "souvenir_coin_charge",
       "render": {
-        "en": "A souvenir coins costs {charge}"
+        "en": "A souvenir coins costs {charge}",
+        "de": "Eine Souvenirmünze kostet {charge}"
       },
       "freeform": {
         "key": "charge",
         "placeholder": {
-          "en": "Cost (e.g. 2 EUR)"
+          "en": "Cost (e.g. 2 EUR)",
+          "de": "Kosten (z.B. 2 EUR)"
         },
         "inline": true
       },
@@ -70402,7 +70411,8 @@
         {
           "if": "charge=2 EUR",
           "then": {
-            "en": "A souvenir coin costs 2 euro"
+            "en": "A souvenir coin costs 2 euro",
+            "de": "Eine Souvenirmünze kostet 2 Euro"
           },
           "hideInAnswer": "_currency!~.*EUR.*"
         }
@@ -70420,20 +70430,23 @@
     },
     {
       "question": {
-        "en": "Is this machine located indoors?"
+        "en": "Is this machine located indoors?",
+        "de": "Ist diese Maschine im Innenbereich?"
       },
       "id": "souvenir_coin_indoor",
       "mappings": [
         {
           "if": "indoor=yes",
           "then": {
-            "en": "This machine is located indoors."
+            "en": "This machine is located indoors.",
+            "de": "Diese Maschine befindet sich im Innenbereich."
           }
         },
         {
           "if": "indoor=no",
           "then": {
-            "en": "This machine is located outdoors."
+            "en": "This machine is located outdoors.",
+            "de": "Diese Maschine befindet sich im Freien."
           }
         }
       ],
@@ -70538,7 +70551,8 @@
     {
       "id": "souvenir_note_designs",
       "question": {
-        "en": "How many designs are available?"
+        "en": "How many designs are available?",
+        "de": "Wie viele Designs sind verfügbar?"
       },
       "freeform": {
         "key": "note:design_count",
@@ -70553,31 +70567,36 @@
         "inline": true
       },
       "render": {
-        "en": "This machine has {note:design_count} designs available."
+        "en": "This machine has {note:design_count} designs available.",
+        "de": "Diese Maschine verfügt über {note:design_count} Designs."
       },
       "mappings": [
         {
           "if": "note:design_count=1",
           "then": {
-            "en": "This machine has one design available."
+            "en": "This machine has one design available.",
+            "de": "Diese Maschine hat ein Design zur Verfügung."
           }
         },
         {
           "if": "note:design_count=2",
           "then": {
-            "en": "This machine has two designs available."
+            "en": "This machine has two designs available.",
+            "de": "Diese Maschine hat zwei Designs verfügbar."
           }
         },
         {
           "if": "note:design_count=3",
           "then": {
-            "en": "This machine has three designs available."
+            "en": "This machine has three designs available.",
+            "de": "Diese Maschine hat drei Designs verfügbar."
           }
         },
         {
           "if": "note:design_count=4",
           "then": {
-            "en": "This machine has four designs available."
+            "en": "This machine has four designs available.",
+            "de": "Diese Maschine hat vier Designs verfügbar."
           }
         }
       ],
@@ -70594,16 +70613,19 @@
     },
     {
       "question": {
-        "en": "How much does a souvenir note cost?"
+        "en": "How much does a souvenir note cost?",
+        "de": "Wie viel kostet eine Souvenirnote?"
       },
       "id": "souvenir_note_charge",
       "render": {
-        "en": "A souvenir note costs {charge}"
+        "en": "A souvenir note costs {charge}",
+        "de": "Eine Souvenirnote kostet {charge}"
       },
       "freeform": {
         "key": "charge",
         "placeholder": {
-          "en": "Cost (e.g. 2 EUR)"
+          "en": "Cost (e.g. 2 EUR)",
+          "de": "Kosten (z.B. 2 EUR)"
         },
         "inline": true
       },
@@ -70611,14 +70633,16 @@
         {
           "if": "charge=2 EUR",
           "then": {
-            "en": "A souvenir note costs 2 euro"
+            "en": "A souvenir note costs 2 euro",
+            "de": "Eine Souvenirnote kostet 2 Euro"
           },
           "hideInAnswer": "_currency!~.*EUR.*"
         },
         {
           "if": "charge=3 EUR",
           "then": {
-            "en": "A souvenir note costs 3 euro"
+            "en": "A souvenir note costs 3 euro",
+            "de": "Eine Souvenirnote kostet 3 Euro"
           },
           "hideInAnswer": "_currency!~.*EUR.*"
         }
@@ -70636,20 +70660,23 @@
     },
     {
       "question": {
-        "en": "Is this machine located indoors?"
+        "en": "Is this machine located indoors?",
+        "de": "Ist diese Maschine im Innenbereich?"
       },
       "id": "souvenir_note_indoor",
       "mappings": [
         {
           "if": "indoor=yes",
           "then": {
-            "en": "This machine is located indoors."
+            "en": "This machine is located indoors.",
+            "de": "Diese Maschine befindet sich im Innenbereich."
           }
         },
         {
           "if": "indoor=no",
           "then": {
-            "en": "This machine is located outdoors."
+            "en": "This machine is located outdoors.",
+            "de": "Diese Maschine befindet sich im Freien."
           }
         }
       ],
@@ -81137,13 +81164,15 @@
     },
     {
       "render": {
-        "en": "This is a {playground}"
+        "en": "This is a {playground}",
+        "de": "Das ist ein {playground}"
       },
       "id": "playground_equipment_type",
       "freeform": {
         "key": "playground",
         "placeholder": {
-          "en": "Type of device"
+          "en": "Type of device",
+          "de": "Art des Geräts"
         },
         "addExtraTags": [
           "fixme=Freeform input used"
@@ -81152,7 +81181,8 @@
       },
       "question": {
         "en": "What kind of device is this?",
-        "nl": "Wat voor speeltoestel is dit?"
+        "nl": "Wat voor speeltoestel is dit?",
+        "de": "Was ist das für ein Gerät?"
       },
       "invalidValues": "playground=yes",
       "mappings": [
@@ -81160,13 +81190,15 @@
           "if": "playground=swing",
           "then": {
             "en": "This is a swing",
-            "nl": "Dit is een schommel"
+            "nl": "Dit is een schommel",
+            "de": "Das ist eine Schaukel"
           }
         },
         {
           "if": "playground=structure",
           "then": {
-            "en": "This is a structure consisting of several connected playground devices"
+            "en": "This is a structure consisting of several connected playground devices",
+            "de": "Dies ist eine Struktur aus mehreren angeschlossenen Spielgeräten"
           },
           "icon": {
             "path": "./assets/layers/playground_equipment/SunwardCohousingPlayStructure2005.jpg",
@@ -81176,14 +81208,16 @@
         {
           "if": "playground=slide",
           "then": {
-            "en": "This is a slide"
+            "en": "This is a slide",
+            "de": "Das ist eine Rutsche"
           }
         },
         {
           "if": "playground=sandpit",
           "then": {
             "en": "This is a sand pit",
-            "nl": "Dit is een zandbak"
+            "nl": "Dit is een zandbak",
+            "de": "Dies ist ein Sandkasten"
           },
           "searchTerms": {
             "en": [
@@ -81199,7 +81233,8 @@
           "if": "playground=springy",
           "then": {
             "en": "This is a spring rider",
-            "nl": "Dit is een veertoestel"
+            "nl": "Dit is een veertoestel",
+            "de": "Dies ist ein Springreiter"
           },
           "searchTerms": {
             "en": [
@@ -81214,7 +81249,8 @@
           "if": "playground=climbingframe",
           "then": {
             "en": "This is a climbing frame",
-            "nl": "Dit is een klimrek"
+            "nl": "Dit is een klimrek",
+            "de": "Dies ist ein Kletterrahmen"
           },
           "searchTerms": {
             "en": [
@@ -81231,7 +81267,8 @@
           "if": "playground=seesaw",
           "then": {
             "en": "This is a seesaw",
-            "nl": "Dit is een wipwap"
+            "nl": "Dit is een wipwap",
+            "de": "Dies ist eine Wippe"
           },
           "searchTerms": {
             "en": [
@@ -81247,7 +81284,8 @@
         {
           "if": "playground=playhouse",
           "then": {
-            "en": "This is a playhouse"
+            "en": "This is a playhouse",
+            "de": "Das ist ein Spielhaus"
           },
           "searchTerms": {
             "en": [
@@ -81262,7 +81300,8 @@
         {
           "if": "playground=roundabout",
           "then": {
-            "en": "This is a roundabout"
+            "en": "This is a roundabout",
+            "de": "Dies ist ein Karussell"
           },
           "searchTerms": {
             "en": [
@@ -81277,7 +81316,8 @@
         {
           "if": "playground=basketswing",
           "then": {
-            "en": "This is a basket swing"
+            "en": "This is a basket swing",
+            "de": "Dies ist eine Korbschaukel"
           },
           "icon": {
             "path": "./assets/layers/playground_equipment/Playground_swing_03.jpg",
@@ -81287,14 +81327,16 @@
         {
           "if": "playground=zipwire",
           "then": {
-            "en": "This is a zip wire"
+            "en": "This is a zip wire",
+            "de": "Dies ist ein Seilzug"
           }
         },
         {
           "if": "playground=horizontal_bar",
           "then": {
             "en": "This is a horizontal bar",
-            "nl": "Dit is een rekstok"
+            "nl": "Dit is een rekstok",
+            "de": "Dies ist ein horizontaler Balken"
           },
           "icon": {
             "path": "./assets/layers/playground_equipment/Rekstok.JPG",
@@ -81304,7 +81346,8 @@
         {
           "if": "playground=hopscotch",
           "then": {
-            "en": "This is a hopscotch"
+            "en": "This is a hopscotch",
+            "de": "Dies ist ein Hüpfspiel"
           },
           "icon": {
             "path": "./assets/layers/playground_equipment/Hinkelbaan_tegels.jpg",
@@ -81314,7 +81357,8 @@
         {
           "if": "playground=splash_pad",
           "then": {
-            "en": "This is a splash pad"
+            "en": "This is a splash pad",
+            "de": "Dies ist ein Planschbecken"
           },
           "searchTerms": {
             "en": "spray pool"
@@ -81327,7 +81371,8 @@
         {
           "if": "playground=climbingwall",
           "then": {
-            "en": "This is a climbing wall"
+            "en": "This is a climbing wall",
+            "de": "Das ist eine Kletterwand"
           },
           "icon": {
             "path": "./assets/layers/playground_equipment/Playground_climbingwall.jpg",
@@ -81337,7 +81382,8 @@
         {
           "if": "playground=map",
           "then": {
-            "en": "This is a map"
+            "en": "This is a map",
+            "de": "Das ist eine Karte"
           },
           "icon": {
             "path": "./assets/layers/playground_equipment/Playground_Map,_Washington_Elementary.jpg",
@@ -81347,7 +81393,8 @@
         {
           "if": "playground=bridge",
           "then": {
-            "en": "This is a bridge (either as a standalone device or as part of a larger structure)"
+            "en": "This is a bridge (either as a standalone device or as part of a larger structure)",
+            "de": "Dies ist eine Brücke (entweder als eigenständiges Gerät oder als Teil einer größeren Struktur)"
           },
           "icon": {
             "path": "./assets/layers/playground_equipment/Playground_in_Muchall_Park,_Wolverhampton_-_geograph.org.uk_-_2735437.jpg",
@@ -81357,7 +81404,8 @@
         {
           "if": "playground=cushion",
           "then": {
-            "en": "This is a bouncy cushion"
+            "en": "This is a bouncy cushion",
+            "de": "Das ist ein Hüpfkissen"
           },
           "icon": {
             "path": "./assets/layers/playground_equipment/Hupfkissen.jpg",
@@ -81367,7 +81415,8 @@
         {
           "if": "playground=activitypanel",
           "then": {
-            "en": "This is an activity panel"
+            "en": "This is an activity panel",
+            "de": "Dies ist ein Aktivitätspanel"
           },
           "icon": {
             "path": "./assets/layers/playground_equipment/Szwedy_-_plac_zabaw_-_kotko_i_krzyzyk.jpg",
@@ -81377,7 +81426,8 @@
         {
           "if": "playground=teenshelter",
           "then": {
-            "en": "This is a teen shelter"
+            "en": "This is a teen shelter",
+            "de": "Dies ist eine Jugendherberge"
           },
           "icon": {
             "path": "./assets/layers/playground_equipment/Teen_shelter_near_former_coastguard_lookout,_Watchet_-_geograph.org.uk_-_1714960.jpg",
@@ -81387,7 +81437,8 @@
         {
           "if": "playground=funnel_ball",
           "then": {
-            "en": "This is a funnel used to play with funnel ball"
+            "en": "This is a funnel used to play with funnel ball",
+            "de": "Dies ist ein Trichter, mit dem man Trichterball spielen kann"
           },
           "icon": {
             "path": "./assets/layers/playground_equipment/Funnel_ball.jpg",
@@ -81397,7 +81448,8 @@
         {
           "if": "playground=spinning_circle",
           "then": {
-            "en": "This is a spinning circle"
+            "en": "This is a spinning circle",
+            "de": "Dies ist ein sich drehender Kreis"
           },
           "icon": {
             "path": "./assets/layers/playground_equipment/Spinning_circle.jpg",
@@ -81422,7 +81474,7 @@
         "en": "Is this device accessible by wheelchair?",
         "pt": "Este lugar é acessível a utilizadores de cadeiras de rodas?",
         "pt_BR": "Este lugar é acessível com uma cadeira de rodas?",
-        "de": "Ist der Ort rollstuhlzugänglich?",
+        "de": "Ist dieses Gerät mit Rollstuhl erreichbar?",
         "fr": "Est-ce que cet endroit est accessible en chaise roulante ?",
         "hu": "Akadálymentes-e ez a hely?",
         "it": "Questo luogo è accessibile con una sedia a rotelle?",
