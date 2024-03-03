@@ -35,7 +35,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 var _this = this;
-var version = "0.0.8-66976ea44da8096fdb42376fd034a96cdd38d5cd";
+var version = "0.0.8-425d61044b02caa9b8c6012c4df86af55d06c227";
 function install() {
     return __awaiter(this, void 0, void 0, function () {
         return __generator(this, function (_a) {
