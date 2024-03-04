@@ -3935,6 +3935,13 @@
             }
         }
     },
+    "memorial": {
+        "tagRenderings": {
+            "start_date": {
+                "render": "Placé le {start_date}"
+            }
+        }
+    },
     "nature_reserve": {
         "tagRenderings": {
             "Curator": {

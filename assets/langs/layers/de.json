@@ -6124,9 +6124,17 @@
             "inscription": {
                 "question": "Wie lautet die Inschrift auf dieser Gedenktafel?",
                 "render": "Die Inschrift auf dieser Gedenktafel lautet: <p><i>{inscription}<i></p>"
+            },
+            "start_date": {
+                "render": "Aufgestellt am {start_date}"
             }
         },
         "title": {
+            "mappings": {
+                "0": {
+                    "then": "Gedenktafel"
+                }
+            },
             "render": "Gedenktafel"
         }
     },
