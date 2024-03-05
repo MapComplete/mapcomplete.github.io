@@ -15351,6 +15351,15 @@
             "ca": "Obert 24/7 (incloent-hi festius)",
             "pl": "Otwarte 24/7 (również w święta)"
           }
+        },
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
         }
       ],
       "condition": {
@@ -17812,6 +17821,15 @@
             "ca": "Obert 24/7 (incloent-hi festius)",
             "pl": "Otwarte 24/7 (również w święta)"
           }
+        },
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
         }
       ],
       "condition": {
@@ -18320,6 +18338,17 @@
         "type": "opening_hours",
         "inline": false
       },
+      "mappings": [
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
+        }
+      ],
       "condition": {
         "or": [
           "amenity=post_office",
@@ -20615,6 +20644,15 @@
             "pl": "Otwarte 24/7 (również w święta)"
           },
           "alsoShowIf": "opening_hours="
+        },
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
         }
       ],
       "condition": {
@@ -22095,6 +22133,17 @@
         "type": "opening_hours",
         "inline": false
       },
+      "mappings": [
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
+        }
+      ],
       "condition": {
         "and": [
           {
@@ -23586,6 +23635,17 @@
         "type": "opening_hours",
         "inline": false
       },
+      "mappings": [
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
+        }
+      ],
       "condition": {
         "and": [
           {
@@ -30334,6 +30394,17 @@
         "type": "opening_hours",
         "inline": false
       },
+      "mappings": [
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
+        }
+      ],
       "condition": {
         "and": [
           {
@@ -35953,6 +36024,15 @@
             "ca": "Obert 24/7 (incloent-hi festius)",
             "pl": "Otwarte 24/7 (również w święta)"
           }
+        },
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
         }
       ],
       "condition": {
@@ -36893,6 +36973,17 @@
         "type": "opening_hours",
         "inline": false
       },
+      "mappings": [
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
+        }
+      ],
       "condition": {
         "and": [
           {
@@ -37081,6 +37172,17 @@
         "type": "opening_hours",
         "inline": false
       },
+      "mappings": [
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
+        }
+      ],
       "condition": {
         "and": [
           {
@@ -61989,6 +62091,17 @@
         "type": "opening_hours",
         "inline": false
       },
+      "mappings": [
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
+        }
+      ],
       "condition": {
         "and": [
           {
@@ -63338,6 +63451,15 @@
             "ca": "Obert 24/7 (incloent-hi festius)",
             "pl": "Otwarte 24/7 (również w święta)"
           }
+        },
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
         }
       ],
       "condition": {
@@ -64532,6 +64654,15 @@
             "ca": "Obert 24/7 (incloent-hi festius)",
             "pl": "Otwarte 24/7 (również w święta)"
           }
+        },
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
         }
       ],
       "questionHint": {
@@ -66097,6 +66228,17 @@
         "type": "opening_hours",
         "inline": false
       },
+      "mappings": [
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
+        }
+      ],
       "condition": {
         "and": [
           {
@@ -66309,6 +66451,17 @@
         "type": "opening_hours",
         "inline": false
       },
+      "mappings": [
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
+        }
+      ],
       "condition": {
         "and": [
           {
@@ -67460,6 +67613,15 @@
             "ca": "Obert 24/7 (incloent-hi festius)",
             "pl": "Otwarte 24/7 (również w święta)"
           }
+        },
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
         }
       ],
       "condition": {
@@ -68449,6 +68611,17 @@
         "type": "opening_hours",
         "inline": false
       },
+      "mappings": [
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
+        }
+      ],
       "condition": {
         "and": [
           {
@@ -69547,6 +69720,17 @@
         "type": "opening_hours",
         "inline": false
       },
+      "mappings": [
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
+        }
+      ],
       "condition": {
         "and": [
           "amenity=childcare",
@@ -69677,6 +69861,15 @@
             "ca": "Obert 24/7 (incloent-hi festius)",
             "pl": "Otwarte 24/7 (również w święta)"
           }
+        },
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
         }
       ],
       "condition": {
@@ -70507,6 +70700,15 @@
             "ca": "Obert 24/7 (incloent-hi festius)",
             "pl": "Otwarte 24/7 (również w święta)"
           }
+        },
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
         }
       ],
       "condition": {
@@ -70754,6 +70956,15 @@
             "ca": "Obert 24/7 (incloent-hi festius)",
             "pl": "Otwarte 24/7 (również w święta)"
           }
+        },
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
         }
       ],
       "condition": {
@@ -71408,6 +71619,17 @@
         "type": "opening_hours",
         "inline": false
       },
+      "mappings": [
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
+        }
+      ],
       "condition": {
         "and": [
           {
@@ -72500,6 +72722,17 @@
         "type": "opening_hours",
         "inline": false
       },
+      "mappings": [
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
+        }
+      ],
       "condition": {
         "and": [
           {
@@ -72948,6 +73181,15 @@
             "ca": "Obert 24/7 (incloent-hi festius)",
             "pl": "Otwarte 24/7 (również w święta)"
           }
+        },
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
         }
       ],
       "condition": {
@@ -74765,18 +75007,20 @@
       },
       "mappings": [
         {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
           "if": "opening_hours=\"by appointment\"",
           "then": {
             "en": "Only by appointment",
-            "de": "Nur nach Vereinbarung",
             "nl": "Alleen op afspraak",
+            "de": "Nur nach Vereinbarung",
             "fr": "Uniquement sur rendez-vous",
             "ca": "Sols amb cita prèvia",
             "es": "Sólo con cita previa",
             "nb_NO": "Kun ved avtale",
             "pl": "Tylko po wcześniejszym umówieniu się",
             "cs": "Pouze po domluvě"
-          }
+          },
+          "hideInAnswer": true
         },
         {
           "if": "opening_hours~i~\"by appointment\"|by appointment",
@@ -74974,6 +75218,17 @@
         "type": "opening_hours",
         "inline": false
       },
+      "mappings": [
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
+        }
+      ],
       "condition": {
         "and": [
           {
@@ -75114,6 +75369,17 @@
         "type": "opening_hours",
         "inline": false
       },
+      "mappings": [
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
+        }
+      ],
       "condition": {
         "and": [
           {
@@ -75757,6 +76023,16 @@
             "pl": "Otwarte 24/7 (również w święta)",
             "_context": "layers:toilet.tagRenderings.opening_hours_24_7.mappings.0.then"
           }
+        },
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur",
+            "_context": "layers:toilet.tagRenderings.opening_hours_24_7.mappings.1.then"
+          },
+          "hideInAnswer": true
         }
       ],
       "condition": {
@@ -79662,6 +79938,17 @@
         "type": "opening_hours",
         "inline": false
       },
+      "mappings": [
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
+        }
+      ],
       "condition": {
         "and": [
           {
@@ -80009,6 +80296,17 @@
         "type": "opening_hours",
         "inline": false
       },
+      "mappings": [
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
+        }
+      ],
       "condition": {
         "and": [
           {
@@ -80515,6 +80813,15 @@
             "ca": "Obert 24/7 (incloent-hi festius)",
             "pl": "Otwarte 24/7 (również w święta)"
           }
+        },
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
         }
       ],
       "condition": {
@@ -80773,6 +81080,15 @@
             "ca": "Obert 24/7 (incloent-hi festius)",
             "pl": "Otwarte 24/7 (również w święta)"
           }
+        },
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
         }
       ],
       "condition": {
@@ -82886,6 +83202,15 @@
             "ca": "Obert 24/7 (incloent-hi festius)",
             "pl": "Otwarte 24/7 (również w święta)"
           }
+        },
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
         }
       ],
       "condition": {
@@ -83191,6 +83516,17 @@
         "type": "opening_hours",
         "inline": false
       },
+      "mappings": [
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
+        }
+      ],
       "condition": {
         "and": [
           {
@@ -84010,6 +84346,17 @@
         "type": "opening_hours",
         "inline": false
       },
+      "mappings": [
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
+        }
+      ],
       "condition": {
         "and": [
           {
@@ -85529,6 +85876,17 @@
         "type": "opening_hours",
         "inline": false
       },
+      "mappings": [
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
+        }
+      ],
       "condition": {
         "and": [
           "toilets:access!=no",
@@ -87191,6 +87549,15 @@
             "ca": "Obert 24/7 (incloent-hi festius)",
             "pl": "Otwarte 24/7 (również w święta)"
           }
+        },
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
         }
       ],
       "condition": {
@@ -87430,6 +87797,17 @@
         "type": "opening_hours",
         "inline": false
       },
+      "mappings": [
+        {
+          "#": "Just here to be able to handle those ~5000 incorrect 'opening_hours=closed' elements.",
+          "if": "opening_hours=closed",
+          "then": {
+            "en": "Marked as closed for an unspecified time",
+            "nl": "Gesloten voor onbepaalde duur"
+          },
+          "hideInAnswer": true
+        }
+      ],
       "condition": {
         "and": [
           {
