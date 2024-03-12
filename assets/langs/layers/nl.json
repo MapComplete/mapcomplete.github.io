@@ -1151,6 +1151,7 @@
             },
             "Capacity": {
                 "question": "Hoeveel fietsen kunnen in deze fietsparking (inclusief potentiëel bakfietsen)?",
+                "questionHint": "Dit is het totaal aantal gewone fietsen, bakfietsen, elektrische fietsen, ...",
                 "render": "Plaats voor {capacity} fietsen"
             },
             "Cargo bike capacity?": {
