@@ -6120,13 +6120,56 @@
         }
     },
     "memorial": {
+        "name": "Denkmäler",
+        "presets": {
+            "0": {
+                "title": "ein Denkmal"
+            }
+        },
         "tagRenderings": {
             "inscription": {
+                "mappings": {
+                    "0": {
+                        "then": "Dieses Denkmal hat keine Inschrift"
+                    }
+                },
                 "question": "Wie lautet die Inschrift auf dieser Gedenktafel?",
                 "render": "Die Inschrift auf dieser Gedenktafel lautet: <p><i>{inscription}<i></p>"
             },
+            "memorial-type": {
+                "mappings": {
+                    "0": {
+                        "then": "Das ist eine Statue"
+                    },
+                    "1": {
+                        "then": "Dies ist eine Gedenktafel"
+                    },
+                    "2": {
+                        "then": "Dies ist eine Gedenkbank"
+                    },
+                    "3": {
+                        "then": "Dies ist ein Geisterrad - ein Fahrrad weiß lackiert, um an einen Radfahrer zu erinnern, der wegen eines Autounfalls verstorben ist"
+                    }
+                },
+                "question": "Was für eine Art von Denkmal ist das?"
+            },
+            "memorial-wikidata": {
+                "question": "Was ist die Wikipedia-Seite über dieses Denkmal?",
+                "questionHint": "Hier geht es um das Denkmal selbst, nicht um die Person oder das Ereignis, an das die Denkmal erinnert. Wenn diese Gedenkstätte keine Wikipedia-Seite oder Wikidata-Entität hat, überspringe diese Frage.",
+                "render": {
+                    "before": "<h3>Wikipedia-Seite über das Denkmal</h3>"
+                }
+            },
             "start_date": {
+                "question": "Wann wurde dieses Denkmal installiert?",
                 "render": "Aufgestellt am {start_date}"
+            },
+            "subject-wikidata": {
+                "question": "Was ist die Wikipedia-Seite über die Person oder Veranstaltung, die hier erinnert wird?",
+                "questionHint": "Wenn die Person oder das Ereignis keine Wikipedia-Seite oder Wikidata-Entität hat, überspringe diese Frage.",
+                "render": {
+                    "before": "<h3>Wikipedia-Seite über das erinnerte Ereignis oder die Person</h3>"
+                }
             }
         },
         "title": {
@@ -7685,6 +7728,11 @@
                 }
             },
             "opening_hours": {
+                "mappings": {
+                    "0": {
+                        "then": "Als geschlossen für eine unbestimmte Zeit markiert"
+                    }
+                },
                 "question": "Wie lauten die Öffnungszeiten von {title()}?",
                 "render": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}"
             },

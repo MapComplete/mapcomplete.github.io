@@ -14,6 +14,15 @@
     <link href="./css/wikipedia.css" rel="stylesheet"/>
     <meta content="website" property="og:type">
 
+    <link rel="preconnect" href="https://api.maptiler.com">
+    <link rel="dns-prefetch" href="https://api.maptiler.com">
+    <link rel="preconnect" href="https://api.openstreetmap.org">
+    <link rel="dns-prefetch" href="https://api.openstreetmap.com">
+    <link rel="preconnect" href="https://www.openstreetmap.org">
+    <link rel="dns-prefetch" href="https://www.openstreetmap.com">
+    <link rel="preconnect" href="https://cache.mapcomplete.org">
+    <link rel="dns-prefetch" href="https://cache.mapcomplete.com">
+
     <!-- THEME-SPECIFIC -->
     <!-- Every theme gets their own html page, this is created by a script; this part will be removed except for the index -->
     <title>MapComplete</title>
@@ -36,36 +45,36 @@
 
     <!-- THEME-SPECIFIC-END-->
 
-  <script type="module" crossorigin src="./assets/theme-640ac4e1.js"></script>
+  <script type="module" crossorigin src="./assets/theme-ca8ab035.js"></script>
   <link rel="modulepreload" crossorigin href="./assets/Utils-45e0ac39.js">
-  <link rel="modulepreload" crossorigin href="./assets/index-a4314705.js">
   <link rel="modulepreload" crossorigin href="./assets/UIEventSource-b2e0ae35.js">
+  <link rel="modulepreload" crossorigin href="./assets/index-8d610534.js">
   <link rel="modulepreload" crossorigin href="./assets/LocalStorageSource-152a04ab.js">
-  <link rel="modulepreload" crossorigin href="./assets/Tr-f3889a5f.js">
-  <link rel="modulepreload" crossorigin href="./assets/_commonjsHelpers-de833af9.js">
-  <link rel="modulepreload" crossorigin href="./assets/tw-merge-2cd9e3ed.js">
-  <link rel="modulepreload" crossorigin href="./assets/Constants-66b06235.js">
-  <link rel="modulepreload" crossorigin href="./assets/SubtleLink-e2b00750.js">
+  <link rel="modulepreload" crossorigin href="./assets/tw-merge-406b9d2a.js">
+  <link rel="modulepreload" crossorigin href="./assets/Constants-20b684f6.js">
+  <link rel="modulepreload" crossorigin href="./assets/FeatureSwitchState-33d9ce0b.js">
+  <link rel="modulepreload" crossorigin href="./assets/_commonjsHelpers-23102255.js">
+  <link rel="modulepreload" crossorigin href="./assets/SubtleLink-6ca847b6.js">
+  <link rel="modulepreload" crossorigin href="./assets/Checkbox-d376c8f1.js">
   <link rel="modulepreload" crossorigin href="./assets/index-44f7831e.js">
-  <link rel="modulepreload" crossorigin href="./assets/Loading-4888c235.js">
-  <link rel="modulepreload" crossorigin href="./assets/OsmConnection-419e8a8f.js">
-  <link rel="modulepreload" crossorigin href="./assets/placeholder-aed0cfa1.js">
-  <link rel="modulepreload" crossorigin href="./assets/Dropdown-0d9db6f0.js">
-  <link rel="modulepreload" crossorigin href="./assets/LanguagePicker-99e74106.js">
-  <link rel="modulepreload" crossorigin href="./assets/Checkbox-95d1bef9.js">
-  <link rel="modulepreload" crossorigin href="./assets/BackButton-b763c3b3.js">
-  <link rel="modulepreload" crossorigin href="./assets/Add-fc09a14b.js">
-  <link rel="modulepreload" crossorigin href="./assets/Login-ebcf4fd9.js">
-  <link rel="modulepreload" crossorigin href="./assets/preload-helper-c216e3ba.js">
-  <link rel="modulepreload" crossorigin href="./assets/FeatureSwitchState-87405268.js">
-  <link rel="modulepreload" crossorigin href="./assets/MvtSource-c54d0bd3.js">
-  <link rel="modulepreload" crossorigin href="./assets/Community-091541a2.js">
-  <link rel="modulepreload" crossorigin href="./assets/Filterview-a8d22b17.js">
-  <link rel="modulepreload" crossorigin href="./assets/PrivacyPolicy-9707167a.js">
-  <link rel="modulepreload" crossorigin href="./assets/ThemeViewGUI-0d2fe59d.js">
-  <link rel="modulepreload" crossorigin href="./assets/questions-fcfcc567.js">
-  <link rel="stylesheet" href="./assets/ThemeViewGUI-8d775733.css">
+  <link rel="modulepreload" crossorigin href="./assets/Loading-0105a63e.js">
+  <link rel="modulepreload" crossorigin href="./assets/OsmConnection-e59ca60f.js">
+  <link rel="modulepreload" crossorigin href="./assets/placeholder-76e564a1.js">
+  <link rel="modulepreload" crossorigin href="./assets/Dropdown-37378ddd.js">
+  <link rel="modulepreload" crossorigin href="./assets/LanguagePicker-e15799d0.js">
+  <link rel="modulepreload" crossorigin href="./assets/BackButton-df937b24.js">
+  <link rel="modulepreload" crossorigin href="./assets/Add-d8a55803.js">
+  <link rel="modulepreload" crossorigin href="./assets/Login-29e6f12c.js">
+  <link rel="modulepreload" crossorigin href="./assets/index-d8df05ab.js">
+  <link rel="modulepreload" crossorigin href="./assets/preload-helper-70b3e3dc.js">
+  <link rel="modulepreload" crossorigin href="./assets/questions-f6efab61.js">
+  <link rel="modulepreload" crossorigin href="./assets/MvtSource-b6afcd24.js">
+  <link rel="modulepreload" crossorigin href="./assets/Community-0b564fff.js">
+  <link rel="modulepreload" crossorigin href="./assets/Filterview-83153702.js">
+  <link rel="modulepreload" crossorigin href="./assets/PrivacyPolicy-106faf65.js">
+  <link rel="modulepreload" crossorigin href="./assets/ThemeViewGUI-6cb345ae.js">
   <link rel="stylesheet" href="./assets/preload-helper-d6f55416.css">
+  <link rel="stylesheet" href="./assets/ThemeViewGUI-8d775733.css">
 </head>
 <body tabindex="-1">
 
@@ -89,12 +98,12 @@
                 </p>
             </div>
 
-            <div class="flex justify-between items-start w-full">
+            <div class="flex justify-between items-end w-full">
                 
             <!-- IMAGE-START -->
-            <img aria-hidden="true" class="p-8 h-32 w-32 self-start" src="./assets/add-ad16ed3c.svg">
+            <img aria-hidden="true" class="p-4 h-32 w-32 self-start" src="./assets/add-ad16ed3c.svg">
             <!-- IMAGE-END -->
-                <div class="h-min subtle"> 
+                <div class="h-min subtle flex flex-col items-end"> 
                 Version
                 </div>
                 

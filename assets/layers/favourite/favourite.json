@@ -15357,7 +15357,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -17827,7 +17828,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -18344,7 +18346,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -20380,9 +20383,9 @@
     },
     {
       "question": {
-        "en": "How many bicycles fit in this bicycle parking (including possible cargo bicycles)?",
+        "en": "How many bicycles fit in this bicycle parking?",
         "fr": "Combien de vélos entrent dans ce parking à vélos (y compris les éventuels vélos de transport) ?",
-        "nl": "Hoeveel fietsen kunnen in deze fietsparking (inclusief potentiëel bakfietsen)?",
+        "nl": "Hoeveel fietsen kunnen in deze fietsparking?",
         "gl": "Cantas bicicletas caben neste aparcadoiro de bicicletas (incluídas as posíbeis bicicletas de carga)?",
         "de": "Wie viele Fahrräder passen auf diesen Fahrrad-Parkplatz (einschließlich möglicher Lastenfahrräder)?",
         "it": "Quante biciclette entrano in questo parcheggio per bici (incluse le eventuali bici cargo)?",
@@ -20654,7 +20657,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -22143,7 +22147,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -23645,7 +23650,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -30404,7 +30410,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -36034,7 +36041,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -36983,7 +36991,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -37182,7 +37191,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -62101,7 +62111,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -63461,7 +63472,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -64664,7 +64676,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -65376,7 +65389,8 @@
             "cs": "Cyklista ji může projet.",
             "ca": "Un ciclista pot passar-hi.",
             "pt_BR": "Um ciclista pode passar por isso.",
-            "pt": "Um ciclista pode passar por isto."
+            "pt": "Um ciclista pode passar por isto.",
+            "zh_Hant": "單車騎士能夠穿越。"
           }
         },
         {
@@ -65392,7 +65406,8 @@
             "cs": "Cyklista tudy nemůže projet.",
             "ca": "Un ciclista no pot passar-hi.",
             "pt_BR": "Um ciclista não pode passar por isso.",
-            "pt": "Um ciclista não pode passar por isst."
+            "pt": "Um ciclista não pode passar por isst.",
+            "zh_Hant": "單車騎士無法穿越。"
           }
         }
       ],
@@ -66238,7 +66253,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -66461,7 +66477,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -67623,7 +67640,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -68621,7 +68639,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -69730,7 +69749,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -69871,7 +69891,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -70710,7 +70731,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -70966,7 +70988,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -71629,7 +71652,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -72732,7 +72756,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -73191,7 +73216,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -75228,7 +75254,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -75379,7 +75406,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -76034,6 +76062,7 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
             "_context": "layers:toilet.tagRenderings.opening_hours_24_7.mappings.1.then"
           },
           "hideInAnswer": true
@@ -77128,13 +77157,15 @@
     {
       "id": "memorial-type",
       "question": {
-        "en": "What type of memorial is this?"
+        "en": "What type of memorial is this?",
+        "de": "Was für eine Art von Denkmal ist das?"
       },
       "mappings": [
         {
           "if": "memorial=statue",
           "then": {
-            "en": "This is a statue"
+            "en": "This is a statue",
+            "de": "Das ist eine Statue"
           },
           "addExtraTags": [
             "tourism=artwork",
@@ -77144,13 +77175,15 @@
         {
           "if": "memorial=plaque",
           "then": {
-            "en": "This is a plaque"
+            "en": "This is a plaque",
+            "de": "Dies ist eine Gedenktafel"
           }
         },
         {
           "if": "memorial=bench",
           "then": {
-            "en": "This is a commemorative bench"
+            "en": "This is a commemorative bench",
+            "de": "Dies ist eine Gedenkbank"
           },
           "addExtraTags": [
             "amenity=bench"
@@ -77159,7 +77192,8 @@
         {
           "if": "memorial=ghost_bike",
           "then": {
-            "en": "This is a ghost bike - a bicycle painted white to remember a cyclist whom deceased because of a car crash"
+            "en": "This is a ghost bike - a bicycle painted white to remember a cyclist whom deceased because of a car crash",
+            "de": "Dies ist ein Geisterrad - ein Fahrrad weiß lackiert, um an einen Radfahrer zu erinnern, der wegen eines Autounfalls verstorben ist"
           }
         }
       ],
@@ -77211,7 +77245,8 @@
         {
           "if": "not:inscription=yes",
           "then": {
-            "en": "This memorial does not have an inscription"
+            "en": "This memorial does not have an inscription",
+            "de": "Dieses Denkmal hat keine Inschrift"
           },
           "addExtraTags": [
             "inscription="
@@ -77227,12 +77262,15 @@
         "inline": false
       },
       "question": {
-        "en": "What is the Wikipedia page about this memorial?"
+        "en": "What is the Wikipedia page about this memorial?",
+        "de": "Was ist die Wikipedia-Seite über dieses Denkmal?"
       },
       "questionHint": {
-        "en": "This is a about the memorial itself, not about the person or event that the memorial remembers. If this memorial does not have a Wikipedia page or Wikidata entity, skip this question."
+        "en": "This is a about the memorial itself, not about the person or event that the memorial remembers. If this memorial does not have a Wikipedia page or Wikidata entity, skip this question.",
+        "de": "Hier geht es um das Denkmal selbst, nicht um die Person oder das Ereignis, an das die Denkmal erinnert. Wenn diese Gedenkstätte keine Wikipedia-Seite oder Wikidata-Entität hat, überspringe diese Frage."
       },
       "render": {
+        "de": "<h3>Wikipedia-Seite über das Denkmal</h3>{wikipedia(wikidata)}",
         "en": "<h3>Wikipedia page about the memorial</h3>{wikipedia(wikidata)}"
       },
       "condition": {
@@ -77255,12 +77293,15 @@
         "inline": false
       },
       "question": {
-        "en": "What is the Wikipedia page about the person or event that is remembered here?"
+        "en": "What is the Wikipedia page about the person or event that is remembered here?",
+        "de": "Was ist die Wikipedia-Seite über die Person oder Veranstaltung, die hier erinnert wird?"
       },
       "questionHint": {
-        "en": "If the person or event does not have a Wikipedia page or Wikidata entity, skip this question."
+        "en": "If the person or event does not have a Wikipedia page or Wikidata entity, skip this question.",
+        "de": "Wenn die Person oder das Ereignis keine Wikipedia-Seite oder Wikidata-Entität hat, überspringe diese Frage."
       },
       "render": {
+        "de": "<h3>Wikipedia-Seite über das erinnerte Ereignis oder die Person</h3>{wikipedia(subject:wikidata)}",
         "en": "<h3>Wikipedia page about the remembered event or person</h3>{wikipedia(subject:wikidata)}"
       },
       "condition": {
@@ -77274,7 +77315,8 @@
     },
     {
       "question": {
-        "en": "When was this memorial installed?"
+        "en": "When was this memorial installed?",
+        "de": "Wann wurde dieses Denkmal installiert?"
       },
       "render": {
         "nl": "Geplaatst op {start_date}",
@@ -79948,7 +79990,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -80306,7 +80349,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -80823,7 +80867,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -81090,7 +81135,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -83212,7 +83258,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -83526,7 +83573,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -84356,7 +84404,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -85886,7 +85935,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -87559,7 +87609,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }
@@ -87807,7 +87858,8 @@
           "if": "opening_hours=closed",
           "then": {
             "en": "Marked as closed for an unspecified time",
-            "nl": "Gesloten voor onbepaalde duur"
+            "nl": "Gesloten voor onbepaalde duur",
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
           },
           "hideInAnswer": true
         }

@@ -1150,7 +1150,7 @@
                 "render": "Dit is een fietsparking van het type: {bicycle_parking}"
             },
             "Capacity": {
-                "question": "Hoeveel fietsen kunnen in deze fietsparking (inclusief potentiëel bakfietsen)?",
+                "question": "Hoeveel fietsen kunnen in deze fietsparking?",
                 "questionHint": "Dit is het totaal aantal gewone fietsen, bakfietsen, elektrische fietsen, ...",
                 "render": "Plaats voor {capacity} fietsen"
             },
