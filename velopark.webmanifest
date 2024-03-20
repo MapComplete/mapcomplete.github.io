@@ -1,6 +1,6 @@
 {
-  "name": "Velopark naar OpenStreetMap sync tool",
-  "short_name": "Velopark naar OpenStreetMap sync tool",
+  "name": "Velopark to OpenStreetMap synchronisation tool",
+  "short_name": "Velopark to OpenStreetMap synchronisation tool",
   "start_url": "velopark.html",
   "lang": "en",
   "display": "standalone",
