@@ -10,7 +10,7 @@
     "ca": "Càmeres de videovigilància",
     "es": "Cámaras de vigilancia",
     "cs": "Bezpečnostní kamery",
-    "sl": "Videonadzorne kamere"
+    "sl": "Nadzorne kamere"
   },
   "description": {
     "en": "This layer shows surveillance cameras and allows a contributor to update information and add new cameras",
@@ -49,7 +49,7 @@
       "da": "Overvågningskamera",
       "es": "Cámara de vigilancia",
       "cs": "Bezpečnostní kamera",
-      "sl": "Videonadzorna kamera"
+      "sl": "Nadzorna kamera"
     }
   },
   "pointRendering": [
@@ -139,7 +139,7 @@
         "fr": "une caméra de surveillance",
         "ca": "una càmera de vigilància",
         "cs": "bezpečnostní kamera",
-        "sl": "videonadzorna kamera"
+        "sl": "nadzorna kamera"
       }
     },
     {
