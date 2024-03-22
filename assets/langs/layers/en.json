@@ -6177,6 +6177,9 @@
                     },
                     "12": {
                         "then": "This is a historic tank, permanently placed in public space as memorial"
+                    },
+                    "13": {
+                        "then": "This is a memorial tree"
                     }
                 },
                 "question": "What type of memorial is this?",
