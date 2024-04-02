@@ -5527,13 +5527,23 @@
         }
       },
       {
-        "if": "advertising~.+",
+        "if": {
+          "and": [
+            "advertising~.+",
+            "advertising!=no"
+          ]
+        },
         "then": {
           "*": "{advertising}"
         }
       },
       {
-        "if": "advertising~.+",
+        "if": {
+          "and": [
+            "advertising~.+",
+            "advertising!=no"
+          ]
+        },
         "then": {
           "*": "{advertising}"
         }
@@ -11544,16 +11554,8 @@
           "amenity=bicycle_rental",
           "amenity=bicycle_library",
           "amenity=binoculars",
-          "amenity=public_bookcase",
-          "amenity=bar",
-          "amenity=pub",
-          "amenity=cafe",
-          "amenity=biergarten",
-          "amenity=nightclub",
-          "amenity=charging_station",
-          "amenity=toilets",
-          "amenity=clock",
           "amenity=bicycle_wash",
+          "amenity=bike_wash",
           "amenity=fire_station",
           "amenity=doctors",
           "amenity=dentist",
@@ -11563,6 +11565,8 @@
           "amenity=love_hotel",
           "amenity=ice_cream",
           "amenity=bench",
+          "amenity=bench",
+          "amenity=toilets",
           "amenity=shelter",
           "amenity=bar",
           "amenity=pub",
@@ -11597,6 +11601,9 @@
           "amenity=biergarten",
           "amenity=nightclub",
           "amenity=charging_station",
+          "amenity=clock",
+          "amenity=dentist",
+          "amenity=doctors",
           "amenity=fire_station",
           "amenity=fast_food",
           "amenity=restaurant",
@@ -11606,16 +11613,31 @@
           "amenity=childcare",
           "amenity=kindergarten",
           "amenity=love_hotel",
-          "amenity=pharmacy",
+          "amenity=toilets",
+          "amenity=trolley_bay",
+          "amenity=veterinary",
+          "amenity=waste_basket",
+          "amenity=waste_disposal",
+          "amenity=veterinary",
+          "amenity=fast_food",
+          "amenity=restaurant",
+          "amenity=waste_basket",
+          "amenity=bench",
           "amenity=post_box",
           "amenity=post_office",
-          "amenity=public_bookcase",
-          "amenity=reception_desk",
+          "amenity=parcel_locker",
+          "amenity=toilets",
+          "amenity=fast_food",
+          "amenity=restaurant",
+          "amenity=binoculars",
+          "amenity=toilets",
+          "amenity=shower",
+          "amenity=bicycle_parking",
+          "amenity=parking",
+          "amenity=waste_basket",
           "amenity=recycling",
-          "amenity=school",
-          "amenity=shelter",
-          "amenity=college",
-          "amenity=university",
+          "amenity=waste_disposal",
+          "amenity=waste_basket",
           "association=cycling",
           "association=bicycle",
           "barrier=wall",
@@ -11624,26 +11646,27 @@
           "barrier=kerb",
           "barrier=wall",
           "barrier=wall",
-          "barrier=wall",
           "barrier=kerb",
           "barrier=wall",
           "barrier=bollard",
           "barrier=cycle_barrier",
           "barrier=kerb",
+          "barrier=wall",
+          "barrier=wall",
           "climbing=route",
-          "club=climbing",
           "club=bicycle",
           "club=cycling",
           "club=climbing",
           "construction:amenity=charging_station",
           "construction:amenity=charging_station",
-          "construction:amenity=charging_station",
+          "cyclestreet=yes",
           "cyclestreet=yes",
           "cyclestreet=yes",
           "cyclestreet=yes",
           "cyclestreet=yes",
           "cycleway=lane",
           "cycleway=shared_lane",
+          "cycleway=track",
           "cycleway=track",
           "cycleway=lane",
           "cycleway=shared_lane",
@@ -11654,7 +11677,9 @@
           "cycleway=lane",
           "cycleway=shared_lane",
           "cycleway=track",
-          "disused:amenity=charging_station",
+          "cycleway=lane",
+          "cycleway=shared_lane",
+          "cycleway=track",
           "disused:amenity=charging_station",
           "disused:amenity=charging_station",
           "emergency=defibrillator",
@@ -11663,9 +11688,13 @@
           "emergency=ambulance_station",
           "emergency=ambulance_station",
           "emergency=assembly_point",
+          "emergency=defibrillator",
+          "emergency=disaster_response",
           "emergency=fire_extinguisher",
           "emergency=fire_hydrant",
           "emergency=mountain_rescue",
+          "emergency=mountain_rescue",
+          "generator:source=wind",
           "generator:source=wind",
           "healthcare=physiotherapist",
           "highway=cycleway",
@@ -11687,6 +11716,23 @@
               "highway=path"
             ]
           },
+          "amenity=public_bookcase",
+          "amenity=bar",
+          "amenity=pub",
+          "amenity=cafe",
+          "amenity=biergarten",
+          "amenity=nightclub",
+          "amenity=charging_station",
+          "amenity=toilets",
+          "amenity=clock",
+          "barrier=wall",
+          "climbing=route",
+          "club=climbing",
+          "construction:amenity=charging_station",
+          "cyclestreet=yes",
+          "cycleway=lane",
+          "cycleway=shared_lane",
+          "disused:amenity=charging_station",
           "highway=traffic_signals",
           "highway=crossing",
           "highway=bus_stop",
@@ -11731,7 +11777,6 @@
             ]
           },
           "amenity=bicycle_repair_station",
-          "amenity=bike_wash",
           "amenity=bicycle_rental",
           "amenity=bicycle_library",
           "amenity=bicycle_parking",
@@ -11777,8 +11822,6 @@
               "highway=path"
             ]
           },
-          "amenity=bench",
-          "amenity=toilets",
           "barrier=kerb",
           "highway=speed_camera",
           "highway=speed_display",
@@ -11796,6 +11839,53 @@
           "highway=pedestrian",
           "highway=living_street",
           "highway=elevator",
+          "highway=traffic_signals",
+          "highway=crossing",
+          "highway=cycleway",
+          "highway=residential",
+          "highway=tertiary",
+          "highway=unclassified",
+          "highway=primary",
+          "highway=secondary",
+          "highway=tertiary_link",
+          "highway=primary_link",
+          "highway=secondary_link",
+          "highway=service",
+          "highway=footway",
+          "highway=pedestrian",
+          "highway=living_street",
+          {
+            "and": [
+              "bicycle=designated",
+              "highway=path"
+            ]
+          },
+          "highway=bus_stop",
+          "highway=crossing",
+          "highway=cycleway",
+          "highway=residential",
+          "highway=tertiary",
+          "highway=unclassified",
+          "highway=primary",
+          "highway=secondary",
+          "highway=tertiary_link",
+          "highway=primary_link",
+          "highway=secondary_link",
+          "highway=service",
+          "highway=footway",
+          "highway=pedestrian",
+          "highway=living_street",
+          {
+            "and": [
+              "bicycle=designated",
+              "highway=path"
+            ]
+          },
+          "amenity=pharmacy",
+          "amenity=ice_cream",
+          "amenity=trolley_bay",
+          "highway=street_lamp",
+          "highway=bus_stop",
           "historic=memorial",
           "historic=memorial",
           "indoor=room",
@@ -11810,6 +11900,7 @@
           "indoor=door",
           "indoor=level",
           "indoor=door",
+          "indoor=door",
           "indoor=room",
           "indoor=area",
           "indoor=wall",
@@ -11823,6 +11914,9 @@
           "information=guidepost",
           "information=board",
           "information=map",
+          "information=guidepost",
+          "information=map",
+          "information=board",
           "isced:level:2011=early_childhood",
           "isced:level:2011=early_childhood",
           "leisure=picnic_table",
@@ -11830,13 +11924,22 @@
           "leisure=bird_hide",
           "leisure=nature_reserve",
           "leisure=bird_hide",
+          "leisure=dog_park",
           "leisure=fitness_centre",
           "leisure=fitness_station",
           "leisure=hackerspace",
           "leisure=nature_reserve",
+          "leisure=dog_park",
+          "leisure=picnic_table",
+          "leisure=pitch",
+          "leisure=pitch",
+          "leisure=fitness_centre",
+          "leisure=fitness_station",
+          "leisure=sports_centre",
           "memorial=ghost_bike",
           "memorial=ghost_bike",
           "memorial=ghost_bike",
+          "natural=tree",
           "ngo=cycling",
           "ngo=bicycle",
           "ngo=cycling",
@@ -11917,6 +12020,7 @@
             ]
           },
           "sport=cycling",
+          "surface:colour=rainbow",
           "theme=bicycle",
           "theme=cycling",
           {
@@ -11930,38 +12034,6 @@
               }
             ]
           },
-          "amenity=clock",
-          "amenity=dentist",
-          "amenity=doctors",
-          "climbing=route",
-          "cyclestreet=yes",
-          "cycleway=lane",
-          "cycleway=shared_lane",
-          "cycleway=track",
-          "emergency=defibrillator",
-          "emergency=disaster_response",
-          "highway=traffic_signals",
-          "highway=crossing",
-          "highway=cycleway",
-          "highway=residential",
-          "highway=tertiary",
-          "highway=unclassified",
-          "highway=primary",
-          "highway=secondary",
-          "highway=tertiary_link",
-          "highway=primary_link",
-          "highway=secondary_link",
-          "highway=service",
-          "highway=footway",
-          "highway=pedestrian",
-          "highway=living_street",
-          {
-            "and": [
-              "bicycle=designated",
-              "highway=path"
-            ]
-          },
-          "leisure=dog_park",
           {
             "and": [
               "dog=unleashed",
@@ -11969,7 +12041,7 @@
             ]
           },
           "highway=elevator",
-          "indoor=door",
+          "toilets=yes",
           "tourism=hotel",
           "tourism=map",
           {
@@ -11979,6 +12051,16 @@
             ]
           },
           "amenity=parcel_locker",
+          "amenity=pharmacy",
+          "amenity=post_box",
+          "amenity=post_office",
+          "amenity=public_bookcase",
+          "amenity=reception_desk",
+          "amenity=recycling",
+          "amenity=school",
+          "amenity=shelter",
+          "amenity=college",
+          "amenity=university",
           "highway=crossing",
           "highway=steps",
           "highway=street_lamp",
@@ -11994,6 +12076,8 @@
           "amenity=parking_space",
           "amenity=shower",
           "healthcare=physiotherapist",
+          "highway=speed_camera",
+          "highway=speed_display",
           "leisure=pitch",
           "leisure=sports_centre",
           "post_office=post_partner",
@@ -12004,8 +12088,6 @@
               "highway=footway"
             ]
           },
-          "highway=speed_camera",
-          "highway=speed_display",
           {
             "and": [
               "amenity=school",
@@ -12017,59 +12099,6 @@
               }
             ]
           },
-          "amenity=toilets",
-          "amenity=trolley_bay",
-          "amenity=veterinary",
-          "amenity=waste_basket",
-          "amenity=waste_disposal",
-          "amenity=veterinary",
-          "amenity=fast_food",
-          "amenity=restaurant",
-          "amenity=waste_basket",
-          "amenity=bench",
-          "amenity=post_box",
-          "amenity=post_office",
-          "amenity=parcel_locker",
-          "amenity=toilets",
-          "amenity=fast_food",
-          "amenity=restaurant",
-          "amenity=binoculars",
-          "amenity=toilets",
-          "amenity=shower",
-          "amenity=bicycle_parking",
-          "amenity=parking",
-          "amenity=waste_basket",
-          "amenity=recycling",
-          "amenity=waste_disposal",
-          "amenity=waste_basket",
-          "barrier=wall",
-          "barrier=wall",
-          "cyclestreet=yes",
-          "cycleway=lane",
-          "cycleway=shared_lane",
-          "cycleway=track",
-          "emergency=mountain_rescue",
-          "generator:source=wind",
-          "highway=bus_stop",
-          "highway=crossing",
-          "highway=cycleway",
-          "highway=residential",
-          "highway=tertiary",
-          "highway=unclassified",
-          "highway=primary",
-          "highway=secondary",
-          "highway=tertiary_link",
-          "highway=primary_link",
-          "highway=secondary_link",
-          "highway=service",
-          "highway=footway",
-          "highway=pedestrian",
-          "highway=living_street",
-          "leisure=dog_park",
-          "leisure=picnic_table",
-          "natural=tree",
-          "surface:colour=rainbow",
-          "toilets=yes",
           "tourism=viewpoint",
           {
             "and": [
@@ -12090,31 +12119,18 @@
               "highway=footway"
             ]
           },
-          {
-            "and": [
-              "bicycle=designated",
-              "highway=path"
-            ]
-          },
-          "amenity=pharmacy",
-          "amenity=ice_cream",
-          "amenity=trolley_bay",
-          "highway=street_lamp",
-          "highway=bus_stop",
-          "information=guidepost",
-          "information=map",
-          "information=board",
-          "leisure=pitch",
-          "leisure=pitch",
-          "leisure=fitness_centre",
-          "leisure=fitness_station",
-          "leisure=sports_centre",
           "natural=tree",
           "toilets=yes",
           "tourism=map",
           "tourism=viewpoint",
           {
             "and": [
+              "advertising~.+",
+              "advertising!=no"
+            ]
+          },
+          {
+            "and": [
               "sport=climbing",
               "climbing!~route",
               "climbing!=route_top",
@@ -12271,6 +12287,12 @@
             "and": [
               "vending=parking_tickets",
               "amenity=vending_machine"
+            ]
+          },
+          {
+            "and": [
+              "advertising~.+",
+              "advertising!=no"
             ]
           },
           {
@@ -12539,8 +12561,6 @@
           },
           "FIXME~.+",
           "FIXME~.+",
-          "advertising~.+",
-          "advertising~.+",
           "bicycle_rental~.+",
           "bicycle_rental~.+",
           "bicycle_rental~.+",
@@ -12597,16 +12617,8 @@
           "amenity=bicycle_rental",
           "amenity=bicycle_library",
           "amenity=binoculars",
-          "amenity=public_bookcase",
-          "amenity=bar",
-          "amenity=pub",
-          "amenity=cafe",
-          "amenity=biergarten",
-          "amenity=nightclub",
-          "amenity=charging_station",
-          "amenity=toilets",
-          "amenity=clock",
           "amenity=bicycle_wash",
+          "amenity=bike_wash",
           "amenity=fire_station",
           "amenity=doctors",
           "amenity=dentist",
@@ -12616,6 +12628,8 @@
           "amenity=love_hotel",
           "amenity=ice_cream",
           "amenity=bench",
+          "amenity=bench",
+          "amenity=toilets",
           "amenity=shelter",
           "amenity=bar",
           "amenity=pub",
@@ -12650,6 +12664,9 @@
           "amenity=biergarten",
           "amenity=nightclub",
           "amenity=charging_station",
+          "amenity=clock",
+          "amenity=dentist",
+          "amenity=doctors",
           "amenity=fire_station",
           "amenity=fast_food",
           "amenity=restaurant",
@@ -12659,16 +12676,31 @@
           "amenity=childcare",
           "amenity=kindergarten",
           "amenity=love_hotel",
-          "amenity=pharmacy",
+          "amenity=toilets",
+          "amenity=trolley_bay",
+          "amenity=veterinary",
+          "amenity=waste_basket",
+          "amenity=waste_disposal",
+          "amenity=veterinary",
+          "amenity=fast_food",
+          "amenity=restaurant",
+          "amenity=waste_basket",
+          "amenity=bench",
           "amenity=post_box",
           "amenity=post_office",
-          "amenity=public_bookcase",
-          "amenity=reception_desk",
+          "amenity=parcel_locker",
+          "amenity=toilets",
+          "amenity=fast_food",
+          "amenity=restaurant",
+          "amenity=binoculars",
+          "amenity=toilets",
+          "amenity=shower",
+          "amenity=bicycle_parking",
+          "amenity=parking",
+          "amenity=waste_basket",
           "amenity=recycling",
-          "amenity=school",
-          "amenity=shelter",
-          "amenity=college",
-          "amenity=university",
+          "amenity=waste_disposal",
+          "amenity=waste_basket",
           "association=cycling",
           "association=bicycle",
           "barrier=wall",
@@ -12677,26 +12709,27 @@
           "barrier=kerb",
           "barrier=wall",
           "barrier=wall",
-          "barrier=wall",
           "barrier=kerb",
           "barrier=wall",
           "barrier=bollard",
           "barrier=cycle_barrier",
           "barrier=kerb",
+          "barrier=wall",
+          "barrier=wall",
           "climbing=route",
-          "club=climbing",
           "club=bicycle",
           "club=cycling",
           "club=climbing",
           "construction:amenity=charging_station",
           "construction:amenity=charging_station",
-          "construction:amenity=charging_station",
+          "cyclestreet=yes",
           "cyclestreet=yes",
           "cyclestreet=yes",
           "cyclestreet=yes",
           "cyclestreet=yes",
           "cycleway=lane",
           "cycleway=shared_lane",
+          "cycleway=track",
           "cycleway=track",
           "cycleway=lane",
           "cycleway=shared_lane",
@@ -12707,7 +12740,9 @@
           "cycleway=lane",
           "cycleway=shared_lane",
           "cycleway=track",
-          "disused:amenity=charging_station",
+          "cycleway=lane",
+          "cycleway=shared_lane",
+          "cycleway=track",
           "disused:amenity=charging_station",
           "disused:amenity=charging_station",
           "emergency=defibrillator",
@@ -12716,9 +12751,13 @@
           "emergency=ambulance_station",
           "emergency=ambulance_station",
           "emergency=assembly_point",
+          "emergency=defibrillator",
+          "emergency=disaster_response",
           "emergency=fire_extinguisher",
           "emergency=fire_hydrant",
           "emergency=mountain_rescue",
+          "emergency=mountain_rescue",
+          "generator:source=wind",
           "generator:source=wind",
           "healthcare=physiotherapist",
           "highway=cycleway",
@@ -12740,6 +12779,23 @@
               "highway=path"
             ]
           },
+          "amenity=public_bookcase",
+          "amenity=bar",
+          "amenity=pub",
+          "amenity=cafe",
+          "amenity=biergarten",
+          "amenity=nightclub",
+          "amenity=charging_station",
+          "amenity=toilets",
+          "amenity=clock",
+          "barrier=wall",
+          "climbing=route",
+          "club=climbing",
+          "construction:amenity=charging_station",
+          "cyclestreet=yes",
+          "cycleway=lane",
+          "cycleway=shared_lane",
+          "disused:amenity=charging_station",
           "highway=traffic_signals",
           "highway=crossing",
           "highway=bus_stop",
@@ -12784,7 +12840,6 @@
             ]
           },
           "amenity=bicycle_repair_station",
-          "amenity=bike_wash",
           "amenity=bicycle_rental",
           "amenity=bicycle_library",
           "amenity=bicycle_parking",
@@ -12830,8 +12885,6 @@
               "highway=path"
             ]
           },
-          "amenity=bench",
-          "amenity=toilets",
           "barrier=kerb",
           "highway=speed_camera",
           "highway=speed_display",
@@ -12849,6 +12902,53 @@
           "highway=pedestrian",
           "highway=living_street",
           "highway=elevator",
+          "highway=traffic_signals",
+          "highway=crossing",
+          "highway=cycleway",
+          "highway=residential",
+          "highway=tertiary",
+          "highway=unclassified",
+          "highway=primary",
+          "highway=secondary",
+          "highway=tertiary_link",
+          "highway=primary_link",
+          "highway=secondary_link",
+          "highway=service",
+          "highway=footway",
+          "highway=pedestrian",
+          "highway=living_street",
+          {
+            "and": [
+              "bicycle=designated",
+              "highway=path"
+            ]
+          },
+          "highway=bus_stop",
+          "highway=crossing",
+          "highway=cycleway",
+          "highway=residential",
+          "highway=tertiary",
+          "highway=unclassified",
+          "highway=primary",
+          "highway=secondary",
+          "highway=tertiary_link",
+          "highway=primary_link",
+          "highway=secondary_link",
+          "highway=service",
+          "highway=footway",
+          "highway=pedestrian",
+          "highway=living_street",
+          {
+            "and": [
+              "bicycle=designated",
+              "highway=path"
+            ]
+          },
+          "amenity=pharmacy",
+          "amenity=ice_cream",
+          "amenity=trolley_bay",
+          "highway=street_lamp",
+          "highway=bus_stop",
           "historic=memorial",
           "historic=memorial",
           "indoor=room",
@@ -12863,6 +12963,7 @@
           "indoor=door",
           "indoor=level",
           "indoor=door",
+          "indoor=door",
           "indoor=room",
           "indoor=area",
           "indoor=wall",
@@ -12876,6 +12977,9 @@
           "information=guidepost",
           "information=board",
           "information=map",
+          "information=guidepost",
+          "information=map",
+          "information=board",
           "isced:level:2011=early_childhood",
           "isced:level:2011=early_childhood",
           "leisure=picnic_table",
@@ -12883,13 +12987,22 @@
           "leisure=bird_hide",
           "leisure=nature_reserve",
           "leisure=bird_hide",
+          "leisure=dog_park",
           "leisure=fitness_centre",
           "leisure=fitness_station",
           "leisure=hackerspace",
           "leisure=nature_reserve",
+          "leisure=dog_park",
+          "leisure=picnic_table",
+          "leisure=pitch",
+          "leisure=pitch",
+          "leisure=fitness_centre",
+          "leisure=fitness_station",
+          "leisure=sports_centre",
           "memorial=ghost_bike",
           "memorial=ghost_bike",
           "memorial=ghost_bike",
+          "natural=tree",
           "ngo=cycling",
           "ngo=bicycle",
           "ngo=cycling",
@@ -12970,6 +13083,7 @@
             ]
           },
           "sport=cycling",
+          "surface:colour=rainbow",
           "theme=bicycle",
           "theme=cycling",
           {
@@ -12983,38 +13097,6 @@
               }
             ]
           },
-          "amenity=clock",
-          "amenity=dentist",
-          "amenity=doctors",
-          "climbing=route",
-          "cyclestreet=yes",
-          "cycleway=lane",
-          "cycleway=shared_lane",
-          "cycleway=track",
-          "emergency=defibrillator",
-          "emergency=disaster_response",
-          "highway=traffic_signals",
-          "highway=crossing",
-          "highway=cycleway",
-          "highway=residential",
-          "highway=tertiary",
-          "highway=unclassified",
-          "highway=primary",
-          "highway=secondary",
-          "highway=tertiary_link",
-          "highway=primary_link",
-          "highway=secondary_link",
-          "highway=service",
-          "highway=footway",
-          "highway=pedestrian",
-          "highway=living_street",
-          {
-            "and": [
-              "bicycle=designated",
-              "highway=path"
-            ]
-          },
-          "leisure=dog_park",
           {
             "and": [
               "dog=unleashed",
@@ -13022,7 +13104,7 @@
             ]
           },
           "highway=elevator",
-          "indoor=door",
+          "toilets=yes",
           "tourism=hotel",
           "tourism=map",
           {
@@ -13032,6 +13114,16 @@
             ]
           },
           "amenity=parcel_locker",
+          "amenity=pharmacy",
+          "amenity=post_box",
+          "amenity=post_office",
+          "amenity=public_bookcase",
+          "amenity=reception_desk",
+          "amenity=recycling",
+          "amenity=school",
+          "amenity=shelter",
+          "amenity=college",
+          "amenity=university",
           "highway=crossing",
           "highway=steps",
           "highway=street_lamp",
@@ -13047,6 +13139,8 @@
           "amenity=parking_space",
           "amenity=shower",
           "healthcare=physiotherapist",
+          "highway=speed_camera",
+          "highway=speed_display",
           "leisure=pitch",
           "leisure=sports_centre",
           "post_office=post_partner",
@@ -13057,8 +13151,6 @@
               "highway=footway"
             ]
           },
-          "highway=speed_camera",
-          "highway=speed_display",
           {
             "and": [
               "amenity=school",
@@ -13070,59 +13162,6 @@
               }
             ]
           },
-          "amenity=toilets",
-          "amenity=trolley_bay",
-          "amenity=veterinary",
-          "amenity=waste_basket",
-          "amenity=waste_disposal",
-          "amenity=veterinary",
-          "amenity=fast_food",
-          "amenity=restaurant",
-          "amenity=waste_basket",
-          "amenity=bench",
-          "amenity=post_box",
-          "amenity=post_office",
-          "amenity=parcel_locker",
-          "amenity=toilets",
-          "amenity=fast_food",
-          "amenity=restaurant",
-          "amenity=binoculars",
-          "amenity=toilets",
-          "amenity=shower",
-          "amenity=bicycle_parking",
-          "amenity=parking",
-          "amenity=waste_basket",
-          "amenity=recycling",
-          "amenity=waste_disposal",
-          "amenity=waste_basket",
-          "barrier=wall",
-          "barrier=wall",
-          "cyclestreet=yes",
-          "cycleway=lane",
-          "cycleway=shared_lane",
-          "cycleway=track",
-          "emergency=mountain_rescue",
-          "generator:source=wind",
-          "highway=bus_stop",
-          "highway=crossing",
-          "highway=cycleway",
-          "highway=residential",
-          "highway=tertiary",
-          "highway=unclassified",
-          "highway=primary",
-          "highway=secondary",
-          "highway=tertiary_link",
-          "highway=primary_link",
-          "highway=secondary_link",
-          "highway=service",
-          "highway=footway",
-          "highway=pedestrian",
-          "highway=living_street",
-          "leisure=dog_park",
-          "leisure=picnic_table",
-          "natural=tree",
-          "surface:colour=rainbow",
-          "toilets=yes",
           "tourism=viewpoint",
           {
             "and": [
@@ -13143,31 +13182,18 @@
               "highway=footway"
             ]
           },
-          {
-            "and": [
-              "bicycle=designated",
-              "highway=path"
-            ]
-          },
-          "amenity=pharmacy",
-          "amenity=ice_cream",
-          "amenity=trolley_bay",
-          "highway=street_lamp",
-          "highway=bus_stop",
-          "information=guidepost",
-          "information=map",
-          "information=board",
-          "leisure=pitch",
-          "leisure=pitch",
-          "leisure=fitness_centre",
-          "leisure=fitness_station",
-          "leisure=sports_centre",
           "natural=tree",
           "toilets=yes",
           "tourism=map",
           "tourism=viewpoint",
           {
             "and": [
+              "advertising~.+",
+              "advertising!=no"
+            ]
+          },
+          {
+            "and": [
               "sport=climbing",
               "climbing!~route",
               "climbing!=route_top",
@@ -13324,6 +13350,12 @@
             "and": [
               "vending=parking_tickets",
               "amenity=vending_machine"
+            ]
+          },
+          {
+            "and": [
+              "advertising~.+",
+              "advertising!=no"
             ]
           },
           {
@@ -13592,8 +13624,6 @@
           },
           "FIXME~.+",
           "FIXME~.+",
-          "advertising~.+",
-          "advertising~.+",
           "bicycle_rental~.+",
           "bicycle_rental~.+",
           "bicycle_rental~.+",
@@ -13920,9 +13950,9 @@
         }
       ],
       "condition": {
-        "or": [
+        "and": [
           "advertising~.+",
-          "advertising~.+"
+          "advertising!=no"
         ]
       }
     },
@@ -13948,7 +13978,8 @@
           "advertising!=flag",
           "advertising!=sign",
           "advertising!=board",
-          "advertising~.+"
+          "advertising~.+",
+          "advertising!=no"
         ]
       },
       "mappings": [
@@ -14155,7 +14186,8 @@
       "condition": {
         "and": [
           "advertising!=screen",
-          "advertising~.+"
+          "advertising~.+",
+          "advertising!=no"
         ]
       }
     },
@@ -14195,9 +14227,9 @@
         "inline": true
       },
       "condition": {
-        "or": [
+        "and": [
           "advertising~.+",
-          "advertising~.+"
+          "advertising!=no"
         ]
       }
     },
@@ -14415,9 +14447,9 @@
       ],
       "multiAnswer": true,
       "condition": {
-        "or": [
+        "and": [
           "advertising~.+",
-          "advertising~.+"
+          "advertising!=no"
         ]
       }
     },
@@ -14433,7 +14465,8 @@
               "advertising=billboard"
             ]
           },
-          "advertising~.+"
+          "advertising~.+",
+          "advertising!=no"
         ]
       },
       "question": {
@@ -14520,7 +14553,8 @@
       "condition": {
         "and": [
           "advertising!=sign",
-          "advertising~.+"
+          "advertising~.+",
+          "advertising!=no"
         ]
       }
     },
