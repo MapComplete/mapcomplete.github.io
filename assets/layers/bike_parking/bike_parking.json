@@ -788,7 +788,7 @@
         {
           "if": "cargo_bike=no",
           "then": {
-            "en": "You're not allowed to park cargo bikes",
+            "en": "You're not allowed to park cargo bikes or there are no places provided for cargo bikes",
             "nl": "Je mag hier geen bakfietsen parkeren",
             "gl": "Non está permitido aparcar bicicletas de carga",
             "de": "Der Parkplatz bietet keine Stellflächen für Lastenfahrräder",

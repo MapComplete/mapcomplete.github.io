@@ -3,7 +3,7 @@
   "name": {
     "ca": "Publicitat",
     "es": "Publicidad",
-    "en": "Advertise",
+    "en": "Advertisement",
     "de": "Werbeeinrichtungen",
     "cs": "Reklama",
     "nl": "Reclame",
@@ -707,7 +707,7 @@
       "title": {
         "ca": "un lletrer",
         "es": "un señal",
-        "en": "a sign",
+        "en": "a sign mounted on a wall",
         "de": "ein Schild",
         "cs": "cedule",
         "fr": "une enseigne",

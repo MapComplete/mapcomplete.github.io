@@ -5906,7 +5906,8 @@
           "pl": "Bankomat",
           "pt_BR": "Caixa eletrônico",
           "es": "Cajero automático",
-          "pt": "Multibanco"
+          "pt": "Multibanco",
+          "sl": "Bankomat"
         }
       },
       {
@@ -5946,7 +5947,8 @@
           "pl": "Bankomat",
           "pt_BR": "Caixa eletrônico",
           "es": "Cajero automático",
-          "pt": "Multibanco"
+          "pt": "Multibanco",
+          "sl": "Bankomat"
         }
       },
       {
@@ -17789,7 +17791,8 @@
         "pl": "Ten bankomat jest obsługiwany przez {operator}",
         "pt_BR": "O caixa eletrônico é operado por {operator}",
         "es": "El cajero es de {operator}",
-        "pt": "O multibanco é operado por {operator}"
+        "pt": "O multibanco é operado por {operator}",
+        "sl": "Ta bankomat upravlja {operator}"
       }
     },
     {
@@ -20847,7 +20850,7 @@
         {
           "if": "cargo_bike=no",
           "then": {
-            "en": "You're not allowed to park cargo bikes",
+            "en": "You're not allowed to park cargo bikes or there are no places provided for cargo bikes",
             "nl": "Je mag hier geen bakfietsen parkeren",
             "gl": "Non está permitido aparcar bicicletas de carga",
             "de": "Der Parkplatz bietet keine Stellflächen für Lastenfahrräder",

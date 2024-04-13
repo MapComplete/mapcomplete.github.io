@@ -26,7 +26,7 @@
     },
     "advertising": {
         "description": "We will complete data from advertising features with reference, operator and lit",
-        "name": "Advertise",
+        "name": "Advertisement",
         "presets": {
             "0": {
                 "description": "A large outdoor advertising structure, typically found in high-traffic areas such as alongside busy roads",
@@ -64,7 +64,7 @@
             },
             "10": {
                 "description": "Used for advertising signs, neon signs, logos & institutional entrance signs",
-                "title": "a sign"
+                "title": "a sign mounted on a wall"
             },
             "11": {
                 "title": "a sculpture"
@@ -1428,7 +1428,7 @@
                         "then": "This parking has designated (official) spots for cargo bikes."
                     },
                     "2": {
-                        "then": "You're not allowed to park cargo bikes"
+                        "then": "You're not allowed to park cargo bikes or there are no places provided for cargo bikes"
                     }
                 },
                 "question": "Does this bicycle parking have spots for cargo bikes?"
