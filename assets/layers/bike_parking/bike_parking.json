@@ -330,6 +330,13 @@
             "pt_BR": "Uma área no chão que é marcada para o estacionamento de bicicletas",
             "pt": "Uma área no chão que é marcada para o estacionamento de bicicletas"
           }
+        },
+        {
+          "if": "bicycle_parking=lockers",
+          "then": {
+            "en": "A locker - the bicycles are enclosed completely individually or with a few bicycles together. The locker is too small to fit a person standing..",
+            "nl": "Een fietskluis waar één of enkele fietsen staan en op slot kan en die te klein is om in recht te staan."
+          }
         }
       ],
       "id": "Bicycle parking type"
@@ -621,6 +628,23 @@
           }
         },
         {
+          "if": "access=members",
+          "then": {
+            "en": "Access is limited to members of a school, company or organisation",
+            "nl": "Private fietsenstalling van een school, een bedrijf, ...",
+            "ca": "L'accés està limitat a membres d'una escola, companyia o organització",
+            "cs": "Přístup je omezen na členy školy, společnosti nebo organizace",
+            "da": "Adgangen er begrænset til medlemmer af en skole, virksomhed eller organisation",
+            "de": "Der Parkplatz darf nur von Mitgliedern einer Schule, Firma oder Organisation genutzt werden",
+            "es": "El acceso se limita a miembros de una escuela, compañía u organización",
+            "fr": "Accès limité aux membres d'une école, entreprise ou organisation",
+            "it": "Accesso limitato ai membri di una scuola, una compagnia o un’organizzazione",
+            "pt": "Acesso é limitado aos membros de uma escola, companhia ou organização",
+            "pt_BR": "Acesso é limitado aos membros de uma escola, companhia ou organização",
+            "zh_Hant": "通行性僅限學校、公司或組織的成員"
+          }
+        },
+        {
           "if": "access=private",
           "then": {
             "en": "Access is limited to members of a school, company or organisation",
@@ -733,6 +757,41 @@
       ]
     },
     {
+      "id": "operator_website",
+      "question": {
+        "en": "What is the website number of the operator of this bicycle parking?",
+        "nl": "Wat is de website van de operator van deze fietsenstalling?"
+      },
+      "icon": "./assets/layers/icons/website.svg",
+      "freeform": {
+        "key": "operator:website",
+        "type": "url",
+        "addExtraTags": [
+          "website=",
+          "contact:website="
+        ]
+      },
+      "render": "<a href='{operator:website}'>{operator:website}</a>",
+      "mappings": [
+        {
+          "if": "website~*",
+          "hideInAnswer": true,
+          "then": {
+            "*": "<a href='{website}'>{website}</a>"
+          },
+          "icon": "./assets/layers/icons/website.svg"
+        },
+        {
+          "if": "contact:website~*",
+          "hideInAnswer": true,
+          "then": {
+            "*": "<a href='{contact:website}'>{contact:website}</a>"
+          },
+          "icon": "./assets/layers/icons/website.svg"
+        }
+      ]
+    },
+    {
       "question": {
         "en": "Does this bicycle parking have spots for cargo bikes?",
         "nl": "Heeft deze fietsparking plaats voor bakfietsen?",
@@ -834,11 +893,29 @@
         "cs": "Toto parkoviště je vhodné pro {capacity:cargo_bike} nákladních kol",
         "ca": "A aquest aparcament caben {capacity:cargo_bike} bicicletes de càrrega"
       },
-      "condition": "cargo_bike~designated|yes",
+      "condition": {
+        "or": [
+          "capacity:cargo_bike~*",
+          "cargo_bike~designated|yes"
+        ]
+      },
       "freeform": {
         "key": "capacity:cargo_bike",
         "type": "nat"
       },
+      "mappings": [
+        {
+          "if": "cargo_bike=no",
+          "then": {
+            "en": "There are no dedicated spaces for cargo bikes here or parking cargo bikes here is not allowed",
+            "nl": "Hier zijn geen plaatsen voor bakfietsen voorzien of bakfietsen stallen is niet toegestaan "
+          },
+          "hideInAnswer": "capacity:cargo_bike=",
+          "addExtraTags": [
+            "capacity:cargo_bike="
+          ]
+        }
+      ],
       "id": "Cargo bike capacity?"
     }
   ],

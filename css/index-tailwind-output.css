@@ -1076,12 +1076,12 @@ video {
   height: 6rem;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .h-screen {
   height: 100vh;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .h-32 {
@@ -1478,6 +1478,10 @@ video {
 .gap-x-2 {
   -webkit-column-gap: 0.5rem;
           column-gap: 0.5rem;
+}
+
+.gap-y-8 {
+  row-gap: 2rem;
 }
 
 .space-x-0\.5 > :not([hidden]) ~ :not([hidden]) {
