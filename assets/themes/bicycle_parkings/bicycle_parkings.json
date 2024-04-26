@@ -6,7 +6,8 @@
   },
   "title": {
     "en": "Bicycle parkings",
-    "de": "Fahrradabstellplätze"
+    "de": "Fahrradabstellplätze",
+    "fr": "Stationnement vélo"
   },
   "icon": "./assets/themes/bicycle_parkings/logo.svg",
   "layers": [
