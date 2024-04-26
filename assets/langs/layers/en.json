@@ -866,10 +866,10 @@
                         "then": "This bench is two-sided and shares the backrest"
                     },
                     "1": {
-                        "then": "Does have a backrest"
+                        "then": "This bench does have a backrest"
                     },
                     "2": {
-                        "then": "Does <b>not</b> have a backrest"
+                        "then": "This bench does <b>not</b> have a backrest"
                     }
                 },
                 "question": "Does this bench have a backrest?"
@@ -914,12 +914,12 @@
                         "then": "This bench does not have an inscription"
                     },
                     "1": {
-                        "then": "This bench does <span class='subtle'>(probably)</span> not have an inscription"
+                        "then": "This bench <span class='subtle'>(probably)</span> does not not have an inscription"
                     }
                 },
                 "question": "Does this bench have an inscription?",
                 "questionHint": "E.g. on a mounted plaque, in the backrest, …",
-                "render": "This bench does have the following inscription:<br/><p><i>{inscription}</i></p>"
+                "render": "This bench has the following inscription:<br/><p><i>{inscription}</i></p>"
             },
             "bench-material": {
                 "mappings": {
@@ -963,7 +963,7 @@
                     }
                 },
                 "question": "How many seats does this bench have?",
-                "render": "{seats} seats"
+                "render": "This bench has {seats} seats"
             },
             "bench-survey:date": {
                 "mappings": {
