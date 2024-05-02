@@ -11639,76 +11639,901 @@
   "tagRenderings": [
     "images",
     {
-      "id": "entrance_info",
+      "id": "type",
       "render": {
-        "ca": "<h3>Entrades</h3>Aquest edifici té {_entrances_count} entrades:{multi(_entrance_properties_with_width,Una <a href='#&LBRACEid&RBRACE'>entrada </a> de &LBRACEcanonical&LPARENSwidth&RPARENS&RBRACE,)}{_entrances_count_without_width_count} entrades encara no tenen informació d'amplada",
-        "cs": "<h3>Vchody</h3>Tato budova má {_entrances_count} vchodů:{multi(_entrance_properties_with_width,<a href='#&LBRACEid&RBRACE'>vchod</a> &LBRACEcanonical&LPARENSwidth&RPARENS&RBRACE,)}{_entrances_count_without_width_count} vchody zatím nemají informace o šířce",
-        "da": "<h3>Indgange</h3>Denne bygning har {_entrances_count} indgange:{multi(_entrance_properties_with_width,En <a href='#&LBRACEid&RBRACE'>indgang</a> på &LBRACEcanonical&LPARENSwidth&RPARENS&RBRACE,)}{_entrances_count_without_width_count} indgange har endnu ikke oplysninger om bredde",
-        "de": "<h3>Eingänge</h3>Das Gebäude hat {_entrances_count} Eingänge:{multi(_entrance_properties_with_width,Ein <a href='#&LBRACEid&RBRACE'>Eingang</a> von &LBRACEcanonical&LPARENSwidth&RPARENS&RBRACE,)}{_entrances_count_without_width_count} Eingänge haben keine Angaben zur Breite",
-        "en": "<h3>Entrances</h3>This building has {_entrances_count} entrances:{multi(_entrance_properties_with_width,An <a href='#&LBRACEid&RBRACE'>entrance</a> of &LBRACEcanonical&LPARENSwidth&RPARENS&RBRACE,)}{_entrances_count_without_width_count} entrances don't have width information yet",
-        "nl": "<h3>Ingangen</h3>Dit gebouw heeft {_entrances_count} ingangen:{multi(_entrance_properties_with_width,Een <a href='#&LBRACEid&RBRACE'>ingang</a> van &LBRACEcanonical&LPARENSwidth&RPARENS&RBRACE,)}{_entrances_count_without_width_count} ingangen hebben nog geen informatie over de breedte"
+        "ca": "Açò és un {advertising}",
+        "es": "Esto es un {advertising}",
+        "en": "This is a {advertising}",
+        "de": "Das ist ein/e {advertising}",
+        "cs": "Toto je {advertising}",
+        "nl": "Dit is een {advertising}",
+        "he": "זהו {advertising}",
+        "pl": "To jest {advertising}",
+        "pt_BR": "Isso é uma {advertising}",
+        "zh_Hans": "这是一个{advertising}",
+        "pt": "Isto é uma {advertising}"
+      },
+      "question": {
+        "ca": "Quin tipus d'element publicitari és aquest?",
+        "es": "¿Qué tipo de elemento publicitario es?",
+        "en": "Which type of advertising feature is this?",
+        "de": "Welche Art von Werbung ist das?",
+        "cs": "O jaký typ reklamního prvku se jedná?",
+        "fr": "De quel type de dispositif publicitaire s'agit-il ?",
+        "pl": "Jakiego rodzaju jest to obiekt reklamowy?",
+        "pt_BR": "Que tipo de recurso de publicitário é este?",
+        "zh_Hans": "这是哪种类型的广告功能？",
+        "pt": "Que tipo de recurso de publicitário é este?"
+      },
+      "freeform": {
+        "key": "advertising",
+        "inline": true
       },
       "mappings": [
         {
-          "if": "_entrances_count=0",
+          "if": {
+            "and": [
+              "advertising=billboard"
+            ]
+          },
           "then": {
-            "en": "No entrance has been marked",
-            "de": "Es wurde kein Eingang markiert",
-            "da": "Der er ikke markeret nogen indgang",
-            "nl": "Geen ingang is gemarkeerd",
-            "ca": "No s'ha senyalitzat cap entrada",
-            "cs": "Nebyl označen žádný vchod"
+            "ca": "Açò és una tanca publicitària",
+            "es": "Esto es una valla publicitaria",
+            "en": "This is a billboard",
+            "de": "Dies ist eine Werbetafel",
+            "cs": "Toto je billboard",
+            "fr": "C'est un grand panneau",
+            "pt": "Isso é um outdoor",
+            "he": "זה שלט חוצות",
+            "pl": "To jest bilbord",
+            "pt_BR": "Isso é um outdoor",
+            "zh_Hans": "这是一个广告牌"
+          },
+          "icon": {
+            "path": "./assets/themes/advertising/billboard.svg",
+            "class": "medium"
           }
         },
         {
-          "if": "_entrances_count_without_width:=_entrances_count",
+          "if": {
+            "and": [
+              "advertising=board"
+            ]
+          },
           "then": {
-            "en": "None of the {_entrance_count} entrances have width information yet",
-            "de": "Keiner der {_entrance_count} Eingänge hat bisher Angaben zur Breite",
-            "da": "Ingen af {_entrance_count}-indgangene har oplysninger om bredde endnu",
-            "nl": "Geen van de {_entrance_count} ingangen hebben al informatie over de breedte",
-            "ca": "Cap de les {_entrance_count} entrades té informació d'amplada encara",
-            "cs": "Žádný z {_entrance_count} vchodů zatím nemá informace o šířce"
+            "ca": "Açò és un tauló d'anunis",
+            "es": "Esto es un tablón de anuncios",
+            "en": "This is a board",
+            "de": "Dies ist ein Brett",
+            "cs": "Toto je deska",
+            "fr": "C'est un petit panneau",
+            "pt": "Isso é uma placa",
+            "pl": "To jest tablica",
+            "pt_BR": "Isso é uma placa",
+            "zh_Hans": "这是一块板"
+          },
+          "icon": {
+            "path": "./assets/themes/advertising/board.svg",
+            "class": "medium"
+          }
+        },
+        {
+          "if": {
+            "and": [
+              "advertising=column"
+            ]
+          },
+          "then": {
+            "ca": "Açò és una columna",
+            "es": "Esto es una columna",
+            "en": "This is a column",
+            "de": "Dies ist eine Litfaßsäule",
+            "cs": "Toto je sloup",
+            "fr": "C'est une colonne",
+            "nl": "Dit is een aanplakzuil",
+            "pt_BR": "Isto é uma coluna",
+            "pl": "To jest kolumna",
+            "zh_Hans": "这是一个专栏",
+            "pt": "Isto é uma coluna"
+          },
+          "icon": {
+            "path": "./assets/themes/advertising/column.svg",
+            "class": "medium"
+          }
+        },
+        {
+          "if": {
+            "and": [
+              "advertising=flag"
+            ]
+          },
+          "then": {
+            "ca": "Açò és una bandera",
+            "es": "Esto es una bndera",
+            "en": "This is a flag",
+            "de": "Dies ist eine Flagge",
+            "cs": "Toto je vlajka",
+            "fr": "C'est un drapeau",
+            "nl": "Dit is een vlag",
+            "pt_BR": "Isto é uma bandeira",
+            "he": "זה דגל",
+            "pl": "To jest flaga",
+            "zh_Hans": "这是一面旗帜",
+            "pt": "Isto é uma bandeira"
+          },
+          "icon": {
+            "path": "./assets/themes/advertising/flag.svg",
+            "class": "medium"
+          }
+        },
+        {
+          "if": {
+            "and": [
+              "advertising=poster_box"
+            ]
+          },
+          "then": {
+            "ca": "Açò és un mupi",
+            "es": "Esto es un mupi",
+            "en": "This is a poster Box",
+            "de": "Dies ist eine Posterbox",
+            "cs": "Toto je skříň na plakáty",
+            "fr": "C'est une sucette (panneau avec affiches)",
+            "pl": "To jest pudełko plakatowe",
+            "pt_BR": "Isso é um quadro de pôster",
+            "zh_Hans": "这是海报盒",
+            "pt": "Isto é um quadro de pôster"
+          },
+          "icon": {
+            "path": "./assets/themes/advertising/poster_box.svg",
+            "class": "medium"
+          }
+        },
+        {
+          "if": {
+            "and": [
+              "advertising=screen"
+            ]
+          },
+          "then": {
+            "ca": "Açò és una pantalla",
+            "es": "Esto es una pantalla",
+            "en": "This is a screen",
+            "de": "Dies ist ein Bildschirm",
+            "cs": "Toto je obrazovka",
+            "fr": "C'est un écran",
+            "pl": "To jest ekran",
+            "pt_BR": "Isso é uma tela",
+            "zh_Hans": "这是一个屏幕",
+            "pt": "Isto é um ecrã"
+          },
+          "icon": {
+            "path": "./assets/themes/advertising/screen.svg",
+            "class": "medium"
+          }
+        },
+        {
+          "if": {
+            "and": [
+              "advertising=sculpture"
+            ]
+          },
+          "then": {
+            "ca": "Açò és una esculptura",
+            "es": "Esto es una escultura",
+            "en": "This is a sculpture",
+            "de": "Dies ist eine Skulptur",
+            "cs": "Toto je socha",
+            "fr": "C'est une sculpture",
+            "pl": "To jest rzeźba",
+            "pt_BR": "Isso é uma escultura",
+            "zh_Hans": "这是一个雕塑",
+            "pt": "Isto é uma escultura"
+          },
+          "icon": {
+            "path": "./assets/themes/advertising/sculpture.svg",
+            "class": "medium"
+          }
+        },
+        {
+          "if": {
+            "and": [
+              "advertising=sign"
+            ]
+          },
+          "then": {
+            "ca": "Açò és un cartell",
+            "es": "Esto es un cartel",
+            "en": "This is a sign",
+            "de": "Dies ist ein Schild",
+            "cs": "Toto je cedule",
+            "fr": "C'est une enseigne (indique le nom du lieu/magasin)",
+            "pt_BR": "Isto é uma placa",
+            "pl": "To jest znak",
+            "zh_Hans": "这是一个标志",
+            "pt": "Isto é uma placa"
+          },
+          "icon": {
+            "path": "./assets/themes/advertising/sign.svg",
+            "class": "medium"
+          }
+        },
+        {
+          "if": {
+            "and": [
+              "advertising=tarp"
+            ]
+          },
+          "then": {
+            "ca": "Açò és una lona (una peça de tèxtil impermeable amb un missatge publicitari)",
+            "es": "Esto es una lona (una pieza de tela resistente a la intemperie con un mensaje publicitario)",
+            "en": "This is a tarp (a weatherproof piece of textile with an advertising message)",
+            "de": "Dies ist eine Plane (ein wetterfestes Textilstück mit einer Werbebotschaft)",
+            "cs": "Toto je plachta (kus textilu s reklamním sdělením odolný proti povětrnostním vlivům)",
+            "fr": "C'est une bâche (un morceau de textile résistant aux intempéries avec un message publicitaire)",
+            "pl": "To jest plandeka (odporny na warunki atmosferyczne kawałek materiału tekstylnego z przekazem reklamowym)",
+            "pt_BR": "Isso é uma lona (uma peça de tecido à prova de intempéries com uma mensagem publicitária)",
+            "zh_Hans": "这是防水布（带有广告信息的防风雨纺织品）",
+            "pt": "Isto é uma lona (uma peça de tecido à prova de intempéries com uma mensagem publicitária)"
+          },
+          "icon": {
+            "path": "./assets/themes/advertising/tarp.svg",
+            "class": "medium"
+          }
+        },
+        {
+          "if": {
+            "and": [
+              "advertising=totem"
+            ]
+          },
+          "then": {
+            "ca": "Açò és un tòtem",
+            "es": "Esto es un tótem",
+            "en": "This is a totem",
+            "de": "Dies ist ein Totem",
+            "cs": "Toto je totem",
+            "fr": "C'est un totem",
+            "pl": "To jest totem",
+            "pt_BR": "Isso é um totem",
+            "zh_Hans": "这是一个图腾",
+            "pt": "Isto é um totem"
+          },
+          "icon": {
+            "path": "./assets/themes/advertising/totem.svg",
+            "class": "medium"
+          }
+        },
+        {
+          "if": {
+            "and": [
+              "advertising=wall_painting"
+            ]
+          },
+          "then": {
+            "ca": "Açò és una paret pintada",
+            "es": "Esto es una pared pintada",
+            "en": "This is a wall painting",
+            "de": "Dies ist eine Wandmalerei",
+            "cs": "Toto je nástěnná malba",
+            "fr": "C'est une peinture murale",
+            "pl": "To jest mural ścienny",
+            "pt_BR": "Isso é uma pintura mural",
+            "zh_Hans": "这是一幅壁画",
+            "pt": "Isto é uma pintura mural"
+          },
+          "icon": {
+            "path": "./assets/themes/advertising/wall_painting.svg",
+            "class": "medium"
           }
         }
       ],
       "condition": {
-        "or": [
-          "barrier=wall",
-          "barrier=wall",
-          "barrier=wall",
-          "barrier=wall",
-          "barrier=wall",
-          "barrier=wall",
-          "barrier=wall",
-          "barrier=wall",
-          "barrier=wall",
-          "barrier=wall",
-          "building~.+",
-          "building~.+",
-          "building~.+",
-          "building~.+",
-          "building~.+",
-          "building~.+",
-          "building~.+",
-          "building~.+",
-          "building~.+",
-          "building~.+"
+        "and": [
+          "advertising~.+",
+          "advertising!=no"
         ]
       }
     },
     {
-      "id": "biggest_width",
-      "render": "The <a href='#{_biggest_width_id}'>entrance with the biggest width</a> is {canonical(_biggest_width)} wide",
+      "id": "animated",
+      "question": {
+        "ca": "Com canvien els anuncis d'aquest element?",
+        "es": "¿Como cambian los anuncios de este elemento?",
+        "en": "Does this advertisement cycle through multiple messages?",
+        "de": "Werden mehrere Werbungen abwechselnd angezeigt?",
+        "cs": "Zobrazuje tato reklama cyklicky několik zpráv?",
+        "fr": "Est-ce que cette publicité fait défiler différent messages ?",
+        "pt": "Este anúncio percorre várias mensagens?",
+        "pl": "Czy ta reklama przechodzi przez wiele różnych wiadomości?",
+        "pt_BR": "Este anúncio passa por várias mensagens em sequência?",
+        "zh_Hans": "该广告是否会在多条消息中循环播放？"
+      },
       "condition": {
         "and": [
-          {
-            "or": [
-              "barrier=wall",
-              "building~.+"
+          "advertising!=wall_painting",
+          "advertising!=tarp",
+          "advertising!=screen",
+          "advertising!=flag",
+          "advertising!=sign",
+          "advertising!=board",
+          "advertising~.+",
+          "advertising!=no"
+        ]
+      },
+      "mappings": [
+        {
+          "if": "animated=no",
+          "then": {
+            "ca": "<b>Estàtic</b>, sempre mostra el mateix missatge",
+            "es": "<b>Estático</b>, siempre muestra el mismo mensaje",
+            "en": "<b>Static</b>, always shows the same message",
+            "de": "<b>Statische Anzeige</b>, zeigt immer die gleiche Werbung",
+            "cs": "<b>Statická reklama</b>, která stále zobrazuje stejnou zprávu",
+            "fr": "<b>Statique</b>, affiche toujours le même message",
+            "pt": "<b> Static</b>, mostra sempre a mesma mensagem",
+            "pl": "<b>Statyczne</b>, zawsze pokazuje tą samą wiadomość",
+            "pt_BR": "<b>Estático</b>, mostra sempre a mesma mensagem",
+            "zh_Hans": "<b>静态</b>，始终显示相同的消息"
+          }
+        },
+        {
+          "if": "animated=digital_display",
+          "then": {
+            "en": "This object has a built-in <b>digital display</b> to show prices or some other message",
+            "ca": "Aquest objecte té una <b>pantalla digital</b> integrada per a mostrar els preus o algun altre missatge",
+            "es": "Este objeto tiene una <b>pantalla digital</b> incorporada para mostrar precios o algún otro mensaje",
+            "de": "<b>Digitale Anzeige</b>, zeigt Preise oder anderen Mitteilungen",
+            "cs": "Tento objekt má vestavěný <b>digitální displej</b> pro zobrazení cen nebo jiné zprávy",
+            "fr": "Cet objet inclut un <b>affichage digital</b> pour indiquer des prix ou d'autres messages",
+            "pt": "Este objeto possui um <b>digital display</b> embutido para mostrar preços ou alguma outra mensagem",
+            "pl": "Ten obiekt ma wbudowany <b>cyfrowy wyświetlacz</b> do pokazywania cen lub innych informacji",
+            "pt_BR": "Este objeto possui um <b>display digital</b> incorporado para mostrar preços ou alguma outra mensagem",
+            "zh_Hans": "该对象有一个内置的<b>数字显示器</b>来显示价格或其他一些消息"
+          },
+          "hideInAnswer": {
+            "and": [
+              "advertising!=billboard",
+              "advertising!=poster_box",
+              "advertising!=totem",
+              "advertising!=column"
+            ]
+          }
+        },
+        {
+          "if": "animated=trivision_blades",
+          "then": {
+            "ca": "<b>Trivision</b> - la tanca publicitària consta de molts prismes triangulars que giren regularment",
+            "es": "<b>Trivision</b> - la valla publicitaria consta de muchos prismas triangulares que giran regularmente",
+            "en": "<b>Trivision</b> - the billboard consists of many triangular prisms which regularly rotate",
+            "de": "<b>Trivision Anzeige</b>, zeigt Werbung auf dreieckigen Prismen, die sich regelmäßig drehen",
+            "cs": "<b>Trivision</b> - billboard se skládá z několika trojúhelníkových hranolů, které se pravidelně otáčejí",
+            "fr": "<b>Trivision</b> - le panneau est constitué de lames triangulaires qui tournent régulièrement",
+            "pt": "<b>Trivision</b> - o outdoor consiste em muitos prismas triangulares que giram regularmente",
+            "pt_BR": "<b>Trivision</b> - o outdoor consiste em muitos prismas triangulares que giram regularmente",
+            "zh_Hans": "<b>Trivision</b> - 广告牌由许多有规律旋转的三棱柱组成"
+          },
+          "icon": {
+            "class": "large",
+            "path": "./assets/themes/advertising/trivision.svg"
+          },
+          "#": "Only applicable to billboards",
+          "hideInAnswer": "advertising!=billboard"
+        },
+        {
+          "if": "animated=winding_posters",
+          "then": {
+            "ca": "Cartells <b>Rotatius</b>",
+            "es": "Cartells <b>Rotatius</b>",
+            "en": "<b>Scrolling</b> posters",
+            "de": "<b>Rollierende Anzeige</b>, zeigt abwechselnd durchlaufende Werbeplakate",
+            "cs": "<b>Rolující</b> plakáty",
+            "fr": "Affiches <b>défilantes</b>",
+            "pt": "Pôsteres de <b>rolagem</b>",
+            "pt_BR": "Pôsteres <b>deslizantes</b>",
+            "zh_Hans": "<b>滚动</b>海报"
+          },
+          "hideInAnswer": {
+            "and": [
+              "advertising!=poster_box",
+              "advertising!=column",
+              "advertising!=billboard"
+            ]
+          }
+        },
+        {
+          "if": "animated=revolving",
+          "then": {
+            "ca": "<b>Rota</b> sobre si mateix",
+            "es": "<b>Rota</b> sobre si mismo",
+            "en": "<b>Rotates</b> on itself",
+            "de": "<b>Drehende Anzeige</b>, die um die eigene Achse rotiert",
+            "cs": "Sám se <b>otáčí</b>",
+            "fr": "<b>Tourne</b> sur elle-même",
+            "pt": "<b>Gira</b> sobre si mesmo",
+            "pt_BR": "<b>Gira</b> sobre si mesmo",
+            "zh_Hans": "<b>自行旋转</b>"
+          },
+          "hideInAnswer": {
+            "and": [
+              "advertising!=totem",
+              "advertising!=column",
+              "advertising!=poster_box"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "luminous_or_lit_advertising",
+      "question": {
+        "en": "Is this object lit or does it emit light?",
+        "ca": "Aquest objecte està il·luminat o emet llum?",
+        "cs": "Je tento objekt osvětlený nebo vyzařuje světlo?",
+        "de": "Wird das Objekt beleuchtet oder leuchtet es selbst?",
+        "es": "¿Está este objeto iluminado o emite luz?",
+        "fr": "Cet objet est-il éclairé ou émet-il de la lumière ?",
+        "pl": "Czy ten obiekt jest oświetlony lub emituje światło?"
+      },
+      "mappings": [
+        {
+          "if": "luminous=neon",
+          "then": {
+            "en": "This is a neon-tube light",
+            "ca": "Aquesta és una llum de tub de neó",
+            "es": "Esta es una luz de tubo de neón",
+            "de": "Dies ist eine Neonröhrenleuchte",
+            "cs": "Jedná se o neonové světlo",
+            "nl": "Dit is een neonlamp",
+            "pt": "Esta é uma luz de tubo de néon",
+            "fr": "C'est une lampe à tube néon",
+            "he": "זהו תאורת ניאון",
+            "pl": "To jest lampa neonowa",
+            "pt_BR": "Isso é uma luz de neon",
+            "zh_Hans": "这是霓虹灯管"
+          },
+          "hideInAnswer": "advertising!=sign",
+          "addExtraTags": [
+            "lit=no"
+          ]
+        },
+        {
+          "if": {
+            "and": [
+              "lit=yes",
+              "luminous=yes"
             ]
           },
-          "_biggest_width_id~.+"
+          "then": {
+            "en": "This object both emits light and is lighted by an external light source",
+            "ca": "Aquest objecte emet llum i també està il·luminat externament",
+            "cs": "Tento objekt vyzařuje světlo a je osvětlen vnějším zdrojem světla",
+            "de": "Das Objekt leuchtet selbst und wird von außen beleuchtet",
+            "es": "Este objeto emite luz y es también iluminado por una fuente de luz externa",
+            "fr": "Cet objet émet de la lumière et est éclairé par l'extérieur",
+            "pl": "Ten obiekt zarówno emituje światło, jak i jest oświetlany przez zewnętrzne źródło światła"
+          }
+        },
+        {
+          "if": "luminous=yes",
+          "then": {
+            "en": "This object emits light",
+            "ca": "Aquest objecte emet llum",
+            "cs": "Tento objekt vyzařuje světlo",
+            "de": "Das Objekt leuchtet selbst",
+            "es": "Este objeto emite luz",
+            "fr": "Cet objet émet de la lumière",
+            "pl": "Ten obiekt emituje światło"
+          },
+          "addExtraTags": [
+            "lit=no"
+          ]
+        },
+        {
+          "if": "lit=yes",
+          "then": {
+            "en": "This object is lit externally, e.g. by a spotlight or other lights",
+            "ca": "Aquest objecte està il·luminat externament, p.e. amb un focus o altres llums",
+            "cs": "Tento objekt je osvětlen zvenčí, např. pomocí reflektoru nebo jiných světel",
+            "de": "Das Objekt wird von außen beleuchtet, z. B. durch Scheinwerfer oder andere Lichter",
+            "es": "Este objeto recibe iluminación, por ejemplo por un foco u otras luces",
+            "fr": "Cet objet est éclairé par l'extérieur, par ex. par un projecteur ou d'autres lumières",
+            "pl": "Ten obiekt jest oświetlony zewnętrznie, np. przez reflektor lub inne światła"
+          },
+          "addExtraTags": [
+            "luminous=no"
+          ]
+        },
+        {
+          "if": {
+            "and": [
+              "lit=no",
+              "luminous=no"
+            ]
+          },
+          "then": {
+            "en": "This object does not emit light and is not lighted by externally",
+            "ca": "Aquest objecte no emet llum i no està il·luminat externament",
+            "cs": "Tento objekt nevyzařuje světlo a není osvětlen zvenčí",
+            "de": "Das Objekt wird weder von außen beleuchtet, noch leuchtet es selbst",
+            "es": "Este objeto ni emite luz ni es iluminado",
+            "fr": "Cet objet n'émet pas de lumière et n'est pas éclairé par l'extérieur",
+            "pl": "Obiekt ten nie emituje światła i nie jest oświetlany z zewnątrz"
+          }
+        }
+      ],
+      "condition": {
+        "and": [
+          "advertising!=screen",
+          "advertising~.+",
+          "advertising!=no"
+        ]
+      }
+    },
+    {
+      "id": "operator",
+      "render": {
+        "ca": "L'operador és {operator}",
+        "es": "El operador es {operator}",
+        "en": "Operated by {operator}",
+        "de": "Betrieben von {operator}",
+        "cs": "Provozuje {operator}",
+        "fr": "Exploité par {operator}",
+        "nl": "Uitgebaat door {operator}",
+        "pt": "Operado por {operator}",
+        "pt_BR": "Operado por {operator}",
+        "he": "מופעל על ידי {operator}",
+        "pl": "Obsługiwane przez {operator}",
+        "zh_Hans": "由{operator}运营"
+      },
+      "question": {
+        "ca": "Qui opera aquest element?",
+        "es": "¿Quien opera este elemento?",
+        "en": "Who operates this feature?",
+        "de": "Wer betreibt dieses Objekt?",
+        "cs": "Kdo tento objekt provozuje?",
+        "fr": "Qui exploite ce dispositif ?",
+        "nl": "Wie baat dit object uit?",
+        "pt": "Quem opera esse elemento?",
+        "he": "מי מפעיל את התכונה הזו?",
+        "pl": "Kto obsługuje ten obiekt?",
+        "pt_BR": "Quem opera este recurso?",
+        "zh_Hans": "谁操作此物件？"
+      },
+      "freeform": {
+        "addExtraTags": [],
+        "key": "operator",
+        "inline": true
+      },
+      "condition": {
+        "and": [
+          "advertising~.+",
+          "advertising!=no"
+        ]
+      }
+    },
+    {
+      "id": "message_type",
+      "question": {
+        "ca": "Quin tipus de missatge es mostra?",
+        "es": "Que tipo de mensaje se muestra?",
+        "en": "What kind of message is shown?",
+        "de": "Welche Art von Nachricht wird angezeigt?",
+        "cs": "Jaký typ zprávy je zobrazen?",
+        "nl": "Wat voor boodschap wordt hier getoond?",
+        "fr": "Quel est le type de message affiché ?",
+        "pt": "Que tipo de mensagem é mostrada?",
+        "he": "איזה סוג הודעה מוצגת?",
+        "pl": "Jaki rodzaj wiadomości jest pokazany?",
+        "pt_BR": "Que tipo de mensagem é exibido?",
+        "zh_Hans": "显示什么样的消息？"
+      },
+      "mappings": [
+        {
+          "if": "message=commercial",
+          "ifnot": "message=",
+          "then": {
+            "ca": "Missatge comercial",
+            "es": "Mensaje comercial",
+            "en": "Commercial message",
+            "de": "Werbebotschaft",
+            "cs": "Komerční sdělení",
+            "fr": "Message commercial",
+            "pt": "Mensagem comercial",
+            "pt_BR": "Mensagem comercial",
+            "he": "מסר מסחרי",
+            "nl": "Commerciële boodschap",
+            "pl": "Wiadomość komercyjna",
+            "zh_Hans": "商业留言"
+          }
+        },
+        {
+          "if": "message=local",
+          "ifnot": "message=",
+          "then": {
+            "ca": "Informació municipal",
+            "es": "Información municipal",
+            "en": "Local information",
+            "de": "Lokale Informationen",
+            "cs": "Místní informace",
+            "fr": "Informations locales",
+            "pt": "Informação local",
+            "he": "מידע מקומי",
+            "nl": "Lokale informatie",
+            "pl": "Informacja lokalna",
+            "pt_BR": "Informações locais",
+            "zh_Hans": "本地信息"
+          }
+        },
+        {
+          "if": "message=safety",
+          "ifnot": "message=",
+          "then": {
+            "ca": "Informació de seguretat",
+            "es": "Información de seguridad",
+            "en": "Security information",
+            "de": "Sicherheitsinformationen",
+            "cs": "Bezpečnostní informace",
+            "fr": "Information de sécurité",
+            "pt": "Informação segura",
+            "he": "מידע אבטחה",
+            "pl": "Informacje dotyczące bezpieczeństwa",
+            "pt_BR": "Informações de segurança",
+            "zh_Hans": "安全信息"
+          },
+          "hideInAnswer": {
+            "and": [
+              "advertising=flag"
+            ]
+          }
+        },
+        {
+          "if": "message=political",
+          "ifnot": "message=",
+          "then": {
+            "ca": "Publicitat electoral",
+            "es": "Publicidad electoral",
+            "en": "Electoral advertising",
+            "de": "Wahlwerbung",
+            "cs": "Volební reklama",
+            "fr": "Propagande électorale",
+            "pt": "Propaganda eleitoral",
+            "he": "פרסום בחירות",
+            "pl": "Reklamy wyborcze",
+            "pt_BR": "Propaganda eleitoral",
+            "zh_Hans": "选举广告"
+          }
+        },
+        {
+          "if": "message=showbiz",
+          "ifnot": "message=",
+          "then": {
+            "ca": "Informació sobre teatres, concerts, …",
+            "es": "Información sobre teatros, conciertos, …",
+            "en": "Information related to theatre, concerts, …",
+            "de": "Informationen über Theater, Konzerte, …",
+            "cs": "Informace týkající se divadla, koncertů, …",
+            "fr": "Informations liées au théâtre, à des concerts, …",
+            "nl": "Informatie over cultuurevenementen zoals theaters, optredens, …",
+            "pt": "Informações relacionadas com teatro, concertos, ...",
+            "he": "מידע הקשור לתיאטרון, קונצרטים,…",
+            "eu": "Antzerkiari, kontzertuei eta abarri buruzko informazioa",
+            "pl": "Informacje dotyczące teatru, koncertów, …",
+            "pt_BR": "Informações relacionadas a teatro, concertos, …",
+            "zh_Hans": "与戏剧、音乐会等相关的信息……"
+          },
+          "hideInAnswer": {
+            "and": [
+              "advertising=flag"
+            ]
+          }
+        },
+        {
+          "if": "message=non_profit",
+          "ifnot": "message=",
+          "then": {
+            "ca": "Missatge d'organitzacions sense ànim de lucre",
+            "es": "Mensaje de organizaciones sin ánimo de lucro",
+            "en": "Message from non-profit organizations",
+            "de": "Nachricht von gemeinnützigen Organisationen",
+            "cs": "Zpráva od neziskových organizací",
+            "fr": "Message d'organisations sans but lucratif",
+            "nl": "Boodschap van NGO-organisaties",
+            "pt": "Mensagem de organizações sem fins lucrativos",
+            "pl": "Wiadomość od organizacji non-profit",
+            "pt_BR": "Mensagens de organizações sem fins lucrativos",
+            "zh_Hans": "来自非营利组织的消息"
+          }
+        },
+        {
+          "if": "message=opinion",
+          "ifnot": "message=",
+          "then": {
+            "ca": "Per a expressar la teua opinió",
+            "es": "Exprese su opinión",
+            "en": "To express your opinion",
+            "de": "Um Ihre Meinung zu äußern",
+            "cs": "Pro vyjádření vašeho názoru",
+            "fr": "Expression d'opinion",
+            "pt": "Para expressar sua opinião",
+            "pl": "Żeby wyrazić swoją opinię",
+            "pt_BR": "Para expressar sua opinião",
+            "zh_Hans": "表达您的意见"
+          },
+          "hideInAnswer": {
+            "or": [
+              "advertising=flag",
+              "advertising=screen"
+            ]
+          }
+        },
+        {
+          "if": "message=religion",
+          "ifnot": "message=",
+          "then": {
+            "ca": "Missatge religiós",
+            "es": "Mensaje religioso",
+            "en": "Religious message",
+            "de": "Religiöse Botschaft",
+            "cs": "Náboženská zpráva",
+            "fr": "Message religieux",
+            "nl": "Religieuze boodschap",
+            "pt": "Mensagem religiosa",
+            "pt_BR": "Mensagem religiosa",
+            "he": "מסר דתי",
+            "pl": "Przekaz religijny",
+            "zh_Hans": "宗教讯息"
+          }
+        },
+        {
+          "if": "message=funding",
+          "ifnot": "message=",
+          "then": {
+            "ca": "Cartell de financiació",
+            "es": "Cartel de financiación",
+            "en": "Funding sign",
+            "de": "Finanzierungsschild",
+            "cs": "Cedule pro financování",
+            "pt": "sinal de financiamento",
+            "pl": "Znak finansowania",
+            "pt_BR": "Placa de financiamento",
+            "zh_Hans": "资助标志"
+          },
+          "hideInAnswer": {
+            "or": [
+              "advertising=flag",
+              "advertising=column"
+            ]
+          }
+        },
+        {
+          "if": "information=map",
+          "ifnot": "information=",
+          "then": {
+            "en": "A map",
+            "ca": "Un mapa",
+            "es": "Un mapa",
+            "de": "eine Karte",
+            "cs": "Mapa",
+            "fr": "Une carte",
+            "nl": "Een kaart",
+            "pt": "Um mapa",
+            "pt_BR": "Um mapa",
+            "pl": "Mapa",
+            "zh_Hans": "地图"
+          }
+        }
+      ],
+      "multiAnswer": true,
+      "condition": {
+        "and": [
+          "advertising~.+",
+          "advertising!=no"
+        ]
+      }
+    },
+    {
+      "id": "Sides",
+      "condition": {
+        "and": [
+          "_referencing_ways=",
+          {
+            "or": [
+              "advertising=poster_box",
+              "advertising=screen",
+              "advertising=billboard"
+            ]
+          },
+          "advertising~.+",
+          "advertising!=no"
+        ]
+      },
+      "question": {
+        "ca": "Per quants costats pots veure publicitat?",
+        "es": "¿Por cuantos lados puedes ver publicidad?",
+        "en": "From how many sides you can watch advertisments?",
+        "de": "Auf wie vielen Seiten wird Werbung angezeigt?",
+        "cs": "Z kolika stran můžete vidět reklamy?",
+        "fr": "Sur combien de côtés peut-on voir de la publicité ?",
+        "pt": "De quantos lados você pode assistir a anúncios?",
+        "eu": "Zenbat aldetatik ikus dezakezu publizitatea?",
+        "pl": "Z ilu stron można oglądać reklamy?",
+        "pt_BR": "De quantos lados você consegue visualizar os anúncios?",
+        "zh_Hans": "您可以从几个侧面观看广告？"
+      },
+      "mappings": [
+        {
+          "if": "sides=1",
+          "then": {
+            "en": "This object has advertisements on a single side",
+            "ca": "Aquest mupi té publicitat a un únic costat",
+            "es": "Este mupi tiene publicidad en un único lado",
+            "de": "Werbung wird nur auf einer Seite angezeigt",
+            "cs": "Tento objekt má reklamy na jedné straně",
+            "fr": "Cet objet a de la publicité sur un seul côté",
+            "pt": "Este objeto tem anúncios em um único lado",
+            "eu": "Objektu honek iragarkiak ditu alde bakar batean",
+            "pl": "Ten obiekt ma reklamy po jednej stronie",
+            "pt_BR": "Este objeto tem anúncios em um único lado",
+            "zh_Hans": "该物体单面有广告",
+            "it": "Questo oggetto ha la pubblicità solo da un lato"
+          }
+        },
+        {
+          "if": "sides=2",
+          "then": {
+            "en": "This object has advertisements on both sides",
+            "ca": "Aquest mupi té publicitat pels dos costas",
+            "es": "Este objeto tiene publicidad por los dos lados",
+            "de": "Werbung wird auf beiden Seiten angezeigt",
+            "cs": "Tento objekt má reklamy na obou stranách",
+            "fr": "Cet objet a de la publicité des deux côtés",
+            "pt": "Este objeto tem anúncios em ambos os lados",
+            "eu": "Objektu honek iragarkiak ditu bi aldeetan",
+            "pl": "Ten obiekt ma reklamy po dwóch stronach",
+            "pt_BR": "Este objeto tem anúncios em ambos os lados",
+            "zh_Hans": "该物体双面有广告"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ref",
+      "render": {
+        "ca": "El número de referència és {ref}",
+        "es": "El número de referencia es {ref}",
+        "en": "Reference number is {ref}",
+        "de": "Die Referenznummer lautet {ref}",
+        "cs": "Referenční číslo je {ref}",
+        "fr": "Le numéro de référence est {ref}",
+        "nl": "Het referentienummer is {ref}",
+        "pt": "O número de referência é {ref}",
+        "pt_BR": "O número de referência é {ref}",
+        "pl": "Numer referencyjny to {ref}",
+        "zh_Hans": "编号是{ref}"
+      },
+      "question": {
+        "ca": "Quin és el número de refèrencia?",
+        "es": "¿Cual es el número de referencia?",
+        "en": "Wich is the reference number?",
+        "de": "Wie lautet die Referenznummer?",
+        "cs": "Jaké je referenční číslo?",
+        "fr": "Quel est le numéro de référence ?",
+        "nl": "Wat is het referentienummer?",
+        "pt": "Qual é o número de referência?",
+        "pl": "Jaki jest numer referencyjny?",
+        "pt_BR": "Qual é o número de referência?",
+        "zh_Hans": "编号是多少？"
+      },
+      "freeform": {
+        "key": "ref",
+        "inline": true
+      },
+      "condition": {
+        "and": [
+          "advertising!=sign",
+          "advertising~.+",
+          "advertising!=no"
         ]
       }
     },
@@ -14923,905 +15748,6 @@
       }
     },
     {
-      "id": "type",
-      "render": {
-        "ca": "Açò és un {advertising}",
-        "es": "Esto es un {advertising}",
-        "en": "This is a {advertising}",
-        "de": "Das ist ein/e {advertising}",
-        "cs": "Toto je {advertising}",
-        "nl": "Dit is een {advertising}",
-        "he": "זהו {advertising}",
-        "pl": "To jest {advertising}",
-        "pt_BR": "Isso é uma {advertising}",
-        "zh_Hans": "这是一个{advertising}",
-        "pt": "Isto é uma {advertising}"
-      },
-      "question": {
-        "ca": "Quin tipus d'element publicitari és aquest?",
-        "es": "¿Qué tipo de elemento publicitario es?",
-        "en": "Which type of advertising feature is this?",
-        "de": "Welche Art von Werbung ist das?",
-        "cs": "O jaký typ reklamního prvku se jedná?",
-        "fr": "De quel type de dispositif publicitaire s'agit-il ?",
-        "pl": "Jakiego rodzaju jest to obiekt reklamowy?",
-        "pt_BR": "Que tipo de recurso de publicitário é este?",
-        "zh_Hans": "这是哪种类型的广告功能？",
-        "pt": "Que tipo de recurso de publicitário é este?"
-      },
-      "freeform": {
-        "key": "advertising",
-        "inline": true
-      },
-      "mappings": [
-        {
-          "if": {
-            "and": [
-              "advertising=billboard"
-            ]
-          },
-          "then": {
-            "ca": "Açò és una tanca publicitària",
-            "es": "Esto es una valla publicitaria",
-            "en": "This is a billboard",
-            "de": "Dies ist eine Werbetafel",
-            "cs": "Toto je billboard",
-            "fr": "C'est un grand panneau",
-            "pt": "Isso é um outdoor",
-            "he": "זה שלט חוצות",
-            "pl": "To jest bilbord",
-            "pt_BR": "Isso é um outdoor",
-            "zh_Hans": "这是一个广告牌"
-          },
-          "icon": {
-            "path": "./assets/themes/advertising/billboard.svg",
-            "class": "medium"
-          }
-        },
-        {
-          "if": {
-            "and": [
-              "advertising=board"
-            ]
-          },
-          "then": {
-            "ca": "Açò és un tauló d'anunis",
-            "es": "Esto es un tablón de anuncios",
-            "en": "This is a board",
-            "de": "Dies ist ein Brett",
-            "cs": "Toto je deska",
-            "fr": "C'est un petit panneau",
-            "pt": "Isso é uma placa",
-            "pl": "To jest tablica",
-            "pt_BR": "Isso é uma placa",
-            "zh_Hans": "这是一块板"
-          },
-          "icon": {
-            "path": "./assets/themes/advertising/board.svg",
-            "class": "medium"
-          }
-        },
-        {
-          "if": {
-            "and": [
-              "advertising=column"
-            ]
-          },
-          "then": {
-            "ca": "Açò és una columna",
-            "es": "Esto es una columna",
-            "en": "This is a column",
-            "de": "Dies ist eine Litfaßsäule",
-            "cs": "Toto je sloup",
-            "fr": "C'est une colonne",
-            "nl": "Dit is een aanplakzuil",
-            "pt_BR": "Isto é uma coluna",
-            "pl": "To jest kolumna",
-            "zh_Hans": "这是一个专栏",
-            "pt": "Isto é uma coluna"
-          },
-          "icon": {
-            "path": "./assets/themes/advertising/column.svg",
-            "class": "medium"
-          }
-        },
-        {
-          "if": {
-            "and": [
-              "advertising=flag"
-            ]
-          },
-          "then": {
-            "ca": "Açò és una bandera",
-            "es": "Esto es una bndera",
-            "en": "This is a flag",
-            "de": "Dies ist eine Flagge",
-            "cs": "Toto je vlajka",
-            "fr": "C'est un drapeau",
-            "nl": "Dit is een vlag",
-            "pt_BR": "Isto é uma bandeira",
-            "he": "זה דגל",
-            "pl": "To jest flaga",
-            "zh_Hans": "这是一面旗帜",
-            "pt": "Isto é uma bandeira"
-          },
-          "icon": {
-            "path": "./assets/themes/advertising/flag.svg",
-            "class": "medium"
-          }
-        },
-        {
-          "if": {
-            "and": [
-              "advertising=poster_box"
-            ]
-          },
-          "then": {
-            "ca": "Açò és un mupi",
-            "es": "Esto es un mupi",
-            "en": "This is a poster Box",
-            "de": "Dies ist eine Posterbox",
-            "cs": "Toto je skříň na plakáty",
-            "fr": "C'est une sucette (panneau avec affiches)",
-            "pl": "To jest pudełko plakatowe",
-            "pt_BR": "Isso é um quadro de pôster",
-            "zh_Hans": "这是海报盒",
-            "pt": "Isto é um quadro de pôster"
-          },
-          "icon": {
-            "path": "./assets/themes/advertising/poster_box.svg",
-            "class": "medium"
-          }
-        },
-        {
-          "if": {
-            "and": [
-              "advertising=screen"
-            ]
-          },
-          "then": {
-            "ca": "Açò és una pantalla",
-            "es": "Esto es una pantalla",
-            "en": "This is a screen",
-            "de": "Dies ist ein Bildschirm",
-            "cs": "Toto je obrazovka",
-            "fr": "C'est un écran",
-            "pl": "To jest ekran",
-            "pt_BR": "Isso é uma tela",
-            "zh_Hans": "这是一个屏幕",
-            "pt": "Isto é um ecrã"
-          },
-          "icon": {
-            "path": "./assets/themes/advertising/screen.svg",
-            "class": "medium"
-          }
-        },
-        {
-          "if": {
-            "and": [
-              "advertising=sculpture"
-            ]
-          },
-          "then": {
-            "ca": "Açò és una esculptura",
-            "es": "Esto es una escultura",
-            "en": "This is a sculpture",
-            "de": "Dies ist eine Skulptur",
-            "cs": "Toto je socha",
-            "fr": "C'est une sculpture",
-            "pl": "To jest rzeźba",
-            "pt_BR": "Isso é uma escultura",
-            "zh_Hans": "这是一个雕塑",
-            "pt": "Isto é uma escultura"
-          },
-          "icon": {
-            "path": "./assets/themes/advertising/sculpture.svg",
-            "class": "medium"
-          }
-        },
-        {
-          "if": {
-            "and": [
-              "advertising=sign"
-            ]
-          },
-          "then": {
-            "ca": "Açò és un cartell",
-            "es": "Esto es un cartel",
-            "en": "This is a sign",
-            "de": "Dies ist ein Schild",
-            "cs": "Toto je cedule",
-            "fr": "C'est une enseigne (indique le nom du lieu/magasin)",
-            "pt_BR": "Isto é uma placa",
-            "pl": "To jest znak",
-            "zh_Hans": "这是一个标志",
-            "pt": "Isto é uma placa"
-          },
-          "icon": {
-            "path": "./assets/themes/advertising/sign.svg",
-            "class": "medium"
-          }
-        },
-        {
-          "if": {
-            "and": [
-              "advertising=tarp"
-            ]
-          },
-          "then": {
-            "ca": "Açò és una lona (una peça de tèxtil impermeable amb un missatge publicitari)",
-            "es": "Esto es una lona (una pieza de tela resistente a la intemperie con un mensaje publicitario)",
-            "en": "This is a tarp (a weatherproof piece of textile with an advertising message)",
-            "de": "Dies ist eine Plane (ein wetterfestes Textilstück mit einer Werbebotschaft)",
-            "cs": "Toto je plachta (kus textilu s reklamním sdělením odolný proti povětrnostním vlivům)",
-            "fr": "C'est une bâche (un morceau de textile résistant aux intempéries avec un message publicitaire)",
-            "pl": "To jest plandeka (odporny na warunki atmosferyczne kawałek materiału tekstylnego z przekazem reklamowym)",
-            "pt_BR": "Isso é uma lona (uma peça de tecido à prova de intempéries com uma mensagem publicitária)",
-            "zh_Hans": "这是防水布（带有广告信息的防风雨纺织品）",
-            "pt": "Isto é uma lona (uma peça de tecido à prova de intempéries com uma mensagem publicitária)"
-          },
-          "icon": {
-            "path": "./assets/themes/advertising/tarp.svg",
-            "class": "medium"
-          }
-        },
-        {
-          "if": {
-            "and": [
-              "advertising=totem"
-            ]
-          },
-          "then": {
-            "ca": "Açò és un tòtem",
-            "es": "Esto es un tótem",
-            "en": "This is a totem",
-            "de": "Dies ist ein Totem",
-            "cs": "Toto je totem",
-            "fr": "C'est un totem",
-            "pl": "To jest totem",
-            "pt_BR": "Isso é um totem",
-            "zh_Hans": "这是一个图腾",
-            "pt": "Isto é um totem"
-          },
-          "icon": {
-            "path": "./assets/themes/advertising/totem.svg",
-            "class": "medium"
-          }
-        },
-        {
-          "if": {
-            "and": [
-              "advertising=wall_painting"
-            ]
-          },
-          "then": {
-            "ca": "Açò és una paret pintada",
-            "es": "Esto es una pared pintada",
-            "en": "This is a wall painting",
-            "de": "Dies ist eine Wandmalerei",
-            "cs": "Toto je nástěnná malba",
-            "fr": "C'est une peinture murale",
-            "pl": "To jest mural ścienny",
-            "pt_BR": "Isso é uma pintura mural",
-            "zh_Hans": "这是一幅壁画",
-            "pt": "Isto é uma pintura mural"
-          },
-          "icon": {
-            "path": "./assets/themes/advertising/wall_painting.svg",
-            "class": "medium"
-          }
-        }
-      ],
-      "condition": {
-        "and": [
-          "advertising~.+",
-          "advertising!=no"
-        ]
-      }
-    },
-    {
-      "id": "animated",
-      "question": {
-        "ca": "Com canvien els anuncis d'aquest element?",
-        "es": "¿Como cambian los anuncios de este elemento?",
-        "en": "Does this advertisement cycle through multiple messages?",
-        "de": "Werden mehrere Werbungen abwechselnd angezeigt?",
-        "cs": "Zobrazuje tato reklama cyklicky několik zpráv?",
-        "fr": "Est-ce que cette publicité fait défiler différent messages ?",
-        "pt": "Este anúncio percorre várias mensagens?",
-        "pl": "Czy ta reklama przechodzi przez wiele różnych wiadomości?",
-        "pt_BR": "Este anúncio passa por várias mensagens em sequência?",
-        "zh_Hans": "该广告是否会在多条消息中循环播放？"
-      },
-      "condition": {
-        "and": [
-          "advertising!=wall_painting",
-          "advertising!=tarp",
-          "advertising!=screen",
-          "advertising!=flag",
-          "advertising!=sign",
-          "advertising!=board",
-          "advertising~.+",
-          "advertising!=no"
-        ]
-      },
-      "mappings": [
-        {
-          "if": "animated=no",
-          "then": {
-            "ca": "<b>Estàtic</b>, sempre mostra el mateix missatge",
-            "es": "<b>Estático</b>, siempre muestra el mismo mensaje",
-            "en": "<b>Static</b>, always shows the same message",
-            "de": "<b>Statische Anzeige</b>, zeigt immer die gleiche Werbung",
-            "cs": "<b>Statická reklama</b>, která stále zobrazuje stejnou zprávu",
-            "fr": "<b>Statique</b>, affiche toujours le même message",
-            "pt": "<b> Static</b>, mostra sempre a mesma mensagem",
-            "pl": "<b>Statyczne</b>, zawsze pokazuje tą samą wiadomość",
-            "pt_BR": "<b>Estático</b>, mostra sempre a mesma mensagem",
-            "zh_Hans": "<b>静态</b>，始终显示相同的消息"
-          }
-        },
-        {
-          "if": "animated=digital_display",
-          "then": {
-            "en": "This object has a built-in <b>digital display</b> to show prices or some other message",
-            "ca": "Aquest objecte té una <b>pantalla digital</b> integrada per a mostrar els preus o algun altre missatge",
-            "es": "Este objeto tiene una <b>pantalla digital</b> incorporada para mostrar precios o algún otro mensaje",
-            "de": "<b>Digitale Anzeige</b>, zeigt Preise oder anderen Mitteilungen",
-            "cs": "Tento objekt má vestavěný <b>digitální displej</b> pro zobrazení cen nebo jiné zprávy",
-            "fr": "Cet objet inclut un <b>affichage digital</b> pour indiquer des prix ou d'autres messages",
-            "pt": "Este objeto possui um <b>digital display</b> embutido para mostrar preços ou alguma outra mensagem",
-            "pl": "Ten obiekt ma wbudowany <b>cyfrowy wyświetlacz</b> do pokazywania cen lub innych informacji",
-            "pt_BR": "Este objeto possui um <b>display digital</b> incorporado para mostrar preços ou alguma outra mensagem",
-            "zh_Hans": "该对象有一个内置的<b>数字显示器</b>来显示价格或其他一些消息"
-          },
-          "hideInAnswer": {
-            "and": [
-              "advertising!=billboard",
-              "advertising!=poster_box",
-              "advertising!=totem",
-              "advertising!=column"
-            ]
-          }
-        },
-        {
-          "if": "animated=trivision_blades",
-          "then": {
-            "ca": "<b>Trivision</b> - la tanca publicitària consta de molts prismes triangulars que giren regularment",
-            "es": "<b>Trivision</b> - la valla publicitaria consta de muchos prismas triangulares que giran regularmente",
-            "en": "<b>Trivision</b> - the billboard consists of many triangular prisms which regularly rotate",
-            "de": "<b>Trivision Anzeige</b>, zeigt Werbung auf dreieckigen Prismen, die sich regelmäßig drehen",
-            "cs": "<b>Trivision</b> - billboard se skládá z několika trojúhelníkových hranolů, které se pravidelně otáčejí",
-            "fr": "<b>Trivision</b> - le panneau est constitué de lames triangulaires qui tournent régulièrement",
-            "pt": "<b>Trivision</b> - o outdoor consiste em muitos prismas triangulares que giram regularmente",
-            "pt_BR": "<b>Trivision</b> - o outdoor consiste em muitos prismas triangulares que giram regularmente",
-            "zh_Hans": "<b>Trivision</b> - 广告牌由许多有规律旋转的三棱柱组成"
-          },
-          "icon": {
-            "class": "large",
-            "path": "./assets/themes/advertising/trivision.svg"
-          },
-          "#": "Only applicable to billboards",
-          "hideInAnswer": "advertising!=billboard"
-        },
-        {
-          "if": "animated=winding_posters",
-          "then": {
-            "ca": "Cartells <b>Rotatius</b>",
-            "es": "Cartells <b>Rotatius</b>",
-            "en": "<b>Scrolling</b> posters",
-            "de": "<b>Rollierende Anzeige</b>, zeigt abwechselnd durchlaufende Werbeplakate",
-            "cs": "<b>Rolující</b> plakáty",
-            "fr": "Affiches <b>défilantes</b>",
-            "pt": "Pôsteres de <b>rolagem</b>",
-            "pt_BR": "Pôsteres <b>deslizantes</b>",
-            "zh_Hans": "<b>滚动</b>海报"
-          },
-          "hideInAnswer": {
-            "and": [
-              "advertising!=poster_box",
-              "advertising!=column",
-              "advertising!=billboard"
-            ]
-          }
-        },
-        {
-          "if": "animated=revolving",
-          "then": {
-            "ca": "<b>Rota</b> sobre si mateix",
-            "es": "<b>Rota</b> sobre si mismo",
-            "en": "<b>Rotates</b> on itself",
-            "de": "<b>Drehende Anzeige</b>, die um die eigene Achse rotiert",
-            "cs": "Sám se <b>otáčí</b>",
-            "fr": "<b>Tourne</b> sur elle-même",
-            "pt": "<b>Gira</b> sobre si mesmo",
-            "pt_BR": "<b>Gira</b> sobre si mesmo",
-            "zh_Hans": "<b>自行旋转</b>"
-          },
-          "hideInAnswer": {
-            "and": [
-              "advertising!=totem",
-              "advertising!=column",
-              "advertising!=poster_box"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "luminous_or_lit_advertising",
-      "question": {
-        "en": "Is this object lit or does it emit light?",
-        "ca": "Aquest objecte està il·luminat o emet llum?",
-        "cs": "Je tento objekt osvětlený nebo vyzařuje světlo?",
-        "de": "Wird das Objekt beleuchtet oder leuchtet es selbst?",
-        "es": "¿Está este objeto iluminado o emite luz?",
-        "fr": "Cet objet est-il éclairé ou émet-il de la lumière ?",
-        "pl": "Czy ten obiekt jest oświetlony lub emituje światło?"
-      },
-      "mappings": [
-        {
-          "if": "luminous=neon",
-          "then": {
-            "en": "This is a neon-tube light",
-            "ca": "Aquesta és una llum de tub de neó",
-            "es": "Esta es una luz de tubo de neón",
-            "de": "Dies ist eine Neonröhrenleuchte",
-            "cs": "Jedná se o neonové světlo",
-            "nl": "Dit is een neonlamp",
-            "pt": "Esta é uma luz de tubo de néon",
-            "fr": "C'est une lampe à tube néon",
-            "he": "זהו תאורת ניאון",
-            "pl": "To jest lampa neonowa",
-            "pt_BR": "Isso é uma luz de neon",
-            "zh_Hans": "这是霓虹灯管"
-          },
-          "hideInAnswer": "advertising!=sign",
-          "addExtraTags": [
-            "lit=no"
-          ]
-        },
-        {
-          "if": {
-            "and": [
-              "lit=yes",
-              "luminous=yes"
-            ]
-          },
-          "then": {
-            "en": "This object both emits light and is lighted by an external light source",
-            "ca": "Aquest objecte emet llum i també està il·luminat externament",
-            "cs": "Tento objekt vyzařuje světlo a je osvětlen vnějším zdrojem světla",
-            "de": "Das Objekt leuchtet selbst und wird von außen beleuchtet",
-            "es": "Este objeto emite luz y es también iluminado por una fuente de luz externa",
-            "fr": "Cet objet émet de la lumière et est éclairé par l'extérieur",
-            "pl": "Ten obiekt zarówno emituje światło, jak i jest oświetlany przez zewnętrzne źródło światła"
-          }
-        },
-        {
-          "if": "luminous=yes",
-          "then": {
-            "en": "This object emits light",
-            "ca": "Aquest objecte emet llum",
-            "cs": "Tento objekt vyzařuje světlo",
-            "de": "Das Objekt leuchtet selbst",
-            "es": "Este objeto emite luz",
-            "fr": "Cet objet émet de la lumière",
-            "pl": "Ten obiekt emituje światło"
-          },
-          "addExtraTags": [
-            "lit=no"
-          ]
-        },
-        {
-          "if": "lit=yes",
-          "then": {
-            "en": "This object is lit externally, e.g. by a spotlight or other lights",
-            "ca": "Aquest objecte està il·luminat externament, p.e. amb un focus o altres llums",
-            "cs": "Tento objekt je osvětlen zvenčí, např. pomocí reflektoru nebo jiných světel",
-            "de": "Das Objekt wird von außen beleuchtet, z. B. durch Scheinwerfer oder andere Lichter",
-            "es": "Este objeto recibe iluminación, por ejemplo por un foco u otras luces",
-            "fr": "Cet objet est éclairé par l'extérieur, par ex. par un projecteur ou d'autres lumières",
-            "pl": "Ten obiekt jest oświetlony zewnętrznie, np. przez reflektor lub inne światła"
-          },
-          "addExtraTags": [
-            "luminous=no"
-          ]
-        },
-        {
-          "if": {
-            "and": [
-              "lit=no",
-              "luminous=no"
-            ]
-          },
-          "then": {
-            "en": "This object does not emit light and is not lighted by externally",
-            "ca": "Aquest objecte no emet llum i no està il·luminat externament",
-            "cs": "Tento objekt nevyzařuje světlo a není osvětlen zvenčí",
-            "de": "Das Objekt wird weder von außen beleuchtet, noch leuchtet es selbst",
-            "es": "Este objeto ni emite luz ni es iluminado",
-            "fr": "Cet objet n'émet pas de lumière et n'est pas éclairé par l'extérieur",
-            "pl": "Obiekt ten nie emituje światła i nie jest oświetlany z zewnątrz"
-          }
-        }
-      ],
-      "condition": {
-        "and": [
-          "advertising!=screen",
-          "advertising~.+",
-          "advertising!=no"
-        ]
-      }
-    },
-    {
-      "id": "operator",
-      "render": {
-        "ca": "L'operador és {operator}",
-        "es": "El operador es {operator}",
-        "en": "Operated by {operator}",
-        "de": "Betrieben von {operator}",
-        "cs": "Provozuje {operator}",
-        "fr": "Exploité par {operator}",
-        "nl": "Uitgebaat door {operator}",
-        "pt": "Operado por {operator}",
-        "pt_BR": "Operado por {operator}",
-        "he": "מופעל על ידי {operator}",
-        "pl": "Obsługiwane przez {operator}",
-        "zh_Hans": "由{operator}运营"
-      },
-      "question": {
-        "ca": "Qui opera aquest element?",
-        "es": "¿Quien opera este elemento?",
-        "en": "Who operates this feature?",
-        "de": "Wer betreibt dieses Objekt?",
-        "cs": "Kdo tento objekt provozuje?",
-        "fr": "Qui exploite ce dispositif ?",
-        "nl": "Wie baat dit object uit?",
-        "pt": "Quem opera esse elemento?",
-        "he": "מי מפעיל את התכונה הזו?",
-        "pl": "Kto obsługuje ten obiekt?",
-        "pt_BR": "Quem opera este recurso?",
-        "zh_Hans": "谁操作此物件？"
-      },
-      "freeform": {
-        "addExtraTags": [],
-        "key": "operator",
-        "inline": true
-      },
-      "condition": {
-        "and": [
-          "advertising~.+",
-          "advertising!=no"
-        ]
-      }
-    },
-    {
-      "id": "message_type",
-      "question": {
-        "ca": "Quin tipus de missatge es mostra?",
-        "es": "Que tipo de mensaje se muestra?",
-        "en": "What kind of message is shown?",
-        "de": "Welche Art von Nachricht wird angezeigt?",
-        "cs": "Jaký typ zprávy je zobrazen?",
-        "nl": "Wat voor boodschap wordt hier getoond?",
-        "fr": "Quel est le type de message affiché ?",
-        "pt": "Que tipo de mensagem é mostrada?",
-        "he": "איזה סוג הודעה מוצגת?",
-        "pl": "Jaki rodzaj wiadomości jest pokazany?",
-        "pt_BR": "Que tipo de mensagem é exibido?",
-        "zh_Hans": "显示什么样的消息？"
-      },
-      "mappings": [
-        {
-          "if": "message=commercial",
-          "ifnot": "message=",
-          "then": {
-            "ca": "Missatge comercial",
-            "es": "Mensaje comercial",
-            "en": "Commercial message",
-            "de": "Werbebotschaft",
-            "cs": "Komerční sdělení",
-            "fr": "Message commercial",
-            "pt": "Mensagem comercial",
-            "pt_BR": "Mensagem comercial",
-            "he": "מסר מסחרי",
-            "nl": "Commerciële boodschap",
-            "pl": "Wiadomość komercyjna",
-            "zh_Hans": "商业留言"
-          }
-        },
-        {
-          "if": "message=local",
-          "ifnot": "message=",
-          "then": {
-            "ca": "Informació municipal",
-            "es": "Información municipal",
-            "en": "Local information",
-            "de": "Lokale Informationen",
-            "cs": "Místní informace",
-            "fr": "Informations locales",
-            "pt": "Informação local",
-            "he": "מידע מקומי",
-            "nl": "Lokale informatie",
-            "pl": "Informacja lokalna",
-            "pt_BR": "Informações locais",
-            "zh_Hans": "本地信息"
-          }
-        },
-        {
-          "if": "message=safety",
-          "ifnot": "message=",
-          "then": {
-            "ca": "Informació de seguretat",
-            "es": "Información de seguridad",
-            "en": "Security information",
-            "de": "Sicherheitsinformationen",
-            "cs": "Bezpečnostní informace",
-            "fr": "Information de sécurité",
-            "pt": "Informação segura",
-            "he": "מידע אבטחה",
-            "pl": "Informacje dotyczące bezpieczeństwa",
-            "pt_BR": "Informações de segurança",
-            "zh_Hans": "安全信息"
-          },
-          "hideInAnswer": {
-            "and": [
-              "advertising=flag"
-            ]
-          }
-        },
-        {
-          "if": "message=political",
-          "ifnot": "message=",
-          "then": {
-            "ca": "Publicitat electoral",
-            "es": "Publicidad electoral",
-            "en": "Electoral advertising",
-            "de": "Wahlwerbung",
-            "cs": "Volební reklama",
-            "fr": "Propagande électorale",
-            "pt": "Propaganda eleitoral",
-            "he": "פרסום בחירות",
-            "pl": "Reklamy wyborcze",
-            "pt_BR": "Propaganda eleitoral",
-            "zh_Hans": "选举广告"
-          }
-        },
-        {
-          "if": "message=showbiz",
-          "ifnot": "message=",
-          "then": {
-            "ca": "Informació sobre teatres, concerts, …",
-            "es": "Información sobre teatros, conciertos, …",
-            "en": "Information related to theatre, concerts, …",
-            "de": "Informationen über Theater, Konzerte, …",
-            "cs": "Informace týkající se divadla, koncertů, …",
-            "fr": "Informations liées au théâtre, à des concerts, …",
-            "nl": "Informatie over cultuurevenementen zoals theaters, optredens, …",
-            "pt": "Informações relacionadas com teatro, concertos, ...",
-            "he": "מידע הקשור לתיאטרון, קונצרטים,…",
-            "eu": "Antzerkiari, kontzertuei eta abarri buruzko informazioa",
-            "pl": "Informacje dotyczące teatru, koncertów, …",
-            "pt_BR": "Informações relacionadas a teatro, concertos, …",
-            "zh_Hans": "与戏剧、音乐会等相关的信息……"
-          },
-          "hideInAnswer": {
-            "and": [
-              "advertising=flag"
-            ]
-          }
-        },
-        {
-          "if": "message=non_profit",
-          "ifnot": "message=",
-          "then": {
-            "ca": "Missatge d'organitzacions sense ànim de lucre",
-            "es": "Mensaje de organizaciones sin ánimo de lucro",
-            "en": "Message from non-profit organizations",
-            "de": "Nachricht von gemeinnützigen Organisationen",
-            "cs": "Zpráva od neziskových organizací",
-            "fr": "Message d'organisations sans but lucratif",
-            "nl": "Boodschap van NGO-organisaties",
-            "pt": "Mensagem de organizações sem fins lucrativos",
-            "pl": "Wiadomość od organizacji non-profit",
-            "pt_BR": "Mensagens de organizações sem fins lucrativos",
-            "zh_Hans": "来自非营利组织的消息"
-          }
-        },
-        {
-          "if": "message=opinion",
-          "ifnot": "message=",
-          "then": {
-            "ca": "Per a expressar la teua opinió",
-            "es": "Exprese su opinión",
-            "en": "To express your opinion",
-            "de": "Um Ihre Meinung zu äußern",
-            "cs": "Pro vyjádření vašeho názoru",
-            "fr": "Expression d'opinion",
-            "pt": "Para expressar sua opinião",
-            "pl": "Żeby wyrazić swoją opinię",
-            "pt_BR": "Para expressar sua opinião",
-            "zh_Hans": "表达您的意见"
-          },
-          "hideInAnswer": {
-            "or": [
-              "advertising=flag",
-              "advertising=screen"
-            ]
-          }
-        },
-        {
-          "if": "message=religion",
-          "ifnot": "message=",
-          "then": {
-            "ca": "Missatge religiós",
-            "es": "Mensaje religioso",
-            "en": "Religious message",
-            "de": "Religiöse Botschaft",
-            "cs": "Náboženská zpráva",
-            "fr": "Message religieux",
-            "nl": "Religieuze boodschap",
-            "pt": "Mensagem religiosa",
-            "pt_BR": "Mensagem religiosa",
-            "he": "מסר דתי",
-            "pl": "Przekaz religijny",
-            "zh_Hans": "宗教讯息"
-          }
-        },
-        {
-          "if": "message=funding",
-          "ifnot": "message=",
-          "then": {
-            "ca": "Cartell de financiació",
-            "es": "Cartel de financiación",
-            "en": "Funding sign",
-            "de": "Finanzierungsschild",
-            "cs": "Cedule pro financování",
-            "pt": "sinal de financiamento",
-            "pl": "Znak finansowania",
-            "pt_BR": "Placa de financiamento",
-            "zh_Hans": "资助标志"
-          },
-          "hideInAnswer": {
-            "or": [
-              "advertising=flag",
-              "advertising=column"
-            ]
-          }
-        },
-        {
-          "if": "information=map",
-          "ifnot": "information=",
-          "then": {
-            "en": "A map",
-            "ca": "Un mapa",
-            "es": "Un mapa",
-            "de": "eine Karte",
-            "cs": "Mapa",
-            "fr": "Une carte",
-            "nl": "Een kaart",
-            "pt": "Um mapa",
-            "pt_BR": "Um mapa",
-            "pl": "Mapa",
-            "zh_Hans": "地图"
-          }
-        }
-      ],
-      "multiAnswer": true,
-      "condition": {
-        "and": [
-          "advertising~.+",
-          "advertising!=no"
-        ]
-      }
-    },
-    {
-      "id": "Sides",
-      "condition": {
-        "and": [
-          "_referencing_ways=",
-          {
-            "or": [
-              "advertising=poster_box",
-              "advertising=screen",
-              "advertising=billboard"
-            ]
-          },
-          "advertising~.+",
-          "advertising!=no"
-        ]
-      },
-      "question": {
-        "ca": "Per quants costats pots veure publicitat?",
-        "es": "¿Por cuantos lados puedes ver publicidad?",
-        "en": "From how many sides you can watch advertisments?",
-        "de": "Auf wie vielen Seiten wird Werbung angezeigt?",
-        "cs": "Z kolika stran můžete vidět reklamy?",
-        "fr": "Sur combien de côtés peut-on voir de la publicité ?",
-        "pt": "De quantos lados você pode assistir a anúncios?",
-        "eu": "Zenbat aldetatik ikus dezakezu publizitatea?",
-        "pl": "Z ilu stron można oglądać reklamy?",
-        "pt_BR": "De quantos lados você consegue visualizar os anúncios?",
-        "zh_Hans": "您可以从几个侧面观看广告？"
-      },
-      "mappings": [
-        {
-          "if": "sides=1",
-          "then": {
-            "en": "This object has advertisements on a single side",
-            "ca": "Aquest mupi té publicitat a un únic costat",
-            "es": "Este mupi tiene publicidad en un único lado",
-            "de": "Werbung wird nur auf einer Seite angezeigt",
-            "cs": "Tento objekt má reklamy na jedné straně",
-            "fr": "Cet objet a de la publicité sur un seul côté",
-            "pt": "Este objeto tem anúncios em um único lado",
-            "eu": "Objektu honek iragarkiak ditu alde bakar batean",
-            "pl": "Ten obiekt ma reklamy po jednej stronie",
-            "pt_BR": "Este objeto tem anúncios em um único lado",
-            "zh_Hans": "该物体单面有广告",
-            "it": "Questo oggetto ha la pubblicità solo da un lato"
-          }
-        },
-        {
-          "if": "sides=2",
-          "then": {
-            "en": "This object has advertisements on both sides",
-            "ca": "Aquest mupi té publicitat pels dos costas",
-            "es": "Este objeto tiene publicidad por los dos lados",
-            "de": "Werbung wird auf beiden Seiten angezeigt",
-            "cs": "Tento objekt má reklamy na obou stranách",
-            "fr": "Cet objet a de la publicité des deux côtés",
-            "pt": "Este objeto tem anúncios em ambos os lados",
-            "eu": "Objektu honek iragarkiak ditu bi aldeetan",
-            "pl": "Ten obiekt ma reklamy po dwóch stronach",
-            "pt_BR": "Este objeto tem anúncios em ambos os lados",
-            "zh_Hans": "该物体双面有广告"
-          }
-        }
-      ]
-    },
-    {
-      "id": "ref",
-      "render": {
-        "ca": "El número de referència és {ref}",
-        "es": "El número de referencia es {ref}",
-        "en": "Reference number is {ref}",
-        "de": "Die Referenznummer lautet {ref}",
-        "cs": "Referenční číslo je {ref}",
-        "fr": "Le numéro de référence est {ref}",
-        "nl": "Het referentienummer is {ref}",
-        "pt": "O número de referência é {ref}",
-        "pt_BR": "O número de referência é {ref}",
-        "pl": "Numer referencyjny to {ref}",
-        "zh_Hans": "编号是{ref}"
-      },
-      "question": {
-        "ca": "Quin és el número de refèrencia?",
-        "es": "¿Cual es el número de referencia?",
-        "en": "Wich is the reference number?",
-        "de": "Wie lautet die Referenznummer?",
-        "cs": "Jaké je referenční číslo?",
-        "fr": "Quel est le numéro de référence ?",
-        "nl": "Wat is het referentienummer?",
-        "pt": "Qual é o número de referência?",
-        "pl": "Jaki jest numer referencyjny?",
-        "pt_BR": "Qual é o número de referência?",
-        "zh_Hans": "编号是多少？"
-      },
-      "freeform": {
-        "key": "ref",
-        "inline": true
-      },
-      "condition": {
-        "and": [
-          "advertising!=sign",
-          "advertising~.+",
-          "advertising!=no"
-        ]
-      }
-    },
-    {
       "id": "shelter-type",
       "mappings": [
         {
@@ -15901,6 +15827,80 @@
           "amenity=shelter",
           "amenity=shelter",
           "amenity=shelter"
+        ]
+      }
+    },
+    {
+      "id": "entrance_info",
+      "render": {
+        "ca": "<h3>Entrades</h3>Aquest edifici té {_entrances_count} entrades:{multi(_entrance_properties_with_width,Una <a href='#&LBRACEid&RBRACE'>entrada </a> de &LBRACEcanonical&LPARENSwidth&RPARENS&RBRACE,)}{_entrances_count_without_width_count} entrades encara no tenen informació d'amplada",
+        "cs": "<h3>Vchody</h3>Tato budova má {_entrances_count} vchodů:{multi(_entrance_properties_with_width,<a href='#&LBRACEid&RBRACE'>vchod</a> &LBRACEcanonical&LPARENSwidth&RPARENS&RBRACE,)}{_entrances_count_without_width_count} vchody zatím nemají informace o šířce",
+        "da": "<h3>Indgange</h3>Denne bygning har {_entrances_count} indgange:{multi(_entrance_properties_with_width,En <a href='#&LBRACEid&RBRACE'>indgang</a> på &LBRACEcanonical&LPARENSwidth&RPARENS&RBRACE,)}{_entrances_count_without_width_count} indgange har endnu ikke oplysninger om bredde",
+        "de": "<h3>Eingänge</h3>Das Gebäude hat {_entrances_count} Eingänge:{multi(_entrance_properties_with_width,Ein <a href='#&LBRACEid&RBRACE'>Eingang</a> von &LBRACEcanonical&LPARENSwidth&RPARENS&RBRACE,)}{_entrances_count_without_width_count} Eingänge haben keine Angaben zur Breite",
+        "en": "<h3>Entrances</h3>This building has {_entrances_count} entrances:{multi(_entrance_properties_with_width,An <a href='#&LBRACEid&RBRACE'>entrance</a> of &LBRACEcanonical&LPARENSwidth&RPARENS&RBRACE,)}{_entrances_count_without_width_count} entrances don't have width information yet",
+        "nl": "<h3>Ingangen</h3>Dit gebouw heeft {_entrances_count} ingangen:{multi(_entrance_properties_with_width,Een <a href='#&LBRACEid&RBRACE'>ingang</a> van &LBRACEcanonical&LPARENSwidth&RPARENS&RBRACE,)}{_entrances_count_without_width_count} ingangen hebben nog geen informatie over de breedte"
+      },
+      "mappings": [
+        {
+          "if": "_entrances_count=0",
+          "then": {
+            "en": "No entrance has been marked",
+            "de": "Es wurde kein Eingang markiert",
+            "da": "Der er ikke markeret nogen indgang",
+            "nl": "Geen ingang is gemarkeerd",
+            "ca": "No s'ha senyalitzat cap entrada",
+            "cs": "Nebyl označen žádný vchod"
+          }
+        },
+        {
+          "if": "_entrances_count_without_width:=_entrances_count",
+          "then": {
+            "en": "None of the {_entrance_count} entrances have width information yet",
+            "de": "Keiner der {_entrance_count} Eingänge hat bisher Angaben zur Breite",
+            "da": "Ingen af {_entrance_count}-indgangene har oplysninger om bredde endnu",
+            "nl": "Geen van de {_entrance_count} ingangen hebben al informatie over de breedte",
+            "ca": "Cap de les {_entrance_count} entrades té informació d'amplada encara",
+            "cs": "Žádný z {_entrance_count} vchodů zatím nemá informace o šířce"
+          }
+        }
+      ],
+      "condition": {
+        "or": [
+          "barrier=wall",
+          "barrier=wall",
+          "barrier=wall",
+          "barrier=wall",
+          "barrier=wall",
+          "barrier=wall",
+          "barrier=wall",
+          "barrier=wall",
+          "barrier=wall",
+          "barrier=wall",
+          "building~.+",
+          "building~.+",
+          "building~.+",
+          "building~.+",
+          "building~.+",
+          "building~.+",
+          "building~.+",
+          "building~.+",
+          "building~.+",
+          "building~.+"
+        ]
+      }
+    },
+    {
+      "id": "biggest_width",
+      "render": "The <a href='#{_biggest_width_id}'>entrance with the biggest width</a> is {canonical(_biggest_width)} wide",
+      "condition": {
+        "and": [
+          {
+            "or": [
+              "barrier=wall",
+              "building~.+"
+            ]
+          },
+          "_biggest_width_id~.+"
         ]
       }
     },
@@ -21990,6 +21990,32 @@
           "amenity=bicycle_parking",
           "amenity=bicycle_parking"
         ]
+      }
+    },
+    {
+      "id": "charge",
+      "condition": {
+        "and": [
+          "amenity=bicycle_parking",
+          "fee=yes"
+        ]
+      },
+      "question": {
+        "en": "How much does it cost to park your bike here?",
+        "nl": "Hoeveel kost het om een fiets te stallen?"
+      },
+      "questionHint": {
+        "en": "This is the amount which is charged for a single bike",
+        "nl": "Dit is de kostprijs voor een enkele fiets"
+      },
+      "render": {
+        "en": "Parking your bike costs {charge}",
+        "nl": "Je fiets hier parkeren kost {charge}"
+      },
+      "freeform": {
+        "key": "charge",
+        "type": "currency",
+        "inline": true
       }
     },
     {
@@ -38484,7 +38510,7 @@
       }
     },
     {
-      "id": "charge",
+      "id": "charging_station_charge",
       "question": {
         "en": "How much does one have to pay to use this charging station?",
         "nl": "Hoeveel moet men betalen om dit oplaadpunt te gebruiken?",
@@ -38505,11 +38531,15 @@
         "and": [
           "fee=yes",
           {
-            "or": [
-              "amenity=charging_station",
-              "construction:amenity=charging_station",
-              "disused:amenity=charging_station",
-              "planned:amenity=charging_station"
+            "and": [
+              {
+                "or": [
+                  "amenity=charging_station",
+                  "disused:amenity=charging_station",
+                  "planned:amenity=charging_station",
+                  "construction:amenity=charging_station"
+                ]
+              }
             ]
           }
         ]
