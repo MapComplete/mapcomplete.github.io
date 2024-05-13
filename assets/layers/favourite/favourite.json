@@ -3446,7 +3446,8 @@
           "en": "Memorial plaque",
           "de": "Gedenktafel",
           "ca": "Placa commemorativa",
-          "cs": "Pamětní deska"
+          "cs": "Pamětní deska",
+          "fr": "Mémorial plaque"
         }
       },
       {
@@ -3455,7 +3456,8 @@
           "en": "Memorial plaque",
           "de": "Gedenktafel",
           "ca": "Placa commemorativa",
-          "cs": "Pamětní deska"
+          "cs": "Pamětní deska",
+          "fr": "Mémorial plaque"
         }
       },
       {
@@ -5364,7 +5366,7 @@
           "en": "Cycling Barrier",
           "nl": "Fietshekjes",
           "de": "Barriere für Radfahrer",
-          "fr": "Barrière cyclable",
+          "fr": "Barrière à vélos",
           "ca": "Barrera ciclista",
           "es": "Barrera Ciclista",
           "da": "Cykelbarriere",
@@ -5379,7 +5381,7 @@
           "en": "Cycling Barrier",
           "nl": "Fietshekjes",
           "de": "Barriere für Radfahrer",
-          "fr": "Barrière cyclable",
+          "fr": "Barrière à vélos",
           "ca": "Barrera ciclista",
           "es": "Barrera Ciclista",
           "da": "Cykelbarriere",
@@ -6025,7 +6027,8 @@
           "en": "Memorial plaque",
           "ca": "Placa commemorativa",
           "cs": "Pamětní deska",
-          "de": "Gedenktafel"
+          "de": "Gedenktafel",
+          "fr": "Mémorial plaque"
         }
       },
       {
@@ -6039,7 +6042,8 @@
           "en": "Memorial plaque",
           "ca": "Placa commemorativa",
           "cs": "Pamětní deska",
-          "de": "Gedenktafel"
+          "de": "Gedenktafel",
+          "fr": "Mémorial plaque"
         }
       },
       {
@@ -8265,7 +8269,7 @@
           "nl": "Paaltje",
           "de": "Poller",
           "ru": "Прикол",
-          "fr": "Bollard",
+          "fr": "Potelet",
           "es": "Bolardo",
           "ca": "Pilona",
           "da": "Pullert",
@@ -8307,7 +8311,7 @@
           "nl": "Paaltje",
           "de": "Poller",
           "ru": "Прикол",
-          "fr": "Bollard",
+          "fr": "Potelet",
           "es": "Bolardo",
           "ca": "Pilona",
           "da": "Pullert",
@@ -8700,7 +8704,7 @@
           "en": "School <i>{name}</i>",
           "nl": "School <i>{name}</i>",
           "de": "Schule <i>{name}</i>",
-          "fr": "School <i>{name}</i>",
+          "fr": "École <i>{name}</i>",
           "pl": "Szkoła <i>{name}</i>",
           "ca": "Escola <i>{name}</i>",
           "cs": "Škola <i>{name}</i>"
@@ -8712,7 +8716,7 @@
           "en": "School <i>{name}</i>",
           "nl": "School <i>{name}</i>",
           "de": "Schule <i>{name}</i>",
-          "fr": "School <i>{name}</i>",
+          "fr": "École <i>{name}</i>",
           "pl": "Szkoła <i>{name}</i>",
           "ca": "Escola <i>{name}</i>",
           "cs": "Škola <i>{name}</i>"
@@ -9484,14 +9488,16 @@
         "if": "emergency=mountain_rescue",
         "then": {
           "en": "Mountain rescue station",
-          "de": "Bergrettungsstation"
+          "de": "Bergrettungsstation",
+          "fr": "Poste de secours en montagne"
         }
       },
       {
         "if": "emergency=mountain_rescue",
         "then": {
           "en": "Mountain rescue station",
-          "de": "Bergrettungsstation"
+          "de": "Bergrettungsstation",
+          "fr": "Poste de secours en montagne"
         }
       },
       {
@@ -11651,7 +11657,8 @@
         "pl": "To jest {advertising}",
         "pt_BR": "Isso é uma {advertising}",
         "zh_Hans": "这是一个{advertising}",
-        "pt": "Isto é uma {advertising}"
+        "pt": "Isto é uma {advertising}",
+        "fr": "C'est un {advertising}"
       },
       "question": {
         "ca": "Quin tipus d'element publicitari és aquest?",
@@ -11701,7 +11708,7 @@
             ]
           },
           "then": {
-            "ca": "Açò és un tauló d'anunis",
+            "ca": "Açò és un tauló d'anuncis",
             "es": "Esto es un tablón de anuncios",
             "en": "This is a board",
             "de": "Dies ist ein Brett",
@@ -16600,7 +16607,7 @@
       "render": {
         "en": "Email for questions about this defibrillator: <a href='mailto:{email}'>{email}</a>",
         "nl": "Email voor vragen over deze defibrillator: <a href='mailto:{email}'>{email}</a>",
-        "fr": "Adresse électronique pour des questions à propos de ce défibrillateur : <a href='mailto:{email}'>{email}</a>",
+        "fr": "Adresse électronique pour des questions à propos de ce défibrillateur : <a href='mailto :{email}'>{email}</a>",
         "it": "Indirizzo email per le domande su questo defibrillatore:<a href='mailto:{email}'>{email}</a>",
         "de": "E-Mail für Fragen zu diesem Defibrillator: <a href='mailto:{email}'>{email}</a>",
         "sl": "Email naslov za vprašanja o tem defibrilatorju: <a href='mailto:{email}'>{email}</a>",
@@ -16634,7 +16641,7 @@
     {
       "render": {
         "en": "Telephone for questions about this defibrillator: <a href='tel:{phone}'>{phone}</a>",
-        "fr": "Numéro de téléphone pour questions sur le défibrillateur : <a href='tel:{phone}'>{phone}</a>",
+        "fr": "Numéro de téléphone pour questions sur le défibrillateur : <a href='tel :{phone}'>{phone}</a>",
         "nl": "Telefoonnummer voor vragen over deze defibrillator: <a href='tel:{phone}'>{phone}</a>",
         "it": "Numero di telefono per le domande su questo defibrillatore:<a href='tel:{phone}'>{phone}</a>",
         "de": "Telefonnummer für Fragen zu diesem Defibrillator: <a href='tel:{phone}'>{phone}</a>",
@@ -17919,7 +17926,7 @@
           "then": {
             "en": "This bench does have a backrest",
             "de": "Diese Sitzbank hat eine Rückenlehne",
-            "fr": "Dossier : Oui",
+            "fr": "Ce banc a un dossier",
             "nl": "Heeft een rugleuning",
             "es": "Tiene respaldo",
             "hu": "Van háttámlája",
@@ -17951,7 +17958,7 @@
           "then": {
             "en": "This bench does <b>not</b> have a backrest",
             "de": "Diese Sitzbank hat <b>keine</b> Rückenlehne",
-            "fr": "Dossier : Non",
+            "fr": "Ce banc n'a <b>pas</b> de dossier",
             "nl": "Heeft <b>geen</b> rugleuning",
             "es": "<b>No</b> tiene respaldo",
             "hu": "<b>Nincs</b> háttámlája",
@@ -18205,7 +18212,7 @@
           "then": {
             "en": "The seating is made from concrete",
             "de": "Die Sitzfläche ist aus Beton",
-            "fr": "Matériau du siège : béton",
+            "fr": "L'assise est en béton",
             "nl": "Het zitgedeelte is gemaakt uit beton",
             "es": "El asiento está hecho de hormigón",
             "hu": "Ülőfelület: beton",
@@ -18482,7 +18489,7 @@
           "then": {
             "en": "Colour: green",
             "de": "Farbe: grün",
-            "fr": "Couleur : verte",
+            "fr": "Couleur : vert",
             "nl": "De kleur is groen",
             "hu": "Szín: zöld",
             "it": "Colore: verde",
@@ -18586,7 +18593,7 @@
           "then": {
             "en": "Colour: black",
             "de": "Farbe: schwarz",
-            "fr": "Couleur : noire",
+            "fr": "Couleur : noir",
             "nl": "De kleur is zwart",
             "hu": "Szín: fekete",
             "it": "Colore: nero",
@@ -21235,7 +21242,7 @@
         "de": "Z.B. hat es ein integriertes Gemälde, eine Statue oder eine andere nicht triviale, kreative Arbeit",
         "ca": "P.e. té una pintura integrada, estatua o altres treballs no trivials i creatius",
         "cs": "Např. má integrovaný obraz, sochu nebo jiné netriviální tvůrčí dílo",
-        "fr": "Par ex. il intègre une peinture, statue ou autre élément non commune, travail cratif",
+        "fr": "Par ex. il intègre une peinture, statue ou autre élément non commune, travail créatif",
         "pl": "Np. jest na niej coś namalowane, ma rzeźbę lub inną nietrywialną pracę",
         "pt_BR": "Ex. possui uma pintura integrada, estátua ou outro trabalho criativo não trivial",
         "es": "Por ejemplo, si lleva integrado un cuadro, una estatua u otra obra creativa no trivial",
@@ -21443,7 +21450,7 @@
             "gl": "Aros",
             "de": "Metallgestänge",
             "hu": "Kerékbefogó hurok",
-            "it": "Scolapiatti",
+            "it": "Rastrelliera classica",
             "zh_Hant": "車輪架/圓圈",
             "ca": "Portarodes/bucles",
             "da": "Hjulstativ/løkker",
@@ -22002,15 +22009,18 @@
       },
       "question": {
         "en": "How much does it cost to park your bike here?",
-        "nl": "Hoeveel kost het om een fiets te stallen?"
+        "nl": "Hoeveel kost het om een fiets te stallen?",
+        "de": "Wie viel kostet es, Ihr Fahrrad hier zu parken?"
       },
       "questionHint": {
         "en": "This is the amount which is charged for a single bike",
-        "nl": "Dit is de kostprijs voor een enkele fiets"
+        "nl": "Dit is de kostprijs voor een enkele fiets",
+        "de": "Das ist der Betrag, der für ein einzelnes Fahrrad berechnet wird"
       },
       "render": {
         "en": "Parking your bike costs {charge}",
-        "nl": "Je fiets hier parkeren kost {charge}"
+        "nl": "Je fiets hier parkeren kost {charge}",
+        "de": "Das Parken Ihres Fahrrads kostet {charge}"
       },
       "freeform": {
         "key": "charge",
@@ -26088,7 +26098,7 @@
             "nl": "Dit is geen fietsstraat",
             "de": "Dies ist keine Fahrradstraße.",
             "es": "Esta no es una ciclocalle.",
-            "fr": "Ceci n'est pas une rue cyclable",
+            "fr": "Ceci n'est pas une rue cyclable (vélorue)",
             "ca": "Açò no és un ciclocarrer.",
             "cs": "Toto není cyklostezka."
           },
@@ -31714,7 +31724,7 @@
             "nl": "Dit boekenruilkastje maakt geen deel uit van een netwerk",
             "de": "Der Bücherschrank gehört zu keinem Netzwerk",
             "fr": "Cette microbibliothèque ne fait pas partie d'un réseau/groupe",
-            "it": "Questa microbiblioteca non fa parte di una rete",
+            "it": "Questa biblioteca pubblica non fa parte di una rete",
             "hu": "Ez a nyilvános könyvespolc nem része egy nagyobb hálózatnak",
             "ca": "Aquesta prestatgeria pública no és part d'una xarxa més gran",
             "cs": "Tato veřejná knihobudka není součástí větší sítě"
@@ -31760,7 +31770,7 @@
             "nl": "Dit boekenruilkastje maakt geen deel uit van een netwerk",
             "de": "Dieser Bücherschrank ist nicht Teil eines größeren Netzwerks",
             "fr": "Cette microbibliothèque ne fait pas partie d'un réseau/groupe",
-            "it": "Questa microbiblioteca non fa parte di una rete",
+            "it": "Questa biblioteca non fa parte di una rete",
             "hu": "Ez a könyvespolc nem része egy nagyobb hálózatnak",
             "ca": "Aquesta prestatgeria no forma part d'una xarxa més gran",
             "cs": "Tato knihobudka není součástí větší sítě"
@@ -65854,7 +65864,7 @@
         "de": "Können Rollstuhlfahrer die Toilette benutzen?",
         "fr": "Y a-t-il des toilettes réservées aux personnes en fauteuil roulant ?",
         "nl": "Is er een rolstoeltoegankelijke toilet voorzien?",
-        "it": "C'è un WC riservato alle persone in sedia a rotelle",
+        "it": "C'è un WC riservato alle persone in sedia a rotelle?",
         "da": "Er der et særligt toilet til kørestolsbrugere?",
         "ca": "Hi ha un lavabo específic per a usuaris amb cadira de rodes?",
         "cs": "Je zde vyhrazená toaleta pro vozíčkáře?"
@@ -66379,9 +66389,9 @@
           "then": {
             "en": "A changing table is in the toilet for women",
             "de": "Ein Wickeltisch ist in der Damentoilette vorhanden",
-            "fr": "La table à langer est dans les toilettes pour femmes. ",
+            "fr": "La table à langer est dans les toilettes pour femmes.",
             "nl": "Er bevindt zich een luiertafel in de vrouwentoiletten ",
-            "it": "Il fasciatoio è nei servizi igienici femminili. ",
+            "it": "Un fasciatoio è nei servizi igienici femminili",
             "da": "Puslebordet er på toilettet til kvinder. ",
             "ca": "El canviador està al lavabo per a dones. ",
             "cs": "Přebalovací pult je na dámské toaletě. "
@@ -66392,9 +66402,9 @@
           "then": {
             "en": "A changing table is in the toilet for men",
             "de": "Ein Wickeltisch ist in der Herrentoilette vorhanden",
-            "fr": "La table à langer est dans les toilettes pour hommes. ",
+            "fr": "La table à langer est dans les toilettes pour hommes.",
             "nl": "Er bevindt zich een luiertafel in de herentoiletten ",
-            "it": "Il fasciatoio è nei servizi igienici maschili. ",
+            "it": "Un fasciatoio è nei servizi igienici maschili",
             "ca": "El canviador està al lavabo per a homes. ",
             "cs": "Přebalovací pult je na pánské toaletě. "
           },
@@ -66405,9 +66415,9 @@
           "then": {
             "en": "A changing table is in the toilet for wheelchair users",
             "de": "Ein Wickeltisch ist in der barrierefreien Toilette vorhanden",
-            "fr": "La table à langer est dans les toilettes pour personnes à mobilité réduite. ",
+            "fr": "La table à langer est dans les toilettes pour personnes à mobilité réduite.",
             "nl": "Er bevindt zich een luiertafel in de rolstoeltoegankelijke toilet ",
-            "it": "Il fasciatoio è nei servizi igienici per persone in sedia a rotelle. ",
+            "it": "Un fasciatoio è nei servizi igienici per persone in sedia a rotelle",
             "da": "Puslebordet er på toilettet for kørestolsbrugere. ",
             "ca": "El canviador està al lavabo per a usuaris de cadira de rodes. ",
             "cs": "Přebalovací pult je na toaletě pro vozíčkáře. "
@@ -66418,9 +66428,9 @@
           "then": {
             "en": "A changing table is in a dedicated room",
             "de": "Ein Wickeltisch befindet sich in einem eigenen Raum",
-            "fr": "La table à langer est dans un espace dédié. ",
+            "fr": "La table à langer est dans un espace dédié.",
             "nl": "Er bevindt zich een luiertafel in een daartoe voorziene kamer ",
-            "it": "Il fasciatoio è in una stanza dedicata. ",
+            "it": "Un fasciatoio è in una stanza dedicata",
             "es": "El cambiador está en una habitación dedicada",
             "da": "Vuggestuen står i et særligt rum. ",
             "ca": "El canviador està en una habitació dedicada. ",
@@ -75273,7 +75283,7 @@
         "nl": "Respecteer privacy - voeg enkel een naam toe indien die op de fiets staat of gepubliceerd is. Eventueel voeg je enkel de voornaam toe.",
         "de": "Bitte respektieren Sie die Privatsphäre - geben Sie den Namen nur an, wenn er weit verbreitet oder auf dem Fahrrad markiert ist. Den Familiennamen können Sie weglassen.",
         "it": "Rispetta la privacy (compila solo il nome se questo è stato ampiamente pubblicato o se è scritto sulla bici). Decidi se è il caso di non inserire il cognome.",
-        "fr": "Veuillez respecter la vie privée – ajoutez le nom seulement s'il est largement publié ou marqué sur le vélo. Choisissez de ne pas indiquer le nom de famille ",
+        "fr": "Veuillez respecter la vie privée – ajoutez le nom seulement s'il est largement publié ou marqué sur le vélo. Choisissez de ne pas indiquer le nom de famille.",
         "ca": "Si us plau, respecteu la privadesa: només ompliu el nom si està àmpliament publicat o marcat a la bicicleta. Opta per deixar de banda el cognom.",
         "cs": "Respektujte prosím soukromí – jméno vyplňte pouze v případě, že je široce publikováno nebo označeno na cyklu. Rozhodněte se vynechat příjmení."
       },
@@ -76336,7 +76346,7 @@
         "ja": "消火栓のライフサイクルステータスを更新します。",
         "fr": "Cette borne incendie est-elle toujours en bon état de fonctionnement ?",
         "de": "Ist dieser Hydrant noch in Betrieb?",
-        "it": "Aggiorna lo stato di funzionamento dell’idrante.",
+        "it": "Questo idrante è ancora in funzione?",
         "nl": "Werkt deze brandkraan nog?",
         "es": "¿Todavía funciona esta boca de incendios?",
         "ca": "Encara funciona aquest hidrant?",
@@ -76356,7 +76366,7 @@
             "ru": "Гидрант (полностью или частично) в рабочем состоянии",
             "fr": "La borne est en état (ou partiellement en état) de fonctionner",
             "de": "Der Hydrant ist (ganz oder teilweise) in Betrieb",
-            "it": "L’idrante è (parzialmente o completamente) funzionante.",
+            "it": "L’idrante è (parzialmente o completamente) funzionante",
             "nl": "De brandkraan werkt (minstens gedeeltelijk)",
             "es": "La boca de incendios funciona (total o parcialmente)",
             "ca": "L'hidrant funciona (total o parcialment)",
@@ -76375,7 +76385,7 @@
             "ja": "消火栓は使用できません。",
             "fr": "La borne est hors-service",
             "de": "Der Hydrant ist nicht mehr in Betrieb",
-            "it": "L’idrante è fuori servizio.",
+            "it": "L’idrante è fuori servizio",
             "nl": "De brandkraan is niet beschikbaar",
             "es": "La boca de incendios no está disponible",
             "ca": "L'hidrant no està disponible",
@@ -76396,7 +76406,7 @@
             "ru": "Гидрант демонтирован",
             "fr": "La borne a été retirée",
             "de": "Der Hydrant wurde entfernt",
-            "it": "L’idrante è stato rimosso.",
+            "it": "L’idrante è stato rimosso",
             "nl": "Deze brandkraan is verwijderd",
             "es": "La boca de incendios se ha retirado",
             "ca": "L'hidrant s'ha retirat",
@@ -77022,7 +77032,7 @@
         "ja": " 救急ステーションの所在地はどこですか?",
         "ru": " По какому адресу расположена эта станция?",
         "fr": "Quel est le nom de la rue où la station se situe ?",
-        "it": " Come si chiama la strada in cui si trova questa stazione?",
+        "it": "Come si chiama la strada in cui si trova questa stazione?",
         "de": "In welcher Straße liegt die Rettungswache?",
         "hu": "Mi a neve annak az utcának, amelyben az állomás található?",
         "nl": "In welke straat ligt dit station?",
@@ -78973,7 +78983,8 @@
         "de": "Was für eine Karte ist das?",
         "pl": "Jaki rodzaj mapy jest pokazany?",
         "ca": "Quin tipus de mapa es mostra?",
-        "cs": "Jaký typ mapy je zobrazen?"
+        "cs": "Jaký typ mapy je zobrazen?",
+        "fr": "De quel type de carte s'agit-il ?"
       },
       "mappings": [
         {
@@ -78982,7 +78993,8 @@
             "en": "Topographical map <p class='subtle'>The map contains contour lines. </p>",
             "de": "Topographische Katte <p class='subtle'> Die Karte enthält Höhenlinien. </p>",
             "ca": "Mapa topogràfic <p class='subtle'>El mapa conté línies de contorn. </p>",
-            "cs": "Topografická mapa <p class='subtle'>Mapa obsahuje vrstevnice. </p>"
+            "cs": "Topografická mapa <p class='subtle'>Mapa obsahuje vrstevnice. </p>",
+            "fr": "Plan topographique"
           }
         },
         {
@@ -78992,7 +79004,8 @@
             "de": "Eine Karte mit allen Straßen und Wegen eines Gebietes. <p class='subtle'>Die Straßen sind meist benannt; die Winkel, die Entfernungen, etc. stimmen</p>",
             "pl": "Mapa z wszystkimi ulicami i ścieżkami w danym obszarze. <p class='subtle'>Ulica w większości mają nazwy; kąty, odległości itp. są poprawne</p>",
             "ca": "Un mapa amb tots els carrers o camins d'una àrea. <p class='subtle'>Els carrers estan majoritàriament nomenats; els angles, distàncies etc. són acurades</p>",
-            "cs": "Mapa se všemi ulicemi nebo cestami v oblasti. <p class='subtle'>Ulice jsou většinou pojmenované, úhly, vzdálenosti atd. jsou přesné</p>"
+            "cs": "Mapa se všemi ulicemi nebo cestami v oblasti. <p class='subtle'>Ulice jsou většinou pojmenované, úhly, vzdálenosti atd. jsou přesné</p>",
+            "fr": "Une carte des rues du secteur. <p class='subtle'>Le nom des rues est généralement indiqué; les angles, distances, etc. sont précis</p>"
           }
         },
         {
@@ -79002,7 +79015,8 @@
             "de": "Dies ist eine schematische Karte. <p class='subtle'>Eine skizzierte Karte mit nur wichtigen Wegen und POIs. Die Winkel, Entfernungen usw. sind lediglich illustrativ, nicht genau.</p> ",
             "pl": "To jest mapa schematyczna. <p class='subtle'>Mapa-szkic z tylko ważnymi drogami i POI. Kąty, odległości itp. są tylko ilustratywne, niedokładne.</p> ",
             "ca": "Això és un mapa esquemàtic. <p class='subtle'>Un mapa esbossat amb només camins importants i PDI. Els angles, els trajectes etc. són merament il·lustratius, no acurat.</p> ",
-            "cs": "Jedná se o schematickou mapu. <p class='subtle'>Schematická mapa s vyznačením pouze důležitých cest a bodů zájmu. Úhly, vzdálenosti atd. jsou pouze ilustrativní, nikoliv přesné.</p> "
+            "cs": "Jedná se o schematickou mapu. <p class='subtle'>Schematická mapa s vyznačením pouze důležitých cest a bodů zájmu. Úhly, vzdálenosti atd. jsou pouze ilustrativní, nikoliv přesné.</p> ",
+            "fr": "Un plan schématique. <p class='subtle'>Une carte schématique sur laquelle seuls les éléments principaux sont indiqués (rues, POIs). Les angles, distances etc. peuvent être déformés pour rendre le plan plus lisible.</p> "
           }
         },
         {
@@ -79035,7 +79049,8 @@
         "de": "Was wird von der Fläche abgedeckt?",
         "pl": "Jaki jest rozmiar obszaru pokazanego na tej mapie?",
         "ca": "Quina és la mida de l'àrea mostrada en el mapa?",
-        "cs": "Jak velká je zobrazená oblast na mapě?"
+        "cs": "Jak velká je zobrazená oblast na mapě?",
+        "fr": "Quelle est la taille de la zone visible sur la carte ?"
       },
       "mappings": [
         {
@@ -79045,7 +79060,8 @@
             "de": "Eine Karte der Räume innerhalb eines Gebäudes",
             "pl": "Plan pomieszczeń w budynku",
             "ca": "Un mapa de les habitacions dins d'un edifici",
-            "cs": "Mapa místností uvnitř budovy"
+            "cs": "Mapa místností uvnitř budovy",
+            "fr": "Plan d'intérieur de bâtiment, montrant les différentes pièces"
           }
         },
         {
@@ -79054,7 +79070,8 @@
             "en": "A map of special site, like of a historical castle, a park, a campus, a forest, ....",
             "de": "Örtlichkeit (z.B. Burg)",
             "ca": "Un mapa d'un lloc especial, com un castell històric, un parc, un campus, un bosc, …",
-            "cs": "Mapa speciálního místa, například historického zámku, parku, areálu, lesa, ...."
+            "cs": "Mapa speciálního místa, například historického zámku, parku, areálu, lesa, ....",
+            "fr": "La carte d'un site particulier, comme un château, un parc, un campus, une forêt, ...."
           }
         },
         {
@@ -79064,7 +79081,8 @@
             "de": "Eine Karte, die das Dorf oder die Stadt anzeigt",
             "pl": "Mapa pokazująca wieś lub niewielkie miasto",
             "ca": "Un mapa que mostra el poble o la ciutat",
-            "cs": "Mapa zobrazující vesnici nebo město"
+            "cs": "Mapa zobrazující vesnici nebo město",
+            "fr": "Une carte de village ou de ville"
           }
         },
         {
@@ -79074,7 +79092,8 @@
             "de": "Stadt",
             "pl": " Mapa miasta",
             "ca": " Un mapa d'una ciutat",
-            "cs": " Mapa města"
+            "cs": " Mapa města",
+            "fr": " Une carte de ville"
           }
         },
         {
@@ -79084,7 +79103,8 @@
             "de": "Region",
             "pl": "Mapa całego regionu, pokazująca wiele miast i wsi",
             "ca": "El mapa d'una regió sencera, mostrant múltiples ciutats i pobles",
-            "cs": "Mapa celého regionu s několika městy a vesnicemi"
+            "cs": "Mapa celého regionu s několika městy a vesnicemi",
+            "fr": "La carte d'une région entière, montrant de nombreuses villes et villages"
           }
         }
       ],
@@ -79544,14 +79564,16 @@
       "id": "memorial-type",
       "question": {
         "en": "What type of memorial is this?",
-        "de": "Was für eine Art von Denkmal ist das?"
+        "de": "Was für eine Art von Denkmal ist das?",
+        "fr": "C'est un mémorial de guerre"
       },
       "mappings": [
         {
           "if": "memorial=statue",
           "then": {
             "en": "This is a statue",
-            "de": "Das ist eine Statue"
+            "de": "Das ist eine Statue",
+            "fr": "C'est une statue"
           },
           "addExtraTags": [
             "tourism=artwork",
@@ -79562,14 +79584,16 @@
           "if": "memorial=plaque",
           "then": {
             "en": "This is a plaque",
-            "de": "Dies ist eine Gedenktafel"
+            "de": "Dies ist eine Gedenktafel",
+            "fr": "C'est une plaque"
           }
         },
         {
           "if": "memorial=bench",
           "then": {
             "en": "This is a commemorative bench",
-            "de": "Dies ist eine Gedenkbank"
+            "de": "Dies ist eine Gedenkbank",
+            "fr": "C'est un banc commémoratif (banc de crémation)"
           },
           "addExtraTags": [
             "amenity=bench"
@@ -79579,7 +79603,8 @@
           "if": "memorial=ghost_bike",
           "then": {
             "en": "This is a ghost bike - a bicycle painted white to remember a cyclist whom deceased because of a car crash",
-            "de": "Dies ist ein Geisterrad - ein Fahrrad weiß lackiert, um an einen Radfahrer zu erinnern, der wegen eines Autounfalls verstorben ist"
+            "de": "Dies ist ein Geisterrad - ein Fahrrad weiß lackiert, um an einen Radfahrer zu erinnern, der wegen eines Autounfalls verstorben ist",
+            "fr": "C'est un vélo fantôme - un vélo blanc peint en mémoire d'un cycliste mort à cet endroit suite à un accident avec une voiture"
           }
         },
         {
@@ -79587,35 +79612,40 @@
           "alsoShowIf": "memorial:type=stolperstein",
           "then": {
             "en": "This is a stolperstein (stumbing stone)",
-            "de": "Dies ist ein Stolperstein"
+            "de": "Dies ist ein Stolperstein",
+            "fr": "C'est un stolperstein (pierres d'achoppement)"
           }
         },
         {
           "if": "memorial=stele",
           "then": {
             "en": "This is a stele",
-            "de": "Das ist eine Stele"
+            "de": "Das ist eine Stele",
+            "fr": "C'est une stèle"
           }
         },
         {
           "if": "memorial=stone",
           "then": {
             "en": "This is a memorial stone",
-            "de": "Das ist ein Gedenkstein"
+            "de": "Das ist ein Gedenkstein",
+            "fr": "Pierre commémorative"
           }
         },
         {
           "if": "memorial=bust",
           "then": {
             "en": "This is a bust",
-            "de": "Das ist eine Büste"
+            "de": "Das ist eine Büste",
+            "fr": "C'est un buste"
           }
         },
         {
           "if": "memorial=sculpture",
           "then": {
             "en": "This is a sculpture",
-            "de": "Dies ist eine Skulptur"
+            "de": "Dies ist eine Skulptur",
+            "fr": "C'est une sculpture"
           }
         },
         {
@@ -79623,7 +79653,8 @@
           "then": {
             "en": "This is an obelisk",
             "de": "Das ist ein Obelisk",
-            "es": "Es un obelisco"
+            "es": "Es un obelisco",
+            "fr": "C'est un obélisque"
           }
         },
         {
@@ -79631,14 +79662,16 @@
           "then": {
             "en": "This is a cross",
             "de": "Das ist ein Kreuz",
-            "es": "Es una cruz"
+            "es": "Es una cruz",
+            "fr": "C'est une croix"
           }
         },
         {
           "if": "memorial=blue_plaque",
           "then": {
             "en": "This is a blue plaque",
-            "de": "Dies ist eine blaue Plaque"
+            "de": "Dies ist eine blaue Plaque",
+            "fr": "C'est une plaque bleue (spécifique aux pays anglo-saxons)"
           },
           "onlyShowIf": "_country=gb"
         },
@@ -79646,14 +79679,16 @@
           "if": "memorial=tank",
           "then": {
             "en": "This is a historic tank, permanently placed in public space as memorial",
-            "de": "Dies ist ein historischer Panzer, der permanent in den öffentlichen Raum als Denkmal platziert wurde"
+            "de": "Dies ist ein historischer Panzer, der permanent in den öffentlichen Raum als Denkmal platziert wurde",
+            "fr": "C'est un char historique, placé de manière permanente dans l'espace public comme mémorial"
           }
         },
         {
           "if": "memorial=tree",
           "then": {
             "en": "This is a memorial tree",
-            "de": "Das ist ein Baumdenkmal"
+            "de": "Das ist ein Baumdenkmal",
+            "fr": "C'est un arbre du souvenir"
           },
           "addExtraTags": [
             "natural=tree"
@@ -79662,7 +79697,8 @@
       ],
       "render": {
         "en": "This is a {memorial}",
-        "de": "Das ist ein {memorial}"
+        "de": "Das ist ein {memorial}",
+        "fr": "C'est un {memorial}"
       },
       "freeform": {
         "key": "memorial",
@@ -79683,7 +79719,8 @@
         "en": "What is the inscription of this plaque?",
         "ca": "Quina és la inscripció d'aquesta placa?",
         "cs": "Jaký je nápis na této desce?",
-        "de": "Wie lautet die Inschrift auf dieser Gedenktafel?"
+        "de": "Wie lautet die Inschrift auf dieser Gedenktafel?",
+        "fr": "Quelle est l'inscription sur cette plaque ?"
       },
       "#:condition": "Benches have a separate inscription question",
       "condition": {
@@ -79705,7 +79742,8 @@
         "en": "The inscription on this plaque reads: <p><i>{inscription}<i></p>",
         "ca": "La inscripció d'aquesta placa diu: <p><i>{inscription}<i></p>",
         "cs": "Nápis na této desce zní: <p><i>{inscription}<i></p>",
-        "de": "Die Inschrift auf dieser Gedenktafel lautet: <p><i>{inscription}<i></p>"
+        "de": "Die Inschrift auf dieser Gedenktafel lautet: <p><i>{inscription}<i></p>",
+        "fr": "L'inscription sur cette plaque indique: <p><i>{inscription}<i></p>"
       },
       "freeform": {
         "key": "inscription",
@@ -79717,7 +79755,8 @@
           "if": "not:inscription=yes",
           "then": {
             "en": "This memorial does not have an inscription",
-            "de": "Dieses Denkmal hat keine Inschrift"
+            "de": "Dieses Denkmal hat keine Inschrift",
+            "fr": "Il n'y a aucune inscription sur cette plaque"
           },
           "addExtraTags": [
             "inscription="
@@ -79734,15 +79773,18 @@
       },
       "question": {
         "en": "What is the Wikipedia page about this memorial?",
-        "de": "Was ist die Wikipedia-Seite über dieses Denkmal?"
+        "de": "Was ist die Wikipedia-Seite über dieses Denkmal?",
+        "fr": "Quelle est la page Wikipedia de ce mémorial ?"
       },
       "questionHint": {
         "en": "This is a about the memorial itself, not about the person or event that the memorial remembers. If this memorial does not have a Wikipedia page or Wikidata entity, skip this question.",
-        "de": "Hier geht es um das Denkmal selbst, nicht um die Person oder das Ereignis, an das die Denkmal erinnert. Wenn diese Gedenkstätte keine Wikipedia-Seite oder Wikidata-Entität hat, überspringe diese Frage."
+        "de": "Hier geht es um das Denkmal selbst, nicht um die Person oder das Ereignis, an das die Denkmal erinnert. Wenn diese Gedenkstätte keine Wikipedia-Seite oder Wikidata-Entität hat, überspringe diese Frage.",
+        "fr": "C'est la page Wikipedia du mémorial et non celle de la personne ou de l'évènement commémoré. Si le mémorial n'a pas de page Wikipedia ou d'entité Wikidata, passez cette question."
       },
       "render": {
         "de": "<h3>Wikipedia-Seite über das Denkmal</h3>{wikipedia(wikidata)}",
-        "en": "<h3>Wikipedia page about the memorial</h3>{wikipedia(wikidata)}"
+        "en": "<h3>Wikipedia page about the memorial</h3>{wikipedia(wikidata)}",
+        "fr": "<h3>Page Wikipedia du mémorial</h3>{wikipedia(wikidata)}"
       },
       "condition": {
         "or": [
@@ -79765,15 +79807,18 @@
       },
       "question": {
         "en": "What is the Wikipedia page about the person or event that is remembered here?",
-        "de": "Was ist die Wikipedia-Seite über die Person oder Veranstaltung, die hier erinnert wird?"
+        "de": "Was ist die Wikipedia-Seite über die Person oder Veranstaltung, die hier erinnert wird?",
+        "fr": "Quelle est la page Wikipedia qui fait référence à cet évènement ou cette personne?"
       },
       "questionHint": {
         "en": "If the person or event does not have a Wikipedia page or Wikidata entity, skip this question.",
-        "de": "Wenn die Person oder das Ereignis keine Wikipedia-Seite oder Wikidata-Entität hat, überspringe diese Frage."
+        "de": "Wenn die Person oder das Ereignis keine Wikipedia-Seite oder Wikidata-Entität hat, überspringe diese Frage.",
+        "fr": "Si la personne ou l'évènement n'a pas de page Wikipedia ou d'entité Wikidata, passez cette question."
       },
       "render": {
         "de": "<h3>Wikipedia-Seite über das erinnerte Ereignis oder die Person</h3>{wikipedia(subject:wikidata)}",
-        "en": "<h3>Wikipedia page about the remembered event or person</h3>{wikipedia(subject:wikidata)}"
+        "en": "<h3>Wikipedia page about the remembered event or person</h3>{wikipedia(subject:wikidata)}",
+        "fr": "<h3>Page Wikipedia sur la personne ou l'évènement commémoré</h3>{wikipedia(subject:wikidata)}"
       },
       "condition": {
         "or": [
@@ -79787,7 +79832,8 @@
     {
       "question": {
         "en": "When was this memorial installed?",
-        "de": "Wann wurde dieses Denkmal installiert?"
+        "de": "Wann wurde dieses Denkmal installiert?",
+        "fr": "Quand ce mémorial a-t-il été installé ?"
       },
       "render": {
         "nl": "Geplaatst op {start_date}",
@@ -80064,7 +80110,8 @@
         "nl": "Is dit gebied toegankelijk?",
         "de": "Ist das Gebiet öffentlich zugänglich?",
         "ca": "Aquesta reserva natural és accessible al públic?",
-        "cs": "Je tato přírodní rezervace přístupná veřejnosti?"
+        "cs": "Je tato přírodní rezervace přístupná veřejnosti?",
+        "fr": "Est-ce que cette réserve naturelle est ouverte au public ?"
       },
       "freeform": {
         "key": "access:description",
@@ -80083,7 +80130,8 @@
             "nl": "Vrij toegankelijk",
             "de": "Das Gebiet ist öffentlich zugänglich",
             "ca": "Accessible al públic",
-            "cs": "Veřejně přístupné"
+            "cs": "Veřejně přístupné",
+            "fr": "Accessible au grand public"
           }
         },
         {
@@ -80099,7 +80147,8 @@
             "de": "Das Gebiet ist nicht zugänglich",
             "es": "No accesible",
             "ca": "No accessible",
-            "cs": "Nepřístupné"
+            "cs": "Nepřístupné",
+            "fr": "Non accessible"
           }
         },
         {
@@ -80115,7 +80164,8 @@
             "de": "Das Gebiet ist privat und nicht zugänglich",
             "es": "No accesible, ya que es una área privada",
             "ca": "No accessible perquè es tracta d'una zona privada",
-            "cs": "Není přístupné, protože se jedná o soukromou oblast"
+            "cs": "Není přístupné, protože se jedná o soukromou oblast",
+            "fr": "Non accessible car c'est une zone privée"
           }
         },
         {
@@ -80131,7 +80181,8 @@
             "de": "Das Gebiet ist privat aber zugänglich",
             "es": "Accesible a pesar de ser una área privada",
             "ca": "Accessible tot i ser una propietat privada",
-            "cs": "Přístupné, přestože se jedná o soukromý areál"
+            "cs": "Přístupné, přestože se jedná o soukromý areál",
+            "fr": "Accessible bien que ce soit une zone privée"
           }
         },
         {
@@ -80147,7 +80198,8 @@
             "de": "Das Gebiet ist nur während Führungen oder organisierten Aktivitäten zugänglich",
             "es": "Solo accesible con un guía o durante actividades organizadas",
             "ca": "Només accessible amb guia o durant les activitats organitzades",
-            "cs": "Přístupné pouze s průvodcem nebo během organizovaných aktivit"
+            "cs": "Přístupné pouze s průvodcem nebo během organizovaných aktivit",
+            "fr": "Seulement accessible avec un guide ou lors d'activités organisées"
           }
         },
         {
@@ -80163,7 +80215,8 @@
             "de": "Das Gebiet ist nur gegen Bezahlung zugänglich",
             "es": "Accesible con una tasa",
             "ca": "Accessible amb una taxa",
-            "cs": "Přístupné za poplatek"
+            "cs": "Přístupné za poplatek",
+            "fr": "Payant"
           }
         }
       ],
@@ -80332,7 +80385,8 @@
             "de": "Das Gebiet hat keinen Namen",
             "es": "Esta área no tiene un nombre",
             "ca": "Aquesta àrea no té un nom",
-            "cs": "Tato oblast nemá jméno"
+            "cs": "Tato oblast nemá jméno",
+            "fr": "Ce lieu n'a pas de nom"
           }
         }
       ],
@@ -80471,7 +80525,7 @@
         "nl": "Waar kan men naartoe emailen voor vragen en meldingen van dit natuurgebied?",
         "en": "What email address can one send to with questions and problems with this nature reserve?",
         "it": "Qual è l’indirizzo email a cui scrivere per fare domande o segnalare problemi su questa riserva naturale?",
-        "fr": "À quelle adresse courriel peut-on envoyer des questions et des problèmes concernant cette réserve naturelle ? ",
+        "fr": "À quelle adresse courriel peut-on envoyer des questions et des problèmes concernant cette réserve naturelle ?",
         "de": "An welche Email-Adresse kann man sich bei Fragen und Problemen zu diesem Gebiet wenden?",
         "ca": "A quina adreça de correu electrònic es pot enviar amb preguntes i problemes amb aquest parc natural?",
         "cs": "Na jakou e-mailovou adresu lze poslat dotazy a problémy týkající se této přírodní rezervace?"
@@ -80516,8 +80570,8 @@
       "question": {
         "nl": "Waar kan men naartoe bellen voor vragen en meldingen van dit natuurgebied?",
         "en": "What phone number can one call to with questions and problems with this nature reserve?",
-        "it": "Quale numero di telefono comporre per fare domande o segnalare problemi riguardanti questa riserva naturale?br/>",
-        "fr": "Quel numéro de téléphone peut-on appeler pour poser des questions et résoudre des problèmes concernant cette réserve naturelle ? ",
+        "it": "Quale numero di telefono comporre per fare domande o segnalare problemi riguardanti questa riserva naturale?",
+        "fr": "Quel numéro de téléphone peut-on appeler pour poser des questions et résoudre des problèmes concernant cette réserve naturelle ?",
         "de": "Welche Telefonnummer kann man bei Fragen und Problemen zu diesem Gebiet anrufen?",
         "ca": "A quin número de telèfon es pot trucar amb preguntes i problemes amb aquest parc natural?",
         "cs": "Na jaké telefonní číslo lze volat v případě dotazů a problémů s touto přírodní rezervací?"
@@ -80599,7 +80653,8 @@
         "de": "Gibt es zusätzliche Informationen?",
         "es": "¿Hay alguna información adicional?",
         "ca": "Hi ha alguna informació addicional?",
-        "cs": "Jsou k dispozici nějaké další informace?"
+        "cs": "Jsou k dispozici nějaké další informace?",
+        "fr": "Y-a-t-il des informations complémentaires?"
       },
       "render": {
         "en": "Extra info: <i>{description:0}</i>",
@@ -80607,7 +80662,8 @@
         "de": "Zusätzliche Informationen: <i>{description:0}</i>",
         "es": "Información adicional: <i>{description:0}</i>",
         "ca": "Informació adicional: <i>{description:0}</i>",
-        "cs": "Další informace: <i>{description:0}</i>"
+        "cs": "Další informace: <i>{description:0}</i>",
+        "fr": "Information complémentaire: <i>{description:0}</i>"
       },
       "freeform": {
         "key": "description:0",
@@ -82272,11 +82328,13 @@
       "id": "duration",
       "question": {
         "en": "How long takes a single journey with this elevator?",
-        "de": "Wie lange dauert eine Fahrt mit diesem Aufzug?"
+        "de": "Wie lange dauert eine Fahrt mit diesem Aufzug?",
+        "fr": "Combien de temps dure le trajet dans cet ascenseur ?"
       },
       "questionHint": {
         "en": "This excludes the waiting time.",
-        "de": "Dies schließt die Wartezeit aus."
+        "de": "Dies schließt die Wartezeit aus.",
+        "fr": "Cela n'inclut pas le temps d'attente."
       },
       "freeform": {
         "key": "duration",
@@ -82284,7 +82342,8 @@
       },
       "render": {
         "en": "A single journey takes {duration} minutes",
-        "de": "Eine Fahrt dauert {duration} Minuten"
+        "de": "Eine Fahrt dauert {duration} Minuten",
+        "fr": "Un aller simple dure {duration} minutes"
       },
       "condition": {
         "and": [
@@ -87758,7 +87817,7 @@
             "en": "A public area is surveilled, such as a street, a bridge, a square, a park, a train station, a public corridor or tunnel, …",
             "nl": "Bewaking van de publieke ruimte, dus een straat, een brug, een park, een plein, een stationsgebouw, een publiek toegankelijke gang of tunnel…",
             "fr": "Une zone publique est surveillée, telle qu'une rue, un pont, une place, un parc, une gare, un couloir, un tunnel public…",
-            "it": "Sorveglia un'area pubblica, come una strada, un ponte, una piazza, un parco, una stazione, un passaggio o un sottopasso pubblico, ...",
+            "it": "Sorveglia un'area pubblica, come una strada, un ponte, una piazza, un parco, una stazione, un passaggio o un sottopasso pubblico, …",
             "de": "Die Kamera überwacht einen öffentlichen Bereich, z. B. Straßen, Brücken, Plätze, Parks, Bahnhöfe, öffentliche Gänge oder Tunnel, …",
             "da": "Et offentligt område overvåges, f.eks. en gade, en bro, et torv, en park, en togstation, en offentlig korridor eller en tunnel, …",
             "ca": "Es vigila una àrea pública, com un carrer, un pont, una plaça, un parc, una estació de tren, un túnel públic, …",
@@ -87796,7 +87855,7 @@
             "nl": "Een private binnenruimte wordt bewaakt, bv. een winkel, een parkeergarage, …",
             "en": "A private indoor area is surveilled, e.g. a shop, a private underground parking, …",
             "fr": "Une zone intérieure privée est surveillée, par exemple un magasin, un parking souterrain privé…",
-            "it": "Sorveglia un ambiente interno di proprietà privata, per esempio un negozio, un parcheggio sotterraneo privato, ...",
+            "it": "Sorveglia un ambiente interno di proprietà privata, per esempio un negozio, un parcheggio sotterraneo privato, …",
             "de": "Die Kamera überwacht einen privaten Innenbereich, z. B. Geschäfte, private Tiefgaragen, …",
             "da": "Et privat indendørs område overvåges, f.eks. en butik, en privat parkeringskælder, …",
             "ca": "Es vigila una àrea interior privada, p.e. una botiga, un parking subterrani privat, …",
@@ -87967,7 +88026,7 @@
         "en": "Surveills a {surveillance:zone}",
         "nl": "Bewaakt een {surveillance:zone}",
         "fr": "Surveille un(e) {surveillance:zone}",
-        "it": " Sorveglia una {surveillance:zone}",
+        "it": "Sorveglia una {surveillance:zone}",
         "de": "Überwacht ein/e {surveillance:zone}",
         "da": "Overvåger en {surveillance:zone}",
         "ca": "Vigila un/a {surveillance:zone}",
@@ -88852,7 +88911,7 @@
       "question": {
         "en": "What is the circumference of the tree trunk?",
         "de": "Wie groß ist der Umfang des Baumstammes?",
-        "fr": "Quelle est la circonférence du tronc ? ",
+        "fr": "Quelle est la circonférence du tronc ?",
         "nl": "Wat is de omtrek van de boomstam? ",
         "es": "¿Cuál es la circunferencia del tronco del árbol?",
         "pt": "Qual é a circunferência do tronco da árvore?",

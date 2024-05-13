@@ -1474,6 +1474,11 @@
                 },
                 "question": "Wo befinden sich diese Fahrradabstellplätze?"
             },
+            "charge": {
+                "question": "Wie viel kostet es, Ihr Fahrrad hier zu parken?",
+                "questionHint": "Das ist der Betrag, der für ein einzelnes Fahrrad berechnet wird",
+                "render": "Das Parken Ihres Fahrrads kostet {charge}"
+            },
             "fee": {
                 "mappings": {
                     "0": {
@@ -10532,6 +10537,18 @@
                     "2": {
                         "human": "{quantity} Tage",
                         "humanSingular": "ein Tag"
+                    },
+                    "3": {
+                        "human": "{quantity} Wochen",
+                        "humanSingular": "ein Woche"
+                    },
+                    "4": {
+                        "human": "{quantity} Monate",
+                        "humanSingular": "ein Monat"
+                    },
+                    "5": {
+                        "human": "{quantity} Jahre",
+                        "humanSingular": "ein Jahr"
                     }
                 }
             }
