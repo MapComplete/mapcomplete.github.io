@@ -3447,7 +3447,7 @@
           "de": "Gedenktafel",
           "ca": "Placa commemorativa",
           "cs": "Pamětní deska",
-          "fr": "Mémorial plaque"
+          "fr": "Plaque commémorative"
         }
       },
       {
@@ -3457,7 +3457,7 @@
           "de": "Gedenktafel",
           "ca": "Placa commemorativa",
           "cs": "Pamětní deska",
-          "fr": "Mémorial plaque"
+          "fr": "Plaque commémorative"
         }
       },
       {
@@ -6028,7 +6028,7 @@
           "ca": "Placa commemorativa",
           "cs": "Pamětní deska",
           "de": "Gedenktafel",
-          "fr": "Mémorial plaque"
+          "fr": "Plaque commémorative"
         }
       },
       {
@@ -6043,7 +6043,7 @@
           "ca": "Placa commemorativa",
           "cs": "Pamětní deska",
           "de": "Gedenktafel",
-          "fr": "Mémorial plaque"
+          "fr": "Plaque commémorative"
         }
       },
       {
@@ -17963,7 +17963,7 @@
             "es": "<b>No</b> tiene respaldo",
             "hu": "<b>Nincs</b> háttámlája",
             "id": "Sandaran: Tidak",
-            "it": "Schienale: No",
+            "it": "Questa panchina <b>non</b> ha uno schienale",
             "ru": "Без спинки",
             "zh_Hans": "<b>没有</b>靠背",
             "zh_Hant": "靠背：無",
@@ -40501,7 +40501,7 @@
         "en": "This route has {climbing:bolts} bolts <div class='subtle'>This is without relays and indicates how much quickdraws a climber needs</div>",
         "fr": "Cette voie a {climbing:bolts} prises <div class='subtle'>C'est sans relai et indique de combien de dégaine un grimpeur a besoin</div>",
         "de": "Diese Route hat {climbing:bolts} Haken <div class='subtle'>Dies ist ohne Relais und gibt an, wie viel Schnellspanner ein Kletterer braucht</div>",
-        "it": "Questo percorso ha {climbing:bolts} bulloni",
+        "it": "Questo percorso ha {climbing:bolts} bulloni <div class='subtle'>Questa è senza collettori e indica di quanti bloccaggi rapidi ha bisogno un arrampicatore</div>",
         "nl": "Deze route heeft {climbing:bolts} klimbouten. <div class='subtle'>Dit is zonder het relay mee te tellen. Een klimmer heeft dus minstens {climbing:bolts} klimsetjes nodig om boven te raken</div>"
       },
       "freeform": {
@@ -67165,7 +67165,8 @@
       "id": "guidepost_type",
       "question": {
         "en": "What kind of routes are shown on this guidepost?",
-        "de": "Welche Arten von Routen werden auf diesem Wegweiser angezeigt?"
+        "de": "Welche Arten von Routen werden auf diesem Wegweiser angezeigt?",
+        "fr": "Quel type d'itinéraire indique ce panneau ?"
       },
       "multiAnswer": true,
       "mappings": [
@@ -67174,7 +67175,8 @@
           "ifnot": "bicycle=",
           "then": {
             "en": "This guidepost shows bicycle routes",
-            "de": "Dieser Wegweiser zeigt Fahrradrouten"
+            "de": "Dieser Wegweiser zeigt Fahrradrouten",
+            "fr": "Un itinéraire vélo"
           }
         },
         {
@@ -67182,7 +67184,8 @@
           "ifnot": "hiking=",
           "then": {
             "en": "This guidepost shows hiking routes",
-            "de": "Dieser Wegweiser zeigt Wanderwege"
+            "de": "Dieser Wegweiser zeigt Wanderwege",
+            "fr": "un itinéraire de randonnée"
           }
         },
         {
@@ -67190,7 +67193,8 @@
           "ifnot": "mtb=",
           "then": {
             "en": "This guidepost shows mountain bike routes",
-            "de": "Dieser Wegweiser zeigt Mountainbike-Routen"
+            "de": "Dieser Wegweiser zeigt Mountainbike-Routen",
+            "fr": "un itinéraire de vtt"
           }
         },
         {
@@ -67198,7 +67202,8 @@
           "ifnot": "horse=",
           "then": {
             "en": "This guidepost shows horse riding routes",
-            "de": "Dieser Wegweiser zeigt Reitwege"
+            "de": "Dieser Wegweiser zeigt Reitwege",
+            "fr": "un itinéraire équestre"
           }
         },
         {
@@ -67206,7 +67211,8 @@
           "ifnot": "ski=",
           "then": {
             "en": "This guidepost shows ski routes",
-            "de": "Dieser Wegweiser zeigt Skirouten"
+            "de": "Dieser Wegweiser zeigt Skirouten",
+            "fr": "un itinéraire de pistes de ski"
           }
         }
       ],
@@ -79025,7 +79031,8 @@
             "en": "This is a toposcope. <p class='subtle'>A marker erected on high places which indicates the direction to notable landscape features which can be seen from that point<p>",
             "de": "Dies ist ein Toposkop. <p class='subtle'>Eine Markierung, die an hohen Stellen angebracht ist und die Richtung zu wichtigen Landschaftsobjekten anzeigt, die von diesem Punkt aus gesehen werden können<p>",
             "ca": "Això és un toposcope. <p class='subtle'>Un marcador erigit en llocs alts que indica la direcció cap als elements paisatgístics notables que es poden veure des d'aquest punt<p>",
-            "cs": "Jedná se o toposkop. <p class='subtle'>Značka vztyčená na vyvýšených místech, která udává směr k pozoruhodným krajinným prvkům, které jsou z tohoto místa vidět<p>"
+            "cs": "Jedná se o toposkop. <p class='subtle'>Značka vztyčená na vyvýšených místech, která udává směr k pozoruhodným krajinným prvkům, které jsou z tohoto místa vidět<p>",
+            "fr": "Une table d'orientation. <p class='subtle'>Un élément érigé sur une hauteur qui indique la direction d'éléments paysagers remarquables visibles depuis ce point<p>"
           }
         }
       ],
@@ -79082,7 +79089,7 @@
             "pl": "Mapa pokazująca wieś lub niewielkie miasto",
             "ca": "Un mapa que mostra el poble o la ciutat",
             "cs": "Mapa zobrazující vesnici nebo město",
-            "fr": "Une carte de village ou de ville"
+            "fr": "Une carte de village ou de petite ville"
           }
         },
         {
@@ -79593,7 +79600,7 @@
           "then": {
             "en": "This is a commemorative bench",
             "de": "Dies ist eine Gedenkbank",
-            "fr": "C'est un banc commémoratif (banc de crémation)"
+            "fr": "C'est un banc commémoratif"
           },
           "addExtraTags": [
             "amenity=bench"
@@ -79613,7 +79620,7 @@
           "then": {
             "en": "This is a stolperstein (stumbing stone)",
             "de": "Dies ist ein Stolperstein",
-            "fr": "C'est un stolperstein (pierres d'achoppement)"
+            "fr": "C'est un stolperstein (pierre d'achoppement)"
           }
         },
         {
@@ -79629,7 +79636,7 @@
           "then": {
             "en": "This is a memorial stone",
             "de": "Das ist ein Gedenkstein",
-            "fr": "Pierre commémorative"
+            "fr": "C'est une pierre commémorative"
           }
         },
         {
@@ -79779,7 +79786,7 @@
       "questionHint": {
         "en": "This is a about the memorial itself, not about the person or event that the memorial remembers. If this memorial does not have a Wikipedia page or Wikidata entity, skip this question.",
         "de": "Hier geht es um das Denkmal selbst, nicht um die Person oder das Ereignis, an das die Denkmal erinnert. Wenn diese Gedenkstätte keine Wikipedia-Seite oder Wikidata-Entität hat, überspringe diese Frage.",
-        "fr": "C'est la page Wikipedia du mémorial et non celle de la personne ou de l'évènement commémoré. Si le mémorial n'a pas de page Wikipedia ou d'entité Wikidata, passez cette question."
+        "fr": "C'est la page Wikipédia du mémorial et non celle de la personne ou de l'évènement commémoré. Si le mémorial n'a pas de page Wikipédia ou d'entité Wikidata, passez cette question."
       },
       "render": {
         "de": "<h3>Wikipedia-Seite über das Denkmal</h3>{wikipedia(wikidata)}",

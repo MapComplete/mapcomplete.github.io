@@ -21,7 +21,7 @@
       "ca": "Placa commemorativa",
       "cs": "Pamětní deska",
       "de": "Gedenktafel",
-      "fr": "Mémorial plaque"
+      "fr": "Plaque commémorative"
     },
     "mappings": [
       {
@@ -31,7 +31,7 @@
           "de": "Gedenktafel",
           "ca": "Placa commemorativa",
           "cs": "Pamětní deska",
-          "fr": "Mémorial plaque"
+          "fr": "Plaque commémorative"
         }
       }
     ]
@@ -76,7 +76,7 @@
       "title": {
         "en": "a memorial",
         "de": "ein Denkmal",
-        "fr": "Un mémorial"
+        "fr": "un mémorial"
       },
       "tags": [
         "historic=memorial"
@@ -118,7 +118,7 @@
           "then": {
             "en": "This is a commemorative bench",
             "de": "Dies ist eine Gedenkbank",
-            "fr": "C'est un banc commémoratif (banc de crémation)"
+            "fr": "C'est un banc commémoratif"
           },
           "addExtraTags": [
             "amenity=bench"
@@ -138,7 +138,7 @@
           "then": {
             "en": "This is a stolperstein (stumbing stone)",
             "de": "Dies ist ein Stolperstein",
-            "fr": "C'est un stolperstein (pierres d'achoppement)"
+            "fr": "C'est un stolperstein (pierre d'achoppement)"
           }
         },
         {
@@ -154,7 +154,7 @@
           "then": {
             "en": "This is a memorial stone",
             "de": "Das ist ein Gedenkstein",
-            "fr": "Pierre commémorative"
+            "fr": "C'est une pierre commémorative"
           }
         },
         {
@@ -279,7 +279,7 @@
       "questionHint": {
         "en": "This is a about the memorial itself, not about the person or event that the memorial remembers. If this memorial does not have a Wikipedia page or Wikidata entity, skip this question.",
         "de": "Hier geht es um das Denkmal selbst, nicht um die Person oder das Ereignis, an das die Denkmal erinnert. Wenn diese Gedenkstätte keine Wikipedia-Seite oder Wikidata-Entität hat, überspringe diese Frage.",
-        "fr": "C'est la page Wikipedia du mémorial et non celle de la personne ou de l'évènement commémoré. Si le mémorial n'a pas de page Wikipedia ou d'entité Wikidata, passez cette question."
+        "fr": "C'est la page Wikipédia du mémorial et non celle de la personne ou de l'évènement commémoré. Si le mémorial n'a pas de page Wikipédia ou d'entité Wikidata, passez cette question."
       },
       "render": {
         "special": {

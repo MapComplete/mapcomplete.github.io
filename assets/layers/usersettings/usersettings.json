@@ -295,7 +295,8 @@
             "ca": "Les imatges que feu tindran llicència <b>CC0</b> i s'afegiran al domini públic. Això vol dir que tothom pot utilitzar les vostres imatges per a qualsevol propòsit.",
             "es": "Las fotografías que tome tendrán una licencia con <b>CC0</b> y se agregarán al dominio público. Esto significa que todos pueden usar sus imágenes para cualquier propósito.",
             "pt": "As fotos que você tirar serão licenciadas com <b>CC0</b> e adicionadas ao domínio público. Isso significa que todos podem usar suas fotos para qualquer finalidade.",
-            "da": "Billeder, som du har taget, vil blive udgivet under <b>CC0</b>-licensen og lagt ud i fælleseje. Det betyder, at alle kan bruge dine billeder til ethvert formål."
+            "da": "Billeder, som du har taget, vil blive udgivet under <b>CC0</b>-licensen og lagt ud i fælleseje. Det betyder, at alle kan bruge dine billeder til ethvert formål.",
+            "fr": "Les photos que vous avez ajoutées seront sous licence <b>CC0</b>  et mises dans le domaine public. Cela signifie que n'importe qui pourra les utiliser, quel qu'en soit l'usage."
           }
         },
         {
@@ -338,7 +339,8 @@
         "de": "<b>Tags</b> sind die Eigenschaften, die jedes Objekt hat. Das sind die technischen Daten, die in der Datenbank gespeichert werden. Du brauchst diese Informationen nicht, um mit MapComplete Änderungen zu machen, aber fortgeschrittenen Nutzer*innen kann es als Referenz dienen.",
         "ca": "Les <b>etiquetes</b> són atributs que té cada element. Aquestes són les dades tècniques que s'emmagatzemen a la base de dades. No necessiteu aquesta informació per editar amb MapComplete, però és possible que els usuaris avançats la vulguin fer servir com a referència.",
         "cs": "<b>Tagy</b> jsou atributy, které má každý element. Jedná se o technické údaje, které jsou uloženy v databázi. K úpravám pomocí MapComplete tyto informace nepotřebujete, ale pokročilí uživatelé by je mohli chtít použít jako referenci.",
-        "nl": "<b>Data-attributen</b> zijn stukjes data die elk element in OpenStreetMap heeft. Dit is technische data die in de databank komt. Je hoeft deze informatie niet te kennen om aanpassingen te maken met MapComplete, maar geavanceerde gebruikers kunnen dit als referentie gebruiken."
+        "nl": "<b>Data-attributen</b> zijn stukjes data die elk element in OpenStreetMap heeft. Dit is technische data die in de databank komt. Je hoeft deze informatie niet te kennen om aanpassingen te maken met MapComplete, maar geavanceerde gebruikers kunnen dit als referentie gebruiken.",
+        "fr": "Les<b>Tags</b> ou étiquettes sont des attributs rattachés à chaque élément. C'est une donnée technique qui est stockée dans une base de données. Vous n'avez pas besoin de connaître ces étiquettes pour utiliser MapComplete, mais certains utilisateurs préfèrent les afficher."
       },
       "mappings": [
         {
@@ -348,7 +350,8 @@
             "de": "Tags nie anzeigen.",
             "ca": "No mostris mai les etiquetes.",
             "cs": "Nikdy nezobrazovat tagy.",
-            "nl": "Verberg data-attributen"
+            "nl": "Verberg data-attributen",
+            "fr": "Ne jamais voir les étiquettes."
           }
         },
         {
@@ -358,7 +361,8 @@
             "de": "Tags anzeigen sobald ich {__userjourney_tagsVisibleAt} Changesets erstellt habe",
             "ca": "Mostra les etiquetes que s'aplicaran un cop hagi fet {__userjourney_tagsVisibleAt} conjunts de canvis",
             "cs": "Zobrazit tagy, které budou použity, jakmile provedu {__userjourney_tagsVisibleAt} sady změn",
-            "nl": "Toon data-attributen bij wijzigingen indien je meer dan {__userjourney_tagsVisibleAt} changesets hebt gemaakt"
+            "nl": "Toon data-attributen bij wijzigingen indien je meer dan {__userjourney_tagsVisibleAt} changesets hebt gemaakt",
+            "fr": "Voir les étiquettes au bout de  {__userjourney_tagsVisibleAt} modifications"
           }
         },
         {
@@ -368,7 +372,8 @@
             "de": "Tags anzeigen, die bei der Änderung hinzugefügt werden",
             "ca": "Mostra les etiquetes que s'aplicaran en fer un canvi",
             "cs": "Zobrazení tagů, které budou použity při provádění změny",
-            "nl": "Toon de data-attributen die toegepast zullen worden bij wijzigingen"
+            "nl": "Toon de data-attributen die toegepast zullen worden bij wijzigingen",
+            "fr": "Voir les étiquettes quand je fais une modification"
           }
         },
         {
@@ -378,7 +383,8 @@
             "de": "Tags anzeigen, die bei der Änderung hinzugefügt werden, und Tag-Tabelle bei jedem Objekt anzeigen",
             "ca": "Mostra les etiquetes que s'aplicaran a l'hora de fer un canvi i mostra la taula d'etiquetes a cada element",
             "cs": "Zobrazení tagů, které se použijí při provádění změny, a zobrazení tabulky tagů u každé funkce",
-            "nl": "Toon de data-attributen die toegepast zullen worden bij wijzigingen en toon een tabel met alle data-attributen bij elk object."
+            "nl": "Toon de data-attributen die toegepast zullen worden bij wijzigingen en toon een tabel met alle data-attributen bij elk object.",
+            "fr": "Voir les étiquettes quand je fais une modification et toujours voir les étiquettes pour chaque élément"
           }
         }
       ]

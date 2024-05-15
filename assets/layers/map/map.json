@@ -182,7 +182,8 @@
             "en": "This is a toposcope. <p class='subtle'>A marker erected on high places which indicates the direction to notable landscape features which can be seen from that point<p>",
             "de": "Dies ist ein Toposkop. <p class='subtle'>Eine Markierung, die an hohen Stellen angebracht ist und die Richtung zu wichtigen Landschaftsobjekten anzeigt, die von diesem Punkt aus gesehen werden können<p>",
             "ca": "Això és un toposcope. <p class='subtle'>Un marcador erigit en llocs alts que indica la direcció cap als elements paisatgístics notables que es poden veure des d'aquest punt<p>",
-            "cs": "Jedná se o toposkop. <p class='subtle'>Značka vztyčená na vyvýšených místech, která udává směr k pozoruhodným krajinným prvkům, které jsou z tohoto místa vidět<p>"
+            "cs": "Jedná se o toposkop. <p class='subtle'>Značka vztyčená na vyvýšených místech, která udává směr k pozoruhodným krajinným prvkům, které jsou z tohoto místa vidět<p>",
+            "fr": "Une table d'orientation. <p class='subtle'>Un élément érigé sur une hauteur qui indique la direction d'éléments paysagers remarquables visibles depuis ce point<p>"
           }
         }
       ]
@@ -227,7 +228,7 @@
             "pl": "Mapa pokazująca wieś lub niewielkie miasto",
             "ca": "Un mapa que mostra el poble o la ciutat",
             "cs": "Mapa zobrazující vesnici nebo město",
-            "fr": "Une carte de village ou de ville"
+            "fr": "Une carte de village ou de petite ville"
           }
         },
         {
