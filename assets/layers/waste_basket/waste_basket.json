@@ -209,15 +209,8 @@
         {
           "if": "waste=pmd",
           "then": {
-            "en": "A waste basket for paper",
-            "nl": "Een vuilnisbak voor papier",
-            "ca": "Una paperera per a paper",
-            "cs": "Odpadový koš na papír",
-            "da": "En affaldskurv til papir",
-            "de": "Der Abfalleimer ist für Papier",
-            "fr": "Une poubelle pour papier",
-            "id": "Keranjang sampah untuk kertas",
-            "it": "Un cestino rifiuti per la carta"
+            "en": "A waste basket for plastic packaging, metal packaging and drink cartons (PMD)",
+            "nl": "Een vuilnisbak voor plastic verpakkingen, metalen verpakkingen en drankpakken (PMD)"
           }
         },
         {

@@ -1113,6 +1113,18 @@
           }
         },
         {
+          "if": "recycling:pmd=yes",
+          "ifnot": "recycling:pmd=",
+          "then": {
+            "en": "Plastic packaging, metal packaging and drink cartons (PMD) can be recycled here",
+            "nl": "Plastic verpakkingen, metalen verpakkingen en drankpakken kunnen hier gerecycled worden"
+          },
+          "icon": {
+            "path": "./assets/layers/recycling/pmd.svg",
+            "class": "medium"
+          }
+        },
+        {
           "if": "recycling:printer_cartridges=yes",
           "ifnot": "recycling:printer_cartridges=",
           "then": {
@@ -1247,18 +1259,6 @@
           },
           "icon": {
             "path": "./assets/layers/recycling/bicycles.svg",
-            "class": "medium"
-          }
-        },
-        {
-          "if": "recycling:pmd=yes",
-          "ifnot": "recycling:pmd=",
-          "then": {
-            "en": "Plastic packaging, metal packaging and drink cartons (PMD) can be recycled here",
-            "nl": "Plastic verpakkingen, metalen verpakkingen en drankpakken kunnen hier gerecycled worden"
-          },
-          "icon": {
-            "path": "./assets/layers/recycling/pmd.svg",
             "class": "medium"
           }
         }
@@ -1606,14 +1606,14 @@
           "question": {
             "en": "Recycling of scrap metal",
             "nl": "Recycling van oud metaal",
-            "ca": "Reciclatge de ferralla",
-            "cs": "Recyklace kovového šrotu",
             "de": "Recycling von Metallschrott",
             "es": "Reciclaje de chatarra",
+            "it": "Riciclo di rottami metallici",
+            "ca": "Reciclatge de ferralla",
             "fr": "Recyclage de la ferraille",
-            "it": "Riciclo di rottami metallici"
+            "cs": "Recyklace kovového šrotu"
           },
-          "osmTags": "recycling:pmd=yes"
+          "osmTags": "recycling:scrap_metal=yes"
         },
         {
           "question": {
@@ -1626,19 +1626,6 @@
             "fr": "Recyclage des petits appareils électriques",
             "cs": "Recyklace malých elektrospotřebičů"
           },
-          "osmTags": "recycling:scrap_metal=yes"
-        },
-        {
-          "question": {
-            "en": "Recycling of residual waste",
-            "nl": "Recycling van restafval",
-            "de": "Recycling von Restabfällen",
-            "es": "Reciclaje de pequeños electrodomésticos",
-            "it": "Riciclo di secco",
-            "ca": "Reciclatge del rebuig",
-            "fr": "Recyclage des autres déchets",
-            "cs": "Recyklace zbytkového odpadu"
-          },
           "osmTags": {
             "or": [
               "recycling:small_appliances=yes",
@@ -1648,25 +1635,25 @@
         },
         {
           "question": {
-            "en": "Recycling of printer cartridges",
-            "nl": "Recycling van inktpatronen",
-            "de": "Recycling von Druckerpatronen",
+            "en": "Recycling of residual waste",
+            "nl": "Recycling van restafval",
+            "de": "Recycling von Restabfällen",
             "it": "Riciclo di secco",
-            "ca": "Reciclatge de cartutxos d'impressora",
-            "fr": "Recyclage des cartouches d'imprimante",
-            "cs": "Recyklace náplní do tiskáren"
+            "ca": "Reciclatge del rebuig",
+            "fr": "Recyclage des autres déchets",
+            "cs": "Recyklace zbytkového odpadu"
           },
           "osmTags": "recycling:waste=yes"
         },
         {
           "question": {
-            "en": "Recycling of bicycles",
-            "nl": "Recycling van fietsen",
-            "ca": "Reciclatge de bicicletes",
-            "de": "Recycling von Fahrrädern",
+            "en": "Recycling of printer cartridges",
+            "nl": "Recycling van inktpatronen",
+            "ca": "Reciclatge de cartutxos d'impressora",
+            "de": "Recycling von Druckerpatronen",
             "it": "Riciclo di secco",
-            "fr": "Recyclage des vélos",
-            "cs": "Recyklace jízdních kol"
+            "fr": "Recyclage des cartouches d'imprimante",
+            "cs": "Recyklace náplní do tiskáren"
           },
           "osmTags": "recycling:printer_cartridges=yes"
         },
@@ -1680,6 +1667,13 @@
             "cs": "Recyklace jízdních kol"
           },
           "osmTags": "recycling:bicycles=yes"
+        },
+        {
+          "question": {
+            "en": "Recycling of plastic packaging, metal packaging and drink cartons (PMD)",
+            "nl": "Recycling van plastic verkpakkingen, metalen verkpakkingen en drankpakken (PMD)"
+          },
+          "osmTags": "recycling:pmd=yes"
         }
       ]
     },

@@ -3829,9 +3829,6 @@
                     },
                     "18": {
                         "question": "Reciclaje de pequeños electrodomésticos"
-                    },
-                    "19": {
-                        "question": "Reciclaje de pequeños electrodomésticos"
                     }
                 }
             }
@@ -3916,10 +3913,10 @@
                     "16": {
                         "then": "Aquí se puede reciclar plástico"
                     },
-                    "18": {
+                    "19": {
                         "then": "Aquí se puede reciclar chatarra"
                     },
-                    "19": {
+                    "20": {
                         "then": "El calzado se puede reciclar aquí"
                     }
                 },

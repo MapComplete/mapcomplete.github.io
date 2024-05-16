@@ -8161,9 +8161,6 @@
                     },
                     "21": {
                         "question": "Recycling von Fahrrädern"
-                    },
-                    "22": {
-                        "question": "Recycling von Fahrrädern"
                     }
                 }
             },
@@ -8276,28 +8273,28 @@
                     "16": {
                         "then": "Kunststoff kann hier recycelt werden"
                     },
-                    "17": {
+                    "18": {
                         "then": "Druckerpatronen können hier recycelt werden"
                     },
-                    "18": {
+                    "19": {
                         "then": "Metallschrott kann hier recycelt werden"
                     },
-                    "19": {
-                        "then": "Schuhe können hier recycelt werden"
-                    },
                     "20": {
-                        "then": "Elektrokleingeräte können hier recycelt werden"
+                        "then": "Schuhe können hier recycelt werden"
                     },
                     "21": {
                         "then": "Elektrokleingeräte können hier recycelt werden"
                     },
                     "22": {
-                        "then": "Nadeln können hier recycelt werden"
+                        "then": "Elektrokleingeräte können hier recycelt werden"
                     },
                     "23": {
-                        "then": "Restmüll kann hier recycelt werden"
+                        "then": "Nadeln können hier recycelt werden"
                     },
                     "24": {
+                        "then": "Restmüll kann hier recycelt werden"
+                    },
+                    "25": {
                         "then": "Fahrräder können hier recycelt werden"
                     }
                 },
@@ -11168,9 +11165,6 @@
                     },
                     "6": {
                         "then": "Der Abfalleimer ist für Plastik"
-                    },
-                    "7": {
-                        "then": "Der Abfalleimer ist für Papier"
                     },
                     "8": {
                         "then": "Der Abfalleimer ist für Papier"
