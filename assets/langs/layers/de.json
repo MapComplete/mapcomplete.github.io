@@ -8161,6 +8161,9 @@
                     },
                     "21": {
                         "question": "Recycling von Fahrrädern"
+                    },
+                    "22": {
+                        "question": "Recycling von Fahrrädern"
                     }
                 }
             },
@@ -11167,6 +11170,9 @@
                         "then": "Der Abfalleimer ist für Plastik"
                     },
                     "7": {
+                        "then": "Der Abfalleimer ist für Papier"
+                    },
+                    "8": {
                         "then": "Der Abfalleimer ist für Papier"
                     }
                 },

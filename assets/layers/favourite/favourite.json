@@ -3309,7 +3309,29 @@
         }
       },
       {
-        "if": "shop=sports",
+        "if": {
+          "and": [
+            "shop=sports",
+            {
+              "or": [
+                "shop=bicycle",
+                {
+                  "and": [
+                    {
+                      "or": [
+                        "sport=bicycle",
+                        "sport=cycling",
+                        "sport="
+                      ]
+                    },
+                    "service:bicycle:retail!=no",
+                    "service:bicycle:repair!=no"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         "then": {
           "en": "Sports gear shop <i>{name}</i>",
           "nl": "Sportwinkel <i>{name}</i>",
@@ -3326,7 +3348,29 @@
         }
       },
       {
-        "if": "shop=sports",
+        "if": {
+          "and": [
+            "shop=sports",
+            {
+              "or": [
+                "shop=bicycle",
+                {
+                  "and": [
+                    {
+                      "or": [
+                        "sport=bicycle",
+                        "sport=cycling",
+                        "sport="
+                      ]
+                    },
+                    "service:bicycle:retail!=no",
+                    "service:bicycle:repair!=no"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         "then": {
           "en": "Sports gear shop <i>{name}</i>",
           "nl": "Sportwinkel <i>{name}</i>",
@@ -16732,6 +16776,7 @@
       "mappings": [
         {
           "if": "opening_hours=24/7",
+          "icon": "./assets/layers/questions/open24_7.svg",
           "then": {
             "en": "24/7 opened (including holidays)",
             "de": "durchgehend geöffnet (auch an Feiertagen)",
@@ -19204,6 +19249,7 @@
       "mappings": [
         {
           "if": "opening_hours=24/7",
+          "icon": "./assets/layers/questions/open24_7.svg",
           "then": {
             "en": "24/7 opened (including holidays)",
             "de": "durchgehend geöffnet (auch an Feiertagen)",
@@ -19767,13 +19813,6 @@
         "ca": "Aquesta botiga és un col·laborador postal?",
         "cs": "Jedná se o partnerskou poštu?"
       },
-      "condition": {
-        "or": [
-          "post_office=post_partner",
-          "post_office=post_partner",
-          "post_office=post_partner"
-        ]
-      },
       "mappings": [
         {
           "if": "post_office=post_partner",
@@ -19796,7 +19835,17 @@
             "was:post_office=post_partner"
           ]
         }
-      ]
+      ],
+      "condition": {
+        "or": [
+          "amenity=post_office",
+          "amenity=post_office",
+          "amenity=post_office",
+          "post_office=post_partner",
+          "post_office=post_partner",
+          "post_office=post_partner"
+        ]
+      }
     },
     {
       "id": "partner-brand",
@@ -22029,7 +22078,7 @@
       }
     },
     {
-      "id": "bike_parking_opening_hours_24_7",
+      "id": "opening_hours_24_7_default",
       "question": {
         "en": "What are the opening hours of {title()}?",
         "fr": "Quelles sont les horaires d'ouverture de {title()} ?",
@@ -22088,6 +22137,7 @@
       "mappings": [
         {
           "if": "opening_hours=24/7",
+          "icon": "./assets/layers/questions/open24_7.svg",
           "then": {
             "en": "24/7 opened (including holidays)",
             "de": "durchgehend geöffnet (auch an Feiertagen)",
@@ -22102,6 +22152,7 @@
             "ca": "Obert 24/7 (incloent-hi festius)",
             "pl": "Otwarte 24/7 (również w święta)"
           },
+          "#": "The first mapping is 'opening_hours=24/7', we amend this to also show if no info is known",
           "alsoShowIf": "opening_hours="
         },
         {
@@ -22116,12 +22167,11 @@
         }
       ],
       "condition": {
-        "and": [
-          {
-            "and": [
-              "amenity=bicycle_parking"
-            ]
-          }
+        "or": [
+          "amenity=bicycle_parking",
+          "amenity=bicycle_parking",
+          "amenity=bicycle_parking",
+          "amenity=bicycle_parking"
         ]
       }
     },
@@ -24500,17 +24550,17 @@
       },
       "condition": {
         "and": [
-          {
-            "or": [
-              "amenity=bicycle_rental",
-              "service:bicycle:rental=yes",
-              "bicycle_rental~.+",
-              "rental~.*bicycle.*"
-            ]
-          },
           "rental~.*city_bike.*",
           {
             "or": [
+              {
+                "or": [
+                  "amenity=bicycle_rental",
+                  "service:bicycle:rental=yes",
+                  "bicycle_rental~.+",
+                  "rental~.*bicycle.*"
+                ]
+              },
               {
                 "and": [
                   "service:bicycle:rental=yes",
@@ -24533,6 +24583,22 @@
                       }
                     ]
                   }
+                ]
+              },
+              {
+                "or": [
+                  "amenity=bicycle_rental",
+                  "service:bicycle:rental=yes",
+                  "bicycle_rental~.+",
+                  "rental~.*bicycle.*"
+                ]
+              },
+              {
+                "or": [
+                  "amenity=bicycle_rental",
+                  "service:bicycle:rental=yes",
+                  "bicycle_rental~.+",
+                  "rental~.*bicycle.*"
                 ]
               },
               {
@@ -24598,17 +24664,17 @@
       },
       "condition": {
         "and": [
-          {
-            "or": [
-              "amenity=bicycle_rental",
-              "service:bicycle:rental=yes",
-              "bicycle_rental~.+",
-              "rental~.*bicycle.*"
-            ]
-          },
           "rental~.*ebike.*",
           {
             "or": [
+              {
+                "or": [
+                  "amenity=bicycle_rental",
+                  "service:bicycle:rental=yes",
+                  "bicycle_rental~.+",
+                  "rental~.*bicycle.*"
+                ]
+              },
               {
                 "and": [
                   "service:bicycle:rental=yes",
@@ -24631,6 +24697,22 @@
                       }
                     ]
                   }
+                ]
+              },
+              {
+                "or": [
+                  "amenity=bicycle_rental",
+                  "service:bicycle:rental=yes",
+                  "bicycle_rental~.+",
+                  "rental~.*bicycle.*"
+                ]
+              },
+              {
+                "or": [
+                  "amenity=bicycle_rental",
+                  "service:bicycle:rental=yes",
+                  "bicycle_rental~.+",
+                  "rental~.*bicycle.*"
                 ]
               },
               {
@@ -24696,17 +24778,17 @@
       },
       "condition": {
         "and": [
-          {
-            "or": [
-              "amenity=bicycle_rental",
-              "service:bicycle:rental=yes",
-              "bicycle_rental~.+",
-              "rental~.*bicycle.*"
-            ]
-          },
           "rental~.*kid_bike.*",
           {
             "or": [
+              {
+                "or": [
+                  "amenity=bicycle_rental",
+                  "service:bicycle:rental=yes",
+                  "bicycle_rental~.+",
+                  "rental~.*bicycle.*"
+                ]
+              },
               {
                 "and": [
                   "service:bicycle:rental=yes",
@@ -24729,6 +24811,22 @@
                       }
                     ]
                   }
+                ]
+              },
+              {
+                "or": [
+                  "amenity=bicycle_rental",
+                  "service:bicycle:rental=yes",
+                  "bicycle_rental~.+",
+                  "rental~.*bicycle.*"
+                ]
+              },
+              {
+                "or": [
+                  "amenity=bicycle_rental",
+                  "service:bicycle:rental=yes",
+                  "bicycle_rental~.+",
+                  "rental~.*bicycle.*"
                 ]
               },
               {
@@ -24794,17 +24892,17 @@
       },
       "condition": {
         "and": [
-          {
-            "or": [
-              "amenity=bicycle_rental",
-              "service:bicycle:rental=yes",
-              "bicycle_rental~.+",
-              "rental~.*bicycle.*"
-            ]
-          },
           "rental~.*bmx.*",
           {
             "or": [
+              {
+                "or": [
+                  "amenity=bicycle_rental",
+                  "service:bicycle:rental=yes",
+                  "bicycle_rental~.+",
+                  "rental~.*bicycle.*"
+                ]
+              },
               {
                 "and": [
                   "service:bicycle:rental=yes",
@@ -24827,6 +24925,22 @@
                       }
                     ]
                   }
+                ]
+              },
+              {
+                "or": [
+                  "amenity=bicycle_rental",
+                  "service:bicycle:rental=yes",
+                  "bicycle_rental~.+",
+                  "rental~.*bicycle.*"
+                ]
+              },
+              {
+                "or": [
+                  "amenity=bicycle_rental",
+                  "service:bicycle:rental=yes",
+                  "bicycle_rental~.+",
+                  "rental~.*bicycle.*"
                 ]
               },
               {
@@ -24892,17 +25006,17 @@
       },
       "condition": {
         "and": [
-          {
-            "or": [
-              "amenity=bicycle_rental",
-              "service:bicycle:rental=yes",
-              "bicycle_rental~.+",
-              "rental~.*bicycle.*"
-            ]
-          },
           "rental~.*mtb.*",
           {
             "or": [
+              {
+                "or": [
+                  "amenity=bicycle_rental",
+                  "service:bicycle:rental=yes",
+                  "bicycle_rental~.+",
+                  "rental~.*bicycle.*"
+                ]
+              },
               {
                 "and": [
                   "service:bicycle:rental=yes",
@@ -24925,6 +25039,22 @@
                       }
                     ]
                   }
+                ]
+              },
+              {
+                "or": [
+                  "amenity=bicycle_rental",
+                  "service:bicycle:rental=yes",
+                  "bicycle_rental~.+",
+                  "rental~.*bicycle.*"
+                ]
+              },
+              {
+                "or": [
+                  "amenity=bicycle_rental",
+                  "service:bicycle:rental=yes",
+                  "bicycle_rental~.+",
+                  "rental~.*bicycle.*"
                 ]
               },
               {
@@ -24990,17 +25120,17 @@
       },
       "condition": {
         "and": [
-          {
-            "or": [
-              "amenity=bicycle_rental",
-              "service:bicycle:rental=yes",
-              "bicycle_rental~.+",
-              "rental~.*bicycle.*"
-            ]
-          },
           "rental~.*bicycle_pannier.*",
           {
             "or": [
+              {
+                "or": [
+                  "amenity=bicycle_rental",
+                  "service:bicycle:rental=yes",
+                  "bicycle_rental~.+",
+                  "rental~.*bicycle.*"
+                ]
+              },
               {
                 "and": [
                   "service:bicycle:rental=yes",
@@ -25023,6 +25153,22 @@
                       }
                     ]
                   }
+                ]
+              },
+              {
+                "or": [
+                  "amenity=bicycle_rental",
+                  "service:bicycle:rental=yes",
+                  "bicycle_rental~.+",
+                  "rental~.*bicycle.*"
+                ]
+              },
+              {
+                "or": [
+                  "amenity=bicycle_rental",
+                  "service:bicycle:rental=yes",
+                  "bicycle_rental~.+",
+                  "rental~.*bicycle.*"
                 ]
               },
               {
@@ -25088,17 +25234,17 @@
       },
       "condition": {
         "and": [
-          {
-            "or": [
-              "amenity=bicycle_rental",
-              "service:bicycle:rental=yes",
-              "bicycle_rental~.+",
-              "rental~.*bicycle.*"
-            ]
-          },
           "rental~.*tandem_bicycle.*",
           {
             "or": [
+              {
+                "or": [
+                  "amenity=bicycle_rental",
+                  "service:bicycle:rental=yes",
+                  "bicycle_rental~.+",
+                  "rental~.*bicycle.*"
+                ]
+              },
               {
                 "and": [
                   "service:bicycle:rental=yes",
@@ -25121,6 +25267,22 @@
                       }
                     ]
                   }
+                ]
+              },
+              {
+                "or": [
+                  "amenity=bicycle_rental",
+                  "service:bicycle:rental=yes",
+                  "bicycle_rental~.+",
+                  "rental~.*bicycle.*"
+                ]
+              },
+              {
+                "or": [
+                  "amenity=bicycle_rental",
+                  "service:bicycle:rental=yes",
+                  "bicycle_rental~.+",
+                  "rental~.*bicycle.*"
                 ]
               },
               {
@@ -26259,144 +26421,24 @@
       },
       "condition": {
         "or": [
-          "cyclestreet=yes",
           "cycleway=shared_lane",
           "cycleway=lane",
           "cycleway=track",
-          "highway=cycleway",
-          "highway=residential",
-          "highway=tertiary",
-          "highway=unclassified",
-          "highway=primary",
-          "highway=secondary",
-          "highway=tertiary_link",
-          "highway=primary_link",
-          "highway=secondary_link",
-          "highway=service",
-          "highway=footway",
-          "highway=pedestrian",
-          "highway=living_street",
-          {
-            "and": [
-              "bicycle=designated",
-              "highway=path"
-            ]
-          },
-          "cyclestreet=yes",
           "cycleway=shared_lane",
           "cycleway=lane",
           "cycleway=track",
-          "highway=cycleway",
-          "highway=residential",
-          "highway=tertiary",
-          "highway=unclassified",
-          "highway=primary",
-          "highway=secondary",
-          "highway=tertiary_link",
-          "highway=primary_link",
-          "highway=secondary_link",
-          "highway=service",
-          "highway=footway",
-          "highway=pedestrian",
-          "highway=living_street",
-          {
-            "and": [
-              "bicycle=designated",
-              "highway=path"
-            ]
-          },
-          "cyclestreet=yes",
           "cycleway=shared_lane",
           "cycleway=lane",
           "cycleway=track",
-          "highway=cycleway",
-          "highway=residential",
-          "highway=tertiary",
-          "highway=unclassified",
-          "highway=primary",
-          "highway=secondary",
-          "highway=tertiary_link",
-          "highway=primary_link",
-          "highway=secondary_link",
-          "highway=service",
-          "highway=footway",
-          "highway=pedestrian",
-          "highway=living_street",
-          {
-            "and": [
-              "bicycle=designated",
-              "highway=path"
-            ]
-          },
-          "cyclestreet=yes",
           "cycleway=shared_lane",
           "cycleway=lane",
           "cycleway=track",
-          "highway=cycleway",
-          "highway=residential",
-          "highway=tertiary",
-          "highway=unclassified",
-          "highway=primary",
-          "highway=secondary",
-          "highway=tertiary_link",
-          "highway=primary_link",
-          "highway=secondary_link",
-          "highway=service",
-          "highway=footway",
-          "highway=pedestrian",
-          "highway=living_street",
-          {
-            "and": [
-              "bicycle=designated",
-              "highway=path"
-            ]
-          },
-          "cyclestreet=yes",
           "cycleway=shared_lane",
           "cycleway=lane",
           "cycleway=track",
-          "highway=cycleway",
-          "highway=residential",
-          "highway=tertiary",
-          "highway=unclassified",
-          "highway=primary",
-          "highway=secondary",
-          "highway=tertiary_link",
-          "highway=primary_link",
-          "highway=secondary_link",
-          "highway=service",
-          "highway=footway",
-          "highway=pedestrian",
-          "highway=living_street",
-          {
-            "and": [
-              "bicycle=designated",
-              "highway=path"
-            ]
-          },
-          "cyclestreet=yes",
           "cycleway=shared_lane",
           "cycleway=lane",
-          "cycleway=track",
-          "highway=cycleway",
-          "highway=residential",
-          "highway=tertiary",
-          "highway=unclassified",
-          "highway=primary",
-          "highway=secondary",
-          "highway=tertiary_link",
-          "highway=primary_link",
-          "highway=secondary_link",
-          "highway=service",
-          "highway=footway",
-          "highway=pedestrian",
-          "highway=living_street",
-          {
-            "and": [
-              "bicycle=designated",
-              "highway=path"
-            ]
-          }
+          "cycleway=track"
         ]
       },
       "mappings": [
@@ -26759,144 +26801,24 @@
       },
       "condition": {
         "or": [
-          "cyclestreet=yes",
           "cycleway=shared_lane",
           "cycleway=lane",
           "cycleway=track",
-          "highway=cycleway",
-          "highway=residential",
-          "highway=tertiary",
-          "highway=unclassified",
-          "highway=primary",
-          "highway=secondary",
-          "highway=tertiary_link",
-          "highway=primary_link",
-          "highway=secondary_link",
-          "highway=service",
-          "highway=footway",
-          "highway=pedestrian",
-          "highway=living_street",
-          {
-            "and": [
-              "bicycle=designated",
-              "highway=path"
-            ]
-          },
-          "cyclestreet=yes",
           "cycleway=shared_lane",
           "cycleway=lane",
           "cycleway=track",
-          "highway=cycleway",
-          "highway=residential",
-          "highway=tertiary",
-          "highway=unclassified",
-          "highway=primary",
-          "highway=secondary",
-          "highway=tertiary_link",
-          "highway=primary_link",
-          "highway=secondary_link",
-          "highway=service",
-          "highway=footway",
-          "highway=pedestrian",
-          "highway=living_street",
-          {
-            "and": [
-              "bicycle=designated",
-              "highway=path"
-            ]
-          },
-          "cyclestreet=yes",
           "cycleway=shared_lane",
           "cycleway=lane",
           "cycleway=track",
-          "highway=cycleway",
-          "highway=residential",
-          "highway=tertiary",
-          "highway=unclassified",
-          "highway=primary",
-          "highway=secondary",
-          "highway=tertiary_link",
-          "highway=primary_link",
-          "highway=secondary_link",
-          "highway=service",
-          "highway=footway",
-          "highway=pedestrian",
-          "highway=living_street",
-          {
-            "and": [
-              "bicycle=designated",
-              "highway=path"
-            ]
-          },
-          "cyclestreet=yes",
           "cycleway=shared_lane",
           "cycleway=lane",
           "cycleway=track",
-          "highway=cycleway",
-          "highway=residential",
-          "highway=tertiary",
-          "highway=unclassified",
-          "highway=primary",
-          "highway=secondary",
-          "highway=tertiary_link",
-          "highway=primary_link",
-          "highway=secondary_link",
-          "highway=service",
-          "highway=footway",
-          "highway=pedestrian",
-          "highway=living_street",
-          {
-            "and": [
-              "bicycle=designated",
-              "highway=path"
-            ]
-          },
-          "cyclestreet=yes",
           "cycleway=shared_lane",
           "cycleway=lane",
           "cycleway=track",
-          "highway=cycleway",
-          "highway=residential",
-          "highway=tertiary",
-          "highway=unclassified",
-          "highway=primary",
-          "highway=secondary",
-          "highway=tertiary_link",
-          "highway=primary_link",
-          "highway=secondary_link",
-          "highway=service",
-          "highway=footway",
-          "highway=pedestrian",
-          "highway=living_street",
-          {
-            "and": [
-              "bicycle=designated",
-              "highway=path"
-            ]
-          },
-          "cyclestreet=yes",
           "cycleway=shared_lane",
           "cycleway=lane",
-          "cycleway=track",
-          "highway=cycleway",
-          "highway=residential",
-          "highway=tertiary",
-          "highway=unclassified",
-          "highway=primary",
-          "highway=secondary",
-          "highway=tertiary_link",
-          "highway=primary_link",
-          "highway=secondary_link",
-          "highway=service",
-          "highway=footway",
-          "highway=pedestrian",
-          "highway=living_street",
-          {
-            "and": [
-              "bicycle=designated",
-              "highway=path"
-            ]
-          }
+          "cycleway=track"
         ]
       },
       "mappings": [
@@ -28234,144 +28156,18 @@
       },
       "condition": {
         "or": [
-          "cyclestreet=yes",
           "cycleway=track",
           "cycleway=lane",
-          "cycleway=shared_lane",
-          "highway=cycleway",
-          "highway=residential",
-          "highway=tertiary",
-          "highway=unclassified",
-          "highway=primary",
-          "highway=secondary",
-          "highway=tertiary_link",
-          "highway=primary_link",
-          "highway=secondary_link",
-          "highway=service",
-          "highway=footway",
-          "highway=pedestrian",
-          "highway=living_street",
-          {
-            "and": [
-              "bicycle=designated",
-              "highway=path"
-            ]
-          },
-          "cyclestreet=yes",
           "cycleway=track",
           "cycleway=lane",
-          "cycleway=shared_lane",
-          "highway=cycleway",
-          "highway=residential",
-          "highway=tertiary",
-          "highway=unclassified",
-          "highway=primary",
-          "highway=secondary",
-          "highway=tertiary_link",
-          "highway=primary_link",
-          "highway=secondary_link",
-          "highway=service",
-          "highway=footway",
-          "highway=pedestrian",
-          "highway=living_street",
-          {
-            "and": [
-              "bicycle=designated",
-              "highway=path"
-            ]
-          },
-          "cyclestreet=yes",
           "cycleway=track",
           "cycleway=lane",
-          "cycleway=shared_lane",
-          "highway=cycleway",
-          "highway=residential",
-          "highway=tertiary",
-          "highway=unclassified",
-          "highway=primary",
-          "highway=secondary",
-          "highway=tertiary_link",
-          "highway=primary_link",
-          "highway=secondary_link",
-          "highway=service",
-          "highway=footway",
-          "highway=pedestrian",
-          "highway=living_street",
-          {
-            "and": [
-              "bicycle=designated",
-              "highway=path"
-            ]
-          },
-          "cyclestreet=yes",
           "cycleway=track",
           "cycleway=lane",
-          "cycleway=shared_lane",
-          "highway=cycleway",
-          "highway=residential",
-          "highway=tertiary",
-          "highway=unclassified",
-          "highway=primary",
-          "highway=secondary",
-          "highway=tertiary_link",
-          "highway=primary_link",
-          "highway=secondary_link",
-          "highway=service",
-          "highway=footway",
-          "highway=pedestrian",
-          "highway=living_street",
-          {
-            "and": [
-              "bicycle=designated",
-              "highway=path"
-            ]
-          },
-          "cyclestreet=yes",
           "cycleway=track",
           "cycleway=lane",
-          "cycleway=shared_lane",
-          "highway=cycleway",
-          "highway=residential",
-          "highway=tertiary",
-          "highway=unclassified",
-          "highway=primary",
-          "highway=secondary",
-          "highway=tertiary_link",
-          "highway=primary_link",
-          "highway=secondary_link",
-          "highway=service",
-          "highway=footway",
-          "highway=pedestrian",
-          "highway=living_street",
-          {
-            "and": [
-              "bicycle=designated",
-              "highway=path"
-            ]
-          },
-          "cyclestreet=yes",
           "cycleway=track",
-          "cycleway=lane",
-          "cycleway=shared_lane",
-          "highway=cycleway",
-          "highway=residential",
-          "highway=tertiary",
-          "highway=unclassified",
-          "highway=primary",
-          "highway=secondary",
-          "highway=tertiary_link",
-          "highway=primary_link",
-          "highway=secondary_link",
-          "highway=service",
-          "highway=footway",
-          "highway=pedestrian",
-          "highway=living_street",
-          {
-            "and": [
-              "bicycle=designated",
-              "highway=path"
-            ]
-          }
+          "cycleway=lane"
         ]
       },
       "freeform": {
@@ -28399,144 +28195,18 @@
       },
       "condition": {
         "or": [
-          "cyclestreet=yes",
           "cycleway=track",
           "cycleway=lane",
-          "cycleway=shared_lane",
-          "highway=cycleway",
-          "highway=residential",
-          "highway=tertiary",
-          "highway=unclassified",
-          "highway=primary",
-          "highway=secondary",
-          "highway=tertiary_link",
-          "highway=primary_link",
-          "highway=secondary_link",
-          "highway=service",
-          "highway=footway",
-          "highway=pedestrian",
-          "highway=living_street",
-          {
-            "and": [
-              "bicycle=designated",
-              "highway=path"
-            ]
-          },
-          "cyclestreet=yes",
           "cycleway=track",
           "cycleway=lane",
-          "cycleway=shared_lane",
-          "highway=cycleway",
-          "highway=residential",
-          "highway=tertiary",
-          "highway=unclassified",
-          "highway=primary",
-          "highway=secondary",
-          "highway=tertiary_link",
-          "highway=primary_link",
-          "highway=secondary_link",
-          "highway=service",
-          "highway=footway",
-          "highway=pedestrian",
-          "highway=living_street",
-          {
-            "and": [
-              "bicycle=designated",
-              "highway=path"
-            ]
-          },
-          "cyclestreet=yes",
           "cycleway=track",
           "cycleway=lane",
-          "cycleway=shared_lane",
-          "highway=cycleway",
-          "highway=residential",
-          "highway=tertiary",
-          "highway=unclassified",
-          "highway=primary",
-          "highway=secondary",
-          "highway=tertiary_link",
-          "highway=primary_link",
-          "highway=secondary_link",
-          "highway=service",
-          "highway=footway",
-          "highway=pedestrian",
-          "highway=living_street",
-          {
-            "and": [
-              "bicycle=designated",
-              "highway=path"
-            ]
-          },
-          "cyclestreet=yes",
           "cycleway=track",
           "cycleway=lane",
-          "cycleway=shared_lane",
-          "highway=cycleway",
-          "highway=residential",
-          "highway=tertiary",
-          "highway=unclassified",
-          "highway=primary",
-          "highway=secondary",
-          "highway=tertiary_link",
-          "highway=primary_link",
-          "highway=secondary_link",
-          "highway=service",
-          "highway=footway",
-          "highway=pedestrian",
-          "highway=living_street",
-          {
-            "and": [
-              "bicycle=designated",
-              "highway=path"
-            ]
-          },
-          "cyclestreet=yes",
           "cycleway=track",
           "cycleway=lane",
-          "cycleway=shared_lane",
-          "highway=cycleway",
-          "highway=residential",
-          "highway=tertiary",
-          "highway=unclassified",
-          "highway=primary",
-          "highway=secondary",
-          "highway=tertiary_link",
-          "highway=primary_link",
-          "highway=secondary_link",
-          "highway=service",
-          "highway=footway",
-          "highway=pedestrian",
-          "highway=living_street",
-          {
-            "and": [
-              "bicycle=designated",
-              "highway=path"
-            ]
-          },
-          "cyclestreet=yes",
           "cycleway=track",
-          "cycleway=lane",
-          "cycleway=shared_lane",
-          "highway=cycleway",
-          "highway=residential",
-          "highway=tertiary",
-          "highway=unclassified",
-          "highway=primary",
-          "highway=secondary",
-          "highway=tertiary_link",
-          "highway=primary_link",
-          "highway=secondary_link",
-          "highway=service",
-          "highway=footway",
-          "highway=pedestrian",
-          "highway=living_street",
-          {
-            "and": [
-              "bicycle=designated",
-              "highway=path"
-            ]
-          }
+          "cycleway=lane"
         ]
       },
       "mappings": [
@@ -32541,6 +32211,14 @@
             "da": "Hunde er tilladt og kan løbe frit rundt",
             "cs": "Psi mají vstup povolen a mohou volně pobíhat"
           }
+        },
+        {
+          "if": "dog=outside",
+          "icon": "./assets/layers/questions/dogs_outside.svg",
+          "then": {
+            "en": "Dogs are allowed only outside",
+            "it": "I cani sono ammessi solo all'esterno"
+          }
         }
       ],
       "condition": {
@@ -33652,6 +33330,7 @@
       "mappings": [
         {
           "if": "opening_hours=24/7",
+          "icon": "./assets/layers/questions/open24_7.svg",
           "then": {
             "en": "24/7 opened (including holidays)",
             "de": "durchgehend geöffnet (auch an Feiertagen)",
@@ -35129,6 +34808,252 @@
           "hideInAnswer": true,
           "icon": {
             "path": "./assets/layers/charging_station/bs1363.svg",
+            "class": "medium"
+          }
+        },
+        {
+          "if": "socket:nema5_15=1",
+          "ifnot": "socket:nema5_15=",
+          "then": {
+            "en": "<b>NEMA 5-15</b> (Type B)",
+            "nl": "<b>NEMA 5-15</b> (VS 3-pin)"
+          },
+          "icon": {
+            "path": "./assets/layers/charging_station/nema-5-15.svg",
+            "class": "medium"
+          },
+          "hideInAnswer": {
+            "and": [
+              "_country!=as",
+              "_country!=ai",
+              "_country!=ag",
+              "_country!=aw",
+              "_country!=bb",
+              "_country!=bz",
+              "_country!=bm",
+              "_country!=bo",
+              "_country!=vg",
+              "_country!=ky",
+              "_country!=co",
+              "_country!=cr",
+              "_country!=cu",
+              "_country!=do",
+              "_country!=ec",
+              "_country!=sv",
+              "_country!=pf",
+              "_country!=gu",
+              "_country!=gt",
+              "_country!=gy",
+              "_country!=ht",
+              "_country!=hn",
+              "_country!=jm",
+              "_country!=jp",
+              "_country!=jo",
+              "_country!=la",
+              "_country!=lb",
+              "_country!=lr",
+              "_country!=mx",
+              "_country!=fm",
+              "_country!=ms",
+              "_country!=ni",
+              "_country!=ne",
+              "_country!=pw",
+              "_country!=pa",
+              "_country!=py",
+              "_country!=pe",
+              "_country!=ph",
+              "_country!=pr",
+              "_country!=sr",
+              "_country!=th",
+              "_country!=tt",
+              "_country!=tm",
+              "_country!=ve",
+              "_country!=vn"
+            ]
+          }
+        },
+        {
+          "if": {
+            "and": [
+              "socket:nema5_15~*",
+              "socket:nema5_15!=1"
+            ]
+          },
+          "then": {
+            "en": "<b>NEMA 5-15</b> (Type B)",
+            "nl": "<b>NEMA 5-15</b> (VS 3-pin)"
+          },
+          "hideInAnswer": true,
+          "icon": {
+            "path": "./assets/layers/charging_station/nema-5-15.svg",
+            "class": "medium"
+          }
+        },
+        {
+          "if": "socket:sev1011_t23=1",
+          "ifnot": "socket:sev1011_t23=",
+          "then": {
+            "en": "<b>SEV 1011 T23</b> (Type J)",
+            "nl": "<b>SEV 1011 T23</b> (Zwitserse 3-pin)"
+          },
+          "icon": {
+            "path": "./assets/layers/charging_station/typej.svg",
+            "class": "medium"
+          },
+          "hideInAnswer": {
+            "and": [
+              "_country!=jo",
+              "_country!=li",
+              "_country!=mg",
+              "_country!=mv",
+              "_country!=rw",
+              "_country!=ch"
+            ]
+          }
+        },
+        {
+          "if": {
+            "and": [
+              "socket:sev1011_t23~*",
+              "socket:sev1011_t23!=1"
+            ]
+          },
+          "then": {
+            "en": "<b>SEV 1011 T23</b> (Type J)",
+            "nl": "<b>SEV 1011 T23</b> (Zwitserse 3-pin)"
+          },
+          "hideInAnswer": true,
+          "icon": {
+            "path": "./assets/layers/charging_station/typej.svg",
+            "class": "medium"
+          }
+        },
+        {
+          "if": "socket:as3112=1",
+          "ifnot": "socket:as3112=",
+          "then": {
+            "en": "<b>AS3112</b> (Type I)",
+            "nl": "<b>AS3112</b> (Australische 3-pin)"
+          },
+          "icon": {
+            "path": "./assets/layers/charging_station/as3112.svg",
+            "class": "medium"
+          },
+          "hideInAnswer": {
+            "and": [
+              "_country!=as",
+              "_country!=ar",
+              "_country!=au",
+              "_country!=cn",
+              "_country!=ck",
+              "_country!=fj",
+              "_country!=ki",
+              "_country!=nr",
+              "_country!=nz",
+              "_country!=nu",
+              "_country!=pg",
+              "_country!=sb",
+              "_country!=tj",
+              "_country!=to",
+              "_country!=tv",
+              "_country!=uy",
+              "_country!=uz",
+              "_country!=vu"
+            ]
+          }
+        },
+        {
+          "if": {
+            "and": [
+              "socket:as3112~*",
+              "socket:as3112!=1"
+            ]
+          },
+          "then": {
+            "en": "<b>AS3112</b> (Type I)",
+            "nl": "<b>AS3112</b> (Australische 3-pin)"
+          },
+          "hideInAnswer": true,
+          "icon": {
+            "path": "./assets/layers/charging_station/as3112.svg",
+            "class": "medium"
+          }
+        },
+        {
+          "if": "socket:nema_5_20=1",
+          "ifnot": "socket:nema_5_20=",
+          "then": {
+            "en": "<b>NEMA 5-20</b> (Type B)",
+            "nl": "<b>NEMA 5-20</b> (VS 3-pin)"
+          },
+          "icon": {
+            "path": "./assets/layers/charging_station/nema-5-20.svg",
+            "class": "medium"
+          },
+          "hideInAnswer": {
+            "and": [
+              "_country!=as",
+              "_country!=ai",
+              "_country!=ag",
+              "_country!=aw",
+              "_country!=bb",
+              "_country!=bz",
+              "_country!=bm",
+              "_country!=bo",
+              "_country!=vg",
+              "_country!=ky",
+              "_country!=co",
+              "_country!=cr",
+              "_country!=cu",
+              "_country!=do",
+              "_country!=ec",
+              "_country!=sv",
+              "_country!=pf",
+              "_country!=gu",
+              "_country!=gt",
+              "_country!=gy",
+              "_country!=ht",
+              "_country!=hn",
+              "_country!=jm",
+              "_country!=jp",
+              "_country!=jo",
+              "_country!=la",
+              "_country!=lb",
+              "_country!=lr",
+              "_country!=mx",
+              "_country!=fm",
+              "_country!=ms",
+              "_country!=ni",
+              "_country!=ne",
+              "_country!=pw",
+              "_country!=pa",
+              "_country!=py",
+              "_country!=pe",
+              "_country!=ph",
+              "_country!=pr",
+              "_country!=sr",
+              "_country!=th",
+              "_country!=tt",
+              "_country!=tm",
+              "_country!=ve",
+              "_country!=vn"
+            ]
+          }
+        },
+        {
+          "if": {
+            "and": [
+              "socket:nema_5_20~*",
+              "socket:nema_5_20!=1"
+            ]
+          },
+          "then": {
+            "en": "<b>NEMA 5-20</b> (Type B)",
+            "nl": "<b>NEMA 5-20</b> (VS 3-pin)"
+          },
+          "hideInAnswer": true,
+          "icon": {
+            "path": "./assets/layers/charging_station/nema-5-20.svg",
             "class": "medium"
           }
         }
@@ -38312,6 +38237,698 @@
       }
     },
     {
+      "id": "plugs-amount-socket:nema5_15",
+      "question": {
+        "en": "How much plugs of type <b>NEMA 5-15</b> (Type B) are available here?",
+        "nl": "Hoeveel stekkers van type <b>NEMA 5-15</b> (VS 3-pin) heeft dit oplaadpunt?",
+        "ca": "Quants connectors del tipus <b>NEMA 5-15</b> (Type B) hi han disponibles aquí?",
+        "cs": "Kolik zástrček typu <b>NEMA 5-15</b> (Type B) je k dispozici?",
+        "da": "Hvor mange stik af typen <b>NEMA 5-15</b> (Type B) er tilgængelige her?",
+        "de": "Wie viele Stecker vom Typ <b>NEMA 5-15</b> (Type B) sind hier vorhanden?"
+      },
+      "render": {
+        "en": "There are <b class='text-xl'>{socket:nema5_15}</b> plugs of type <b>NEMA 5-15</b> (Type B) available here",
+        "nl": "Hier zijn <b class='text-xl'>{socket:nema5_15}</b> stekkers van het type <b>NEMA 5-15</b> (VS 3-pin)",
+        "de": "Hier sind <b class='text-xl'>{socket:nema5_15}</b> Stecker vom Typ <b>NEMA 5-15</b> (Type B) verfügbar"
+      },
+      "icon": "./assets/layers/charging_station/nema-5-15.svg",
+      "freeform": {
+        "key": "socket:nema5_15",
+        "type": "pnat",
+        "inline": true
+      },
+      "condition": {
+        "and": [
+          {
+            "or": [
+              "amenity=charging_station",
+              "construction:amenity=charging_station",
+              "disused:amenity=charging_station",
+              "planned:amenity=charging_station"
+            ]
+          },
+          "socket:nema5_15~.+",
+          "socket:nema5_15!=0"
+        ]
+      }
+    },
+    {
+      "id": "voltage-socket:nema5_15",
+      "labels": [
+        "technical"
+      ],
+      "question": {
+        "en": "What voltage do the plugs with <b>NEMA 5-15</b> (Type B) offer?",
+        "nl": "Welke spanning levert de stekker van type <b>NEMA 5-15</b> (VS 3-pin)",
+        "cs": "Jaké napětí mají zástrčky s <b>NEMA 5-15</b> (Type B) ?",
+        "de": "Welche Spannung liefern die <b>NEMA 5-15</b> (Type B)?"
+      },
+      "render": {
+        "en": "<b>NEMA 5-15</b> (Type B) outputs {canonical(socket:nema5_15:voltage)}",
+        "nl": "<b>NEMA 5-15</b> (VS 3-pin) heeft een spanning van {canonical(socket:nema5_15:voltage)}",
+        "de": "<b>NEMA 5-15</b> (Type B) liefert {canonical(socket:nema5_15:voltage)}"
+      },
+      "freeform": {
+        "key": "socket:nema5_15:voltage",
+        "type": "pfloat",
+        "inline": false
+      },
+      "mappings": [
+        {
+          "if": "socket:nema5_15:voltage=120 V",
+          "then": {
+            "en": "<b>NEMA 5-15</b> (Type B) outputs 120 volt",
+            "nl": "<b>NEMA 5-15</b> (VS 3-pin) heeft een spanning van 120 volt",
+            "cs": "<b>NEMA 5-15</b> (Type B) výstup 120 voltů",
+            "de": "<b>NEMA 5-15</b> (Type B) liefert 120 Volt"
+          }
+        }
+      ],
+      "condition": {
+        "and": [
+          {
+            "or": [
+              "amenity=charging_station",
+              "construction:amenity=charging_station",
+              "disused:amenity=charging_station",
+              "planned:amenity=charging_station"
+            ]
+          },
+          "socket:nema5_15~.+",
+          "socket:nema5_15!=0"
+        ]
+      }
+    },
+    {
+      "id": "current-socket:nema5_15",
+      "labels": [
+        "technical"
+      ],
+      "question": {
+        "en": "What current do the plugs with <b>NEMA 5-15</b> (Type B) offer?",
+        "nl": "Welke stroom levert de stekker van type <b>NEMA 5-15</b> (VS 3-pin)?",
+        "de": "Welchen Strom bieten die Stecker mit <b>NEMA 5-15</b> (Type B)?"
+      },
+      "render": {
+        "en": "<b>NEMA 5-15</b> (Type B) outputs at most {canonical(socket:nema5_15:current)}",
+        "nl": "<b>NEMA 5-15</b> (VS 3-pin) levert een stroom van maximaal {canonical(socket:nema5_15:current)}",
+        "de": "<b>NEMA 5-15</b> (Type B) liefert maximal {canonical(socket:nema5_15:current)}"
+      },
+      "freeform": {
+        "key": "socket:nema5_15:current",
+        "type": "pfloat",
+        "inline": false
+      },
+      "mappings": [
+        {
+          "if": "socket:nema5_15:current=15 A",
+          "then": {
+            "en": "<b>NEMA 5-15</b> (Type B) outputs at most 15 A",
+            "nl": "<b>NEMA 5-15</b> (VS 3-pin) levert een stroom van maximaal 15 A",
+            "de": "<b>NEMA 5-15</b> (Type B) liefert maximal 15 A"
+          }
+        }
+      ],
+      "condition": {
+        "and": [
+          {
+            "or": [
+              "amenity=charging_station",
+              "construction:amenity=charging_station",
+              "disused:amenity=charging_station",
+              "planned:amenity=charging_station"
+            ]
+          },
+          "socket:nema5_15~.+",
+          "socket:nema5_15!=0"
+        ]
+      }
+    },
+    {
+      "id": "power-output-socket:nema5_15",
+      "labels": [
+        "technical"
+      ],
+      "question": {
+        "en": "What power output does a single plug of type <b>NEMA 5-15</b> (Type B) offer?",
+        "nl": "Welk vermogen levert een enkele stekker van type <b>NEMA 5-15</b> (VS 3-pin)?",
+        "de": "Welche Leistung liefert ein einzelner Stecker des Typs <b>NEMA 5-15</b> (Type B)?"
+      },
+      "render": {
+        "en": "<b>NEMA 5-15</b> (Type B) outputs at most {canonical(socket:nema5_15:output)}",
+        "nl": "<b>NEMA 5-15</b> (VS 3-pin) levert een vermogen van maximaal {canonical(socket:nema5_15:output)}",
+        "de": "<b>NEMA 5-15</b> (Type B) liefert maximal {canonical(socket:nema5_15:output)}"
+      },
+      "freeform": {
+        "key": "socket:nema5_15:output",
+        "type": "pfloat",
+        "inline": false
+      },
+      "mappings": [
+        {
+          "if": "socket:nema5_15:output=1.8 kW",
+          "then": {
+            "en": "<b>NEMA 5-15</b> (Type B) outputs at most 1.8 kW A",
+            "nl": "<b>NEMA 5-15</b> (VS 3-pin) levert een vermogen van maximaal 1.8 kW A",
+            "de": "<b>NEMA 5-15</b> (Type B) liefert maximal 1.8 kW A"
+          }
+        }
+      ],
+      "condition": {
+        "and": [
+          {
+            "or": [
+              "amenity=charging_station",
+              "construction:amenity=charging_station",
+              "disused:amenity=charging_station",
+              "planned:amenity=charging_station"
+            ]
+          },
+          "socket:nema5_15~.+",
+          "socket:nema5_15!=0"
+        ]
+      }
+    },
+    {
+      "id": "plugs-amount-socket:sev1011_t23",
+      "question": {
+        "en": "How much plugs of type <b>SEV 1011 T23</b> (Type J) are available here?",
+        "nl": "Hoeveel stekkers van type <b>SEV 1011 T23</b> (Zwitserse 3-pin) heeft dit oplaadpunt?",
+        "ca": "Quants connectors del tipus <b>SEV 1011 T23</b> (Type J) hi han disponibles aquí?",
+        "cs": "Kolik zástrček typu <b>SEV 1011 T23</b> (Type J) je k dispozici?",
+        "da": "Hvor mange stik af typen <b>SEV 1011 T23</b> (Type J) er tilgængelige her?",
+        "de": "Wie viele Stecker vom Typ <b>SEV 1011 T23</b> (Type J) sind hier vorhanden?"
+      },
+      "render": {
+        "en": "There are <b class='text-xl'>{socket:sev1011_t23}</b> plugs of type <b>SEV 1011 T23</b> (Type J) available here",
+        "nl": "Hier zijn <b class='text-xl'>{socket:sev1011_t23}</b> stekkers van het type <b>SEV 1011 T23</b> (Zwitserse 3-pin)",
+        "de": "Hier sind <b class='text-xl'>{socket:sev1011_t23}</b> Stecker vom Typ <b>SEV 1011 T23</b> (Type J) verfügbar"
+      },
+      "icon": "./assets/layers/charging_station/typej.svg",
+      "freeform": {
+        "key": "socket:sev1011_t23",
+        "type": "pnat",
+        "inline": true
+      },
+      "condition": {
+        "and": [
+          {
+            "or": [
+              "amenity=charging_station",
+              "construction:amenity=charging_station",
+              "disused:amenity=charging_station",
+              "planned:amenity=charging_station"
+            ]
+          },
+          "socket:sev1011_t23~.+",
+          "socket:sev1011_t23!=0"
+        ]
+      }
+    },
+    {
+      "id": "voltage-socket:sev1011_t23",
+      "labels": [
+        "technical"
+      ],
+      "question": {
+        "en": "What voltage do the plugs with <b>SEV 1011 T23</b> (Type J) offer?",
+        "nl": "Welke spanning levert de stekker van type <b>SEV 1011 T23</b> (Zwitserse 3-pin)",
+        "cs": "Jaké napětí mají zástrčky s <b>SEV 1011 T23</b> (Type J) ?",
+        "de": "Welche Spannung liefern die <b>SEV 1011 T23</b> (Type J)?"
+      },
+      "render": {
+        "en": "<b>SEV 1011 T23</b> (Type J) outputs {canonical(socket:sev1011_t23:voltage)}",
+        "nl": "<b>SEV 1011 T23</b> (Zwitserse 3-pin) heeft een spanning van {canonical(socket:sev1011_t23:voltage)}",
+        "de": "<b>SEV 1011 T23</b> (Type J) liefert {canonical(socket:sev1011_t23:voltage)}"
+      },
+      "freeform": {
+        "key": "socket:sev1011_t23:voltage",
+        "type": "pfloat",
+        "inline": false
+      },
+      "mappings": [
+        {
+          "if": "socket:sev1011_t23:voltage=230 V",
+          "then": {
+            "en": "<b>SEV 1011 T23</b> (Type J) outputs 230 volt",
+            "nl": "<b>SEV 1011 T23</b> (Zwitserse 3-pin) heeft een spanning van 230 volt",
+            "cs": "<b>SEV 1011 T23</b> (Type J) výstup 230 voltů",
+            "de": "<b>SEV 1011 T23</b> (Type J) liefert 230 Volt"
+          }
+        }
+      ],
+      "condition": {
+        "and": [
+          {
+            "or": [
+              "amenity=charging_station",
+              "construction:amenity=charging_station",
+              "disused:amenity=charging_station",
+              "planned:amenity=charging_station"
+            ]
+          },
+          "socket:sev1011_t23~.+",
+          "socket:sev1011_t23!=0"
+        ]
+      }
+    },
+    {
+      "id": "current-socket:sev1011_t23",
+      "labels": [
+        "technical"
+      ],
+      "question": {
+        "en": "What current do the plugs with <b>SEV 1011 T23</b> (Type J) offer?",
+        "nl": "Welke stroom levert de stekker van type <b>SEV 1011 T23</b> (Zwitserse 3-pin)?",
+        "de": "Welchen Strom bieten die Stecker mit <b>SEV 1011 T23</b> (Type J)?"
+      },
+      "render": {
+        "en": "<b>SEV 1011 T23</b> (Type J) outputs at most {canonical(socket:sev1011_t23:current)}",
+        "nl": "<b>SEV 1011 T23</b> (Zwitserse 3-pin) levert een stroom van maximaal {canonical(socket:sev1011_t23:current)}",
+        "de": "<b>SEV 1011 T23</b> (Type J) liefert maximal {canonical(socket:sev1011_t23:current)}"
+      },
+      "freeform": {
+        "key": "socket:sev1011_t23:current",
+        "type": "pfloat",
+        "inline": false
+      },
+      "mappings": [
+        {
+          "if": "socket:sev1011_t23:current=16 A",
+          "then": {
+            "en": "<b>SEV 1011 T23</b> (Type J) outputs at most 16 A",
+            "nl": "<b>SEV 1011 T23</b> (Zwitserse 3-pin) levert een stroom van maximaal 16 A",
+            "de": "<b>SEV 1011 T23</b> (Type J) liefert maximal 16 A"
+          }
+        }
+      ],
+      "condition": {
+        "and": [
+          {
+            "or": [
+              "amenity=charging_station",
+              "construction:amenity=charging_station",
+              "disused:amenity=charging_station",
+              "planned:amenity=charging_station"
+            ]
+          },
+          "socket:sev1011_t23~.+",
+          "socket:sev1011_t23!=0"
+        ]
+      }
+    },
+    {
+      "id": "power-output-socket:sev1011_t23",
+      "labels": [
+        "technical"
+      ],
+      "question": {
+        "en": "What power output does a single plug of type <b>SEV 1011 T23</b> (Type J) offer?",
+        "nl": "Welk vermogen levert een enkele stekker van type <b>SEV 1011 T23</b> (Zwitserse 3-pin)?",
+        "de": "Welche Leistung liefert ein einzelner Stecker des Typs <b>SEV 1011 T23</b> (Type J)?"
+      },
+      "render": {
+        "en": "<b>SEV 1011 T23</b> (Type J) outputs at most {canonical(socket:sev1011_t23:output)}",
+        "nl": "<b>SEV 1011 T23</b> (Zwitserse 3-pin) levert een vermogen van maximaal {canonical(socket:sev1011_t23:output)}",
+        "de": "<b>SEV 1011 T23</b> (Type J) liefert maximal {canonical(socket:sev1011_t23:output)}"
+      },
+      "freeform": {
+        "key": "socket:sev1011_t23:output",
+        "type": "pfloat",
+        "inline": false
+      },
+      "mappings": [
+        {
+          "if": "socket:sev1011_t23:output=3.7 kW",
+          "then": {
+            "en": "<b>SEV 1011 T23</b> (Type J) outputs at most 3.7 kW A",
+            "nl": "<b>SEV 1011 T23</b> (Zwitserse 3-pin) levert een vermogen van maximaal 3.7 kW A",
+            "de": "<b>SEV 1011 T23</b> (Type J) liefert maximal 3.7 kW A"
+          }
+        }
+      ],
+      "condition": {
+        "and": [
+          {
+            "or": [
+              "amenity=charging_station",
+              "construction:amenity=charging_station",
+              "disused:amenity=charging_station",
+              "planned:amenity=charging_station"
+            ]
+          },
+          "socket:sev1011_t23~.+",
+          "socket:sev1011_t23!=0"
+        ]
+      }
+    },
+    {
+      "id": "plugs-amount-socket:as3112",
+      "question": {
+        "en": "How much plugs of type <b>AS3112</b> (Type I) are available here?",
+        "nl": "Hoeveel stekkers van type <b>AS3112</b> (Australische 3-pin) heeft dit oplaadpunt?",
+        "ca": "Quants connectors del tipus <b>AS3112</b> (Type I) hi han disponibles aquí?",
+        "cs": "Kolik zástrček typu <b>AS3112</b> (Type I) je k dispozici?",
+        "da": "Hvor mange stik af typen <b>AS3112</b> (Type I) er tilgængelige her?",
+        "de": "Wie viele Stecker vom Typ <b>AS3112</b> (Type I) sind hier vorhanden?"
+      },
+      "render": {
+        "en": "There are <b class='text-xl'>{socket:as3112}</b> plugs of type <b>AS3112</b> (Type I) available here",
+        "nl": "Hier zijn <b class='text-xl'>{socket:as3112}</b> stekkers van het type <b>AS3112</b> (Australische 3-pin)",
+        "de": "Hier sind <b class='text-xl'>{socket:as3112}</b> Stecker vom Typ <b>AS3112</b> (Type I) verfügbar"
+      },
+      "icon": "./assets/layers/charging_station/as3112.svg",
+      "freeform": {
+        "key": "socket:as3112",
+        "type": "pnat",
+        "inline": true
+      },
+      "condition": {
+        "and": [
+          {
+            "or": [
+              "amenity=charging_station",
+              "construction:amenity=charging_station",
+              "disused:amenity=charging_station",
+              "planned:amenity=charging_station"
+            ]
+          },
+          "socket:as3112~.+",
+          "socket:as3112!=0"
+        ]
+      }
+    },
+    {
+      "id": "voltage-socket:as3112",
+      "labels": [
+        "technical"
+      ],
+      "question": {
+        "en": "What voltage do the plugs with <b>AS3112</b> (Type I) offer?",
+        "nl": "Welke spanning levert de stekker van type <b>AS3112</b> (Australische 3-pin)",
+        "cs": "Jaké napětí mají zástrčky s <b>AS3112</b> (Type I) ?",
+        "de": "Welche Spannung liefern die <b>AS3112</b> (Type I)?"
+      },
+      "render": {
+        "en": "<b>AS3112</b> (Type I) outputs {canonical(socket:as3112:voltage)}",
+        "nl": "<b>AS3112</b> (Australische 3-pin) heeft een spanning van {canonical(socket:as3112:voltage)}",
+        "de": "<b>AS3112</b> (Type I) liefert {canonical(socket:as3112:voltage)}"
+      },
+      "freeform": {
+        "key": "socket:as3112:voltage",
+        "type": "pfloat",
+        "inline": false
+      },
+      "mappings": [
+        {
+          "if": "socket:as3112:voltage=230 V",
+          "then": {
+            "en": "<b>AS3112</b> (Type I) outputs 230 volt",
+            "nl": "<b>AS3112</b> (Australische 3-pin) heeft een spanning van 230 volt",
+            "cs": "<b>AS3112</b> (Type I) výstup 230 voltů",
+            "de": "<b>AS3112</b> (Type I) liefert 230 Volt"
+          }
+        }
+      ],
+      "condition": {
+        "and": [
+          {
+            "or": [
+              "amenity=charging_station",
+              "construction:amenity=charging_station",
+              "disused:amenity=charging_station",
+              "planned:amenity=charging_station"
+            ]
+          },
+          "socket:as3112~.+",
+          "socket:as3112!=0"
+        ]
+      }
+    },
+    {
+      "id": "current-socket:as3112",
+      "labels": [
+        "technical"
+      ],
+      "question": {
+        "en": "What current do the plugs with <b>AS3112</b> (Type I) offer?",
+        "nl": "Welke stroom levert de stekker van type <b>AS3112</b> (Australische 3-pin)?",
+        "de": "Welchen Strom bieten die Stecker mit <b>AS3112</b> (Type I)?"
+      },
+      "render": {
+        "en": "<b>AS3112</b> (Type I) outputs at most {canonical(socket:as3112:current)}",
+        "nl": "<b>AS3112</b> (Australische 3-pin) levert een stroom van maximaal {canonical(socket:as3112:current)}",
+        "de": "<b>AS3112</b> (Type I) liefert maximal {canonical(socket:as3112:current)}"
+      },
+      "freeform": {
+        "key": "socket:as3112:current",
+        "type": "pfloat",
+        "inline": false
+      },
+      "mappings": [
+        {
+          "if": "socket:as3112:current=10 A",
+          "then": {
+            "en": "<b>AS3112</b> (Type I) outputs at most 10 A",
+            "nl": "<b>AS3112</b> (Australische 3-pin) levert een stroom van maximaal 10 A",
+            "de": "<b>AS3112</b> (Type I) liefert maximal 10 A"
+          }
+        }
+      ],
+      "condition": {
+        "and": [
+          {
+            "or": [
+              "amenity=charging_station",
+              "construction:amenity=charging_station",
+              "disused:amenity=charging_station",
+              "planned:amenity=charging_station"
+            ]
+          },
+          "socket:as3112~.+",
+          "socket:as3112!=0"
+        ]
+      }
+    },
+    {
+      "id": "power-output-socket:as3112",
+      "labels": [
+        "technical"
+      ],
+      "question": {
+        "en": "What power output does a single plug of type <b>AS3112</b> (Type I) offer?",
+        "nl": "Welk vermogen levert een enkele stekker van type <b>AS3112</b> (Australische 3-pin)?",
+        "de": "Welche Leistung liefert ein einzelner Stecker des Typs <b>AS3112</b> (Type I)?"
+      },
+      "render": {
+        "en": "<b>AS3112</b> (Type I) outputs at most {canonical(socket:as3112:output)}",
+        "nl": "<b>AS3112</b> (Australische 3-pin) levert een vermogen van maximaal {canonical(socket:as3112:output)}",
+        "de": "<b>AS3112</b> (Type I) liefert maximal {canonical(socket:as3112:output)}"
+      },
+      "freeform": {
+        "key": "socket:as3112:output",
+        "type": "pfloat",
+        "inline": false
+      },
+      "mappings": [
+        {
+          "if": "socket:as3112:output=2.3 kW",
+          "then": {
+            "en": "<b>AS3112</b> (Type I) outputs at most 2.3 kW A",
+            "nl": "<b>AS3112</b> (Australische 3-pin) levert een vermogen van maximaal 2.3 kW A",
+            "de": "<b>AS3112</b> (Type I) liefert maximal 2.3 kW A"
+          }
+        }
+      ],
+      "condition": {
+        "and": [
+          {
+            "or": [
+              "amenity=charging_station",
+              "construction:amenity=charging_station",
+              "disused:amenity=charging_station",
+              "planned:amenity=charging_station"
+            ]
+          },
+          "socket:as3112~.+",
+          "socket:as3112!=0"
+        ]
+      }
+    },
+    {
+      "id": "plugs-amount-socket:nema_5_20",
+      "question": {
+        "en": "How much plugs of type <b>NEMA 5-20</b> (Type B) are available here?",
+        "nl": "Hoeveel stekkers van type <b>NEMA 5-20</b> (VS 3-pin) heeft dit oplaadpunt?",
+        "ca": "Quants connectors del tipus <b>NEMA 5-20</b> (Type B) hi han disponibles aquí?",
+        "cs": "Kolik zástrček typu <b>NEMA 5-20</b> (Type B) je k dispozici?",
+        "da": "Hvor mange stik af typen <b>NEMA 5-20</b> (Type B) er tilgængelige her?",
+        "de": "Wie viele Stecker vom Typ <b>NEMA 5-20</b> (Type B) sind hier vorhanden?"
+      },
+      "render": {
+        "en": "There are <b class='text-xl'>{socket:nema_5_20}</b> plugs of type <b>NEMA 5-20</b> (Type B) available here",
+        "nl": "Hier zijn <b class='text-xl'>{socket:nema_5_20}</b> stekkers van het type <b>NEMA 5-20</b> (VS 3-pin)",
+        "de": "Hier sind <b class='text-xl'>{socket:nema_5_20}</b> Stecker vom Typ <b>NEMA 5-20</b> (Type B) verfügbar"
+      },
+      "icon": "./assets/layers/charging_station/nema-5-20.svg",
+      "freeform": {
+        "key": "socket:nema_5_20",
+        "type": "pnat",
+        "inline": true
+      },
+      "condition": {
+        "and": [
+          {
+            "or": [
+              "amenity=charging_station",
+              "construction:amenity=charging_station",
+              "disused:amenity=charging_station",
+              "planned:amenity=charging_station"
+            ]
+          },
+          "socket:nema_5_20~.+",
+          "socket:nema_5_20!=0"
+        ]
+      }
+    },
+    {
+      "id": "voltage-socket:nema_5_20",
+      "labels": [
+        "technical"
+      ],
+      "question": {
+        "en": "What voltage do the plugs with <b>NEMA 5-20</b> (Type B) offer?",
+        "nl": "Welke spanning levert de stekker van type <b>NEMA 5-20</b> (VS 3-pin)",
+        "cs": "Jaké napětí mají zástrčky s <b>NEMA 5-20</b> (Type B) ?",
+        "de": "Welche Spannung liefern die <b>NEMA 5-20</b> (Type B)?"
+      },
+      "render": {
+        "en": "<b>NEMA 5-20</b> (Type B) outputs {canonical(socket:nema_5_20:voltage)}",
+        "nl": "<b>NEMA 5-20</b> (VS 3-pin) heeft een spanning van {canonical(socket:nema_5_20:voltage)}",
+        "de": "<b>NEMA 5-20</b> (Type B) liefert {canonical(socket:nema_5_20:voltage)}"
+      },
+      "freeform": {
+        "key": "socket:nema_5_20:voltage",
+        "type": "pfloat",
+        "inline": false
+      },
+      "mappings": [
+        {
+          "if": "socket:nema_5_20:voltage=120 V",
+          "then": {
+            "en": "<b>NEMA 5-20</b> (Type B) outputs 120 volt",
+            "nl": "<b>NEMA 5-20</b> (VS 3-pin) heeft een spanning van 120 volt",
+            "cs": "<b>NEMA 5-20</b> (Type B) výstup 120 voltů",
+            "de": "<b>NEMA 5-20</b> (Type B) liefert 120 Volt"
+          }
+        }
+      ],
+      "condition": {
+        "and": [
+          {
+            "or": [
+              "amenity=charging_station",
+              "construction:amenity=charging_station",
+              "disused:amenity=charging_station",
+              "planned:amenity=charging_station"
+            ]
+          },
+          "socket:nema_5_20~.+",
+          "socket:nema_5_20!=0"
+        ]
+      }
+    },
+    {
+      "id": "current-socket:nema_5_20",
+      "labels": [
+        "technical"
+      ],
+      "question": {
+        "en": "What current do the plugs with <b>NEMA 5-20</b> (Type B) offer?",
+        "nl": "Welke stroom levert de stekker van type <b>NEMA 5-20</b> (VS 3-pin)?",
+        "de": "Welchen Strom bieten die Stecker mit <b>NEMA 5-20</b> (Type B)?"
+      },
+      "render": {
+        "en": "<b>NEMA 5-20</b> (Type B) outputs at most {canonical(socket:nema_5_20:current)}",
+        "nl": "<b>NEMA 5-20</b> (VS 3-pin) levert een stroom van maximaal {canonical(socket:nema_5_20:current)}",
+        "de": "<b>NEMA 5-20</b> (Type B) liefert maximal {canonical(socket:nema_5_20:current)}"
+      },
+      "freeform": {
+        "key": "socket:nema_5_20:current",
+        "type": "pfloat",
+        "inline": false
+      },
+      "mappings": [
+        {
+          "if": "socket:nema_5_20:current=20 A",
+          "then": {
+            "en": "<b>NEMA 5-20</b> (Type B) outputs at most 20 A",
+            "nl": "<b>NEMA 5-20</b> (VS 3-pin) levert een stroom van maximaal 20 A",
+            "de": "<b>NEMA 5-20</b> (Type B) liefert maximal 20 A"
+          }
+        }
+      ],
+      "condition": {
+        "and": [
+          {
+            "or": [
+              "amenity=charging_station",
+              "construction:amenity=charging_station",
+              "disused:amenity=charging_station",
+              "planned:amenity=charging_station"
+            ]
+          },
+          "socket:nema_5_20~.+",
+          "socket:nema_5_20!=0"
+        ]
+      }
+    },
+    {
+      "id": "power-output-socket:nema_5_20",
+      "labels": [
+        "technical"
+      ],
+      "question": {
+        "en": "What power output does a single plug of type <b>NEMA 5-20</b> (Type B) offer?",
+        "nl": "Welk vermogen levert een enkele stekker van type <b>NEMA 5-20</b> (VS 3-pin)?",
+        "de": "Welche Leistung liefert ein einzelner Stecker des Typs <b>NEMA 5-20</b> (Type B)?"
+      },
+      "render": {
+        "en": "<b>NEMA 5-20</b> (Type B) outputs at most {canonical(socket:nema_5_20:output)}",
+        "nl": "<b>NEMA 5-20</b> (VS 3-pin) levert een vermogen van maximaal {canonical(socket:nema_5_20:output)}",
+        "de": "<b>NEMA 5-20</b> (Type B) liefert maximal {canonical(socket:nema_5_20:output)}"
+      },
+      "freeform": {
+        "key": "socket:nema_5_20:output",
+        "type": "pfloat",
+        "inline": false
+      },
+      "mappings": [
+        {
+          "if": "socket:nema_5_20:output=2.4 kW",
+          "then": {
+            "en": "<b>NEMA 5-20</b> (Type B) outputs at most 2.4 kW A",
+            "nl": "<b>NEMA 5-20</b> (VS 3-pin) levert een vermogen van maximaal 2.4 kW A",
+            "de": "<b>NEMA 5-20</b> (Type B) liefert maximal 2.4 kW A"
+          }
+        }
+      ],
+      "condition": {
+        "and": [
+          {
+            "or": [
+              "amenity=charging_station",
+              "construction:amenity=charging_station",
+              "disused:amenity=charging_station",
+              "planned:amenity=charging_station"
+            ]
+          },
+          "socket:nema_5_20~.+",
+          "socket:nema_5_20!=0"
+        ]
+      }
+    },
+    {
       "id": "OH",
       "question": {
         "en": "When is this charging station opened?",
@@ -38371,6 +38988,7 @@
       "mappings": [
         {
           "if": "opening_hours=24/7",
+          "icon": "./assets/layers/questions/open24_7.svg",
           "then": {
             "en": "24/7 opened (including holidays)",
             "de": "durchgehend geöffnet (auch an Feiertagen)",
@@ -65810,6 +66428,7 @@
       "mappings": [
         {
           "if": "opening_hours=24/7",
+          "icon": "./assets/layers/questions/open24_7.svg",
           "then": {
             "en": "24/7 opened (including holidays)",
             "de": "durchgehend geöffnet (auch an Feiertagen)",
@@ -67018,6 +67637,7 @@
         },
         {
           "if": "opening_hours=24/7",
+          "icon": "./assets/layers/questions/open24_7.svg",
           "then": {
             "en": "24/7 opened (including holidays)",
             "de": "durchgehend geöffnet (auch an Feiertagen)",
@@ -69988,6 +70608,7 @@
       "mappings": [
         {
           "if": "opening_hours=24/7",
+          "icon": "./assets/layers/questions/open24_7.svg",
           "then": {
             "en": "24/7 opened (including holidays)",
             "de": "durchgehend geöffnet (auch an Feiertagen)",
@@ -71065,11 +71686,7 @@
           "amenity=bike_wash",
           "amenity=bicycle_wash",
           "amenity=bike_wash",
-          "amenity=bicycle_wash",
-          "service:bicycle:cleaning=yes",
-          "service:bicycle:cleaning=diy",
-          "service:bicycle:cleaning=yes",
-          "service:bicycle:cleaning=diy"
+          "amenity=bicycle_wash"
         ]
       },
       "freeform": {
@@ -72239,6 +72856,7 @@
       "mappings": [
         {
           "if": "opening_hours=24/7",
+          "icon": "./assets/layers/questions/open24_7.svg",
           "then": {
             "en": "24/7 opened (including holidays)",
             "de": "durchgehend geöffnet (auch an Feiertagen)",
@@ -73079,6 +73697,7 @@
       "mappings": [
         {
           "if": "opening_hours=24/7",
+          "icon": "./assets/layers/questions/open24_7.svg",
           "then": {
             "en": "24/7 opened (including holidays)",
             "de": "durchgehend geöffnet (auch an Feiertagen)",
@@ -73336,6 +73955,7 @@
       "mappings": [
         {
           "if": "opening_hours=24/7",
+          "icon": "./assets/layers/questions/open24_7.svg",
           "then": {
             "en": "24/7 opened (including holidays)",
             "de": "durchgehend geöffnet (auch an Feiertagen)",
@@ -75579,6 +76199,7 @@
       "mappings": [
         {
           "if": "opening_hours=24/7",
+          "icon": "./assets/layers/questions/open24_7.svg",
           "then": {
             "en": "24/7 opened (including holidays)",
             "de": "durchgehend geöffnet (auch an Feiertagen)",
@@ -78402,6 +79023,7 @@
       "mappings": [
         {
           "if": "opening_hours=24/7",
+          "icon": "./assets/layers/questions/open24_7.svg",
           "then": {
             "en": "24/7 opened (including holidays)",
             "de": "durchgehend geöffnet (auch an Feiertagen)",
@@ -83430,6 +84052,7 @@
       "mappings": [
         {
           "if": "opening_hours=24/7",
+          "icon": "./assets/layers/questions/open24_7.svg",
           "then": {
             "en": "24/7 opened (including holidays)",
             "de": "durchgehend geöffnet (auch an Feiertagen)",
@@ -83698,6 +84321,7 @@
       "mappings": [
         {
           "if": "opening_hours=24/7",
+          "icon": "./assets/layers/questions/open24_7.svg",
           "then": {
             "en": "24/7 opened (including holidays)",
             "de": "durchgehend geöffnet (auch an Feiertagen)",
@@ -85108,6 +85732,7 @@
             "recycling:plastic_bottles=",
             "recycling:plastic_packaging=",
             "recycling:plastic=",
+            "recycling:pmd=",
             "recycling:printer_cartridges=",
             "recycling:scrap_metal=",
             "recycling:shoes=",
@@ -85715,6 +86340,18 @@
             "path": "./assets/layers/recycling/bicycles.svg",
             "class": "medium"
           }
+        },
+        {
+          "if": "recycling:pmd=yes",
+          "ifnot": "recycling:pmd=",
+          "then": {
+            "en": "Plastic packaging, metal packaging and drink cartons (PMD) can be recycled here",
+            "nl": "Plastic verpakkingen, metalen verpakkingen en drankpakken kunnen hier gerecycled worden"
+          },
+          "icon": {
+            "path": "./assets/layers/recycling/pmd.svg",
+            "class": "medium"
+          }
         }
       ],
       "condition": {
@@ -85821,6 +86458,7 @@
       "mappings": [
         {
           "if": "opening_hours=24/7",
+          "icon": "./assets/layers/questions/open24_7.svg",
           "then": {
             "en": "24/7 opened (including holidays)",
             "de": "durchgehend geöffnet (auch an Feiertagen)",
@@ -90226,6 +90864,7 @@
       "mappings": [
         {
           "if": "opening_hours=24/7",
+          "icon": "./assets/layers/questions/open24_7.svg",
           "then": {
             "en": "24/7 opened (including holidays)",
             "de": "durchgehend geöffnet (auch an Feiertagen)",
@@ -90690,6 +91329,20 @@
           }
         },
         {
+          "if": "waste=pmd",
+          "then": {
+            "en": "A waste basket for paper",
+            "nl": "Een vuilnisbak voor papier",
+            "ca": "Una paperera per a paper",
+            "cs": "Odpadový koš na papír",
+            "da": "En affaldskurv til papir",
+            "de": "Der Abfalleimer ist für Papier",
+            "fr": "Une poubelle pour papier",
+            "id": "Keranjang sampah untuk kertas",
+            "it": "Un cestino rifiuti per la carta"
+          }
+        },
+        {
           "if": "waste=paper",
           "then": {
             "en": "A waste basket for paper",
@@ -90731,9 +91384,9 @@
           "amenity=waste_basket",
           {
             "or": [
-              "waste=dog_excrement",
-              "waste=trash",
-              "waste="
+              "waste=",
+              "waste~.*dog_excrement.*",
+              "waste~.*trash.*"
             ]
           }
         ]

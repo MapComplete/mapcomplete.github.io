@@ -5337,6 +5337,9 @@
                     },
                     "21": {
                         "question": "Recyclage des vélos"
+                    },
+                    "22": {
+                        "question": "Recyclage des vélos"
                     }
                 }
             },
@@ -6749,7 +6752,7 @@
                         "then": "Utiliser le fond actuel (<span class='code'>{__current_background}</span>) par défaut"
                     },
                     "5": {
-                        "then": "Utiliser le fond (<span class='code'>{__current_background}</span>)par défaut"
+                        "then": "Utiliser le fond (<span class='code'>{mapcomplete-preferred-background-layer}</span>)par défaut"
                     }
                 },
                 "question": "Quel fond souhaitez-vous utiliser par défaut ?"
@@ -7118,6 +7121,9 @@
                         "then": "Une poubelle pour plastiques"
                     },
                     "7": {
+                        "then": "Une poubelle pour papier"
+                    },
+                    "8": {
                         "then": "Une poubelle pour papier"
                     }
                 },

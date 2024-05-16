@@ -6613,6 +6613,9 @@
                     },
                     "21": {
                         "question": "Reciclatge de bicicletes"
+                    },
+                    "22": {
+                        "question": "Reciclatge de bicicletes"
                     }
                 }
             },
@@ -9122,6 +9125,9 @@
                         "then": "Una paperera per a plàstic"
                     },
                     "7": {
+                        "then": "Una paperera per a paper"
+                    },
+                    "8": {
                         "then": "Una paperera per a paper"
                     }
                 },

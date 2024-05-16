@@ -6876,6 +6876,9 @@
                     },
                     "21": {
                         "question": "Recyklace jízdních kol"
+                    },
+                    "22": {
+                        "question": "Recyklace jízdních kol"
                     }
                 }
             },
@@ -9381,6 +9384,9 @@
                         "then": "Odpadkový koš na plasty"
                     },
                     "7": {
+                        "then": "Odpadový koš na papír"
+                    },
+                    "8": {
                         "then": "Odpadový koš na papír"
                     }
                 },

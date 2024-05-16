@@ -857,6 +857,9 @@
                     },
                     "7": {
                         "then": "Keranjang sampah untuk kertas"
+                    },
+                    "8": {
+                        "then": "Keranjang sampah untuk kertas"
                     }
                 },
                 "question": "Keranjang sampah macam apa ini?"

@@ -2086,6 +2086,9 @@
                     },
                     "3": {
                         "then": "I cani sono ammessi e possono andare in giro liberamente"
+                    },
+                    "4": {
+                        "then": "I cani sono ammessi solo all'esterno"
                     }
                 },
                 "question": "I cani sono ammessi in quest’attività?"
@@ -2231,6 +2234,9 @@
                         "question": "Riciclo di secco"
                     },
                     "20": {
+                        "question": "Riciclo di secco"
+                    },
+                    "21": {
                         "question": "Riciclo di secco"
                     }
                 }
@@ -3044,6 +3050,9 @@
                         "then": "Un cestino rifiuti per la plastica"
                     },
                     "7": {
+                        "then": "Un cestino rifiuti per la carta"
+                    },
+                    "8": {
                         "then": "Un cestino rifiuti per la carta"
                     }
                 },

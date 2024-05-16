@@ -207,6 +207,20 @@
           }
         },
         {
+          "if": "waste=pmd",
+          "then": {
+            "en": "A waste basket for paper",
+            "nl": "Een vuilnisbak voor papier",
+            "ca": "Una paperera per a paper",
+            "cs": "Odpadový koš na papír",
+            "da": "En affaldskurv til papir",
+            "de": "Der Abfalleimer ist für Papier",
+            "fr": "Une poubelle pour papier",
+            "id": "Keranjang sampah untuk kertas",
+            "it": "Un cestino rifiuti per la carta"
+          }
+        },
+        {
           "if": "waste=paper",
           "then": {
             "en": "A waste basket for paper",
@@ -237,8 +251,8 @@
       },
       "condition": {
         "or": [
-          "waste=dog_excrement",
-          "waste=trash",
+          "waste~i~.*dog_excrement.*",
+          "waste~i~.*trash.*",
           "waste="
         ]
       },
@@ -397,6 +411,20 @@
             "cs": "Odpadkový koš na plast"
           },
           "osmTags": "waste~i~.*plastic.*"
+        },
+        {
+          "question": {
+            "en": "Waste basket for plastic packaging, metal packaging and drink cartons (PMD)",
+            "nl": "Vuilnisbak voor plastic verpakkingen, metalen verpakkingen en drankpakken (PMD)"
+          },
+          "osmTags": "waste~i~.*pmd.*"
+        },
+        {
+          "question": {
+            "en": "Waste basket for paper",
+            "nl": "Vuilnisbak voor papier"
+          },
+          "osmTags": "waste~i~.*paper.*"
         }
       ]
     },
@@ -432,16 +460,5 @@
   "allowMove": {
     "enableRelocation": false,
     "enableImproveAccuracy": true
-  },
-  "cs": {
-    "0": {
-      "iconSize": {
-        "mappings": {
-          "0": {
-            "then": "Odpadkový koš"
-          }
-        }
-      }
-    }
   }
 }
