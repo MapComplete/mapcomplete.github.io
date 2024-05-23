@@ -393,6 +393,27 @@
                     }
                 },
                 "question": "Was ist der Zweck des Tierheims?"
+            },
+            "boarded_animals": {
+                "mappings": {
+                    "0": {
+                        "then": "Hunde werden hier gehalten"
+                    },
+                    "1": {
+                        "then": "Katzen werden hier gehalten"
+                    },
+                    "2": {
+                        "then": "Pferde werden hier gehalten"
+                    },
+                    "3": {
+                        "then": "Vögel werden hier gehalten"
+                    },
+                    "4": {
+                        "then": "Wildtiere werden hier gehalten"
+                    }
+                },
+                "question": "Welche Tiere werden hier akzeptiert?",
+                "render": "{animal_shelter} wird hier gehalten"
             }
         },
         "title": {
@@ -1490,9 +1511,17 @@
                 },
                 "question": "Sind die Fahrradparkplätze kostenlos zu benutzen?"
             },
+            "maxstay": {
+                "question": "Was ist die maximal erlaubte Parkdauer?",
+                "questionHint": "Wenn das Fahrrad für längere Zeit abgestellt wird, kann es vom Betreiber entfernt werden",
+                "render": "Ein Fahrrad kann hier höchstens für {canonical(maxstay)} geparkt werden"
+            },
             "operator": {
                 "question": "Wer unterhält diese Fahrradabstellplätze?",
                 "render": "Dieser Fahrradparkplatz wird von {operator} bereitgestellt"
+            },
+            "operator_email": {
+                "question": "Wie lautet die E-Mail-Adresse des Betreibers dieses Fahrradparkplatzes?"
             },
             "operator_phone": {
                 "question": "Wie lautet die Telefonnummer des Betreibers dieses Fahrradparkplatzes?",
@@ -2161,6 +2190,21 @@
                     },
                     "16": {
                         "question": "Hat einen <div style='display: inline-block'><b><b>Bosch Active Connect Anschluss mit 5 Pins</b></b> <img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/bosch-5pin.svg'/></div> und Kabel"
+                    },
+                    "17": {
+                        "question": "Hat ein <div style='display: inline-block'><b><b>BS1363</b> (Type G)</b> <img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/bs1363.svg'/></div> Anschluss"
+                    },
+                    "18": {
+                        "question": "Hat ein <div style='display: inline-block'><b><b>NEMA 5-15</b> (Type B)</b> <img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/nema-5-15.svg'/></div> Anschluss"
+                    },
+                    "19": {
+                        "question": "Hat ein <div style='display: inline-block'><b><b>SEV 1011 T23</b> (Type J)</b> <img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/typej.svg'/></div> Anschluss"
+                    },
+                    "20": {
+                        "question": "Hat ein <div style='display: inline-block'><b><b>AS3112</b> (Type I)</b> <img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/as3112.svg'/></div> Anschluss"
+                    },
+                    "21": {
+                        "question": "Hat ein <div style='display: inline-block'><b><b>NEMA 5-20</b> (Type B)</b> <img style='width:1rem; display: inline-block' src='./assets/layers/charging_station/nema-5-20.svg'/></div> Anschluss"
                     }
                 }
             }
@@ -2305,6 +2349,36 @@
                     },
                     "31": {
                         "then": "<b> Bosch Active Connect mit 5 Pins </b> und Kabel"
+                    },
+                    "32": {
+                        "then": "<b>BS1363</b> (Typ G)"
+                    },
+                    "33": {
+                        "then": "<b>BS1363</b> (Typ G)"
+                    },
+                    "34": {
+                        "then": "<b>NEMA 5-15</b> (Typ B)"
+                    },
+                    "35": {
+                        "then": "<b>NEMA 5-15</b> (Typ B)"
+                    },
+                    "36": {
+                        "then": "<b>SEV 1011 T23</b> (Typ J)"
+                    },
+                    "37": {
+                        "then": "<b>SEV 1011 T23</b> (Typ J)"
+                    },
+                    "38": {
+                        "then": "<b>AS3112</b> (Typ I)"
+                    },
+                    "39": {
+                        "then": "<b>AS3112</b> (Typ I)"
+                    },
+                    "40": {
+                        "then": "<b>NEMA 5-20</b> (Typ B)"
+                    },
+                    "41": {
+                        "then": "<b>NEMA 5-20</b> (Typ B)"
                     }
                 },
                 "question": "Welche Ladeanschlüsse gibt es hier?"
@@ -2539,6 +2613,21 @@
                         },
                         "15": {
                             "2": "<b> Bosch Active Connect mit 5 Pins </b> und Kabel"
+                        },
+                        "16": {
+                            "2": "<b>BS1363</b> (Typ G)"
+                        },
+                        "17": {
+                            "2": "<b>NEMA 5-15</b> (Typ B)"
+                        },
+                        "18": {
+                            "2": "<b>SEV 1011 T23</b> (Typ J)"
+                        },
+                        "19": {
+                            "2": "<b>AS3112</b> (Typ I)"
+                        },
+                        "20": {
+                            "2": "<b>NEMA 5-20</b> (Typ B)"
                         }
                     }
                 }
@@ -5113,6 +5202,22 @@
             "render": "Restaurant"
         }
     },
+    "food_courts": {
+        "description": "Food-Courts mit einer Vielzahl von Essensmöglichkeiten.",
+        "name": "Food Courts",
+        "tagRenderings": {
+            "name": {
+                "freeform": {
+                    "placeholder": "Name des Food-Courts"
+                },
+                "question": "Wie lautet der Name dieses Food-Courts?",
+                "render": "Dieser Food Court heißt <b>{name}</b>."
+            }
+        },
+        "title": {
+            "render": "Food Court"
+        }
+    },
     "ghost_bike": {
         "description": "Eine Ebene mit Gedenkstätten für Radfahrer, die bei Verkehrsunfällen ums Leben gekommen sind",
         "name": "Geisterräder",
@@ -6625,6 +6730,74 @@
             "render": "OSM-Community-Index"
         }
     },
+    "outdoor_seating": {
+        "description": "Sitzgelegenheiten im Freien, die sich in der Regel in der Nähe von Cafés und Restaurants befinden.",
+        "name": "Außenbestuhlung",
+        "tagRenderings": {
+            "access": {
+                "mappings": {
+                    "0": {
+                        "then": "Dieser Sitzbereich im Freien kann von jedermann genutzt werden."
+                    },
+                    "1": {
+                        "then": "Dieser Sitzbereich im Freien kann nur von Kunden genutzt werden."
+                    },
+                    "2": {
+                        "then": "Dieser Sitzbereich im Freien ist privat."
+                    }
+                },
+                "question": "Wer kann diesen Sitzbereich im Freien nutzen?"
+            },
+            "covered": {
+                "mappings": {
+                    "0": {
+                        "then": "Dieser Sitzbereich im Freien ist überdacht."
+                    },
+                    "1": {
+                        "then": "Dieser Sitzbereich im Freien ist nicht überdacht."
+                    }
+                },
+                "question": "Ist dieser Sitzbereich im Freien überdacht?"
+            },
+            "heating": {
+                "mappings": {
+                    "0": {
+                        "then": "Dieser Außensitzbereich ist beheizt."
+                    },
+                    "1": {
+                        "then": "Dieser Außensitzbereich ist nicht beheizt."
+                    }
+                },
+                "question": "Ist dieser Außensitzbereich beheizt?"
+            },
+            "seasonal": {
+                "mappings": {
+                    "0": {
+                        "then": "Dieser Sitzbereich im Freien ist das ganze Jahr über verfügbar."
+                    },
+                    "1": {
+                        "then": "Dieser Sitzbereich im Freien ist im Frühjahr verfügbar."
+                    },
+                    "2": {
+                        "then": "Dieser Sitzbereich im Freien ist im Sommer verfügbar."
+                    },
+                    "3": {
+                        "then": "Dieser Sitzbereich im Freien ist im Herbst verfügbar."
+                    },
+                    "4": {
+                        "then": "Dieser Sitzbereich im Freien ist im Winter verfügbar."
+                    },
+                    "5": {
+                        "then": "Dieser Sitzbereich im Freien ist in der Trockenzeit verfügbar."
+                    }
+                },
+                "question": "Ist dieser Sitzbereich im Freien saisonabhängig?"
+            }
+        },
+        "title": {
+            "render": "Sitzbereich im Freien"
+        }
+    },
     "parcel_lockers": {
         "description": "Ebene mit Paketschließfächern zum Abholen und Versenden von Paketen.",
         "name": "Paketschließfächer",
@@ -7665,6 +7838,9 @@
                     },
                     "3": {
                         "then": "Hunde sind hier erlaubt und können frei herumlaufen"
+                    },
+                    "4": {
+                        "then": "Hunde sind nur draußen erlaubt"
                     }
                 },
                 "question": "Sind Hunde hier erlaubt?"
@@ -8161,6 +8337,9 @@
                     },
                     "21": {
                         "question": "Recycling von Fahrrädern"
+                    },
+                    "22": {
+                        "question": "Recycling von Kunststoffverpackungen, Metallverpackungen und Getränkekartons (Tetrapak)"
                     }
                 }
             },
@@ -8272,6 +8451,9 @@
                     },
                     "16": {
                         "then": "Kunststoff kann hier recycelt werden"
+                    },
+                    "17": {
+                        "then": "Kunststoffverpackungen, Metallverpackungen und Getränkekartons (Tetrapak) können hier recycelt werden"
                     },
                     "18": {
                         "then": "Druckerpatronen können hier recycelt werden"
@@ -10674,6 +10856,25 @@
                     }
                 }
             },
+            "more_privacy": {
+                "mappings": {
+                    "0": {
+                        "then": "Wenn du Änderungen an OpenStreetMap vornimmst, gibst du nicht an, wie weit du von den geänderten Objekten entfernt warst."
+                    },
+                    "1": {
+                        "then": "Wenn du Änderungen an OpenStreetMap vornimmst, gib grob an, wie weit du von den geänderten Objekten entfernt warst. Das hilft anderen Mitwirkenden zu verstehen, wie du die Änderung vorgenommen hast."
+                    }
+                },
+                "question": "Sollte bei Änderungen eine grobe Angabe gemacht werden, wie weit du vom Objekt entfernt warst?",
+                "questionHint": "Wenn du eine Änderung an einem oder mehreren Objekten vornimmst und deinen Standort aktivierst, wird eine ungefähre Angabe darüber gespeichert, wo du dich befunden hast: Es wird angezeigt, ob du näher als 25m, 500m, 5km oder weiter als 5km entfernt warst. Das hilft den Kartierern, deinen Kontext zu verstehen, wenn du Änderungen vornimmst, gibt aber auch einen Hinweis darauf, wo du zu diesem Zeitpunkt warst. "
+            },
+            "more_privacy_theme_override": {
+                "mappings": {
+                    "0": {
+                        "then": "Dieses Thema ist sensibel. Wenn du Änderungen vornimmst, wird nicht angezeigt, ob du explizit in der Nähe warst."
+                    }
+                }
+            },
             "picture-license": {
                 "mappings": {
                     "0": {
@@ -11111,6 +11312,12 @@
                     },
                     "6": {
                         "question": "Mülleimer für Plastik"
+                    },
+                    "7": {
+                        "question": "Papierkorb für Kunststoffverpackungen, Metallverpackungen und Getränkekartons (Tetrapak)"
+                    },
+                    "8": {
+                        "question": "Papierkorb für Papier"
                     }
                 }
             },
@@ -11165,6 +11372,9 @@
                     },
                     "6": {
                         "then": "Der Abfalleimer ist für Plastik"
+                    },
+                    "7": {
+                        "then": "Ein Papierkorb für Kunststoffverpackungen, Metallverpackungen und Getränkekartons (Tetrapak)"
                     },
                     "8": {
                         "then": "Der Abfalleimer ist für Papier"

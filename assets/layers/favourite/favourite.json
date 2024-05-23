@@ -10473,7 +10473,8 @@
       {
         "if": "leisure=outdoor_seating",
         "then": {
-          "en": "Outdoor Seating area"
+          "en": "Outdoor Seating area",
+          "de": "Sitzbereich im Freien"
         }
       },
       {
@@ -10488,7 +10489,8 @@
       {
         "if": "leisure=outdoor_seating",
         "then": {
-          "en": "Outdoor Seating area"
+          "en": "Outdoor Seating area",
+          "de": "Sitzbereich im Freien"
         }
       },
       {
@@ -10503,7 +10505,8 @@
       {
         "if": "leisure=outdoor_seating",
         "then": {
-          "en": "Outdoor Seating area"
+          "en": "Outdoor Seating area",
+          "de": "Sitzbereich im Freien"
         }
       },
       {
@@ -10844,7 +10847,8 @@
       {
         "if": "amenity=food_court",
         "then": {
-          "en": "Food Court"
+          "en": "Food Court",
+          "de": "Food Court"
         }
       },
       {
@@ -10859,7 +10863,8 @@
       {
         "if": "amenity=food_court",
         "then": {
-          "en": "Food Court"
+          "en": "Food Court",
+          "de": "Food Court"
         }
       },
       {
@@ -10881,7 +10886,8 @@
       {
         "if": "amenity=food_court",
         "then": {
-          "en": "Food Court"
+          "en": "Food Court",
+          "de": "Food Court"
         }
       },
       {
@@ -22298,7 +22304,8 @@
       "id": "operator_email",
       "question": {
         "en": "What is the email address of the operator of this bicycle parking?",
-        "nl": "Wat is het emailadres van de beheerder van deze parking?"
+        "nl": "Wat is het emailadres van de beheerder van deze parking?",
+        "de": "Wie lautet die E-Mail-Adresse des Betreibers dieses Fahrradparkplatzes?"
       },
       "icon": "./assets/svg/envelope.svg",
       "freeform": {
@@ -22461,11 +22468,13 @@
       "id": "maxstay",
       "question": {
         "en": "What is the maximum allowed parking duration?",
-        "nl": "Wat is de toegestane, maximale parkeerduur?"
+        "nl": "Wat is de toegestane, maximale parkeerduur?",
+        "de": "Was ist die maximal erlaubte Parkdauer?"
       },
       "questionHint": {
         "en": "If the bicycle is parked for a longer amount, it might be removed by the operator",
-        "nl": "Indien een fiets langer geparkeerd staat, kan deze verwijderd worden door de beheerder"
+        "nl": "Indien een fiets langer geparkeerd staat, kan deze verwijderd worden door de beheerder",
+        "de": "Wenn das Fahrrad für längere Zeit abgestellt wird, kann es vom Betreiber entfernt werden"
       },
       "freeform": {
         "key": "maxstay",
@@ -22474,7 +22483,8 @@
       },
       "render": {
         "en": "A bike can be parked here for at most {canonical(maxstay)}",
-        "nl": "Een fiets mag hier maximaal {canonical(maxstay)} parkeren"
+        "nl": "Een fiets mag hier maximaal {canonical(maxstay)} parkeren",
+        "de": "Ein Fahrrad kann hier höchstens für {canonical(maxstay)} geparkt werden"
       },
       "condition": {
         "or": [
@@ -32217,7 +32227,8 @@
           "icon": "./assets/layers/questions/dogs_outside.svg",
           "then": {
             "en": "Dogs are allowed only outside",
-            "it": "I cani sono ammessi solo all'esterno"
+            "it": "I cani sono ammessi solo all'esterno",
+            "de": "Hunde sind nur draußen erlaubt"
           }
         }
       ],
@@ -33188,25 +33199,29 @@
     {
       "id": "access",
       "question": {
-        "en": "Who can use this outdoor seating area?"
+        "en": "Who can use this outdoor seating area?",
+        "de": "Wer kann diesen Sitzbereich im Freien nutzen?"
       },
       "mappings": [
         {
           "if": "access=yes",
           "then": {
-            "en": "Anyone can use this outdoor seating area."
+            "en": "Anyone can use this outdoor seating area.",
+            "de": "Dieser Sitzbereich im Freien kann von jedermann genutzt werden."
           }
         },
         {
           "if": "access=customers",
           "then": {
-            "en": "Only customers can use this outdoor seating area."
+            "en": "Only customers can use this outdoor seating area.",
+            "de": "Dieser Sitzbereich im Freien kann nur von Kunden genutzt werden."
           }
         },
         {
           "if": "access=private",
           "then": {
-            "en": "This outdoor seating area is private."
+            "en": "This outdoor seating area is private.",
+            "de": "Dieser Sitzbereich im Freien ist privat."
           }
         }
       ],
@@ -33221,44 +33236,51 @@
     {
       "id": "seasonal",
       "question": {
-        "en": "Is this outdoor seating area seasonal?"
+        "en": "Is this outdoor seating area seasonal?",
+        "de": "Ist dieser Sitzbereich im Freien saisonabhängig?"
       },
       "multiAnswer": true,
       "mappings": [
         {
           "if": "seasonal=no",
           "then": {
-            "en": "This outdoor seating area is available all year round."
+            "en": "This outdoor seating area is available all year round.",
+            "de": "Dieser Sitzbereich im Freien ist das ganze Jahr über verfügbar."
           }
         },
         {
           "if": "seasonal=spring",
           "then": {
-            "en": "This outdoor seating area is available in spring."
+            "en": "This outdoor seating area is available in spring.",
+            "de": "Dieser Sitzbereich im Freien ist im Frühjahr verfügbar."
           }
         },
         {
           "if": "seasonal=summer",
           "then": {
-            "en": "This outdoor seating area is available in summer."
+            "en": "This outdoor seating area is available in summer.",
+            "de": "Dieser Sitzbereich im Freien ist im Sommer verfügbar."
           }
         },
         {
           "if": "seasonal=autumn",
           "then": {
-            "en": "This outdoor seating area is available in autumn."
+            "en": "This outdoor seating area is available in autumn.",
+            "de": "Dieser Sitzbereich im Freien ist im Herbst verfügbar."
           }
         },
         {
           "if": "seasonal=winter",
           "then": {
-            "en": "This outdoor seating area is available in winter."
+            "en": "This outdoor seating area is available in winter.",
+            "de": "Dieser Sitzbereich im Freien ist im Winter verfügbar."
           }
         },
         {
           "if": "seasonal=dry_season",
           "then": {
-            "en": "This outdoor seating area is available in the dry season."
+            "en": "This outdoor seating area is available in the dry season.",
+            "de": "Dieser Sitzbereich im Freien ist in der Trockenzeit verfügbar."
           }
         }
       ],
@@ -33370,19 +33392,22 @@
     {
       "id": "heating",
       "question": {
-        "en": "Is this outdoor seating area heated?"
+        "en": "Is this outdoor seating area heated?",
+        "de": "Ist dieser Außensitzbereich beheizt?"
       },
       "mappings": [
         {
           "if": "heating=yes",
           "then": {
-            "en": "This outdoor seating area is heated."
+            "en": "This outdoor seating area is heated.",
+            "de": "Dieser Außensitzbereich ist beheizt."
           }
         },
         {
           "if": "heating=no",
           "then": {
-            "en": "This outdoor seating area is not heated."
+            "en": "This outdoor seating area is not heated.",
+            "de": "Dieser Außensitzbereich ist nicht beheizt."
           }
         }
       ],
@@ -33397,19 +33422,22 @@
     {
       "id": "covered",
       "question": {
-        "en": "Is this outdoor seating area covered?"
+        "en": "Is this outdoor seating area covered?",
+        "de": "Ist dieser Sitzbereich im Freien überdacht?"
       },
       "mappings": [
         {
           "if": "covered=yes",
           "then": {
-            "en": "This outdoor seating area is covered."
+            "en": "This outdoor seating area is covered.",
+            "de": "Dieser Sitzbereich im Freien ist überdacht."
           }
         },
         {
           "if": "covered=no",
           "then": {
-            "en": "This outdoor seating area is not covered."
+            "en": "This outdoor seating area is not covered.",
+            "de": "Dieser Sitzbereich im Freien ist nicht überdacht."
           }
         }
       ],
@@ -33424,18 +33452,21 @@
     {
       "id": "food_courts_name",
       "question": {
-        "en": "What is the name of this food court?"
+        "en": "What is the name of this food court?",
+        "de": "Wie lautet der Name dieses Food-Courts?"
       },
       "freeform": {
         "key": "name",
         "type": "string",
         "placeholder": {
-          "en": "Name of the food court"
+          "en": "Name of the food court",
+          "de": "Name des Food-Courts"
         },
         "inline": true
       },
       "render": {
-        "en": "This food court is called <b>{name}</b>."
+        "en": "This food court is called <b>{name}</b>.",
+        "de": "Dieser Food Court heißt <b>{name}</b>."
       },
       "condition": {
         "and": [
@@ -34737,7 +34768,8 @@
           "ifnot": "socket:bs1363=",
           "then": {
             "en": "<b>BS1363</b> (Type G)",
-            "nl": "<b>BS1363</b> (VK 3-pin)"
+            "nl": "<b>BS1363</b> (VK 3-pin)",
+            "de": "<b>BS1363</b> (Typ G)"
           },
           "icon": {
             "path": "./assets/layers/charging_station/bs1363.svg",
@@ -34803,7 +34835,8 @@
           },
           "then": {
             "en": "<b>BS1363</b> (Type G)",
-            "nl": "<b>BS1363</b> (VK 3-pin)"
+            "nl": "<b>BS1363</b> (VK 3-pin)",
+            "de": "<b>BS1363</b> (Typ G)"
           },
           "hideInAnswer": true,
           "icon": {
@@ -34816,7 +34849,8 @@
           "ifnot": "socket:nema5_15=",
           "then": {
             "en": "<b>NEMA 5-15</b> (Type B)",
-            "nl": "<b>NEMA 5-15</b> (VS 3-pin)"
+            "nl": "<b>NEMA 5-15</b> (VS 3-pin)",
+            "de": "<b>NEMA 5-15</b> (Typ B)"
           },
           "icon": {
             "path": "./assets/layers/charging_station/nema-5-15.svg",
@@ -34881,7 +34915,8 @@
           },
           "then": {
             "en": "<b>NEMA 5-15</b> (Type B)",
-            "nl": "<b>NEMA 5-15</b> (VS 3-pin)"
+            "nl": "<b>NEMA 5-15</b> (VS 3-pin)",
+            "de": "<b>NEMA 5-15</b> (Typ B)"
           },
           "hideInAnswer": true,
           "icon": {
@@ -34894,7 +34929,8 @@
           "ifnot": "socket:sev1011_t23=",
           "then": {
             "en": "<b>SEV 1011 T23</b> (Type J)",
-            "nl": "<b>SEV 1011 T23</b> (Zwitserse 3-pin)"
+            "nl": "<b>SEV 1011 T23</b> (Zwitserse 3-pin)",
+            "de": "<b>SEV 1011 T23</b> (Typ J)"
           },
           "icon": {
             "path": "./assets/layers/charging_station/typej.svg",
@@ -34920,7 +34956,8 @@
           },
           "then": {
             "en": "<b>SEV 1011 T23</b> (Type J)",
-            "nl": "<b>SEV 1011 T23</b> (Zwitserse 3-pin)"
+            "nl": "<b>SEV 1011 T23</b> (Zwitserse 3-pin)",
+            "de": "<b>SEV 1011 T23</b> (Typ J)"
           },
           "hideInAnswer": true,
           "icon": {
@@ -34933,7 +34970,8 @@
           "ifnot": "socket:as3112=",
           "then": {
             "en": "<b>AS3112</b> (Type I)",
-            "nl": "<b>AS3112</b> (Australische 3-pin)"
+            "nl": "<b>AS3112</b> (Australische 3-pin)",
+            "de": "<b>AS3112</b> (Typ I)"
           },
           "icon": {
             "path": "./assets/layers/charging_station/as3112.svg",
@@ -34971,7 +35009,8 @@
           },
           "then": {
             "en": "<b>AS3112</b> (Type I)",
-            "nl": "<b>AS3112</b> (Australische 3-pin)"
+            "nl": "<b>AS3112</b> (Australische 3-pin)",
+            "de": "<b>AS3112</b> (Typ I)"
           },
           "hideInAnswer": true,
           "icon": {
@@ -34984,7 +35023,8 @@
           "ifnot": "socket:nema_5_20=",
           "then": {
             "en": "<b>NEMA 5-20</b> (Type B)",
-            "nl": "<b>NEMA 5-20</b> (VS 3-pin)"
+            "nl": "<b>NEMA 5-20</b> (VS 3-pin)",
+            "de": "<b>NEMA 5-20</b> (Typ B)"
           },
           "icon": {
             "path": "./assets/layers/charging_station/nema-5-20.svg",
@@ -35049,7 +35089,8 @@
           },
           "then": {
             "en": "<b>NEMA 5-20</b> (Type B)",
-            "nl": "<b>NEMA 5-20</b> (VS 3-pin)"
+            "nl": "<b>NEMA 5-20</b> (VS 3-pin)",
+            "de": "<b>NEMA 5-20</b> (Typ B)"
           },
           "hideInAnswer": true,
           "icon": {
@@ -38071,12 +38112,12 @@
         "ca": "Quants connectors del tipus <b>BS1363</b> (Type G) hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>BS1363</b> (Type G) je k dispozici?",
         "da": "Hvor mange stik af typen <b>BS1363</b> (Type G) er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ <b>BS1363</b> (Type G) sind hier vorhanden?"
+        "de": "Wie viele Stecker vom Typ <b>BS1363</b> (Typ G) sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:bs1363}</b> plugs of type <b>BS1363</b> (Type G) available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:bs1363}</b> stekkers van het type <b>BS1363</b> (VK 3-pin)",
-        "de": "Hier sind <b class='text-xl'>{socket:bs1363}</b> Stecker vom Typ <b>BS1363</b> (Type G) verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:bs1363}</b> Stecker vom Typ <b>BS1363</b> (Typ G) verfügbar"
       },
       "icon": "./assets/layers/charging_station/bs1363.svg",
       "freeform": {
@@ -38108,12 +38149,12 @@
         "en": "What voltage do the plugs with <b>BS1363</b> (Type G) offer?",
         "nl": "Welke spanning levert de stekker van type <b>BS1363</b> (VK 3-pin)",
         "cs": "Jaké napětí mají zástrčky s <b>BS1363</b> (Type G) ?",
-        "de": "Welche Spannung liefern die <b>BS1363</b> (Type G)?"
+        "de": "Welche Spannung liefern die <b>BS1363</b> (Typ G)?"
       },
       "render": {
         "en": "<b>BS1363</b> (Type G) outputs {canonical(socket:bs1363:voltage)}",
         "nl": "<b>BS1363</b> (VK 3-pin) heeft een spanning van {canonical(socket:bs1363:voltage)}",
-        "de": "<b>BS1363</b> (Type G) liefert {canonical(socket:bs1363:voltage)}"
+        "de": "<b>BS1363</b> (Typ G) liefert {canonical(socket:bs1363:voltage)}"
       },
       "freeform": {
         "key": "socket:bs1363:voltage",
@@ -38127,7 +38168,7 @@
             "en": "<b>BS1363</b> (Type G) outputs 230 volt",
             "nl": "<b>BS1363</b> (VK 3-pin) heeft een spanning van 230 volt",
             "cs": "<b>BS1363</b> (Type G) výstup 230 voltů",
-            "de": "<b>BS1363</b> (Type G) liefert 230 Volt"
+            "de": "<b>BS1363</b> (Typ G) liefert 230 Volt"
           }
         }
       ],
@@ -38154,12 +38195,12 @@
       "question": {
         "en": "What current do the plugs with <b>BS1363</b> (Type G) offer?",
         "nl": "Welke stroom levert de stekker van type <b>BS1363</b> (VK 3-pin)?",
-        "de": "Welchen Strom bieten die Stecker mit <b>BS1363</b> (Type G)?"
+        "de": "Welchen Strom bieten die Stecker mit <b>BS1363</b> (Typ G)?"
       },
       "render": {
         "en": "<b>BS1363</b> (Type G) outputs at most {canonical(socket:bs1363:current)}",
         "nl": "<b>BS1363</b> (VK 3-pin) levert een stroom van maximaal {canonical(socket:bs1363:current)}",
-        "de": "<b>BS1363</b> (Type G) liefert maximal {canonical(socket:bs1363:current)}"
+        "de": "<b>BS1363</b> (Typ G) liefert maximal {canonical(socket:bs1363:current)}"
       },
       "freeform": {
         "key": "socket:bs1363:current",
@@ -38172,7 +38213,7 @@
           "then": {
             "en": "<b>BS1363</b> (Type G) outputs at most 13 A",
             "nl": "<b>BS1363</b> (VK 3-pin) levert een stroom van maximaal 13 A",
-            "de": "<b>BS1363</b> (Type G) liefert maximal 13 A"
+            "de": "<b>BS1363</b> (Typ G) liefert maximal 13 A"
           }
         }
       ],
@@ -38199,12 +38240,12 @@
       "question": {
         "en": "What power output does a single plug of type <b>BS1363</b> (Type G) offer?",
         "nl": "Welk vermogen levert een enkele stekker van type <b>BS1363</b> (VK 3-pin)?",
-        "de": "Welche Leistung liefert ein einzelner Stecker des Typs <b>BS1363</b> (Type G)?"
+        "de": "Welche Leistung liefert ein einzelner Stecker des Typs <b>BS1363</b> (Typ G)?"
       },
       "render": {
         "en": "<b>BS1363</b> (Type G) outputs at most {canonical(socket:bs1363:output)}",
         "nl": "<b>BS1363</b> (VK 3-pin) levert een vermogen van maximaal {canonical(socket:bs1363:output)}",
-        "de": "<b>BS1363</b> (Type G) liefert maximal {canonical(socket:bs1363:output)}"
+        "de": "<b>BS1363</b> (Typ G) liefert maximal {canonical(socket:bs1363:output)}"
       },
       "freeform": {
         "key": "socket:bs1363:output",
@@ -38217,7 +38258,7 @@
           "then": {
             "en": "<b>BS1363</b> (Type G) outputs at most 3kW A",
             "nl": "<b>BS1363</b> (VK 3-pin) levert een vermogen van maximaal 3kW A",
-            "de": "<b>BS1363</b> (Type G) liefert maximal 3kW A"
+            "de": "<b>BS1363</b> (Typ G) liefert maximal 3kW A"
           }
         }
       ],
@@ -38244,12 +38285,12 @@
         "ca": "Quants connectors del tipus <b>NEMA 5-15</b> (Type B) hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>NEMA 5-15</b> (Type B) je k dispozici?",
         "da": "Hvor mange stik af typen <b>NEMA 5-15</b> (Type B) er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ <b>NEMA 5-15</b> (Type B) sind hier vorhanden?"
+        "de": "Wie viele Stecker vom Typ <b>NEMA 5-15</b> (Typ B) sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:nema5_15}</b> plugs of type <b>NEMA 5-15</b> (Type B) available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:nema5_15}</b> stekkers van het type <b>NEMA 5-15</b> (VS 3-pin)",
-        "de": "Hier sind <b class='text-xl'>{socket:nema5_15}</b> Stecker vom Typ <b>NEMA 5-15</b> (Type B) verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:nema5_15}</b> Stecker vom Typ <b>NEMA 5-15</b> (Typ B) verfügbar"
       },
       "icon": "./assets/layers/charging_station/nema-5-15.svg",
       "freeform": {
@@ -38281,12 +38322,12 @@
         "en": "What voltage do the plugs with <b>NEMA 5-15</b> (Type B) offer?",
         "nl": "Welke spanning levert de stekker van type <b>NEMA 5-15</b> (VS 3-pin)",
         "cs": "Jaké napětí mají zástrčky s <b>NEMA 5-15</b> (Type B) ?",
-        "de": "Welche Spannung liefern die <b>NEMA 5-15</b> (Type B)?"
+        "de": "Welche Spannung liefern die <b>NEMA 5-15</b> (Typ B)?"
       },
       "render": {
         "en": "<b>NEMA 5-15</b> (Type B) outputs {canonical(socket:nema5_15:voltage)}",
         "nl": "<b>NEMA 5-15</b> (VS 3-pin) heeft een spanning van {canonical(socket:nema5_15:voltage)}",
-        "de": "<b>NEMA 5-15</b> (Type B) liefert {canonical(socket:nema5_15:voltage)}"
+        "de": "<b>NEMA 5-15</b> (Typ B) liefert {canonical(socket:nema5_15:voltage)}"
       },
       "freeform": {
         "key": "socket:nema5_15:voltage",
@@ -38300,7 +38341,7 @@
             "en": "<b>NEMA 5-15</b> (Type B) outputs 120 volt",
             "nl": "<b>NEMA 5-15</b> (VS 3-pin) heeft een spanning van 120 volt",
             "cs": "<b>NEMA 5-15</b> (Type B) výstup 120 voltů",
-            "de": "<b>NEMA 5-15</b> (Type B) liefert 120 Volt"
+            "de": "<b>NEMA 5-15</b> (Typ B) liefert 120 Volt"
           }
         }
       ],
@@ -38327,12 +38368,12 @@
       "question": {
         "en": "What current do the plugs with <b>NEMA 5-15</b> (Type B) offer?",
         "nl": "Welke stroom levert de stekker van type <b>NEMA 5-15</b> (VS 3-pin)?",
-        "de": "Welchen Strom bieten die Stecker mit <b>NEMA 5-15</b> (Type B)?"
+        "de": "Welchen Strom bieten die Stecker mit <b>NEMA 5-15</b> (Typ B)?"
       },
       "render": {
         "en": "<b>NEMA 5-15</b> (Type B) outputs at most {canonical(socket:nema5_15:current)}",
         "nl": "<b>NEMA 5-15</b> (VS 3-pin) levert een stroom van maximaal {canonical(socket:nema5_15:current)}",
-        "de": "<b>NEMA 5-15</b> (Type B) liefert maximal {canonical(socket:nema5_15:current)}"
+        "de": "<b>NEMA 5-15</b> (Typ B) liefert maximal {canonical(socket:nema5_15:current)}"
       },
       "freeform": {
         "key": "socket:nema5_15:current",
@@ -38345,7 +38386,7 @@
           "then": {
             "en": "<b>NEMA 5-15</b> (Type B) outputs at most 15 A",
             "nl": "<b>NEMA 5-15</b> (VS 3-pin) levert een stroom van maximaal 15 A",
-            "de": "<b>NEMA 5-15</b> (Type B) liefert maximal 15 A"
+            "de": "<b>NEMA 5-15</b> (Typ B) liefert maximal 15 A"
           }
         }
       ],
@@ -38372,12 +38413,12 @@
       "question": {
         "en": "What power output does a single plug of type <b>NEMA 5-15</b> (Type B) offer?",
         "nl": "Welk vermogen levert een enkele stekker van type <b>NEMA 5-15</b> (VS 3-pin)?",
-        "de": "Welche Leistung liefert ein einzelner Stecker des Typs <b>NEMA 5-15</b> (Type B)?"
+        "de": "Welche Leistung liefert ein einzelner Stecker des Typs <b>NEMA 5-15</b> (Typ B)?"
       },
       "render": {
         "en": "<b>NEMA 5-15</b> (Type B) outputs at most {canonical(socket:nema5_15:output)}",
         "nl": "<b>NEMA 5-15</b> (VS 3-pin) levert een vermogen van maximaal {canonical(socket:nema5_15:output)}",
-        "de": "<b>NEMA 5-15</b> (Type B) liefert maximal {canonical(socket:nema5_15:output)}"
+        "de": "<b>NEMA 5-15</b> (Typ B) liefert maximal {canonical(socket:nema5_15:output)}"
       },
       "freeform": {
         "key": "socket:nema5_15:output",
@@ -38390,7 +38431,7 @@
           "then": {
             "en": "<b>NEMA 5-15</b> (Type B) outputs at most 1.8 kW A",
             "nl": "<b>NEMA 5-15</b> (VS 3-pin) levert een vermogen van maximaal 1.8 kW A",
-            "de": "<b>NEMA 5-15</b> (Type B) liefert maximal 1.8 kW A"
+            "de": "<b>NEMA 5-15</b> (Typ B) liefert maximal 1.8 kW A"
           }
         }
       ],
@@ -38417,12 +38458,12 @@
         "ca": "Quants connectors del tipus <b>SEV 1011 T23</b> (Type J) hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>SEV 1011 T23</b> (Type J) je k dispozici?",
         "da": "Hvor mange stik af typen <b>SEV 1011 T23</b> (Type J) er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ <b>SEV 1011 T23</b> (Type J) sind hier vorhanden?"
+        "de": "Wie viele Stecker vom Typ <b>SEV 1011 T23</b> (Typ J) sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:sev1011_t23}</b> plugs of type <b>SEV 1011 T23</b> (Type J) available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:sev1011_t23}</b> stekkers van het type <b>SEV 1011 T23</b> (Zwitserse 3-pin)",
-        "de": "Hier sind <b class='text-xl'>{socket:sev1011_t23}</b> Stecker vom Typ <b>SEV 1011 T23</b> (Type J) verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:sev1011_t23}</b> Stecker vom Typ <b>SEV 1011 T23</b> (Typ J) verfügbar"
       },
       "icon": "./assets/layers/charging_station/typej.svg",
       "freeform": {
@@ -38454,12 +38495,12 @@
         "en": "What voltage do the plugs with <b>SEV 1011 T23</b> (Type J) offer?",
         "nl": "Welke spanning levert de stekker van type <b>SEV 1011 T23</b> (Zwitserse 3-pin)",
         "cs": "Jaké napětí mají zástrčky s <b>SEV 1011 T23</b> (Type J) ?",
-        "de": "Welche Spannung liefern die <b>SEV 1011 T23</b> (Type J)?"
+        "de": "Welche Spannung liefern die <b>SEV 1011 T23</b> (Typ J)?"
       },
       "render": {
         "en": "<b>SEV 1011 T23</b> (Type J) outputs {canonical(socket:sev1011_t23:voltage)}",
         "nl": "<b>SEV 1011 T23</b> (Zwitserse 3-pin) heeft een spanning van {canonical(socket:sev1011_t23:voltage)}",
-        "de": "<b>SEV 1011 T23</b> (Type J) liefert {canonical(socket:sev1011_t23:voltage)}"
+        "de": "<b>SEV 1011 T23</b> (Typ J) liefert {canonical(socket:sev1011_t23:voltage)}"
       },
       "freeform": {
         "key": "socket:sev1011_t23:voltage",
@@ -38473,7 +38514,7 @@
             "en": "<b>SEV 1011 T23</b> (Type J) outputs 230 volt",
             "nl": "<b>SEV 1011 T23</b> (Zwitserse 3-pin) heeft een spanning van 230 volt",
             "cs": "<b>SEV 1011 T23</b> (Type J) výstup 230 voltů",
-            "de": "<b>SEV 1011 T23</b> (Type J) liefert 230 Volt"
+            "de": "<b>SEV 1011 T23</b> (Typ J) liefert 230 Volt"
           }
         }
       ],
@@ -38500,12 +38541,12 @@
       "question": {
         "en": "What current do the plugs with <b>SEV 1011 T23</b> (Type J) offer?",
         "nl": "Welke stroom levert de stekker van type <b>SEV 1011 T23</b> (Zwitserse 3-pin)?",
-        "de": "Welchen Strom bieten die Stecker mit <b>SEV 1011 T23</b> (Type J)?"
+        "de": "Welchen Strom bieten die Stecker mit <b>SEV 1011 T23</b> (Typ J)?"
       },
       "render": {
         "en": "<b>SEV 1011 T23</b> (Type J) outputs at most {canonical(socket:sev1011_t23:current)}",
         "nl": "<b>SEV 1011 T23</b> (Zwitserse 3-pin) levert een stroom van maximaal {canonical(socket:sev1011_t23:current)}",
-        "de": "<b>SEV 1011 T23</b> (Type J) liefert maximal {canonical(socket:sev1011_t23:current)}"
+        "de": "<b>SEV 1011 T23</b> (Typ J) liefert maximal {canonical(socket:sev1011_t23:current)}"
       },
       "freeform": {
         "key": "socket:sev1011_t23:current",
@@ -38518,7 +38559,7 @@
           "then": {
             "en": "<b>SEV 1011 T23</b> (Type J) outputs at most 16 A",
             "nl": "<b>SEV 1011 T23</b> (Zwitserse 3-pin) levert een stroom van maximaal 16 A",
-            "de": "<b>SEV 1011 T23</b> (Type J) liefert maximal 16 A"
+            "de": "<b>SEV 1011 T23</b> (Typ J) liefert maximal 16 A"
           }
         }
       ],
@@ -38545,12 +38586,12 @@
       "question": {
         "en": "What power output does a single plug of type <b>SEV 1011 T23</b> (Type J) offer?",
         "nl": "Welk vermogen levert een enkele stekker van type <b>SEV 1011 T23</b> (Zwitserse 3-pin)?",
-        "de": "Welche Leistung liefert ein einzelner Stecker des Typs <b>SEV 1011 T23</b> (Type J)?"
+        "de": "Welche Leistung liefert ein einzelner Stecker des Typs <b>SEV 1011 T23</b> (Typ J)?"
       },
       "render": {
         "en": "<b>SEV 1011 T23</b> (Type J) outputs at most {canonical(socket:sev1011_t23:output)}",
         "nl": "<b>SEV 1011 T23</b> (Zwitserse 3-pin) levert een vermogen van maximaal {canonical(socket:sev1011_t23:output)}",
-        "de": "<b>SEV 1011 T23</b> (Type J) liefert maximal {canonical(socket:sev1011_t23:output)}"
+        "de": "<b>SEV 1011 T23</b> (Typ J) liefert maximal {canonical(socket:sev1011_t23:output)}"
       },
       "freeform": {
         "key": "socket:sev1011_t23:output",
@@ -38563,7 +38604,7 @@
           "then": {
             "en": "<b>SEV 1011 T23</b> (Type J) outputs at most 3.7 kW A",
             "nl": "<b>SEV 1011 T23</b> (Zwitserse 3-pin) levert een vermogen van maximaal 3.7 kW A",
-            "de": "<b>SEV 1011 T23</b> (Type J) liefert maximal 3.7 kW A"
+            "de": "<b>SEV 1011 T23</b> (Typ J) liefert maximal 3.7 kW A"
           }
         }
       ],
@@ -38590,12 +38631,12 @@
         "ca": "Quants connectors del tipus <b>AS3112</b> (Type I) hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>AS3112</b> (Type I) je k dispozici?",
         "da": "Hvor mange stik af typen <b>AS3112</b> (Type I) er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ <b>AS3112</b> (Type I) sind hier vorhanden?"
+        "de": "Wie viele Stecker vom Typ <b>AS3112</b> (Typ I) sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:as3112}</b> plugs of type <b>AS3112</b> (Type I) available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:as3112}</b> stekkers van het type <b>AS3112</b> (Australische 3-pin)",
-        "de": "Hier sind <b class='text-xl'>{socket:as3112}</b> Stecker vom Typ <b>AS3112</b> (Type I) verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:as3112}</b> Stecker vom Typ <b>AS3112</b> (Typ I) verfügbar"
       },
       "icon": "./assets/layers/charging_station/as3112.svg",
       "freeform": {
@@ -38627,12 +38668,12 @@
         "en": "What voltage do the plugs with <b>AS3112</b> (Type I) offer?",
         "nl": "Welke spanning levert de stekker van type <b>AS3112</b> (Australische 3-pin)",
         "cs": "Jaké napětí mají zástrčky s <b>AS3112</b> (Type I) ?",
-        "de": "Welche Spannung liefern die <b>AS3112</b> (Type I)?"
+        "de": "Welche Spannung liefern die <b>AS3112</b> (Typ I)?"
       },
       "render": {
         "en": "<b>AS3112</b> (Type I) outputs {canonical(socket:as3112:voltage)}",
         "nl": "<b>AS3112</b> (Australische 3-pin) heeft een spanning van {canonical(socket:as3112:voltage)}",
-        "de": "<b>AS3112</b> (Type I) liefert {canonical(socket:as3112:voltage)}"
+        "de": "<b>AS3112</b> (Typ I) liefert {canonical(socket:as3112:voltage)}"
       },
       "freeform": {
         "key": "socket:as3112:voltage",
@@ -38646,7 +38687,7 @@
             "en": "<b>AS3112</b> (Type I) outputs 230 volt",
             "nl": "<b>AS3112</b> (Australische 3-pin) heeft een spanning van 230 volt",
             "cs": "<b>AS3112</b> (Type I) výstup 230 voltů",
-            "de": "<b>AS3112</b> (Type I) liefert 230 Volt"
+            "de": "<b>AS3112</b> (Typ I) liefert 230 Volt"
           }
         }
       ],
@@ -38673,12 +38714,12 @@
       "question": {
         "en": "What current do the plugs with <b>AS3112</b> (Type I) offer?",
         "nl": "Welke stroom levert de stekker van type <b>AS3112</b> (Australische 3-pin)?",
-        "de": "Welchen Strom bieten die Stecker mit <b>AS3112</b> (Type I)?"
+        "de": "Welchen Strom bieten die Stecker mit <b>AS3112</b> (Typ I)?"
       },
       "render": {
         "en": "<b>AS3112</b> (Type I) outputs at most {canonical(socket:as3112:current)}",
         "nl": "<b>AS3112</b> (Australische 3-pin) levert een stroom van maximaal {canonical(socket:as3112:current)}",
-        "de": "<b>AS3112</b> (Type I) liefert maximal {canonical(socket:as3112:current)}"
+        "de": "<b>AS3112</b> (Typ I) liefert maximal {canonical(socket:as3112:current)}"
       },
       "freeform": {
         "key": "socket:as3112:current",
@@ -38691,7 +38732,7 @@
           "then": {
             "en": "<b>AS3112</b> (Type I) outputs at most 10 A",
             "nl": "<b>AS3112</b> (Australische 3-pin) levert een stroom van maximaal 10 A",
-            "de": "<b>AS3112</b> (Type I) liefert maximal 10 A"
+            "de": "<b>AS3112</b> (Typ I) liefert maximal 10 A"
           }
         }
       ],
@@ -38718,12 +38759,12 @@
       "question": {
         "en": "What power output does a single plug of type <b>AS3112</b> (Type I) offer?",
         "nl": "Welk vermogen levert een enkele stekker van type <b>AS3112</b> (Australische 3-pin)?",
-        "de": "Welche Leistung liefert ein einzelner Stecker des Typs <b>AS3112</b> (Type I)?"
+        "de": "Welche Leistung liefert ein einzelner Stecker des Typs <b>AS3112</b> (Typ I)?"
       },
       "render": {
         "en": "<b>AS3112</b> (Type I) outputs at most {canonical(socket:as3112:output)}",
         "nl": "<b>AS3112</b> (Australische 3-pin) levert een vermogen van maximaal {canonical(socket:as3112:output)}",
-        "de": "<b>AS3112</b> (Type I) liefert maximal {canonical(socket:as3112:output)}"
+        "de": "<b>AS3112</b> (Typ I) liefert maximal {canonical(socket:as3112:output)}"
       },
       "freeform": {
         "key": "socket:as3112:output",
@@ -38736,7 +38777,7 @@
           "then": {
             "en": "<b>AS3112</b> (Type I) outputs at most 2.3 kW A",
             "nl": "<b>AS3112</b> (Australische 3-pin) levert een vermogen van maximaal 2.3 kW A",
-            "de": "<b>AS3112</b> (Type I) liefert maximal 2.3 kW A"
+            "de": "<b>AS3112</b> (Typ I) liefert maximal 2.3 kW A"
           }
         }
       ],
@@ -38763,12 +38804,12 @@
         "ca": "Quants connectors del tipus <b>NEMA 5-20</b> (Type B) hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>NEMA 5-20</b> (Type B) je k dispozici?",
         "da": "Hvor mange stik af typen <b>NEMA 5-20</b> (Type B) er tilgængelige her?",
-        "de": "Wie viele Stecker vom Typ <b>NEMA 5-20</b> (Type B) sind hier vorhanden?"
+        "de": "Wie viele Stecker vom Typ <b>NEMA 5-20</b> (Typ B) sind hier vorhanden?"
       },
       "render": {
         "en": "There are <b class='text-xl'>{socket:nema_5_20}</b> plugs of type <b>NEMA 5-20</b> (Type B) available here",
         "nl": "Hier zijn <b class='text-xl'>{socket:nema_5_20}</b> stekkers van het type <b>NEMA 5-20</b> (VS 3-pin)",
-        "de": "Hier sind <b class='text-xl'>{socket:nema_5_20}</b> Stecker vom Typ <b>NEMA 5-20</b> (Type B) verfügbar"
+        "de": "Hier sind <b class='text-xl'>{socket:nema_5_20}</b> Stecker vom Typ <b>NEMA 5-20</b> (Typ B) verfügbar"
       },
       "icon": "./assets/layers/charging_station/nema-5-20.svg",
       "freeform": {
@@ -38800,12 +38841,12 @@
         "en": "What voltage do the plugs with <b>NEMA 5-20</b> (Type B) offer?",
         "nl": "Welke spanning levert de stekker van type <b>NEMA 5-20</b> (VS 3-pin)",
         "cs": "Jaké napětí mají zástrčky s <b>NEMA 5-20</b> (Type B) ?",
-        "de": "Welche Spannung liefern die <b>NEMA 5-20</b> (Type B)?"
+        "de": "Welche Spannung liefern die <b>NEMA 5-20</b> (Typ B)?"
       },
       "render": {
         "en": "<b>NEMA 5-20</b> (Type B) outputs {canonical(socket:nema_5_20:voltage)}",
         "nl": "<b>NEMA 5-20</b> (VS 3-pin) heeft een spanning van {canonical(socket:nema_5_20:voltage)}",
-        "de": "<b>NEMA 5-20</b> (Type B) liefert {canonical(socket:nema_5_20:voltage)}"
+        "de": "<b>NEMA 5-20</b> (Typ B) liefert {canonical(socket:nema_5_20:voltage)}"
       },
       "freeform": {
         "key": "socket:nema_5_20:voltage",
@@ -38819,7 +38860,7 @@
             "en": "<b>NEMA 5-20</b> (Type B) outputs 120 volt",
             "nl": "<b>NEMA 5-20</b> (VS 3-pin) heeft een spanning van 120 volt",
             "cs": "<b>NEMA 5-20</b> (Type B) výstup 120 voltů",
-            "de": "<b>NEMA 5-20</b> (Type B) liefert 120 Volt"
+            "de": "<b>NEMA 5-20</b> (Typ B) liefert 120 Volt"
           }
         }
       ],
@@ -38846,12 +38887,12 @@
       "question": {
         "en": "What current do the plugs with <b>NEMA 5-20</b> (Type B) offer?",
         "nl": "Welke stroom levert de stekker van type <b>NEMA 5-20</b> (VS 3-pin)?",
-        "de": "Welchen Strom bieten die Stecker mit <b>NEMA 5-20</b> (Type B)?"
+        "de": "Welchen Strom bieten die Stecker mit <b>NEMA 5-20</b> (Typ B)?"
       },
       "render": {
         "en": "<b>NEMA 5-20</b> (Type B) outputs at most {canonical(socket:nema_5_20:current)}",
         "nl": "<b>NEMA 5-20</b> (VS 3-pin) levert een stroom van maximaal {canonical(socket:nema_5_20:current)}",
-        "de": "<b>NEMA 5-20</b> (Type B) liefert maximal {canonical(socket:nema_5_20:current)}"
+        "de": "<b>NEMA 5-20</b> (Typ B) liefert maximal {canonical(socket:nema_5_20:current)}"
       },
       "freeform": {
         "key": "socket:nema_5_20:current",
@@ -38864,7 +38905,7 @@
           "then": {
             "en": "<b>NEMA 5-20</b> (Type B) outputs at most 20 A",
             "nl": "<b>NEMA 5-20</b> (VS 3-pin) levert een stroom van maximaal 20 A",
-            "de": "<b>NEMA 5-20</b> (Type B) liefert maximal 20 A"
+            "de": "<b>NEMA 5-20</b> (Typ B) liefert maximal 20 A"
           }
         }
       ],
@@ -38891,12 +38932,12 @@
       "question": {
         "en": "What power output does a single plug of type <b>NEMA 5-20</b> (Type B) offer?",
         "nl": "Welk vermogen levert een enkele stekker van type <b>NEMA 5-20</b> (VS 3-pin)?",
-        "de": "Welche Leistung liefert ein einzelner Stecker des Typs <b>NEMA 5-20</b> (Type B)?"
+        "de": "Welche Leistung liefert ein einzelner Stecker des Typs <b>NEMA 5-20</b> (Typ B)?"
       },
       "render": {
         "en": "<b>NEMA 5-20</b> (Type B) outputs at most {canonical(socket:nema_5_20:output)}",
         "nl": "<b>NEMA 5-20</b> (VS 3-pin) levert een vermogen van maximaal {canonical(socket:nema_5_20:output)}",
-        "de": "<b>NEMA 5-20</b> (Type B) liefert maximal {canonical(socket:nema_5_20:output)}"
+        "de": "<b>NEMA 5-20</b> (Typ B) liefert maximal {canonical(socket:nema_5_20:output)}"
       },
       "freeform": {
         "key": "socket:nema_5_20:output",
@@ -38909,7 +38950,7 @@
           "then": {
             "en": "<b>NEMA 5-20</b> (Type B) outputs at most 2.4 kW A",
             "nl": "<b>NEMA 5-20</b> (VS 3-pin) levert een vermogen van maximaal 2.4 kW A",
-            "de": "<b>NEMA 5-20</b> (Type B) liefert maximal 2.4 kW A"
+            "de": "<b>NEMA 5-20</b> (Typ B) liefert maximal 2.4 kW A"
           }
         }
       ],
@@ -83208,43 +83249,50 @@
     },
     {
       "question": {
-        "en": "Which animals are accepted here?"
+        "en": "Which animals are accepted here?",
+        "de": "Welche Tiere werden hier akzeptiert?"
       },
       "id": "boarded_animals",
       "mappings": [
         {
           "if": "animal_shelter=dog",
           "then": {
-            "en": "Dogs are kept here"
+            "en": "Dogs are kept here",
+            "de": "Hunde werden hier gehalten"
           }
         },
         {
           "if": "animal_shelter=cat",
           "then": {
-            "en": "Cats are kept here"
+            "en": "Cats are kept here",
+            "de": "Katzen werden hier gehalten"
           }
         },
         {
           "if": "animal_shelter=horse",
           "then": {
-            "en": "Horses are kept here"
+            "en": "Horses are kept here",
+            "de": "Pferde werden hier gehalten"
           }
         },
         {
           "if": "animal_shelter=bird",
           "then": {
-            "en": "Birds are kept here"
+            "en": "Birds are kept here",
+            "de": "Vögel werden hier gehalten"
           }
         },
         {
           "if": "animal_shelter=wildlife",
           "then": {
-            "en": "Wild animals are kept here"
+            "en": "Wild animals are kept here",
+            "de": "Wildtiere werden hier gehalten"
           }
         }
       ],
       "render": {
-        "en": "{animal_shelter} is kept here"
+        "en": "{animal_shelter} is kept here",
+        "de": "{animal_shelter} wird hier gehalten"
       },
       "freeform": {
         "key": "animal_shelter",
@@ -86208,7 +86256,8 @@
           "ifnot": "recycling:pmd=",
           "then": {
             "en": "Plastic packaging, metal packaging and drink cartons (PMD) can be recycled here",
-            "nl": "Plastic verpakkingen, metalen verpakkingen en drankpakken kunnen hier gerecycled worden"
+            "nl": "Plastic verpakkingen, metalen verpakkingen en drankpakken kunnen hier gerecycled worden",
+            "de": "Kunststoffverpackungen, Metallverpackungen und Getränkekartons (Tetrapak) können hier recycelt werden"
           },
           "icon": {
             "path": "./assets/layers/recycling/pmd.svg",
@@ -91332,7 +91381,8 @@
           "if": "waste=pmd",
           "then": {
             "en": "A waste basket for plastic packaging, metal packaging and drink cartons (PMD)",
-            "nl": "Een vuilnisbak voor plastic verpakkingen, metalen verpakkingen en drankpakken (PMD)"
+            "nl": "Een vuilnisbak voor plastic verpakkingen, metalen verpakkingen en drankpakken (PMD)",
+            "de": "Ein Papierkorb für Kunststoffverpackungen, Metallverpackungen und Getränkekartons (Tetrapak)"
           }
         },
         {
