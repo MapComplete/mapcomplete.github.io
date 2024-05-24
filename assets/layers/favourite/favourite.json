@@ -42,40 +42,6 @@
           "and": [
             {
               "or": [
-                "piste:type=downhill",
-                "piste:type=connection"
-              ]
-            },
-            "area!=yes"
-          ]
-        },
-        "then": {
-          "en": "Ski piste {name}",
-          "de": "Skipiste {name}"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            {
-              "or": [
-                "piste:type=downhill",
-                "piste:type=connection"
-              ]
-            },
-            "area!=yes"
-          ]
-        },
-        "then": {
-          "en": "Ski piste {name}",
-          "de": "Skipiste {name}"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            {
-              "or": [
                 "amenity=pub",
                 "amenity=bar",
                 "amenity=cafe",
@@ -675,6 +641,22 @@
         }
       },
       {
+        "if": "emergency=mountain_rescue",
+        "then": {
+          "en": "Mountain rescue station",
+          "de": "Bergrettungsstation",
+          "fr": "Poste de secours en montagne"
+        }
+      },
+      {
+        "if": "emergency=mountain_rescue",
+        "then": {
+          "en": "Mountain rescue station",
+          "de": "Bergrettungsstation",
+          "fr": "Poste de secours en montagne"
+        }
+      },
+      {
         "if": {
           "and": [
             "memorial=ghost_bike",
@@ -1076,37 +1058,19 @@
         }
       },
       {
-        "if": "advertising=screen",
+        "if": "emergency=disaster_response",
         "then": {
-          "ca": "Pantalla",
-          "es": "Pantalla",
-          "en": "Screen",
-          "de": "Bildschirm",
-          "cs": "Obrazovka",
-          "nl": "Scherm",
-          "fr": "Écran",
-          "eu": "Pantaila",
-          "pl": "Ekran",
-          "pt_BR": "Tela",
-          "zh_Hans": "屏幕",
-          "pt": "Ecrã"
+          "en": "Disaster response organization",
+          "it": "Organizzazione per la risposta ai disastri",
+          "de": "Katastrophenschutzorganisation"
         }
       },
       {
-        "if": "advertising=screen",
+        "if": "emergency=disaster_response",
         "then": {
-          "ca": "Pantalla",
-          "es": "Pantalla",
-          "en": "Screen",
-          "de": "Bildschirm",
-          "cs": "Obrazovka",
-          "nl": "Scherm",
-          "fr": "Écran",
-          "eu": "Pantaila",
-          "pl": "Ekran",
-          "pt_BR": "Tela",
-          "zh_Hans": "屏幕",
-          "pt": "Ecrã"
+          "en": "Disaster response organization",
+          "it": "Organizzazione per la risposta ai disastri",
+          "de": "Katastrophenschutzorganisation"
         }
       },
       {
@@ -1173,6 +1137,40 @@
           "nl": "Hackerspace",
           "ca": "Espai hacker",
           "cs": "Hackerspace"
+        }
+      },
+      {
+        "if": "advertising=screen",
+        "then": {
+          "ca": "Pantalla",
+          "es": "Pantalla",
+          "en": "Screen",
+          "de": "Bildschirm",
+          "cs": "Obrazovka",
+          "nl": "Scherm",
+          "fr": "Écran",
+          "eu": "Pantaila",
+          "pl": "Ekran",
+          "pt_BR": "Tela",
+          "zh_Hans": "屏幕",
+          "pt": "Ecrã"
+        }
+      },
+      {
+        "if": "advertising=screen",
+        "then": {
+          "ca": "Pantalla",
+          "es": "Pantalla",
+          "en": "Screen",
+          "de": "Bildschirm",
+          "cs": "Obrazovka",
+          "nl": "Scherm",
+          "fr": "Écran",
+          "eu": "Pantaila",
+          "pl": "Ekran",
+          "pt_BR": "Tela",
+          "zh_Hans": "屏幕",
+          "pt": "Ecrã"
         }
       },
       {
@@ -1306,33 +1304,6 @@
         }
       },
       {
-        "if": "indoor=level",
-        "then": {
-          "en": "Indoor Level {name}",
-          "de": "Geschoss {name}",
-          "nl": "Verdieping in gebouw {name}",
-          "cs": "Vnitřní Level {name}"
-        }
-      },
-      {
-        "if": "indoor=level",
-        "then": {
-          "en": "Indoor Level {name}",
-          "de": "Geschoss {name}",
-          "nl": "Verdieping in gebouw {name}",
-          "cs": "Vnitřní Level {name}"
-        }
-      },
-      {
-        "if": "indoor=level",
-        "then": {
-          "en": "Indoor Level {name}",
-          "de": "Geschoss {name}",
-          "nl": "Verdieping in gebouw {name}",
-          "cs": "Vnitřní Level {name}"
-        }
-      },
-      {
         "if": "advertising=flag",
         "then": {
           "ca": "Bandera",
@@ -1364,6 +1335,79 @@
           "pt_BR": "Bandeira",
           "zh_Hans": "旗帜",
           "pt": "Bandeira"
+        }
+      },
+      {
+        "if": "indoor=level",
+        "then": {
+          "en": "Indoor Level {name}",
+          "de": "Geschoss {name}",
+          "nl": "Verdieping in gebouw {name}",
+          "cs": "Vnitřní Level {name}"
+        }
+      },
+      {
+        "if": "indoor=level",
+        "then": {
+          "en": "Indoor Level {name}",
+          "de": "Geschoss {name}",
+          "nl": "Verdieping in gebouw {name}",
+          "cs": "Vnitřní Level {name}"
+        }
+      },
+      {
+        "if": "indoor=level",
+        "then": {
+          "en": "Indoor Level {name}",
+          "de": "Geschoss {name}",
+          "nl": "Verdieping in gebouw {name}",
+          "cs": "Vnitřní Level {name}"
+        }
+      },
+      {
+        "if": "amenity=love_hotel",
+        "then": {
+          "en": "Love Hotel <i>{name}</i>",
+          "de": "Love Hotel <i>{name}</i>"
+        }
+      },
+      {
+        "if": "amenity=love_hotel",
+        "then": {
+          "en": "Love Hotel <i>{name}</i>",
+          "de": "Love Hotel <i>{name}</i>"
+        }
+      },
+      {
+        "if": "advertising=sign",
+        "then": {
+          "ca": "Cartell",
+          "es": "Cartel",
+          "en": "Sign",
+          "de": "Schild",
+          "cs": "Cedule",
+          "fr": "Enseigne",
+          "pt_BR": "Placa",
+          "eu": "Kartela",
+          "pl": "Znak",
+          "zh_Hans": "标志",
+          "pt": "Placa"
+        }
+      },
+      {
+        "if": "advertising=sign",
+        "then": {
+          "ca": "Cartell",
+          "es": "Cartel",
+          "en": "Sign",
+          "de": "Schild",
+          "cs": "Cedule",
+          "fr": "Enseigne",
+          "pt_BR": "Placa",
+          "eu": "Kartela",
+          "pl": "Znak",
+          "zh_Hans": "标志",
+          "pt": "Placa"
         }
       },
       {
@@ -1466,38 +1510,6 @@
           "zh_Hans": "动物收容所",
           "pt": "Abrigo para animais",
           "ca": "Refugi d'animals"
-        }
-      },
-      {
-        "if": "advertising=sign",
-        "then": {
-          "ca": "Cartell",
-          "es": "Cartel",
-          "en": "Sign",
-          "de": "Schild",
-          "cs": "Cedule",
-          "fr": "Enseigne",
-          "pt_BR": "Placa",
-          "eu": "Kartela",
-          "pl": "Znak",
-          "zh_Hans": "标志",
-          "pt": "Placa"
-        }
-      },
-      {
-        "if": "advertising=sign",
-        "then": {
-          "ca": "Cartell",
-          "es": "Cartel",
-          "en": "Sign",
-          "de": "Schild",
-          "cs": "Cedule",
-          "fr": "Enseigne",
-          "pt_BR": "Placa",
-          "eu": "Kartela",
-          "pl": "Znak",
-          "zh_Hans": "标志",
-          "pt": "Placa"
         }
       },
       {
@@ -1629,6 +1641,90 @@
         }
       },
       {
+        "if": {
+          "and": [
+            "post_office=post_partner",
+            "name="
+          ]
+        },
+        "then": {
+          "en": "Post partner at a shop",
+          "de": "Postfiliale im Einzelhandel",
+          "nl": "Postpartner in een winkel",
+          "cs": "Poštovní partner v obchodě"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "post_office=post_partner",
+            "name~.+"
+          ]
+        },
+        "then": {
+          "en": "Post partner at {name}",
+          "de": "Postfiliale im {name}",
+          "ca": "Col·laborador postal a {name}",
+          "cs": "Poštovní partner v {name}"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "post_office=post_partner",
+            "name="
+          ]
+        },
+        "then": {
+          "en": "Post partner at a shop",
+          "de": "Postfiliale im Einzelhandel",
+          "nl": "Postpartner in een winkel",
+          "cs": "Poštovní partner v obchodě"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "post_office=post_partner",
+            "name~.+"
+          ]
+        },
+        "then": {
+          "en": "Post partner at {name}",
+          "de": "Postfiliale im {name}",
+          "ca": "Col·laborador postal a {name}",
+          "cs": "Poštovní partner v {name}"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "post_office=post_partner",
+            "name="
+          ]
+        },
+        "then": {
+          "en": "Post partner at a shop",
+          "de": "Postfiliale im Einzelhandel",
+          "nl": "Postpartner in een winkel",
+          "cs": "Poštovní partner v obchodě"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "post_office=post_partner",
+            "name~.+"
+          ]
+        },
+        "then": {
+          "en": "Post partner at {name}",
+          "de": "Postfiliale im {name}",
+          "ca": "Col·laborador postal a {name}",
+          "cs": "Poštovní partner v {name}"
+        }
+      },
+      {
         "if": "advertising=totem",
         "then": {
           "ca": "Tòtem",
@@ -1660,90 +1756,6 @@
           "pt_BR": "Totem",
           "zh_Hans": "图腾",
           "pt": "Totem"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "post_office=post_partner",
-            "name="
-          ]
-        },
-        "then": {
-          "en": "Post partner at a shop",
-          "de": "Postfiliale im Einzelhandel",
-          "nl": "Postpartner in een winkel",
-          "cs": "Poštovní partner v obchodě"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "post_office=post_partner",
-            "name~.+"
-          ]
-        },
-        "then": {
-          "en": "Post partner at {name}",
-          "de": "Postfiliale im {name}",
-          "ca": "Col·laborador postal a {name}",
-          "cs": "Poštovní partner v {name}"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "post_office=post_partner",
-            "name="
-          ]
-        },
-        "then": {
-          "en": "Post partner at a shop",
-          "de": "Postfiliale im Einzelhandel",
-          "nl": "Postpartner in een winkel",
-          "cs": "Poštovní partner v obchodě"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "post_office=post_partner",
-            "name~.+"
-          ]
-        },
-        "then": {
-          "en": "Post partner at {name}",
-          "de": "Postfiliale im {name}",
-          "ca": "Col·laborador postal a {name}",
-          "cs": "Poštovní partner v {name}"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "post_office=post_partner",
-            "name="
-          ]
-        },
-        "then": {
-          "en": "Post partner at a shop",
-          "de": "Postfiliale im Einzelhandel",
-          "nl": "Postpartner in een winkel",
-          "cs": "Poštovní partner v obchodě"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "post_office=post_partner",
-            "name~.+"
-          ]
-        },
-        "then": {
-          "en": "Post partner at {name}",
-          "de": "Postfiliale im {name}",
-          "ca": "Col·laborador postal a {name}",
-          "cs": "Poštovní partner v {name}"
         }
       },
       {
@@ -1907,59 +1919,73 @@
         }
       },
       {
-        "if": {
-          "and": [
-            "climbing=",
-            {
-              "or": [
-                "barrier=wall",
-                "barrier=retaining_wall",
-                "leisure=sports_centre",
-                "natural=cliff",
-                "natural=rock",
-                "natural=stone"
-              ]
-            },
-            "sport!=climbing"
-          ]
-        },
+        "if": "amenity=trolley_bay",
         "then": {
-          "en": "Climbing opportunity?",
-          "nl": "Klimgelegenheid?",
-          "de": "Klettermöglichkeit?",
-          "ja": "登坂教室？",
-          "nb_NO": "Klatremulighet?",
-          "fr": "Opportunité d’escalade ?",
-          "it": "Opportunità di arrampicata?",
-          "cs": "Lezecká příležitost?"
+          "en": "Trolley Bay",
+          "de": "Einkaufswagenbucht"
+        }
+      },
+      {
+        "if": "amenity=trolley_bay",
+        "then": {
+          "en": "Trolley Bay",
+          "de": "Einkaufswagenbucht"
         }
       },
       {
         "if": {
           "and": [
-            "climbing=",
-            {
-              "or": [
-                "barrier=wall",
-                "barrier=retaining_wall",
-                "leisure=sports_centre",
-                "natural=cliff",
-                "natural=rock",
-                "natural=stone"
-              ]
-            },
-            "sport!=climbing"
+            "parking_space=charging",
+            "amenity=parking_space"
           ]
         },
         "then": {
-          "en": "Climbing opportunity?",
-          "nl": "Klimgelegenheid?",
-          "de": "Klettermöglichkeit?",
-          "ja": "登坂教室？",
-          "nb_NO": "Klatremulighet?",
-          "fr": "Opportunité d’escalade ?",
-          "it": "Opportunità di arrampicata?",
-          "cs": "Lezecká příležitost?"
+          "en": "Electric Vehicle Charging Parking Space",
+          "nl": "Parkeerplek voor opladen van elektrische voertuigen",
+          "de": "Parkplatz zum Laden von Elektrofahrzeugen"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "parking_space=charging",
+            "amenity=parking_space"
+          ]
+        },
+        "then": {
+          "en": "Electric Vehicle Charging Parking Space",
+          "nl": "Parkeerplek voor opladen van elektrische voertuigen",
+          "de": "Parkplatz zum Laden von Elektrofahrzeugen"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "conveying=yes",
+            "highway=steps"
+          ]
+        },
+        "then": {
+          "en": "Escalator",
+          "nl": "Roltrap",
+          "de": "Rolltreppe",
+          "ca": "Escala mecànica",
+          "cs": "Jezdící schody"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "conveying=yes",
+            "highway=steps"
+          ]
+        },
+        "then": {
+          "en": "Escalator",
+          "nl": "Roltrap",
+          "de": "Rolltreppe",
+          "ca": "Escala mecànica",
+          "cs": "Jezdící schody"
         }
       },
       {
@@ -1994,36 +2020,6 @@
           "es": "Extintores",
           "pl": "Gaśnice",
           "cs": "Hasicí přístroje"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "conveying=yes",
-            "highway=steps"
-          ]
-        },
-        "then": {
-          "en": "Escalator",
-          "nl": "Roltrap",
-          "de": "Rolltreppe",
-          "ca": "Escala mecànica",
-          "cs": "Jezdící schody"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "conveying=yes",
-            "highway=steps"
-          ]
-        },
-        "then": {
-          "en": "Escalator",
-          "nl": "Roltrap",
-          "de": "Rolltreppe",
-          "ca": "Escala mecànica",
-          "cs": "Jezdící schody"
         }
       },
       {
@@ -2253,21 +2249,51 @@
         }
       },
       {
-        "if": "amenity=bicycle_repair_station",
+        "if": {
+          "and": [
+            "amenity=food_court",
+            "name~.+"
+          ]
+        },
+        "then": "{name}"
+      },
+      {
+        "if": "amenity=food_court",
         "then": {
-          "en": "Bike station (pump & repair)",
-          "nl": "Herstelpunt met pomp",
-          "fr": "Point station velo avec pompe",
-          "gl": "Estación de bicicletas (arranxo e bomba de ar)",
-          "de": "Fahrradstation (Pumpe & Reparatur)",
-          "it": "Stazione bici (gonfiaggio & riparazione)",
-          "pt_BR": "Estação de bicicletas (bomba e reparo)",
-          "ru": "Велостанция (накачка шин и ремонт)",
-          "es": "Estación de bicis (bomba y reparación)",
-          "da": "Cykelstation (pumpe og reparation)",
-          "ca": "Estació de bicicletes (bomba i reparació)",
-          "cs": "Cyklistická stanice (pumpa a opravna)",
-          "pt": "Estação de bicicletas (bomba e reparo)"
+          "en": "Food Court",
+          "de": "Food Court"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "amenity=food_court",
+            "name~.+"
+          ]
+        },
+        "then": "{name}"
+      },
+      {
+        "if": "amenity=food_court",
+        "then": {
+          "en": "Food Court",
+          "de": "Food Court"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "amenity=food_court",
+            "name~.+"
+          ]
+        },
+        "then": "{name}"
+      },
+      {
+        "if": "amenity=food_court",
+        "then": {
+          "en": "Food Court",
+          "de": "Food Court"
         }
       },
       {
@@ -2289,33 +2315,65 @@
         }
       },
       {
-        "if": "advertising=board",
+        "if": "amenity=bicycle_repair_station",
         "then": {
-          "ca": "Tauló d'anuncis",
-          "es": "Tablon de anuncios",
-          "en": "Board",
-          "de": "Brett",
-          "cs": "Deska",
-          "fr": "Petit panneau",
-          "pl": "Tablica",
-          "pt_BR": "Quadro",
-          "zh_Hans": "木板",
-          "pt": "Quadro"
+          "en": "Bike station (pump & repair)",
+          "nl": "Herstelpunt met pomp",
+          "fr": "Point station velo avec pompe",
+          "gl": "Estación de bicicletas (arranxo e bomba de ar)",
+          "de": "Fahrradstation (Pumpe & Reparatur)",
+          "it": "Stazione bici (gonfiaggio & riparazione)",
+          "pt_BR": "Estação de bicicletas (bomba e reparo)",
+          "ru": "Велостанция (накачка шин и ремонт)",
+          "es": "Estación de bicis (bomba y reparación)",
+          "da": "Cykelstation (pumpe og reparation)",
+          "ca": "Estació de bicicletes (bomba i reparació)",
+          "cs": "Cyklistická stanice (pumpa a opravna)",
+          "pt": "Estação de bicicletas (bomba e reparo)"
         }
       },
       {
-        "if": "advertising=board",
+        "if": "indoor=area",
         "then": {
-          "ca": "Tauló d'anuncis",
-          "es": "Tablon de anuncios",
-          "en": "Board",
-          "de": "Brett",
-          "cs": "Deska",
-          "fr": "Petit panneau",
-          "pl": "Tablica",
-          "pt_BR": "Quadro",
-          "zh_Hans": "木板",
-          "pt": "Quadro"
+          "en": "Indoor Area {name}",
+          "de": "Innenbereich {name}",
+          "nl": "Gebied in gebouw {name}",
+          "ca": "Àrea interior {name}",
+          "cs": "Vnitřní prostor {name}"
+        }
+      },
+      {
+        "if": "indoor=area",
+        "then": {
+          "en": "Indoor Area {name}",
+          "de": "Innenbereich {name}",
+          "nl": "Gebied in gebouw {name}",
+          "ca": "Àrea interior {name}",
+          "cs": "Vnitřní prostor {name}"
+        }
+      },
+      {
+        "if": "indoor=area",
+        "then": {
+          "en": "Indoor Area {name}",
+          "de": "Innenbereich {name}",
+          "nl": "Gebied in gebouw {name}",
+          "ca": "Àrea interior {name}",
+          "cs": "Vnitřní prostor {name}"
+        }
+      },
+      {
+        "if": "emergency=assembly_point",
+        "then": {
+          "en": "Assembly point during emergencies",
+          "de": "Sammelplatz bei Notfällen"
+        }
+      },
+      {
+        "if": "emergency=assembly_point",
+        "then": {
+          "en": "Assembly point during emergencies",
+          "de": "Sammelplatz bei Notfällen"
         }
       },
       {
@@ -2401,6 +2459,161 @@
         }
       },
       {
+        "if": {
+          "and": [
+            "climbing=",
+            {
+              "or": [
+                "barrier=wall",
+                "barrier=retaining_wall",
+                "leisure=sports_centre",
+                "natural=cliff",
+                "natural=rock",
+                "natural=stone"
+              ]
+            },
+            "sport!=climbing"
+          ]
+        },
+        "then": {
+          "en": "Climbing opportunity?",
+          "nl": "Klimgelegenheid?",
+          "de": "Klettermöglichkeit?",
+          "ja": "登坂教室？",
+          "nb_NO": "Klatremulighet?",
+          "fr": "Opportunité d’escalade ?",
+          "it": "Opportunità di arrampicata?",
+          "cs": "Lezecká příležitost?"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "climbing=",
+            {
+              "or": [
+                "barrier=wall",
+                "barrier=retaining_wall",
+                "leisure=sports_centre",
+                "natural=cliff",
+                "natural=rock",
+                "natural=stone"
+              ]
+            },
+            "sport!=climbing"
+          ]
+        },
+        "then": {
+          "en": "Climbing opportunity?",
+          "nl": "Klimgelegenheid?",
+          "de": "Klettermöglichkeit?",
+          "ja": "登坂教室？",
+          "nb_NO": "Klatremulighet?",
+          "fr": "Opportunité d’escalade ?",
+          "it": "Opportunità di arrampicata?",
+          "cs": "Lezecká příležitost?"
+        }
+      },
+      {
+        "if": "advertising=board",
+        "then": {
+          "ca": "Tauló d'anuncis",
+          "es": "Tablon de anuncios",
+          "en": "Board",
+          "de": "Brett",
+          "cs": "Deska",
+          "fr": "Petit panneau",
+          "pl": "Tablica",
+          "pt_BR": "Quadro",
+          "zh_Hans": "木板",
+          "pt": "Quadro"
+        }
+      },
+      {
+        "if": "advertising=board",
+        "then": {
+          "ca": "Tauló d'anuncis",
+          "es": "Tablon de anuncios",
+          "en": "Board",
+          "de": "Brett",
+          "cs": "Deska",
+          "fr": "Petit panneau",
+          "pl": "Tablica",
+          "pt_BR": "Quadro",
+          "zh_Hans": "木板",
+          "pt": "Quadro"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "indoor=corridor",
+            {
+              "or": [
+                "indoor=room",
+                "indoor=area",
+                "indoor=wall",
+                "indoor=door",
+                "indoor=level"
+              ]
+            }
+          ]
+        },
+        "then": {
+          "en": "Indoor Corridor {name}",
+          "de": "Innengang {name}",
+          "nl": "Gang in gebouw {name}",
+          "ca": "Passadis interior {name}",
+          "cs": "Vnitřní chodba {name}"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "indoor=corridor",
+            {
+              "or": [
+                "indoor=room",
+                "indoor=area",
+                "indoor=wall",
+                "indoor=door",
+                "indoor=level"
+              ]
+            }
+          ]
+        },
+        "then": {
+          "en": "Indoor Corridor {name}",
+          "de": "Innengang {name}",
+          "nl": "Gang in gebouw {name}",
+          "ca": "Passadis interior {name}",
+          "cs": "Vnitřní chodba {name}"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "indoor=corridor",
+            {
+              "or": [
+                "indoor=room",
+                "indoor=area",
+                "indoor=wall",
+                "indoor=door",
+                "indoor=level"
+              ]
+            }
+          ]
+        },
+        "then": {
+          "en": "Indoor Corridor {name}",
+          "de": "Innengang {name}",
+          "nl": "Gang in gebouw {name}",
+          "ca": "Passadis interior {name}",
+          "cs": "Vnitřní chodba {name}"
+        }
+      },
+      {
         "if": "healthcare=physiotherapist",
         "then": {
           "en": "Physiotherapist {name}",
@@ -2421,75 +2634,6 @@
         }
       },
       {
-        "if": {
-          "and": [
-            "indoor=corridor",
-            {
-              "or": [
-                "indoor=room",
-                "indoor=area",
-                "indoor=wall",
-                "indoor=door",
-                "indoor=level"
-              ]
-            }
-          ]
-        },
-        "then": {
-          "en": "Indoor Corridor {name}",
-          "de": "Innengang {name}",
-          "nl": "Gang in gebouw {name}",
-          "ca": "Passadis interior {name}",
-          "cs": "Vnitřní chodba {name}"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "indoor=corridor",
-            {
-              "or": [
-                "indoor=room",
-                "indoor=area",
-                "indoor=wall",
-                "indoor=door",
-                "indoor=level"
-              ]
-            }
-          ]
-        },
-        "then": {
-          "en": "Indoor Corridor {name}",
-          "de": "Innengang {name}",
-          "nl": "Gang in gebouw {name}",
-          "ca": "Passadis interior {name}",
-          "cs": "Vnitřní chodba {name}"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "indoor=corridor",
-            {
-              "or": [
-                "indoor=room",
-                "indoor=area",
-                "indoor=wall",
-                "indoor=door",
-                "indoor=level"
-              ]
-            }
-          ]
-        },
-        "then": {
-          "en": "Indoor Corridor {name}",
-          "de": "Innengang {name}",
-          "nl": "Gang in gebouw {name}",
-          "ca": "Passadis interior {name}",
-          "cs": "Vnitřní chodba {name}"
-        }
-      },
-      {
         "if": "indoor=door",
         "then": {
           "en": "Indoor Door {name}",
@@ -2517,108 +2661,6 @@
           "nl": "Binnendeur {name}",
           "ca": "Porta interior {name}",
           "cs": "Vnitřní dveře {name}"
-        }
-      },
-      {
-        "if": "advertising=column",
-        "then": {
-          "ca": "Columna",
-          "es": "Columna",
-          "en": "Column",
-          "de": "Litfaßsäule",
-          "cs": "Sloup",
-          "nl": "Aanplakzuil",
-          "fr": "Colonne",
-          "eu": "Zutabea",
-          "pl": "Kolumna",
-          "pt_BR": "Coluna",
-          "zh_Hans": "专栏",
-          "pt": "Coluna"
-        }
-      },
-      {
-        "if": "advertising=column",
-        "then": {
-          "ca": "Columna",
-          "es": "Columna",
-          "en": "Column",
-          "de": "Litfaßsäule",
-          "cs": "Sloup",
-          "nl": "Aanplakzuil",
-          "fr": "Colonne",
-          "eu": "Zutabea",
-          "pl": "Kolumna",
-          "pt_BR": "Coluna",
-          "zh_Hans": "专栏",
-          "pt": "Coluna"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "amenity=public_bookcase",
-            "name~.+"
-          ]
-        },
-        "then": {
-          "en": "Public bookcase <i>{name}</i>",
-          "nl": "Boekenruilkast <i>{name}</i>",
-          "de": "Öffentlicher Bücherschrank <i>{name}</i>",
-          "fr": "Microbibliothèque <i>{name}</i>",
-          "ru": "Общественный книжный шкаф <i>{name}</i>",
-          "it": "Microbiblioteca pubblica <i>{name}</i>",
-          "hu": "A nyilvános könyvespolc neve: <i>{name}</i>",
-          "ca": "Prestatgeria pública <i>{name}</i>",
-          "cs": "Veřejná knihobudka <i>{name}</i>"
-        }
-      },
-      {
-        "if": "amenity=public_bookcase",
-        "then": {
-          "en": "Bookcase",
-          "nl": "Boekenruilkast",
-          "de": "Bücherschrank",
-          "fr": "Microbibliothèque",
-          "ru": "Книжный шкаф",
-          "it": "Microbiblioteca",
-          "hu": "Könyvespolc",
-          "ca": "Bústia per llibres",
-          "pa_PK": "کتاباں دی الماری",
-          "cs": "Knihobudka"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "amenity=public_bookcase",
-            "name~.+"
-          ]
-        },
-        "then": {
-          "en": "Public bookcase <i>{name}</i>",
-          "nl": "Boekenruilkast <i>{name}</i>",
-          "de": "Öffentlicher Bücherschrank <i>{name}</i>",
-          "fr": "Microbibliothèque <i>{name}</i>",
-          "ru": "Общественный книжный шкаф <i>{name}</i>",
-          "it": "Microbiblioteca pubblica <i>{name}</i>",
-          "hu": "A nyilvános könyvespolc neve: <i>{name}</i>",
-          "ca": "Prestatgeria pública <i>{name}</i>",
-          "cs": "Veřejná knihobudka <i>{name}</i>"
-        }
-      },
-      {
-        "if": "amenity=public_bookcase",
-        "then": {
-          "en": "Bookcase",
-          "nl": "Boekenruilkast",
-          "de": "Bücherschrank",
-          "fr": "Microbibliothèque",
-          "ru": "Книжный шкаф",
-          "it": "Microbiblioteca",
-          "hu": "Könyvespolc",
-          "ca": "Bústia per llibres",
-          "pa_PK": "کتاباں دی الماری",
-          "cs": "Knihobudka"
         }
       },
       {
@@ -2729,6 +2771,40 @@
         }
       },
       {
+        "if": "advertising=column",
+        "then": {
+          "ca": "Columna",
+          "es": "Columna",
+          "en": "Column",
+          "de": "Litfaßsäule",
+          "cs": "Sloup",
+          "nl": "Aanplakzuil",
+          "fr": "Colonne",
+          "eu": "Zutabea",
+          "pl": "Kolumna",
+          "pt_BR": "Coluna",
+          "zh_Hans": "专栏",
+          "pt": "Coluna"
+        }
+      },
+      {
+        "if": "advertising=column",
+        "then": {
+          "ca": "Columna",
+          "es": "Columna",
+          "en": "Column",
+          "de": "Litfaßsäule",
+          "cs": "Sloup",
+          "nl": "Aanplakzuil",
+          "fr": "Colonne",
+          "eu": "Zutabea",
+          "pl": "Kolumna",
+          "pt_BR": "Coluna",
+          "zh_Hans": "专栏",
+          "pt": "Coluna"
+        }
+      },
+      {
         "if": "advertising=poster_box",
         "then": {
           "ca": "Mupi",
@@ -2819,15 +2895,71 @@
         }
       },
       {
-        "if": "amenity=clock",
+        "if": {
+          "and": [
+            "amenity=public_bookcase",
+            "name~.+"
+          ]
+        },
         "then": {
-          "en": "Clock",
-          "nl": "Klok",
-          "de": "Uhr",
-          "ca": "Rellotge",
-          "fr": "Horloge",
-          "pl": "Zegar",
-          "cs": "Hodiny"
+          "en": "Public bookcase <i>{name}</i>",
+          "nl": "Boekenruilkast <i>{name}</i>",
+          "de": "Öffentlicher Bücherschrank <i>{name}</i>",
+          "fr": "Microbibliothèque <i>{name}</i>",
+          "ru": "Общественный книжный шкаф <i>{name}</i>",
+          "it": "Microbiblioteca pubblica <i>{name}</i>",
+          "hu": "A nyilvános könyvespolc neve: <i>{name}</i>",
+          "ca": "Prestatgeria pública <i>{name}</i>",
+          "cs": "Veřejná knihobudka <i>{name}</i>"
+        }
+      },
+      {
+        "if": "amenity=public_bookcase",
+        "then": {
+          "en": "Bookcase",
+          "nl": "Boekenruilkast",
+          "de": "Bücherschrank",
+          "fr": "Microbibliothèque",
+          "ru": "Книжный шкаф",
+          "it": "Microbiblioteca",
+          "hu": "Könyvespolc",
+          "ca": "Bústia per llibres",
+          "pa_PK": "کتاباں دی الماری",
+          "cs": "Knihobudka"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "amenity=public_bookcase",
+            "name~.+"
+          ]
+        },
+        "then": {
+          "en": "Public bookcase <i>{name}</i>",
+          "nl": "Boekenruilkast <i>{name}</i>",
+          "de": "Öffentlicher Bücherschrank <i>{name}</i>",
+          "fr": "Microbibliothèque <i>{name}</i>",
+          "ru": "Общественный книжный шкаф <i>{name}</i>",
+          "it": "Microbiblioteca pubblica <i>{name}</i>",
+          "hu": "A nyilvános könyvespolc neve: <i>{name}</i>",
+          "ca": "Prestatgeria pública <i>{name}</i>",
+          "cs": "Veřejná knihobudka <i>{name}</i>"
+        }
+      },
+      {
+        "if": "amenity=public_bookcase",
+        "then": {
+          "en": "Bookcase",
+          "nl": "Boekenruilkast",
+          "de": "Bücherschrank",
+          "fr": "Microbibliothèque",
+          "ru": "Книжный шкаф",
+          "it": "Microbiblioteca",
+          "hu": "Könyvespolc",
+          "ca": "Bústia per llibres",
+          "pa_PK": "کتاباں دی الماری",
+          "cs": "Knihobudka"
         }
       },
       {
@@ -2843,33 +2975,35 @@
         }
       },
       {
-        "if": "indoor=area",
+        "if": "amenity=clock",
         "then": {
-          "en": "Indoor Area {name}",
-          "de": "Innenbereich {name}",
-          "nl": "Gebied in gebouw {name}",
-          "ca": "Àrea interior {name}",
-          "cs": "Vnitřní prostor {name}"
+          "en": "Clock",
+          "nl": "Klok",
+          "de": "Uhr",
+          "ca": "Rellotge",
+          "fr": "Horloge",
+          "pl": "Zegar",
+          "cs": "Hodiny"
         }
       },
       {
-        "if": "indoor=area",
+        "if": "amenity=shower",
         "then": {
-          "en": "Indoor Area {name}",
-          "de": "Innenbereich {name}",
-          "nl": "Gebied in gebouw {name}",
-          "ca": "Àrea interior {name}",
-          "cs": "Vnitřní prostor {name}"
+          "en": "Shower",
+          "de": "Dusche",
+          "ca": "Dutxa",
+          "fr": "Douche",
+          "cs": "Sprcha"
         }
       },
       {
-        "if": "indoor=area",
+        "if": "amenity=shower",
         "then": {
-          "en": "Indoor Area {name}",
-          "de": "Innenbereich {name}",
-          "nl": "Gebied in gebouw {name}",
-          "ca": "Àrea interior {name}",
-          "cs": "Vnitřní prostor {name}"
+          "en": "Shower",
+          "de": "Dusche",
+          "ca": "Dutxa",
+          "fr": "Douche",
+          "cs": "Sprcha"
         }
       },
       {
@@ -2903,23 +3037,69 @@
         }
       },
       {
-        "if": "amenity=shower",
+        "if": {
+          "and": [
+            "recycling_type=centre",
+            "amenity=recycling"
+          ]
+        },
         "then": {
-          "en": "Shower",
-          "de": "Dusche",
-          "ca": "Dutxa",
-          "fr": "Douche",
-          "cs": "Sprcha"
+          "en": "Recycling centre",
+          "nl": "Recyclingcentrum",
+          "de": "Wertstoffhof",
+          "es": "Centro de reciclaje",
+          "it": "Centro di riciclo rifiuti",
+          "ca": "Centre de reciclatge",
+          "fr": "Déchèterie",
+          "cs": "Recyklační centrum"
         }
       },
       {
-        "if": "amenity=shower",
+        "if": {
+          "and": [
+            "recycling_type=centre",
+            "amenity=recycling"
+          ]
+        },
         "then": {
-          "en": "Shower",
-          "de": "Dusche",
-          "ca": "Dutxa",
-          "fr": "Douche",
-          "cs": "Sprcha"
+          "en": "Recycling centre",
+          "nl": "Recyclingcentrum",
+          "de": "Wertstoffhof",
+          "es": "Centro de reciclaje",
+          "it": "Centro di riciclo rifiuti",
+          "ca": "Centre de reciclatge",
+          "fr": "Déchèterie",
+          "cs": "Recyklační centrum"
+        }
+      },
+      {
+        "if": "indoor=wall",
+        "then": {
+          "en": "Indoor Wall {name}",
+          "de": "Innenwand {name}",
+          "nl": "Muur in gebouw {name}",
+          "ca": "Paret interior {name}",
+          "cs": "Vnitřní stěna {name}"
+        }
+      },
+      {
+        "if": "indoor=wall",
+        "then": {
+          "en": "Indoor Wall {name}",
+          "de": "Innenwand {name}",
+          "nl": "Muur in gebouw {name}",
+          "ca": "Paret interior {name}",
+          "cs": "Vnitřní stěna {name}"
+        }
+      },
+      {
+        "if": "indoor=wall",
+        "then": {
+          "en": "Indoor Wall {name}",
+          "de": "Innenwand {name}",
+          "nl": "Muur in gebouw {name}",
+          "ca": "Paret interior {name}",
+          "cs": "Vnitřní stěna {name}"
         }
       },
       {
@@ -3193,124 +3373,6 @@
       {
         "if": {
           "and": [
-            "recycling_type=centre",
-            "amenity=recycling"
-          ]
-        },
-        "then": {
-          "en": "Recycling centre",
-          "nl": "Recyclingcentrum",
-          "de": "Wertstoffhof",
-          "es": "Centro de reciclaje",
-          "it": "Centro di riciclo rifiuti",
-          "ca": "Centre de reciclatge",
-          "fr": "Déchèterie",
-          "cs": "Recyklační centrum"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "recycling_type=centre",
-            "amenity=recycling"
-          ]
-        },
-        "then": {
-          "en": "Recycling centre",
-          "nl": "Recyclingcentrum",
-          "de": "Wertstoffhof",
-          "es": "Centro de reciclaje",
-          "it": "Centro di riciclo rifiuti",
-          "ca": "Centre de reciclatge",
-          "fr": "Déchèterie",
-          "cs": "Recyklační centrum"
-        }
-      },
-      {
-        "if": "indoor=wall",
-        "then": {
-          "en": "Indoor Wall {name}",
-          "de": "Innenwand {name}",
-          "nl": "Muur in gebouw {name}",
-          "ca": "Paret interior {name}",
-          "cs": "Vnitřní stěna {name}"
-        }
-      },
-      {
-        "if": "indoor=wall",
-        "then": {
-          "en": "Indoor Wall {name}",
-          "de": "Innenwand {name}",
-          "nl": "Muur in gebouw {name}",
-          "ca": "Paret interior {name}",
-          "cs": "Vnitřní stěna {name}"
-        }
-      },
-      {
-        "if": "indoor=wall",
-        "then": {
-          "en": "Indoor Wall {name}",
-          "de": "Innenwand {name}",
-          "nl": "Muur in gebouw {name}",
-          "ca": "Paret interior {name}",
-          "cs": "Vnitřní stěna {name}"
-        }
-      },
-      {
-        "if": "highway=elevator",
-        "then": {
-          "en": "Elevator",
-          "fr": "Ascenseur",
-          "de": "Aufzug",
-          "nl": "Lift",
-          "pa_PK": "ایلیویٹر",
-          "pl": "Winda",
-          "ca": "Ascensor",
-          "cs": "Výtah"
-        }
-      },
-      {
-        "if": "highway=elevator",
-        "then": {
-          "en": "Elevator",
-          "fr": "Ascenseur",
-          "de": "Aufzug",
-          "nl": "Lift",
-          "pa_PK": "ایلیویٹر",
-          "pl": "Winda",
-          "ca": "Ascensor",
-          "cs": "Výtah"
-        }
-      },
-      {
-        "if": "highway=elevator",
-        "then": {
-          "en": "Elevator",
-          "fr": "Ascenseur",
-          "de": "Aufzug",
-          "nl": "Lift",
-          "pa_PK": "ایلیویٹر",
-          "pl": "Winda",
-          "ca": "Ascensor",
-          "cs": "Výtah"
-        }
-      },
-      {
-        "if": "highway=elevator",
-        "then": {
-          "en": "Elevator",
-          "fr": "Ascenseur",
-          "de": "Aufzug",
-          "nl": "Lift",
-          "pa_PK": "ایلیویٹر",
-          "pl": "Winda",
-          "ca": "Ascensor",
-          "cs": "Výtah"
-        }
-      },
-      {
-        "if": {
-          "and": [
             "shop=sports",
             {
               "or": [
@@ -3384,6 +3446,58 @@
           "da": "Butik med sportsudstyr <i>{name}</i>",
           "ca": "Botiga d'equipament esportiu <i>{name}</i>",
           "cs": "Obchod se sportovním vybavením <i>{name}</i>"
+        }
+      },
+      {
+        "if": "highway=elevator",
+        "then": {
+          "en": "Elevator",
+          "fr": "Ascenseur",
+          "de": "Aufzug",
+          "nl": "Lift",
+          "pa_PK": "ایلیویٹر",
+          "pl": "Winda",
+          "ca": "Ascensor",
+          "cs": "Výtah"
+        }
+      },
+      {
+        "if": "highway=elevator",
+        "then": {
+          "en": "Elevator",
+          "fr": "Ascenseur",
+          "de": "Aufzug",
+          "nl": "Lift",
+          "pa_PK": "ایلیویٹر",
+          "pl": "Winda",
+          "ca": "Ascensor",
+          "cs": "Výtah"
+        }
+      },
+      {
+        "if": "highway=elevator",
+        "then": {
+          "en": "Elevator",
+          "fr": "Ascenseur",
+          "de": "Aufzug",
+          "nl": "Lift",
+          "pa_PK": "ایلیویٹر",
+          "pl": "Winda",
+          "ca": "Ascensor",
+          "cs": "Výtah"
+        }
+      },
+      {
+        "if": "highway=elevator",
+        "then": {
+          "en": "Elevator",
+          "fr": "Ascenseur",
+          "de": "Aufzug",
+          "nl": "Lift",
+          "pa_PK": "ایلیویٹر",
+          "pl": "Winda",
+          "ca": "Ascensor",
+          "cs": "Výtah"
         }
       },
       {
@@ -4007,6 +4121,54 @@
       {
         "if": {
           "and": [
+            "leisure=outdoor_seating",
+            "name~.+"
+          ]
+        },
+        "then": "{name}"
+      },
+      {
+        "if": "leisure=outdoor_seating",
+        "then": {
+          "en": "Outdoor Seating area",
+          "de": "Sitzbereich im Freien"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "leisure=outdoor_seating",
+            "name~.+"
+          ]
+        },
+        "then": "{name}"
+      },
+      {
+        "if": "leisure=outdoor_seating",
+        "then": {
+          "en": "Outdoor Seating area",
+          "de": "Sitzbereich im Freien"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "leisure=outdoor_seating",
+            "name~.+"
+          ]
+        },
+        "then": "{name}"
+      },
+      {
+        "if": "leisure=outdoor_seating",
+        "then": {
+          "en": "Outdoor Seating area",
+          "de": "Sitzbereich im Freien"
+        }
+      },
+      {
+        "if": {
+          "and": [
             "amenity=veterinary",
             "name~.+"
           ]
@@ -4109,6 +4271,132 @@
           "es": "Cámara de velocidad",
           "ca": "Càmera de velocitat",
           "cs": "Rychlostní radar"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            {
+              "or": [
+                "amenity=college",
+                "amenity=university",
+                {
+                  "and": [
+                    "amenity=school",
+                    {
+                      "or": [
+                        "isced:2011:level~.*bachelor.*",
+                        "isced:2011:level~.*master.*"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "name~.+"
+          ]
+        },
+        "then": {
+          "*": "{name}"
+        }
+      },
+      {
+        "if": "amenity=college",
+        "then": {
+          "en": "College",
+          "nl": "Hogeschool",
+          "de": "(Fach)hochschule",
+          "fr": "Établissement d'enseignement supérieur non universitaire",
+          "pa_PK": "کالج",
+          "ca": "Institut superior",
+          "cs": "Vysoká škola"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "amenity=school",
+            {
+              "or": [
+                "amenity=college",
+                "amenity=university",
+                "isced:2011:level~.*bachelor.*",
+                "isced:2011:level~.*master.*"
+              ]
+            }
+          ]
+        },
+        "then": {
+          "en": "School providing tertiary education",
+          "nl": "Onderwijsinstelling die tertiair onderwijs geeft",
+          "de": "Schule mit tertiärem Bildungsangebot",
+          "fr": "École dispensant un enseignement supérieur",
+          "da": "Skole, der udbyder videregående uddannelser",
+          "ca": "Escola que imparteix educació terciària",
+          "cs": "Škola poskytující terciární vzdělání"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            {
+              "or": [
+                "amenity=college",
+                "amenity=university",
+                {
+                  "and": [
+                    "amenity=school",
+                    {
+                      "or": [
+                        "isced:2011:level~.*bachelor.*",
+                        "isced:2011:level~.*master.*"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "name~.+"
+          ]
+        },
+        "then": {
+          "*": "{name}"
+        }
+      },
+      {
+        "if": "amenity=college",
+        "then": {
+          "en": "College",
+          "nl": "Hogeschool",
+          "de": "(Fach)hochschule",
+          "fr": "Établissement d'enseignement supérieur non universitaire",
+          "pa_PK": "کالج",
+          "ca": "Institut superior",
+          "cs": "Vysoká škola"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "amenity=school",
+            {
+              "or": [
+                "amenity=college",
+                "amenity=university",
+                "isced:2011:level~.*bachelor.*",
+                "isced:2011:level~.*master.*"
+              ]
+            }
+          ]
+        },
+        "then": {
+          "en": "School providing tertiary education",
+          "nl": "Onderwijsinstelling die tertiair onderwijs geeft",
+          "de": "Schule mit tertiärem Bildungsangebot",
+          "fr": "École dispensant un enseignement supérieur",
+          "da": "Skole, der udbyder videregående uddannelser",
+          "ca": "Escola que imparteix educació terciària",
+          "cs": "Škola poskytující terciární vzdělání"
         }
       },
       {
@@ -4316,127 +4604,349 @@
       {
         "if": {
           "and": [
-            {
-              "or": [
-                "amenity=college",
-                "amenity=university",
-                {
-                  "and": [
-                    "amenity=school",
-                    {
-                      "or": [
-                        "isced:2011:level~.*bachelor.*",
-                        "isced:2011:level~.*master.*"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
+            "cycleway=track",
             "name~.+"
           ]
         },
         "then": {
-          "*": "{name}"
-        }
-      },
-      {
-        "if": "amenity=college",
-        "then": {
-          "en": "College",
-          "nl": "Hogeschool",
-          "de": "(Fach)hochschule",
-          "fr": "Établissement d'enseignement supérieur non universitaire",
-          "pa_PK": "کالج",
-          "ca": "Institut superior",
-          "cs": "Vysoká škola"
+          "nl": "Weg met fietspad naast de weg {name}",
+          "en": "Road with cycleway next to the road {name}",
+          "de": "Straße mit Radweg neben der Straße {name}",
+          "fr": "Route avec piste cyclable à côté de la route {name}",
+          "ca": "Carretera amb via ciclista al costat de la carretera {name}",
+          "cs": "Silnice s cyklostezkou vedle silnice {name}"
         }
       },
       {
         "if": {
           "and": [
-            "amenity=school",
-            {
-              "or": [
-                "amenity=college",
-                "amenity=university",
-                "isced:2011:level~.*bachelor.*",
-                "isced:2011:level~.*master.*"
-              ]
-            }
-          ]
-        },
-        "then": {
-          "en": "School providing tertiary education",
-          "nl": "Onderwijsinstelling die tertiair onderwijs geeft",
-          "de": "Schule mit tertiärem Bildungsangebot",
-          "fr": "École dispensant un enseignement supérieur",
-          "da": "Skole, der udbyder videregående uddannelser",
-          "ca": "Escola que imparteix educació terciària",
-          "cs": "Škola poskytující terciární vzdělání"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            {
-              "or": [
-                "amenity=college",
-                "amenity=university",
-                {
-                  "and": [
-                    "amenity=school",
-                    {
-                      "or": [
-                        "isced:2011:level~.*bachelor.*",
-                        "isced:2011:level~.*master.*"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
+            "cycleway=track",
             "name~.+"
           ]
         },
         "then": {
-          "*": "{name}"
-        }
-      },
-      {
-        "if": "amenity=college",
-        "then": {
-          "en": "College",
-          "nl": "Hogeschool",
-          "de": "(Fach)hochschule",
-          "fr": "Établissement d'enseignement supérieur non universitaire",
-          "pa_PK": "کالج",
-          "ca": "Institut superior",
-          "cs": "Vysoká škola"
+          "nl": "Weg met fietspad naast de weg {name}",
+          "en": "Road with cycleway next to the road {name}",
+          "de": "Straße mit Radweg neben der Straße {name}",
+          "fr": "Route avec piste cyclable à côté de la route {name}",
+          "ca": "Carretera amb via ciclista al costat de la carretera {name}",
+          "cs": "Silnice s cyklostezkou vedle silnice {name}"
         }
       },
       {
         "if": {
           "and": [
-            "amenity=school",
-            {
-              "or": [
-                "amenity=college",
-                "amenity=university",
-                "isced:2011:level~.*bachelor.*",
-                "isced:2011:level~.*master.*"
-              ]
-            }
+            "cycleway=track",
+            "name~.+"
           ]
         },
         "then": {
-          "en": "School providing tertiary education",
-          "nl": "Onderwijsinstelling die tertiair onderwijs geeft",
-          "de": "Schule mit tertiärem Bildungsangebot",
-          "fr": "École dispensant un enseignement supérieur",
-          "da": "Skole, der udbyder videregående uddannelser",
-          "ca": "Escola que imparteix educació terciària",
-          "cs": "Škola poskytující terciární vzdělání"
+          "nl": "Weg met fietspad naast de weg {name}",
+          "en": "Road with cycleway next to the road {name}",
+          "de": "Straße mit Radweg neben der Straße {name}",
+          "fr": "Route avec piste cyclable à côté de la route {name}",
+          "ca": "Carretera amb via ciclista al costat de la carretera {name}",
+          "cs": "Silnice s cyklostezkou vedle silnice {name}"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "cycleway=track",
+            "name~.+"
+          ]
+        },
+        "then": {
+          "nl": "Weg met fietspad naast de weg {name}",
+          "en": "Road with cycleway next to the road {name}",
+          "de": "Straße mit Radweg neben der Straße {name}",
+          "fr": "Route avec piste cyclable à côté de la route {name}",
+          "ca": "Carretera amb via ciclista al costat de la carretera {name}",
+          "cs": "Silnice s cyklostezkou vedle silnice {name}"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "cycleway=track",
+            "name~.+"
+          ]
+        },
+        "then": {
+          "nl": "Weg met fietspad naast de weg {name}",
+          "en": "Road with cycleway next to the road {name}",
+          "de": "Straße mit Radweg neben der Straße {name}",
+          "fr": "Route avec piste cyclable à côté de la route {name}",
+          "ca": "Carretera amb via ciclista al costat de la carretera {name}",
+          "cs": "Silnice s cyklostezkou vedle silnice {name}"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "cycleway=track",
+            "name~.+"
+          ]
+        },
+        "then": {
+          "nl": "Weg met fietspad naast de weg {name}",
+          "en": "Road with cycleway next to the road {name}",
+          "de": "Straße mit Radweg neben der Straße {name}",
+          "fr": "Route avec piste cyclable à côté de la route {name}",
+          "ca": "Carretera amb via ciclista al costat de la carretera {name}",
+          "cs": "Silnice s cyklostezkou vedle silnice {name}"
+        }
+      },
+      {
+        "if": "cycleway=track",
+        "then": {
+          "en": "Cycleway next to the road",
+          "nl": "Fietsweg naast de weg",
+          "de": "Radweg neben der Straße",
+          "fr": "Piste cyclable séparée de la route",
+          "da": "Cykelsti ved siden af vejen",
+          "es": "Vía ciclista al lado de la carretera",
+          "ca": "Via ciclista al costat de la carretera",
+          "cs": "Cyklostezka vedle silnice"
+        }
+      },
+      {
+        "if": "cycleway=track",
+        "then": {
+          "en": "Cycleway next to the road",
+          "nl": "Fietsweg naast de weg",
+          "de": "Radweg neben der Straße",
+          "fr": "Piste cyclable séparée de la route",
+          "da": "Cykelsti ved siden af vejen",
+          "es": "Vía ciclista al lado de la carretera",
+          "ca": "Via ciclista al costat de la carretera",
+          "cs": "Cyklostezka vedle silnice"
+        }
+      },
+      {
+        "if": "cycleway=track",
+        "then": {
+          "en": "Cycleway next to the road",
+          "nl": "Fietsweg naast de weg",
+          "de": "Radweg neben der Straße",
+          "fr": "Piste cyclable séparée de la route",
+          "da": "Cykelsti ved siden af vejen",
+          "es": "Vía ciclista al lado de la carretera",
+          "ca": "Via ciclista al costat de la carretera",
+          "cs": "Cyklostezka vedle silnice"
+        }
+      },
+      {
+        "if": "cycleway=track",
+        "then": {
+          "en": "Cycleway next to the road",
+          "nl": "Fietsweg naast de weg",
+          "de": "Radweg neben der Straße",
+          "fr": "Piste cyclable séparée de la route",
+          "da": "Cykelsti ved siden af vejen",
+          "es": "Vía ciclista al lado de la carretera",
+          "ca": "Via ciclista al costat de la carretera",
+          "cs": "Cyklostezka vedle silnice"
+        }
+      },
+      {
+        "if": "cycleway=track",
+        "then": {
+          "en": "Cycleway next to the road",
+          "nl": "Fietsweg naast de weg",
+          "de": "Radweg neben der Straße",
+          "fr": "Piste cyclable séparée de la route",
+          "da": "Cykelsti ved siden af vejen",
+          "es": "Vía ciclista al lado de la carretera",
+          "ca": "Via ciclista al costat de la carretera",
+          "cs": "Cyklostezka vedle silnice"
+        }
+      },
+      {
+        "if": "cycleway=track",
+        "then": {
+          "en": "Cycleway next to the road",
+          "nl": "Fietsweg naast de weg",
+          "de": "Radweg neben der Straße",
+          "fr": "Piste cyclable séparée de la route",
+          "da": "Cykelsti ved siden af vejen",
+          "es": "Vía ciclista al lado de la carretera",
+          "ca": "Via ciclista al costat de la carretera",
+          "cs": "Cyklostezka vedle silnice"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "cycleway=shared_lane",
+            "name~.+"
+          ]
+        },
+        "then": {
+          "nl": "Weg met fietssugestiestrook {name}",
+          "en": "Road with shared lane {name}",
+          "de": "Straße mit gemeinsam genutzter Fahrspur {name}",
+          "fr": "Route avec voie partagée {name}",
+          "ca": "Carretera amb un carril compartit {name}",
+          "cs": "Silnice se sdíleným pruhem {name}",
+          "es": "Carretera con carril compartido {name}"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "cycleway=shared_lane",
+            "name~.+"
+          ]
+        },
+        "then": {
+          "nl": "Weg met fietssugestiestrook {name}",
+          "en": "Road with shared lane {name}",
+          "de": "Straße mit gemeinsam genutzter Fahrspur {name}",
+          "fr": "Route avec voie partagée {name}",
+          "ca": "Carretera amb un carril compartit {name}",
+          "cs": "Silnice se sdíleným pruhem {name}",
+          "es": "Carretera con carril compartido {name}"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "cycleway=shared_lane",
+            "name~.+"
+          ]
+        },
+        "then": {
+          "nl": "Weg met fietssugestiestrook {name}",
+          "en": "Road with shared lane {name}",
+          "de": "Straße mit gemeinsam genutzter Fahrspur {name}",
+          "fr": "Route avec voie partagée {name}",
+          "ca": "Carretera amb un carril compartit {name}",
+          "cs": "Silnice se sdíleným pruhem {name}",
+          "es": "Carretera con carril compartido {name}"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "cycleway=shared_lane",
+            "name~.+"
+          ]
+        },
+        "then": {
+          "nl": "Weg met fietssugestiestrook {name}",
+          "en": "Road with shared lane {name}",
+          "de": "Straße mit gemeinsam genutzter Fahrspur {name}",
+          "fr": "Route avec voie partagée {name}",
+          "ca": "Carretera amb un carril compartit {name}",
+          "cs": "Silnice se sdíleným pruhem {name}",
+          "es": "Carretera con carril compartido {name}"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "cycleway=shared_lane",
+            "name~.+"
+          ]
+        },
+        "then": {
+          "nl": "Weg met fietssugestiestrook {name}",
+          "en": "Road with shared lane {name}",
+          "de": "Straße mit gemeinsam genutzter Fahrspur {name}",
+          "fr": "Route avec voie partagée {name}",
+          "ca": "Carretera amb un carril compartit {name}",
+          "cs": "Silnice se sdíleným pruhem {name}",
+          "es": "Carretera con carril compartido {name}"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "cycleway=shared_lane",
+            "name~.+"
+          ]
+        },
+        "then": {
+          "nl": "Weg met fietssugestiestrook {name}",
+          "en": "Road with shared lane {name}",
+          "de": "Straße mit gemeinsam genutzter Fahrspur {name}",
+          "fr": "Route avec voie partagée {name}",
+          "ca": "Carretera amb un carril compartit {name}",
+          "cs": "Silnice se sdíleným pruhem {name}",
+          "es": "Carretera con carril compartido {name}"
+        }
+      },
+      {
+        "if": "cycleway=shared_lane",
+        "then": {
+          "nl": "Fietssuggestiestrook",
+          "en": "Shared lane",
+          "de": "Gemeinsame Fahrspur",
+          "fr": "Voie partagée",
+          "ca": "Carril compartit",
+          "es": "Carril compartido",
+          "cs": "Sdílený jízdní pruh"
+        }
+      },
+      {
+        "if": "cycleway=shared_lane",
+        "then": {
+          "nl": "Fietssuggestiestrook",
+          "en": "Shared lane",
+          "de": "Gemeinsame Fahrspur",
+          "fr": "Voie partagée",
+          "ca": "Carril compartit",
+          "es": "Carril compartido",
+          "cs": "Sdílený jízdní pruh"
+        }
+      },
+      {
+        "if": "cycleway=shared_lane",
+        "then": {
+          "nl": "Fietssuggestiestrook",
+          "en": "Shared lane",
+          "de": "Gemeinsame Fahrspur",
+          "fr": "Voie partagée",
+          "ca": "Carril compartit",
+          "es": "Carril compartido",
+          "cs": "Sdílený jízdní pruh"
+        }
+      },
+      {
+        "if": "cycleway=shared_lane",
+        "then": {
+          "nl": "Fietssuggestiestrook",
+          "en": "Shared lane",
+          "de": "Gemeinsame Fahrspur",
+          "fr": "Voie partagée",
+          "ca": "Carril compartit",
+          "es": "Carril compartido",
+          "cs": "Sdílený jízdní pruh"
+        }
+      },
+      {
+        "if": "cycleway=shared_lane",
+        "then": {
+          "nl": "Fietssuggestiestrook",
+          "en": "Shared lane",
+          "de": "Gemeinsame Fahrspur",
+          "fr": "Voie partagée",
+          "ca": "Carril compartit",
+          "es": "Carril compartido",
+          "cs": "Sdílený jízdní pruh"
+        }
+      },
+      {
+        "if": "cycleway=shared_lane",
+        "then": {
+          "nl": "Fietssuggestiestrook",
+          "en": "Shared lane",
+          "de": "Gemeinsame Fahrspur",
+          "fr": "Voie partagée",
+          "ca": "Carril compartit",
+          "es": "Carril compartido",
+          "cs": "Sdílený jízdní pruh"
         }
       },
       {
@@ -4482,6 +4992,44 @@
           "de": "Parkscheinautomat",
           "ca": "Màquina de bitllets d'aparcament",
           "cs": "Parkovací automat"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "leisure=fitness_centre",
+            "name~.+"
+          ]
+        },
+        "then": "{name}"
+      },
+      {
+        "if": "leisure=fitness_centre",
+        "then": {
+          "en": "Fitness Centre",
+          "de": "Fitnessstudio",
+          "nl": "Fitness-centrum",
+          "ca": "Centre de fitness",
+          "cs": "Fitness centrum"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "leisure=fitness_centre",
+            "name~.+"
+          ]
+        },
+        "then": "{name}"
+      },
+      {
+        "if": "leisure=fitness_centre",
+        "then": {
+          "en": "Fitness Centre",
+          "de": "Fitnessstudio",
+          "nl": "Fitness-centrum",
+          "ca": "Centre de fitness",
+          "cs": "Fitness centrum"
         }
       },
       {
@@ -4537,218 +5085,6 @@
         }
       },
       {
-        "if": {
-          "and": [
-            "cycleway=shared_lane",
-            "name~.+"
-          ]
-        },
-        "then": {
-          "nl": "Weg met fietssugestiestrook {name}",
-          "en": "Road with shared lane {name}",
-          "de": "Straße mit gemeinsam genutzter Fahrspur {name}",
-          "fr": "Route avec voie partagée {name}",
-          "ca": "Carretera amb un carril compartit {name}",
-          "cs": "Silnice se sdíleným pruhem {name}",
-          "es": "Carretera con carril compartido {name}"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "cycleway=shared_lane",
-            "name~.+"
-          ]
-        },
-        "then": {
-          "nl": "Weg met fietssugestiestrook {name}",
-          "en": "Road with shared lane {name}",
-          "de": "Straße mit gemeinsam genutzter Fahrspur {name}",
-          "fr": "Route avec voie partagée {name}",
-          "ca": "Carretera amb un carril compartit {name}",
-          "cs": "Silnice se sdíleným pruhem {name}",
-          "es": "Carretera con carril compartido {name}"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "cycleway=shared_lane",
-            "name~.+"
-          ]
-        },
-        "then": {
-          "nl": "Weg met fietssugestiestrook {name}",
-          "en": "Road with shared lane {name}",
-          "de": "Straße mit gemeinsam genutzter Fahrspur {name}",
-          "fr": "Route avec voie partagée {name}",
-          "ca": "Carretera amb un carril compartit {name}",
-          "cs": "Silnice se sdíleným pruhem {name}",
-          "es": "Carretera con carril compartido {name}"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "cycleway=shared_lane",
-            "name~.+"
-          ]
-        },
-        "then": {
-          "nl": "Weg met fietssugestiestrook {name}",
-          "en": "Road with shared lane {name}",
-          "de": "Straße mit gemeinsam genutzter Fahrspur {name}",
-          "fr": "Route avec voie partagée {name}",
-          "ca": "Carretera amb un carril compartit {name}",
-          "cs": "Silnice se sdíleným pruhem {name}",
-          "es": "Carretera con carril compartido {name}"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "cycleway=shared_lane",
-            "name~.+"
-          ]
-        },
-        "then": {
-          "nl": "Weg met fietssugestiestrook {name}",
-          "en": "Road with shared lane {name}",
-          "de": "Straße mit gemeinsam genutzter Fahrspur {name}",
-          "fr": "Route avec voie partagée {name}",
-          "ca": "Carretera amb un carril compartit {name}",
-          "cs": "Silnice se sdíleným pruhem {name}",
-          "es": "Carretera con carril compartido {name}"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "cycleway=shared_lane",
-            "name~.+"
-          ]
-        },
-        "then": {
-          "nl": "Weg met fietssugestiestrook {name}",
-          "en": "Road with shared lane {name}",
-          "de": "Straße mit gemeinsam genutzter Fahrspur {name}",
-          "fr": "Route avec voie partagée {name}",
-          "ca": "Carretera amb un carril compartit {name}",
-          "cs": "Silnice se sdíleným pruhem {name}",
-          "es": "Carretera con carril compartido {name}"
-        }
-      },
-      {
-        "if": "cycleway=shared_lane",
-        "then": {
-          "nl": "Fietssuggestiestrook",
-          "en": "Shared lane",
-          "de": "Gemeinsame Fahrspur",
-          "fr": "Voie partagée",
-          "ca": "Carril compartit",
-          "es": "Carril compartido",
-          "cs": "Sdílený jízdní pruh"
-        }
-      },
-      {
-        "if": "cycleway=shared_lane",
-        "then": {
-          "nl": "Fietssuggestiestrook",
-          "en": "Shared lane",
-          "de": "Gemeinsame Fahrspur",
-          "fr": "Voie partagée",
-          "ca": "Carril compartit",
-          "es": "Carril compartido",
-          "cs": "Sdílený jízdní pruh"
-        }
-      },
-      {
-        "if": "cycleway=shared_lane",
-        "then": {
-          "nl": "Fietssuggestiestrook",
-          "en": "Shared lane",
-          "de": "Gemeinsame Fahrspur",
-          "fr": "Voie partagée",
-          "ca": "Carril compartit",
-          "es": "Carril compartido",
-          "cs": "Sdílený jízdní pruh"
-        }
-      },
-      {
-        "if": "cycleway=shared_lane",
-        "then": {
-          "nl": "Fietssuggestiestrook",
-          "en": "Shared lane",
-          "de": "Gemeinsame Fahrspur",
-          "fr": "Voie partagée",
-          "ca": "Carril compartit",
-          "es": "Carril compartido",
-          "cs": "Sdílený jízdní pruh"
-        }
-      },
-      {
-        "if": "cycleway=shared_lane",
-        "then": {
-          "nl": "Fietssuggestiestrook",
-          "en": "Shared lane",
-          "de": "Gemeinsame Fahrspur",
-          "fr": "Voie partagée",
-          "ca": "Carril compartit",
-          "es": "Carril compartido",
-          "cs": "Sdílený jízdní pruh"
-        }
-      },
-      {
-        "if": "cycleway=shared_lane",
-        "then": {
-          "nl": "Fietssuggestiestrook",
-          "en": "Shared lane",
-          "de": "Gemeinsame Fahrspur",
-          "fr": "Voie partagée",
-          "ca": "Carril compartit",
-          "es": "Carril compartido",
-          "cs": "Sdílený jízdní pruh"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "leisure=fitness_centre",
-            "name~.+"
-          ]
-        },
-        "then": "{name}"
-      },
-      {
-        "if": "leisure=fitness_centre",
-        "then": {
-          "en": "Fitness Centre",
-          "de": "Fitnessstudio",
-          "nl": "Fitness-centrum",
-          "ca": "Centre de fitness",
-          "cs": "Fitness centrum"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "leisure=fitness_centre",
-            "name~.+"
-          ]
-        },
-        "then": "{name}"
-      },
-      {
-        "if": "leisure=fitness_centre",
-        "then": {
-          "en": "Fitness Centre",
-          "de": "Fitnessstudio",
-          "nl": "Fitness-centrum",
-          "ca": "Centre de fitness",
-          "cs": "Fitness centrum"
-        }
-      },
-      {
         "if": "advertising=billboard",
         "then": {
           "ca": "Tanca publicitària",
@@ -4776,180 +5112,6 @@
           "pt_BR": "Outdoor",
           "zh_Hans": "广告牌",
           "pt": "Outdoor"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "cycleway=track",
-            "name~.+"
-          ]
-        },
-        "then": {
-          "nl": "Weg met fietspad naast de weg {name}",
-          "en": "Road with cycleway next to the road {name}",
-          "de": "Straße mit Radweg neben der Straße {name}",
-          "fr": "Route avec piste cyclable à côté de la route {name}",
-          "ca": "Carretera amb via ciclista al costat de la carretera {name}",
-          "cs": "Silnice s cyklostezkou vedle silnice {name}"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "cycleway=track",
-            "name~.+"
-          ]
-        },
-        "then": {
-          "nl": "Weg met fietspad naast de weg {name}",
-          "en": "Road with cycleway next to the road {name}",
-          "de": "Straße mit Radweg neben der Straße {name}",
-          "fr": "Route avec piste cyclable à côté de la route {name}",
-          "ca": "Carretera amb via ciclista al costat de la carretera {name}",
-          "cs": "Silnice s cyklostezkou vedle silnice {name}"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "cycleway=track",
-            "name~.+"
-          ]
-        },
-        "then": {
-          "nl": "Weg met fietspad naast de weg {name}",
-          "en": "Road with cycleway next to the road {name}",
-          "de": "Straße mit Radweg neben der Straße {name}",
-          "fr": "Route avec piste cyclable à côté de la route {name}",
-          "ca": "Carretera amb via ciclista al costat de la carretera {name}",
-          "cs": "Silnice s cyklostezkou vedle silnice {name}"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "cycleway=track",
-            "name~.+"
-          ]
-        },
-        "then": {
-          "nl": "Weg met fietspad naast de weg {name}",
-          "en": "Road with cycleway next to the road {name}",
-          "de": "Straße mit Radweg neben der Straße {name}",
-          "fr": "Route avec piste cyclable à côté de la route {name}",
-          "ca": "Carretera amb via ciclista al costat de la carretera {name}",
-          "cs": "Silnice s cyklostezkou vedle silnice {name}"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "cycleway=track",
-            "name~.+"
-          ]
-        },
-        "then": {
-          "nl": "Weg met fietspad naast de weg {name}",
-          "en": "Road with cycleway next to the road {name}",
-          "de": "Straße mit Radweg neben der Straße {name}",
-          "fr": "Route avec piste cyclable à côté de la route {name}",
-          "ca": "Carretera amb via ciclista al costat de la carretera {name}",
-          "cs": "Silnice s cyklostezkou vedle silnice {name}"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "cycleway=track",
-            "name~.+"
-          ]
-        },
-        "then": {
-          "nl": "Weg met fietspad naast de weg {name}",
-          "en": "Road with cycleway next to the road {name}",
-          "de": "Straße mit Radweg neben der Straße {name}",
-          "fr": "Route avec piste cyclable à côté de la route {name}",
-          "ca": "Carretera amb via ciclista al costat de la carretera {name}",
-          "cs": "Silnice s cyklostezkou vedle silnice {name}"
-        }
-      },
-      {
-        "if": "cycleway=track",
-        "then": {
-          "en": "Cycleway next to the road",
-          "nl": "Fietsweg naast de weg",
-          "de": "Radweg neben der Straße",
-          "fr": "Piste cyclable séparée de la route",
-          "da": "Cykelsti ved siden af vejen",
-          "es": "Vía ciclista al lado de la carretera",
-          "ca": "Via ciclista al costat de la carretera",
-          "cs": "Cyklostezka vedle silnice"
-        }
-      },
-      {
-        "if": "cycleway=track",
-        "then": {
-          "en": "Cycleway next to the road",
-          "nl": "Fietsweg naast de weg",
-          "de": "Radweg neben der Straße",
-          "fr": "Piste cyclable séparée de la route",
-          "da": "Cykelsti ved siden af vejen",
-          "es": "Vía ciclista al lado de la carretera",
-          "ca": "Via ciclista al costat de la carretera",
-          "cs": "Cyklostezka vedle silnice"
-        }
-      },
-      {
-        "if": "cycleway=track",
-        "then": {
-          "en": "Cycleway next to the road",
-          "nl": "Fietsweg naast de weg",
-          "de": "Radweg neben der Straße",
-          "fr": "Piste cyclable séparée de la route",
-          "da": "Cykelsti ved siden af vejen",
-          "es": "Vía ciclista al lado de la carretera",
-          "ca": "Via ciclista al costat de la carretera",
-          "cs": "Cyklostezka vedle silnice"
-        }
-      },
-      {
-        "if": "cycleway=track",
-        "then": {
-          "en": "Cycleway next to the road",
-          "nl": "Fietsweg naast de weg",
-          "de": "Radweg neben der Straße",
-          "fr": "Piste cyclable séparée de la route",
-          "da": "Cykelsti ved siden af vejen",
-          "es": "Vía ciclista al lado de la carretera",
-          "ca": "Via ciclista al costat de la carretera",
-          "cs": "Cyklostezka vedle silnice"
-        }
-      },
-      {
-        "if": "cycleway=track",
-        "then": {
-          "en": "Cycleway next to the road",
-          "nl": "Fietsweg naast de weg",
-          "de": "Radweg neben der Straße",
-          "fr": "Piste cyclable séparée de la route",
-          "da": "Cykelsti ved siden af vejen",
-          "es": "Vía ciclista al lado de la carretera",
-          "ca": "Via ciclista al costat de la carretera",
-          "cs": "Cyklostezka vedle silnice"
-        }
-      },
-      {
-        "if": "cycleway=track",
-        "then": {
-          "en": "Cycleway next to the road",
-          "nl": "Fietsweg naast de weg",
-          "de": "Radweg neben der Straße",
-          "fr": "Piste cyclable séparée de la route",
-          "da": "Cykelsti ved siden af vejen",
-          "es": "Vía ciclista al lado de la carretera",
-          "ca": "Via ciclista al costat de la carretera",
-          "cs": "Cyklostezka vedle silnice"
         }
       },
       {
@@ -4987,47 +5149,35 @@
       {
         "if": {
           "and": [
-            "natural=tree",
-            "species:wikidata~.+",
-            "name~.+"
+            {
+              "or": [
+                "piste:type=downhill",
+                "piste:type=connection"
+              ]
+            },
+            "area!=yes"
           ]
         },
         "then": {
-          "*": "{name} ({wikidata_label(species:wikidata)})"
+          "en": "Ski piste {name}",
+          "de": "Skipiste {name}"
         }
       },
       {
         "if": {
           "and": [
-            "natural=tree",
-            "species:wikidata~.+"
+            {
+              "or": [
+                "piste:type=downhill",
+                "piste:type=connection"
+              ]
+            },
+            "area!=yes"
           ]
         },
         "then": {
-          "*": "{wikidata_label(species:wikidata)}"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "natural=tree",
-            "species:wikidata~.+",
-            "name~.+"
-          ]
-        },
-        "then": {
-          "*": "{name} ({wikidata_label(species:wikidata)})"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "natural=tree",
-            "species:wikidata~.+"
-          ]
-        },
-        "then": {
-          "*": "{wikidata_label(species:wikidata)}"
+          "en": "Ski piste {name}",
+          "de": "Skipiste {name}"
         }
       },
       {
@@ -5380,28 +5530,6 @@
           "en": "Charging station",
           "nl": "Oplaadpunt",
           "de": "Ladestation"
-        }
-      },
-      {
-        "if": "amenity=dentist",
-        "then": {
-          "en": "Dentist Office {name}",
-          "de": "Zahnarztpraxis {name}",
-          "nl": "Tandartspraktijk {name}",
-          "fr": "Cabinet medical {name}",
-          "ca": "Clínica Dental {name}",
-          "cs": "Zubní ordinace {name}"
-        }
-      },
-      {
-        "if": "amenity=dentist",
-        "then": {
-          "en": "Dentist Office {name}",
-          "de": "Zahnarztpraxis {name}",
-          "nl": "Tandartspraktijk {name}",
-          "fr": "Cabinet medical {name}",
-          "ca": "Clínica Dental {name}",
-          "cs": "Zubní ordinace {name}"
         }
       },
       {
@@ -5432,6 +5560,28 @@
           "cs": "Cyklistická bariéra",
           "pt_BR": "Barreira para ciclistas",
           "pt": "Barreira para ciclistas"
+        }
+      },
+      {
+        "if": "amenity=dentist",
+        "then": {
+          "en": "Dentist Office {name}",
+          "de": "Zahnarztpraxis {name}",
+          "nl": "Tandartspraktijk {name}",
+          "fr": "Cabinet medical {name}",
+          "ca": "Clínica Dental {name}",
+          "cs": "Zubní ordinace {name}"
+        }
+      },
+      {
+        "if": "amenity=dentist",
+        "then": {
+          "en": "Dentist Office {name}",
+          "de": "Zahnarztpraxis {name}",
+          "nl": "Tandartspraktijk {name}",
+          "fr": "Cabinet medical {name}",
+          "ca": "Clínica Dental {name}",
+          "cs": "Zubní ordinace {name}"
         }
       },
       {
@@ -5551,93 +5701,6 @@
         }
       },
       {
-        "if": "indoor=room",
-        "then": {
-          "en": "Indoor Room {name}",
-          "de": "Innenraum {name}",
-          "nl": "Binnenruimte {name}",
-          "pl": "Wewnętrzne pomieszczenie {name}",
-          "ca": "Habitació interior {name}",
-          "cs": "Vnitřní místnost {name}"
-        }
-      },
-      {
-        "if": {
-          "or": [
-            "indoor=room",
-            "indoor=area",
-            "indoor=wall",
-            "indoor=door",
-            "indoor=level"
-          ]
-        },
-        "then": {
-          "en": "Indoor area {name}",
-          "de": "Innenbereich {name}",
-          "nl": "Binnenruimte {name}",
-          "ca": "Àrea interior {name}",
-          "cs": "Vnitřní prostor {name}"
-        }
-      },
-      {
-        "if": "indoor=room",
-        "then": {
-          "en": "Indoor Room {name}",
-          "de": "Innenraum {name}",
-          "nl": "Binnenruimte {name}",
-          "pl": "Wewnętrzne pomieszczenie {name}",
-          "ca": "Habitació interior {name}",
-          "cs": "Vnitřní místnost {name}"
-        }
-      },
-      {
-        "if": {
-          "or": [
-            "indoor=room",
-            "indoor=area",
-            "indoor=wall",
-            "indoor=door",
-            "indoor=level"
-          ]
-        },
-        "then": {
-          "en": "Indoor area {name}",
-          "de": "Innenbereich {name}",
-          "nl": "Binnenruimte {name}",
-          "ca": "Àrea interior {name}",
-          "cs": "Vnitřní prostor {name}"
-        }
-      },
-      {
-        "if": "indoor=room",
-        "then": {
-          "en": "Indoor Room {name}",
-          "de": "Innenraum {name}",
-          "nl": "Binnenruimte {name}",
-          "pl": "Wewnętrzne pomieszczenie {name}",
-          "ca": "Habitació interior {name}",
-          "cs": "Vnitřní místnost {name}"
-        }
-      },
-      {
-        "if": {
-          "or": [
-            "indoor=room",
-            "indoor=area",
-            "indoor=wall",
-            "indoor=door",
-            "indoor=level"
-          ]
-        },
-        "then": {
-          "en": "Indoor area {name}",
-          "de": "Innenbereich {name}",
-          "nl": "Binnenruimte {name}",
-          "ca": "Àrea interior {name}",
-          "cs": "Vnitřní prostor {name}"
-        }
-      },
-      {
         "if": {
           "and": [
             "advertising~.+",
@@ -5660,31 +5723,123 @@
         }
       },
       {
-        "if": {
-          "and": [
-            "parking_space=disabled",
-            "amenity=parking_space"
-          ]
-        },
+        "if": "amenity=doctors",
         "then": {
-          "en": "Disabled Parking Space",
-          "nl": "Parkeerplek voor gehandicapten",
-          "de": "Behindertenparkplatz",
-          "cs": "Parkovací místo pro osoby se zdravotním postižením"
+          "en": "Doctors Office {name}",
+          "de": "Arztpraxis {name}",
+          "nl": "Dokterspraktijk {name}",
+          "fr": "Cabinet medical {name}",
+          "ca": "Consultori metge {name}",
+          "cs": "Lékařská ordinace {name}"
+        }
+      },
+      {
+        "if": "amenity=doctors",
+        "then": {
+          "en": "Doctors Office {name}",
+          "de": "Arztpraxis {name}",
+          "nl": "Dokterspraktijk {name}",
+          "fr": "Cabinet medical {name}",
+          "ca": "Consultori metge {name}",
+          "cs": "Lékařská ordinace {name}"
+        }
+      },
+      {
+        "if": "amenity=doctors",
+        "then": {
+          "en": "Doctors Office {name}",
+          "de": "Arztpraxis {name}",
+          "nl": "Dokterspraktijk {name}",
+          "fr": "Cabinet medical {name}",
+          "ca": "Consultori metge {name}",
+          "cs": "Lékařská ordinace {name}"
+        }
+      },
+      {
+        "if": "indoor=room",
+        "then": {
+          "en": "Indoor Room {name}",
+          "de": "Innenraum {name}",
+          "nl": "Binnenruimte {name}",
+          "pl": "Wewnętrzne pomieszczenie {name}",
+          "ca": "Habitació interior {name}",
+          "cs": "Vnitřní místnost {name}"
         }
       },
       {
         "if": {
-          "and": [
-            "parking_space=disabled",
-            "amenity=parking_space"
+          "or": [
+            "indoor=room",
+            "indoor=area",
+            "indoor=wall",
+            "indoor=door",
+            "indoor=level"
           ]
         },
         "then": {
-          "en": "Disabled Parking Space",
-          "nl": "Parkeerplek voor gehandicapten",
-          "de": "Behindertenparkplatz",
-          "cs": "Parkovací místo pro osoby se zdravotním postižením"
+          "en": "Indoor area {name}",
+          "de": "Innenbereich {name}",
+          "nl": "Binnenruimte {name}",
+          "ca": "Àrea interior {name}",
+          "cs": "Vnitřní prostor {name}"
+        }
+      },
+      {
+        "if": "indoor=room",
+        "then": {
+          "en": "Indoor Room {name}",
+          "de": "Innenraum {name}",
+          "nl": "Binnenruimte {name}",
+          "pl": "Wewnętrzne pomieszczenie {name}",
+          "ca": "Habitació interior {name}",
+          "cs": "Vnitřní místnost {name}"
+        }
+      },
+      {
+        "if": {
+          "or": [
+            "indoor=room",
+            "indoor=area",
+            "indoor=wall",
+            "indoor=door",
+            "indoor=level"
+          ]
+        },
+        "then": {
+          "en": "Indoor area {name}",
+          "de": "Innenbereich {name}",
+          "nl": "Binnenruimte {name}",
+          "ca": "Àrea interior {name}",
+          "cs": "Vnitřní prostor {name}"
+        }
+      },
+      {
+        "if": "indoor=room",
+        "then": {
+          "en": "Indoor Room {name}",
+          "de": "Innenraum {name}",
+          "nl": "Binnenruimte {name}",
+          "pl": "Wewnętrzne pomieszczenie {name}",
+          "ca": "Habitació interior {name}",
+          "cs": "Vnitřní místnost {name}"
+        }
+      },
+      {
+        "if": {
+          "or": [
+            "indoor=room",
+            "indoor=area",
+            "indoor=wall",
+            "indoor=door",
+            "indoor=level"
+          ]
+        },
+        "then": {
+          "en": "Indoor area {name}",
+          "de": "Innenbereich {name}",
+          "nl": "Binnenruimte {name}",
+          "ca": "Àrea interior {name}",
+          "cs": "Vnitřní prostor {name}"
         }
       },
       {
@@ -5742,36 +5897,123 @@
         }
       },
       {
-        "if": "amenity=doctors",
+        "if": {
+          "and": [
+            "aerialway~.+",
+            "aerialway!=pylon",
+            "aerialway!=station"
+          ]
+        },
         "then": {
-          "en": "Doctors Office {name}",
-          "de": "Arztpraxis {name}",
-          "nl": "Dokterspraktijk {name}",
-          "fr": "Cabinet medical {name}",
-          "ca": "Consultori metge {name}",
-          "cs": "Lékařská ordinace {name}"
+          "en": "Aerialway {name}",
+          "de": "Seilbahn {name}"
         }
       },
       {
-        "if": "amenity=doctors",
+        "if": {
+          "and": [
+            "aerialway~.+",
+            "aerialway!=pylon",
+            "aerialway!=station"
+          ]
+        },
         "then": {
-          "en": "Doctors Office {name}",
-          "de": "Arztpraxis {name}",
-          "nl": "Dokterspraktijk {name}",
-          "fr": "Cabinet medical {name}",
-          "ca": "Consultori metge {name}",
-          "cs": "Lékařská ordinace {name}"
+          "en": "Aerialway {name}",
+          "de": "Seilbahn {name}"
         }
       },
       {
-        "if": "amenity=doctors",
+        "if": {
+          "or": [
+            "amenity=post_office",
+            "post_office=post_partner"
+          ]
+        },
         "then": {
-          "en": "Doctors Office {name}",
-          "de": "Arztpraxis {name}",
-          "nl": "Dokterspraktijk {name}",
-          "fr": "Cabinet medical {name}",
-          "ca": "Consultori metge {name}",
-          "cs": "Lékařská ordinace {name}"
+          "en": "Post Office",
+          "de": "Poststelle",
+          "ru": "Почтовое отделение",
+          "zh_Hant": "郵局",
+          "id": "Kantor Pos",
+          "hu": "Posta",
+          "nl": "Postkantoor",
+          "ca": "Oficina postal",
+          "es": "Oficina de Correo",
+          "fr": "Bureau de poste",
+          "nb_NO": "Postkontor",
+          "cs": "Pošta"
+        }
+      },
+      {
+        "if": {
+          "or": [
+            "amenity=post_office",
+            "post_office=post_partner"
+          ]
+        },
+        "then": {
+          "en": "Post Office",
+          "de": "Poststelle",
+          "ru": "Почтовое отделение",
+          "zh_Hant": "郵局",
+          "id": "Kantor Pos",
+          "hu": "Posta",
+          "nl": "Postkantoor",
+          "ca": "Oficina postal",
+          "es": "Oficina de Correo",
+          "fr": "Bureau de poste",
+          "nb_NO": "Postkontor",
+          "cs": "Pošta"
+        }
+      },
+      {
+        "if": {
+          "or": [
+            "amenity=post_office",
+            "post_office=post_partner"
+          ]
+        },
+        "then": {
+          "en": "Post Office",
+          "de": "Poststelle",
+          "ru": "Почтовое отделение",
+          "zh_Hant": "郵局",
+          "id": "Kantor Pos",
+          "hu": "Posta",
+          "nl": "Postkantoor",
+          "ca": "Oficina postal",
+          "es": "Oficina de Correo",
+          "fr": "Bureau de poste",
+          "nb_NO": "Postkontor",
+          "cs": "Pošta"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "parking_space=disabled",
+            "amenity=parking_space"
+          ]
+        },
+        "then": {
+          "en": "Disabled Parking Space",
+          "nl": "Parkeerplek voor gehandicapten",
+          "de": "Behindertenparkplatz",
+          "cs": "Parkovací místo pro osoby se zdravotním postižením"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "parking_space=disabled",
+            "amenity=parking_space"
+          ]
+        },
+        "then": {
+          "en": "Disabled Parking Space",
+          "nl": "Parkeerplek voor gehandicapten",
+          "de": "Behindertenparkplatz",
+          "cs": "Parkovací místo pro osoby se zdravotním postižením"
         }
       },
       {
@@ -5786,72 +6028,6 @@
         "then": {
           "en": "Playground device",
           "de": "Spielplatzgerät"
-        }
-      },
-      {
-        "if": {
-          "or": [
-            "amenity=post_office",
-            "post_office=post_partner"
-          ]
-        },
-        "then": {
-          "en": "Post Office",
-          "de": "Poststelle",
-          "ru": "Почтовое отделение",
-          "zh_Hant": "郵局",
-          "id": "Kantor Pos",
-          "hu": "Posta",
-          "nl": "Postkantoor",
-          "ca": "Oficina postal",
-          "es": "Oficina de Correo",
-          "fr": "Bureau de poste",
-          "nb_NO": "Postkontor",
-          "cs": "Pošta"
-        }
-      },
-      {
-        "if": {
-          "or": [
-            "amenity=post_office",
-            "post_office=post_partner"
-          ]
-        },
-        "then": {
-          "en": "Post Office",
-          "de": "Poststelle",
-          "ru": "Почтовое отделение",
-          "zh_Hant": "郵局",
-          "id": "Kantor Pos",
-          "hu": "Posta",
-          "nl": "Postkantoor",
-          "ca": "Oficina postal",
-          "es": "Oficina de Correo",
-          "fr": "Bureau de poste",
-          "nb_NO": "Postkontor",
-          "cs": "Pošta"
-        }
-      },
-      {
-        "if": {
-          "or": [
-            "amenity=post_office",
-            "post_office=post_partner"
-          ]
-        },
-        "then": {
-          "en": "Post Office",
-          "de": "Poststelle",
-          "ru": "Почтовое отделение",
-          "zh_Hant": "郵局",
-          "id": "Kantor Pos",
-          "hu": "Posta",
-          "nl": "Postkantoor",
-          "ca": "Oficina postal",
-          "es": "Oficina de Correo",
-          "fr": "Bureau de poste",
-          "nb_NO": "Postkontor",
-          "cs": "Pošta"
         }
       },
       {
@@ -6061,36 +6237,6 @@
         }
       },
       {
-        "if": {
-          "or": [
-            "historic=memorial",
-            "memorial~.+"
-          ]
-        },
-        "then": {
-          "en": "Memorial plaque",
-          "ca": "Placa commemorativa",
-          "cs": "Pamětní deska",
-          "de": "Gedenktafel",
-          "fr": "Plaque commémorative"
-        }
-      },
-      {
-        "if": {
-          "or": [
-            "historic=memorial",
-            "memorial~.+"
-          ]
-        },
-        "then": {
-          "en": "Memorial plaque",
-          "ca": "Placa commemorativa",
-          "cs": "Pamětní deska",
-          "de": "Gedenktafel",
-          "fr": "Plaque commémorative"
-        }
-      },
-      {
         "if": "amenity=bar",
         "then": {
           "en": "Bar",
@@ -6109,32 +6255,6 @@
         "then": {
           "en": "Bar",
           "de": "Bar"
-        }
-      },
-      {
-        "if": "amenity=waste_disposal",
-        "then": {
-          "en": "Waste Disposal",
-          "nl": "Afvalbak",
-          "de": "Mülltonne",
-          "it": "Smaltimento rifiuti",
-          "id": "Pembuangan Limbah",
-          "da": "Bortskaffelse af affald",
-          "ca": "Contenidor de fem",
-          "cs": "Nakládání s odpady"
-        }
-      },
-      {
-        "if": "amenity=waste_disposal",
-        "then": {
-          "en": "Waste Disposal",
-          "nl": "Afvalbak",
-          "de": "Mülltonne",
-          "it": "Smaltimento rifiuti",
-          "id": "Pembuangan Limbah",
-          "da": "Bortskaffelse af affald",
-          "ca": "Contenidor de fem",
-          "cs": "Nakládání s odpady"
         }
       },
       {
@@ -6167,6 +6287,32 @@
           "ca": "Mirador",
           "da": "Udsigtspunkt",
           "cs": "Vyhlídka"
+        }
+      },
+      {
+        "if": "amenity=waste_disposal",
+        "then": {
+          "en": "Waste Disposal",
+          "nl": "Afvalbak",
+          "de": "Mülltonne",
+          "it": "Smaltimento rifiuti",
+          "id": "Pembuangan Limbah",
+          "da": "Bortskaffelse af affald",
+          "ca": "Contenidor de fem",
+          "cs": "Nakládání s odpady"
+        }
+      },
+      {
+        "if": "amenity=waste_disposal",
+        "then": {
+          "en": "Waste Disposal",
+          "nl": "Afvalbak",
+          "de": "Mülltonne",
+          "it": "Smaltimento rifiuti",
+          "id": "Pembuangan Limbah",
+          "da": "Bortskaffelse af affald",
+          "ca": "Contenidor de fem",
+          "cs": "Nakládání s odpady"
         }
       },
       {
@@ -6327,6 +6473,26 @@
           "pa_PK": "کلاکاری",
           "he": "יצירת אומנות",
           "eu": "Artelana"
+        }
+      },
+      {
+        "if": "office=government",
+        "then": {
+          "en": "Governmental Office {name}",
+          "de": "Behörde {name}",
+          "nl": "Overheidsdienst {name}",
+          "ca": "Oficina governamental {name}",
+          "cs": "Vládní úřad {name}"
+        }
+      },
+      {
+        "if": "office=government",
+        "then": {
+          "en": "Governmental Office {name}",
+          "de": "Behörde {name}",
+          "nl": "Overheidsdienst {name}",
+          "ca": "Oficina governamental {name}",
+          "cs": "Vládní úřad {name}"
         }
       },
       {
@@ -6605,23 +6771,49 @@
         }
       },
       {
-        "if": "office=government",
+        "if": {
+          "and": [
+            "natural=tree",
+            "species:wikidata~.+",
+            "name~.+"
+          ]
+        },
         "then": {
-          "en": "Governmental Office {name}",
-          "de": "Behörde {name}",
-          "nl": "Overheidsdienst {name}",
-          "ca": "Oficina governamental {name}",
-          "cs": "Vládní úřad {name}"
+          "*": "{name} ({wikidata_label(species:wikidata)})"
         }
       },
       {
-        "if": "office=government",
+        "if": {
+          "and": [
+            "natural=tree",
+            "species:wikidata~.+"
+          ]
+        },
         "then": {
-          "en": "Governmental Office {name}",
-          "de": "Behörde {name}",
-          "nl": "Overheidsdienst {name}",
-          "ca": "Oficina governamental {name}",
-          "cs": "Vládní úřad {name}"
+          "*": "{wikidata_label(species:wikidata)}"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "natural=tree",
+            "species:wikidata~.+",
+            "name~.+"
+          ]
+        },
+        "then": {
+          "*": "{name} ({wikidata_label(species:wikidata)})"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "natural=tree",
+            "species:wikidata~.+"
+          ]
+        },
+        "then": {
+          "*": "{wikidata_label(species:wikidata)}"
         }
       },
       {
@@ -6691,6 +6883,186 @@
         }
       },
       {
+        "if": {
+          "and": [
+            {
+              "or": [
+                "amenity=drinking_water",
+                "disused:amenity=drinking_water",
+                "drinking_water=yes"
+              ]
+            },
+            "man_made!=reservoir_covered",
+            "access!=permissive",
+            "access!=private"
+          ]
+        },
+        "then": {
+          "en": "Drinking water",
+          "nl": "Drinkbaar water",
+          "fr": "Eau potable",
+          "gl": "Auga potábel",
+          "de": "Trinkwasserstelle",
+          "it": "Acqua potabile",
+          "ru": "Питьевая вода",
+          "id": "Air minum",
+          "hu": "Ivóvíz",
+          "ca": "Aigua potable",
+          "es": "Agua potable",
+          "cs": "Pitná voda"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            {
+              "or": [
+                "amenity=drinking_water",
+                "disused:amenity=drinking_water",
+                "drinking_water=yes"
+              ]
+            },
+            "man_made!=reservoir_covered",
+            "access!=permissive",
+            "access!=private"
+          ]
+        },
+        "then": {
+          "en": "Drinking water",
+          "nl": "Drinkbaar water",
+          "fr": "Eau potable",
+          "gl": "Auga potábel",
+          "de": "Trinkwasserstelle",
+          "it": "Acqua potabile",
+          "ru": "Питьевая вода",
+          "id": "Air minum",
+          "hu": "Ivóvíz",
+          "ca": "Aigua potable",
+          "es": "Agua potable",
+          "cs": "Pitná voda"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            {
+              "or": [
+                "amenity=drinking_water",
+                "disused:amenity=drinking_water",
+                "drinking_water=yes"
+              ]
+            },
+            "man_made!=reservoir_covered",
+            "access!=permissive",
+            "access!=private"
+          ]
+        },
+        "then": {
+          "en": "Drinking water",
+          "nl": "Drinkbaar water",
+          "fr": "Eau potable",
+          "gl": "Auga potábel",
+          "de": "Trinkwasserstelle",
+          "it": "Acqua potabile",
+          "ru": "Питьевая вода",
+          "id": "Air minum",
+          "hu": "Ivóvíz",
+          "ca": "Aigua potable",
+          "es": "Agua potable",
+          "cs": "Pitná voda"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            {
+              "or": [
+                "amenity=drinking_water",
+                "disused:amenity=drinking_water",
+                "drinking_water=yes"
+              ]
+            },
+            "man_made!=reservoir_covered",
+            "access!=permissive",
+            "access!=private"
+          ]
+        },
+        "then": {
+          "en": "Drinking water",
+          "nl": "Drinkbaar water",
+          "fr": "Eau potable",
+          "gl": "Auga potábel",
+          "de": "Trinkwasserstelle",
+          "it": "Acqua potabile",
+          "ru": "Питьевая вода",
+          "id": "Air minum",
+          "hu": "Ivóvíz",
+          "ca": "Aigua potable",
+          "es": "Agua potable",
+          "cs": "Pitná voda"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            {
+              "or": [
+                "amenity=drinking_water",
+                "disused:amenity=drinking_water",
+                "drinking_water=yes"
+              ]
+            },
+            "man_made!=reservoir_covered",
+            "access!=permissive",
+            "access!=private"
+          ]
+        },
+        "then": {
+          "en": "Drinking water",
+          "nl": "Drinkbaar water",
+          "fr": "Eau potable",
+          "gl": "Auga potábel",
+          "de": "Trinkwasserstelle",
+          "it": "Acqua potabile",
+          "ru": "Питьевая вода",
+          "id": "Air minum",
+          "hu": "Ivóvíz",
+          "ca": "Aigua potable",
+          "es": "Agua potable",
+          "cs": "Pitná voda"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            {
+              "or": [
+                "amenity=drinking_water",
+                "disused:amenity=drinking_water",
+                "drinking_water=yes"
+              ]
+            },
+            "man_made!=reservoir_covered",
+            "access!=permissive",
+            "access!=private"
+          ]
+        },
+        "then": {
+          "en": "Drinking water",
+          "nl": "Drinkbaar water",
+          "fr": "Eau potable",
+          "gl": "Auga potábel",
+          "de": "Trinkwasserstelle",
+          "it": "Acqua potabile",
+          "ru": "Питьевая вода",
+          "id": "Air minum",
+          "hu": "Ivóvíz",
+          "ca": "Aigua potable",
+          "es": "Agua potable",
+          "cs": "Pitná voda"
+        }
+      },
+      {
         "if": "amenity=kindergarten",
         "then": {
           "en": "Kindergarten {name}",
@@ -6713,186 +7085,6 @@
       {
         "if": {
           "and": [
-            {
-              "or": [
-                "amenity=drinking_water",
-                "disused:amenity=drinking_water",
-                "drinking_water=yes"
-              ]
-            },
-            "man_made!=reservoir_covered",
-            "access!=permissive",
-            "access!=private"
-          ]
-        },
-        "then": {
-          "en": "Drinking water",
-          "nl": "Drinkbaar water",
-          "fr": "Eau potable",
-          "gl": "Auga potábel",
-          "de": "Trinkwasserstelle",
-          "it": "Acqua potabile",
-          "ru": "Питьевая вода",
-          "id": "Air minum",
-          "hu": "Ivóvíz",
-          "ca": "Aigua potable",
-          "es": "Agua potable",
-          "cs": "Pitná voda"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            {
-              "or": [
-                "amenity=drinking_water",
-                "disused:amenity=drinking_water",
-                "drinking_water=yes"
-              ]
-            },
-            "man_made!=reservoir_covered",
-            "access!=permissive",
-            "access!=private"
-          ]
-        },
-        "then": {
-          "en": "Drinking water",
-          "nl": "Drinkbaar water",
-          "fr": "Eau potable",
-          "gl": "Auga potábel",
-          "de": "Trinkwasserstelle",
-          "it": "Acqua potabile",
-          "ru": "Питьевая вода",
-          "id": "Air minum",
-          "hu": "Ivóvíz",
-          "ca": "Aigua potable",
-          "es": "Agua potable",
-          "cs": "Pitná voda"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            {
-              "or": [
-                "amenity=drinking_water",
-                "disused:amenity=drinking_water",
-                "drinking_water=yes"
-              ]
-            },
-            "man_made!=reservoir_covered",
-            "access!=permissive",
-            "access!=private"
-          ]
-        },
-        "then": {
-          "en": "Drinking water",
-          "nl": "Drinkbaar water",
-          "fr": "Eau potable",
-          "gl": "Auga potábel",
-          "de": "Trinkwasserstelle",
-          "it": "Acqua potabile",
-          "ru": "Питьевая вода",
-          "id": "Air minum",
-          "hu": "Ivóvíz",
-          "ca": "Aigua potable",
-          "es": "Agua potable",
-          "cs": "Pitná voda"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            {
-              "or": [
-                "amenity=drinking_water",
-                "disused:amenity=drinking_water",
-                "drinking_water=yes"
-              ]
-            },
-            "man_made!=reservoir_covered",
-            "access!=permissive",
-            "access!=private"
-          ]
-        },
-        "then": {
-          "en": "Drinking water",
-          "nl": "Drinkbaar water",
-          "fr": "Eau potable",
-          "gl": "Auga potábel",
-          "de": "Trinkwasserstelle",
-          "it": "Acqua potabile",
-          "ru": "Питьевая вода",
-          "id": "Air minum",
-          "hu": "Ivóvíz",
-          "ca": "Aigua potable",
-          "es": "Agua potable",
-          "cs": "Pitná voda"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            {
-              "or": [
-                "amenity=drinking_water",
-                "disused:amenity=drinking_water",
-                "drinking_water=yes"
-              ]
-            },
-            "man_made!=reservoir_covered",
-            "access!=permissive",
-            "access!=private"
-          ]
-        },
-        "then": {
-          "en": "Drinking water",
-          "nl": "Drinkbaar water",
-          "fr": "Eau potable",
-          "gl": "Auga potábel",
-          "de": "Trinkwasserstelle",
-          "it": "Acqua potabile",
-          "ru": "Питьевая вода",
-          "id": "Air minum",
-          "hu": "Ivóvíz",
-          "ca": "Aigua potable",
-          "es": "Agua potable",
-          "cs": "Pitná voda"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            {
-              "or": [
-                "amenity=drinking_water",
-                "disused:amenity=drinking_water",
-                "drinking_water=yes"
-              ]
-            },
-            "man_made!=reservoir_covered",
-            "access!=permissive",
-            "access!=private"
-          ]
-        },
-        "then": {
-          "en": "Drinking water",
-          "nl": "Drinkbaar water",
-          "fr": "Eau potable",
-          "gl": "Auga potábel",
-          "de": "Trinkwasserstelle",
-          "it": "Acqua potabile",
-          "ru": "Питьевая вода",
-          "id": "Air minum",
-          "hu": "Ivóvíz",
-          "ca": "Aigua potable",
-          "es": "Agua potable",
-          "cs": "Pitná voda"
-        }
-      },
-      {
-        "if": {
-          "and": [
             "cycleway=lane",
             "name~.+"
           ]
@@ -7173,38 +7365,32 @@
       },
       {
         "if": {
-          "and": [
-            "recycling_type=container",
-            "amenity=recycling"
+          "or": [
+            "historic=memorial",
+            "memorial~.+"
           ]
         },
         "then": {
-          "en": "Recycling container",
-          "nl": "Recyclingcontainer",
-          "de": "Recyclingcontainer",
-          "es": "Contenedor de reciclaje",
-          "it": "Contenitore per il riciclo",
-          "ca": "Contenidor de reciclatge",
-          "fr": "Conteneur de recyclage",
-          "cs": "Recyklační kontejner"
+          "en": "Memorial plaque",
+          "ca": "Placa commemorativa",
+          "cs": "Pamětní deska",
+          "de": "Gedenktafel",
+          "fr": "Plaque commémorative"
         }
       },
       {
         "if": {
-          "and": [
-            "recycling_type=container",
-            "amenity=recycling"
+          "or": [
+            "historic=memorial",
+            "memorial~.+"
           ]
         },
         "then": {
-          "en": "Recycling container",
-          "nl": "Recyclingcontainer",
-          "de": "Recyclingcontainer",
-          "es": "Contenedor de reciclaje",
-          "it": "Contenitore per il riciclo",
-          "ca": "Contenidor de reciclatge",
-          "fr": "Conteneur de recyclage",
-          "cs": "Recyklační kontejner"
+          "en": "Memorial plaque",
+          "ca": "Placa commemorativa",
+          "cs": "Pamětní deska",
+          "de": "Gedenktafel",
+          "fr": "Plaque commémorative"
         }
       },
       {
@@ -7244,113 +7430,37 @@
       {
         "if": {
           "and": [
-            "amenity=pharmacy",
-            "name="
+            "recycling_type=container",
+            "amenity=recycling"
           ]
         },
         "then": {
-          "en": "Pharmacy",
-          "de": "Apotheke",
-          "nl": "Apotheek",
-          "pa_PK": "فارمیسی",
-          "fr": "Pharmacie",
-          "ca": "Farmàcia",
-          "cs": "Lékárna"
-        }
-      },
-      {
-        "if": "amenity=pharmacy",
-        "then": {
-          "en": "{name}",
-          "de": "{name}",
-          "nl": "{name}",
-          "fr": "{name}",
-          "ca": "{name}",
-          "cs": "{name}"
+          "en": "Recycling container",
+          "nl": "Recyclingcontainer",
+          "de": "Recyclingcontainer",
+          "es": "Contenedor de reciclaje",
+          "it": "Contenitore per il riciclo",
+          "ca": "Contenidor de reciclatge",
+          "fr": "Conteneur de recyclage",
+          "cs": "Recyklační kontejner"
         }
       },
       {
         "if": {
           "and": [
-            "amenity=pharmacy",
-            "name="
+            "recycling_type=container",
+            "amenity=recycling"
           ]
         },
         "then": {
-          "en": "Pharmacy",
-          "de": "Apotheke",
-          "nl": "Apotheek",
-          "pa_PK": "فارمیسی",
-          "fr": "Pharmacie",
-          "ca": "Farmàcia",
-          "cs": "Lékárna"
-        }
-      },
-      {
-        "if": "amenity=pharmacy",
-        "then": {
-          "en": "{name}",
-          "de": "{name}",
-          "nl": "{name}",
-          "fr": "{name}",
-          "ca": "{name}",
-          "cs": "{name}"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "amenity=pharmacy",
-            "name="
-          ]
-        },
-        "then": {
-          "en": "Pharmacy",
-          "de": "Apotheke",
-          "nl": "Apotheek",
-          "pa_PK": "فارمیسی",
-          "fr": "Pharmacie",
-          "ca": "Farmàcia",
-          "cs": "Lékárna"
-        }
-      },
-      {
-        "if": "amenity=pharmacy",
-        "then": {
-          "en": "{name}",
-          "de": "{name}",
-          "nl": "{name}",
-          "fr": "{name}",
-          "ca": "{name}",
-          "cs": "{name}"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "amenity=pharmacy",
-            "name="
-          ]
-        },
-        "then": {
-          "en": "Pharmacy",
-          "de": "Apotheke",
-          "nl": "Apotheek",
-          "pa_PK": "فارمیسی",
-          "fr": "Pharmacie",
-          "ca": "Farmàcia",
-          "cs": "Lékárna"
-        }
-      },
-      {
-        "if": "amenity=pharmacy",
-        "then": {
-          "en": "{name}",
-          "de": "{name}",
-          "nl": "{name}",
-          "fr": "{name}",
-          "ca": "{name}",
-          "cs": "{name}"
+          "en": "Recycling container",
+          "nl": "Recyclingcontainer",
+          "de": "Recyclingcontainer",
+          "es": "Contenedor de reciclaje",
+          "it": "Contenitore per il riciclo",
+          "ca": "Contenidor de reciclatge",
+          "fr": "Conteneur de recyclage",
+          "cs": "Recyklační kontejner"
         }
       },
       {
@@ -7378,6 +7488,118 @@
       {
         "if": "amenity=bank",
         "then": "Bank"
+      },
+      {
+        "if": {
+          "and": [
+            "amenity=pharmacy",
+            "name="
+          ]
+        },
+        "then": {
+          "en": "Pharmacy",
+          "de": "Apotheke",
+          "nl": "Apotheek",
+          "pa_PK": "فارمیسی",
+          "fr": "Pharmacie",
+          "ca": "Farmàcia",
+          "cs": "Lékárna"
+        }
+      },
+      {
+        "if": "amenity=pharmacy",
+        "then": {
+          "en": "{name}",
+          "de": "{name}",
+          "nl": "{name}",
+          "fr": "{name}",
+          "ca": "{name}",
+          "cs": "{name}"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "amenity=pharmacy",
+            "name="
+          ]
+        },
+        "then": {
+          "en": "Pharmacy",
+          "de": "Apotheke",
+          "nl": "Apotheek",
+          "pa_PK": "فارمیسی",
+          "fr": "Pharmacie",
+          "ca": "Farmàcia",
+          "cs": "Lékárna"
+        }
+      },
+      {
+        "if": "amenity=pharmacy",
+        "then": {
+          "en": "{name}",
+          "de": "{name}",
+          "nl": "{name}",
+          "fr": "{name}",
+          "ca": "{name}",
+          "cs": "{name}"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "amenity=pharmacy",
+            "name="
+          ]
+        },
+        "then": {
+          "en": "Pharmacy",
+          "de": "Apotheke",
+          "nl": "Apotheek",
+          "pa_PK": "فارمیسی",
+          "fr": "Pharmacie",
+          "ca": "Farmàcia",
+          "cs": "Lékárna"
+        }
+      },
+      {
+        "if": "amenity=pharmacy",
+        "then": {
+          "en": "{name}",
+          "de": "{name}",
+          "nl": "{name}",
+          "fr": "{name}",
+          "ca": "{name}",
+          "cs": "{name}"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "amenity=pharmacy",
+            "name="
+          ]
+        },
+        "then": {
+          "en": "Pharmacy",
+          "de": "Apotheke",
+          "nl": "Apotheek",
+          "pa_PK": "فارمیسی",
+          "fr": "Pharmacie",
+          "ca": "Farmàcia",
+          "cs": "Lékárna"
+        }
+      },
+      {
+        "if": "amenity=pharmacy",
+        "then": {
+          "en": "{name}",
+          "de": "{name}",
+          "nl": "{name}",
+          "fr": "{name}",
+          "ca": "{name}",
+          "cs": "{name}"
+        }
       },
       {
         "if": {
@@ -7546,6 +7768,108 @@
         }
       },
       {
+        "if": "amenity=toilets",
+        "then": {
+          "en": "Toilet",
+          "de": "Toilette",
+          "fr": "Toilettes",
+          "nl": "Toilet",
+          "ru": "Туалет",
+          "it": "Servizi igienici",
+          "ca": "Lavabo",
+          "es": "Baño",
+          "da": "Toilet",
+          "pa_PK": "ٹوئیلٹ",
+          "cs": "Toaleta",
+          "sl": "Stranišče"
+        }
+      },
+      {
+        "if": "amenity=toilets",
+        "then": {
+          "en": "Toilet",
+          "de": "Toilette",
+          "fr": "Toilettes",
+          "nl": "Toilet",
+          "ru": "Туалет",
+          "it": "Servizi igienici",
+          "ca": "Lavabo",
+          "es": "Baño",
+          "da": "Toilet",
+          "pa_PK": "ٹوئیلٹ",
+          "cs": "Toaleta",
+          "sl": "Stranišče"
+        }
+      },
+      {
+        "if": "amenity=toilets",
+        "then": {
+          "en": "Toilet",
+          "de": "Toilette",
+          "fr": "Toilettes",
+          "nl": "Toilet",
+          "ru": "Туалет",
+          "it": "Servizi igienici",
+          "ca": "Lavabo",
+          "es": "Baño",
+          "da": "Toilet",
+          "pa_PK": "ٹوئیلٹ",
+          "cs": "Toaleta",
+          "sl": "Stranišče"
+        }
+      },
+      {
+        "if": "amenity=toilets",
+        "then": {
+          "en": "Toilet",
+          "de": "Toilette",
+          "fr": "Toilettes",
+          "nl": "Toilet",
+          "ru": "Туалет",
+          "it": "Servizi igienici",
+          "ca": "Lavabo",
+          "es": "Baño",
+          "da": "Toilet",
+          "pa_PK": "ٹوئیلٹ",
+          "cs": "Toaleta",
+          "sl": "Stranišče"
+        }
+      },
+      {
+        "if": "amenity=toilets",
+        "then": {
+          "en": "Toilet",
+          "de": "Toilette",
+          "fr": "Toilettes",
+          "nl": "Toilet",
+          "ru": "Туалет",
+          "it": "Servizi igienici",
+          "ca": "Lavabo",
+          "es": "Baño",
+          "da": "Toilet",
+          "pa_PK": "ٹوئیلٹ",
+          "cs": "Toaleta",
+          "sl": "Stranišče"
+        }
+      },
+      {
+        "if": "amenity=toilets",
+        "then": {
+          "en": "Toilet",
+          "de": "Toilette",
+          "fr": "Toilettes",
+          "nl": "Toilet",
+          "ru": "Туалет",
+          "it": "Servizi igienici",
+          "ca": "Lavabo",
+          "es": "Baño",
+          "da": "Toilet",
+          "pa_PK": "ٹوئیلٹ",
+          "cs": "Toaleta",
+          "sl": "Stranišče"
+        }
+      },
+      {
         "if": {
           "and": [
             "amenity=recycling",
@@ -7607,108 +7931,6 @@
           "ca": "Instal·lació de reciclatge",
           "fr": "Point de recyclage",
           "cs": "Recyklační zařízení"
-        }
-      },
-      {
-        "if": "amenity=toilets",
-        "then": {
-          "en": "Toilet",
-          "de": "Toilette",
-          "fr": "Toilettes",
-          "nl": "Toilet",
-          "ru": "Туалет",
-          "it": "Servizi igienici",
-          "ca": "Lavabo",
-          "es": "Baño",
-          "da": "Toilet",
-          "pa_PK": "ٹوئیلٹ",
-          "cs": "Toaleta",
-          "sl": "Stranišče"
-        }
-      },
-      {
-        "if": "amenity=toilets",
-        "then": {
-          "en": "Toilet",
-          "de": "Toilette",
-          "fr": "Toilettes",
-          "nl": "Toilet",
-          "ru": "Туалет",
-          "it": "Servizi igienici",
-          "ca": "Lavabo",
-          "es": "Baño",
-          "da": "Toilet",
-          "pa_PK": "ٹوئیلٹ",
-          "cs": "Toaleta",
-          "sl": "Stranišče"
-        }
-      },
-      {
-        "if": "amenity=toilets",
-        "then": {
-          "en": "Toilet",
-          "de": "Toilette",
-          "fr": "Toilettes",
-          "nl": "Toilet",
-          "ru": "Туалет",
-          "it": "Servizi igienici",
-          "ca": "Lavabo",
-          "es": "Baño",
-          "da": "Toilet",
-          "pa_PK": "ٹوئیلٹ",
-          "cs": "Toaleta",
-          "sl": "Stranišče"
-        }
-      },
-      {
-        "if": "amenity=toilets",
-        "then": {
-          "en": "Toilet",
-          "de": "Toilette",
-          "fr": "Toilettes",
-          "nl": "Toilet",
-          "ru": "Туалет",
-          "it": "Servizi igienici",
-          "ca": "Lavabo",
-          "es": "Baño",
-          "da": "Toilet",
-          "pa_PK": "ٹوئیلٹ",
-          "cs": "Toaleta",
-          "sl": "Stranišče"
-        }
-      },
-      {
-        "if": "amenity=toilets",
-        "then": {
-          "en": "Toilet",
-          "de": "Toilette",
-          "fr": "Toilettes",
-          "nl": "Toilet",
-          "ru": "Туалет",
-          "it": "Servizi igienici",
-          "ca": "Lavabo",
-          "es": "Baño",
-          "da": "Toilet",
-          "pa_PK": "ٹوئیلٹ",
-          "cs": "Toaleta",
-          "sl": "Stranišče"
-        }
-      },
-      {
-        "if": "amenity=toilets",
-        "then": {
-          "en": "Toilet",
-          "de": "Toilette",
-          "fr": "Toilettes",
-          "nl": "Toilet",
-          "ru": "Туалет",
-          "it": "Servizi igienici",
-          "ca": "Lavabo",
-          "es": "Baño",
-          "da": "Toilet",
-          "pa_PK": "ٹوئیلٹ",
-          "cs": "Toaleta",
-          "sl": "Stranišče"
         }
       },
       {
@@ -8197,32 +8419,6 @@
         }
       },
       {
-        "if": {
-          "and": [
-            "parking_space=charging",
-            "amenity=parking_space"
-          ]
-        },
-        "then": {
-          "en": "Electric Vehicle Charging Parking Space",
-          "nl": "Parkeerplek voor opladen van elektrische voertuigen",
-          "de": "Parkplatz zum Laden von Elektrofahrzeugen"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "parking_space=charging",
-            "amenity=parking_space"
-          ]
-        },
-        "then": {
-          "en": "Electric Vehicle Charging Parking Space",
-          "nl": "Parkeerplek voor opladen van elektrische voertuigen",
-          "de": "Parkplatz zum Laden von Elektrofahrzeugen"
-        }
-      },
-      {
         "if": "amenity=bicycle_parking",
         "then": {
           "en": "Bike parking",
@@ -8665,84 +8861,6 @@
         }
       },
       {
-        "if": {
-          "or": [
-            "name:etymology~.+",
-            "name:etymology:wikidata~.+"
-          ]
-        },
-        "then": {
-          "*": "{name}"
-        }
-      },
-      {
-        "if": {
-          "or": [
-            "name:etymology~.+",
-            "name:etymology:wikidata~.+"
-          ]
-        },
-        "then": {
-          "*": "{name}"
-        }
-      },
-      {
-        "if": "barrier=kerb",
-        "then": {
-          "en": "Kerb",
-          "nl": "Stoeprand",
-          "de": "Bordstein",
-          "fr": "Bordure",
-          "pa_PK": "کرب",
-          "ru": "Бордюр",
-          "pl": "Krawężnik",
-          "ca": "Vorada",
-          "cs": "Obrubník"
-        }
-      },
-      {
-        "if": "barrier=kerb",
-        "then": {
-          "en": "Kerb",
-          "nl": "Stoeprand",
-          "de": "Bordstein",
-          "fr": "Bordure",
-          "pa_PK": "کرب",
-          "ru": "Бордюр",
-          "pl": "Krawężnik",
-          "ca": "Vorada",
-          "cs": "Obrubník"
-        }
-      },
-      {
-        "if": "barrier=kerb",
-        "then": {
-          "en": "Kerb",
-          "nl": "Stoeprand",
-          "de": "Bordstein",
-          "fr": "Bordure",
-          "pa_PK": "کرب",
-          "ru": "Бордюр",
-          "pl": "Krawężnik",
-          "ca": "Vorada",
-          "cs": "Obrubník"
-        }
-      },
-      {
-        "if": "barrier=kerb",
-        "then": {
-          "en": "Kerb",
-          "nl": "Stoeprand",
-          "de": "Bordstein",
-          "fr": "Bordure",
-          "pa_PK": "کرب",
-          "ru": "Бордюр",
-          "pl": "Krawężnik",
-          "ca": "Vorada",
-          "cs": "Obrubník"
-        }
-      },
-      {
         "if": "amenity=school",
         "then": {
           "en": "School <i>{name}</i>",
@@ -8768,6 +8886,28 @@
       },
       {
         "if": {
+          "or": [
+            "name:etymology~.+",
+            "name:etymology:wikidata~.+"
+          ]
+        },
+        "then": {
+          "*": "{name}"
+        }
+      },
+      {
+        "if": {
+          "or": [
+            "name:etymology~.+",
+            "name:etymology:wikidata~.+"
+          ]
+        },
+        "then": {
+          "*": "{name}"
+        }
+      },
+      {
+        "if": {
           "and": [
             "amenity=restaurant",
             "name~.+"
@@ -8986,6 +9126,62 @@
           "pa_PK": "بھون آلہ",
           "pl": "Restauracja",
           "cs": "Restaurace"
+        }
+      },
+      {
+        "if": "barrier=kerb",
+        "then": {
+          "en": "Kerb",
+          "nl": "Stoeprand",
+          "de": "Bordstein",
+          "fr": "Bordure",
+          "pa_PK": "کرب",
+          "ru": "Бордюр",
+          "pl": "Krawężnik",
+          "ca": "Vorada",
+          "cs": "Obrubník"
+        }
+      },
+      {
+        "if": "barrier=kerb",
+        "then": {
+          "en": "Kerb",
+          "nl": "Stoeprand",
+          "de": "Bordstein",
+          "fr": "Bordure",
+          "pa_PK": "کرب",
+          "ru": "Бордюр",
+          "pl": "Krawężnik",
+          "ca": "Vorada",
+          "cs": "Obrubník"
+        }
+      },
+      {
+        "if": "barrier=kerb",
+        "then": {
+          "en": "Kerb",
+          "nl": "Stoeprand",
+          "de": "Bordstein",
+          "fr": "Bordure",
+          "pa_PK": "کرب",
+          "ru": "Бордюр",
+          "pl": "Krawężnik",
+          "ca": "Vorada",
+          "cs": "Obrubník"
+        }
+      },
+      {
+        "if": "barrier=kerb",
+        "then": {
+          "en": "Kerb",
+          "nl": "Stoeprand",
+          "de": "Bordstein",
+          "fr": "Bordure",
+          "pa_PK": "کرب",
+          "ru": "Бордюр",
+          "pl": "Krawężnik",
+          "ca": "Vorada",
+          "cs": "Obrubník"
         }
       },
       {
@@ -9052,26 +9248,6 @@
           "es": "Cruce con semáforos",
           "ca": "Creuament amb semàfors",
           "cs": "Přechod se světelnou signalizací"
-        }
-      },
-      {
-        "if": "highway=steps",
-        "then": {
-          "en": "Stairs",
-          "nl": "Trap",
-          "de": "Treppe",
-          "ca": "Escales",
-          "cs": "Schody"
-        }
-      },
-      {
-        "if": "highway=steps",
-        "then": {
-          "en": "Stairs",
-          "nl": "Trap",
-          "de": "Treppe",
-          "ca": "Escales",
-          "cs": "Schody"
         }
       },
       {
@@ -9097,105 +9273,23 @@
         }
       },
       {
-        "if": {
-          "and": [
-            "highway=cycleway",
-            "name~.+"
-          ]
-        },
+        "if": "highway=steps",
         "then": {
-          "nl": "Fietsweg {name}",
-          "en": "Cycleway {name}",
-          "de": "Radweg {name}",
-          "fr": "Piste cyclable {name}",
-          "ca": "Via ciclista {name}",
-          "cs": "Cyklostezka {name}",
-          "es": "Carril bici {name}"
+          "en": "Stairs",
+          "nl": "Trap",
+          "de": "Treppe",
+          "ca": "Escales",
+          "cs": "Schody"
         }
       },
       {
-        "if": {
-          "and": [
-            "highway=cycleway",
-            "name~.+"
-          ]
-        },
+        "if": "highway=steps",
         "then": {
-          "nl": "Fietsweg {name}",
-          "en": "Cycleway {name}",
-          "de": "Radweg {name}",
-          "fr": "Piste cyclable {name}",
-          "ca": "Via ciclista {name}",
-          "cs": "Cyklostezka {name}",
-          "es": "Carril bici {name}"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "highway=cycleway",
-            "name~.+"
-          ]
-        },
-        "then": {
-          "nl": "Fietsweg {name}",
-          "en": "Cycleway {name}",
-          "de": "Radweg {name}",
-          "fr": "Piste cyclable {name}",
-          "ca": "Via ciclista {name}",
-          "cs": "Cyklostezka {name}",
-          "es": "Carril bici {name}"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "highway=cycleway",
-            "name~.+"
-          ]
-        },
-        "then": {
-          "nl": "Fietsweg {name}",
-          "en": "Cycleway {name}",
-          "de": "Radweg {name}",
-          "fr": "Piste cyclable {name}",
-          "ca": "Via ciclista {name}",
-          "cs": "Cyklostezka {name}",
-          "es": "Carril bici {name}"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "highway=cycleway",
-            "name~.+"
-          ]
-        },
-        "then": {
-          "nl": "Fietsweg {name}",
-          "en": "Cycleway {name}",
-          "de": "Radweg {name}",
-          "fr": "Piste cyclable {name}",
-          "ca": "Via ciclista {name}",
-          "cs": "Cyklostezka {name}",
-          "es": "Carril bici {name}"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "highway=cycleway",
-            "name~.+"
-          ]
-        },
-        "then": {
-          "nl": "Fietsweg {name}",
-          "en": "Cycleway {name}",
-          "de": "Radweg {name}",
-          "fr": "Piste cyclable {name}",
-          "ca": "Via ciclista {name}",
-          "cs": "Cyklostezka {name}",
-          "es": "Carril bici {name}"
+          "en": "Stairs",
+          "nl": "Trap",
+          "de": "Treppe",
+          "ca": "Escales",
+          "cs": "Schody"
         }
       },
       {
@@ -9235,6 +9329,108 @@
           "ca": "Semàfor",
           "es": "Semáforo",
           "cs": "Semafor"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "highway=cycleway",
+            "name~.+"
+          ]
+        },
+        "then": {
+          "nl": "Fietsweg {name}",
+          "en": "Cycleway {name}",
+          "de": "Radweg {name}",
+          "fr": "Piste cyclable {name}",
+          "ca": "Via ciclista {name}",
+          "cs": "Cyklostezka {name}",
+          "es": "Carril bici {name}"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "highway=cycleway",
+            "name~.+"
+          ]
+        },
+        "then": {
+          "nl": "Fietsweg {name}",
+          "en": "Cycleway {name}",
+          "de": "Radweg {name}",
+          "fr": "Piste cyclable {name}",
+          "ca": "Via ciclista {name}",
+          "cs": "Cyklostezka {name}",
+          "es": "Carril bici {name}"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "highway=cycleway",
+            "name~.+"
+          ]
+        },
+        "then": {
+          "nl": "Fietsweg {name}",
+          "en": "Cycleway {name}",
+          "de": "Radweg {name}",
+          "fr": "Piste cyclable {name}",
+          "ca": "Via ciclista {name}",
+          "cs": "Cyklostezka {name}",
+          "es": "Carril bici {name}"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "highway=cycleway",
+            "name~.+"
+          ]
+        },
+        "then": {
+          "nl": "Fietsweg {name}",
+          "en": "Cycleway {name}",
+          "de": "Radweg {name}",
+          "fr": "Piste cyclable {name}",
+          "ca": "Via ciclista {name}",
+          "cs": "Cyklostezka {name}",
+          "es": "Carril bici {name}"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "highway=cycleway",
+            "name~.+"
+          ]
+        },
+        "then": {
+          "nl": "Fietsweg {name}",
+          "en": "Cycleway {name}",
+          "de": "Radweg {name}",
+          "fr": "Piste cyclable {name}",
+          "ca": "Via ciclista {name}",
+          "cs": "Cyklostezka {name}",
+          "es": "Carril bici {name}"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "highway=cycleway",
+            "name~.+"
+          ]
+        },
+        "then": {
+          "nl": "Fietsweg {name}",
+          "en": "Cycleway {name}",
+          "de": "Radweg {name}",
+          "fr": "Piste cyclable {name}",
+          "ca": "Via ciclista {name}",
+          "cs": "Cyklostezka {name}",
+          "es": "Carril bici {name}"
         }
       },
       {
@@ -9302,6 +9498,183 @@
         }
       },
       {
+        "if": "leisure=pitch",
+        "then": {
+          "nl": "Sportterrein",
+          "fr": "Terrain de sport",
+          "en": "Sport pitch",
+          "ru": "Спортивная площадка",
+          "it": "Campo sportivo",
+          "de": "Sportplatz",
+          "ca": "Camp d'esports",
+          "es": "Pista de deportes",
+          "cs": "Sportovní hřiště"
+        }
+      },
+      {
+        "if": "leisure=pitch",
+        "then": {
+          "nl": "Sportterrein",
+          "fr": "Terrain de sport",
+          "en": "Sport pitch",
+          "ru": "Спортивная площадка",
+          "it": "Campo sportivo",
+          "de": "Sportplatz",
+          "ca": "Camp d'esports",
+          "es": "Pista de deportes",
+          "cs": "Sportovní hřiště"
+        }
+      },
+      {
+        "if": "leisure=pitch",
+        "then": {
+          "nl": "Sportterrein",
+          "fr": "Terrain de sport",
+          "en": "Sport pitch",
+          "ru": "Спортивная площадка",
+          "it": "Campo sportivo",
+          "de": "Sportplatz",
+          "ca": "Camp d'esports",
+          "es": "Pista de deportes",
+          "cs": "Sportovní hřiště"
+        }
+      },
+      {
+        "if": "amenity=bench",
+        "then": {
+          "en": "Bench",
+          "de": "Sitzbank",
+          "fr": "Banc",
+          "nl": "Zitbank",
+          "es": "Banco",
+          "hu": "Pad",
+          "id": "Bangku",
+          "it": "Panchina",
+          "ru": "Скамейка",
+          "zh_Hans": "长椅",
+          "zh_Hant": "長椅",
+          "nb_NO": "Benk",
+          "fi": "Penkki",
+          "pl": "Ławka",
+          "pt_BR": "Banco",
+          "pt": "Banco",
+          "ca": "Banc",
+          "da": "Bænk",
+          "cs": "Lavička",
+          "pa_PK": "بینچ",
+          "he": "ספסל",
+          "eu": "Bankua"
+        }
+      },
+      {
+        "if": "amenity=bench",
+        "then": {
+          "en": "Bench",
+          "de": "Sitzbank",
+          "fr": "Banc",
+          "nl": "Zitbank",
+          "es": "Banco",
+          "hu": "Pad",
+          "id": "Bangku",
+          "it": "Panchina",
+          "ru": "Скамейка",
+          "zh_Hans": "长椅",
+          "zh_Hant": "長椅",
+          "nb_NO": "Benk",
+          "fi": "Penkki",
+          "pl": "Ławka",
+          "pt_BR": "Banco",
+          "pt": "Banco",
+          "ca": "Banc",
+          "da": "Bænk",
+          "cs": "Lavička",
+          "pa_PK": "بینچ",
+          "he": "ספסל",
+          "eu": "Bankua"
+        }
+      },
+      {
+        "if": "amenity=bench",
+        "then": {
+          "en": "Bench",
+          "de": "Sitzbank",
+          "fr": "Banc",
+          "nl": "Zitbank",
+          "es": "Banco",
+          "hu": "Pad",
+          "id": "Bangku",
+          "it": "Panchina",
+          "ru": "Скамейка",
+          "zh_Hans": "长椅",
+          "zh_Hant": "長椅",
+          "nb_NO": "Benk",
+          "fi": "Penkki",
+          "pl": "Ławka",
+          "pt_BR": "Banco",
+          "pt": "Banco",
+          "ca": "Banc",
+          "da": "Bænk",
+          "cs": "Lavička",
+          "pa_PK": "بینچ",
+          "he": "ספסל",
+          "eu": "Bankua"
+        }
+      },
+      {
+        "if": "amenity=bench",
+        "then": {
+          "en": "Bench",
+          "de": "Sitzbank",
+          "fr": "Banc",
+          "nl": "Zitbank",
+          "es": "Banco",
+          "hu": "Pad",
+          "id": "Bangku",
+          "it": "Panchina",
+          "ru": "Скамейка",
+          "zh_Hans": "长椅",
+          "zh_Hant": "長椅",
+          "nb_NO": "Benk",
+          "fi": "Penkki",
+          "pl": "Ławka",
+          "pt_BR": "Banco",
+          "pt": "Banco",
+          "ca": "Banc",
+          "da": "Bænk",
+          "cs": "Lavička",
+          "pa_PK": "بینچ",
+          "he": "ספסל",
+          "eu": "Bankua"
+        }
+      },
+      {
+        "if": "amenity=bench",
+        "then": {
+          "en": "Bench",
+          "de": "Sitzbank",
+          "fr": "Banc",
+          "nl": "Zitbank",
+          "es": "Banco",
+          "hu": "Pad",
+          "id": "Bangku",
+          "it": "Panchina",
+          "ru": "Скамейка",
+          "zh_Hans": "长椅",
+          "zh_Hant": "長椅",
+          "nb_NO": "Benk",
+          "fi": "Penkki",
+          "pl": "Ławka",
+          "pt_BR": "Banco",
+          "pt": "Banco",
+          "ca": "Banc",
+          "da": "Bænk",
+          "cs": "Lavička",
+          "pa_PK": "بینچ",
+          "he": "ספסל",
+          "eu": "Bankua"
+        }
+      },
+      {
         "if": "amenity=parking_space",
         "then": {
           "en": "Parking Space",
@@ -9322,229 +9695,6 @@
         }
       },
       {
-        "if": "leisure=pitch",
-        "then": {
-          "nl": "Sportterrein",
-          "fr": "Terrain de sport",
-          "en": "Sport pitch",
-          "ru": "Спортивная площадка",
-          "it": "Campo sportivo",
-          "de": "Sportplatz",
-          "ca": "Camp d'esports",
-          "es": "Pista de deportes",
-          "cs": "Sportovní hřiště"
-        }
-      },
-      {
-        "if": "leisure=pitch",
-        "then": {
-          "nl": "Sportterrein",
-          "fr": "Terrain de sport",
-          "en": "Sport pitch",
-          "ru": "Спортивная площадка",
-          "it": "Campo sportivo",
-          "de": "Sportplatz",
-          "ca": "Camp d'esports",
-          "es": "Pista de deportes",
-          "cs": "Sportovní hřiště"
-        }
-      },
-      {
-        "if": "leisure=pitch",
-        "then": {
-          "nl": "Sportterrein",
-          "fr": "Terrain de sport",
-          "en": "Sport pitch",
-          "ru": "Спортивная площадка",
-          "it": "Campo sportivo",
-          "de": "Sportplatz",
-          "ca": "Camp d'esports",
-          "es": "Pista de deportes",
-          "cs": "Sportovní hřiště"
-        }
-      },
-      {
-        "if": "amenity=bench",
-        "then": {
-          "en": "Bench",
-          "de": "Sitzbank",
-          "fr": "Banc",
-          "nl": "Zitbank",
-          "es": "Banco",
-          "hu": "Pad",
-          "id": "Bangku",
-          "it": "Panchina",
-          "ru": "Скамейка",
-          "zh_Hans": "长椅",
-          "zh_Hant": "長椅",
-          "nb_NO": "Benk",
-          "fi": "Penkki",
-          "pl": "Ławka",
-          "pt_BR": "Banco",
-          "pt": "Banco",
-          "ca": "Banc",
-          "da": "Bænk",
-          "cs": "Lavička",
-          "pa_PK": "بینچ",
-          "he": "ספסל",
-          "eu": "Bankua"
-        }
-      },
-      {
-        "if": "amenity=bench",
-        "then": {
-          "en": "Bench",
-          "de": "Sitzbank",
-          "fr": "Banc",
-          "nl": "Zitbank",
-          "es": "Banco",
-          "hu": "Pad",
-          "id": "Bangku",
-          "it": "Panchina",
-          "ru": "Скамейка",
-          "zh_Hans": "长椅",
-          "zh_Hant": "長椅",
-          "nb_NO": "Benk",
-          "fi": "Penkki",
-          "pl": "Ławka",
-          "pt_BR": "Banco",
-          "pt": "Banco",
-          "ca": "Banc",
-          "da": "Bænk",
-          "cs": "Lavička",
-          "pa_PK": "بینچ",
-          "he": "ספסל",
-          "eu": "Bankua"
-        }
-      },
-      {
-        "if": "amenity=bench",
-        "then": {
-          "en": "Bench",
-          "de": "Sitzbank",
-          "fr": "Banc",
-          "nl": "Zitbank",
-          "es": "Banco",
-          "hu": "Pad",
-          "id": "Bangku",
-          "it": "Panchina",
-          "ru": "Скамейка",
-          "zh_Hans": "长椅",
-          "zh_Hant": "長椅",
-          "nb_NO": "Benk",
-          "fi": "Penkki",
-          "pl": "Ławka",
-          "pt_BR": "Banco",
-          "pt": "Banco",
-          "ca": "Banc",
-          "da": "Bænk",
-          "cs": "Lavička",
-          "pa_PK": "بینچ",
-          "he": "ספסל",
-          "eu": "Bankua"
-        }
-      },
-      {
-        "if": "amenity=bench",
-        "then": {
-          "en": "Bench",
-          "de": "Sitzbank",
-          "fr": "Banc",
-          "nl": "Zitbank",
-          "es": "Banco",
-          "hu": "Pad",
-          "id": "Bangku",
-          "it": "Panchina",
-          "ru": "Скамейка",
-          "zh_Hans": "长椅",
-          "zh_Hant": "長椅",
-          "nb_NO": "Benk",
-          "fi": "Penkki",
-          "pl": "Ławka",
-          "pt_BR": "Banco",
-          "pt": "Banco",
-          "ca": "Banc",
-          "da": "Bænk",
-          "cs": "Lavička",
-          "pa_PK": "بینچ",
-          "he": "ספסל",
-          "eu": "Bankua"
-        }
-      },
-      {
-        "if": "amenity=bench",
-        "then": {
-          "en": "Bench",
-          "de": "Sitzbank",
-          "fr": "Banc",
-          "nl": "Zitbank",
-          "es": "Banco",
-          "hu": "Pad",
-          "id": "Bangku",
-          "it": "Panchina",
-          "ru": "Скамейка",
-          "zh_Hans": "长椅",
-          "zh_Hant": "長椅",
-          "nb_NO": "Benk",
-          "fi": "Penkki",
-          "pl": "Ławka",
-          "pt_BR": "Banco",
-          "pt": "Banco",
-          "ca": "Banc",
-          "da": "Bænk",
-          "cs": "Lavička",
-          "pa_PK": "بینچ",
-          "he": "ספסל",
-          "eu": "Bankua"
-        }
-      },
-      {
-        "if": "emergency=assembly_point",
-        "then": {
-          "en": "Assembly point during emergencies",
-          "de": "Sammelplatz bei Notfällen"
-        }
-      },
-      {
-        "if": "emergency=disaster_response",
-        "then": {
-          "en": "Disaster response organization",
-          "it": "Organizzazione per la risposta ai disastri",
-          "de": "Katastrophenschutzorganisation"
-        }
-      },
-      {
-        "if": "emergency=assembly_point",
-        "then": {
-          "en": "Assembly point during emergencies",
-          "de": "Sammelplatz bei Notfällen"
-        }
-      },
-      {
-        "if": "emergency=disaster_response",
-        "then": {
-          "en": "Disaster response organization",
-          "it": "Organizzazione per la risposta ai disastri",
-          "de": "Katastrophenschutzorganisation"
-        }
-      },
-      {
-        "if": "emergency=mountain_rescue",
-        "then": {
-          "en": "Mountain rescue station",
-          "de": "Bergrettungsstation",
-          "fr": "Poste de secours en montagne"
-        }
-      },
-      {
-        "if": "emergency=mountain_rescue",
-        "then": {
-          "en": "Mountain rescue station",
-          "de": "Bergrettungsstation",
-          "fr": "Poste de secours en montagne"
-        }
-      },
-      {
         "if": {
           "and": [
             "highway=bus_stop",
@@ -9623,69 +9773,6 @@
           "nl": "Bushalte",
           "ca": "Parada de transport públic",
           "cs": "Tranzitní zastávka"
-        }
-      },
-      {
-        "if": {
-          "or": [
-            "indoor=door",
-            "door~.+",
-            "entrance~.+"
-          ]
-        },
-        "then": {
-          "en": "Entrance",
-          "nl": "Ingang",
-          "ca": "Entrada",
-          "da": "Indgang",
-          "de": "Eingang",
-          "es": "Entrada",
-          "fr": "Entrée",
-          "pa_PK": "دروازہ",
-          "pl": "Wejście",
-          "cs": "Vchod"
-        }
-      },
-      {
-        "if": {
-          "or": [
-            "indoor=door",
-            "door~.+",
-            "entrance~.+"
-          ]
-        },
-        "then": {
-          "en": "Entrance",
-          "nl": "Ingang",
-          "ca": "Entrada",
-          "da": "Indgang",
-          "de": "Eingang",
-          "es": "Entrada",
-          "fr": "Entrée",
-          "pa_PK": "دروازہ",
-          "pl": "Wejście",
-          "cs": "Vchod"
-        }
-      },
-      {
-        "if": {
-          "or": [
-            "indoor=door",
-            "door~.+",
-            "entrance~.+"
-          ]
-        },
-        "then": {
-          "en": "Entrance",
-          "nl": "Ingang",
-          "ca": "Entrada",
-          "da": "Indgang",
-          "de": "Eingang",
-          "es": "Entrada",
-          "fr": "Entrée",
-          "pa_PK": "دروازہ",
-          "pl": "Wejście",
-          "cs": "Vchod"
         }
       },
       {
@@ -9740,6 +9827,69 @@
           "es": "Lámpara Callejera",
           "ca": "Fanal",
           "cs": "Pouliční lampa"
+        }
+      },
+      {
+        "if": {
+          "or": [
+            "indoor=door",
+            "door~.+",
+            "entrance~.+"
+          ]
+        },
+        "then": {
+          "en": "Entrance",
+          "nl": "Ingang",
+          "ca": "Entrada",
+          "da": "Indgang",
+          "de": "Eingang",
+          "es": "Entrada",
+          "fr": "Entrée",
+          "pa_PK": "دروازہ",
+          "pl": "Wejście",
+          "cs": "Vchod"
+        }
+      },
+      {
+        "if": {
+          "or": [
+            "indoor=door",
+            "door~.+",
+            "entrance~.+"
+          ]
+        },
+        "then": {
+          "en": "Entrance",
+          "nl": "Ingang",
+          "ca": "Entrada",
+          "da": "Indgang",
+          "de": "Eingang",
+          "es": "Entrada",
+          "fr": "Entrée",
+          "pa_PK": "دروازہ",
+          "pl": "Wejście",
+          "cs": "Vchod"
+        }
+      },
+      {
+        "if": {
+          "or": [
+            "indoor=door",
+            "door~.+",
+            "entrance~.+"
+          ]
+        },
+        "then": {
+          "en": "Entrance",
+          "nl": "Ingang",
+          "ca": "Entrada",
+          "da": "Indgang",
+          "de": "Eingang",
+          "es": "Entrada",
+          "fr": "Entrée",
+          "pa_PK": "دروازہ",
+          "pl": "Wejście",
+          "cs": "Vchod"
         }
       },
       {
@@ -10463,54 +10613,6 @@
       },
       {
         "if": {
-          "and": [
-            "leisure=outdoor_seating",
-            "name~.+"
-          ]
-        },
-        "then": "{name}"
-      },
-      {
-        "if": "leisure=outdoor_seating",
-        "then": {
-          "en": "Outdoor Seating area",
-          "de": "Sitzbereich im Freien"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "leisure=outdoor_seating",
-            "name~.+"
-          ]
-        },
-        "then": "{name}"
-      },
-      {
-        "if": "leisure=outdoor_seating",
-        "then": {
-          "en": "Outdoor Seating area",
-          "de": "Sitzbereich im Freien"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "leisure=outdoor_seating",
-            "name~.+"
-          ]
-        },
-        "then": "{name}"
-      },
-      {
-        "if": "leisure=outdoor_seating",
-        "then": {
-          "en": "Outdoor Seating area",
-          "de": "Sitzbereich im Freien"
-        }
-      },
-      {
-        "if": {
           "or": [
             "highway=cycleway",
             {
@@ -10833,82 +10935,6 @@
           "da": "Træ",
           "pt": "Árvore",
           "cs": "Strom"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "amenity=food_court",
-            "name~.+"
-          ]
-        },
-        "then": "{name}"
-      },
-      {
-        "if": "amenity=food_court",
-        "then": {
-          "en": "Food Court",
-          "de": "Food Court"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "amenity=food_court",
-            "name~.+"
-          ]
-        },
-        "then": "{name}"
-      },
-      {
-        "if": "amenity=food_court",
-        "then": {
-          "en": "Food Court",
-          "de": "Food Court"
-        }
-      },
-      {
-        "if": "amenity=love_hotel",
-        "then": {
-          "en": "Love Hotel <i>{name}</i>",
-          "de": "Love Hotel <i>{name}</i>"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "amenity=food_court",
-            "name~.+"
-          ]
-        },
-        "then": "{name}"
-      },
-      {
-        "if": "amenity=food_court",
-        "then": {
-          "en": "Food Court",
-          "de": "Food Court"
-        }
-      },
-      {
-        "if": "amenity=love_hotel",
-        "then": {
-          "en": "Love Hotel <i>{name}</i>",
-          "de": "Love Hotel <i>{name}</i>"
-        }
-      },
-      {
-        "if": "amenity=trolley_bay",
-        "then": {
-          "en": "Trolley Bay",
-          "de": "Einkaufswagenbucht"
-        }
-      },
-      {
-        "if": "amenity=trolley_bay",
-        "then": {
-          "en": "Trolley Bay",
-          "de": "Einkaufswagenbucht"
         }
       },
       {
@@ -11655,32 +11681,6 @@
           "da": "Mur eller bygning",
           "ca": "Paret o edifici",
           "cs": "Zeď nebo budova"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "aerialway~.+",
-            "aerialway!=pylon",
-            "aerialway!=station"
-          ]
-        },
-        "then": {
-          "en": "Aerialway {name}",
-          "de": "Seilbahn {name}"
-        }
-      },
-      {
-        "if": {
-          "and": [
-            "aerialway~.+",
-            "aerialway!=pylon",
-            "aerialway!=station"
-          ]
-        },
-        "then": {
-          "en": "Aerialway {name}",
-          "de": "Seilbahn {name}"
         }
       },
       {
@@ -19097,7 +19097,10 @@
       },
       "freeform": {
         "key": "brand",
-        "type": "string",
+        "type": "nsi",
+        "helperArgs": [
+          "amenity=atm"
+        ],
         "placeholder": {
           "en": "Brand name",
           "de": "Markenname",
@@ -19851,6 +19854,33 @@
           "post_office=post_partner",
           "post_office=post_partner"
         ]
+      }
+    },
+    {
+      "id": "post_offic_brand",
+      "condition": {
+        "or": [
+          "amenity=post_office",
+          "amenity=post_office",
+          "amenity=post_office"
+        ]
+      },
+      "question": {
+        "en": "To which brand does this post office belong?"
+      },
+      "render": {
+        "en": "This is a {brand} post office"
+      },
+      "freeform": {
+        "type": "nsi",
+        "key": "brand",
+        "placeholder": {
+          "en": "Brand of the post office"
+        },
+        "helperArgs": [
+          "amenity=post_office"
+        ],
+        "inline": true
       }
     },
     {
@@ -31338,6 +31368,7 @@
       }
     },
     {
+      "id": "public_bookcase-brand",
       "question": {
         "en": "Is this public bookcase part of a bigger network?",
         "nl": "Is dit boekenruilkastje deel van een netwerk?",
@@ -31366,52 +31397,33 @@
       },
       "freeform": {
         "key": "brand",
+        "placeholder": {
+          "en": "Name of the network"
+        },
+        "addExtraTags": [
+          "nobrand="
+        ],
         "inline": true
       },
       "mappings": [
         {
-          "then": {
-            "en": "Part of the network 'Little Free Library'",
-            "nl": "Deel van het netwerk 'Little Free Library'",
-            "de": "Der Bücherschrank gehört zum Netzwerk 'Little Free Library'",
-            "fr": "Fait partie du réseau Little Free Library",
-            "it": "Fa parte della rete 'Little Free Library'",
-            "hu": "A „Little Free Library” hálózat része",
-            "es": "Parte de la red 'Little Free Library'",
-            "pl": "Część sieci \"Little Free Library\"",
-            "ca": "Part de la xarxa 'Little Free Library'",
-            "cs": "Součást sítě 'Little Free Library'"
-          },
-          "if": {
-            "and": [
-              "brand=Little Free Library",
-              "nobrand="
-            ]
-          },
-          "addExtraTags": [
-            "brand:wikidata=Q6650101"
-          ]
-        },
-        {
-          "if": {
-            "and": [
-              "nobrand=yes",
-              "brand="
-            ]
-          },
+          "if": "nobrand=yes",
           "then": {
             "en": "This public bookcase is not part of a bigger network",
             "nl": "Dit boekenruilkastje maakt geen deel uit van een netwerk",
             "de": "Der Bücherschrank gehört zu keinem Netzwerk",
             "fr": "Cette microbibliothèque ne fait pas partie d'un réseau/groupe",
-            "it": "Questa biblioteca pubblica non fa parte di una rete",
+            "it": "Fa parte della rete 'Little Free Library'",
             "hu": "Ez a nyilvános könyvespolc nem része egy nagyobb hálózatnak",
             "ca": "Aquesta prestatgeria pública no és part d'una xarxa més gran",
             "cs": "Tato veřejná knihobudka není součástí větší sítě"
-          }
+          },
+          "addExtraTags": [
+            "brand:wikidata=",
+            "brand="
+          ]
         }
-      ],
-      "id": "public_bookcase-brand"
+      ]
     },
     {
       "render": {
@@ -65017,6 +65029,43 @@
       "invalidValues": "shop=yes"
     },
     {
+      "id": "shops_brand",
+      "question": {
+        "en": "What is the brand of this shop?"
+      },
+      "render": {
+        "en": "Part of <b>{brand}</b>"
+      },
+      "freeform": {
+        "key": "brand",
+        "inline": true
+      },
+      "mappings": [
+        {
+          "if": "not:brand=yes",
+          "then": {
+            "en": "This shop does not have a specific brand, it is not part of a bigger chain"
+          }
+        }
+      ],
+      "condition": {
+        "and": [
+          {
+            "and": [
+              {
+                "or": [
+                  "shop~*",
+                  "craft=shoe_repair",
+                  "craft=key_cutter"
+                ]
+              },
+              "shop!=mall"
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": "second_hand",
       "question": {
         "en": "Does this shop sell second-hand items?",
@@ -84150,7 +84199,10 @@
       },
       "freeform": {
         "key": "brand",
-        "type": "string",
+        "type": "nsi",
+        "helperArgs": [
+          "amenity=parcel_locker"
+        ],
         "placeholder": {
           "en": "Brand",
           "de": "Marke",
@@ -84162,71 +84214,6 @@
         },
         "inline": true
       },
-      "mappings": [
-        {
-          "if": "brand=Amazon Locker",
-          "then": {
-            "en": "This is an Amazon Locker",
-            "de": "Dies ist ein Amazon Locker",
-            "nl": "Dit is een Amazon Locker",
-            "ca": "Açò és un Amazon Locker",
-            "fr": "C'est un Amazon Locker",
-            "pl": "To jest paczkomat Amazonu",
-            "cs": "Toto je Amazon Locker"
-          },
-          "addExtraTags": [
-            "brand:wikidata=Q16974764",
-            "brand:wikipedia=en:Amazon Locker",
-            "operator=Amazon"
-          ]
-        },
-        {
-          "if": "brand=DHL Packstation",
-          "then": {
-            "en": "This is a DHL Packstation",
-            "de": "Dies ist eine DHL-Packstation",
-            "nl": "Dit is een DHL Packstation",
-            "ca": "Açò és un DHL Packstation",
-            "cs": "Toto je DHL Packstation"
-          },
-          "addExtraTags": [
-            "brand:wikidata=Q1766703",
-            "brand:wikipedia=de:Packstation",
-            "operator=DHL"
-          ],
-          "hideInAnswer": "_country!=de"
-        },
-        {
-          "if": "brand=Pickup Station",
-          "then": {
-            "en": "This is a DPD Pickup Station",
-            "de": "Dies ist eine DPD Pickup Station",
-            "nl": "Dit is een DPD Pickup Station",
-            "fr": "C'est une DPD Pickup Station",
-            "cs": "Toto je DPD Pickup Station"
-          },
-          "addExtraTags": [
-            "operator=DPD"
-          ],
-          "hideInAnswer": "_country!=pl"
-        },
-        {
-          "if": "brand=PostNL",
-          "then": {
-            "en": "This is a PostNL Parcel Locker",
-            "nl": "Dit is een PostNL pakketautomaat",
-            "de": "Dies ist ein PostNL-Paketschließfach",
-            "ca": "Açò és una bústia intel·ligent de PostNL",
-            "fr": "C'est un PostNL Parcel Locker",
-            "pl": "To jest paczkomat PostNL",
-            "cs": "Toto je PostNL Parcel Locker"
-          },
-          "addExtraTags": [
-            "operator=PostNL"
-          ],
-          "hideInAnswer": "_country!=nl"
-        }
-      ],
       "render": {
         "en": "This is a {brand} parcel locker",
         "de": "Dies ist ein Paketschließfach von {brand}",
@@ -86921,8 +86908,8 @@
               "piste:type=connection"
             ]
           },
-          "area!=yes",
-          "piste:type!=connection"
+          "piste:type!=connection",
+          "area!=yes"
         ]
       },
       "mappings": [

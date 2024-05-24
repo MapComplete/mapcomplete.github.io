@@ -6811,20 +6811,6 @@
                 "freeform": {
                     "placeholder": "Brand"
                 },
-                "mappings": {
-                    "0": {
-                        "then": "This is an Amazon Locker"
-                    },
-                    "1": {
-                        "then": "This is a DHL Packstation"
-                    },
-                    "2": {
-                        "then": "This is a DPD Pickup Station"
-                    },
-                    "3": {
-                        "then": "This is a PostNL Parcel Locker"
-                    }
-                },
                 "question": "What is the brand of the parcel locker?",
                 "render": "This is a {brand} parcel locker"
             },
@@ -7545,6 +7531,13 @@
                 "question": "For which brand does this location offer services?",
                 "render": "This location offers services for {post_office:brand}"
             },
+            "post_offic_brand": {
+                "freeform": {
+                    "placeholder": "Brand of the post office"
+                },
+                "question": "To which brand does this post office belong?",
+                "render": "This is a {brand} post office"
+            },
             "post_partner": {
                 "mappings": {
                     "0": {
@@ -7657,11 +7650,11 @@
                 "question": "Is this bookcase located outdoors?"
             },
             "public_bookcase-brand": {
+                "freeform": {
+                    "placeholder": "Name of the network"
+                },
                 "mappings": {
                     "0": {
-                        "then": "Part of the network 'Little Free Library'"
-                    },
-                    "1": {
                         "then": "This public bookcase is not part of a bigger network"
                     }
                 },
@@ -8746,6 +8739,15 @@
             }
         },
         "tagRenderings": {
+            "brand": {
+                "mappings": {
+                    "0": {
+                        "then": "This shop does not have a specific brand, it is not part of a bigger chain"
+                    }
+                },
+                "question": "What is the brand of this shop?",
+                "render": "Part of <b>{brand}</b>"
+            },
             "copyshop-print-sizes": {
                 "mappings": {
                     "0": {

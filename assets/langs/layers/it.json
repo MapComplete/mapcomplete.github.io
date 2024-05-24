@@ -2011,9 +2011,6 @@
                 "mappings": {
                     "0": {
                         "then": "Fa parte della rete 'Little Free Library'"
-                    },
-                    "1": {
-                        "then": "Questa biblioteca pubblica non fa parte di una rete"
                     }
                 },
                 "question": "Questa microbiblioteca fa parte di una rete?",
