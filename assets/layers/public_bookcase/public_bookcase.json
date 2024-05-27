@@ -399,7 +399,8 @@
       "freeform": {
         "key": "brand",
         "placeholder": {
-          "en": "Name of the network"
+          "en": "Name of the network",
+          "de": "Name des Netzwerks"
         },
         "addExtraTags": [
           "nobrand="

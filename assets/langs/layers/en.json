@@ -914,7 +914,7 @@
                         "then": "This bench does not have an inscription"
                     },
                     "1": {
-                        "then": "This bench <span class='subtle'>(probably)</span> does not not have an inscription"
+                        "then": "This bench <span class='subtle'>probably</span> does not not have an inscription"
                     }
                 },
                 "question": "Does this bench have an inscription?",
@@ -5967,6 +5967,28 @@
                     "then": "Add a new point"
                 }
             }
+        }
+    },
+    "lighthouse": {
+        "name": "lighthouse",
+        "presets": {
+            "0": {
+                "title": "a lighthouse"
+            }
+        },
+        "tagRenderings": {
+            "lighthouse-height": {
+                "question": "What is the height of this lighthouse, in metres?",
+                "render": "The height of this lighthouse is {height} metres."
+            }
+        },
+        "title": {
+            "mappings": {
+                "0": {
+                    "then": "{name}"
+                }
+            },
+            "render": "lighthouse"
         }
     },
     "love_hotel": {

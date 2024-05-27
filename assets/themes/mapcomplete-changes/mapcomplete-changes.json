@@ -298,6 +298,10 @@
                     "then": "./assets/layers/kerbs/KerbIcon.svg"
                   },
                   {
+                    "if": "theme=lighthouses",
+                    "then": "./assets/themes/lighthouses/lighthouse.svg"
+                  },
+                  {
                     "if": "theme=mapcomplete-changes",
                     "then": "./assets/svg/logo.svg"
                   },
