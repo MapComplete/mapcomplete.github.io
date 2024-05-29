@@ -6301,8 +6301,8 @@
                         "then": "This memorial does not have an inscription"
                     }
                 },
-                "question": "What is the inscription of this plaque?",
-                "render": "The inscription on this plaque reads: <p><i>{inscription}<i></p>"
+                "question": "What is the inscription on this memorial?",
+                "render": "The inscription on this memorial reads: <p><i>{inscription}<i></p>"
             },
             "memorial-type": {
                 "mappings": {

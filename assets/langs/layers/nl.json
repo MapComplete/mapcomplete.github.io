@@ -5314,7 +5314,46 @@
         }
     },
     "memorial": {
+        "name": "Gedenktekens",
+        "presets": {
+            "0": {
+                "title": "een gedenkteken"
+            }
+        },
         "tagRenderings": {
+            "inscription": {
+                "mappings": {
+                    "0": {
+                        "then": "Dit gedenkteken heeft geen opschrift"
+                    }
+                },
+                "question": "Wat is het opschrift van dit gedenkteken?"
+            },
+            "memorial-type": {
+                "mappings": {
+                    "0": {
+                        "then": "Dit is een standbeeld"
+                    },
+                    "2": {
+                        "then": "Dit is een zitbank die ook als herdenking dienst doet"
+                    },
+                    "3": {
+                        "then": "Dit is een witte fiets of spookfiets - een witgeschilderede fiets die een omgekomen fietsen herdenkt"
+                    },
+                    "4": {
+                        "then": "Dit is een struikelsteen (stolperstein)"
+                    },
+                    "8": {
+                        "then": "Dit is een sculptuur"
+                    },
+                    "10": {
+                        "then": "Dit is een kruis"
+                    },
+                    "12": {
+                        "then": "Dit is een historische tank, permanent in de publieke ruimte geplaatst als gedenkteken"
+                    }
+                }
+            },
             "start_date": {
                 "render": "Geplaatst op {start_date}"
             }
@@ -7839,6 +7878,11 @@
             "render": "Straatlantaarn"
         }
     },
+    "summary": {
+        "title": {
+            "render": "Samenvatting"
+        }
+    },
     "surveillance_camera": {
         "description": "Deze laag toont bewakingscamera's en laat toe om de informatie te verrijken en om nieuwe camera\"s toe te voegen",
         "name": "Bewakingscamera's",
@@ -8881,6 +8925,7 @@
             },
             "mangrove-key-import": {
                 "render": {
+                    "after": "Een private sleutel uploaden overschrijft je huidige private sleutel. Indien je beoordelingen maakte met je huidige private sleutel, download deze dan eerst",
                     "special": {
                         "text": "Herstel een Mangrove Private sleutel van backup"
                     }
@@ -8891,6 +8936,25 @@
                     "after": "Iedereen die dit bestand bezit, kan met jouw identiteit wijzigingen maken",
                     "special": {
                         "text": "Download de private sleutel van je Mangrove-account"
+                    }
+                }
+            },
+            "more_privacy": {
+                "mappings": {
+                    "0": {
+                        "then": "Geef niet aan hoever je je van de gewijzigde objecten bevindt wanneer je wijzigingen maakt met MapComplete."
+                    },
+                    "1": {
+                        "then": "Geef aan hoever je je ongeveer bevindt ten opzichte van objecten die je wijzigt in OpenStreetMap. Dit helpt andere bijdagers te begrijpen welke wijzigingen je waarom maakt."
+                    }
+                },
+                "question": "Mag er opgeslaan worden hoever je je van een object bevindt wanneer je aanpassingen maakt aan dit object?",
+                "questionHint": "Wanneer je een wijziging maakt aan één of meer interessepunten en als MapComplete toont waar je bent, dan kan opgeslaan worden hoever je je ongeveer van deze objecten bevindt. Er wordt aangeduid of je dichter dan 25m, 500m, 5km of verder dan 5km was. Dit helpt om andere bijdragers te begrijpen hoe je je bijdragen deed, maar geeft natuurlijk ook aan waar je op dat moment was. "
+            },
+            "more_privacy_theme_override": {
+                "mappings": {
+                    "0": {
+                        "then": "Dit thema ligt gevoelig. Wijzigingen aan objecten zullen niet aangeven of je in de buurt was."
                     }
                 }
             },

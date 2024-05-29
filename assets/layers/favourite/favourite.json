@@ -19908,16 +19908,19 @@
         ]
       },
       "question": {
-        "en": "To which brand does this post office belong?"
+        "en": "To which brand does this post office belong?",
+        "de": "Zu welcher Marke gehört die Poststelle?"
       },
       "render": {
-        "en": "This is a {brand} post office"
+        "en": "This is a {brand} post office",
+        "de": "Dies ist eine Poststelle von {brand}"
       },
       "freeform": {
         "type": "nsi",
         "key": "brand",
         "placeholder": {
-          "en": "Brand of the post office"
+          "en": "Brand of the post office",
+          "de": "Marke der Poststelle"
         },
         "helperArgs": [
           "amenity=post_office"
@@ -65074,10 +65077,12 @@
     {
       "id": "shops_brand",
       "question": {
-        "en": "What is the brand of this shop?"
+        "en": "What is the brand of this shop?",
+        "de": "Zu welcher Marke gehört dieses Geschäft?"
       },
       "render": {
-        "en": "Part of <b>{brand}</b>"
+        "en": "Part of <b>{brand}</b>",
+        "de": "Teil von <b>{brand}</b>"
       },
       "freeform": {
         "key": "brand",
@@ -65087,7 +65092,8 @@
         {
           "if": "not:brand=yes",
           "then": {
-            "en": "This shop does not have a specific brand, it is not part of a bigger chain"
+            "en": "This shop does not have a specific brand, it is not part of a bigger chain",
+            "de": "Dieses Geschäft gehört zu keiner Marke oder Handelskette"
           }
         }
       ],
@@ -80355,7 +80361,8 @@
           "then": {
             "en": "This is a statue",
             "de": "Das ist eine Statue",
-            "fr": "C'est une statue"
+            "fr": "C'est une statue",
+            "nl": "Dit is een standbeeld"
           },
           "addExtraTags": [
             "tourism=artwork",
@@ -80375,7 +80382,8 @@
           "then": {
             "en": "This is a commemorative bench",
             "de": "Dies ist eine Gedenkbank",
-            "fr": "C'est un banc commémoratif"
+            "fr": "C'est un banc commémoratif",
+            "nl": "Dit is een zitbank die ook als herdenking dienst doet"
           },
           "addExtraTags": [
             "amenity=bench"
@@ -80386,7 +80394,8 @@
           "then": {
             "en": "This is a ghost bike - a bicycle painted white to remember a cyclist whom deceased because of a car crash",
             "de": "Dies ist ein Geisterrad - ein Fahrrad weiß lackiert, um an einen Radfahrer zu erinnern, der wegen eines Autounfalls verstorben ist",
-            "fr": "C'est un vélo fantôme - un vélo blanc peint en mémoire d'un cycliste mort à cet endroit suite à un accident avec une voiture"
+            "fr": "C'est un vélo fantôme - un vélo blanc peint en mémoire d'un cycliste mort à cet endroit suite à un accident avec une voiture",
+            "nl": "Dit is een witte fiets of spookfiets - een witgeschilderede fiets die een omgekomen fietsen herdenkt"
           }
         },
         {
@@ -80395,7 +80404,8 @@
           "then": {
             "en": "This is a stolperstein (stumbing stone)",
             "de": "Dies ist ein Stolperstein",
-            "fr": "C'est un stolperstein (pierre d'achoppement)"
+            "fr": "C'est un stolperstein (pierre d'achoppement)",
+            "nl": "Dit is een struikelsteen (stolperstein)"
           }
         },
         {
@@ -80427,7 +80437,8 @@
           "then": {
             "en": "This is a sculpture",
             "de": "Dies ist eine Skulptur",
-            "fr": "C'est une sculpture"
+            "fr": "C'est une sculpture",
+            "nl": "Dit is een sculptuur"
           }
         },
         {
@@ -80445,7 +80456,8 @@
             "en": "This is a cross",
             "de": "Das ist ein Kreuz",
             "es": "Es una cruz",
-            "fr": "C'est une croix"
+            "fr": "C'est une croix",
+            "nl": "Dit is een kruis"
           }
         },
         {
@@ -80462,7 +80474,8 @@
           "then": {
             "en": "This is a historic tank, permanently placed in public space as memorial",
             "de": "Dies ist ein historischer Panzer, der permanent in den öffentlichen Raum als Denkmal platziert wurde",
-            "fr": "C'est un char historique, placé de manière permanente dans l'espace public comme mémorial"
+            "fr": "C'est un char historique, placé de manière permanente dans l'espace public comme mémorial",
+            "nl": "Dit is een historische tank, permanent in de publieke ruimte geplaatst als gedenkteken"
           }
         },
         {
@@ -80498,11 +80511,12 @@
     {
       "id": "memorial_inscription",
       "question": {
-        "en": "What is the inscription of this plaque?",
+        "en": "What is the inscription on this memorial?",
         "ca": "Quina és la inscripció d'aquesta placa?",
         "cs": "Jaký je nápis na této desce?",
-        "de": "Wie lautet die Inschrift auf dieser Gedenktafel?",
-        "fr": "Quelle est l'inscription sur cette plaque ?"
+        "de": "Wie lautet die Inschrift auf diesem Denkmal?",
+        "fr": "Quelle est l'inscription sur cette plaque ?",
+        "nl": "Wat is het opschrift van dit gedenkteken?"
       },
       "#:condition": "Benches have a separate inscription question",
       "condition": {
@@ -80521,10 +80535,10 @@
         ]
       },
       "render": {
-        "en": "The inscription on this plaque reads: <p><i>{inscription}<i></p>",
+        "en": "The inscription on this memorial reads: <p><i>{inscription}<i></p>",
         "ca": "La inscripció d'aquesta placa diu: <p><i>{inscription}<i></p>",
         "cs": "Nápis na této desce zní: <p><i>{inscription}<i></p>",
-        "de": "Die Inschrift auf dieser Gedenktafel lautet: <p><i>{inscription}<i></p>",
+        "de": "Die Inschrift auf diesem Denkmal lautet: <p><i>{inscription}<i></p>",
         "fr": "L'inscription sur cette plaque indique: <p><i>{inscription}<i></p>"
       },
       "freeform": {
@@ -80538,7 +80552,8 @@
           "then": {
             "en": "This memorial does not have an inscription",
             "de": "Dieses Denkmal hat keine Inschrift",
-            "fr": "Il n'y a aucune inscription sur cette plaque"
+            "fr": "Il n'y a aucune inscription sur cette plaque",
+            "nl": "Dit gedenkteken heeft geen opschrift"
           },
           "addExtraTags": [
             "inscription="

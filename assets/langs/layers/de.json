@@ -6279,8 +6279,8 @@
                         "then": "Dieses Denkmal hat keine Inschrift"
                     }
                 },
-                "question": "Wie lautet die Inschrift auf dieser Gedenktafel?",
-                "render": "Die Inschrift auf dieser Gedenktafel lautet: <p><i>{inscription}<i></p>"
+                "question": "Wie lautet die Inschrift auf diesem Denkmal?",
+                "render": "Die Inschrift auf diesem Denkmal lautet: <p><i>{inscription}<i></p>"
             },
             "memorial-type": {
                 "mappings": {
@@ -7531,6 +7531,13 @@
                 "question": "Für welche Marke bietet dieser Standort Dienstleistungen an?",
                 "render": "Dieser Standort bietet Dienstleistungen für {post_office:brand} an"
             },
+            "post_offic_brand": {
+                "freeform": {
+                    "placeholder": "Marke der Poststelle"
+                },
+                "question": "Zu welcher Marke gehört die Poststelle?",
+                "render": "Dies ist eine Poststelle von {brand}"
+            },
             "post_partner": {
                 "mappings": {
                     "0": {
@@ -8732,6 +8739,15 @@
             }
         },
         "tagRenderings": {
+            "brand": {
+                "mappings": {
+                    "0": {
+                        "then": "Dieses Geschäft gehört zu keiner Marke oder Handelskette"
+                    }
+                },
+                "question": "Zu welcher Marke gehört dieses Geschäft?",
+                "render": "Teil von <b>{brand}</b>"
+            },
             "copyshop-print-sizes": {
                 "mappings": {
                     "0": {
