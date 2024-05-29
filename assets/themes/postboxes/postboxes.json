@@ -69,21 +69,24 @@
             "id": "post_partner",
             "question": {
               "en": "Is this shop a post partner?",
-              "de": "Ist dieses Geschäft ein Post-Partner?"
+              "de": "Ist dieses Geschäft ein Post-Partner?",
+              "nl": "Is deze winkel een post-partner?"
             },
             "mappings": [
               {
                 "if": "post_office=post_partner",
                 "then": {
                   "en": "This shop is a post partner",
-                  "de": "Dieses Geschäft ist ein Post-Partner"
+                  "de": "Dieses Geschäft ist ein Post-Partner",
+                  "nl": "Deze winkel is een post-partner"
                 }
               },
               {
                 "if": "post_office=",
                 "then": {
                   "en": "This shop is not a post partner",
-                  "de": "Dieses Geschäft ist kein Post-Partner"
+                  "de": "Dieses Geschäft ist kein Post-Partner",
+                  "nl": "Deze winkel is geen post-partner"
                 }
               }
             ]
