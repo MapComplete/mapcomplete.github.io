@@ -645,7 +645,8 @@
         "then": {
           "en": "Mountain rescue station",
           "de": "Bergrettungsstation",
-          "fr": "Poste de secours en montagne"
+          "fr": "Poste de secours en montagne",
+          "pl": "Stacja ratownictwa górskiego"
         }
       },
       {
@@ -653,7 +654,8 @@
         "then": {
           "en": "Mountain rescue station",
           "de": "Bergrettungsstation",
-          "fr": "Poste de secours en montagne"
+          "fr": "Poste de secours en montagne",
+          "pl": "Stacja ratownictwa górskiego"
         }
       },
       {
@@ -1472,7 +1474,8 @@
           "de": "{name}",
           "es": "{name}",
           "zh_Hans": "{name}",
-          "ca": "{name}"
+          "ca": "{name}",
+          "pl": "{name}"
         }
       },
       {
@@ -1483,7 +1486,8 @@
           "es": "Centro de acogida de animales",
           "zh_Hans": "动物收容所",
           "pt": "Abrigo para animais",
-          "ca": "Refugi d'animals"
+          "ca": "Refugi d'animals",
+          "pl": "Schronisko dla zwierząt"
         }
       },
       {
@@ -1498,7 +1502,8 @@
           "de": "{name}",
           "es": "{name}",
           "zh_Hans": "{name}",
-          "ca": "{name}"
+          "ca": "{name}",
+          "pl": "{name}"
         }
       },
       {
@@ -1509,7 +1514,8 @@
           "es": "Centro de acogida de animales",
           "zh_Hans": "动物收容所",
           "pt": "Abrigo para animais",
-          "ca": "Refugi d'animals"
+          "ca": "Refugi d'animals",
+          "pl": "Schronisko dla zwierząt"
         }
       },
       {
@@ -2620,7 +2626,8 @@
           "nl": "Kinesist {name}",
           "de": "Physiotherapeut {name}",
           "ca": "Fisioterapeuta {name}",
-          "cs": "Fyzioterapeut {name}"
+          "cs": "Fyzioterapeut {name}",
+          "pl": "Fizjoterapeuta {name}"
         }
       },
       {
@@ -2630,7 +2637,8 @@
           "nl": "Kinesist {name}",
           "de": "Physiotherapeut {name}",
           "ca": "Fisioterapeuta {name}",
-          "cs": "Fyzioterapeut {name}"
+          "cs": "Fyzioterapeut {name}",
+          "pl": "Fizjoterapeuta {name}"
         }
       },
       {
@@ -3627,7 +3635,8 @@
         },
         "then": {
           "en": "{name}",
-          "de": "{name}"
+          "de": "{name}",
+          "pl": "{name}"
         }
       },
       {
@@ -3646,7 +3655,8 @@
         },
         "then": {
           "en": "{name}",
-          "de": "{name}"
+          "de": "{name}",
+          "pl": "{name}"
         }
       },
       {
@@ -3665,7 +3675,8 @@
         },
         "then": {
           "en": "{name}",
-          "de": "{name}"
+          "de": "{name}",
+          "pl": "{name}"
         }
       },
       {
@@ -3684,7 +3695,8 @@
         },
         "then": {
           "en": "{name}",
-          "de": "{name}"
+          "de": "{name}",
+          "pl": "{name}"
         }
       },
       {
@@ -6058,7 +6070,8 @@
           "pa_PK": "ہسپتال",
           "ru": "Больница",
           "ca": "Hospital",
-          "cs": "Nemocnice"
+          "cs": "Nemocnice",
+          "pl": "Szpital"
         }
       },
       {
@@ -6089,7 +6102,8 @@
           "pa_PK": "ہسپتال",
           "ru": "Больница",
           "ca": "Hospital",
-          "cs": "Nemocnice"
+          "cs": "Nemocnice",
+          "pl": "Szpital"
         }
       },
       {
@@ -6120,7 +6134,8 @@
           "pa_PK": "ہسپتال",
           "ru": "Больница",
           "ca": "Hospital",
-          "cs": "Nemocnice"
+          "cs": "Nemocnice",
+          "pl": "Szpital"
         }
       },
       {
@@ -6151,7 +6166,8 @@
           "pa_PK": "ہسپتال",
           "ru": "Больница",
           "ca": "Hospital",
-          "cs": "Nemocnice"
+          "cs": "Nemocnice",
+          "pl": "Szpital"
         }
       },
       {
@@ -7532,7 +7548,8 @@
           "pa_PK": "فارمیسی",
           "fr": "Pharmacie",
           "ca": "Farmàcia",
-          "cs": "Lékárna"
+          "cs": "Lékárna",
+          "pl": "Apteka"
         }
       },
       {
@@ -7543,7 +7560,8 @@
           "nl": "{name}",
           "fr": "{name}",
           "ca": "{name}",
-          "cs": "{name}"
+          "cs": "{name}",
+          "pl": "{name}"
         }
       },
       {
@@ -7560,7 +7578,8 @@
           "pa_PK": "فارمیسی",
           "fr": "Pharmacie",
           "ca": "Farmàcia",
-          "cs": "Lékárna"
+          "cs": "Lékárna",
+          "pl": "Apteka"
         }
       },
       {
@@ -7571,7 +7590,8 @@
           "nl": "{name}",
           "fr": "{name}",
           "ca": "{name}",
-          "cs": "{name}"
+          "cs": "{name}",
+          "pl": "{name}"
         }
       },
       {
@@ -7588,7 +7608,8 @@
           "pa_PK": "فارمیسی",
           "fr": "Pharmacie",
           "ca": "Farmàcia",
-          "cs": "Lékárna"
+          "cs": "Lékárna",
+          "pl": "Apteka"
         }
       },
       {
@@ -7599,7 +7620,8 @@
           "nl": "{name}",
           "fr": "{name}",
           "ca": "{name}",
-          "cs": "{name}"
+          "cs": "{name}",
+          "pl": "{name}"
         }
       },
       {
@@ -7616,7 +7638,8 @@
           "pa_PK": "فارمیسی",
           "fr": "Pharmacie",
           "ca": "Farmàcia",
-          "cs": "Lékárna"
+          "cs": "Lékárna",
+          "pl": "Apteka"
         }
       },
       {
@@ -7627,7 +7650,8 @@
           "nl": "{name}",
           "fr": "{name}",
           "ca": "{name}",
-          "cs": "{name}"
+          "cs": "{name}",
+          "pl": "{name}"
         }
       },
       {
@@ -7725,7 +7749,8 @@
           "de": "Hotel {name}",
           "fr": "Hôtel {name}",
           "ca": "Hotel {name}",
-          "cs": "Hotel {name}"
+          "cs": "Hotel {name}",
+          "pl": "Hotel {name}"
         }
       },
       {
@@ -7737,7 +7762,8 @@
           "pa_PK": "ہوٹل",
           "fr": "Hôtel",
           "ca": "Hotel",
-          "cs": "Hotel"
+          "cs": "Hotel",
+          "pl": "Hotel"
         }
       },
       {
@@ -7753,7 +7779,8 @@
           "de": "Hotel {name}",
           "fr": "Hôtel {name}",
           "ca": "Hotel {name}",
-          "cs": "Hotel {name}"
+          "cs": "Hotel {name}",
+          "pl": "Hotel {name}"
         }
       },
       {
@@ -7765,7 +7792,8 @@
           "pa_PK": "ہوٹل",
           "fr": "Hôtel",
           "ca": "Hotel",
-          "cs": "Hotel"
+          "cs": "Hotel",
+          "pl": "Hotel"
         }
       },
       {
@@ -7781,7 +7809,8 @@
           "de": "Hotel {name}",
           "fr": "Hôtel {name}",
           "ca": "Hotel {name}",
-          "cs": "Hotel {name}"
+          "cs": "Hotel {name}",
+          "pl": "Hotel {name}"
         }
       },
       {
@@ -7793,7 +7822,8 @@
           "pa_PK": "ہوٹل",
           "fr": "Hôtel",
           "ca": "Hotel",
-          "cs": "Hotel"
+          "cs": "Hotel",
+          "pl": "Hotel"
         }
       },
       {
@@ -9495,13 +9525,15 @@
       {
         "if": "historic=tomb",
         "then": {
-          "en": "Tombstone"
+          "en": "Tombstone",
+          "de": "Grabstein"
         }
       },
       {
         "if": "historic=tomb",
         "then": {
-          "en": "Tombstone"
+          "en": "Tombstone",
+          "de": "Grabstein"
         }
       },
       {
@@ -9518,7 +9550,8 @@
           "ca": "Hidrant",
           "es": "Boca de incendios",
           "pa_PK": "ہائڈرنٹ",
-          "cs": "Hydrant"
+          "cs": "Hydrant",
+          "pl": "Hydrant"
         }
       },
       {
@@ -9535,7 +9568,8 @@
           "ca": "Hidrant",
           "es": "Boca de incendios",
           "pa_PK": "ہائڈرنٹ",
-          "cs": "Hydrant"
+          "cs": "Hydrant",
+          "pl": "Hydrant"
         }
       },
       {
@@ -10560,13 +10594,15 @@
           ]
         },
         "then": {
-          "en": "{name}"
+          "en": "{name}",
+          "de": "{name}"
         }
       },
       {
         "if": "man_made=lighthouse",
         "then": {
-          "en": "lighthouse"
+          "en": "lighthouse",
+          "de": "Leuchtturm"
         }
       },
       {
@@ -10577,13 +10613,15 @@
           ]
         },
         "then": {
-          "en": "{name}"
+          "en": "{name}",
+          "de": "{name}"
         }
       },
       {
         "if": "man_made=lighthouse",
         "then": {
-          "en": "lighthouse"
+          "en": "lighthouse",
+          "de": "Leuchtturm"
         }
       },
       {
@@ -11263,7 +11301,8 @@
           "nl": "Weg zonder een naam",
           "fr": "Route sans nom",
           "ca": "Carretera sense nom",
-          "cs": "Silnice bez názvu"
+          "cs": "Silnice bez názvu",
+          "pl": "Droga bez nazwy"
         }
       },
       {
@@ -11473,7 +11512,8 @@
           "nl": "Weg zonder een naam",
           "fr": "Route sans nom",
           "ca": "Carretera sense nom",
-          "cs": "Silnice bez názvu"
+          "cs": "Silnice bez názvu",
+          "pl": "Droga bez nazwy"
         }
       },
       {
@@ -19237,7 +19277,8 @@
         "he": "המותג של כספומט זה הוא {brand}",
         "pt_BR": "A marca desse caixa eletrônico é {brand}",
         "es": "El banco de este cajero automático es {brand}",
-        "pt": "A marca deste multibanco é {brand}"
+        "pt": "A marca deste multibanco é {brand}",
+        "pl": "Marka tego bankomatu to {brand}"
       },
       "condition": {
         "or": [
@@ -21643,7 +21684,8 @@
             "ca": "Bastidors",
             "da": "Hæftestativer",
             "cs": "Stojany",
-            "pt_BR": "Racks para prender a bicicleta"
+            "pt_BR": "Racks para prender a bicicleta",
+            "pl": "Stojaki"
           },
           "icon": {
             "path": "./assets/layers/bike_parking/staple.svg",
@@ -21757,7 +21799,8 @@
             "ca": "cobert",
             "eu": "Etxola",
             "pt_BR": "Cabana",
-            "pt": "Cabana"
+            "pt": "Cabana",
+            "pl": "Wiata"
           },
           "icon": {
             "path": "./assets/layers/bike_parking/shed.svg",
@@ -22009,12 +22052,14 @@
         "cs": "Kolik jízdních kol se vejde na toto parkoviště (včetně případných nákladních kol)?",
         "ca": "Quantes bicicletes caben en aquest aparcament de bicicletes (incloent possibles bicicletes de càrrega)?",
         "pt_BR": "Quantas bicicletas cabem nesse estacionamento de bicicletas (incluindo possíveis bicicletas de carga)?",
-        "pt": "Quantas bicicletas cabem neste estacionamento de bicicletas (incluindo possíveis bicicletas de carga)?"
+        "pt": "Quantas bicicletas cabem neste estacionamento de bicicletas (incluindo possíveis bicicletas de carga)?",
+        "pl": "Ile rowerów mieści się na tym parkingu rowerowym?"
       },
       "questionHint": {
         "en": "This includes regular bicycles, cargo bikes, ebikes, ...",
         "nl": "Dit is het totaal aantal gewone fietsen, bakfietsen, elektrische fietsen, ...",
-        "de": "Dazu gehören reguläre Fahrräder, Lasträder, Ebikes,..."
+        "de": "Dazu gehören reguläre Fahrräder, Lasträder, Ebikes,...",
+        "pl": "To obejmuje zwykłe rowery, do transportu dóbr, elektryczne, ..."
       },
       "render": {
         "en": "Place for {capacity} bikes",
@@ -22186,7 +22231,8 @@
           "then": {
             "en": "One has to <b>pay</b> to use this bicycle parking",
             "nl": "<b>Betalende</b> fietsparking",
-            "de": "Man muss <b>zahlen</b>, um den Fahrradparkplatz zu nutzen"
+            "de": "Man muss <b>zahlen</b>, um den Fahrradparkplatz zu nutzen",
+            "fr": "L'utilisation de ce parking à vélo est <b>payant</b>"
           }
         },
         {
@@ -22195,7 +22241,8 @@
           "then": {
             "en": "Free to use",
             "nl": "Gratis te gebruiken",
-            "de": "Die Nutzung ist kostenlos"
+            "de": "Die Nutzung ist kostenlos",
+            "fr": "L'utilisation de ce parking à vélo est <b>gratuit</b>"
           }
         }
       ],
@@ -22340,7 +22387,8 @@
       "question": {
         "en": "Who maintains this bicycle parking?",
         "nl": "Wie beheert deze fietsenstalling?",
-        "de": "Wer unterhält diese Fahrradabstellplätze?"
+        "de": "Wer unterhält diese Fahrradabstellplätze?",
+        "fr": "Qui entretient ce parking à vélos ?"
       },
       "render": {
         "en": "This bicycle parking is maintained by {operator}",
@@ -22661,7 +22709,8 @@
         "cs": "O jakou půjčovnu jízdních kol se jedná?",
         "ca": "Quin tipus de lloguer de bicicletes és aquest?",
         "pt_BR": "Qual tipo de aluguel de bicicletas é esse?",
-        "pt": "Qual tipo de aluguel de bicicletas é este?"
+        "pt": "Qual tipo de aluguel de bicicletas é este?",
+        "pl": "Jakiego rodzaju jest to wypożyczalnia rowerów?"
       },
       "mappings": [
         {
@@ -22835,7 +22884,8 @@
       "editButtonAriaLabel": {
         "en": "Edit website",
         "nl": "Pas website aan",
-        "de": "Webseite bearbeiten"
+        "de": "Webseite bearbeiten",
+        "pl": "Edytuj stronę internetową"
       },
       "condition": {
         "or": [
@@ -24542,7 +24592,8 @@
         "cs": "Jaká jízdní kola a příslušenství se zde půjčují?",
         "ca": "Quin tipus de bicicletes i accessoris es lloguen aquí?",
         "pt_BR": "Quais tipos de bicicleta e acessórios podem ser alugados aqui?",
-        "pt": "Quais tipos de bicicleta e acessórios podem ser alugados aqui?"
+        "pt": "Quais tipos de bicicleta e acessórios podem ser alugados aqui?",
+        "pl": "Jakiego rodzaju rowery i akcesoria są tutaj wypożyczane?"
       },
       "render": {
         "en": "{rental} is rented here",
@@ -24589,7 +24640,8 @@
             "cs": "Zde si můžete půjčit elektrokola",
             "ca": "Aquí es poden llogar bicicletes elèctriques",
             "pt_BR": "Bicicletas elétricas podem ser alugadas aqui",
-            "pt": "Bicicletas elétricas podem ser alugadas aqui"
+            "pt": "Bicicletas elétricas podem ser alugadas aqui",
+            "pl": "Można tutaj wypożyczyć rowery elektryczne"
           }
         },
         {
@@ -24619,7 +24671,8 @@
             "cs": "Zde si můžete půjčit horská kola",
             "ca": "Aquí es poden llogar bicicletes de muntanya",
             "pt_BR": "Bicicletas de montanha podem ser alugadas aqui",
-            "pt": "Bicicletas de montanha podem ser alugadas aqui"
+            "pt": "Bicicletas de montanha podem ser alugadas aqui",
+            "pl": "Można tutaj wypożyczyć rowery górskie"
           }
         },
         {
@@ -24634,7 +24687,8 @@
             "cs": "Zde si můžete půjčit dětská kola",
             "ca": "Aquí es poden llogar bicicletes infantils",
             "pt_BR": "Bicicletas para crianças podem ser alugadas aqui",
-            "pt": "Bicicletas para crianças podem ser alugadas aqui"
+            "pt": "Bicicletas para crianças podem ser alugadas aqui",
+            "pl": "Można tutaj wypożyczyć rowery dla dzieci"
           }
         },
         {
@@ -24649,7 +24703,8 @@
             "cs": "Zde si můžete půjčit tandemová kola",
             "ca": "Aquí es poden llogar tàndems",
             "pt_BR": "Bicicletas tandem podem ser alugadas aqui",
-            "pt": "Bicicletas tandem podem ser alugadas aqui"
+            "pt": "Bicicletas tandem podem ser alugadas aqui",
+            "pl": "Można tutaj wypożyczyć tandemy"
           }
         },
         {
@@ -24679,7 +24734,8 @@
             "cs": "Zde si můžete půjčit cyklistické přilby",
             "ca": "Aquí es poden llogar cascos de bicicleta",
             "pt_BR": "Capacetes de ciclismo podem ser alugados aqui",
-            "pt": "Capacetes de ciclismo podem ser alugados aqui"
+            "pt": "Capacetes de ciclismo podem ser alugados aqui",
+            "pl": "Można tutaj wypożyczyć kaski rowerowe"
           }
         }
       ],
@@ -30435,7 +30491,8 @@
       "id": "elevator-shape",
       "question": {
         "en": "What shape does this elevator have?",
-        "de": "Welche Form hat dieser Aufzug?"
+        "de": "Welche Form hat dieser Aufzug?",
+        "pl": "Jaki kształt ma ta winda?"
       },
       "mappings": [
         {
@@ -30444,7 +30501,8 @@
           "then": {
             "en": "This elevator has a rectangular shape",
             "de": "Dieser Aufzug hat eine rechteckige Form",
-            "fr": "Cet ascenseur est de forme rectangulaire"
+            "fr": "Cet ascenseur est de forme rectangulaire",
+            "pl": "Ta winda ma prostokątny kształt"
           },
           "icon": "./assets/svg/square.svg"
         },
@@ -30452,7 +30510,8 @@
           "if": "shape=circular",
           "then": {
             "en": "This elevator has a circular shape",
-            "de": "Dieser Aufzug hat eine kreisförmige Form"
+            "de": "Dieser Aufzug hat eine kreisförmige Form",
+            "pl": "Ta winda ma okrągły kształt"
           },
           "icon": "./assets/svg/circle.svg"
         }
@@ -30690,7 +30749,8 @@
         "en": "E.g. it announces the current floor",
         "de": "Z.B. werden Stockwerke angesagt",
         "ca": "P. e. anuncia la planta actual",
-        "cs": "Např. oznamuje aktuální podlaží"
+        "cs": "Např. oznamuje aktuální podlaží",
+        "pl": "Np. informuje o aktualnym piętrze"
       },
       "mappings": [
         {
@@ -33721,7 +33781,8 @@
         "en": "Which vehicles are allowed to charge here?",
         "nl": "Welke voertuigen kunnen hier opgeladen worden?",
         "ca": "Quins vehicles tenen permesa la càrrega aquí?",
-        "de": "Welche Fahrzeuge können hier laden?"
+        "de": "Welche Fahrzeuge können hier laden?",
+        "pl": "Jakie pojazdy mogą być tutaj ładowane?"
       },
       "multiAnswer": true,
       "mappings": [
@@ -33732,7 +33793,8 @@
             "en": "<b>Bicycles</b> can be charged here",
             "nl": "<b>Elektrische fietsen</b> kunnen hier opgeladen worden",
             "ca": "Aquí es poden carregar <b>bicicletes</b>",
-            "de": "Hier können <b>Fahrräder</b> laden"
+            "de": "Hier können <b>Fahrräder</b> laden",
+            "pl": "Mogą tutaj być ładowane <b>rowery</b>"
           }
         },
         {
@@ -33742,7 +33804,8 @@
             "en": "<b>Cars</b> can be charged here",
             "nl": "<b>Elektrische auto's</b> kunnen hier opgeladen worden",
             "ca": "Aquí es poden carregar <b>cotxes</b>",
-            "de": "Hier können <b>Autos</b> laden"
+            "de": "Hier können <b>Autos</b> laden",
+            "pl": "Mogą tutaj być ładowane <b>samochody</b>"
           }
         },
         {
@@ -33752,7 +33815,8 @@
             "en": "<b>Scooters</b> can be charged here",
             "nl": "<b>Elektrische scooters</b> (snorfiets of bromfiets) kunnen hier opgeladen worden",
             "ca": "Aquí es poden carregar <b>Scooters</b>",
-            "de": "Hier können <b>Roller</b> laden"
+            "de": "Hier können <b>Roller</b> laden",
+            "pl": "Mogą być tutaj ładowane <b>hulajnogi<b>"
           }
         },
         {
@@ -33772,7 +33836,8 @@
             "en": "<b>Buses</b> can be charged here",
             "nl": "<b>Bussen</b> kunnen hier opgeladen worden",
             "ca": "Aquí es poden carregar <b>autobusos</b>",
-            "de": "Hier können <b>Busse</b> laden"
+            "de": "Hier können <b>Busse</b> laden",
+            "pl": "Mogą być tutaj ładowane <b>autobusy</b>"
           }
         }
       ],
@@ -33803,7 +33868,8 @@
         "en": "Who is allowed to use this charging station?",
         "nl": "Wie mag er dit oplaadpunt gebruiken?",
         "ca": "Qui pot utilitzar aquesta estació de càrrega?",
-        "de": "Wer darf diese Ladestation benutzen?"
+        "de": "Wer darf diese Ladestation benutzen?",
+        "pl": "Kto może używać tej stacji ładowania?"
       },
       "render": {
         "en": "Access is {access}",
@@ -33825,7 +33891,8 @@
             "en": "Anyone can use this charging station (payment might be needed)",
             "nl": "Toegankelijk voor iedereen (mogelijks met aanmelden en/of te betalen)",
             "ca": "Qualsevol persona pot utilitzar aquesta estació de recàrrega (pot ser calgui un pagament)",
-            "de": "Jeder kann die Station nutzen (eventuell gegen Bezahlung)"
+            "de": "Jeder kann die Station nutzen (eventuell gegen Bezahlung)",
+            "pl": "Każdy może używać tej stacji ładowania (opłata może być wymagana)"
           }
         },
         {
@@ -33834,7 +33901,8 @@
             "en": "Anyone can use this charging station (payment might be needed)",
             "nl": "Toegankelijk voor iedereen (mogelijks met aanmelden en/of te betalen)",
             "ca": "Qualsevol persona pot utilitzar aquesta estació de recàrrega (pot ser calgui un pagament)",
-            "de": "Jeder kann diese Ladestation nutzen (eventuell gegen Bezahlung)"
+            "de": "Jeder kann diese Ladestation nutzen (eventuell gegen Bezahlung)",
+            "pl": "Każdy może używać tej stacji ładowania (opłata może być wymagana)"
           },
           "hideInAnswer": true
         },
@@ -33898,13 +33966,15 @@
         "en": "{capacity} vehicles can be charged here at the same time",
         "nl": "{capacity} voertuigen kunnen hier op hetzelfde moment opgeladen worden",
         "ca": "Aquí poden carregar {capacity} vehicles a l'hora",
-        "de": "Hier können {capacity} Fahrzeuge gleichzeitig laden"
+        "de": "Hier können {capacity} Fahrzeuge gleichzeitig laden",
+        "pl": "{capacity} pojazdów może być tutaj ładowanych jednocześnie"
       },
       "question": {
         "en": "How much vehicles can be charged here at the same time?",
         "nl": "Hoeveel voertuigen kunnen hier opgeladen worden?",
         "ca": "Quants vehicles poden carregar a la vegada?",
-        "de": "Wie viele Fahrzeuge können hier gleichzeitig laden?"
+        "de": "Wie viele Fahrzeuge können hier gleichzeitig laden?",
+        "pl": "Ile pojazdów może być tutaj ładowanych jednocześnie?"
       },
       "freeform": {
         "key": "capacity",
@@ -39138,7 +39208,7 @@
         "zh_Hant": "{title()} 的開放時間是什麼？",
         "it": "Quali sono gli orari di apertura di {title()}?",
         "pt_BR": "Qual o horário de funcionamento de {title()}?",
-        "pl": "Jakie są godziny otwarcia {title()}?",
+        "pl": "Kiedy jest otwarta ta stacja ładowania?",
         "sv": "Vilka är öppettiderna för {title()}?",
         "pt": "Qual é o horário de funcionamento de {title()}?",
         "hu": "Mikor van nyitva ez: {title()}?",
@@ -39285,7 +39355,8 @@
             "nl": "Gratis te gebruiken",
             "en": "Free to use",
             "ca": "Ús gratuït",
-            "de": "Kostenlose Nutzung"
+            "de": "Kostenlose Nutzung",
+            "pl": "Darmowa"
           },
           "hideInAnswer": true
         },
@@ -39573,13 +39644,15 @@
         "en": "Part of the network <b>{network}</b>",
         "nl": "Maakt deel uit van het <b>{network}</b>-netwerk",
         "ca": "Part de la xarxa <b>{network}</b>",
-        "de": "Teil des Netzwerks <b>{network}</b>"
+        "de": "Teil des Netzwerks <b>{network}</b>",
+        "pl": "Część sieci <b>{network}</b>"
       },
       "question": {
         "en": "Is this charging station part of a network?",
         "nl": "Is dit oplaadpunt deel van een groter netwerk?",
         "ca": "Aquesta estació de càrrega forma part d'una xarxa?",
-        "de": "Ist diese Ladestation Teil eines Netzwerks?"
+        "de": "Ist diese Ladestation Teil eines Netzwerks?",
+        "pl": "Czy ta stacja ładowania jest częścią sieci?"
       },
       "freeform": {
         "key": "network",
@@ -39599,7 +39672,8 @@
           "then": {
             "en": "Not part of a bigger network",
             "nl": "Maakt geen deel uit van een groter netwerk",
-            "de": "Nicht Teil eines größeren Netzwerks"
+            "de": "Nicht Teil eines größeren Netzwerks",
+            "pl": "Nie jest częścią większej sieci"
           },
           "hideInAnswer": true
         },
@@ -39673,7 +39747,8 @@
         "en": "This charging station is operated by {operator}",
         "nl": "Wordt beheerd door {operator}",
         "ca": "Aquesta estació de càrrega l'opera {operator}",
-        "de": "Die Station wird betrieben von {operator}"
+        "de": "Die Station wird betrieben von {operator}",
+        "pl": "Ta stacja ładowania jest obsługiwana przez {operator}"
       },
       "freeform": {
         "key": "operator",
@@ -39718,13 +39793,15 @@
         "en": "What number can one call if there is a problem with this charging station?",
         "nl": "Wat is het telefoonnummer van de beheerder van dit oplaadpunt?",
         "ca": "A quin número es pot cridar si hi ha algun problema amb aquest punt de càrrega?",
-        "de": "Welche Nummer kann man anrufen, wenn es ein Problem mit dieser Ladestation gibt?"
+        "de": "Welche Nummer kann man anrufen, wenn es ein Problem mit dieser Ladestation gibt?",
+        "pl": "Na jaki numer można zadzwonić w przypadku problemów z tą stacją ładowania?"
       },
       "render": {
         "en": "In case of problems, call <a href='tel:{phone}'>{phone}</a>",
         "nl": "Bij problemen, bel naar <a href='tel:{phone}'>{phone}</a>",
         "ca": "En cas de problemes, truqueu a <a href='tel:{phone}'>{phone}</a>",
-        "de": "Bei Problemen, anrufen unter <a href='tel:{phone}'>{phone}</a>"
+        "de": "Bei Problemen, anrufen unter <a href='tel:{phone}'>{phone}</a>",
+        "pl": "W przypadku problemów zadzwoń na <a href='tel:{phone}'>{phone}</a>"
       },
       "freeform": {
         "key": "phone",
@@ -39759,7 +39836,8 @@
         "en": "In case of problems, send an email to <a href='mailto:{email}'>{email}</a>",
         "nl": "Bij problemen, email naar <a href='mailto:{email}'>{email}</a>",
         "ca": "En cas de problemes, envia un email a <a href='mailto:{email}'>{email}</a>",
-        "de": "Bei Problemen senden Sie bitte eine E-Mail an <a href='mailto:{email}'>{email}</a>"
+        "de": "Bei Problemen senden Sie bitte eine E-Mail an <a href='mailto:{email}'>{email}</a>",
+        "pl": "W przypadku problemów, wyślij emaila do <a href='mailto:{email}'>{email}</a>"
       },
       "freeform": {
         "key": "email",
@@ -39820,12 +39898,14 @@
       "question": {
         "en": "What is the reference number of this charging station?",
         "nl": "Wat is het referentienummer van dit oplaadstation?",
-        "de": "Welche Kennnummer hat die Ladestation?"
+        "de": "Welche Kennnummer hat die Ladestation?",
+        "pl": "Jaki jest numer referencyjny tej stacji ładowania?"
       },
       "render": {
         "en": "Reference number is <b>{ref}</b>",
         "nl": "Het referentienummer van dit oplaadpunt is <b>{ref}</b>",
-        "de": "Die Kennziffer ist <b>{ref}</b>"
+        "de": "Die Kennziffer ist <b>{ref}</b>",
+        "pl": "Numer referencyjny to <b>{ref}</b>"
       },
       "freeform": {
         "key": "ref",
@@ -39873,7 +39953,8 @@
             "en": "This charging station works",
             "nl": "Dit oplaadpunt werkt",
             "ca": "Aquesta estació de càrrega funciona",
-            "de": "Die Station ist in Betrieb"
+            "de": "Die Station ist in Betrieb",
+            "pl": "Ta stacja ładowania działa"
           }
         },
         {
@@ -39890,7 +39971,8 @@
             "en": "This charging station is broken",
             "nl": "Dit oplaadpunt is kapot",
             "ca": "Aquesta estació de carrega està trencada",
-            "de": "Die Station ist defekt"
+            "de": "Die Station ist defekt",
+            "pl": "Ta stacja ładowania jest zepsuta"
           }
         },
         {
@@ -39907,7 +39989,8 @@
             "en": "A charging station is planned here",
             "nl": "Hier zal binnenkort een oplaadpunt gebouwd worden",
             "ca": "Aquí està prevista una estació de recàrrega",
-            "de": "Die Station ist erst in Planung"
+            "de": "Die Station ist erst in Planung",
+            "pl": "Planowana jest tutaj stacja ładowania"
           }
         },
         {
@@ -39923,7 +40006,8 @@
           "then": {
             "en": "A charging station is constructed here",
             "nl": "Hier wordt op dit moment een oplaadpunt gebouwd",
-            "de": "Die Station ist aktuell im Bau"
+            "de": "Die Station ist aktuell im Bau",
+            "pl": "Budowana jest tutaj stacja ładowania"
           }
         },
         {
@@ -68908,7 +68992,8 @@
         "pt": "Largura máxima: {maxwidth:physical} m",
         "nb_NO": "Maksimal bredde: {maxwidth:physical} m",
         "ca": "Amplada màxima: {maxwidth:physical} m",
-        "pt_BR": "Largura máxima: {maxwidth:physical} m"
+        "pt_BR": "Largura máxima: {maxwidth:physical} m",
+        "pl": "Maksymalna szerokość: {maxwidth:physical} m"
       },
       "question": {
         "en": "How wide is the gap left over besides the barrier?",
@@ -70619,6 +70704,7 @@
             "cs": "Bezplatné používání",
             "ca": "Debades",
             "pt_BR": "Grátis para usar",
+            "pl": "Darmowa",
             "_context": "layers:bike_cleaning.tagRenderings.bike_cleaning-service:bicycle:cleaning:charge.mappings.1.then"
           },
           "hideInAnswer": true
@@ -72813,7 +72899,7 @@
       "question": {
         "en": "How much does a bicycle light cost?",
         "ca": "Quant costa bicycle light?",
-        "de": "Wie viel kostet bicycle light?",
+        "de": "Wie viel kostet Fahrradlicht?",
         "cs": "Kolik stojí bicycle light?",
         "nl": "Hoeveel kost een fietslichtje?",
         "pt_BR": "Quanto custa bicycle light?",
@@ -72823,7 +72909,7 @@
       "render": {
         "en": "bicycle light costs {charge:bicycle_light}",
         "ca": "bicycle light costa {charge:bicycle_light}",
-        "de": "bicycle light kostet {charge:bicycle_light}",
+        "de": "Fahrradlicht kostet {charge:bicycle_light}",
         "cs": "bicycle light {charge:bicycle_light}",
         "nl": "een fietslichtje kost {charge:bicycle_light}",
         "pt_BR": "bicycle light custa {charge:bicycle_light}",
@@ -72849,7 +72935,7 @@
       "question": {
         "en": "How much does a a condom cost?",
         "ca": "Quant costa a condom?",
-        "de": "Wie viel kostet a condom?",
+        "de": "Wie viel kostet ein Kondom?",
         "cs": "Kolik stojí a condom?",
         "nl": "Hoeveel kost een condoom?",
         "pt_BR": "Quanto custa a condom?",
@@ -72859,7 +72945,7 @@
       "render": {
         "en": "a condom costs {charge:condom}",
         "ca": "a condom costa {charge:condom}",
-        "de": "a condom kostet {charge:condom}",
+        "de": "ein Kondom kostet {charge:condom}",
         "cs": "a condom {charge:condom}",
         "nl": "een condoom kost {charge:condom}",
         "pt_BR": "a condom custa {charge:condom}",
@@ -72997,7 +73083,8 @@
         "de": "Der Name des Krankenhauses lautet {name}",
         "nl": "Dit ziekenhuis heet {name}",
         "ru": "Эта больница называется {name}",
-        "cs": "Tato nemocnice se jmenuje {name}"
+        "cs": "Tato nemocnice se jmenuje {name}",
+        "pl": "Nazwa tego szpitala to {name}"
       },
       "question": {
         "en": "What is the name of this hospital?",
@@ -73005,7 +73092,8 @@
         "nl": "Wat is de naam van dit ziekenhuis?",
         "ca": "Quin és el nom d'aquest hospital?",
         "ru": "Как называется эта больница?",
-        "cs": "Jak se jmenuje tato nemocnice?"
+        "cs": "Jak se jmenuje tato nemocnice?",
+        "pl": "Jak nazywa się ten szpital?"
       },
       "freeform": {
         "key": "name",
@@ -73120,12 +73208,14 @@
       "question": {
         "en": "What is the name of this assembly point?",
         "it": "Qual è il nome di questo punto di raccolta?",
-        "de": "Wie lautet der Name dieser Sammelstelle?"
+        "de": "Wie lautet der Name dieser Sammelstelle?",
+        "pl": "Jak nazywa się ten punkt zbiórki?"
       },
       "render": {
         "en": "This assembly point is named <b>{name}</b>",
         "it": "Questo punto di raccolta si chiama <b>{name}</b>",
-        "de": "Diese Sammelstelle hat den Namen <b>{name}</b>"
+        "de": "Diese Sammelstelle hat den Namen <b>{name}</b>",
+        "pl": "Ten punkt zbiórki nazywa się <b>{name}</b>"
       },
       "condition": {
         "or": [
@@ -73173,7 +73263,8 @@
           "then": {
             "en": "Earthquake",
             "it": "Terremoto",
-            "de": "Erdbeben"
+            "de": "Erdbeben",
+            "pl": "Trzęsienie ziemi"
           },
           "icon": {
             "path": "./assets/layers/assembly_point/earthquake.svg",
@@ -73186,7 +73277,8 @@
           "then": {
             "en": "Flood",
             "it": "Alluvione",
-            "de": "Flut"
+            "de": "Flut",
+            "pl": "Powódź"
           },
           "icon": {
             "path": "./assets/layers/assembly_point/flood.svg",
@@ -73199,7 +73291,8 @@
           "then": {
             "en": "Fire",
             "it": "Incendio",
-            "de": "Feuer"
+            "de": "Feuer",
+            "pl": "Pożar"
           },
           "icon": {
             "path": "./assets/layers/assembly_point/fire.svg",
@@ -73212,7 +73305,8 @@
           "then": {
             "en": "Landslide",
             "it": "Frana",
-            "de": "Erdrutsch"
+            "de": "Erdrutsch",
+            "pl": "Osuwisko"
           },
           "icon": {
             "path": "./assets/layers/assembly_point/landslide.svg",
@@ -76781,7 +76875,8 @@
       ],
       "question": {
         "en": "Does this place offer a vegan option?",
-        "de": "Bietet dieser Ort eine vegane Option an?"
+        "de": "Bietet dieser Ort eine vegane Option an?",
+        "pl": "Czy to miejsce oferuje opcję wegańską?"
       },
       "mappings": [
         {
@@ -77767,7 +77862,8 @@
         "nl": "Welke kleur heeft de brandkraan?",
         "es": "¿De que color es la boca de incendios?",
         "ca": "De quin color es l'hidrant?",
-        "cs": "Jakou barvu má hydrant?"
+        "cs": "Jakou barvu má hydrant?",
+        "pl": "Jakiego koloru jest ten hydrant?"
       },
       "render": {
         "en": "The hydrant color is {colour}",
@@ -77780,7 +77876,8 @@
         "nl": "De brandkraan is {colour}",
         "es": "La boca de incendios es de color {colour}",
         "ca": "L'hidrant és de color {colour}",
-        "cs": "Barva hydrantu je {colour}"
+        "cs": "Barva hydrantu je {colour}",
+        "pl": "Kolor tego hydrantu to {colour}"
       },
       "freeform": {
         "key": "colour",
@@ -77803,7 +77900,8 @@
             "nl": "De brandkraan is geel.",
             "es": "La boca de incendios es amarilla.",
             "ca": "L'hidrant és de color groc.",
-            "cs": "Barva hydrantu je žlutá."
+            "cs": "Barva hydrantu je žlutá.",
+            "pl": "Ten hydrant ma żółty kolor."
           }
         },
         {
@@ -77822,7 +77920,8 @@
             "nl": "De brandkraan is rood.",
             "ca": "L'hidrant és de color roig.",
             "es": "La boca de incendios es roja.",
-            "cs": "Barva hydrantu je červená."
+            "cs": "Barva hydrantu je červená.",
+            "pl": "Ten hydrant ma czerwony kolor."
           }
         }
       ],
@@ -77845,7 +77944,8 @@
         "nl": "Wat voor soort brandkraan is dit?",
         "es": "¿De qué tipo es esta boca de incendios?",
         "ca": "Quin tipus d'hidrant és?",
-        "cs": "O jaký typ hydrantu se jedná?"
+        "cs": "O jaký typ hydrantu se jedná?",
+        "pl": "Jakiego rodzaju jest to hydrant?"
       },
       "freeform": {
         "key": "fire_hydrant:type",
@@ -77977,7 +78077,8 @@
         "es": "¿Todavía funciona esta boca de incendios?",
         "ca": "Encara funciona aquest hidrant?",
         "ru": "Этот гидрант в рабочем состоянии?",
-        "cs": "Je tento hydrant stále funkční?"
+        "cs": "Je tento hydrant stále funkční?",
+        "pl": "Czy ten hydrant dalej działa?"
       },
       "mappings": [
         {
@@ -77996,7 +78097,8 @@
             "nl": "De brandkraan werkt (minstens gedeeltelijk)",
             "es": "La boca de incendios funciona (total o parcialmente)",
             "ca": "L'hidrant funciona (total o parcialment)",
-            "cs": "Hydrant je (plně nebo částečně) funkční"
+            "cs": "Hydrant je (plně nebo částečně) funkční",
+            "pl": "Ten hydrant (w pełni lub częściowo) działa"
           }
         },
         {
@@ -78016,7 +78118,8 @@
             "es": "La boca de incendios no está disponible",
             "ca": "L'hidrant no està disponible",
             "ru": "К гидранту нет доступа",
-            "cs": "Hydrant je nedostupný"
+            "cs": "Hydrant je nedostupný",
+            "pl": "Ten hydrant jest niedostępny"
           }
         },
         {
@@ -78036,7 +78139,8 @@
             "nl": "Deze brandkraan is verwijderd",
             "es": "La boca de incendios se ha retirado",
             "ca": "L'hidrant s'ha retirat",
-            "cs": "Hydrant byl odstraněn"
+            "cs": "Hydrant byl odstraněn",
+            "pl": "Ten hydrant został usunięty"
           }
         }
       ],
@@ -78066,7 +78170,8 @@
           "nl": "Pijpdiameter",
           "ru": "Диаметр трубы",
           "ca": "Diàmetre de la canonada",
-          "cs": "Průměr trubky"
+          "cs": "Průměr trubky",
+          "pl": "Średnica rury"
         },
         "type": "int",
         "inline": false
@@ -79328,7 +79433,8 @@
         "nl": "Wat is de naam van deze apotheek?",
         "fr": "Quel est le nom de cette pharmacie ?",
         "ca": "Quin és el nom de la farmàcia?",
-        "cs": "Jak se lékárna jmenuje?"
+        "cs": "Jak se lékárna jmenuje?",
+        "pl": "Jak nazywa się ta apteka?"
       },
       "render": {
         "en": "This pharmacy is called {name}",
@@ -79336,7 +79442,8 @@
         "nl": "Deze apotheek heet {name}",
         "ca": "Aquesta farmàcia es diu {name}",
         "fr": "Cette pharmacie s'appelle {name}",
-        "cs": "Tato lékárna se jmenuje {name}"
+        "cs": "Tato lékárna se jmenuje {name}",
+        "pl": "Nazwa tej apteki to {name}"
       },
       "condition": {
         "and": [
@@ -79446,7 +79553,8 @@
             "de": "Die Apotheke ist für Rollstuhlfahrer leicht zugänglich",
             "nl": "Deze apotheek is makkelijk te bereiken met een rolstoel",
             "fr": "Cette pharmacie est facile d'accès en chaise roulante",
-            "cs": "Tato lékárna je snadno přístupná na invalidním vozíku"
+            "cs": "Tato lékárna je snadno přístupná na invalidním vozíku",
+            "pl": "Ta apteka jest łatwo dostępna na wózku"
           }
         },
         {
@@ -79492,7 +79600,8 @@
           "ru": "Название гостиницы",
           "fr": "Nom de l'hôtel",
           "ca": "Nom de l'hotel",
-          "cs": "Název hotelu"
+          "cs": "Název hotelu",
+          "pl": "Nazwa hotelu"
         },
         "inline": true
       },
@@ -79503,7 +79612,8 @@
         "ru": "Как называется эта гостиница?",
         "fr": "Quel est le nom de cet hôtel ?",
         "ca": "Quin és el nom d'aquest hotel?",
-        "cs": "Jak se tento hotel jmenuje?"
+        "cs": "Jak se tento hotel jmenuje?",
+        "pl": "Jak nazywa się ten hotel?"
       },
       "render": {
         "en": "This hotel is called {name}",
@@ -79511,7 +79621,8 @@
         "de": "Der Name des Hotels lautet {name}",
         "ca": "Aquest hotel es diu {name}",
         "fr": "Cet hôtel s'appelle {name}",
-        "cs": "Tento hotel se jmenuje {name}"
+        "cs": "Tento hotel se jmenuje {name}",
+        "pl": "Nazwa tego hotelu to {name}"
       },
       "condition": {
         "and": [
@@ -79574,7 +79685,8 @@
           "de": "Raumnummer (z.B. '1.1' oder 'A1')",
           "nl": "Referentienummer van de ruimte (bv. '1.1' of A1' )",
           "ca": "Número de referència de l'habitació (p. e. '1.1' o 'A1')",
-          "cs": "Referenční číslo místnosti (např. \"1.1\" nebo \"A1\")"
+          "cs": "Referenční číslo místnosti (např. \"1.1\" nebo \"A1\")",
+          "pl": "Numer referencyjny tego pomieszczenia (np. \"1.1\" lub \"A1\")"
         },
         "inline": true
       },
@@ -79611,7 +79723,8 @@
         "nl": "Wat is de naam van deze ruimte?",
         "ru": "Как называется эта комната?",
         "ca": "Quin és el nom d'aquesta habitació?",
-        "cs": "Jak se jmenuje tato místnost?"
+        "cs": "Jak se jmenuje tato místnost?",
+        "pl": "Jaka jest nazwa tego pomieszczenia?"
       },
       "render": {
         "en": "This room is named {name}",
@@ -79620,7 +79733,8 @@
         "ru": "Эта комната называется {name}",
         "fr": "Cette pièce s'appelle {name}",
         "ca": "Aquesta habitació es diu {name}",
-        "cs": "Tato místnost se jmenuje {name}"
+        "cs": "Tato místnost se jmenuje {name}",
+        "pl": "Nazwa tego pomieszczenia to {name}"
       },
       "freeform": {
         "key": "name",
@@ -79631,7 +79745,8 @@
           "nl": "Naam van de ruimte",
           "ru": "Название комнаты",
           "ca": "Nom de l'habitació",
-          "cs": "Název místnosti"
+          "cs": "Název místnosti",
+          "pl": "Nazwa pomieszczenia"
         },
         "inline": true
       },
@@ -79666,7 +79781,8 @@
         "en": "What type of room is this?",
         "ca": "Quin tipus d'habitació és aquesta?",
         "de": "Wie wird dieser Raum genutzt?",
-        "cs": "O jaký typ pokoje se jedná?"
+        "cs": "O jaký typ pokoje se jedná?",
+        "pl": "Jakiego rodzaju jest to pomieszczenie?"
       },
       "mappings": [
         {
@@ -79694,7 +79810,8 @@
             "en": "This is a bedroom",
             "de": "Dies ist ein Schlafzimmer",
             "ca": "Açò és un dormitori",
-            "cs": "Jedná se o ložnici"
+            "cs": "Jedná se o ložnici",
+            "pl": "To jest sypialnia"
           },
           "icon": "./assets/layers/indoors/room_bedroom.svg"
         },
@@ -79704,7 +79821,8 @@
             "en": "This is a chapel",
             "de": "Dies ist eine Kapelle",
             "ca": "Açò és una capella",
-            "cs": "Jedná se o kapli"
+            "cs": "Jedná se o kapli",
+            "pl": "To jest kaplica"
           },
           "icon": "./assets/layers/indoors/room_chapel.svg"
         },
@@ -79715,7 +79833,8 @@
             "de": "Dies ist ein Klassenzimmer",
             "ca": "Açò és una aula",
             "cs": "Jedná se o učebnu",
-            "fr": "C'est une salle de classe"
+            "fr": "C'est une salle de classe",
+            "pl": "To jest sala klasowa"
           },
           "icon": "./assets/layers/indoors/room_class.svg"
         },
@@ -79725,7 +79844,8 @@
             "en": "This is a classroom",
             "de": "Dies ist ein Klassenzimmer",
             "ca": "Açò és una aula",
-            "cs": "Jedná se o učebnu"
+            "cs": "Jedná se o učebnu",
+            "pl": "Jest to sala klasowa"
           },
           "icon": "./assets/layers/indoors/room_class.svg",
           "hideInAnswer": true
@@ -79735,7 +79855,8 @@
           "then": {
             "en": "This is a computer room",
             "de": "Dies ist ein Computerraum",
-            "cs": "Jedná se o počítačovou místnost"
+            "cs": "Jedná se o počítačovou místnost",
+            "pl": "To jest sala komputerowa"
           },
           "icon": "./assets/layers/indoors/room_computer.svg"
         },
@@ -79745,7 +79866,8 @@
             "en": "This is a conference room",
             "de": "Dies ist ein Konferenzraum",
             "ca": "Açò és una sala de conferències",
-            "cs": "Jedná se o konferenční místnost"
+            "cs": "Jedná se o konferenční místnost",
+            "pl": "To jest sala konferencyjna"
           },
           "icon": "./assets/layers/indoors/room_conference.svg"
         },
@@ -79765,7 +79887,8 @@
             "en": "This is a kitchen",
             "de": "Dies ist eine Küche",
             "ca": "Açò és una cuina",
-            "cs": "Jedná se o kuchyň"
+            "cs": "Jedná se o kuchyň",
+            "pl": "To jest kuchnia"
           },
           "icon": "./assets/layers/indoors/room_kitchen.svg"
         },
@@ -79775,7 +79898,8 @@
             "en": "This is a laboratory",
             "de": "Dies ist ein Labor",
             "ca": "Açò és un laboratori",
-            "cs": "Jedná se o laboratoř"
+            "cs": "Jedná se o laboratoř",
+            "pl": "To jest laboratorium"
           },
           "icon": "./assets/layers/indoors/room_laboratory.svg"
         },
@@ -79784,7 +79908,8 @@
           "then": {
             "en": "This is a library",
             "de": "Dies ist eine Bibliothek",
-            "cs": "Jedná se o knihovnu"
+            "cs": "Jedná se o knihovnu",
+            "pl": "To jest biblioteka"
           },
           "icon": "./assets/layers/indoors/room_library.svg"
         },
@@ -79813,7 +79938,8 @@
             "de": "Dies ist ein Büro",
             "ca": "Açò és una oficina",
             "cs": "Jedná se o kancelář",
-            "fr": "C'est un bureau"
+            "fr": "C'est un bureau",
+            "pl": "To jest biuro"
           },
           "icon": "./assets/layers/indoors/room_office.svg"
         },
@@ -79822,7 +79948,8 @@
           "then": {
             "en": "This is a prison_cell",
             "de": "Dies ist eine Gefängniszelle",
-            "cs": "Jedná se o vězeňskou celu"
+            "cs": "Jedná se o vězeňskou celu",
+            "pl": "To jest cela więzienna"
           },
           "icon": "./assets/layers/indoors/room_prison_cell.svg"
         },
@@ -79832,7 +79959,8 @@
             "en": "This is a restaurant",
             "de": "Dies ist ein Restaurant",
             "ca": "Açò és un restaurant",
-            "cs": "Jedná se o restauraci"
+            "cs": "Jedná se o restauraci",
+            "pl": "To jest restauracja"
           },
           "icon": "./assets/layers/indoors/room_restaurant.svg"
         },
@@ -79841,7 +79969,8 @@
           "then": {
             "en": "This is a room to perform security checks",
             "de": "Dies ist ein Raum für Sicherheitskontrollen",
-            "cs": "Jedná se o místnost pro provádění bezpečnostních kontrol"
+            "cs": "Jedná se o místnost pro provádění bezpečnostních kontrol",
+            "pl": "To jest pomieszczenie do wykonywania kontroli bezpieczeństwa"
           },
           "icon": "./assets/layers/indoors/room_security_check.svg"
         },
@@ -79860,7 +79989,8 @@
             "en": "This is a storage room",
             "ca": "Açò és un magatzem",
             "de": "Dies ist ein Lagerraum",
-            "cs": "Jedná se o skladovací místnost"
+            "cs": "Jedná se o skladovací místnost",
+            "pl": "To jest magazyn"
           },
           "icon": "./assets/layers/indoors/room_storage.svg"
         },
@@ -79869,7 +79999,8 @@
           "then": {
             "en": "This is a technical room",
             "de": "Dies ist ein Technikraum",
-            "cs": "Jedná se o technickou místnost"
+            "cs": "Jedná se o technickou místnost",
+            "pl": "To jest pomieszczenie techniczne"
           },
           "icon": "./assets/layers/indoors/room_technical.svg"
         },
@@ -79878,7 +80009,8 @@
           "then": {
             "en": "These are toilets",
             "de": "Dies ist ein WC-Raum",
-            "cs": "Jedná se o toalety"
+            "cs": "Jedná se o toalety",
+            "pl": "To są toalety"
           },
           "icon": "./assets/layers/indoors/room_toilets.svg",
           "addExtraTags": [
@@ -79891,7 +80023,8 @@
             "en": "This is a waiting room",
             "ca": "Açò és una sala d'espera",
             "de": "Dies ist ein Wartezimmer",
-            "cs": "Jedná se o čekárnu"
+            "cs": "Jedná se o čekárnu",
+            "pl": "To jest poczekalnia"
           },
           "icon": "./assets/layers/indoors/room_waiting.svg"
         }
@@ -79921,7 +80054,8 @@
       "question": {
         "en": "How much people can at most fit in this room?",
         "de": "Wie viele Personen passen höchstens in diesen Raum?",
-        "cs": "Kolik lidí se maximálně vejde do této místnosti?"
+        "cs": "Kolik lidí se maximálně vejde do této místnosti?",
+        "pl": "Ile osób może pomieścić to pomieszczenie?"
       },
       "condition": {
         "and": [
@@ -79952,7 +80086,8 @@
       "render": {
         "en": "At most {capacity} people fit this room",
         "de": "Kapazität für höchstens {capacity} Personen",
-        "cs": "Do této místnosti se vejde maximálně {capacity} osob"
+        "cs": "Do této místnosti se vejde maximálně {capacity} osob",
+        "pl": "To pomieszczenie może pomieścić maksymalnie {capacity} osób"
       },
       "freeform": {
         "key": "capacity",
@@ -80605,10 +80740,12 @@
     },
     {
       "render": {
-        "en": "The height of this lighthouse is {height} metres."
+        "en": "The height of this lighthouse is {height} metres.",
+        "de": "Die Höhe dieses Leuchtturms beträgt {height} Meter."
       },
       "question": {
-        "en": "What is the height of this lighthouse, in metres?"
+        "en": "What is the height of this lighthouse, in metres?",
+        "de": "Wie hoch ist dieser Leuchtturm in Metern?"
       },
       "freeform": {
         "key": "height",
@@ -80884,7 +81021,8 @@
             "fr": "L’attribution est clairement inscrite mais la licence est absente",
             "es": "Se atribuya claramente a OpenStreetMap, pero no se menciona la licencia",
             "ca": "OpenStreetMap està clarament atribuït, però no es menciona la llicència",
-            "cs": "OpenStreetMap je jasně připsána, ale licence není uvedena"
+            "cs": "OpenStreetMap je jasně připsána, ale licence není uvedena",
+            "pl": "Wyraźnie zaznaczono źródło jako OpenStreetMap, ale nie podano licencji"
           }
         },
         {
@@ -80918,7 +81056,8 @@
             "de": "Es gibt überhaupt keine Namensnennung",
             "es": "No hay atribución",
             "ca": "No hi ha atribució",
-            "cs": "Neexistuje vůbec žádný atribut"
+            "cs": "Neexistuje vůbec žádný atribut",
+            "pl": "W ogóle nie podano źródła"
           }
         },
         {
@@ -80935,7 +81074,8 @@
             "de": "Es gibt überhaupt keine Namensnennung",
             "es": "No hay atribución",
             "ca": "No hi ha atribució",
-            "cs": "Neexistuje vůbec žádný atribut"
+            "cs": "Neexistuje vůbec žádný atribut",
+            "pl": "W ogóle nie podano źródła"
           },
           "hideInAnswer": true
         }
@@ -80965,7 +81105,8 @@
         "nl": "De maximum toegestane snelheid op deze weg is {canonical(maxspeed)}",
         "ca": "La velocitat màxima permesa a aquesta via és {canonical(maxspeed)}",
         "fr": "La vitesse maximum autorisée sur cette route est {canonical(maxspeed)}",
-        "cs": "Maximální povolená rychlost na této cestě je {canonical(maxspeed)}"
+        "cs": "Maximální povolená rychlost na této cestě je {canonical(maxspeed)}",
+        "pl": "Maksymalna prędkość dopuszczona na tej drodze to {canonical(maxspeed)}"
       },
       "question": {
         "es": "Qué es la velocidad máxima legal uno está permitido conducir en esta carretera?",
@@ -80974,7 +81115,8 @@
         "de": "Wie hoch ist die zulässige Höchstgeschwindigkeit, die man auf dieser Straße fahren darf?",
         "nl": "Wat is de legale maximumsnelheid voor deze weg?",
         "fr": "Quelle est la vitesse maximum autorisée sur cette route ?",
-        "cs": "Jaká je zákonná maximální povolená rychlost na této silnici?"
+        "cs": "Jaká je zákonná maximální povolená rychlost na této silnici?",
+        "pl": "Jaka jest maksymalna prawnie dopuszczona prędkość na tej drodze?"
       },
       "freeform": {
         "key": "maxspeed",
@@ -81317,7 +81459,8 @@
             "de": "Das ist ein Kreuz",
             "es": "Es una cruz",
             "fr": "C'est une croix",
-            "nl": "Dit is een kruis"
+            "nl": "Dit is een kruis",
+            "pl": "To jest krzyż"
           }
         },
         {
@@ -81352,7 +81495,8 @@
         {
           "if": "historic=tomb",
           "then": {
-            "en": "This is a gravestone; the person is buried here"
+            "en": "This is a gravestone; the person is buried here",
+            "de": "Dies ist ein Grabstein; die Person ist hier begraben"
           },
           "addExtraTags": [
             "memorial="
@@ -81528,11 +81672,13 @@
     },
     {
       "question": {
-        "en": "What is the Wikipedia page of the person buried here?"
+        "en": "What is the Wikipedia page of the person buried here?",
+        "de": "Wie lautet die Wikipedia-Seite der Person, die hier begraben ist?"
       },
       "id": "buried:wikidata",
       "render": {
-        "en": "{wikipedia(buried:wikidata)}"
+        "en": "{wikipedia(buried:wikidata)}",
+        "de": "{wikipedia(buried:wikidata)}"
       },
       "freeform": {
         "key": "buried:wikidata",
@@ -81548,11 +81694,13 @@
     },
     {
       "question": {
-        "en": "What is the name of the person buried here?"
+        "en": "What is the name of the person buried here?",
+        "de": "Wie lautet der Name der hier begrabenen Person?"
       },
       "id": "grave_name",
       "render": {
-        "en": "<b>{name}</b> is buried here"
+        "en": "<b>{name}</b> is buried here",
+        "de": "<b>{name}</b> ist hier begraben"
       },
       "freeform": {
         "key": "name",
@@ -83758,7 +83906,8 @@
           "if": "aerialway=drag_lift",
           "then": {
             "en": "A drag lift",
-            "de": "Ein Schlepplift"
+            "de": "Ein Schlepplift",
+            "pl": "Wyciąg orczykowy"
           },
           "hideInAnswer": true
         },
@@ -83801,7 +83950,8 @@
           "if": "aerialway=zip_line",
           "then": {
             "en": "A zip line. (A touristical attraction where adventurous people go down at high speeds) ",
-            "de": "Eine Seilrutsche. (Eine Touristenattraktion, bei der abenteuerlustige Menschen mit hoher Geschwindigkeit hinunterfahren) "
+            "de": "Eine Seilrutsche. (Eine Touristenattraktion, bei der abenteuerlustige Menschen mit hoher Geschwindigkeit hinunterfahren) ",
+            "pl": "Tyrolka. (Atrakcja turystyczna, która pozwala żądnym przygód zjechać z dużą szybkością) "
           }
         }
       ],
@@ -83822,12 +83972,14 @@
       "question": {
         "en": "How long takes a single journey with this elevator?",
         "de": "Wie lange dauert eine Fahrt mit diesem Aufzug?",
-        "fr": "Combien de temps dure le trajet dans cet ascenseur ?"
+        "fr": "Combien de temps dure le trajet dans cet ascenseur ?",
+        "pl": "Jak długo trwa pojedynczy przejazd tą windą?"
       },
       "questionHint": {
         "en": "This excludes the waiting time.",
         "de": "Dies schließt die Wartezeit aus.",
-        "fr": "Cela n'inclut pas le temps d'attente."
+        "fr": "Cela n'inclut pas le temps d'attente.",
+        "pl": "To nie włącza czasu oczekiwania."
       },
       "freeform": {
         "key": "duration",
@@ -83836,7 +83988,8 @@
       "render": {
         "en": "A single journey takes {duration} minutes",
         "de": "Eine Fahrt dauert {duration} Minuten",
-        "fr": "Un aller simple dure {duration} minutes"
+        "fr": "Un aller simple dure {duration} minutes",
+        "pl": "Pojedynczy przejazd trwa {duration} minut"
       },
       "condition": {
         "and": [
@@ -83854,11 +84007,13 @@
       },
       "question": {
         "en": "How many people fit a single carriage?",
-        "de": "Wie viele Leute passen in eine Kabine?"
+        "de": "Wie viele Leute passen in eine Kabine?",
+        "pl": "Ile osób może pomieścić jeden wagon?"
       },
       "render": {
         "en": "{aerialway:occupancy} people fit a single carriage",
-        "de": "{aerialway:occupancy} Leute passen in eine Kabine"
+        "de": "{aerialway:occupancy} Leute passen in eine Kabine",
+        "pl": "{aerialway:occupancy} osób mieści się w jednym wagonie"
       },
       "condition": {
         "and": [
@@ -84006,13 +84161,15 @@
         "de": "Wie lautet der Name des Tierheims?",
         "es": "¿Cómo se llama este refugio de animales?",
         "zh_Hans": "这个动物收容所叫什么名字？",
-        "ca": "Quin nom té aquest refugi d'animals?"
+        "ca": "Quin nom té aquest refugi d'animals?",
+        "pl": "Jak nazywa się to schronisko dla zwierząt?"
       },
       "render": {
         "en": "This animal shelter is named <b>{name}</b>",
         "de": "Der Name des Tierheims lautet <b>{name}</b>",
         "es": "Este refugio de animales se llama <b>{name}</b>",
-        "zh_Hans": "这个动物收容所叫 <b>{name}</b>"
+        "zh_Hans": "这个动物收容所叫 <b>{name}</b>",
+        "pl": "To schronisko dla zwierząt nazywa się <b>{name}</b>"
       },
       "condition": {
         "or": [
@@ -84028,7 +84185,8 @@
         "de": "Was ist der Zweck des Tierheims?",
         "es": "¿Cuál es la finalidad del refugio de animales?",
         "zh_Hans": "动物收容所的目的是什么？",
-        "ca": "Quina és la finalitat del refugi d'animals?"
+        "ca": "Quina és la finalitat del refugi d'animals?",
+        "pl": "Jaki jest cel tego schroniska dla zwierząt?"
       },
       "mappings": [
         {
@@ -84037,7 +84195,8 @@
             "de": "Tiere werden hier bis zur Abgabe an einen neuen Besitzer untergebracht",
             "es": "Los animales permanecen aquí hasta que son adoptados por un nuevo propietario",
             "zh_Hans": "动物被饲养在这里直到被新主人收养",
-            "ca": "Els animals romanen ací fins que son adoptats per un nou propietari"
+            "ca": "Els animals romanen ací fins que son adoptats per un nou propietari",
+            "pl": "Zwierzęta są tutaj dopóki nie znajdą nowego właściciela"
           },
           "if": "purpose=adoption"
         },
@@ -84057,7 +84216,8 @@
             "de": "Tiere werden hier untergebracht und gepflegt bis sie wieder in freier Natur ausgesetzt werden können ",
             "es": "Los animales heridos se rehabilitan aquí hasta que pueden ser liberados de nuevo en la naturaleza ",
             "zh_Hans": "受伤的动物在这里康复，直到它们可以再次被释放到大自然中 ",
-            "ca": "Els animals ferits es rehabiliten aquí fins que puguen ser alliberats de nou a la natura "
+            "ca": "Els animals ferits es rehabiliten aquí fins que puguen ser alliberats de nou a la natura ",
+            "pl": "Ranne zwierzęta przechodzą tutaj rehabilitację do momentu, kiedy mogą zostać wypuszczone na wolność "
           },
           "if": "purpose=release"
         }
@@ -84073,7 +84233,8 @@
     {
       "question": {
         "en": "Which animals are accepted here?",
-        "de": "Welche Tiere werden hier akzeptiert?"
+        "de": "Welche Tiere werden hier akzeptiert?",
+        "pl": "Jakie zwierzęta są tutaj przyjmowane?"
       },
       "id": "boarded_animals",
       "mappings": [
@@ -84081,35 +84242,40 @@
           "if": "animal_shelter=dog",
           "then": {
             "en": "Dogs are kept here",
-            "de": "Hunde werden hier gehalten"
+            "de": "Hunde werden hier gehalten",
+            "pl": "Są tutaj trzymane psy"
           }
         },
         {
           "if": "animal_shelter=cat",
           "then": {
             "en": "Cats are kept here",
-            "de": "Katzen werden hier gehalten"
+            "de": "Katzen werden hier gehalten",
+            "pl": "Są tutaj trzymane koty"
           }
         },
         {
           "if": "animal_shelter=horse",
           "then": {
             "en": "Horses are kept here",
-            "de": "Pferde werden hier gehalten"
+            "de": "Pferde werden hier gehalten",
+            "pl": "Są tutaj trzymane konie"
           }
         },
         {
           "if": "animal_shelter=bird",
           "then": {
             "en": "Birds are kept here",
-            "de": "Vögel werden hier gehalten"
+            "de": "Vögel werden hier gehalten",
+            "pl": "Są tutaj trzymane ptaki"
           }
         },
         {
           "if": "animal_shelter=wildlife",
           "then": {
             "en": "Wild animals are kept here",
-            "de": "Wildtiere werden hier gehalten"
+            "de": "Wildtiere werden hier gehalten",
+            "pl": "Są tutaj trzymane dzikie zwierzęta"
           }
         }
       ],
@@ -85608,7 +85774,8 @@
         "de": "Wird der Spielplatz nachts beleuchtet?",
         "ru": "Эта игровая площадка освещается ночью?",
         "ca": "Aquest parc infantil està il·luminat per la nit?",
-        "cs": "Je toto hřiště v noci osvětlené?"
+        "cs": "Je toto hřiště v noci osvětlené?",
+        "pl": "Czy ten plac zabaw jest oświetlony w nocy?"
       },
       "mappings": [
         {
@@ -85621,7 +85788,8 @@
             "ru": "Эта детская площадка освещается ночью",
             "fr": "L’aire de jeu est éclairée de nuit",
             "ca": "Aquest parc infantil està il·luminat per la nit",
-            "cs": "Toto hřiště je v noci osvětleno"
+            "cs": "Toto hřiště je v noci osvětleno",
+            "pl": "Ten plac zabaw jest oświetlony w nocy"
           }
         },
         {
@@ -85634,7 +85802,8 @@
             "ru": "Эта детская площадка не освещается ночью",
             "fr": "L’aire de jeu n’est pas éclairée de nuit",
             "ca": "Aquest parc infantil no està il·luminat per la nit",
-            "cs": "Toto hřiště není v noci osvětleno"
+            "cs": "Toto hřiště není v noci osvětleno",
+            "pl": "Ten plac zabaw nie jest oświetlony w nocy"
           }
         }
       ],
@@ -85787,7 +85956,8 @@
             "nl": "Er moet <b>betaald</b> worden om deze speeltuin te mogen gebruiken",
             "de": "Der Spielplatz ist <b>gebührenpflichtig</b>",
             "ca": "Aquest és un parc infantil <b>de pagament</b>",
-            "cs": "Toto je <b>placené</b> hřiště"
+            "cs": "Toto je <b>placené</b> hřiště",
+            "pl": "To jest <b>płatny</b> plac zabaw"
           },
           "addExtraTags": [
             "access=customers"
@@ -85819,7 +85989,8 @@
             "fr": "Réservée aux élèves de l’école",
             "es": "Solo accesibles para estudiantes de la escuela",
             "ca": "Només accessible per als alumnes de l'escola",
-            "cs": "Přístupné pouze studentům školy"
+            "cs": "Přístupné pouze studentům školy",
+            "pl": "Dostępny tylko dla uczniów szkoły"
           },
           "hideInAnswer": true
         },
@@ -85834,7 +86005,8 @@
             "de": "Der Spielplatz ist nicht öffentlich zugänglich",
             "es": "No accesible",
             "ca": "No accessible",
-            "cs": "Nepřístupné"
+            "cs": "Nepřístupné",
+            "pl": "Niedostępny"
           }
         },
         {
@@ -85875,7 +86047,8 @@
         "ru": "<a href='mailto:{email}'>{email}</a>",
         "id": "<a href='mailto:{email}'>{email}</a>",
         "es": "<a href='mailto:{email}'>{email}</a>",
-        "cs": "<a href='mailto:{email}'>{email}</a>"
+        "cs": "<a href='mailto:{email}'>{email}</a>",
+        "pl": "<a href='mailto:{email}'>{email}</a>"
       },
       "freeform": {
         "key": "email",
@@ -85909,7 +86082,8 @@
         "id": "<a href='tel:{phone}'>{phone}</a>",
         "it": "<a href='tel:{phone}'>{phone}</a>",
         "es": "<a href='tel:{phone}'>{phone}</a>",
-        "cs": "<a href='tel:{phone}'>{phone}</a>"
+        "cs": "<a href='tel:{phone}'>{phone}</a>",
+        "pl": "<a href='tel:{phone}'>{phone}</a>"
       },
       "freeform": {
         "key": "phone",
@@ -85933,7 +86107,8 @@
         "it": "Il campetto è accessibile a persone in sedia a rotelle?",
         "ru": "Доступна ли детская площадка пользователям кресел-колясок?",
         "ca": "Aquest parc infantil és accessible per a persones en cadira de rodes?",
-        "cs": "Je toto hřiště přístupné pro vozíčkáře?"
+        "cs": "Je toto hřiště přístupné pro vozíčkáře?",
+        "pl": "Czy ten plac zabaw jest dostępny dla osób na wózkach?"
       },
       "mappings": [
         {
@@ -85947,7 +86122,8 @@
             "ru": "Полностью доступна пользователям кресел-колясок",
             "es": "Completamente accesible para usuarios de silla de ruedas",
             "ca": "Totalment accessible per a persones en cadira de rodes",
-            "cs": "Plně přístupné pro vozíčkáře"
+            "cs": "Plně přístupné pro vozíčkáře",
+            "pl": "W pełni dostępne dla osób na wózkach"
           }
         },
         {
@@ -85961,7 +86137,8 @@
             "ru": "Частично доступна пользователям кресел-колясок",
             "es": "Acceso limitado para usuarios de silla de ruedas",
             "ca": "Accessibilitat limitada per a persones en cadira de rodes",
-            "cs": "Omezený přístup pro vozíčkáře"
+            "cs": "Omezený přístup pro vozíčkáře",
+            "pl": "Ograniczona dostępność dla osób na wózkach"
           }
         },
         {
@@ -85975,7 +86152,8 @@
             "ru": "Недоступна пользователям кресел-колясок",
             "es": "No accesible a usuarios de sillas de ruedas",
             "ca": "No accessible per a persones en cadira de rodes",
-            "cs": "Není přístupný pro vozíčkáře"
+            "cs": "Není přístupný pro vozíčkáře",
+            "pl": "Niedostępne dla osób na wózkach"
           }
         }
       ],
@@ -86001,7 +86179,8 @@
         "ru": "Когда открыта эта игровая площадка?",
         "de": "Wann ist dieser Spielplatz zugänglich?",
         "ca": "Quan és accesible aquest parc infantil?",
-        "cs": "Kdy je toto hřiště přístupné?"
+        "cs": "Kdy je toto hřiště přístupné?",
+        "pl": "Kiedy dostępny jest ten plac zabaw?"
       },
       "mappings": [
         {
@@ -86015,7 +86194,8 @@
             "de": "Zugänglich von Sonnenaufgang bis Sonnenuntergang",
             "es": "Accesible desde el amanecer hasta el anochecer",
             "ca": "Accesible des de la sortida del sol fins al vespre",
-            "cs": "Přístupné od východu do západu slunce"
+            "cs": "Přístupné od východu do západu slunce",
+            "pl": "Dostępny od wschodu do zachodu słońca"
           }
         },
         {
@@ -86029,7 +86209,8 @@
             "de": "Immer zugänglich",
             "ca": "Sempre accessible",
             "es": "Siempre accesible",
-            "cs": "Vždy přístupné"
+            "cs": "Vždy přístupné",
+            "pl": "Dostępny zawsze"
           }
         }
       ],
@@ -86080,14 +86261,16 @@
           "then": {
             "en": "This is a swing",
             "nl": "Dit is een schommel",
-            "de": "Das ist eine Schaukel"
+            "de": "Das ist eine Schaukel",
+            "pl": "To jest huśtawka"
           }
         },
         {
           "if": "playground=structure",
           "then": {
             "en": "This is a structure consisting of several connected playground devices",
-            "de": "Dies ist eine Struktur aus mehreren angeschlossenen Spielgeräten"
+            "de": "Dies ist eine Struktur aus mehreren angeschlossenen Spielgeräten",
+            "pl": "To jest struktura składająca się z wielu połączonych urządzeń"
           },
           "icon": {
             "path": "./assets/layers/playground_equipment/SunwardCohousingPlayStructure2005.jpg",
@@ -86098,7 +86281,8 @@
           "if": "playground=slide",
           "then": {
             "en": "This is a slide",
-            "de": "Das ist eine Rutsche"
+            "de": "Das ist eine Rutsche",
+            "pl": "To jest zjeżdżalnia"
           }
         },
         {
@@ -86106,7 +86290,8 @@
           "then": {
             "en": "This is a sand pit",
             "nl": "Dit is een zandbak",
-            "de": "Dies ist ein Sandkasten"
+            "de": "Dies ist ein Sandkasten",
+            "pl": "To jest piaskownica"
           },
           "searchTerms": {
             "en": [
@@ -86190,7 +86375,8 @@
           "if": "playground=roundabout",
           "then": {
             "en": "This is a roundabout",
-            "de": "Dies ist ein Karussell"
+            "de": "Dies ist ein Karussell",
+            "pl": "To jest rondo"
           },
           "searchTerms": {
             "en": [
@@ -86217,7 +86403,8 @@
           "if": "playground=zipwire",
           "then": {
             "en": "This is a zip wire",
-            "de": "Dies ist ein Seilzug"
+            "de": "Dies ist ein Seilzug",
+            "pl": "To jest tyrolka"
           }
         },
         {
@@ -86272,7 +86459,8 @@
           "if": "playground=map",
           "then": {
             "en": "This is a map",
-            "de": "Das ist eine Karte"
+            "de": "Das ist eine Karte",
+            "pl": "To jest mapa"
           },
           "icon": {
             "path": "./assets/layers/playground_equipment/Playground_Map,_Washington_Elementary.jpg",
@@ -89158,7 +89346,8 @@
         "ca": "Quin tipus de càmera és aquesta?",
         "es": "¿Qué tipo de cámara es?",
         "cs": "Jaká je to kamera?",
-        "sl": "Kakšne vrste kamera je to?"
+        "sl": "Kakšne vrste kamera je to?",
+        "pl": "Jakiego rodzaju jest ta kamera?"
       },
       "mappings": [
         {
@@ -89529,7 +89718,8 @@
         "es": "¿A qué nivel está colocada esta cámara?",
         "ca": "A quina planta es troba aquesta càmera?",
         "cs": "Ve kterém podlaží se nachází tato kamera?",
-        "sl": "V katerem nadstropju je ta kamera?"
+        "sl": "V katerem nadstropju je ta kamera?",
+        "pl": "Na którym piętrze znajduje się ta kamera?"
       },
       "render": {
         "en": "Located on level {level}",
@@ -92074,7 +92264,8 @@
       "render": {
         "de": "{link(<img textmode='📞' alt='phone' src='./assets/layers/questions/phone.svg'/>,tel:&LBRACEphone&RBRACE,,,Telefon)}",
         "en": "{link(<img textmode='📞' alt='phone' src='./assets/layers/questions/phone.svg'/>,tel:&LBRACEphone&RBRACE,,,phone)}",
-        "nl": "{link(<img textmode='📞' alt='phone' src='./assets/layers/questions/phone.svg'/>,tel:&LBRACEphone&RBRACE,,,Telefoneer)}"
+        "nl": "{link(<img textmode='📞' alt='phone' src='./assets/layers/questions/phone.svg'/>,tel:&LBRACEphone&RBRACE,,,Telefoneer)}",
+        "pl": "{link(<img textmode='📞' alt='phone' src='./assets/layers/questions/phone.svg'/>,tel:&LBRACEphone&RBRACE,,,telefon)}"
       },
       "mappings": [
         {
@@ -92083,7 +92274,8 @@
           "then": {
             "de": "{link(<img textmode='📞' alt='phone' src='./assets/layers/questions/phone.svg'/>,tel:&LBRACEcontact:phone&RBRACE,,,Telefon)}",
             "en": "{link(<img textmode='📞' alt='phone' src='./assets/layers/questions/phone.svg'/>,tel:&LBRACEcontact:phone&RBRACE,,,phone)}",
-            "nl": "{link(<img textmode='📞' alt='phone' src='./assets/layers/questions/phone.svg'/>,tel:&LBRACEcontact:phone&RBRACE,,,Telefoneer)}"
+            "nl": "{link(<img textmode='📞' alt='phone' src='./assets/layers/questions/phone.svg'/>,tel:&LBRACEcontact:phone&RBRACE,,,Telefoneer)}",
+            "pl": "{link(<img textmode='📞' alt='phone' src='./assets/layers/questions/phone.svg'/>,tel:&LBRACEcontact:phone&RBRACE,,,telefon)}"
           }
         }
       ],
@@ -92219,7 +92411,8 @@
       "render": {
         "de": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,https://openstreetmap.org/&LBRACEid&RBRACE,,,Auf openstreetmap.org öffnen)}",
         "en": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,https://openstreetmap.org/&LBRACEid&RBRACE,,,Open on openstreetmap.org)}",
-        "nl": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,https://openstreetmap.org/&LBRACEid&RBRACE,,,Bekijk op openstreetmap.org)}"
+        "nl": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,https://openstreetmap.org/&LBRACEid&RBRACE,,,Bekijk op openstreetmap.org)}",
+        "pl": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,https://openstreetmap.org/&LBRACEid&RBRACE,,,Otwórz na openstreetmap.org)}"
       },
       "mappings": [
         {
@@ -92232,7 +92425,8 @@
           "then": {
             "de": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,&LBRACE_backend&RBRACE/&LBRACEid&RBRACE,,,Auf openstreetmap.org öffnen)}",
             "en": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,&LBRACE_backend&RBRACE/&LBRACEid&RBRACE,,,Open on openstreetmap.org)}",
-            "nl": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,&LBRACE_backend&RBRACE/&LBRACEid&RBRACE,,,Bekijk op openstreetmap.org)}"
+            "nl": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,&LBRACE_backend&RBRACE/&LBRACEid&RBRACE,,,Bekijk op openstreetmap.org)}",
+            "pl": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,&LBRACE_backend&RBRACE/&LBRACEid&RBRACE,,,Otwórz na openstreetmap.org)}"
           }
         }
       ],

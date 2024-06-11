@@ -891,14 +891,16 @@
             "bicycle_light",
             {
               "en": "bicycle light",
-              "nl": "een fietslichtje"
+              "nl": "een fietslichtje",
+              "de": "Fahrradlicht"
             }
           ],
           [
             "condom",
             {
               "en": "a condom",
-              "nl": "een condoom"
+              "nl": "een condoom",
+              "de": "ein Kondom"
             }
           ]
         ]

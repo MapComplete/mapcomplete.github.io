@@ -26,7 +26,7 @@
     },
     "advertising": {
         "description": "Completaremos los datos de los elementos publicitarios con referencia, operador y iluminación",
-        "name": "Publicidad",
+        "name": "Anuncio",
         "presets": {
             "0": {
                 "description": "Una estructura publicitaria grande al aire libre, que normalmente se encuentra en áreas transitadas como carreteras con mucha intensidad",
@@ -37,6 +37,9 @@
             },
             "2": {
                 "title": "un mupi sobre la pared"
+            },
+            "3": {
+                "title": "una caja de carteles que forma parte de una marquesina de transporte público"
             },
             "4": {
                 "description": "Un pequeño tablón de anuncios para anuncios del vecindario, normalmente destinado a peatones",
@@ -54,6 +57,9 @@
             },
             "8": {
                 "title": "una pantalla sobre una pared"
+            },
+            "9": {
+                "title": "una pantalla montada en una marquesina de tránsito"
             },
             "10": {
                 "description": "Una pieza de tela impermeable con un mensaje impreso, anclada permanentemente en una pared",
@@ -234,6 +240,9 @@
                 }
             }
         }
+    },
+    "aerialway": {
+        "description": "Diversas formas de transporte de pasajeros y mercancías que utilizan cables, como teleféricos, telecabinas, telesillas, telesquíes y tirolinas. "
     },
     "ambulancestation": {
         "description": "Una estación de ambulancias es una zona para almacenar vehículos de ambulancia, equipamiento médico, equipos de protección personal y otros suministros médicos.",

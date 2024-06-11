@@ -81,7 +81,8 @@
         "nl": "een gedenkteken"
       },
       "description": {
-        "en": "A memorial is a physical object which remembers a person or event."
+        "en": "A memorial is a physical object which remembers a person or event.",
+        "de": "Ein Mahnmal ist ein physischer Gegenstand, der an eine Person oder ein Ereignis erinnert."
       },
       "tags": [
         "historic=memorial"
@@ -199,7 +200,8 @@
             "de": "Das ist ein Kreuz",
             "es": "Es una cruz",
             "fr": "C'est une croix",
-            "nl": "Dit is een kruis"
+            "nl": "Dit is een kruis",
+            "pl": "To jest krzyż"
           }
         },
         {
@@ -234,7 +236,8 @@
         {
           "if": "historic=tomb",
           "then": {
-            "en": "This is a gravestone; the person is buried here"
+            "en": "This is a gravestone; the person is buried here",
+            "de": "Dies ist ein Grabstein; die Person ist hier begraben"
           },
           "addExtraTags": [
             "memorial="

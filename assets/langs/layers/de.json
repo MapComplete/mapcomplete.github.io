@@ -5222,6 +5222,44 @@
             "render": "Deine zurückgelegte Strecke"
         }
     },
+    "grave": {
+        "description": "Grabsteine (und Gräber) zeigen an, wo eine Person begraben wurde. Auf dieser Karte können diese aufgezeichnet werden und ein Wikipedialink erstellt werden",
+        "filter": {
+            "0": {
+                "options": {
+                    "0": {
+                        "question": "Mit oder ohne Wikidata"
+                    },
+                    "1": {
+                        "question": "Hat einen Link zu Wikidata"
+                    },
+                    "2": {
+                        "question": "Hat keinen Link zu Wikidata"
+                    }
+                }
+            }
+        },
+        "name": "Grabsteine",
+        "presets": {
+            "0": {
+                "description": "Ein Grabstein ist ein physischer Gegenstand, der anzeigt, dass eine oder mehrere Personen hier begraben sind. Er trägt in der Regel den Namen, das Geburts- und das Sterbedatum der Person oder Personen als Inschrift.",
+                "title": "ein Grabstein"
+            }
+        },
+        "tagRenderings": {
+            "buried:wikidata": {
+                "question": "Wie lautet die Wikipedia-Seite der Person, die hier begraben ist?",
+                "render": "{wikipedia(buried:wikidata)}"
+            },
+            "name": {
+                "question": "Wie lautet der Name der hier begrabenen Person?",
+                "render": "<b>{name}</b> ist hier begraben"
+            }
+        },
+        "title": {
+            "render": "Grabstein"
+        }
+    },
     "guidepost": {
         "description": "Wegweiser (auch als Wegzeiger oder Fingerschilder bekannt) sind entlang offizieller Wander-, Radfahr-, Reit- oder Skirouten oft zu finden, um die Richtungen zu verschiedenen Zielen anzuzeigen",
         "name": "Wegweiser",
@@ -5885,6 +5923,28 @@
             }
         }
     },
+    "lighthouse": {
+        "name": "Leuchtturm",
+        "presets": {
+            "0": {
+                "title": "ein Leuchtturm"
+            }
+        },
+        "tagRenderings": {
+            "lighthouse-height": {
+                "question": "Wie hoch ist dieser Leuchtturm in Metern?",
+                "render": "Die Höhe dieses Leuchtturms beträgt {height} Meter."
+            }
+        },
+        "title": {
+            "mappings": {
+                "0": {
+                    "then": "{name}"
+                }
+            },
+            "render": "Leuchtturm"
+        }
+    },
     "love_hotel": {
         "description": "Ein Love Hotel ist eine Art Kurzzeithotel, das in erster Linie zu dem Zweck betrieben wird, den Gästen Privatsphäre für sexuelle Aktivitäten zu bieten",
         "name": "Love Hotels",
@@ -6185,6 +6245,7 @@
         "name": "Denkmäler",
         "presets": {
             "0": {
+                "description": "Ein Mahnmal ist ein physischer Gegenstand, der an eine Person oder ein Ereignis erinnert.",
                 "title": "ein Denkmal"
             }
         },
@@ -6241,6 +6302,9 @@
                     },
                     "13": {
                         "then": "Das ist ein Baumdenkmal"
+                    },
+                    "14": {
+                        "then": "Dies ist ein Grabstein; die Person ist hier begraben"
                     }
                 },
                 "question": "Was für eine Art von Denkmal ist das?",
@@ -11026,6 +11090,12 @@
                     "into": {
                         "0": {
                             "1": "ein Fahrradschlauch"
+                        },
+                        "1": {
+                            "1": "Fahrradlicht"
+                        },
+                        "2": {
+                            "1": "ein Kondom"
                         }
                     }
                 }
