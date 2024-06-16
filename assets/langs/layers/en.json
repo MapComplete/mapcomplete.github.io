@@ -8728,6 +8728,18 @@
                 "question": "What is the brand of this shop?",
                 "render": "Part of <b>{brand}</b>"
             },
+            "copyshop-binding": {
+                "mappings": {
+                    "0": {
+                        "then": "This shop binds papers into a booklet"
+                    },
+                    "1": {
+                        "then": "This shop does bind books"
+                    }
+                },
+                "question": "Does this shop offer a binding service?",
+                "questionHint": "Does this shop bind a bundle of pages into a small book, e.g. with a comb, a spiral, wire or by gluing?"
+            },
             "copyshop-print-sizes": {
                 "mappings": {
                     "0": {
