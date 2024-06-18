@@ -8728,6 +8728,18 @@
                 "question": "Zu welcher Marke gehört dieses Geschäft?",
                 "render": "Teil von <b>{brand}</b>"
             },
+            "copyshop-binding": {
+                "mappings": {
+                    "0": {
+                        "then": "Dieser Laden bindet Papiere zu einem Heft"
+                    },
+                    "1": {
+                        "then": "Dieser Laden bindet Bücher"
+                    }
+                },
+                "question": "Bietet dieser Laden einen Bindeservice an?",
+                "questionHint": "Bindet dieser Laden ein Bündel von Seiten zu einem kleinen Buch, z.B. mit einer Kamm-, Spiral-, Drahtbindung oder durch Kleben?"
+            },
             "copyshop-print-sizes": {
                 "mappings": {
                     "0": {
