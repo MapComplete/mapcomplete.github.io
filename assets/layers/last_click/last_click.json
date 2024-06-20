@@ -3,12 +3,7 @@
   "name": null,
   "description": "This 'layer' is not really a layer, but contains part of the code how the popup to 'add a new marker' is displayed",
   "source": "special",
-  "isShown": {
-    "or": [
-      "has_presets=yes",
-      "has_note_layer=yes"
-    ]
-  },
+  "isShown": "mouse_button=right",
   "title": {
     "mappings": [
       {
@@ -168,6 +163,11 @@
       "render": {
         "*": "{open_note()}"
       }
+    },
+    {
+      "id": "debug",
+      "metacondition": "__featureSwitchIsDebugging=true",
+      "render": "{all_tags()}"
     }
   ],
   "filter": [

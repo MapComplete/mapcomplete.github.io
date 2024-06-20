@@ -130,30 +130,6 @@
     ]
   },
   {
-    "path": "camera-plus.svg",
-    "license": "CC-BY-SA-3.0",
-    "authors": [
-      "Dave Gandy",
-      "Pieter Vander Vennet"
-    ],
-    "sources": [
-      "https://fontawesome.com/",
-      "https://commons.wikimedia.org/wiki/File:Camera_font_awesome.svg"
-    ]
-  },
-  {
-    "path": "camera-plus.svg",
-    "license": "CC-BY-SA-3.0",
-    "authors": [
-      "Dave Gandy",
-      "Pieter Vander Vennet"
-    ],
-    "sources": [
-      "https://fontawesome.com/",
-      "https://commons.wikimedia.org/wiki/File:Camera_font_awesome.svg"
-    ]
-  },
-  {
     "path": "center.svg",
     "license": "CC0-1.0",
     "authors": [
@@ -324,14 +300,6 @@
     ]
   },
   {
-    "path": "delete_not_allowed.svg",
-    "license": "CC0-1.0",
-    "authors": [
-      "Pieter Vander Vennet"
-    ],
-    "sources": []
-  },
-  {
     "path": "direction_gradient.svg",
     "license": "TRIVIAL",
     "authors": [],
@@ -358,24 +326,6 @@
       "Pieter Vander Vennet"
     ],
     "sources": []
-  },
-  {
-    "path": "download.svg",
-    "license": "CC0-1.0",
-    "authors": [
-      "Hannah Declerck"
-    ],
-    "sources": []
-  },
-  {
-    "path": "download.svg",
-    "license": "CC-BY-SA-4.0",
-    "authors": [
-      "Engr.eponce"
-    ],
-    "sources": [
-      "https://commons.wikimedia.org/wiki/File:Download-icon.svg"
-    ]
   },
   {
     "path": "duplicate.svg",
@@ -558,6 +508,16 @@
     ]
   },
   {
+    "path": "github.svg",
+    "license": "LOGO",
+    "authors": [
+      "Github"
+    ],
+    "sources": [
+      "https://github.com/logos"
+    ]
+  },
+  {
     "path": "gps_arrow.svg",
     "license": "CC0-1.0",
     "authors": [
@@ -731,18 +691,6 @@
   },
   {
     "path": "logo.svg",
-    "license": "TRIVIAL",
-    "authors": [],
-    "sources": []
-  },
-  {
-    "path": "logout.svg",
-    "license": "TRIVIAL",
-    "authors": [],
-    "sources": []
-  },
-  {
-    "path": "logout.svg",
     "license": "TRIVIAL",
     "authors": [],
     "sources": []
@@ -1118,18 +1066,6 @@
     ]
   },
   {
-    "path": "share.svg",
-    "license": "TRIVIAL",
-    "authors": [],
-    "sources": []
-  },
-  {
-    "path": "share.svg",
-    "license": "TRIVIAL",
-    "authors": [],
-    "sources": []
-  },
-  {
     "path": "speech_bubble.svg",
     "license": "CC-BY-4.0",
     "authors": [
@@ -1264,26 +1200,6 @@
     "license": "CC0-1.0",
     "authors": [
       "Robin van der Linde"
-    ],
-    "sources": []
-  },
-  {
-    "path": "up.svg",
-    "license": "TRIVIAL",
-    "authors": [],
-    "sources": []
-  },
-  {
-    "path": "up.svg",
-    "license": "TRIVIAL",
-    "authors": [],
-    "sources": []
-  },
-  {
-    "path": "upload.svg",
-    "license": "CC0-1.0",
-    "authors": [
-      "Pieter Vander Vennet"
     ],
     "sources": []
   },
