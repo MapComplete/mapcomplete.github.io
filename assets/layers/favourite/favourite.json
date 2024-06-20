@@ -28370,7 +28370,8 @@
           "if": "incline=",
           "then": {
             "en": "There is (probably) no incline here",
-            "de": "Hier gibt es (wahrscheinlich) keine Steigung"
+            "de": "Hier gibt es (wahrscheinlich) keine Steigung",
+            "nl": "De straat hier is (waarschijnlijk) zonder helling"
           },
           "hideInAnswer": true
         },
