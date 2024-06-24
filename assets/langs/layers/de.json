@@ -7948,6 +7948,13 @@
                     "render": "Der Aufzug hält auf den Geschossen {level}"
                 }
             },
+            "nothing_known": {
+                "render": {
+                    "special": {
+                        "text": "Über diesen Ort ist nichts bekannt. Hilf mit, indem du die Fragen ausfüllst"
+                    }
+                }
+            },
             "opening_hours": {
                 "mappings": {
                     "0": {
@@ -10746,6 +10753,26 @@
                     }
                 },
                 "question": "Welche Barrierefrei-Funktionen sollen angewendet werden?"
+            },
+            "add-new-feature": {
+                "mappings": {
+                    "0": {
+                        "then": "Das Hinzufügen eines neuen Objekts erfolgt über die Schaltfläche unten links. Ein Klick auf die Karte bewirkt nichts"
+                    },
+                    "1": {
+                        "then": "Wenn Sie auf die Karte klicken oder tippen, wird eine Markierung eingeblendet, an der ein neues Objekt hinzugefügt wird"
+                    },
+                    "2": {
+                        "then": "Beim Rechtsklick oder einem langen Druck auf die Karte erscheint eine Markierung, mit der ein neues Objekt hinzugefügt werden kann"
+                    },
+                    "3": {
+                        "then": "Beim Klicken oder Tippen auf die Karte wird eine Markierung eingeblendet, an der ein neues Objekt hinzugefügt werden kann. Zusätzlich wird unten links eine Schaltfläche angezeigt"
+                    },
+                    "4": {
+                        "then": "Beim Rechtsklick oder einem langen Druck auf die Karte erscheint eine Markierung, an der ein neues Objekt hinzugefügt werden kann. Zusätzlich wird unten links eine Schaltfläche angezeigt"
+                    }
+                },
+                "question": "Wie soll das Menü zum Hinzufügen eines neuen Objekts geöffnet werden?"
             },
             "all-questions-at-once": {
                 "mappings": {

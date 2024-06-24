@@ -1688,7 +1688,7 @@
                         "then": "Un espace ouvert où la bière est servie, typiquement vu en Allemagne"
                     },
                     "5": {
-                        "then": "C'est une <b>boîte de nuit</b> ou discothèque orientée danse, la musique d'un DJ avec un spectacle de lumière et un bar pour prendre des boissons (alcoolisées)"
+                        "then": "Une <b>boîte de nuit</b> ou discothèque orientée danse, la musique d'un DJ avec un spectacle de lumière et un bar pour prendre des boissons (alcoolisées)"
                     }
                 },
                 "question": "Quel genre de café est-ce ?"
@@ -4702,6 +4702,12 @@
                     },
                     "7": {
                         "then": "La surface a <b>un revêtement</b>"
+                    },
+                    "8": {
+                        "then": "La surface est en tartan - un revêtement synthétique typiquement utilisé sur les pistes d'athlétisme"
+                    },
+                    "9": {
+                        "then": "La surface est en caoutchouc, comme des dalles de caoutchouc, des copeaux de caoutchouc ou une grande surface en caoutchouc"
                     }
                 },
                 "question": "De quelle matière est la surface de l’aire de jeu ?",
@@ -5759,8 +5765,64 @@
             "render": "Douche"
         }
     },
-    "slow_roads": {
+    "ski_piste": {
+        "description": "Pistes de ski et de snowboard",
+        "name": "Pistes de ski et de snowboard",
         "tagRenderings": {
+            "length": {
+                "render": "Ce tronçon de piste de ski mesure {_length:km} kilomètres de long"
+            },
+            "piste_difficulty": {
+                "mappings": {
+                    "0": {
+                        "then": "Débutant (vert)"
+                    },
+                    "1": {
+                        "then": "Facile (bleu)"
+                    },
+                    "2": {
+                        "then": "Intermédiaire (rouge)"
+                    },
+                    "3": {
+                        "then": "Avancé (noir)"
+                    },
+                    "4": {
+                        "then": "Expert (orange/double noir)"
+                    },
+                    "5": {
+                        "then": "Hors piste"
+                    }
+                },
+                "question": "Quelle est la difficulté de cette piste ?"
+            }
+        },
+        "title": {
+            "render": "Piste de ski {name}"
+        }
+    },
+    "slow_roads": {
+        "description": "Toutes les routes non carrossables",
+        "name": "Chemins, routes non carrossables et routes à vitesse réduite",
+        "tagRenderings": {
+            "explanation": {
+                "mappings": {
+                    "0": {
+                        "then": "C'est une zone de rencontre"
+                    },
+                    "2": {
+                        "then": "C'est un chemin piéton"
+                    },
+                    "3": {
+                        "then": "C'est un petit sentier"
+                    },
+                    "4": {
+                        "then": "C'est une voie équestre"
+                    }
+                }
+            },
+            "slow_road_is_lit": {
+                "question": "Cette route est-elle éclairée la nuit ?"
+            },
             "slow_roads-surface": {
                 "mappings": {
                     "0": {
@@ -6130,6 +6192,19 @@
             }
         },
         "tagRenderings": {
+            "menstrual_products": {
+                "mappings": {
+                    "0": {
+                        "then": "Protections menstruelles gratuites disponibles dans ces toilettes, pour tout le monde"
+                    },
+                    "1": {
+                        "then": "Protections menstruelles gratuites disponibles dans ces toilettes, réservées à certains visiteurs"
+                    },
+                    "2": {
+                        "then": "Pas protection menstruelle disponible ici"
+                    }
+                }
+            },
             "opening_hours_24_7": {
                 "override": {
                     "question": "Quand ces toilettes sont-elles ouvertes ?"
@@ -6138,7 +6213,7 @@
             "toilet-access": {
                 "mappings": {
                     "0": {
-                        "then": "Accès publique"
+                        "then": "Accès public"
                     },
                     "1": {
                         "then": "Accès réservé aux clients"

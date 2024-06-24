@@ -5172,7 +5172,8 @@
         },
         "then": {
           "en": "Ski piste {name}",
-          "de": "Skipiste {name}"
+          "de": "Skipiste {name}",
+          "fr": "Piste de ski {name}"
         }
       },
       {
@@ -5189,7 +5190,8 @@
         },
         "then": {
           "en": "Ski piste {name}",
-          "de": "Skipiste {name}"
+          "de": "Skipiste {name}",
+          "fr": "Piste de ski {name}"
         }
       },
       {
@@ -13323,6 +13325,7 @@
         ]
       },
       "render": {
+        "de": "{if_nothing_known(Über diesen Ort ist nichts bekannt. Hilf mit&COMMA indem du die Fragen ausfüllst,subtle m-4 italic flex items-center justify-center)}",
         "en": "{if_nothing_known(Nothing is known about this place. Help by filling out the questions,subtle m-4 italic flex items-center justify-center)}",
         "nl": "{if_nothing_known(Er is nog niets geweten. Help mee door de vragen te beantwoorden,subtle m-4 italic flex items-center justify-center)}"
       }
@@ -33231,7 +33234,7 @@
             "nl": "Dit is een <b>nachtclub</b> met dansvloer, DJ met bijhorende lichteffecten en bar waar men (alcoholische) dranken kan nuttigen",
             "de": "Dies ist ein <b>Club</b> oder eine Disco mit Fokus auf Tanzen, Musik von einem DJ mit begleitender Lichtshow und einer Bar, an der man (alkoholische) Getränke bekommt",
             "es": "Este es un <b>club nocturno</b> o discoteca centrado en bailar, música de un DJ con un espectáculo de luces que la acompaña y un bar donde conseguir bebidas (alcohólicas)",
-            "fr": "C'est une <b>boîte de nuit</b> ou discothèque orientée danse, la musique d'un DJ avec un spectacle de lumière et un bar pour prendre des boissons (alcoolisées)",
+            "fr": "Une <b>boîte de nuit</b> ou discothèque orientée danse, la musique d'un DJ avec un spectacle de lumière et un bar pour prendre des boissons (alcoolisées)",
             "da": "Dette er en <b>natklub</b> eller diskotek med fokus på dans, musik af en DJ med tilhørende lysshow og en bar, hvor man kan købe (alkoholiske) drikkevarer",
             "ca": "Açò és un <b>club nocturn</b> o discoteca centrat en ballar, música d'un DJ acompanyat d'un espectacle de llums i una barra on obtindre begudes (alcohòliques)",
             "cs": "Jedná se o <b>noční klub</b> nebo diskotéku se zaměřením na tanec, hudbu DJ s doprovodnou světelnou show a bar, kde si můžete dát (alkoholické) nápoje"
@@ -67380,7 +67383,7 @@
           "then": {
             "en": "Public access",
             "de": "Der Zugang ist öffentlich",
-            "fr": "Accès publique",
+            "fr": "Accès public",
             "nl": "Publiek toegankelijk",
             "it": "Accesso pubblico",
             "ru": "Свободный доступ",
@@ -68458,7 +68461,8 @@
           "then": {
             "en": "Free menstrual products are available to all visitors of these toilets",
             "nl": "Er zijn gratis menstruatieprocten beschikbaar voor alle bezoekers van deze toiletten",
-            "de": "Für alle Besucher dieser Toiletten stehen kostenlose Menstruationsprodukte zur Verfügung"
+            "de": "Für alle Besucher dieser Toiletten stehen kostenlose Menstruationsprodukte zur Verfügung",
+            "fr": "Protections menstruelles gratuites disponibles dans ces toilettes, pour tout le monde"
           }
         },
         {
@@ -68466,7 +68470,8 @@
           "then": {
             "en": "Free menstrual products are available to some visitors of these toilets",
             "nl": "De gratis menstruatieproducten zijn enkel beschikbaar in een deel van de toiletten",
-            "de": "Für einige Besucher dieser Toiletten gibt es kostenlose Menstruationsprodukte"
+            "de": "Für einige Besucher dieser Toiletten gibt es kostenlose Menstruationsprodukte",
+            "fr": "Protections menstruelles gratuites disponibles dans ces toilettes, réservées à certains visiteurs"
           },
           "hideInAnswer": "gender_segregated=yes"
         },
@@ -68476,7 +68481,8 @@
           "then": {
             "en": "No free menstrual products are available here",
             "nl": "Er zijn geen gratis menstruatieproducten beschikbaar",
-            "de": "Hier gibt es keine kostenlosen Menstruationsprodukte"
+            "de": "Hier gibt es keine kostenlosen Menstruationsprodukte",
+            "fr": "Pas protection menstruelle disponible ici"
           }
         }
       ],
@@ -76701,7 +76707,8 @@
         "nl": "Wat is het Wikidata-item van hetgeen dit object is naar vernoemd?",
         "de": "Was ist das Wikidata-Element, nach dem dieses Objekt benannt ist?",
         "fr": "Quel est l'Item Wikidata auquel l'objet fait référence ?",
-        "cs": "Po jaké položce Wikidat je tento objekt pojmenován?"
+        "cs": "Po jaké položce Wikidat je tento objekt pojmenován?",
+        "da": "Hvilket Wikidata-emne er dette objekt opkaldt efter?"
       },
       "freeform": {
         "key": "name:etymology:wikidata",
@@ -76837,7 +76844,8 @@
         "de": "<h3>Wikipedia Artikel zur Namensherkunft</h3>{wikipedia(name:etymology:wikidata):max-height:20rem}",
         "fr": "<h3>Article Wikipedia de la référence au nom</h3>{wikipedia(name:etymology:wikidata):max-height:20rem}",
         "ca": "<h3> Article de la Viquipèdia del nom donant</h3>{wikipedia(name:etymology:wikidata):max-height:20rem}",
-        "cs": "<h3>Článek autora jména na Wikipedii</h3>{wikipedia(name:etymology:wikidata):max-height:20rem}"
+        "cs": "<h3>Článek autora jména na Wikipedii</h3>{wikipedia(name:etymology:wikidata):max-height:20rem}",
+        "da": "<h3>Wikipedia-artikel om navnets ophav</h3>{wikipedia(name:etymology:wikidata):max-height:20rem}"
       }
     },
     {
@@ -76869,7 +76877,8 @@
         "de": "Wonach ist dieses Objekt benannt?",
         "fr": "En référence à quoi cet objet est-il nommé ?",
         "pl": "Po czym nazwany jest ten obiekt?",
-        "cs": "Po čem je tento objekt pojmenován?"
+        "cs": "Po čem je tento objekt pojmenován?",
+        "da": "Hvad er dette objekt opkaldt efter?"
       },
       "render": {
         "en": "Named after {name:etymology}",
@@ -76921,7 +76930,8 @@
         "de": "{image_carousel(image:streetsign)}<br/>{image_upload(image:streetsign, Bild eines Straßenschildes hinzufügen)}",
         "fr": "{image_carousel(image:streetsign)}<br/>{image_upload(image:streetsign, Ajouter une photo de la plaque de rue)}",
         "ca": "{image_carousel(image:streetsign)}<br/>{image_upload(image:streetsign, Afegeix una imatge de la placa amb el nom del carrer)}",
-        "cs": "{image_carousel(image:streetsign)}<br/>{image_upload(image:streetsign, Add image of a street name sign)}"
+        "cs": "{image_carousel(image:streetsign)}<br/>{image_upload(image:streetsign, Add image of a street name sign)}",
+        "da": "{image_carousel(image:streetsign)}<br/>{image_upload(image:streetsign, Tilføj foto af gadenavneskilt)}"
       },
       "condition": {
         "or": [
@@ -76940,7 +76950,8 @@
         "de": "{multi_apply(_same_name_ids, name:etymology:wikidata;name:etymology, Automatische Datenübernahme auf alle Segmente mit demselben Namen, true)}",
         "fr": "{multi_apply(_same_name_ids, name:etymology:wikidata;name:etymology, Appliquer automatiquement aux segments avec le même nom, true)}",
         "ca": "{multi_apply(_same_name_ids, name:etymology:wikidata;name:etimology, aplicació automàtica de dades a tots els segments amb el mateix nom, vertader)}",
-        "cs": "{multi_apply(_same_name_ids, name:etymology:wikidata;name:etymology, Auto-applying data on all segments with the same name, true)}"
+        "cs": "{multi_apply(_same_name_ids, name:etymology:wikidata;name:etymology, Auto-applying data on all segments with the same name, true)}",
+        "da": "{multi_apply(_same_name_ids, name:etymology:wikidata;name:etymology, Tilføjer automatisk til alle segmenter med samme navn, true)}"
       },
       "condition": {
         "or": [
@@ -76961,7 +76972,8 @@
         "fr": "Un article Wikipédia à propos de cette <b>rue</b> existe :<br/>{wikipedia():max-height:25rem}",
         "pl": "Istnieje artykuł Wikipedii na temat tej <b>ulicy</b>:<br/>{wikipedia():max-height:25rem}",
         "ca": "Existeix un article de la Viquipèdia sobre aquest <b>carrer</b>:<br/>{wikipedia():max-height:25rem}",
-        "cs": "Článek na Wikipedii o této <b>ulici</b> existuje:<br/>{wikipedia():max-height:25rem}"
+        "cs": "Článek na Wikipedii o této <b>ulici</b> existuje:<br/>{wikipedia():max-height:25rem}",
+        "da": "Der findes en Wikipedia-artikel om denne <b>gade</b>:<br/>{wikipedia():max-height:25rem}"
       },
       "condition": {
         "and": [
@@ -87121,7 +87133,8 @@
           "then": {
             "en": "The surface is tartan - a synthetic, springy surface typically seen on athletic pistes",
             "nl": "De ondergrond bestaat uit Tartan - een synthetisch, elastisch en poreus materiaal dat je ook vindt op atletiekpistes",
-            "de": "Der Belag ist aus Tartan - ein synthetischer, federnder Belag, der typischerweise auf Sportbahnen zu finden ist"
+            "de": "Der Belag ist aus Tartan - ein synthetischer, federnder Belag, der typischerweise auf Sportbahnen zu finden ist",
+            "fr": "La surface est en tartan - un revêtement synthétique typiquement utilisé sur les pistes d'athlétisme"
           }
         },
         {
@@ -87129,7 +87142,8 @@
           "then": {
             "en": "The surface is made from rubber, such as rubber tiles, rubber mulch or a big rubber area",
             "nl": "De ondergrond bestaat uit rubber, zoals rubberen tegels, rubber snippers of een groot rubberen oppervlak",
-            "de": "Die Oberfläche besteht aus Gummi, z. B. aus Gummifliesen, Gummimulch oder einer großen Gummifläche"
+            "de": "Die Oberfläche besteht aus Gummi, z. B. aus Gummifliesen, Gummimulch oder einer großen Gummifläche",
+            "fr": "La surface est en caoutchouc, comme des dalles de caoutchouc, des copeaux de caoutchouc ou une grande surface en caoutchouc"
           }
         }
       ],
@@ -89355,7 +89369,8 @@
     {
       "question": {
         "en": "What is the difficulty of this piste?",
-        "de": "Was ist der Schwierigkeitsgrad der Piste?"
+        "de": "Was ist der Schwierigkeitsgrad der Piste?",
+        "fr": "Quelle est la difficulté de cette piste ?"
       },
       "id": "piste_difficulty",
       "condition": {
@@ -89375,42 +89390,48 @@
           "if": "piste:difficulty=novice",
           "then": {
             "en": "Novice (green)",
-            "de": "Anfänger (grün)"
+            "de": "Anfänger (grün)",
+            "fr": "Débutant (vert)"
           }
         },
         {
           "if": "piste:difficulty=easy",
           "then": {
             "en": "Easy (blue)",
-            "de": "Einfach (blau)"
+            "de": "Einfach (blau)",
+            "fr": "Facile (bleu)"
           }
         },
         {
           "if": "piste:difficulty=intermediate",
           "then": {
             "en": "Intermediate (red)",
-            "de": "Mittel (rot)"
+            "de": "Mittel (rot)",
+            "fr": "Intermédiaire (rouge)"
           }
         },
         {
           "if": "piste:difficulty=advanced",
           "then": {
             "en": "Advanced (black)",
-            "de": "Fortgeschritten (schwarz)"
+            "de": "Fortgeschritten (schwarz)",
+            "fr": "Avancé (noir)"
           }
         },
         {
           "if": "piste:difficulty=expert",
           "then": {
             "en": "Expert (orange/double black)",
-            "de": "Experte (orange/doppel schwarz)"
+            "de": "Experte (orange/doppel schwarz)",
+            "fr": "Expert (orange/double noir)"
           }
         },
         {
           "if": "piste:difficulty=freeride",
           "then": {
             "en": "Freeride",
-            "de": "Freeride"
+            "de": "Freeride",
+            "fr": "Hors piste"
           }
         }
       ]
@@ -89419,7 +89440,8 @@
       "id": "ski_piste_length",
       "render": {
         "en": "This part of the ski piste is {_length:km} kilometer long",
-        "de": "Dieser Teil der Skipiste hat eine Länge von {_length:km} km"
+        "de": "Dieser Teil der Skipiste hat eine Länge von {_length:km} km",
+        "fr": "Ce tronçon de piste de ski mesure {_length:km} kilomètres de long"
       },
       "condition": {
         "and": [
@@ -93798,6 +93820,7 @@
         "defaults"
       ],
       "render": {
+        "da": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,https://openstreetmap.org/&LBRACEid&RBRACE,,,Åbn på openstreetmap.org)}",
         "de": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,https://openstreetmap.org/&LBRACEid&RBRACE,,,Auf openstreetmap.org öffnen)}",
         "en": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,https://openstreetmap.org/&LBRACEid&RBRACE,,,Open on openstreetmap.org)}",
         "nl": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,https://openstreetmap.org/&LBRACEid&RBRACE,,,Bekijk op openstreetmap.org)}",
@@ -93813,6 +93836,7 @@
           "#": "ignore-image-in-then",
           "if": "_backend~*",
           "then": {
+            "da": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,&LBRACE_backend&RBRACE/&LBRACEid&RBRACE,,,Åbn på openstreetmap.org)}",
             "de": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,&LBRACE_backend&RBRACE/&LBRACEid&RBRACE,,,Auf openstreetmap.org öffnen)}",
             "en": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,&LBRACE_backend&RBRACE/&LBRACEid&RBRACE,,,Open on openstreetmap.org)}",
             "nl": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,&LBRACE_backend&RBRACE/&LBRACEid&RBRACE,,,Bekijk op openstreetmap.org)}",
