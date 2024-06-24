@@ -93803,6 +93803,7 @@
         "nl": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,https://openstreetmap.org/&LBRACEid&RBRACE,,,Bekijk op openstreetmap.org)}",
         "pl": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,https://openstreetmap.org/&LBRACEid&RBRACE,,,Otwórz na openstreetmap.org)}"
       },
+      "metacondition": "_loggedIn=true",
       "mappings": [
         {
           "if": "id~.*/-.*",
