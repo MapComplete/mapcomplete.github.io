@@ -13324,6 +13324,7 @@
           }
         ]
       },
+      "metacondition": "__featureSwitchEnableLogin=true",
       "render": {
         "de": "{if_nothing_known(Über diesen Ort ist nichts bekannt. Hilf mit&COMMA indem du die Fragen ausfüllst,subtle m-4 italic flex items-center justify-center)}",
         "en": "{if_nothing_known(Nothing is known about this place. Help by filling out the questions,subtle m-4 italic flex items-center justify-center)}",
