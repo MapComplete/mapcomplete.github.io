@@ -35,7 +35,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 var _this = this;
-var version = "0.0.8-7dc4755a1d73b4b5bec26e4a9917319b8d5cc0bb";
+var version = "0.0.0";
 function install() {
     return __awaiter(this, void 0, void 0, function () {
         return __generator(this, function (_a) {
@@ -60,28 +60,37 @@ function activate() {
         });
     });
 }
-var cacheFirst = function (event) { return __awaiter(_this, void 0, void 0, function () {
-    return __generator(this, function (_a) {
-        switch (_a.label) {
-            case 0: return [4 /*yield*/, event.respondWith(caches.match(event.request, { ignoreSearch: true }).then(function (cacheResponse) {
-                    if (cacheResponse !== undefined) {
-                        console.log("Loaded from cache: ", event.request);
-                        return cacheResponse;
-                    }
-                    return fetch(event.request).then(function (networkResponse) {
-                        return caches.open(version).then(function (cache) {
-                            cache.put(event.request, networkResponse.clone());
-                            console.log("Cached", event.request);
-                            return networkResponse;
-                        });
-                    });
-                }))];
-            case 1:
-                _a.sent();
-                return [2 /*return*/];
-        }
+function fetchAndCache(event) {
+    return fetch(event.request).then(function (networkResponse) {
+        return caches.open(version).then(function (cache) {
+            cache.put(event.request, networkResponse.clone());
+            console.log("Cached", event.request);
+            return networkResponse;
+        });
     });
-}); };
+}
+var cacheFirst = function (event, attemptUpdate) {
+    if (attemptUpdate === void 0) { attemptUpdate = false; }
+    return __awaiter(_this, void 0, void 0, function () {
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0: return [4 /*yield*/, event.respondWith(caches.match(event.request, { ignoreSearch: true }).then(function (cacheResponse) {
+                        if (cacheResponse !== undefined) {
+                            console.debug("Loaded from cache: ", event.request);
+                            if (attemptUpdate) {
+                                fetchAndCache(event);
+                            }
+                            return cacheResponse;
+                        }
+                        return fetchAndCache(event);
+                    }))];
+                case 1:
+                    _a.sent();
+                    return [2 /*return*/];
+            }
+        });
+    });
+};
 self.addEventListener("fetch", function (e) { return __awaiter(_this, void 0, void 0, function () {
     var event, origin_1, requestUrl, shouldBeCached, e_1;
     return __generator(this, function (_a) {
@@ -104,9 +113,10 @@ self.addEventListener("fetch", function (e) { return __awaiter(_this, void 0, vo
                     origin_1.hostname !== "127.0.0.1" &&
                     origin_1.hostname !== "localhost" &&
                     !origin_1.hostname.endsWith(".local") &&
-                    !origin_1.host.endsWith(".gitpod.io");
+                    !origin_1.host.endsWith(".gitpod.io") &&
+                    origin_1.pathname.indexOf("service-worker") < 0;
                 if (!shouldBeCached) {
-                    console.log("Not intercepting ", requestUrl.toString(), origin_1.host, requestUrl.host);
+                    console.debug("Not intercepting ", requestUrl.toString(), origin_1.host, requestUrl.host);
                     // We return _without_ calling event.respondWith, which signals the browser that it'll have to handle it himself
                     return [2 /*return*/];
                 }
