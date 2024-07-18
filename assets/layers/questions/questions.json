@@ -632,6 +632,9 @@
             "de": "Hunde sind nur draußen erlaubt"
           }
         }
+      ],
+      "filter": [
+        "filters.dogs"
       ]
     },
     {
@@ -756,6 +759,9 @@
           },
           "hideInAnswer": true
         }
+      ],
+      "filter": [
+        "filters.open_now"
       ]
     },
     {
@@ -1040,6 +1046,10 @@
             "cs": "Platba QR kódem je zde možná"
           }
         }
+      ],
+      "filter": [
+        "filters.accepts_cash",
+        "filters.accepts_cards"
       ]
     },
     {
@@ -2120,6 +2130,9 @@
             "pl": "To miejsce oferuje przewodowy dostęp do Internetu"
           }
         }
+      ],
+      "filter": [
+        "filters.has_internet"
       ]
     },
     {
@@ -2451,6 +2464,9 @@
             "cs": "Tento obchod nemá žádnou nabídku bez cukru"
           }
         }
+      ],
+      "filter": [
+        "filters.sugar_free"
       ]
     },
     {
@@ -2496,6 +2512,9 @@
             "cs": "Žádná nabídka bez laktózy"
           }
         }
+      ],
+      "filter": [
+        "filters.lactose_free"
       ]
     },
     {
@@ -2541,6 +2560,9 @@
             "cs": "Tento obchod nemá bezlepkovou nabídku"
           }
         }
+      ],
+      "filter": [
+        "filters.gluten_free"
       ]
     },
     {
@@ -2770,7 +2792,8 @@
       "id": "seasonal",
       "question": {
         "en": "Is {title()} available all around the year?",
-        "nl": "Is {title()} heel het jaar beschikbaar?"
+        "nl": "Is {title()} heel het jaar beschikbaar?",
+        "de": "Ist {title()} rund um das Jahr nutzbar?"
       },
       "mappings": [
         {

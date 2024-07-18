@@ -568,7 +568,7 @@
     "atm": {
         "description": "Geldautomaten zum Geld abheben",
         "filter": {
-            "1": {
+            "0": {
                 "options": {
                     "0": {
                         "question": "Mit Sprachausgabe"
@@ -1186,6 +1186,9 @@
                     },
                     "7": {
                         "then": "Fahrradhelme können ausgeliehen werden"
+                    },
+                    "8": {
+                        "then": "Lastenräder können hier gemietet werden"
                     }
                 },
                 "question": "Welche Fahrräder und welches Zubehör kann hier geliehen werden?",
@@ -1691,14 +1694,14 @@
     "bike_shop": {
         "description": "Ein Geschäft, das speziell Fahrräder oder verwandte Artikel verkauft",
         "filter": {
-            "1": {
+            "0": {
                 "options": {
                     "0": {
                         "question": "Verkauft gebrauchte Fahrräder"
                     }
                 }
             },
-            "2": {
+            "1": {
                 "options": {
                     "0": {
                         "question": "Bietet Selbstreparatur an"
@@ -4704,6 +4707,11 @@
                     }
                 },
                 "question": "Was ist der erlaubte Zugang?"
+            },
+            "seasonal": {
+                "override": {
+                    "question": "Ist diese Feuerstelle rund um das Jahr nutzbar?"
+                }
             }
         },
         "title": {
@@ -8147,7 +8155,8 @@
                     "2": {
                         "then": "Im Winter nicht in Betrieb"
                     }
-                }
+                },
+                "question": "Ist {title()} rund um das Jahr nutzbar?"
             },
             "service:electricity": {
                 "mappings": {
@@ -8705,6 +8714,39 @@
                 },
                 "question": "Welche Geschlechter können sich an dieser Schule anmelden?"
             },
+            "pedagogy": {
+                "mappings": {
+                    "0": {
+                        "then": "Diese Schule benutzt keine spezifische Pädagogik"
+                    },
+                    "1": {
+                        "then": "Diese Schule nutzt die Montessori Methode der Bildung"
+                    },
+                    "2": {
+                        "then": "Diese Schule ist mit der Freinet Modern School Movement verbunden"
+                    },
+                    "3": {
+                        "then": "Diese Schule nutzt das Lehrkonzept von Jenaplan"
+                    },
+                    "4": {
+                        "then": "Diese Schule nutzt die Steiner/Waldorfer Bildungsphilosophie"
+                    },
+                    "5": {
+                        "then": "Diese Schule nutzt das Dalton Plan Lehrkonzept"
+                    },
+                    "6": {
+                        "then": "Diese Schule nutzt Outdoor-Lernen"
+                    },
+                    "7": {
+                        "then": "Diese Schule nutzt den Reggio Emilia-Ansatz"
+                    },
+                    "8": {
+                        "then": "Diese Schule nutzt das Sudbury-System"
+                    }
+                },
+                "question": "Welche Bildungstheorie wird auf dieser Schule angewendet?",
+                "render": "Diese Schule benutzt {pedagogy}"
+            },
             "school-language": {
                 "render": {
                     "special": {
@@ -8818,7 +8860,7 @@
                     }
                 }
             },
-            "6": {
+            "3": {
                 "options": {
                     "0": {
                         "question": "Nur Second-Hand-Geschäfte anzeigen"
