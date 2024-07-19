@@ -6,7 +6,7 @@
   "description": {
     "en": "A crowdsourced map with glutenfree items"
   },
-  "icon": "./assets/themes/glutenfree/glutenfree.svg",
+  "icon": "./assets/layers/questions/glutenfree.svg",
   "layers": [
     {
       "builtin": "food",
