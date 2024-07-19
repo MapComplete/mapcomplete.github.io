@@ -10,6 +10,11 @@
   "layers": [
     {
       "builtin": "food",
+      "hideTagRenderingsWithLabels": [
+        "gluten_free",
+        "images",
+        "reviews"
+      ],
       "override": {
         "source": {
           "osmTags": {
@@ -26,6 +31,11 @@
     },
     {
       "builtin": "food",
+      "hideTagRenderingsWithLabels": [
+        "gluten_free",
+        "images",
+        "reviews"
+      ],
       "override": {
         "name": null,
         "minzoom": 17,
@@ -37,6 +47,11 @@
     },
     {
       "builtin": "ice_cream",
+      "hideTagRenderingsWithLabels": [
+        "gluten_free",
+        "images",
+        "reviews"
+      ],
       "override": {
         "source": {
           "osmTags": {
@@ -53,6 +68,11 @@
     },
     {
       "builtin": "ice_cream",
+      "hideTagRenderingsWithLabels": [
+        "gluten_free",
+        "images",
+        "reviews"
+      ],
       "override": {
         "name": null,
         "minzoom": 17,
@@ -64,6 +84,11 @@
     },
     {
       "builtin": "shops",
+      "hideTagRenderingsWithLabels": [
+        "gluten_free",
+        "images",
+        "reviews"
+      ],
       "override": {
         "source": {
           "osmTags": {
@@ -80,6 +105,11 @@
     },
     {
       "builtin": "shops",
+      "hideTagRenderingsWithLabels": [
+        "gluten_free",
+        "images",
+        "reviews"
+      ],
       "override": {
         "name": null,
         "minzoom": 17,
@@ -89,5 +119,12 @@
         }
       }
     }
-  ]
+  ],
+  "overrideAll": {
+    "+tagRenderings": [
+      "images",
+      "reviews",
+      "gluten_free"
+    ]
+  }
 }
