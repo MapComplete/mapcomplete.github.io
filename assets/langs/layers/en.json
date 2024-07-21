@@ -4688,7 +4688,7 @@
     },
     "firepit": {
         "description": "An outdoor place to make a fire, typically open to the public.",
-        "name": "Firepitd",
+        "name": "Firepit",
         "presets": {
             "0": {
                 "description": "An outdoor place to make a fire, typically open to the public.",
