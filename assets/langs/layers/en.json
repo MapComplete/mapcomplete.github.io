@@ -911,6 +911,17 @@
             }
         },
         "tagRenderings": {
+            "bench-armrest": {
+                "mappings": {
+                    "0": {
+                        "then": "This bench does have one or more armrests"
+                    },
+                    "1": {
+                        "then": "This bench does <b>not</b> have any armrests"
+                    }
+                },
+                "question": "Does this bench have one or more armrests?"
+            },
             "bench-artwork": {
                 "mappings": {
                     "0": {
@@ -8181,6 +8192,23 @@
                         "text": "Share this location"
                     }
                 }
+            },
+            "shower": {
+                "mappings": {
+                    "0": {
+                        "then": "This facility does have showers with warm water"
+                    },
+                    "1": {
+                        "then": "This facility does have showers, but the water is not heated"
+                    },
+                    "2": {
+                        "then": "This facility does have showers"
+                    },
+                    "3": {
+                        "then": "This facility does not offer a shower"
+                    }
+                },
+                "question": "Does this facility offer showers?"
             },
             "single_level": {
                 "mappings": {

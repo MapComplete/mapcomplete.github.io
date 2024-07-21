@@ -1,2 +1,0 @@
-import"./modulepreload-polyfill-3cfb730f.js";import{O as i}from"./OsmConnection-0407d2dc.js";import"./UIEventSource-4d1d2b8a.js";import"./LocalStorageSource-115f95d9.js";import"./Constants-d4e84a83.js";console.log("Authorizing...");new i().finishLogin(o=>{const n=window.location.protocol+"//"+window.location.host+"/index.html";o??(o=n),o.indexOf("/land")>0&&(o=n),console.log("Redirecting to",o),window.location.href=o});
-//# sourceMappingURL=land-f53fd8ec.js.map

@@ -911,6 +911,17 @@
             }
         },
         "tagRenderings": {
+            "bench-armrest": {
+                "mappings": {
+                    "0": {
+                        "then": "Diese Sitzbank hat eine oder mehrere Armlehnen"
+                    },
+                    "1": {
+                        "then": "Diese Sitzbank hat <b>keine</b> Armlehnen"
+                    }
+                },
+                "question": "Hat diese Sitzbank eine oder mehrere Armlehnen?"
+            },
             "bench-artwork": {
                 "mappings": {
                     "0": {

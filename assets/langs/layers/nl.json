@@ -561,6 +561,17 @@
             }
         },
         "tagRenderings": {
+            "bench-armrest": {
+                "mappings": {
+                    "0": {
+                        "then": "Deze bank heeft armleuningen"
+                    },
+                    "1": {
+                        "then": "Deze bank heeft <b>geen</b> armleuningen"
+                    }
+                },
+                "question": "Heeft deze bank armleuningen?"
+            },
             "bench-artwork": {
                 "mappings": {
                     "0": {
