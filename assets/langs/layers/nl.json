@@ -4311,6 +4311,13 @@
                 },
                 "question": "Heeft deze eetgelegenheid een vegetarische optie?"
             },
+            "add-menu-image": {
+                "render": {
+                    "special": {
+                        "label": "Voeg een foto van het menu toe"
+                    }
+                }
+            },
             "delivery": {
                 "mappings": {
                     "0": {

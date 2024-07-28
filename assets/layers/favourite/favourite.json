@@ -82744,6 +82744,93 @@
       }
     },
     {
+      "id": "show-menu-image",
+      "render": {
+        "*": "{image_carousel(image:menu)}"
+      },
+      "condition": {
+        "or": [
+          "amenity=fast_food",
+          "amenity=restaurant",
+          "amenity=fast_food",
+          "amenity=restaurant",
+          "amenity=fast_food",
+          "amenity=restaurant",
+          "amenity=fast_food",
+          "amenity=restaurant",
+          "amenity=fast_food",
+          "amenity=restaurant",
+          "amenity=fast_food",
+          "amenity=restaurant",
+          "amenity=fast_food",
+          "amenity=restaurant",
+          "amenity=fast_food",
+          "amenity=restaurant"
+        ]
+      }
+    },
+    {
+      "id": "add-menu-image",
+      "render": {
+        "en": "{image_upload(image:menu,Add an image from the menu)}",
+        "nl": "{image_upload(image:menu,Voeg een foto van het menu toe)}"
+      },
+      "condition": {
+        "or": [
+          "amenity=fast_food",
+          "amenity=restaurant",
+          "amenity=fast_food",
+          "amenity=restaurant",
+          "amenity=fast_food",
+          "amenity=restaurant",
+          "amenity=fast_food",
+          "amenity=restaurant",
+          "amenity=fast_food",
+          "amenity=restaurant",
+          "amenity=fast_food",
+          "amenity=restaurant",
+          "amenity=fast_food",
+          "amenity=restaurant",
+          "amenity=fast_food",
+          "amenity=restaurant"
+        ]
+      }
+    },
+    {
+      "id": "menu-website",
+      "question": {
+        "en": "On what webpage is the menu published?"
+      },
+      "render": {
+        "en": "{link(Consult the menu,&LBRACEwebsite:menu&RBRACE,,,)}"
+      },
+      "freeform": {
+        "key": "website:menu",
+        "type": "url",
+        "inline": true
+      },
+      "condition": {
+        "or": [
+          "amenity=fast_food",
+          "amenity=restaurant",
+          "amenity=fast_food",
+          "amenity=restaurant",
+          "amenity=fast_food",
+          "amenity=restaurant",
+          "amenity=fast_food",
+          "amenity=restaurant",
+          "amenity=fast_food",
+          "amenity=restaurant",
+          "amenity=fast_food",
+          "amenity=restaurant",
+          "amenity=fast_food",
+          "amenity=restaurant",
+          "amenity=fast_food",
+          "amenity=restaurant"
+        ]
+      }
+    },
+    {
       "id": "Reservation",
       "condition": {
         "and": [

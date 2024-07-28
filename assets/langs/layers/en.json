@@ -5107,6 +5107,13 @@
                 },
                 "question": "Does this restaurant have a vegetarian option?"
             },
+            "add-menu-image": {
+                "render": {
+                    "special": {
+                        "label": "Add an image from the menu"
+                    }
+                }
+            },
             "delivery": {
                 "mappings": {
                     "0": {
@@ -5201,6 +5208,14 @@
                     }
                 },
                 "question": "Does this restaurant offer a halal menu?"
+            },
+            "menu-website": {
+                "question": "On what webpage is the menu published?",
+                "render": {
+                    "special": {
+                        "text": "Consult the menu"
+                    }
+                }
             },
             "organic (no friture)": {
                 "mappings": {
