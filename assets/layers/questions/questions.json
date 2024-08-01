@@ -217,6 +217,29 @@
       "icon": "./assets/svg/mastodon.svg"
     },
     {
+      "id": "facebook",
+      "description": "Shows and asks for the facebook handle",
+      "question": {
+        "en": "What is the facebook page of of {title()}?"
+      },
+      "freeform": {
+        "key": "contact:facebook",
+        "type": "url"
+      },
+      "render": {
+        "special": {
+          "type": "link",
+          "href": "{contact:facebook}",
+          "text": {
+            "en": "Facebook page"
+          }
+        },
+        "after": {
+          "en": "<div class='subtle text-sm'>Facebook is known to harm mental health, manipulate public opinion and cause hate. Try to use healthier alternatives</div>"
+        }
+      }
+    },
+    {
       "id": "osmlink",
       "render": {
         "*": "<a href='https://openstreetmap.org/{id}' target='_blank' rel='noopener'F><img src='./assets/svg/osm-logo-us.svg'/></a>"
@@ -806,7 +829,7 @@
       "id": "opening_hours_by_appointment",
       "builtin": "opening_hours",
       "override": {
-        "mappings": [
+        "+mappings": [
           {
             "if": "opening_hours=\"by appointment\"",
             "then": {
@@ -2046,6 +2069,7 @@
       "mappings": [
         {
           "if": "internet_access=wlan",
+          "icon": "wifi",
           "then": {
             "en": "This place offers wireless internet access",
             "nl": "Deze plaats biedt draadloze internettoegang aan",
@@ -2063,6 +2087,7 @@
         },
         {
           "if": "internet_access=no",
+          "icon": "wifi;cross_bottom_right:red",
           "then": {
             "en": "This place <b>does not</b> offer internet access",
             "nl": "Deze plaats biedt <b>geen</b> internettoegang aan",
@@ -2098,6 +2123,7 @@
         },
         {
           "if": "internet_access=terminal",
+          "icon": "computer",
           "then": {
             "en": "This place offers internet access via a terminal or computer",
             "nl": "Deze plaats biedt internettoegang via een terminal of computer aan",
@@ -2867,6 +2893,12 @@
           }
         }
       ]
+    },
+    {
+      "id": "preset_description",
+      "render": {
+        "*": "{preset_description()}"
+      }
     }
   ]
 }
