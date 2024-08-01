@@ -7246,6 +7246,13 @@
                     "render": "Dit is een {shop}"
                 }
             },
+            "key_cutter": {
+                "mappings": {
+                    "1": {
+                        "then": "Deze winkel kopieert sleutels"
+                    }
+                }
+            },
             "organic": {
                 "mappings": {
                     "0": {

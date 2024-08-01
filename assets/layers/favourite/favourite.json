@@ -70805,7 +70805,8 @@
           "icon": "./assets/layers/id_presets/fas-key.svg",
           "then": {
             "en": "This shop offers key cutting as a service",
-            "de": "Dieser Laden bietet Schlüsselschneiden als Dienstleistung an"
+            "de": "Dieser Laden bietet Schlüsselschneiden als Dienstleistung an",
+            "nl": "Deze winkel kopieert sleutels"
           }
         },
         {
