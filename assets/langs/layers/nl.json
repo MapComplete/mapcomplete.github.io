@@ -6003,6 +6003,9 @@
                     },
                     "9": {
                         "then": "De ondergrond bestaat uit rubber, zoals rubberen tegels, rubber snippers of een groot rubberen oppervlak"
+                    },
+                    "10": {
+                        "then": "De ondergrond bestaat uit <b>kleine grindsteentjes</b> (steentjes kleiner dan 2 cm)"
                     }
                 },
                 "question": "Wat is de ondergrond van deze speeltuin?",
