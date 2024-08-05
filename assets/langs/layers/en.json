@@ -515,6 +515,17 @@
                     }
                 },
                 "question": "Does this artwork serve as a bench?"
+            },
+            "doubles_as_memorial": {
+                "mappings": {
+                    "0": {
+                        "then": "This artwork also serves as a memorial"
+                    },
+                    "1": {
+                        "then": "This artwork does not serve as a bench"
+                    }
+                },
+                "question": "Does this artwork serve as a memorial?"
             }
         },
         "title": {
