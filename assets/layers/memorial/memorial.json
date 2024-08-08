@@ -270,7 +270,11 @@
         "nl": "Wat is het opschrift van dit gedenkteken?"
       },
       "#:condition": "Benches have a separate inscription question",
-      "condition": "memorial!=bench",
+      "condition": {
+        "and": [
+          "memorial!=bench"
+        ]
+      },
       "render": {
         "en": "The inscription on this memorial reads: <p><i>{inscription}<i></p>",
         "ca": "La inscripció d'aquesta placa diu: <p><i>{inscription}<i></p>",
