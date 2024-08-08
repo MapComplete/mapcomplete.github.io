@@ -23658,58 +23658,18 @@
       },
       "#:condition": "Benches have a separate inscription question",
       "condition": {
-        "or": [
+        "and": [
           {
-            "and": [
-              "tourism=artwork",
-              "historic=memorial"
+            "or": [
+              "historic=memorial",
+              "historic=memorial",
+              "historic=memorial",
+              "memorial~.+",
+              "memorial~.+",
+              "memorial~.+"
             ]
           },
-          {
-            "and": [
-              {
-                "or": [
-                  "historic=memorial",
-                  "memorial~.+"
-                ]
-              },
-              "memorial!=bench"
-            ]
-          },
-          {
-            "and": [
-              {
-                "or": [
-                  "historic=memorial",
-                  "memorial~.+"
-                ]
-              },
-              "memorial!=bench"
-            ]
-          },
-          {
-            "and": [
-              "tourism=artwork",
-              "historic=memorial"
-            ]
-          },
-          {
-            "and": [
-              "tourism=artwork",
-              "historic=memorial"
-            ]
-          },
-          {
-            "and": [
-              {
-                "or": [
-                  "historic=memorial",
-                  "memorial~.+"
-                ]
-              },
-              "memorial!=bench"
-            ]
-          }
+          "memorial!=bench"
         ]
       },
       "render": {
@@ -24347,17 +24307,18 @@
           "amenity=bench",
           {
             "or": [
+              "historic=memorial",
+              "historic=memorial",
+              "historic=memorial",
               "tourism=artwork",
               "tourism=artwork",
               "tourism=artwork",
-              "two_sided!=yes",
-              "two_sided!=yes",
-              "two_sided!=yes",
-              "two_sided!=yes",
-              "two_sided!=yes",
-              "two_sided!=yes"
+              "memorial~.+",
+              "memorial~.+",
+              "memorial~.+"
             ]
-          }
+          },
+          "two_sided!=yes"
         ]
       }
     },
@@ -24820,35 +24781,24 @@
           {
             "or": [
               "historic=memorial",
-              "historic=memorial",
-              "historic=memorial",
-              "historic=memorial",
-              "historic=memorial",
-              "historic=memorial",
-              "historic=memorial",
-              "historic=memorial",
-              "historic=memorial",
-              "memorial=bench",
-              "memorial=bench",
-              "memorial=bench",
-              "memorial=bench",
-              "memorial=bench",
-              "memorial=bench",
               "tourism=artwork",
-              "tourism=artwork",
-              "tourism=artwork",
-              "tourism=artwork",
-              "tourism=artwork",
-              "tourism=artwork",
-              "tourism=artwork",
-              "tourism=artwork",
-              "tourism=artwork",
-              "inscription~.+",
-              "inscription~.+",
-              "inscription~.+",
-              "inscription~.+",
-              "inscription~.+",
-              "inscription~.+"
+              {
+                "and": [
+                  {
+                    "or": [
+                      "memorial=bench",
+                      "inscription~.+"
+                    ]
+                  },
+                  {
+                    "or": [
+                      "memorial~.+",
+                      "memorial~.+",
+                      "memorial~.+"
+                    ]
+                  }
+                ]
+              }
             ]
           }
         ]
