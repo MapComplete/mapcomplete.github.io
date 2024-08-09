@@ -11912,7 +11912,8 @@
       {
         "if": "amenity=tool_library",
         "then": {
-          "en": "Tool library {name}"
+          "en": "Tool library {name}",
+          "de": "Werkzeugbibliothek {name}"
         }
       },
       {
@@ -11939,7 +11940,8 @@
       {
         "if": "amenity=tool_library",
         "then": {
-          "en": "Tool library {name}"
+          "en": "Tool library {name}",
+          "de": "Werkzeugbibliothek {name}"
         }
       },
       {
@@ -12518,7 +12520,8 @@
           ]
         },
         "then": {
-          "en": "{name}"
+          "en": "{name}",
+          "de": "{name}"
         }
       },
       {
@@ -12529,7 +12532,8 @@
           ]
         },
         "then": {
-          "en": "{name}"
+          "en": "{name}",
+          "de": "{name}"
         }
       },
       {
@@ -12733,13 +12737,15 @@
       {
         "if": "repair=assisted_self_service",
         "then": {
-          "en": "Workshop for assisted repair"
+          "en": "Workshop for assisted repair",
+          "de": "Werkstatt für unterstützte Reparaturen"
         }
       },
       {
         "if": "repair=assisted_self_service",
         "then": {
-          "en": "Workshop for assisted repair"
+          "en": "Workshop for assisted repair",
+          "de": "Werkstatt für unterstützte Reparaturen"
         }
       },
       {
@@ -25912,7 +25918,8 @@
         "en": "Is this a post partner?",
         "de": "Ist dies ein Post-Partner?",
         "ca": "Aquesta botiga és un col·laborador postal?",
-        "cs": "Jedná se o partnerskou poštu?"
+        "cs": "Jedná se o partnerskou poštu?",
+        "nl": "Is dit een postkantoor?"
       },
       "mappings": [
         {
@@ -25921,7 +25928,8 @@
             "en": "This shop is a post partner",
             "de": "Dieses Geschäft ist ein Post-Partner",
             "ca": "Aquesta botiga és un col·laborador postal",
-            "cs": "Tento obchod je poštovním partnerem"
+            "cs": "Tento obchod je poštovním partnerem",
+            "nl": "Deze winkel is een geen postkantoor, maar heeft een post- en/of pakketpunt"
           }
         },
         {
@@ -26280,7 +26288,8 @@
           "then": {
             "en": "You can send parcels to here for pickup",
             "de": "Sie können Pakete zur Abholung hierher schicken",
-            "ca": "Pots enviar paquets aquí per a arreplegar-los"
+            "ca": "Pots enviar paquets aquí per a arreplegar-los",
+            "nl": "Je kunt pakketten naar dit afhaalpunt sturen"
           }
         },
         {
@@ -47181,7 +47190,8 @@
       "id": "facebook",
       "description": "Shows and asks for the facebook handle",
       "question": {
-        "en": "What is the facebook page of of {title()}?"
+        "en": "What is the facebook page of of {title()}?",
+        "de": "Was ist die Facebook-Seite von {title()}?"
       },
       "freeform": {
         "key": "contact:facebook",
@@ -47189,6 +47199,7 @@
         "inline": false
       },
       "render": {
+        "de": "{link(Facebook Seite,&LBRACEcontact:facebook&RBRACE,,,)}<div class='subtle text-sm'>Facebook ist bekannt dafür, die psychische Gesundheit zu beeinträchtigen, die öffentliche Meinung zu manipulieren und Hass zu verursachen. Versuche, gesündere Alternativen zu nutzen.</div>",
         "en": "{link(Facebook page,&LBRACEcontact:facebook&RBRACE,,,)}<div class='subtle text-sm'>Facebook is known to harm mental health, manipulate public opinion and cause hate. Try to use healthier alternatives</div>"
       },
       "condition": {
@@ -47319,26 +47330,30 @@
     },
     {
       "question": {
-        "en": "Is a membership required to borrow tools here?"
+        "en": "Is a membership required to borrow tools here?",
+        "de": "Ist eine Mitgliedschaft erforderlich, um hier Werkzeuge auszuleihen?"
       },
       "id": "membership",
       "mappings": [
         {
           "then": {
-            "en": "No membership is required to borrow tools here"
+            "en": "No membership is required to borrow tools here",
+            "de": "Keine Mitgliedschaft ist erforderlich, um hier Werkzeuge auszuleihen"
           },
           "if": "membership=no"
         },
         {
           "if": "membership=required",
           "then": {
-            "en": "A <b>membership is required</b> to use this tool library"
+            "en": "A <b>membership is required</b> to use this tool library",
+            "de": "Eine <b>Mitgliedschaft ist erforderlich</b>, um diese Werkzeugbibliothek zu nutzen"
           }
         },
         {
           "if": "membership=optional",
           "then": {
-            "en": "A <b>membership is possible</b> but not required to use this tool library"
+            "en": "A <b>membership is possible</b> but not required to use this tool library",
+            "de": "Eine <b> Mitgliedschaft ist möglich</b> , aber nicht erforderlich, um diese Werkzeugbibliothek zu nutzen"
           }
         }
       ],
@@ -47351,11 +47366,13 @@
     },
     {
       "question": {
-        "en": "How much does a membership cost?"
+        "en": "How much does a membership cost?",
+        "de": "Wie viel kostet eine Mitgliedschaft?"
       },
       "id": "membership_charge",
       "questionHint": {
-        "en": "There might be many formulas. In case of doubt, pick the most common one"
+        "en": "There might be many formulas. In case of doubt, pick the most common one",
+        "de": "Es gibt möglicherweise viele Modelle. Im Zweifelsfall wähle das häufigste"
       },
       "freeform": {
         "key": "charge:membership",
@@ -47369,12 +47386,14 @@
         ]
       },
       "render": {
-        "en": "A membership costs {charge:membership}"
+        "en": "A membership costs {charge:membership}",
+        "de": "Eine Mitgliedschaft kostet {charge:membership}"
       }
     },
     {
       "question": {
-        "en": "Is a fee asked to borrow tools?"
+        "en": "Is a fee asked to borrow tools?",
+        "de": "Wird eine Gebühr erhoben, um Werkzeuge auszuleihen?"
       },
       "id": "tool_library_fee",
       "mappings": [
@@ -47386,32 +47405,37 @@
             ]
           },
           "then": {
-            "en": "Borrowing tools is free (if one has a membership)"
+            "en": "Borrowing tools is free (if one has a membership)",
+            "de": "Werkzeuge ausleihen ist kostenlos (wenn man eine Mitgliedschaft hat)"
           },
           "hideInAnswer": "membership!=required"
         },
         {
           "if": "fee=no",
           "then": {
-            "en": "Borrowing tools is free"
+            "en": "Borrowing tools is free",
+            "de": "Werkzeuge ausleihen ist kostenlos"
           },
           "hideInAnswer": "membership=required"
         },
         {
           "if": "fee=yes",
           "then": {
-            "en": "A fee is asked when borrowing tools"
+            "en": "A fee is asked when borrowing tools",
+            "de": "Es wird eine Gebühr erhoben, wenn man Werkzeuge ausleiht"
           }
         },
         {
           "if": "fee=donation",
           "then": {
-            "en": "A donation can be given when borrowing tools"
+            "en": "A donation can be given when borrowing tools",
+            "de": "Eine Spende kann gegeben werden, wenn man Werkzeuge ausleiht"
           }
         }
       ],
       "questionHint": {
-        "en": "If a membership is required, we assume that the membership is already paid for."
+        "en": "If a membership is required, we assume that the membership is already paid for.",
+        "de": "Wenn eine Mitgliedschaft erforderlich ist, gehen wir davon aus, dass die Mitgliedschaft bereits bezahlt ist."
       },
       "condition": {
         "and": [
@@ -47440,11 +47464,13 @@
     },
     {
       "question": {
-        "en": "What is the name of this repair workshop?"
+        "en": "What is the name of this repair workshop?",
+        "de": "Wie heißt diese Reparaturwerkstatt?"
       },
       "id": "assisted_repair_name",
       "render": {
-        "en": "This workshop is called <b>{name}</b>"
+        "en": "This workshop is called <b>{name}</b>",
+        "de": "Diese Werkstatt heißt <b>{name}</b>"
       },
       "freeform": {
         "key": "name",
@@ -47488,7 +47514,8 @@
     },
     {
       "question": {
-        "en": "What type of items are repaired here?"
+        "en": "What type of items are repaired here?",
+        "de": "Welche Art von Gegenständen wird hier repariert?"
       },
       "id": "item:repair",
       "mappings": [
@@ -47499,7 +47526,8 @@
             "mobile_phone:repair="
           ],
           "then": {
-            "en": "Mobile phones are repaired here"
+            "en": "Mobile phones are repaired here",
+            "de": "Mobiltelefone werden hier repariert"
           },
           "ifnot": "service:mobile_phone:repair=no"
         },
@@ -47510,7 +47538,8 @@
             "computer:repair="
           ],
           "then": {
-            "en": "Computers are repaired here"
+            "en": "Computers are repaired here",
+            "de": "Computer werden hier repariert"
           },
           "ifnot": "service:computer:repair=no"
         },
@@ -47521,7 +47550,8 @@
             "bicycle:repair="
           ],
           "then": {
-            "en": "Bicycles are repaired here"
+            "en": "Bicycles are repaired here",
+            "de": "Fahrräder werden hier repariert"
           },
           "ifnot": "service:bicycle:repair=no"
         },
@@ -47532,7 +47562,8 @@
             "bicycle:repair="
           ],
           "then": {
-            "en": "Electronic devices are repaired here"
+            "en": "Electronic devices are repaired here",
+            "de": "Elektronische Geräte werden hier repariert"
           },
           "ifnot": "service:electronics:repair=no",
           "icon": "./assets/layers/recycling/small_electrical_appliances.svg"
@@ -47544,7 +47575,8 @@
             "furniture:repair="
           ],
           "then": {
-            "en": "Furniture is repaired here"
+            "en": "Furniture is repaired here",
+            "de": "Möbel werden hier repariert"
           },
           "ifnot": "service:furniture:repair=no",
           "icon": "./assets/layers/recycling/furniture.svg"
@@ -47556,7 +47588,8 @@
             "clothes:repair="
           ],
           "then": {
-            "en": "Clothes are repaired here"
+            "en": "Clothes are repaired here",
+            "de": "Kleidung wird hier repariert"
           },
           "ifnot": "service:clothes:repair=no",
           "icon": "./assets/layers/recycling/clothes.svg"
@@ -47667,7 +47700,8 @@
           },
           "then": {
             "en": "Bicycle rental shop",
-            "nl": "Fietsverhuurzaak"
+            "nl": "Fietsverhuurzaak",
+            "de": "Fahrradverleih"
           }
         },
         {
@@ -71682,7 +71716,8 @@
           "then": {
             "en": "This shop sells new bikes",
             "nl": "Deze winkel verkoopt nieuwe fietsen",
-            "fr": "Ce magasin vend des vélos nouveaux"
+            "fr": "Ce magasin vend des vélos nouveaux",
+            "de": "Dieses Geschäft verkauft neue Fahrräder"
           }
         },
         {
@@ -71690,7 +71725,8 @@
           "then": {
             "en": "This shop doesn't sell new bikes",
             "nl": "Deze winkel verkoopt geen nieuwe fietsen",
-            "fr": "Ce magasin ne vend pas de vélo nouveaux"
+            "fr": "Ce magasin ne vend pas de vélo nouveaux",
+            "de": "Dieses Geschäft verkauft keine neuen Fahrräder"
           }
         }
       ]
@@ -72139,7 +72175,8 @@
         "cs": "Pronajímá tento obchod kola?"
       },
       "questionHint": {
-        "en": "This is about rental for e.g. tourists who need a bike. Some bicycle repair shops offer a bicycle to use while your bicycle is being repaired but this is not considered rental for this question."
+        "en": "This is about rental for e.g. tourists who need a bike. Some bicycle repair shops offer a bicycle to use while your bicycle is being repaired but this is not considered rental for this question.",
+        "de": "Es geht um die Vermietung, z.B. an Touristen, die ein Fahrrad benötigen. Einige Fahrradwerkstätten bieten ein Fahrrad an, das man benutzen kann, während das eigene Fahrrad repariert wird, aber dies wird für diese Frage nicht als Vermietung betrachtet."
       },
       "mappings": [
         {
