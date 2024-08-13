@@ -92,14 +92,14 @@ var cacheFirst = function (event, attemptUpdate) {
     });
 };
 self.addEventListener("fetch", function (e) { return __awaiter(_this, void 0, void 0, function () {
-    var event, origin_1, requestUrl, shouldBeCached, e_1;
+    var event, origin_1, requestUrl, keys, shouldBeCached, e_1;
     return __generator(this, function (_a) {
         switch (_a.label) {
             case 0:
                 event = e;
                 _a.label = 1;
             case 1:
-                _a.trys.push([1, 5, , 7]);
+                _a.trys.push([1, 8, , 10]);
                 origin_1 = new URL(self.origin);
                 requestUrl = new URL(event.request.url);
                 if (!requestUrl.pathname.endsWith("service-worker-version")) return [3 /*break*/, 3];
@@ -109,6 +109,16 @@ self.addEventListener("fetch", function (e) { return __awaiter(_this, void 0, vo
                 _a.sent();
                 return [2 /*return*/];
             case 3:
+                if (!requestUrl.pathname.endsWith("/service-worker-clear")) return [3 /*break*/, 6];
+                return [4 /*yield*/, caches.keys()];
+            case 4:
+                keys = _a.sent();
+                return [4 /*yield*/, Promise.all(keys.map(function (k) { return caches["delete"](k); }))];
+            case 5:
+                _a.sent();
+                console.log("Cleared caches");
+                return [2 /*return*/];
+            case 6:
                 shouldBeCached = origin_1.host === requestUrl.host &&
                     origin_1.hostname !== "127.0.0.1" &&
                     origin_1.hostname !== "localhost" &&
@@ -121,17 +131,17 @@ self.addEventListener("fetch", function (e) { return __awaiter(_this, void 0, vo
                     return [2 /*return*/];
                 }
                 return [4 /*yield*/, cacheFirst(event)];
-            case 4:
+            case 7:
                 _a.sent();
-                return [3 /*break*/, 7];
-            case 5:
+                return [3 /*break*/, 10];
+            case 8:
                 e_1 = _a.sent();
                 console.error("CRASH IN SW:", e_1);
                 return [4 /*yield*/, event.respondWith(fetch(event.request.url))];
-            case 6:
+            case 9:
                 _a.sent();
-                return [3 /*break*/, 7];
-            case 7: return [2 /*return*/];
+                return [3 /*break*/, 10];
+            case 10: return [2 /*return*/];
         }
     });
 }); });
