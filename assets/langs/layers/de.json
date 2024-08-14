@@ -515,6 +515,17 @@
                     }
                 },
                 "question": "Dient dieses Kunstwerk auch als Sitzbank?"
+            },
+            "doubles_as_memorial": {
+                "mappings": {
+                    "0": {
+                        "then": "Dieses Kunstwerk dient auch als Mahnmal"
+                    },
+                    "1": {
+                        "then": "Dieses Kunstwerk dient nicht als Sitzbank"
+                    }
+                },
+                "question": "Dient dieses Kunstwerk als Mahnmal?"
             }
         },
         "title": {
@@ -3813,6 +3824,17 @@
     "dentist": {
         "description": "Diese Ebene zeigt Zahnarztpraxen",
         "name": "Zahnärzte",
+        "pointRendering": {
+            "0": {
+                "label": {
+                    "mappings": {
+                        "0": {
+                            "then": "{name}"
+                        }
+                    }
+                }
+            }
+        },
         "presets": {
             "0": {
                 "title": "eine Zahnarztpraxis"
@@ -5042,6 +5064,13 @@
                 },
                 "question": "Werden hier vegetarische Gerichte angeboten?"
             },
+            "add-menu-image": {
+                "render": {
+                    "special": {
+                        "label": "Ein Bild aus dem Menü hinzufügen"
+                    }
+                }
+            },
             "delivery": {
                 "mappings": {
                     "0": {
@@ -5136,6 +5165,14 @@
                     }
                 },
                 "question": "Werden hier halal Gerichte angeboten?"
+            },
+            "menu-website": {
+                "question": "Auf welcher Webseite wird das Menü veröffentlicht?",
+                "render": {
+                    "special": {
+                        "text": "Das Menü einsehen"
+                    }
+                }
             },
             "organic (no friture)": {
                 "mappings": {
@@ -7276,6 +7313,9 @@
                     },
                     "9": {
                         "then": "Die Oberfläche besteht aus Gummi, z. B. aus Gummifliesen, Gummimulch oder einer großen Gummifläche"
+                    },
+                    "10": {
+                        "then": "Die Oberfläche ist <b>feiner Kies</b> (weniger als 2 cm pro Stein)"
                     }
                 },
                 "question": "Welchen Bodenbelag hat dieser Spielplatz?",
@@ -7722,6 +7762,15 @@
     },
     "questions": {
         "tagRenderings": {
+            "brand": {
+                "mappings": {
+                    "0": {
+                        "then": "Nicht Teil einer großen Marke"
+                    }
+                },
+                "question": "Ist {title()} Teil einer großen Marke?",
+                "render": "Teil von {brand}"
+            },
             "check_date": {
                 "mappings": {
                     "0": {
@@ -10467,17 +10516,33 @@
         }
     },
     "tourism_accomodation": {
+        "name": "Touristische Unterkunft",
         "presets": {
             "0": {
+                "description": "Ein Hotel ist eine Einrichtung, die eine bezahlte Unterkunft anbietet, in der Regel für einen kurzen Zeitraum. Die Zimmer werden nicht mit Fremden geteilt.",
                 "title": "ein Hotel"
+            },
+            "1": {
+                "description": "Ein Hostel ist eine Art von Touristenherberge, in der man in einem Zimmer schlafen kann, das man mit Fremden teilt",
+                "title": "Ein Hostel"
+            }
+        },
+        "tagRenderings": {
+            "name": {
+                "question": "Wie lautet der Name von {title()}?",
+                "render": "{name}"
             }
         },
         "title": {
             "mappings": {
                 "0": {
                     "then": "Hotel {name}"
+                },
+                "1": {
+                    "then": "Hostel {name}"
                 }
-            }
+            },
+            "render": "Touristenunterkunft {name}"
         }
     },
     "trail": {
@@ -11093,6 +11158,14 @@
             "background-layer-readonly": {
                 "render": "Diese thematische Karte hat einen vordefinierten Hintergrund. Ihr Standardhintergrund wird nicht angewendet"
             },
+            "clear_cache": {
+                "render": {
+                    "after": "Wenn du die Caches löschst, werden lokal heruntergeladene Daten und Code gelöscht. Du bleibst eingeloggt und deine Einstellungen bleiben erhalten. Es sollten keine Daten verloren gehen",
+                    "special": {
+                        "text": "Caches löschen"
+                    }
+                }
+            },
             "contributor-thanks": {
                 "mappings": {
                     "0": {
@@ -11106,6 +11179,9 @@
                         "then": "Sie haben bei {_csCount} verschiedenen Gelegenheiten Änderungen vorgenommen! Das ist großartig!"
                     }
                 }
+            },
+            "debug-title": {
+                "render": "<h3>Debugging-Optionen</h3>"
             },
             "edit-profile": {
                 "render": {

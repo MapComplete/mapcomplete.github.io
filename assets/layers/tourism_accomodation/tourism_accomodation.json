@@ -35,10 +35,12 @@
     {
       "id": "name",
       "question": {
-        "en": "What is the name of this {title()}?"
+        "en": "What is the name of this {title()}?",
+        "de": "Wie lautet der Name von {title()}?"
       },
       "render": {
-        "en": "{name}"
+        "en": "{name}",
+        "de": "{name}"
       },
       "freeform": {
         "key": "name"
@@ -58,7 +60,8 @@
     }
   ],
   "name": {
-    "en": "Tourism accomodation"
+    "en": "Tourism accomodation",
+    "de": "Touristische Unterkunft"
   },
   "id": "tourism_accomodation",
   "description": {},
@@ -75,7 +78,8 @@
         "pl": "hotel"
       },
       "description": {
-        "en": "A  hotel is an establishment that provides paid lodging, usually on a short-term basis. Rooms are not shared with strangers."
+        "en": "A  hotel is an establishment that provides paid lodging, usually on a short-term basis. Rooms are not shared with strangers.",
+        "de": "Ein Hotel ist eine Einrichtung, die eine bezahlte Unterkunft anbietet, in der Regel für einen kurzen Zeitraum. Die Zimmer werden nicht mit Fremden geteilt."
       },
       "tags": [
         "tourism=hotel"
@@ -86,10 +90,12 @@
         "tourism=hostel"
       ],
       "title": {
-        "en": "a hostel"
+        "en": "a hostel",
+        "de": "Ein Hostel"
       },
       "description": {
-        "en": "A hostel is a type of tourist accommodation where people can sleep in a room shared with strangers"
+        "en": "A hostel is a type of tourist accommodation where people can sleep in a room shared with strangers",
+        "de": "Ein Hostel ist eine Art von Touristenherberge, in der man in einem Zimmer schlafen kann, das man mit Fremden teilt"
       }
     }
   ],
@@ -118,12 +124,14 @@
       {
         "if": "tourism=hostel",
         "then": {
-          "en": "Hostel {name}"
+          "en": "Hostel {name}",
+          "de": "Hostel {name}"
         }
       }
     ],
     "render": {
-      "en": "Tourist accomodation {name}"
+      "en": "Tourist accomodation {name}",
+      "de": "Touristenunterkunft {name}"
     }
   },
   "allowMove": true

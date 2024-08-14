@@ -242,7 +242,24 @@
         }
     },
     "aerialway": {
-        "description": "Diversas formas de transporte de pasajeros y mercancías que utilizan cables, como teleféricos, telecabinas, telesillas, telesquíes y tirolinas. "
+        "description": "Diversas formas de transporte de pasajeros y mercancías que utilizan cables, como teleféricos, telecabinas, telesillas, telesquíes y tirolinas. ",
+        "pointRendering": {
+            "1": {
+                "label": {
+                    "render": "{name}"
+                }
+            }
+        },
+        "tagRenderings": {
+            "duration": {
+                "question": "¿Cuánto dura un viaje en este ascensor?",
+                "questionHint": "Esto elimina el tiempo de espera.",
+                "render": "Un viaje dura {duration} minutos"
+            },
+            "occupancy": {
+                "question": "¿Cuál es la capacidad de la cabina?"
+            }
+        }
     },
     "ambulancestation": {
         "description": "Una estación de ambulancias es una zona para almacenar vehículos de ambulancia, equipamiento médico, equipos de protección personal y otros suministros médicos.",
