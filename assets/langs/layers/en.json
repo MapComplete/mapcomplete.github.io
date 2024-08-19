@@ -3303,6 +3303,12 @@
             "render": "Crossing"
         }
     },
+    "cycle_highways": {
+        "name": "cycle highways",
+        "title": {
+            "render": "cycle highway"
+        }
+    },
     "cycleways_and_roads": {
         "description": "All infrastructure that someone can cycle over, accompanied with questions about this infrastructure",
         "name": "Cycleways and roads",

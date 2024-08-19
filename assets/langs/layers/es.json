@@ -1739,6 +1739,12 @@
             "render": "Cruce"
         }
     },
+    "cycle_highways": {
+        "name": "autovías ciclistas",
+        "title": {
+            "render": "autovía ciclista"
+        }
+    },
     "cycleways_and_roads": {
         "description": "Todas las infraestructuras sobre las que se puede circular en bicicleta, acompañadas de preguntas sobre las mismas",
         "name": "Carriles bici y carreteras",

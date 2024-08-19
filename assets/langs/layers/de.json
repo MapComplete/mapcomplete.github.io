@@ -3303,6 +3303,12 @@
             "render": "Kreuzung"
         }
     },
+    "cycle_highways": {
+        "name": "Radschnellwege",
+        "title": {
+            "render": "Radschnellweg"
+        }
+    },
     "cycleways_and_roads": {
         "description": "Infrastruktur, die man mit dem Fahrrad befahren kann, begleitet von diesbezüglichen Fragen",
         "name": "Radwege und Straßen",
