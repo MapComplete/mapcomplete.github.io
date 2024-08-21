@@ -10233,7 +10233,8 @@
         "if": "tourism=hostel",
         "then": {
           "en": "Hostel {name}",
-          "de": "Hostel {name}"
+          "de": "Hostel {name}",
+          "nl": "Herberg {name}"
         }
       },
       {
@@ -10253,31 +10254,37 @@
           ]
         },
         "then": {
-          "en": "B&B {name}"
+          "en": "B&B {name}",
+          "de": "B&B {name}",
+          "nl": "B&B {name}"
         }
       },
       {
         "if": "tourism=guest_house",
         "then": {
-          "en": "Guest house {name}"
+          "en": "Guest house {name}",
+          "de": "Ferienhaus {name}"
         }
       },
       {
         "if": "tourism=motel",
         "then": {
-          "en": "Motel {name}"
+          "en": "Motel {name}",
+          "de": "Motel {name}"
         }
       },
       {
         "if": "tourism=apartment",
         "then": {
-          "en": "Apartment {name}"
+          "en": "Apartment {name}",
+          "de": "Ferienwohnung {name}"
         }
       },
       {
         "if": "tourism=chalet",
         "then": {
-          "en": "Vacation home {name}"
+          "en": "Vacation home {name}",
+          "de": "Ferienhaus {name}"
         }
       },
       {
@@ -10300,7 +10307,8 @@
         "if": "tourism=hostel",
         "then": {
           "en": "Hostel {name}",
-          "de": "Hostel {name}"
+          "de": "Hostel {name}",
+          "nl": "Herberg {name}"
         }
       },
       {
@@ -10320,31 +10328,37 @@
           ]
         },
         "then": {
-          "en": "B&B {name}"
+          "en": "B&B {name}",
+          "de": "B&B {name}",
+          "nl": "B&B {name}"
         }
       },
       {
         "if": "tourism=guest_house",
         "then": {
-          "en": "Guest house {name}"
+          "en": "Guest house {name}",
+          "de": "Ferienhaus {name}"
         }
       },
       {
         "if": "tourism=motel",
         "then": {
-          "en": "Motel {name}"
+          "en": "Motel {name}",
+          "de": "Motel {name}"
         }
       },
       {
         "if": "tourism=apartment",
         "then": {
-          "en": "Apartment {name}"
+          "en": "Apartment {name}",
+          "de": "Ferienwohnung {name}"
         }
       },
       {
         "if": "tourism=chalet",
         "then": {
-          "en": "Vacation home {name}"
+          "en": "Vacation home {name}",
+          "de": "Ferienhaus {name}"
         }
       },
       {
@@ -10367,7 +10381,8 @@
         "if": "tourism=hostel",
         "then": {
           "en": "Hostel {name}",
-          "de": "Hostel {name}"
+          "de": "Hostel {name}",
+          "nl": "Herberg {name}"
         }
       },
       {
@@ -10387,31 +10402,37 @@
           ]
         },
         "then": {
-          "en": "B&B {name}"
+          "en": "B&B {name}",
+          "de": "B&B {name}",
+          "nl": "B&B {name}"
         }
       },
       {
         "if": "tourism=guest_house",
         "then": {
-          "en": "Guest house {name}"
+          "en": "Guest house {name}",
+          "de": "Ferienhaus {name}"
         }
       },
       {
         "if": "tourism=motel",
         "then": {
-          "en": "Motel {name}"
+          "en": "Motel {name}",
+          "de": "Motel {name}"
         }
       },
       {
         "if": "tourism=apartment",
         "then": {
-          "en": "Apartment {name}"
+          "en": "Apartment {name}",
+          "de": "Ferienwohnung {name}"
         }
       },
       {
         "if": "tourism=chalet",
         "then": {
-          "en": "Vacation home {name}"
+          "en": "Vacation home {name}",
+          "de": "Ferienhaus {name}"
         }
       },
       {
@@ -87406,11 +87427,13 @@
       "id": "tourism_accomodation_name",
       "question": {
         "en": "What is the name of this {title()}?",
-        "de": "Wie lautet der Name von {title()}?"
+        "de": "Wie lautet der Name von {title()}?",
+        "nl": "Wat is de naam van deze {title()}"
       },
       "render": {
         "en": "{name}",
-        "de": "{name}"
+        "de": "{name}",
+        "nl": "{name}"
       },
       "freeform": {
         "key": "name",
