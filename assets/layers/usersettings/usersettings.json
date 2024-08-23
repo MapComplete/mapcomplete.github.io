@@ -27,7 +27,8 @@
       "ca": "Configuració",
       "cs": "Nastavení",
       "fi": "Asetukset",
-      "zh_Hant": "設定"
+      "zh_Hant": "設定",
+      "sl": "Nastavitve"
     }
   },
   "pointRendering": null,
@@ -429,7 +430,7 @@
             "ca": "Utilitzeu un mapa que no sigui openstreetmap com a fons predeterminat",
             "de": "Eine eigene Karte als Standardhintergrund verwenden",
             "cs": "Použití mapy, která není založena na mapě openstreetmap, jako výchozího pozadí",
-            "nl": "Gebruik altijd een kaart di niet op OpenStreetMap gebaseerd is als achtergrond",
+            "nl": "Gebruik altijd een kaart die niet op OpenStreetMap gebaseerd is als achtergrond",
             "fr": "Utiliser un fond non basé sur OpenStreetMap par défaut",
             "da": "Brug et ikke-OpenSreetMap-baseret kort som standardbaggrund"
           }

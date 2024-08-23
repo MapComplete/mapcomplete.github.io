@@ -23837,6 +23837,7 @@
         "en": "What type of memorial is this?",
         "de": "Was für eine Art von Denkmal ist das?",
         "fr": "C'est un mémorial de guerre",
+        "sl": "Kakšne vrste spomenik je to?",
         "_context": "layers:memorial.tagRenderings.memorial-type.question"
       },
       "mappings": [
@@ -23847,6 +23848,7 @@
             "de": "Das ist eine Statue",
             "fr": "C'est une statue",
             "nl": "Dit is een standbeeld",
+            "sl": "To je kip",
             "_context": "layers:memorial.tagRenderings.memorial-type.mappings.0.then"
           },
           "addExtraTags": [
@@ -23860,6 +23862,7 @@
             "en": "This is a plaque",
             "de": "Dies ist eine Gedenktafel",
             "fr": "C'est une plaque",
+            "sl": "To je plošča",
             "_context": "layers:memorial.tagRenderings.memorial-type.mappings.1.then"
           }
         },
@@ -23912,6 +23915,7 @@
             "en": "This is a memorial stone",
             "de": "Das ist ein Gedenkstein",
             "fr": "C'est une pierre commémorative",
+            "sl": "To je spominski kamen",
             "_context": "layers:memorial.tagRenderings.memorial-type.mappings.6.then"
           }
         },
@@ -23921,6 +23925,7 @@
             "en": "This is a bust",
             "de": "Das ist eine Büste",
             "fr": "C'est un buste",
+            "sl": "To je doprsni kip",
             "_context": "layers:memorial.tagRenderings.memorial-type.mappings.7.then"
           }
         },
@@ -23931,6 +23936,7 @@
             "de": "Dies ist eine Skulptur",
             "fr": "C'est une sculpture",
             "nl": "Dit is een sculptuur",
+            "sl": "To je skulptura",
             "_context": "layers:memorial.tagRenderings.memorial-type.mappings.8.then"
           }
         },
@@ -23941,6 +23947,7 @@
             "de": "Das ist ein Obelisk",
             "es": "Es un obelisco",
             "fr": "C'est un obélisque",
+            "sl": "To je obelisk",
             "_context": "layers:memorial.tagRenderings.memorial-type.mappings.9.then"
           }
         },
@@ -23953,6 +23960,7 @@
             "fr": "C'est une croix",
             "nl": "Dit is een kruis",
             "pl": "To jest krzyż",
+            "sl": "To je križ",
             "_context": "layers:memorial.tagRenderings.memorial-type.mappings.10.then"
           }
         },
@@ -23973,6 +23981,7 @@
             "de": "Dies ist ein historischer Panzer, der permanent in den öffentlichen Raum als Denkmal platziert wurde",
             "fr": "C'est un char historique, placé de manière permanente dans l'espace public comme mémorial",
             "nl": "Dit is een historische tank, permanent in de publieke ruimte geplaatst als gedenkteken",
+            "sl": "To je zgodovinski tank, ki je stalno postavljen v spomin na javnem kraju",
             "_context": "layers:memorial.tagRenderings.memorial-type.mappings.12.then"
           }
         },
@@ -23982,6 +23991,7 @@
             "en": "This is a memorial tree",
             "de": "Das ist ein Baumdenkmal",
             "fr": "C'est un arbre du souvenir",
+            "sl": "To je spominsko drevo",
             "_context": "layers:memorial.tagRenderings.memorial-type.mappings.13.then"
           },
           "addExtraTags": [
@@ -23993,6 +24003,7 @@
           "then": {
             "en": "This is a gravestone; the person is buried here",
             "de": "Dies ist ein Grabstein; die Person ist hier begraben",
+            "sl": "To je nagrobni kamen; oseba je pokopana tu",
             "_context": "layers:memorial.tagRenderings.memorial-type.mappings.14.then"
           },
           "addExtraTags": [
@@ -24004,6 +24015,7 @@
         "en": "This is a {memorial}",
         "de": "Das ist ein {memorial}",
         "fr": "C'est un {memorial}",
+        "sl": "To je {memorial}",
         "_context": "layers:memorial.tagRenderings.memorial-type.render"
       },
       "freeform": {
@@ -24033,6 +24045,7 @@
         "de": "Wie lautet die Inschrift auf diesem Denkmal?",
         "fr": "Quelle est l'inscription sur cette plaque ?",
         "nl": "Wat is het opschrift van dit gedenkteken?",
+        "sl": "Kakšen je napis na tem spomeniku?",
         "_context": "layers:memorial.tagRenderings.inscription.question"
       },
       "#:condition": "Benches have a separate inscription question",
@@ -24057,6 +24070,7 @@
         "cs": "Nápis na této desce zní: <p><i>{inscription}<i></p>",
         "de": "Die Inschrift auf diesem Denkmal lautet: <p><i>{inscription}<i></p>",
         "fr": "L'inscription sur cette plaque indique: <p><i>{inscription}<i></p>",
+        "sl": "Napis na tem spomeniku je: <p><i>{inscription}<i></p>",
         "_context": "layers:memorial.tagRenderings.inscription.render"
       },
       "freeform": {
@@ -24072,6 +24086,7 @@
             "de": "Dieses Denkmal hat keine Inschrift",
             "fr": "Il n'y a aucune inscription sur cette plaque",
             "nl": "Dit gedenkteken heeft geen opschrift",
+            "sl": "Ta spomenik nima napisa",
             "_context": "layers:memorial.tagRenderings.inscription.mappings.0.then"
           },
           "addExtraTags": [
