@@ -11221,7 +11221,8 @@
                         "then": "Hintergrundebene <span class='code'>{mapcomplete-preferred-background-layer}</span> als Standardhintergrund verwenden"
                     }
                 },
-                "question": "Welche Hintergrundebene soll als Standard verwendet werden?"
+                "question": "Welche Hintergrundebene soll als Standard verwendet werden?",
+                "questionHint": "Um einen bestimmten Hintergrund als Standard festzulegen, wähle ihn zuerst im Hintergrundmenü aus, danach wird er hier angezeigt."
             },
             "background-layer-readonly": {
                 "render": "Diese thematische Karte hat einen vordefinierten Hintergrund. Ihr Standardhintergrund wird nicht angewendet"
