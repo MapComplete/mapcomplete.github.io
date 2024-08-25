@@ -75458,6 +75458,7 @@
         },
         {
           "if": "access=no",
+          "alsoShowIf": "access=private",
           "then": {
             "en": "Not accessible",
             "de": "Der Zugang ist nicht erlaubt oder nicht möglich",
