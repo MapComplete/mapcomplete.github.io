@@ -3830,14 +3830,16 @@
         "then": {
           "en": "{name}",
           "de": "{name}",
-          "pl": "{name}"
+          "pl": "{name}",
+          "nl": "{name}"
         }
       },
       {
         "if": "amenity=ice_cream",
         "then": {
           "en": "Ice cream parlor",
-          "de": "Eisdiele"
+          "de": "Eisdiele",
+          "nl": "IJssalon"
         }
       },
       {
@@ -3850,14 +3852,16 @@
         "then": {
           "en": "{name}",
           "de": "{name}",
-          "pl": "{name}"
+          "pl": "{name}",
+          "nl": "{name}"
         }
       },
       {
         "if": "amenity=ice_cream",
         "then": {
           "en": "Ice cream parlor",
-          "de": "Eisdiele"
+          "de": "Eisdiele",
+          "nl": "IJssalon"
         }
       },
       {
@@ -3870,14 +3874,16 @@
         "then": {
           "en": "{name}",
           "de": "{name}",
-          "pl": "{name}"
+          "pl": "{name}",
+          "nl": "{name}"
         }
       },
       {
         "if": "amenity=ice_cream",
         "then": {
           "en": "Ice cream parlor",
-          "de": "Eisdiele"
+          "de": "Eisdiele",
+          "nl": "IJssalon"
         }
       },
       {
@@ -3890,14 +3896,16 @@
         "then": {
           "en": "{name}",
           "de": "{name}",
-          "pl": "{name}"
+          "pl": "{name}",
+          "nl": "{name}"
         }
       },
       {
         "if": "amenity=ice_cream",
         "then": {
           "en": "Ice cream parlor",
-          "de": "Eisdiele"
+          "de": "Eisdiele",
+          "nl": "IJssalon"
         }
       },
       {
@@ -3910,14 +3918,16 @@
         "then": {
           "en": "{name}",
           "de": "{name}",
-          "pl": "{name}"
+          "pl": "{name}",
+          "nl": "{name}"
         }
       },
       {
         "if": "amenity=ice_cream",
         "then": {
           "en": "Ice cream parlor",
-          "de": "Eisdiele"
+          "de": "Eisdiele",
+          "nl": "IJssalon"
         }
       },
       {
@@ -3930,14 +3940,16 @@
         "then": {
           "en": "{name}",
           "de": "{name}",
-          "pl": "{name}"
+          "pl": "{name}",
+          "nl": "{name}"
         }
       },
       {
         "if": "amenity=ice_cream",
         "then": {
           "en": "Ice cream parlor",
-          "de": "Eisdiele"
+          "de": "Eisdiele",
+          "nl": "IJssalon"
         }
       },
       {
