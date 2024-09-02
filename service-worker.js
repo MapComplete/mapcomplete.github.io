@@ -46,102 +46,152 @@ function install() {
 }
 addEventListener("install", function (e) { return e.waitUntil(install()); });
 addEventListener("activate", function (e) { return e.waitUntil(activate()); });
+function clearCaches(exceptVersion) {
+    if (exceptVersion === void 0) { exceptVersion = undefined; }
+    return __awaiter(this, void 0, void 0, function () {
+        var keys;
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0: return [4 /*yield*/, caches.keys()];
+                case 1:
+                    keys = _a.sent();
+                    return [4 /*yield*/, Promise.all(keys.map(function (k) { return k !== version && caches["delete"](k); }))];
+                case 2:
+                    _a.sent();
+                    console.log("Cleared caches");
+                    return [2 /*return*/];
+            }
+        });
+    });
+}
 function activate() {
     return __awaiter(this, void 0, void 0, function () {
         return __generator(this, function (_a) {
-            console.log("Activating service worker");
-            caches
-                .keys()
-                .then(function (keys) {
-                // Remove all old caches
-                Promise.all(keys.map(function (key) { return key !== version && caches["delete"](key); }));
-            })["catch"](console.error);
-            return [2 /*return*/];
-        });
-    });
-}
-function fetchAndCache(event) {
-    return fetch(event.request).then(function (networkResponse) {
-        return caches.open(version).then(function (cache) {
-            cache.put(event.request, networkResponse.clone());
-            console.log("Cached", event.request);
-            return networkResponse;
-        });
-    });
-}
-var cacheFirst = function (event, attemptUpdate) {
-    if (attemptUpdate === void 0) { attemptUpdate = false; }
-    return __awaiter(_this, void 0, void 0, function () {
-        return __generator(this, function (_a) {
             switch (_a.label) {
-                case 0: return [4 /*yield*/, event.respondWith(caches.match(event.request, { ignoreSearch: true }).then(function (cacheResponse) {
-                        if (cacheResponse !== undefined) {
-                            console.debug("Loaded from cache: ", event.request);
-                            if (attemptUpdate) {
-                                fetchAndCache(event);
-                            }
-                            return cacheResponse;
-                        }
-                        return fetchAndCache(event);
-                    }))];
+                case 0:
+                    console.log("Activating service worker");
+                    return [4 /*yield*/, clearCaches(version)];
                 case 1:
                     _a.sent();
                     return [2 /*return*/];
             }
         });
     });
-};
+}
+function fetchAndCache(event) {
+    return __awaiter(this, void 0, void 0, function () {
+        var networkResponse, cache;
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0: return [4 /*yield*/, fetch(event.request)];
+                case 1:
+                    networkResponse = _a.sent();
+                    return [4 /*yield*/, caches.open(version)];
+                case 2:
+                    cache = _a.sent();
+                    return [4 /*yield*/, cache.put(event.request, networkResponse.clone())];
+                case 3:
+                    _a.sent();
+                    console.log("Cached", event.request);
+                    return [2 /*return*/, networkResponse];
+            }
+        });
+    });
+}
+function cacheFirst(event, attemptUpdate) {
+    if (attemptUpdate === void 0) { attemptUpdate = false; }
+    return __awaiter(this, void 0, void 0, function () {
+        var cacheResponse;
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0: return [4 /*yield*/, caches.match(event.request, { ignoreSearch: true })];
+                case 1:
+                    cacheResponse = _a.sent();
+                    if (cacheResponse === undefined) {
+                        return [2 /*return*/, fetchAndCache(event)];
+                    }
+                    console.debug("Loaded from cache: ", event.request);
+                    if (attemptUpdate) {
+                        fetchAndCache(event);
+                    }
+                    return [2 /*return*/, cacheResponse];
+            }
+        });
+    });
+}
+var neverCache = [
+    /\.html$/,
+    /service-worker/
+];
+var neverCacheHost = [
+    /127\.0\.0\.[0-9]+/,
+    /\.local/,
+    /\.gitpod\.io/,
+    /localhost/
+];
+function handleRequest(event) {
+    return __awaiter(this, void 0, void 0, function () {
+        var origin, requestUrl, shouldBeCached, _a, _b;
+        return __generator(this, function (_c) {
+            switch (_c.label) {
+                case 0:
+                    origin = new URL(self.origin);
+                    requestUrl = new URL(event.request.url);
+                    if (!requestUrl.pathname.endsWith("service-worker-version")) return [3 /*break*/, 2];
+                    console.log("Sending version number...");
+                    return [4 /*yield*/, event.respondWith(new Response(JSON.stringify({ "service-worker-version": version })))];
+                case 1:
+                    _c.sent();
+                    return [2 /*return*/];
+                case 2:
+                    if (!requestUrl.pathname.endsWith("/service-worker-clear")) return [3 /*break*/, 5];
+                    return [4 /*yield*/, clearCaches()];
+                case 3:
+                    _c.sent();
+                    return [4 /*yield*/, event.respondWith(new Response(JSON.stringify({ "cache-cleared": true })))];
+                case 4:
+                    _c.sent();
+                    return [2 /*return*/];
+                case 5:
+                    shouldBeCached = origin.host === requestUrl.host &&
+                        !neverCacheHost.some(function (blacklisted) { return origin.host.match(blacklisted); }) &&
+                        !neverCache.some(function (blacklisted) { return event.request.url.match(blacklisted); });
+                    if (!shouldBeCached) {
+                        console.debug("Not intercepting ", requestUrl.toString(), origin.host, requestUrl.host);
+                        // We return _without_ calling event.respondWith, which signals the browser that it'll have to handle it himself
+                        return [2 /*return*/];
+                    }
+                    _b = (_a = event).respondWith;
+                    return [4 /*yield*/, cacheFirst(event)];
+                case 6: return [4 /*yield*/, _b.apply(_a, [_c.sent()])];
+                case 7:
+                    _c.sent();
+                    return [2 /*return*/];
+            }
+        });
+    });
+}
 self.addEventListener("fetch", function (e) { return __awaiter(_this, void 0, void 0, function () {
-    var event, origin_1, requestUrl, keys, shouldBeCached, e_1;
+    var event, e_1;
     return __generator(this, function (_a) {
         switch (_a.label) {
             case 0:
                 event = e;
                 _a.label = 1;
             case 1:
-                _a.trys.push([1, 8, , 10]);
-                origin_1 = new URL(self.origin);
-                requestUrl = new URL(event.request.url);
-                if (!requestUrl.pathname.endsWith("service-worker-version")) return [3 /*break*/, 3];
-                console.log("Sending version number...");
-                return [4 /*yield*/, event.respondWith(new Response(JSON.stringify({ "service-worker-version": version })))];
+                _a.trys.push([1, 3, , 5]);
+                return [4 /*yield*/, handleRequest(event)];
             case 2:
                 _a.sent();
-                return [2 /*return*/];
+                return [3 /*break*/, 5];
             case 3:
-                if (!requestUrl.pathname.endsWith("/service-worker-clear")) return [3 /*break*/, 6];
-                return [4 /*yield*/, caches.keys()];
-            case 4:
-                keys = _a.sent();
-                return [4 /*yield*/, Promise.all(keys.map(function (k) { return caches["delete"](k); }))];
-            case 5:
-                _a.sent();
-                console.log("Cleared caches");
-                return [2 /*return*/];
-            case 6:
-                shouldBeCached = origin_1.host === requestUrl.host &&
-                    origin_1.hostname !== "127.0.0.1" &&
-                    origin_1.hostname !== "localhost" &&
-                    !origin_1.hostname.endsWith(".local") &&
-                    !origin_1.host.endsWith(".gitpod.io") &&
-                    origin_1.pathname.indexOf("service-worker") < 0;
-                if (!shouldBeCached) {
-                    console.debug("Not intercepting ", requestUrl.toString(), origin_1.host, requestUrl.host);
-                    // We return _without_ calling event.respondWith, which signals the browser that it'll have to handle it himself
-                    return [2 /*return*/];
-                }
-                return [4 /*yield*/, cacheFirst(event)];
-            case 7:
-                _a.sent();
-                return [3 /*break*/, 10];
-            case 8:
                 e_1 = _a.sent();
                 console.error("CRASH IN SW:", e_1);
                 return [4 /*yield*/, event.respondWith(fetch(event.request.url))];
-            case 9:
+            case 4:
                 _a.sent();
-                return [3 /*break*/, 10];
-            case 10: return [2 /*return*/];
+                return [3 /*break*/, 5];
+            case 5: return [2 /*return*/];
         }
     });
 }); });
