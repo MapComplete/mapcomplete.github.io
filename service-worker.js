@@ -119,16 +119,8 @@ function cacheFirst(event, attemptUpdate) {
         });
     });
 }
-var neverCache = [
-    /\.html$/,
-    /service-worker/
-];
-var neverCacheHost = [
-    /127\.0\.0\.[0-9]+/,
-    /\.local/,
-    /\.gitpod\.io/,
-    /localhost/
-];
+var neverCache = [/\.html$/, /service-worker/];
+var neverCacheHost = [/127\.0\.0\.[0-9]+/, /\.local/, /\.gitpod\.io/, /localhost/];
 function handleRequest(event) {
     return __awaiter(this, void 0, void 0, function () {
         var origin, requestUrl, shouldBeCached, _a, _b;
