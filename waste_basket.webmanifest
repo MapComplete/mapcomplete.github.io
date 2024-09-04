@@ -5,7 +5,7 @@
   "lang": "en",
   "display": "standalone",
   "background_color": "#fff",
-  "description": "On this map, you'll find waste baskets near you. If a waste basket is missing on this map, you can add it yourself",
+  "description": "On this map, you'll find waste baskets near you. If a waste basket is missing on this map, you can add it yourself.",
   "orientation": "portrait-primary, landscape-primary",
   "icons": [
     {
