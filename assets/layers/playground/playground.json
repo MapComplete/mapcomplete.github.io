@@ -139,7 +139,8 @@
     {
       "question": {
         "en": "Does one have to pay to use this playground?",
-        "nl": "Moet men betalen om deze speeltuin te gebruiken?"
+        "nl": "Moet men betalen om deze speeltuin te gebruiken?",
+        "de": "Muss man zahlen, um den Spielplatz zu nutzen?"
       },
       "id": "fee",
       "mappings": [
@@ -148,14 +149,16 @@
           "alsoShowIf": "fee=",
           "then": {
             "en": "Free to use",
-            "nl": "Gratis te gebruiken"
+            "nl": "Gratis te gebruiken",
+            "de": "Nutzung kostenlos"
           }
         },
         {
           "if": "fee=yes",
           "then": {
             "en": "Paid playground",
-            "nl": "Betalend"
+            "nl": "Betalend",
+            "de": "Gebührenpflichtiger Spielplatz"
           }
         }
       ],

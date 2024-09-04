@@ -25814,7 +25814,8 @@
         "ru": "Установлен {start_date}",
         "de": "Aufgestellt am {start_date}",
         "ca": "Col·locat el {start_date}",
-        "cs": "Umístěno {start_date}"
+        "cs": "Umístěno {start_date}",
+        "sl": "Datum postavitve {start_date}"
       },
       "freeform": {
         "key": "start_date",
@@ -28186,7 +28187,8 @@
           "if": "material=metal",
           "then": {
             "en": "This picnic table is made from metal",
-            "nl": "Deze picnictafel is gemaakt uit metaal"
+            "nl": "Deze picnictafel is gemaakt uit metaal",
+            "de": "Der Picknicktisch ist aus Metall"
           }
         }
       ],
@@ -95105,7 +95107,8 @@
     {
       "question": {
         "en": "Does one have to pay to use this playground?",
-        "nl": "Moet men betalen om deze speeltuin te gebruiken?"
+        "nl": "Moet men betalen om deze speeltuin te gebruiken?",
+        "de": "Muss man zahlen, um den Spielplatz zu nutzen?"
       },
       "id": "playground_fee",
       "mappings": [
@@ -95114,14 +95117,16 @@
           "alsoShowIf": "fee=",
           "then": {
             "en": "Free to use",
-            "nl": "Gratis te gebruiken"
+            "nl": "Gratis te gebruiken",
+            "de": "Nutzung kostenlos"
           }
         },
         {
           "if": "fee=yes",
           "then": {
             "en": "Paid playground",
-            "nl": "Betalend"
+            "nl": "Betalend",
+            "de": "Gebührenpflichtiger Spielplatz"
           }
         }
       ],
