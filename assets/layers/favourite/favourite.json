@@ -4546,7 +4546,8 @@
           "es": "Veterinario",
           "nl": "Dierenarts",
           "ca": "Veterinari",
-          "cs": "Veterinární ordinace"
+          "cs": "Veterinární ordinace",
+          "pl": "Weterynaryjny"
         }
       },
       {
@@ -4559,7 +4560,8 @@
           "es": "Veterinario",
           "nl": "Dierenarts",
           "ca": "Veterinari",
-          "cs": "Veterinární ordinace"
+          "cs": "Veterinární ordinace",
+          "pl": "Weterynaryjny"
         }
       },
       {
@@ -8481,7 +8483,8 @@
           "es": "<i>{name}</i>",
           "fr": "<i>{name}</i>",
           "eu": "<i>{name}</i>",
-          "cs": "<i>{name}</i>"
+          "cs": "<i>{name}</i>",
+          "pl": "<i>{name}</i>"
         }
       },
       {
@@ -8540,7 +8543,8 @@
           "es": "<i>{name}</i>",
           "fr": "<i>{name}</i>",
           "eu": "<i>{name}</i>",
-          "cs": "<i>{name}</i>"
+          "cs": "<i>{name}</i>",
+          "pl": "<i>{name}</i>"
         }
       },
       {
@@ -8599,7 +8603,8 @@
           "es": "<i>{name}</i>",
           "fr": "<i>{name}</i>",
           "eu": "<i>{name}</i>",
-          "cs": "<i>{name}</i>"
+          "cs": "<i>{name}</i>",
+          "pl": "<i>{name}</i>"
         }
       },
       {
@@ -8778,7 +8783,8 @@
           "ca": "Menjar ràpid",
           "es": "Comida rápida",
           "fr": "Fast-food",
-          "cs": "Rychlé občerstvení"
+          "cs": "Rychlé občerstvení",
+          "pl": "Fastfood"
         }
       },
       {
@@ -8790,7 +8796,8 @@
           "ca": "Menjar ràpid",
           "es": "Comida rápida",
           "fr": "Fast-food",
-          "cs": "Rychlé občerstvení"
+          "cs": "Rychlé občerstvení",
+          "pl": "Fastfood"
         }
       },
       {
@@ -8802,7 +8809,8 @@
           "ca": "Menjar ràpid",
           "es": "Comida rápida",
           "fr": "Fast-food",
-          "cs": "Rychlé občerstvení"
+          "cs": "Rychlé občerstvení",
+          "pl": "Fastfood"
         }
       },
       {
@@ -8814,7 +8822,8 @@
           "ca": "Menjar ràpid",
           "es": "Comida rápida",
           "fr": "Fast-food",
-          "cs": "Rychlé občerstvení"
+          "cs": "Rychlé občerstvení",
+          "pl": "Fastfood"
         }
       },
       {
@@ -8826,7 +8835,8 @@
           "ca": "Menjar ràpid",
           "es": "Comida rápida",
           "fr": "Fast-food",
-          "cs": "Rychlé občerstvení"
+          "cs": "Rychlé občerstvení",
+          "pl": "Fastfood"
         }
       },
       {
@@ -8838,7 +8848,8 @@
           "ca": "Menjar ràpid",
           "es": "Comida rápida",
           "fr": "Fast-food",
-          "cs": "Rychlé občerstvení"
+          "cs": "Rychlé občerstvení",
+          "pl": "Fastfood"
         }
       },
       {
@@ -8850,7 +8861,8 @@
           "ca": "Menjar ràpid",
           "es": "Comida rápida",
           "fr": "Fast-food",
-          "cs": "Rychlé občerstvení"
+          "cs": "Rychlé občerstvení",
+          "pl": "Fastfood"
         }
       },
       {
@@ -8862,7 +8874,8 @@
           "ca": "Menjar ràpid",
           "es": "Comida rápida",
           "fr": "Fast-food",
-          "cs": "Rychlé občerstvení"
+          "cs": "Rychlé občerstvení",
+          "pl": "Fastfood"
         }
       },
       {
@@ -10881,7 +10894,8 @@
           "nl": "{name}",
           "ca": "{name}",
           "es": "{name}",
-          "cs": "{name}"
+          "cs": "{name}",
+          "pl": "{name}"
         }
       },
       {
@@ -10935,7 +10949,8 @@
           "ca": "Botiga",
           "es": "Tienda",
           "pa_PK": "دکان",
-          "cs": "Obchod"
+          "cs": "Obchod",
+          "pl": "Sklep"
         }
       },
       {
@@ -10962,7 +10977,8 @@
           "nl": "{name}",
           "ca": "{name}",
           "es": "{name}",
-          "cs": "{name}"
+          "cs": "{name}",
+          "pl": "{name}"
         }
       },
       {
@@ -11016,7 +11032,8 @@
           "ca": "Botiga",
           "es": "Tienda",
           "pa_PK": "دکان",
-          "cs": "Obchod"
+          "cs": "Obchod",
+          "pl": "Sklep"
         }
       },
       {
@@ -11043,7 +11060,8 @@
           "nl": "{name}",
           "ca": "{name}",
           "es": "{name}",
-          "cs": "{name}"
+          "cs": "{name}",
+          "pl": "{name}"
         }
       },
       {
@@ -11097,7 +11115,8 @@
           "ca": "Botiga",
           "es": "Tienda",
           "pa_PK": "دکان",
-          "cs": "Obchod"
+          "cs": "Obchod",
+          "pl": "Sklep"
         }
       },
       {
@@ -11124,7 +11143,8 @@
           "nl": "{name}",
           "ca": "{name}",
           "es": "{name}",
-          "cs": "{name}"
+          "cs": "{name}",
+          "pl": "{name}"
         }
       },
       {
@@ -11178,7 +11198,8 @@
           "ca": "Botiga",
           "es": "Tienda",
           "pa_PK": "دکان",
-          "cs": "Obchod"
+          "cs": "Obchod",
+          "pl": "Sklep"
         }
       },
       {
@@ -11205,7 +11226,8 @@
           "nl": "{name}",
           "ca": "{name}",
           "es": "{name}",
-          "cs": "{name}"
+          "cs": "{name}",
+          "pl": "{name}"
         }
       },
       {
@@ -11259,7 +11281,8 @@
           "ca": "Botiga",
           "es": "Tienda",
           "pa_PK": "دکان",
-          "cs": "Obchod"
+          "cs": "Obchod",
+          "pl": "Sklep"
         }
       },
       {
@@ -11286,7 +11309,8 @@
           "nl": "{name}",
           "ca": "{name}",
           "es": "{name}",
-          "cs": "{name}"
+          "cs": "{name}",
+          "pl": "{name}"
         }
       },
       {
@@ -11340,7 +11364,8 @@
           "ca": "Botiga",
           "es": "Tienda",
           "pa_PK": "دکان",
-          "cs": "Obchod"
+          "cs": "Obchod",
+          "pl": "Sklep"
         }
       },
       {
@@ -11367,7 +11392,8 @@
           "nl": "{name}",
           "ca": "{name}",
           "es": "{name}",
-          "cs": "{name}"
+          "cs": "{name}",
+          "pl": "{name}"
         }
       },
       {
@@ -11421,7 +11447,8 @@
           "ca": "Botiga",
           "es": "Tienda",
           "pa_PK": "دکان",
-          "cs": "Obchod"
+          "cs": "Obchod",
+          "pl": "Sklep"
         }
       },
       {
@@ -11448,7 +11475,8 @@
           "nl": "{name}",
           "ca": "{name}",
           "es": "{name}",
-          "cs": "{name}"
+          "cs": "{name}",
+          "pl": "{name}"
         }
       },
       {
@@ -11502,7 +11530,8 @@
           "ca": "Botiga",
           "es": "Tienda",
           "pa_PK": "دکان",
-          "cs": "Obchod"
+          "cs": "Obchod",
+          "pl": "Sklep"
         }
       },
       {
@@ -11529,7 +11558,8 @@
           "nl": "{name}",
           "ca": "{name}",
           "es": "{name}",
-          "cs": "{name}"
+          "cs": "{name}",
+          "pl": "{name}"
         }
       },
       {
@@ -11583,7 +11613,8 @@
           "ca": "Botiga",
           "es": "Tienda",
           "pa_PK": "دکان",
-          "cs": "Obchod"
+          "cs": "Obchod",
+          "pl": "Sklep"
         }
       },
       {
@@ -11610,7 +11641,8 @@
           "nl": "{name}",
           "ca": "{name}",
           "es": "{name}",
-          "cs": "{name}"
+          "cs": "{name}",
+          "pl": "{name}"
         }
       },
       {
@@ -11664,7 +11696,8 @@
           "ca": "Botiga",
           "es": "Tienda",
           "pa_PK": "دکان",
-          "cs": "Obchod"
+          "cs": "Obchod",
+          "pl": "Sklep"
         }
       },
       {
@@ -11691,7 +11724,8 @@
           "nl": "{name}",
           "ca": "{name}",
           "es": "{name}",
-          "cs": "{name}"
+          "cs": "{name}",
+          "pl": "{name}"
         }
       },
       {
@@ -11745,7 +11779,8 @@
           "ca": "Botiga",
           "es": "Tienda",
           "pa_PK": "دکان",
-          "cs": "Obchod"
+          "cs": "Obchod",
+          "pl": "Sklep"
         }
       },
       {
@@ -21110,7 +21145,7 @@
       "classes": "flex items-center gap-x-2",
       "render": {
         "da": "{qr_code()}Skan denne kode for at åbne dette sted på en anden enhed",
-        "de": "{qr_code()}Scannen Sie den Code, um diesen Ort auf einem anderen Gerät zu öffnen",
+        "de": "{qr_code()}QR Code scannen, um diesen Ort auf einem anderen Gerät zu öffnen",
         "en": "{qr_code()}Scan this code to open this location on another device",
         "nl": "{qr_code()}Scan deze code om deze locatie op een ander apparaat te zien",
         "sl": "{qr_code()}Skenirajte to kodo, da odprete ta kraj na drugi napravi"
@@ -26175,7 +26210,7 @@
       "id": "cash_out",
       "question": {
         "en": "Can you withdraw cash from this ATM?",
-        "de": "Kann man an diesem Geldautomaten Bargeld abheben?",
+        "de": "Kann man am Automaten Bargeld abheben?",
         "nl": "Kan je geld ophalen bij deze geldautomaat?",
         "nb_NO": "Kan man gjøre uttak fra denne minibanken?",
         "ca": "Pots retirar diners des d'aquest caixer?",
@@ -26191,7 +26226,7 @@
           "if": "cash_out=",
           "then": {
             "en": "You can withdraw cash from this ATM",
-            "de": "Sie können an diesem Geldautomaten Bargeld abheben",
+            "de": "Am Geldautomaten kann Bargeld abgehoben werden",
             "nl": "Je kan geld ophalen bij deze geldautomaat",
             "ca": "Pots retirar diners a aquest caixer",
             "nb_NO": "Du kan gjøre uttak i denne minibanken",
@@ -26209,7 +26244,7 @@
           "if": "cash_out=yes",
           "then": {
             "en": "You can withdraw cash from this ATM",
-            "de": "An diesem Geldautomaten können Sie Bargeld abheben",
+            "de": "Am Automaten kann Bargeld abgehoben werden",
             "nl": "Je kan geld ophalen bij deze geldautomaat",
             "ca": "Pots retirar diners des d'aquest caixer",
             "cs": "Z tohoto bankomatu můžete vybírat hotovost",
@@ -26224,7 +26259,7 @@
           "if": "cash_out=no",
           "then": {
             "en": "You cannot withdraw cash from this ATM",
-            "de": "Sie können an diesem Geldautomaten kein Bargeld abheben",
+            "de": "Am Automaten kann kein Bargeld abgehoben werden",
             "nl": "Je kan geen geld ophalen bij deze geldautomaat",
             "ca": "No pots retirar diners des d'aquest caixer",
             "cs": "Z tohoto bankomatu nelze vybírat hotovost",
@@ -26301,7 +26336,7 @@
           "if": "cash_in=no",
           "then": {
             "en": "You cannot deposit cash into this ATM",
-            "de": "Sie können an diesem Geldautomaten kein Bargeld einzahlen",
+            "de": "Am Geldautomaten kann kein Bargeld eingezahlt werden",
             "nl": "Je kan geen geld deponeren in deze geldautomaat",
             "nb_NO": "Du kan ikke gjøre innskudd i denne minibanken",
             "ca": "No pots dipositar diners a aquest caixer",
@@ -26346,7 +26381,7 @@
         "en": "What notes can you withdraw here?",
         "nl": "Welke bankbiljetten kan je hier afhalen?",
         "fr": "Quels billets pouvez-vous retirer ici ?",
-        "de": "Welche Geldscheine können Sie hier abheben?",
+        "de": "Welche Geldscheine können abgehoben werden?",
         "cs": "Jaké bankovky zde můžete vybírat?",
         "he": "אילו הערות תוכל למשוך כאן?",
         "ca": "Quins bitllets pots retirar aquí?",
@@ -26412,7 +26447,7 @@
           "then": {
             "en": "50 euro notes can be withdrawn",
             "nl": "Je kunt biljetten van 50 euro afhalen",
-            "de": "Es können 50-Euro-Scheine abgehoben werden",
+            "de": "50-Euro-Scheine können abgehoben werden",
             "cs": "50 eurové bankovky lze vybírat",
             "ca": "es poden retirar bitllets de 50 euros",
             "fr": "On peut retirer des billets de 50 euros",
@@ -26476,7 +26511,7 @@
       "id": "speech_output",
       "question": {
         "en": "Does this ATM have speech output for visually impaired users?",
-        "de": "Verfügt dieser Geldautomat über eine Sprachausgabe für sehbehinderte Benutzer?",
+        "de": "Ist eine Sprachausgabe für Sehbehinderte vorhanden?",
         "nl": "Heeft deze automaat spraak voor slechtziende en blinde gebruikers?",
         "ca": "Aquest caixer té un lector de pantalla per a usuaris amb discapacitat visual?",
         "cs": "Má tento bankomat hlasový výstup pro zrakově postižené uživatele?",
@@ -26490,7 +26525,7 @@
           "if": "speech_output=yes",
           "then": {
             "en": "This ATM has speech output, usually available through a headphone jack",
-            "de": "Dieser Geldautomat verfügt über eine Sprachausgabe, die normalerweise über eine Kopfhörerbuchse verfügbar ist",
+            "de": "Der Geldautomat hat eine Sprachausgabe, in der Regel verfügbar über eine Kopfhörerbuchse",
             "nl": "Deze automaat heeft spraak, waarschijnlijk beschikbaar via een hoofdtelefoon-aansluiting",
             "ca": "Aquest caixer té lector de pantalla, normalment disponible a través d'un connector d'auriculars \"jack\"",
             "cs": "Tento bankomat má řečový výstup, který je obvykle dostupný přes konektor pro sluchátka",
@@ -26504,7 +26539,7 @@
           "if": "speech_output=no",
           "then": {
             "en": "This ATM does not have speech output",
-            "de": "Dieser Geldautomat hat keine Sprachausgabe",
+            "de": "Der Geldautomat hat keine Sprachausgabe",
             "nl": "Deze automaat heeft geen spraak",
             "ca": "Aquest caixer no té lector de pantalla",
             "cs": "Tento bankomat nemá hlasový výstup",
@@ -49293,7 +49328,8 @@
             "es": "Dunlop",
             "cs": "Dunlop",
             "ca": "Dunlop",
-            "eu": "Dunlop"
+            "eu": "Dunlop",
+            "pl": "Dunlop"
           }
         },
         {
@@ -73420,7 +73456,7 @@
           "if": "not:brand=yes",
           "then": {
             "en": "This shop does not have a specific brand, it is not part of a bigger chain",
-            "de": "Dieses Geschäft gehört zu keiner Marke oder Handelskette"
+            "de": "Das Geschäft gehört zu keiner Marke oder Handelskette"
           }
         }
       ],
@@ -76856,7 +76892,7 @@
           "then": {
             "en": "A climbing boulder - a single rock or cliff with one or a few climbing routes which can be climbed safely without rope",
             "fr": "Rocher d’escalade, rocher avec une ou peu de voie permettant d’escalader sans corde",
-            "de": "Ein Kletterfelsen - ein einzelner Felsen oder eine Klippe mit einer oder wenigen Kletterrouten, die ohne Seil sicher bestiegen werden können",
+            "de": "Ein Boulderfelsen - ein einzelner Felsen oder eine Klippe mit einer oder wenigen Boulderrouten, die ohne Seil sicher bestiegen werden können",
             "it": "Un masso per arrampicata (una singola roccia o falesia con una o poche vie di arrampicata che possono essere scalate in sicurezza senza una corda)",
             "nl": "Een klimboulder - een enkele rots of klif met één of enkele klimroutes die veilig zonder touw kunnen worden beklommen",
             "ca": "Una roca d'escalada: una única roca o penya-segat amb una o unes quantes vies d'escalada que es poden escalar amb seguretat sense corda",
@@ -76929,7 +76965,8 @@
             "pa_PK": "چونہ پتھر",
             "eu": "Kareharria",
             "ca": "Calcària",
-            "cs": "Vápenec"
+            "cs": "Vápenec",
+            "pl": "Wapień"
           }
         }
       ],
@@ -80806,7 +80843,7 @@
           "if": "not:brand=yes",
           "then": {
             "en": "This shop does not have a specific brand, it is not part of a bigger chain",
-            "de": "Dieses Geschäft gehört zu keiner Marke oder Handelskette",
+            "de": "Das Geschäft gehört zu keiner Marke oder Handelskette",
             "_context": "layers:shops.tagRenderings.brand.mappings.0.then"
           }
         }
@@ -86914,7 +86951,8 @@
         "it": "<i>{inscription}</i>",
         "ru": "<i>{inscription}</i>",
         "id": "<i>{inscription}</i>",
-        "cs": "<i>{inscription}</i>"
+        "cs": "<i>{inscription}</i>",
+        "pl": "<i>{inscription}</i>"
       },
       "freeform": {
         "key": "inscription",
@@ -93464,14 +93502,16 @@
         "de": "Wie lange dauert eine Fahrt mit diesem Aufzug?",
         "fr": "Combien de temps dure le trajet dans cet ascenseur ?",
         "pl": "Jak długo trwa pojedynczy przejazd tą windą?",
-        "es": "¿Cuánto dura un viaje en este ascensor?"
+        "es": "¿Cuánto dura un viaje en este ascensor?",
+        "cs": "Jak dlouho trvá jedna jízda tímto výtahem?"
       },
       "questionHint": {
         "en": "This excludes the waiting time.",
         "de": "Dies schließt die Wartezeit aus.",
         "fr": "Cela n'inclut pas le temps d'attente.",
         "pl": "To nie włącza czasu oczekiwania.",
-        "es": "Esto elimina el tiempo de espera."
+        "es": "Esto elimina el tiempo de espera.",
+        "cs": "To nezahrnuje čekací dobu."
       },
       "freeform": {
         "key": "duration",
@@ -93482,7 +93522,8 @@
         "de": "Eine Fahrt dauert {duration} Minuten",
         "fr": "Un aller simple dure {duration} minutes",
         "pl": "Pojedynczy przejazd trwa {duration} minut",
-        "es": "Un viaje dura {duration} minutos"
+        "es": "Un viaje dura {duration} minutos",
+        "cs": "Jedna jízda trvá {duration} minut"
       },
       "condition": {
         "and": [
@@ -95595,7 +95636,7 @@
         "en": "What is the email address of the playground maintainer?",
         "it": "Qual è l’indirizzo email del gestore di questo parco giochi?",
         "fr": "Quelle est l'adresse électronique du responsable de l'aire de jeux ?",
-        "de": "Wie lautet die E-Mail Adresse des Spielplatzbetreuers?",
+        "de": "Wie lautet die E-Mail Adresse des Spielplatzbetreibers?",
         "ca": "Quina és l'adreça de correu electrònic del mantenidor del parc infantil?",
         "cs": "Jaká je e-mailová adresa správce hřiště?"
       },
@@ -95630,7 +95671,7 @@
         "en": "What is the phone number of the playground maintainer?",
         "fr": "Quel est le numéro de téléphone du responsable du terrain de jeux ?",
         "it": "Qual è il numero di telefono del gestore del campetto?",
-        "de": "Wie lautet die Telefonnummer vom Betreiber des Spielplatzes?",
+        "de": "Wie lautet die Telefonnummer des Spielplatzbetreibers?",
         "ca": "Quin és el telèfon del mantenidor del parc infantil?",
         "cs": "Jaké je telefonní číslo na správce hřiště?"
       },
@@ -100534,7 +100575,8 @@
             "id": "Berdaun lebar",
             "da": "Bredbladet",
             "pt": "Folha larga",
-            "cs": "Listnatý"
+            "cs": "Listnatý",
+            "pl": "Szerokolistne"
           },
           "icon": {
             "path": "./assets/layers/tree_node/broadleaved.svg",
@@ -100556,7 +100598,8 @@
             "ca": "Amb fulles d'agulla",
             "es": "Hoja aguja",
             "id": "Berdaun jarum",
-            "cs": "Jehličnatý"
+            "cs": "Jehličnatý",
+            "pl": "Iglaste"
           },
           "icon": {
             "path": "./assets/layers/tree_node/needleleaved.svg",
