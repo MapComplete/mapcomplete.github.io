@@ -702,7 +702,8 @@
         "*": "{description}"
       },
       "freeform": {
-        "key": "description"
+        "key": "description",
+        "type": "text"
       },
       "questionHint": {
         "nl": "Herhaal geen antwoorden die je reeds gaf",
@@ -2168,6 +2169,13 @@
             "ca": "Aquest lloc ofereix accés a internet per cable",
             "pl": "To miejsce oferuje przewodowy dostęp do Internetu"
           }
+        },
+        {
+          "if": "internet_access=terminal;wifi",
+          "alsoShowIf": "internet_access=wifi;terminal",
+          "then": {
+            "en": "This place offers both wireless internet and internet access via a terminal or computer"
+          }
         }
       ],
       "filter": [
@@ -2258,7 +2266,7 @@
       "labels": [
         "internet-all"
       ],
-      "condition": "internet_access=wlan",
+      "condition": "internet_access~.*wlan.*",
       "question": {
         "en": "What is the network name for the wireless internet access?",
         "nl": "Wat is de netwerknaam voor de draadloze internettoegang?",

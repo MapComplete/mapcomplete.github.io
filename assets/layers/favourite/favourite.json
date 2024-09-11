@@ -28261,8 +28261,7 @@
         "eu": "{name}"
       },
       "freeform": {
-        "key": "name",
-        "inline": true
+        "key": "name"
       },
       "id": "bench_at_pt-name",
       "condition": {
@@ -28418,6 +28417,19 @@
           },
           "icon": {
             "path": "./assets/layers/bike_parking/staple.svg",
+            "class": "large"
+          }
+        },
+        {
+          "if": "bicycle_parking=safe_loops",
+          "then": {
+            "en": "Rack with side loops",
+            "nl": "Rek met zijbeugel",
+            "fr": "Rack à vélo avec arceau",
+            "de": "Radständer mit Seitenbügel"
+          },
+          "icon": {
+            "path": "./assets/layers/bike_parking/safe_loops.svg",
             "class": "large"
           }
         },
@@ -28863,8 +28875,7 @@
         "key": "access",
         "addExtraTags": [
           "fixme=Freeform used on 'access'-tag: possibly a wrong value"
-        ],
-        "inline": true
+        ]
       },
       "mappings": [
         {
@@ -32607,7 +32618,7 @@
       },
       "freeform": {
         "key": "description",
-        "inline": true
+        "type": "text"
       },
       "questionHint": {
         "nl": "Herhaal geen antwoorden die je reeds gaf",
@@ -39435,6 +39446,13 @@
             "ca": "Aquest lloc ofereix accés a internet per cable",
             "pl": "To miejsce oferuje przewodowy dostęp do Internetu"
           }
+        },
+        {
+          "if": "internet_access=terminal;wifi",
+          "alsoShowIf": "internet_access=wifi;terminal",
+          "then": {
+            "en": "This place offers both wireless internet and internet access via a terminal or computer"
+          }
         }
       ],
       "filter": [
@@ -40005,7 +40023,6 @@
       ],
       "condition": {
         "and": [
-          "internet_access=wlan",
           {
             "or": [
               "amenity=bar",
@@ -40244,7 +40261,8 @@
                 ]
               }
             ]
-          }
+          },
+          "internet_access~.*wlan.*"
         ]
       },
       "question": {
@@ -76912,7 +76930,10 @@
         },
         {
           "if": "climbing=area",
-          "then": "A climbing area with one or more climbing crags and/or boulders"
+          "then": {
+            "en": "A climbing area with one or more climbing crags and/or boulders",
+            "de": "Ein Klettergebiet mit einem oder meheren Kletter- und/oder Boulderfelsen"
+          }
         }
       ],
       "id": "climbing_area_Type",
@@ -87052,6 +87073,12 @@
             "ca": "Aquest és un espai hacker tradicional (orientat al software)",
             "cs": "Toto je tradiční (softwarově orientovaný) hackerský prostor"
           }
+        },
+        {
+          "if": "hackerspace=hacklab",
+          "then": {
+            "en": "This is a <b>hacklab</b> which is mostly focussed on basic computer skills, using recycled devices and/or providing internet to the community. This is typically located in autonomous spaces, squats or social facilities"
+          }
         }
       ],
       "condition": {
@@ -89368,8 +89395,7 @@
         "nl": "{name}"
       },
       "freeform": {
-        "key": "name",
-        "inline": true
+        "key": "name"
       },
       "condition": {
         "and": [
@@ -89778,6 +89804,12 @@
             "pl": "To jest biuro"
           },
           "icon": "./assets/layers/indoors/room_office.svg"
+        },
+        {
+          "if": "room=printer",
+          "then": {
+            "en": "This is a copy room"
+          }
         },
         {
           "if": "room=prison_cell",
