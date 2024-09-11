@@ -10,7 +10,8 @@
   },
   "snapName": {
     "en": "an indoor wall",
-    "nl": "een binnenmuur"
+    "nl": "een binnenmuur",
+    "de": "eine Innenwand"
   },
   "description": {
     "en": "Basic indoor mapping: shows room outlines",
@@ -479,7 +480,8 @@
         {
           "if": "room=printer",
           "then": {
-            "en": "This is a copy room"
+            "en": "This is a copy room",
+            "de": "Dies ist ein Kopierraum"
           }
         },
         {

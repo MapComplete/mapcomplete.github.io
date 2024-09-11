@@ -9,7 +9,8 @@
     "cs": "Přístřešek"
   },
   "snapName": {
-    "en": "a shelter"
+    "en": "a shelter",
+    "de": "ein Unterstand"
   },
   "description": {
     "en": "Layer showing shelter structures",

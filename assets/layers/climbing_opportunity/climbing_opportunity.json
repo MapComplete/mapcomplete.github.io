@@ -35,7 +35,8 @@
     }
   },
   "snapName": {
-    "en": "a wall, cliff or rock"
+    "en": "a wall, cliff or rock",
+    "de": "eine Wand, Klippe oder ein Felsen"
   },
   "minzoom": 18,
   "title": {

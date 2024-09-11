@@ -9,7 +9,8 @@
     "cs": "Cesty pro chodce"
   },
   "snapName": {
-    "en": "a pedestrian path"
+    "en": "a pedestrian path",
+    "de": "ein Fußweg"
   },
   "description": {
     "en": "Pedestrian footpaths, especially used for indoor navigation and snapping entrances to this layer",
