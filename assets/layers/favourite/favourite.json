@@ -85677,7 +85677,8 @@
             "fr": "Des hamburgers sont servis ici",
             "ca": "Aquí es serveixen hamburgueses",
             "pl": "Są tu podawane burgery",
-            "cs": "Podávají se zde burgery"
+            "cs": "Podávají se zde burgery",
+            "de": "Burgersrestaurant"
           }
         },
         {
@@ -85685,8 +85686,8 @@
           "then": {
             "en": "Sushi restaurant",
             "nl": "Sushirestaurant",
-            "de": "Hier wird Sushi serviert",
-            "es": "Aquí se sirve sushi",
+            "de": "Sushi-Restaurant",
+            "es": "Restaurante de sushi",
             "fr": "Des sushis sont servis ici",
             "ca": "Aquí es serveix sushi",
             "cs": "Podává se zde sushi"
@@ -85697,7 +85698,7 @@
           "then": {
             "en": "Coffeebar",
             "nl": "Koffiezaak",
-            "de": "Hier wird Kaffee serviert",
+            "de": "Kaffeebar",
             "es": "Aquí se sirve café",
             "fr": "C'est un café",
             "ca": "Aquí es serveix cafè",
@@ -85709,7 +85710,7 @@
           "then": {
             "en": "Italian restaurant (which serves more than pasta and pizza)",
             "nl": "Italiaans restaurant (dat meer dan enkel pasta of pizza verkoopt)",
-            "de": "Dies ist ein italienisches Restaurant (das mehr als nur Pasta und Pizza serviert)",
+            "de": "Italienisches Restaurant (das mehr als nur Pasta und Pizza serviert)",
             "es": "Este es un restaurante italiano (que sirve algo más que pasta y pizza)",
             "fr": "C'est un Restaurant Italien (qui sert plus que des pâtes et des pizzas)",
             "ca": "Això és un restaurant italià (que serveix més que pasta i pizza)",
@@ -85721,8 +85722,8 @@
           "then": {
             "en": "French restaurant",
             "nl": "Frans restaurant",
-            "de": "Hier werden französische Gerichte serviert",
-            "es": "Aquí se sirven platos Franceses",
+            "de": "Französisches Restaurant",
+            "es": "Restaurante francés",
             "fr": "Des plats français sont servis ici",
             "ca": "Aquí es serveixen plats francesos",
             "cs": "Podávají se zde francouzská jídla"
@@ -85733,7 +85734,7 @@
           "then": {
             "en": "Chinese",
             "nl": "Chinees restaurant",
-            "de": "Hier werden chinesische Gerichte serviert",
+            "de": "Chinesisch",
             "es": "Aquí se sirven platos Chinos",
             "fr": "Des plats chinois sont servis ici",
             "ca": "Aquí es serveixen plats xinesos",
@@ -85745,7 +85746,7 @@
           "then": {
             "en": "Greek",
             "nl": "Grieks restaurant",
-            "de": "Hier werden griechische Gerichte serviert",
+            "de": "Griechisch",
             "es": "Aquí se sirven platos Griegos",
             "fr": "Des plats grecs sont servis ici",
             "ca": "Aquí es serveixen plats grecs",
@@ -85757,7 +85758,7 @@
           "then": {
             "en": "Indian",
             "nl": "Indisch restaurant",
-            "de": "Hier werden indische Gerichte serviert",
+            "de": "Indisch",
             "es": "Aquí se sirven platos Indios",
             "fr": "Des plats indiens sont servis ici",
             "ca": "Aquí es serveixen plats indis",
@@ -85769,7 +85770,7 @@
           "then": {
             "en": "Turkish restaurant",
             "nl": "Turks restaurant",
-            "de": "Hier werden türkische Gerichte serviert",
+            "de": "Türkisches Restaurant",
             "es": "Aquí se sirven platos Turcos",
             "fr": "Des plats turcs sont servis ici",
             "ca": "Aquí es serveixen plats turcs",
@@ -85781,7 +85782,7 @@
           "then": {
             "en": "Thai restaurant",
             "nl": "Thaïs restaurant",
-            "de": "Hier werden thailändische Gerichte serviert",
+            "de": "Thailändisches Restaurant",
             "fr": "Des plats thaïlandais sont servis ici",
             "ca": "Aquí es serveixen plats tailandesos",
             "cs": "Podávají se zde thajské pokrmy"
@@ -87077,7 +87078,8 @@
         {
           "if": "hackerspace=hacklab",
           "then": {
-            "en": "This is a <b>hacklab</b> which is mostly focussed on basic computer skills, using recycled devices and/or providing internet to the community. This is typically located in autonomous spaces, squats or social facilities"
+            "en": "This is a <b>hacklab</b> which is mostly focussed on basic computer skills, using recycled devices and/or providing internet to the community. This is typically located in autonomous spaces, squats or social facilities",
+            "de": "Dies ist ein <b>Hackerspace/Hack-Lab</b>, das sich hauptsächlich auf grundlegende Computerkenntnisse konzentriert, recycelte Geräte verwendet und/oder der Gemeinschaft Internet bereitstellt. Es befindet sich typischerweise in autonomen Räumen, besetzten Häusern oder sozialen Einrichtungen."
           }
         }
       ],
