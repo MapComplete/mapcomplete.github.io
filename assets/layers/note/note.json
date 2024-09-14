@@ -13,18 +13,21 @@
   "source": {
     "osmTags": "date_created~*",
     "geoJson": "https://api.openstreetmap.org/api/0.6/notes.json?limit=10000&closed=7&bbox={x_min},{y_min},{x_max},{y_max}",
-    "geoJsonZoomLevel": 12
+    "geoJsonZoomLevel": 10
   },
   "calculatedTags": [
     "_total_comments:=get(feat)('comments').length",
     "_first_comment:=get(feat)('comments')[0].text",
+    "_all_comments:=get(feat)('comments').map(c => c.text ?? '').join('\\n')",
+    "_all_usernames:=get(feat)('comments').map(c => c.user ?? 'Anonymous').join('\\n')",
     "_opened_by_anonymous_user:=get(feat)('comments')[0].user === undefined",
     "_first_user:=get(feat)('comments')[0].user",
     "_last_user:=(() => {const comms = get(feat)('comments'); return comms[comms.length - 1].user})()",
+    "_last_change_date:=(() => {const comms = get(feat)('comments'); return comms[comms.length - 1].date})()",
     "_first_user_id:=get(feat)('comments')[0].uid",
     "_is_import_note:=(() => {const lines = feat.properties['_first_comment'].split('\\n'); const matchesMapCompleteURL = lines.map(l => l.match(\".*https://mapcomplete.\\(osm.be|org\\)/\\([a-zA-Z_-]+\\)\\(.html\\).*#import\")); const matchedIndexes = matchesMapCompleteURL.map((doesMatch, i) => [doesMatch !== null, i]).filter(v => v[0]).map(v => v[1]); return matchedIndexes[0] })()"
   ],
-  "minzoom": 10,
+  "minzoom": 7,
   "title": {
     "render": {
       "en": "Note",
@@ -159,6 +162,78 @@
   ],
   "filter": [
     {
+      "id": "anonymous",
+      "options": [
+        {
+          "osmTags": "_opened_by_anonymous_user=true",
+          "question": {
+            "en": "Only show notes opened by an anonymous contributor",
+            "nl": "Toon enkel de Notes geopend door een anonieme bijdrager",
+            "de": "Nur Notizen anzeigen, die anonym erstellt wurden",
+            "es": "Solo mostrar las notas abiertas por contributores anómimos",
+            "ca": "Sols mostrar les notes obertes per contribuïdors anònims",
+            "cs": "Zobrazovat pouze poznámky otevřené anonymním přispěvatelem",
+            "fr": "Montrer uniquement les notes ouvertes par un contributeur anonyme"
+          }
+        }
+      ]
+    },
+    {
+      "id": "is_open",
+      "options": [
+        {
+          "osmTags": "closed_at=",
+          "question": {
+            "en": "Only show open notes",
+            "nl": "Toon enkel open Notes",
+            "de": "Nur offene Notizen anzeigen",
+            "es": "Solo mostrar las notas abiertas",
+            "ca": "Sols mostra les notes obertes",
+            "cs": "Zobrazit pouze otevřené poznámky",
+            "fr": "Montrer uniquement les notes ouvertes"
+          }
+        }
+      ]
+    },
+    {
+      "id": "no_imports",
+      "options": [
+        {
+          "question": {
+            "en": "All Notes",
+            "nl": "Alle Notes",
+            "de": "Alle Notizen",
+            "es": "Todas las notas",
+            "ca": "Totes les notes",
+            "cs": "Všechny poznámky",
+            "fr": "Toutes les notes"
+          }
+        },
+        {
+          "osmTags": "_is_import_note=",
+          "question": {
+            "en": "Hide import notes",
+            "nl": "Verberg import Notes",
+            "de": "Importnotizen ausblenden",
+            "es": "Ocultar las notas de importación",
+            "ca": "Oculta les notes d'importació",
+            "cs": "Skrýt poznámky k importu"
+          }
+        },
+        {
+          "osmTags": "_is_import_note~*",
+          "question": {
+            "en": "Show only import Notes",
+            "nl": "Toon enkel import Notes",
+            "de": "Nur Importnotizen anzeigen",
+            "es": "Solo mostrar las notas de importación",
+            "ca": "Mostrar només les notes d'importació",
+            "cs": "Zobrazit pouze poznámky k importu"
+          }
+        }
+      ]
+    },
+    {
       "id": "search",
       "options": [
         {
@@ -175,6 +250,22 @@
             "es": "Debe mencionar {search} en el primer comentario",
             "ca": "Has de mencionar {search} en el primer comentari",
             "cs": "Měl by se zmínit {search} v prvním komentáři"
+          }
+        }
+      ]
+    },
+    {
+      "id": "search_any",
+      "options": [
+        {
+          "osmTags": "_all_comments~i~.*{search}.*",
+          "fields": [
+            {
+              "name": "search"
+            }
+          ],
+          "question": {
+            "en": "Should mention {search} in any comment"
           }
         }
       ]
@@ -245,7 +336,23 @@
       ]
     },
     {
-      "id": "edited_by",
+      "id": "edited_by_any",
+      "options": [
+        {
+          "osmTags": "_all_usernames~i~.*{search}.*",
+          "fields": [
+            {
+              "name": "search"
+            }
+          ],
+          "question": {
+            "en": "Edited or commented on by any user with name {search}"
+          }
+        }
+      ]
+    },
+    {
+      "id": "last_edited_by",
       "options": [
         {
           "osmTags": "_last_user~i~.*{search}.*",
@@ -268,7 +375,7 @@
       ]
     },
     {
-      "id": "not_edited_by",
+      "id": "not_last_edited_by",
       "options": [
         {
           "osmTags": "_last_user!~i~.*{search}.*",
@@ -278,13 +385,7 @@
             }
           ],
           "question": {
-            "en": "Opened after {search}",
-            "nl": "Geopend na {search}",
-            "de": "Zuletzt bearbeitet nach dem {search}",
-            "es": "Abierta después de {search}",
-            "ca": "Oberta després de {search}",
-            "cs": "Otevřeno po {search}",
-            "fr": "Ouverte après le {search}"
+            "en": "Not edited as last by {search}"
           }
         }
       ]
@@ -336,73 +437,35 @@
       ]
     },
     {
-      "id": "anonymous",
+      "id": "last_edited_before",
       "options": [
         {
-          "osmTags": "_opened_by_anonymous_user=true",
+          "osmTags": "_last_change_date<{search}",
+          "fields": [
+            {
+              "name": "search",
+              "type": "date"
+            }
+          ],
           "question": {
-            "en": "Only show notes opened by an anonymous contributor",
-            "nl": "Toon enkel de Notes geopend door een anonieme bijdrager",
-            "de": "Nur Notizen anzeigen, die anonym erstellt wurden",
-            "es": "Solo mostrar las notas abiertas por contributores anómimos",
-            "ca": "Sols mostrar les notes obertes per contribuïdors anònims",
-            "cs": "Zobrazovat pouze poznámky otevřené anonymním přispěvatelem",
-            "fr": "Montrer uniquement les notes ouvertes par un contributeur anonyme"
+            "en": "Last edited before {search}"
           }
         }
       ]
     },
     {
-      "id": "is_open",
+      "id": "last_edited_after",
       "options": [
         {
-          "osmTags": "closed_at=",
+          "osmTags": "_last_change_date>{search}",
+          "fields": [
+            {
+              "name": "search",
+              "type": "date"
+            }
+          ],
           "question": {
-            "en": "Only show open notes",
-            "nl": "Toon enkel open Notes",
-            "de": "Nur offene Notizen anzeigen",
-            "es": "Solo mostrar las notas abiertas",
-            "ca": "Sols mostra les notes obertes",
-            "cs": "Zobrazit pouze otevřené poznámky",
-            "fr": "Montrer uniquement les notes ouvertes"
-          }
-        }
-      ]
-    },
-    {
-      "id": "no_imports",
-      "options": [
-        {
-          "question": {
-            "en": "All Notes",
-            "nl": "Alle Notes",
-            "de": "Alle Notizen",
-            "es": "Todas las notas",
-            "ca": "Totes les notes",
-            "cs": "Všechny poznámky",
-            "fr": "Toutes les notes"
-          }
-        },
-        {
-          "osmTags": "_is_import_note=",
-          "question": {
-            "en": "Hide import notes",
-            "nl": "Verberg import Notes",
-            "de": "Importnotizen ausblenden",
-            "es": "Ocultar las notas de importación",
-            "ca": "Oculta les notes d'importació",
-            "cs": "Skrýt poznámky k importu"
-          }
-        },
-        {
-          "osmTags": "_is_import_note~*",
-          "question": {
-            "en": "Show only import Notes",
-            "nl": "Toon enkel import Notes",
-            "de": "Nur Importnotizen anzeigen",
-            "es": "Solo mostrar las notas de importación",
-            "ca": "Mostrar només les notes d'importació",
-            "cs": "Zobrazit pouze poznámky k importu"
+            "en": "Last edited after {search}"
           }
         }
       ]

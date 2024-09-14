@@ -410,8 +410,7 @@
             "fr": "Des hamburgers sont servis ici",
             "ca": "Aquí es serveixen hamburgueses",
             "pl": "Są tu podawane burgery",
-            "cs": "Podávají se zde burgery",
-            "de": "Burgersrestaurant"
+            "cs": "Podávají se zde burgery"
           }
         },
         {
@@ -419,8 +418,8 @@
           "then": {
             "en": "Sushi restaurant",
             "nl": "Sushirestaurant",
-            "de": "Sushi-Restaurant",
-            "es": "Restaurante de sushi",
+            "de": "Hier wird Sushi serviert",
+            "es": "Aquí se sirve sushi",
             "fr": "Des sushis sont servis ici",
             "ca": "Aquí es serveix sushi",
             "cs": "Podává se zde sushi"
@@ -431,7 +430,7 @@
           "then": {
             "en": "Coffeebar",
             "nl": "Koffiezaak",
-            "de": "Kaffeebar",
+            "de": "Hier wird Kaffee serviert",
             "es": "Aquí se sirve café",
             "fr": "C'est un café",
             "ca": "Aquí es serveix cafè",
@@ -443,7 +442,7 @@
           "then": {
             "en": "Italian restaurant (which serves more than pasta and pizza)",
             "nl": "Italiaans restaurant (dat meer dan enkel pasta of pizza verkoopt)",
-            "de": "Italienisches Restaurant (das mehr als nur Pasta und Pizza serviert)",
+            "de": "Dies ist ein italienisches Restaurant (das mehr als nur Pasta und Pizza serviert)",
             "es": "Este es un restaurante italiano (que sirve algo más que pasta y pizza)",
             "fr": "C'est un Restaurant Italien (qui sert plus que des pâtes et des pizzas)",
             "ca": "Això és un restaurant italià (que serveix més que pasta i pizza)",
@@ -455,8 +454,8 @@
           "then": {
             "en": "French restaurant",
             "nl": "Frans restaurant",
-            "de": "Französisches Restaurant",
-            "es": "Restaurante francés",
+            "de": "Hier werden französische Gerichte serviert",
+            "es": "Aquí se sirven platos Franceses",
             "fr": "Des plats français sont servis ici",
             "ca": "Aquí es serveixen plats francesos",
             "cs": "Podávají se zde francouzská jídla"
@@ -467,7 +466,7 @@
           "then": {
             "en": "Chinese",
             "nl": "Chinees restaurant",
-            "de": "Chinesisch",
+            "de": "Hier werden chinesische Gerichte serviert",
             "es": "Aquí se sirven platos Chinos",
             "fr": "Des plats chinois sont servis ici",
             "ca": "Aquí es serveixen plats xinesos",
@@ -479,7 +478,7 @@
           "then": {
             "en": "Greek",
             "nl": "Grieks restaurant",
-            "de": "Griechisch",
+            "de": "Hier werden griechische Gerichte serviert",
             "es": "Aquí se sirven platos Griegos",
             "fr": "Des plats grecs sont servis ici",
             "ca": "Aquí es serveixen plats grecs",
@@ -491,7 +490,7 @@
           "then": {
             "en": "Indian",
             "nl": "Indisch restaurant",
-            "de": "Indisch",
+            "de": "Hier werden indische Gerichte serviert",
             "es": "Aquí se sirven platos Indios",
             "fr": "Des plats indiens sont servis ici",
             "ca": "Aquí es serveixen plats indis",
@@ -503,7 +502,7 @@
           "then": {
             "en": "Turkish restaurant",
             "nl": "Turks restaurant",
-            "de": "Türkisches Restaurant",
+            "de": "Hier werden türkische Gerichte serviert",
             "es": "Aquí se sirven platos Turcos",
             "fr": "Des plats turcs sont servis ici",
             "ca": "Aquí es serveixen plats turcs",
@@ -515,7 +514,7 @@
           "then": {
             "en": "Thai restaurant",
             "nl": "Thaïs restaurant",
-            "de": "Thailändisches Restaurant",
+            "de": "Hier werden thailändische Gerichte serviert",
             "fr": "Des plats thaïlandais sont servis ici",
             "ca": "Aquí es serveixen plats tailandesos",
             "cs": "Podávají se zde thajské pokrmy"

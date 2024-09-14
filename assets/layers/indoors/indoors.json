@@ -8,11 +8,6 @@
     "ca": "Interiors",
     "cs": "Vnitřní prostory"
   },
-  "snapName": {
-    "en": "an indoor wall",
-    "nl": "een binnenmuur",
-    "de": "eine Innenwand"
-  },
   "description": {
     "en": "Basic indoor mapping: shows room outlines",
     "de": "Grundlegende Innenraumkartierung: zeigt Umrisse von Räumen",
@@ -480,8 +475,7 @@
         {
           "if": "room=printer",
           "then": {
-            "en": "This is a copy room",
-            "de": "Dies ist ein Kopierraum"
+            "en": "This is a copy room"
           }
         },
         {
@@ -625,5 +619,9 @@
   "allowMove": {
     "enableImproveAccuracy": true,
     "enableRelocation": false
+  },
+  "snapName": {
+    "en": "an indoor wall",
+    "nl": "een binnenmuur"
   }
 }
