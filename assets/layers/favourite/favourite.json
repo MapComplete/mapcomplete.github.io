@@ -12547,7 +12547,8 @@
           ]
         },
         "then": {
-          "en": "{name}"
+          "en": "{name}",
+          "de": "{name}"
         }
       },
       {
@@ -12558,7 +12559,8 @@
           ]
         },
         "then": {
-          "en": "{name}"
+          "en": "{name}",
+          "de": "{name}"
         }
       },
       {
@@ -12569,7 +12571,8 @@
           ]
         },
         "then": {
-          "en": "{name}"
+          "en": "{name}",
+          "de": "{name}"
         }
       },
       {
@@ -39774,7 +39777,8 @@
           "if": "internet_access=terminal;wifi",
           "alsoShowIf": "internet_access=wifi;terminal",
           "then": {
-            "en": "This place offers both wireless internet and internet access via a terminal or computer"
+            "en": "This place offers both wireless internet and internet access via a terminal or computer",
+            "de": "Dieser Ort bietet sowohl drahtloses Internet als auch Internetzugang über ein Terminal oder einen Computer"
           }
         }
       ],
@@ -83320,11 +83324,13 @@
     },
     {
       "question": {
-        "en": "What is the name of this police facility?"
+        "en": "What is the name of this police facility?",
+        "de": "Wie lautet der Name der Polizeieinrichtung?"
       },
       "id": "police_name",
       "render": {
-        "en": "<b>{name}</b>"
+        "en": "<b>{name}</b>",
+        "de": "<b>{name}</b>"
       },
       "freeform": {
         "key": "name",
@@ -83465,7 +83471,8 @@
     },
     {
       "question": {
-        "en": "Does this police office have detention facilities?"
+        "en": "Does this police office have detention facilities?",
+        "de": "Verfügt die Polizeidienststelle über Gewahrsamsräume?"
       },
       "id": "4_z2nrdhy6tyyh4fd",
       "condition": {
@@ -83479,13 +83486,15 @@
         {
           "if": "detention=yes",
           "then": {
-            "en": "This police office has some cells to detain people"
+            "en": "This police office has some cells to detain people",
+            "de": "Die Polizeidienststelle hat Zellen für die Inhaftierung von Personen"
           }
         },
         {
           "if": "detention=no",
           "then": {
-            "en": "This police office does not have cells to detain people"
+            "en": "This police office does not have cells to detain people",
+            "de": "Die Polizeidienststelle hat keine Zellen für die Inhaftierung von Personen"
           }
         }
       ]
@@ -89099,7 +89108,8 @@
         {
           "if": "hackerspace=hacklab",
           "then": {
-            "en": "This is a <b>hacklab</b> which is mostly focussed on basic computer skills, using recycled devices and/or providing internet to the community. This is typically located in autonomous spaces, squats or social facilities"
+            "en": "This is a <b>hacklab</b> which is mostly focussed on basic computer skills, using recycled devices and/or providing internet to the community. This is typically located in autonomous spaces, squats or social facilities",
+            "de": "Dies ist ein <b>Hackerspace/Hack-Lab</b>, das sich hauptsächlich auf grundlegende Computerkenntnisse konzentriert, recycelte Geräte verwendet und/oder der Gemeinschaft Internet bereitstellt. Es befindet sich typischerweise in autonomen Räumen, besetzten Häusern oder sozialen Einrichtungen."
           }
         }
       ],
@@ -90301,7 +90311,8 @@
         {
           "if": "room=printer",
           "then": {
-            "en": "This is a copy room"
+            "en": "This is a copy room",
+            "de": "Dies ist ein Kopierraum"
           }
         },
         {

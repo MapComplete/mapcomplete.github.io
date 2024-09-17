@@ -1,6 +1,6 @@
 {
-  "name": "Disaster response",
-  "short_name": "Disaster response",
+  "name": "Disaster response and emergency services",
+  "short_name": "Disaster response and emergency services",
   "start_url": "disaster_response.html",
   "lang": "en",
   "display": "standalone",
