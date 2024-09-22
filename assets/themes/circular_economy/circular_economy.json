@@ -3,12 +3,14 @@
   "title": {
     "en": "Circular economy",
     "es": "Economía circular",
-    "de": "Kreislaufwirtschaft"
+    "de": "Kreislaufwirtschaft",
+    "cs": "Cirkulární ekonomika"
   },
   "description": {
     "en": "Various items which help people to share, reuse or recycle.",
     "es": "Varios elementos que ayudan a la gente a compartir, reutilizar o reciclar.",
-    "de": "Verschiedene Gegenstände, die den Menschen helfen, zu teilen, wiederzuverwenden oder zu recyceln."
+    "de": "Verschiedene Gegenstände, die den Menschen helfen, zu teilen, wiederzuverwenden oder zu recyceln.",
+    "cs": "Různé předměty, které pomáhají lidem sdílet, znovu používat nebo recyklovat."
   },
   "icon": "./assets/themes/circular_economy/circular.svg",
   "layers": [
@@ -37,7 +39,8 @@
         "=name": {
           "en": "Second hand shops",
           "es": "Tiendas de segunda mano",
-          "de": "Second-Hand-Läden"
+          "de": "Second-Hand-Läden",
+          "cs": "Obchody s použitým zbožím"
         },
         "filter": null,
         "source": {
