@@ -5,6 +5,7 @@
     "de": "Glutenfrei",
     "it": "Senza glutine",
     "es": "Sin gluten",
+    "ca": "Sense gluten",
     "cs": "Bez lepku"
   },
   "description": {
@@ -12,6 +13,7 @@
     "de": "Eine gemeinschaftliche Karte mit glutenfreien Produkten",
     "it": "Una mappa in crowdsourcing per articoli senza glutine",
     "es": "Un menú compartido con productos sin gluten",
+    "ca": "Un mapa col·lectiu amb articles sense gluten",
     "cs": "Mapa s bezlepkovými položkami vytvořená pomocí crowdsourcingu"
   },
   "icon": "./assets/layers/questions/glutenfree.svg",
