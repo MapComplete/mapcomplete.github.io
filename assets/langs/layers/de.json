@@ -5934,6 +5934,13 @@
                                 "arialabel": "Auf openstreetmap.org öffnen"
                             }
                         }
+                    },
+                    "2": {
+                        "then": {
+                            "special": {
+                                "arialabel": "Auf openstreetmap.org öffnen"
+                            }
+                        }
                     }
                 },
                 "render": {
@@ -8743,6 +8750,13 @@
                 "options": {
                     "0": {
                         "question": "Alle Recyclingarten"
+                    }
+                }
+            },
+            "2": {
+                "options": {
+                    "0": {
+                        "question": "Nur öffentliche Recyclingeinrichtungen"
                     },
                     "1": {
                         "question": "Recycling von Batterien"
@@ -8812,7 +8826,7 @@
                     }
                 }
             },
-            "2": {
+            "3": {
                 "options": {
                     "0": {
                         "question": "Nur öffentliche Recyclingeinrichtungen"
@@ -9219,21 +9233,7 @@
         },
         "description": "Ein Geschäft",
         "filter": {
-            "1": {
-                "options": {
-                    "0": {
-                        "question": "Nur Geschäfte, die {search} verkaufen"
-                    }
-                }
-            },
-            "2": {
-                "options": {
-                    "0": {
-                        "question": "Nur Geschäfte mit dem Namen {search} anzeigen"
-                    }
-                }
-            },
-            "3": {
+            "0": {
                 "options": {
                     "0": {
                         "question": "Nur Second-Hand-Geschäfte anzeigen"
@@ -9818,28 +9818,6 @@
                 "options": {
                     "0": {
                         "question": "Öffentlich zugänglich"
-                    }
-                }
-            },
-            "1": {
-                "options": {
-                    "0": {
-                        "question": "Alle Sportarten"
-                    },
-                    "1": {
-                        "question": "Basketballplätze"
-                    },
-                    "2": {
-                        "question": "Fußballplätze"
-                    },
-                    "3": {
-                        "question": "Tischtennisplatten"
-                    },
-                    "4": {
-                        "question": "Tennisplätze"
-                    },
-                    "5": {
-                        "question": "Badmintonfelder"
                     }
                 }
             }
@@ -11697,6 +11675,23 @@
                     }
                 }
             },
+            "picture-license": {
+                "mappings": {
+                    "0": {
+                        "then": "Die von Ihnen aufgenommenen Bilder werden mit <b>CC0</b> lizenziert und der Public Domain hinzugefügt. Das bedeutet, dass jeder Ihre Bilder für jeden Zweck verwenden kann. <span class='subtle'>Dies ist die Standardeinstellung.</span>"
+                    },
+                    "1": {
+                        "then": "Ihre aufgenommenen Bilder werden mit <b>CC0</b> lizenziert und der Public Domain hinzugefügt. Das bedeutet, dass jeder Ihre Bilder für jeden Zweck verwenden kann."
+                    },
+                    "2": {
+                        "then": "Die von Ihnen aufgenommenen Bilder werden mit <b>CC-BY 4.0</b> lizenziert, was bedeutet, dass jeder, der Ihr Bild verwendet, Sie als Urheber nennen muss"
+                    },
+                    "3": {
+                        "then": "Die von Ihnen aufgenommenen Bilder werden mit <b>CC-BY-SA 4.0</b> lizenziert, was bedeutet, dass jeder, der Ihr Bild verwendet, Sie als Urheber nennen muss und dass Ableitungen Ihres Bildes mit der gleichen Lizenz weitergegeben werden müssen."
+                    }
+                },
+                "question": "Unter welcher Lizenz möchten Sie Ihre Bilder veröffentlichen?"
+            },
             "profile-description": {
                 "mappings": {
                     "0": {
@@ -11833,52 +11828,52 @@
                     "12": {
                         "question": "Verkauf von Eiern"
                     },
-                    "13": {
+                    "14": {
                         "question": "Verkauf von Käse"
                     },
-                    "14": {
+                    "15": {
                         "question": "Verkauf von Honig"
                     },
-                    "15": {
+                    "16": {
                         "question": "Verkauf von Kartoffeln"
                     },
-                    "16": {
+                    "17": {
                         "question": "Verkauf von Fleisch"
                     },
-                    "17": {
+                    "18": {
                         "question": "Verkauf von Obst"
                     },
-                    "18": {
-                        "question": "Verkauf von Erdbeeren"
-                    },
                     "19": {
-                        "question": "Verkauf von Blumen"
+                        "question": "Verkauf von Erdbeeren"
                     },
                     "2": {
                         "question": "Verkauf von Süßigkeiten"
                     },
                     "20": {
-                        "question": "Verkauf von Parkscheinen"
+                        "question": "Verkauf von Blumen"
                     },
                     "21": {
-                        "question": "Verkauf von Souvenirmünzen"
+                        "question": "Verkauf von Parkscheinen"
                     },
                     "22": {
-                        "question": "Verkauf von Fahrscheinen"
+                        "question": "Verkauf von Souvenirmünzen"
                     },
                     "23": {
-                        "question": "Verkauf von Fahrradlampen"
+                        "question": "Verkauf von Fahrscheinen"
                     },
                     "24": {
-                        "question": "Verkauf von Fahrradhandschuhen"
+                        "question": "Verkauf von Fahrradlampen"
                     },
                     "25": {
-                        "question": "Verkauf von Fahrrad-Reparatursets"
+                        "question": "Verkauf von Fahrradhandschuhen"
                     },
                     "26": {
-                        "question": "Verkauf von Fahrradpumpen"
+                        "question": "Verkauf von Fahrrad-Reparatursets"
                     },
                     "27": {
+                        "question": "Verkauf von Fahrradpumpen"
+                    },
+                    "28": {
                         "question": "Verkauf von Fahrradschlössern"
                     },
                     "3": {
@@ -12003,52 +11998,52 @@
                     "11": {
                         "then": "Eier werden verkauft"
                     },
-                    "12": {
+                    "13": {
                         "then": "Käse wird verkauft"
                     },
-                    "13": {
+                    "14": {
                         "then": "Honig wird verkauft"
                     },
-                    "14": {
+                    "15": {
                         "then": "Kartoffeln werden verkauft"
                     },
-                    "15": {
+                    "16": {
                         "then": "Fleisch wird verkauft"
                     },
-                    "16": {
+                    "17": {
                         "then": "Obst wird verkauft"
                     },
-                    "17": {
+                    "18": {
                         "then": "Erdbeeren werden verkauft"
                     },
-                    "18": {
-                        "then": "Blumen werden verkauft"
-                    },
                     "19": {
-                        "then": "Parkscheine werden verkauft"
+                        "then": "Blumen werden verkauft"
                     },
                     "2": {
                         "then": "Lebensmittel werden verkauft"
                     },
                     "20": {
-                        "then": "Souvenirmünzen werden verkauft"
+                        "then": "Parkscheine werden verkauft"
                     },
                     "21": {
-                        "then": "Fahrscheine werden verkauft"
+                        "then": "Souvenirmünzen werden verkauft"
                     },
                     "22": {
-                        "then": "Fahrradlampen werden verkauft"
+                        "then": "Fahrscheine werden verkauft"
                     },
                     "23": {
-                        "then": "Fahrradhandschuhe werden verkauft"
+                        "then": "Fahrradlampen werden verkauft"
                     },
                     "24": {
-                        "then": "Fahrrad-Reparaturset werden verkauft"
+                        "then": "Fahrradhandschuhe werden verkauft"
                     },
                     "25": {
-                        "then": "Fahrradpumpen werden verkauft"
+                        "then": "Fahrrad-Reparaturset werden verkauft"
                     },
                     "26": {
+                        "then": "Fahrradpumpen werden verkauft"
+                    },
+                    "27": {
                         "then": "Fahrradschlösser werden verkauft"
                     },
                     "3": {

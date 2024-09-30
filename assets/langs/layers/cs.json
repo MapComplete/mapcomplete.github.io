@@ -6820,6 +6820,13 @@
                 "options": {
                     "0": {
                         "question": "Všechny typy recyklace"
+                    }
+                }
+            },
+            "2": {
+                "options": {
+                    "0": {
+                        "question": "Pouze veřejný přístup"
                     },
                     "1": {
                         "question": "Recyklace baterií"
@@ -6886,7 +6893,7 @@
                     }
                 }
             },
-            "2": {
+            "3": {
                 "options": {
                     "0": {
                         "question": "Pouze veřejný přístup"
@@ -7221,21 +7228,7 @@
         },
         "description": "Obchod",
         "filter": {
-            "1": {
-                "options": {
-                    "0": {
-                        "question": "Zobrazit pouze obchody prodávající {search}"
-                    }
-                }
-            },
-            "2": {
-                "options": {
-                    "0": {
-                        "question": "Zobrazit pouze obchody s názvem {search}"
-                    }
-                }
-            },
-            "3": {
+            "0": {
                 "options": {
                     "0": {
                         "question": "Zobrazit pouze obchody prodávající použité zboží"
@@ -7573,28 +7566,6 @@
                 "options": {
                     "0": {
                         "question": "Veřejně přístupné"
-                    }
-                }
-            },
-            "1": {
-                "options": {
-                    "0": {
-                        "question": "Všechny sporty"
-                    },
-                    "1": {
-                        "question": "Basketbalová hřiště"
-                    },
-                    "2": {
-                        "question": "Fotbalová hřiště"
-                    },
-                    "3": {
-                        "question": "Ping-pongové stoly"
-                    },
-                    "4": {
-                        "question": "Tenisové kurty"
-                    },
-                    "5": {
-                        "question": "Badmintonová hřiště"
                     }
                 }
             }
@@ -9010,6 +8981,23 @@
                     }
                 }
             },
+            "picture-license": {
+                "mappings": {
+                    "0": {
+                        "then": "Pořízené fotografie budou licencovány pod <b>CC0</b> a přidány do veřejné domény. To znamená, že kdokoli může vaše snímky použít k jakémukoli účelu. <span class='subtle'>Toto je výchozí volba.</span>"
+                    },
+                    "1": {
+                        "then": "Pořízené fotografie budou licencovány pod <b>CC0</b> a přidány do veřejné domény. To znamená, že kdokoli může vaše snímky použít k jakémukoli účelu."
+                    },
+                    "2": {
+                        "then": "Pořízené fotografie budou licencovány pod <b>CC-BY 4.0</b>, což vyžaduje, aby vás uvedl každý, kdo použije vaší fotku"
+                    },
+                    "3": {
+                        "then": "Pořízené fotografie budou licencovány pod <b>CC-BY-SA 4.0</b>, což vyžaduje, aby vás uvedl každý, kdo použije vaší fotku a že odvozené fotky musí být dále sdíleny se stejnou licencí."
+                    }
+                },
+                "question": "Pod jakou licencí chcete své fotografie zveřejnit?"
+            },
             "profile-description": {
                 "mappings": {
                     "0": {
@@ -9128,52 +9116,52 @@
                     "12": {
                         "question": "Prodej vajec"
                     },
-                    "13": {
+                    "14": {
                         "question": "Prodej sýrů"
                     },
-                    "14": {
+                    "15": {
                         "question": "Prodej medu"
                     },
-                    "15": {
+                    "16": {
                         "question": "Prodej brambor"
                     },
-                    "16": {
+                    "17": {
                         "question": "Prodej masa"
                     },
-                    "17": {
+                    "18": {
                         "question": "Prodej ovoce"
                     },
-                    "18": {
-                        "question": "Prodej jahod"
-                    },
                     "19": {
-                        "question": "Prodej květin"
+                        "question": "Prodej jahod"
                     },
                     "2": {
                         "question": "Prodej sladkostí"
                     },
                     "20": {
-                        "question": "Prodej parkovacích lístků"
+                        "question": "Prodej květin"
                     },
                     "21": {
-                        "question": "Prodej pamětních mincí/lisované mince"
+                        "question": "Prodej parkovacích lístků"
                     },
                     "22": {
-                        "question": "Prodej jízdenek MHD"
+                        "question": "Prodej pamětních mincí/lisované mince"
                     },
                     "23": {
-                        "question": "Prodej světel na kolo"
+                        "question": "Prodej jízdenek MHD"
                     },
                     "24": {
-                        "question": "Prodej rukavic"
+                        "question": "Prodej světel na kolo"
                     },
                     "25": {
-                        "question": "Prodej sad na opravu jízdních kol"
+                        "question": "Prodej rukavic"
                     },
                     "26": {
-                        "question": "Prodej pump na kolo"
+                        "question": "Prodej sad na opravu jízdních kol"
                     },
                     "27": {
+                        "question": "Prodej pump na kolo"
+                    },
+                    "28": {
                         "question": "Prodej zámků na kola"
                     },
                     "3": {
@@ -9292,52 +9280,52 @@
                     "11": {
                         "then": "Prodává vejce"
                     },
-                    "12": {
+                    "13": {
                         "then": "Prodává sýr"
                     },
-                    "13": {
+                    "14": {
                         "then": "Prodává med"
                     },
-                    "14": {
+                    "15": {
                         "then": "Prodává brambory"
                     },
-                    "15": {
+                    "16": {
                         "then": "Prodává maso"
                     },
-                    "16": {
+                    "17": {
                         "then": "Prodává ovoce"
                     },
-                    "17": {
+                    "18": {
                         "then": "Prodává jahody"
                     },
-                    "18": {
-                        "then": "Prodává květiny"
-                    },
                     "19": {
-                        "then": "Prodává parkovací lístky"
+                        "then": "Prodává květiny"
                     },
                     "2": {
                         "then": "Prodává jídlo"
                     },
                     "20": {
-                        "then": "Prodává pamětní mince/lisované"
+                        "then": "Prodává parkovací lístky"
                     },
                     "21": {
-                        "then": "Prodává lístky na MHD"
+                        "then": "Prodává pamětní mince/lisované"
                     },
                     "22": {
-                        "then": "Prodává světla na kolo"
+                        "then": "Prodává lístky na MHD"
                     },
                     "23": {
-                        "then": "Prodává rukavice"
+                        "then": "Prodává světla na kolo"
                     },
                     "24": {
-                        "then": "Prodává sady na opravu jízdních kol"
+                        "then": "Prodává rukavice"
                     },
                     "25": {
-                        "then": "Prodává pumpy na kolo"
+                        "then": "Prodává sady na opravu jízdních kol"
                     },
                     "26": {
+                        "then": "Prodává pumpy na kolo"
+                    },
+                    "27": {
                         "then": "Prodává zámky na kolo"
                     },
                     "3": {

@@ -1181,6 +1181,78 @@
             "render": "Bench"
         }
     },
+    "bicycle_counter": {
+        "description": "Layer showing monitoring stations for bicycle traffic",
+        "name": "Bicycle counters",
+        "presets": {
+            "0": {
+                "title": "a bicycle counter"
+            }
+        },
+        "tagRenderings": {
+            "clock": {
+                "mappings": {
+                    "0": {
+                        "then": "This counter has a clock"
+                    },
+                    "1": {
+                        "then": "This counter has no clock"
+                    }
+                },
+                "question": "Does this bicycle counter have a clock?"
+            },
+            "display": {
+                "mappings": {
+                    "0": {
+                        "then": "This counter has a digital display"
+                    },
+                    "1": {
+                        "then": "This counter has an analog display"
+                    },
+                    "2": {
+                        "then": "This counter has no display"
+                    }
+                },
+                "question": "Does this bicycle counter have a display showing the number of passing bicycles?"
+            },
+            "name": {
+                "freeform": {
+                    "placeholder": "Name of the counted location"
+                },
+                "question": "What is the name of the counted location?",
+                "render": "Name of the counted location: {name}"
+            },
+            "ref": {
+                "freeform": {
+                    "placeholder": "Reference number of the counter"
+                },
+                "mappings": {
+                    "0": {
+                        "then": "This counter has no reference number"
+                    }
+                },
+                "question": "What is the reference number of this counter?",
+                "render": "Reference number of the counter: {ref}"
+            },
+            "start_date": {
+                "freeform": {
+                    "placeholder": "Start date of the counter"
+                },
+                "question": "When did this counter start counting?",
+                "render": "This counter started counting on {start_date}"
+            },
+            "website": {
+                "freeform": {
+                    "placeholder": "Website of the counter"
+                },
+                "question": "Is there a website for this bicycle counter?",
+                "render": "Website of the counter: <a href='{website}'>{website}</a>"
+            }
+        },
+        "title": {
+            "render": "Bicycle counter"
+        }
+    },
     "bicycle_library": {
         "description": "A facility where bicycles can be lent for longer period of times",
         "name": "Bicycle library",
@@ -5189,6 +5261,18 @@
                     "14": {
                         "then": "Thai restaurant"
                     },
+                    "15": {
+                        "then": "Mexican dishes are served here"
+                    },
+                    "16": {
+                        "then": "Japanese dishes are served here"
+                    },
+                    "17": {
+                        "then": "Chicken based dishes are served here"
+                    },
+                    "18": {
+                        "then": "Seafood dishes are served here"
+                    },
                     "2": {
                         "then": "Serves mainly pasta"
                     },
@@ -5932,6 +6016,13 @@
             "osmlink": {
                 "mappings": {
                     "1": {
+                        "then": {
+                            "special": {
+                                "arialabel": "Open on openstreetmap.org"
+                            }
+                        }
+                    },
+                    "2": {
                         "then": {
                             "special": {
                                 "arialabel": "Open on openstreetmap.org"
@@ -8746,6 +8837,13 @@
                 "options": {
                     "0": {
                         "question": "All recycling types"
+                    }
+                }
+            },
+            "2": {
+                "options": {
+                    "0": {
+                        "question": "Only public access"
                     },
                     "1": {
                         "question": "Recycling of batteries"
@@ -8815,7 +8913,7 @@
                     }
                 }
             },
-            "2": {
+            "3": {
                 "options": {
                     "0": {
                         "question": "Only public access"
@@ -9175,6 +9273,14 @@
             "render": "School <i>{name}</i>"
         }
     },
+    "search": {
+        "description": "Priviliged layer showing the search results",
+        "tagRenderings": {
+            "intro": {
+                "render": "Search result"
+            }
+        }
+    },
     "selected_element": {
         "description": "Highlights the currently selected element. Override this layer to have different colors"
     },
@@ -9222,21 +9328,7 @@
         },
         "description": "A shop",
         "filter": {
-            "1": {
-                "options": {
-                    "0": {
-                        "question": "Only show shops selling {search}"
-                    }
-                }
-            },
-            "2": {
-                "options": {
-                    "0": {
-                        "question": "Only show shops with name {search}"
-                    }
-                }
-            },
-            "3": {
+            "0": {
                 "options": {
                     "0": {
                         "question": "Only show shops selling second-hand items"
@@ -9821,28 +9913,6 @@
                 "options": {
                     "0": {
                         "question": "Publicly accessible"
-                    }
-                }
-            },
-            "1": {
-                "options": {
-                    "0": {
-                        "question": "All sports"
-                    },
-                    "1": {
-                        "question": "Basketball fields"
-                    },
-                    "2": {
-                        "question": "Soccer fields"
-                    },
-                    "3": {
-                        "question": "Ping-pong tables"
-                    },
-                    "4": {
-                        "question": "Tennis fields"
-                    },
-                    "5": {
-                        "question": "Badminton fields"
                     }
                 }
             }
@@ -11700,6 +11770,23 @@
                     }
                 }
             },
+            "picture-license": {
+                "mappings": {
+                    "0": {
+                        "then": "Pictures you take will be licensed with <b>CC0</b> and added to the public domain. This means that everyone can use your pictures for any purpose. <span class='subtle'>This is the default choice.</span>"
+                    },
+                    "1": {
+                        "then": "Pictures you take will be licensed with <b>CC0</b> and added to the public domain. This means that everyone can use your pictures for any purpose."
+                    },
+                    "2": {
+                        "then": "Pictures you take will be licensed with <b>CC-BY 4.0</b> which requires everyone using your picture that they have to attribute you"
+                    },
+                    "3": {
+                        "then": "Pictures you take will be licensed with <b>CC-BY-SA 4.0</b> which means that everyone using your picture must attribute you and that derivatives of your picture must be reshared with the same license."
+                    }
+                },
+                "question": "Under what license do you want to publish your pictures?"
+            },
             "profile-description": {
                 "mappings": {
                     "0": {
@@ -11764,6 +11851,48 @@
                 },
                 "question": "Show the raw OpenStreetMap-tags?",
                 "questionHint": "<b>Tags</b> are attributes that every element has. This is the technical data that is stored in the database. You don't need this information to edit with MapComplete, but advanced users might want to use this as reference."
+            },
+            "sync-visited-locations": {
+                "mappings": {
+                    "0": {
+                        "then": "Save the locations you search for and inspect and sync them via openstreetmap.org. OpenStreetMap and all apps you use can see this history"
+                    },
+                    "1": {
+                        "then": "Save the locations you search for and inspect on my device"
+                    },
+                    "2": {
+                        "then": "Don't save the locations you search for and inspect "
+                    }
+                },
+                "question": "Should the locations you search for and inspect be remembered?",
+                "questionHint": "Those locations will be offered in the search menu"
+            },
+            "sync-visited-themes": {
+                "mappings": {
+                    "0": {
+                        "then": "Save the visited thematic maps and sync them via openstreetmap.org. OpenStreetMap and all apps you use can see this history"
+                    },
+                    "1": {
+                        "then": "Save the visited thematic maps on my device"
+                    },
+                    "2": {
+                        "then": "Don't save visited thematic maps"
+                    }
+                },
+                "question": "Should the thematic maps you visit be saved?",
+                "questionHint": "If you visit a map about a certain topic, MapComplete can remember this and offer this as suggestion."
+            },
+            "title-editing": {
+                "render": "<h3>Editing settings</h3>"
+            },
+            "title-id": {
+                "render": "<h3>Mangrove ID management</h3>"
+            },
+            "title-map": {
+                "render": "<h3>Configure map</h3>"
+            },
+            "title-privacy-legal": {
+                "render": "<h3>Privacy and legal</h3>"
             },
             "translation-completeness": {
                 "mappings": {
@@ -11837,51 +11966,54 @@
                         "question": "Sale of eggs"
                     },
                     "13": {
-                        "question": "Sale of cheese"
+                        "question": "Sale of ice cream"
                     },
                     "14": {
-                        "question": "Sale of honey"
+                        "question": "Sale of cheese"
                     },
                     "15": {
-                        "question": "Sale of potatoes"
+                        "question": "Sale of honey"
                     },
                     "16": {
-                        "question": "Sale of meat"
+                        "question": "Sale of potatoes"
                     },
                     "17": {
-                        "question": "Sale of fruit"
+                        "question": "Sale of meat"
                     },
                     "18": {
-                        "question": "Sale of strawberries"
+                        "question": "Sale of fruit"
                     },
                     "19": {
-                        "question": "Sale of flowers"
+                        "question": "Sale of strawberries"
                     },
                     "2": {
                         "question": "Sale of sweets"
                     },
                     "20": {
-                        "question": "Sale of parking tickets"
+                        "question": "Sale of flowers"
                     },
                     "21": {
-                        "question": "Sale of pressed pennies"
+                        "question": "Sale of parking tickets"
                     },
                     "22": {
-                        "question": "Sale of public transport tickets"
+                        "question": "Sale of pressed pennies"
                     },
                     "23": {
-                        "question": "Sale of bicycle lights"
+                        "question": "Sale of public transport tickets"
                     },
                     "24": {
-                        "question": "Sale of gloves"
+                        "question": "Sale of bicycle lights"
                     },
                     "25": {
-                        "question": "Sale of bicycle repair kits"
+                        "question": "Sale of gloves"
                     },
                     "26": {
-                        "question": "Sale of bicycle pumps"
+                        "question": "Sale of bicycle repair kits"
                     },
                     "27": {
+                        "question": "Sale of bicycle pumps"
+                    },
+                    "28": {
                         "question": "Sale of bicycle locks"
                     },
                     "3": {
@@ -12007,51 +12139,54 @@
                         "then": "Eggs are sold"
                     },
                     "12": {
-                        "then": "Cheese is sold"
+                        "then": "Ice cream is sold"
                     },
                     "13": {
-                        "then": "Honey is sold"
+                        "then": "Cheese is sold"
                     },
                     "14": {
-                        "then": "Potatoes are sold"
+                        "then": "Honey is sold"
                     },
                     "15": {
-                        "then": "Meat is sold"
+                        "then": "Potatoes are sold"
                     },
                     "16": {
-                        "then": "Fruit is sold"
+                        "then": "Meat is sold"
                     },
                     "17": {
-                        "then": "Strawberries are sold"
+                        "then": "Fruit is sold"
                     },
                     "18": {
-                        "then": "Flowers are sold"
+                        "then": "Strawberries are sold"
                     },
                     "19": {
-                        "then": "Parking tickets are sold"
+                        "then": "Flowers are sold"
                     },
                     "2": {
                         "then": "Food is sold"
                     },
                     "20": {
-                        "then": "Pressed pennies are sold"
+                        "then": "Parking tickets are sold"
                     },
                     "21": {
-                        "then": "Public transport tickets are sold"
+                        "then": "Pressed pennies are sold"
                     },
                     "22": {
-                        "then": "Bicycle lights are sold"
+                        "then": "Public transport tickets are sold"
                     },
                     "23": {
-                        "then": "Gloves are sold"
+                        "then": "Bicycle lights are sold"
                     },
                     "24": {
-                        "then": "Bicycle repair kits are sold"
+                        "then": "Gloves are sold"
                     },
                     "25": {
-                        "then": "Bicycle pumps are sold"
+                        "then": "Bicycle repair kits are sold"
                     },
                     "26": {
+                        "then": "Bicycle pumps are sold"
+                    },
+                    "27": {
                         "then": "Bicycle locks are sold"
                     },
                     "3": {
