@@ -16195,14 +16195,16 @@
           "if": "advertising=tilework",
           "then": {
             "en": "This is tilework - the advertisement is painted on tiles",
-            "de": "Dies ist eine Kachelarbeit - die Werbung ist auf Fliesen gemalt"
+            "de": "Dies ist eine Kachelarbeit - die Werbung ist auf Fliesen gemalt",
+            "cs": "Jedná se o dlaždice - reklama je namalovaná na dlaždicích"
           }
         },
         {
           "if": "advertising=relief",
           "then": {
             "en": "This is a relief",
-            "de": "Dies ist ein Relief"
+            "de": "Dies ist ein Relief",
+            "cs": "Toto je reliéf"
           }
         }
       ],
@@ -16827,7 +16829,8 @@
       "question": {
         "en": "Is this sign for a business that no longer exists or no longer being maintained?",
         "de": "Ist dieses Schild für ein Geschäft, das nicht mehr existiert oder nicht mehr gepflegt wird?",
-        "es": "¿Es este rótulo de un negocio que ya no existe o que ya no se mantiene?"
+        "es": "¿Es este rótulo de un negocio que ya no existe o que ya no se mantiene?",
+        "cs": "Je tato značka určena pro již neexistující nebo neudržovaný podnik?"
       },
       "mappings": [
         {
@@ -16835,14 +16838,16 @@
           "alsoShowIf": "historic=yes",
           "then": {
             "en": "This is a historic advertisement sign (an advertisement for a business that no longer exists or a very old sign with heritage value)",
-            "de": "Es handelt sich um ein historisches Werbeschild (eine Werbung für ein Unternehmen, das nicht mehr existiert, oder ein sehr altes Schild mit historischem Wert)"
+            "de": "Es handelt sich um ein historisches Werbeschild (eine Werbung für ein Unternehmen, das nicht mehr existiert, oder ein sehr altes Schild mit historischem Wert)",
+            "cs": "Jedná se o historický reklamní nápis (reklama na již neexistující podnik nebo velmi starý nápis s památkovou hodnotou)"
           }
         },
         {
           "if": "historic=",
           "then": {
             "en": "This advertisement sign has no historic value (the business still exists and has no heritage value)",
-            "de": "Dieses Werbeschild hat keinen historischen Wert (das Unternehmen existiert noch und hat keinen denkmalpflegerischen Wert)"
+            "de": "Dieses Werbeschild hat keinen historischen Wert (das Unternehmen existiert noch und hat keinen denkmalpflegerischen Wert)",
+            "cs": "Tento reklamní nápis nemá žádnou historickou hodnotu (podnik stále existuje a nemá žádnou památkovou hodnotu)"
           }
         }
       ],
@@ -24147,7 +24152,7 @@
       "question": {
         "en": "What is the type of this artwork?",
         "nl": "Wat voor soort kunstwerk is dit?",
-        "fr": "Quel est le type de cette œuvre d'art ?",
+        "fr": "Quel est le type de cette œuvre d'art ?",
         "de": "Um welche Art Kunstwerk handelt es sich?",
         "it": "Che tipo di opera d’arte è questo?",
         "ru": "К какому типу относится эта работа?",
@@ -24910,7 +24915,8 @@
       "id": "doubles_as_memorial",
       "question": {
         "en": "Does this artwork serve as a memorial?",
-        "de": "Dient dieses Kunstwerk als Mahnmal?"
+        "de": "Dient dieses Kunstwerk als Mahnmal?",
+        "fr": "Cet œuvre a-t-elle un rôle de mémorial ?"
       },
       "mappings": [
         {
@@ -24918,7 +24924,8 @@
           "then": {
             "en": "This artwork also serves as a memorial",
             "de": "Dieses Kunstwerk dient auch als Mahnmal",
-            "ca": "Aquesta obra d'art també serveix com a memorial"
+            "ca": "Aquesta obra d'art també serveix com a memorial",
+            "fr": "Cette œuvre est un mémorial"
           }
         },
         {
@@ -24926,7 +24933,8 @@
           "alsoShowIf": "historic!=memorial",
           "then": {
             "en": "This artwork does not serve as a bench",
-            "de": "Dieses Kunstwerk dient nicht als Sitzbank"
+            "de": "Dieses Kunstwerk dient nicht als Sitzbank",
+            "fr": "Cette œuvre ne sert pas de banc"
           }
         }
       ],
@@ -25114,6 +25122,7 @@
             "en": "This is a gravestone; the person is buried here",
             "de": "Dies ist ein Grabstein; die Person ist hier begraben",
             "sl": "To je nagrobni kamen; oseba je pokopana tu",
+            "fr": "C'est une pierre tombale, une personne est enterrée ici",
             "_context": "layers:memorial.tagRenderings.memorial-type.mappings.14.then"
           },
           "addExtraTags": [
@@ -94608,7 +94617,8 @@
           "if": "aerialway=cable_car",
           "then": {
             "en": "This is a cable car where the car goes up and down again on the same cable.",
-            "de": "Es handelt sich um eine Seilbahn, bei der die Kabine auf demselben Seil nach oben und wieder nach unten fährt."
+            "de": "Es handelt sich um eine Seilbahn, bei der die Kabine auf demselben Seil nach oben und wieder nach unten fährt.",
+            "cs": "Jedná se o lanovku, kde vagon jezdí nahoru a dolů po stejném laně."
           },
           "icon": "./assets/layers/aerialway/cable_car.svg"
         },
@@ -94616,7 +94626,8 @@
           "if": "aerialway=gondola",
           "then": {
             "en": "This is a gondola where the cars go around in continuous circles",
-            "de": "Es handelt sich um eine Seilbahn, bei der die Kabinen in ständigen Kreisen fahren"
+            "de": "Es handelt sich um eine Seilbahn, bei der die Kabinen in ständigen Kreisen fahren",
+            "cs": "Jedná se o gondolu, kde vozy jezdí v nepřetržitých kruzích"
           },
           "icon": "./assets/layers/aerialway/gondola_lift.svg"
         },
@@ -94624,7 +94635,8 @@
           "if": "aerialway=chair_lift",
           "then": {
             "en": "An open chairlift with seats to sit on and open to the outside air.",
-            "de": "Ein offener Sessellift mit Sitzgelegenheiten und Zugang zur Außenluft."
+            "de": "Ein offener Sessellift mit Sitzgelegenheiten und Zugang zur Außenluft.",
+            "cs": "Otevřená lanovka se sedačkami k sezení na čerstvém vzduchu."
           },
           "icon": "./assets/layers/aerialway/chair_lift.svg"
         },
@@ -94632,7 +94644,8 @@
           "if": "aerialway=mixed",
           "then": {
             "en": "An aerialway which has both chairs and gondolas in the same continuous track",
-            "de": "Eine Seilbahn, die sowohl offene Sessel als auch geschlossene Gondeln auf einer durchgehenden Bahn hat"
+            "de": "Eine Seilbahn, die sowohl offene Sessel als auch geschlossene Gondeln auf einer durchgehenden Bahn hat",
+            "cs": "Lanová dráha, která má sedačky i gondoly na stejné souvislé dráze"
           }
         },
         {
@@ -94640,7 +94653,8 @@
           "then": {
             "en": "A drag lift",
             "de": "Ein Schlepplift",
-            "pl": "Wyciąg orczykowy"
+            "pl": "Wyciąg orczykowy",
+            "cs": "Vlek"
           },
           "hideInAnswer": true
         },
@@ -94648,14 +94662,16 @@
           "if": "aerialway=t-bar",
           "then": {
             "en": "A drag lift with T-shaped carriers for two passengers at a time",
-            "de": "Ein Schlepplift mit T-förmigen Trägern für jeweils zwei Passagiere"
+            "de": "Ein Schlepplift mit T-förmigen Trägern für jeweils zwei Passagiere",
+            "cs": "Vlek s nosiči ve tvaru T pro dva cestující najednou"
           }
         },
         {
           "if": "aerialway=j-bar",
           "then": {
             "en": "A drag lift with L-shaped bars for a single passenger at a time",
-            "de": "Ein Schlepplift mit L-förmigen Trägern für jeweils einen Passagier"
+            "de": "Ein Schlepplift mit L-förmigen Trägern für jeweils einen Passagier",
+            "cs": "Vlek s tyčemi ve tvaru písmene L pro jednoho cestujícího"
           }
         },
         {
@@ -94684,7 +94700,8 @@
           "then": {
             "en": "A zip line. (A touristical attraction where adventurous people go down at high speeds) ",
             "de": "Eine Seilrutsche. (Eine Touristenattraktion, bei der abenteuerlustige Menschen mit hoher Geschwindigkeit hinunterfahren) ",
-            "pl": "Tyrolka. (Atrakcja turystyczna, która pozwala żądnym przygód zjechać z dużą szybkością) "
+            "pl": "Tyrolka. (Atrakcja turystyczna, która pozwala żądnym przygód zjechać z dużą szybkością) ",
+            "cs": "Lano na visuté dráze. (Turistická atrakce, kde se odvážlivci spouštějí vysokou rychlostí) "
           }
         }
       ],
@@ -94752,12 +94769,14 @@
         "de": "Wie viele Leute passen in eine Kabine?",
         "pl": "Ile osób może pomieścić jeden wagon?",
         "es": "¿Cuál es la capacidad de la cabina?",
-        "ca": "Quantes persones caben a la cabina?"
+        "ca": "Quantes persones caben a la cabina?",
+        "cs": "Kolik osob se vejde do jednoho vozu?"
       },
       "render": {
         "en": "{aerialway:occupancy} people fit a single carriage",
         "de": "{aerialway:occupancy} Leute passen in eine Kabine",
-        "pl": "{aerialway:occupancy} osób mieści się w jednym wagonie"
+        "pl": "{aerialway:occupancy} osób mieści się w jednym wagonie",
+        "cs": "{aerialway:occupancy} osob se vejde do jednoho vozu"
       },
       "condition": {
         "and": [
@@ -94855,7 +94874,8 @@
       "id": "oneway",
       "question": {
         "en": "In what direction can this aerialway be taken?",
-        "de": "In welche Richtung kann diese Seilbahn genutzt werden?"
+        "de": "In welche Richtung kann diese Seilbahn genutzt werden?",
+        "cs": "Jakým směrem tato dráha může vést?"
       },
       "mappings": [
         {
@@ -94863,14 +94883,16 @@
           "alsoShowIf": "oneway=",
           "then": {
             "en": "This aerialway can only be taken to the top",
-            "de": "Diese Seilbahn kann nur nach oben gefahren werden"
+            "de": "Diese Seilbahn kann nur nach oben gefahren werden",
+            "cs": "Touto lanovkou lze vyjet pouze na vrchol"
           }
         },
         {
           "if": "oneway=no",
           "then": {
             "en": "This aerialway can be taken in both directions",
-            "de": "Diese Seilbahn kann in beide Richtungen befahren werden"
+            "de": "Diese Seilbahn kann in beide Richtungen befahren werden",
+            "cs": "Tuto dráhu lze využít v obou směrech"
           }
         }
       ],
@@ -94887,7 +94909,8 @@
       "render": {
         "en": "This aerialway is {_length:km} kilometer long",
         "de": "Die Seilbahn hat eine Länge von {_length:km} km",
-        "fr": "Cette voie aérienne fait {_length:km} kilomètre de long"
+        "fr": "Cette voie aérienne fait {_length:km} kilomètre de long",
+        "cs": "Tato dráha je dlouhá {_length:km} kilometr"
       },
       "condition": {
         "and": [
