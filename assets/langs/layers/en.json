@@ -5454,6 +5454,9 @@
                     },
                     "2": {
                         "then": "No vegan snacks are available"
+                    },
+                    "3": {
+                        "then": "No vegan snacks are available"
                     }
                 },
                 "question": "Does this fries shop have vegan snacks?"
@@ -5467,6 +5470,9 @@
                         "then": "Only a small selection of snacks are vegetarian"
                     },
                     "2": {
+                        "then": "No vegetarian snacks are available"
+                    },
+                    "3": {
                         "then": "No vegetarian snacks are available"
                     }
                 },

@@ -4610,6 +4610,9 @@
                     },
                     "2": {
                         "then": "Veganské občerstvení není k dispozici"
+                    },
+                    "3": {
+                        "then": "Veganské občerstvení není k dispozici"
                     }
                 },
                 "question": "Má tento obchod s hranolky veganské občerstvení?"
@@ -4623,6 +4626,9 @@
                         "then": "Pouze malý výběr občerstvení je vegetariánský"
                     },
                     "2": {
+                        "then": "Vegetariánské občerstvení není k dispozici"
+                    },
+                    "3": {
                         "then": "Vegetariánské občerstvení není k dispozici"
                     }
                 },
