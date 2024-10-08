@@ -75,7 +75,8 @@
           "pt": "Café de bicicleta <i>{name}</i>",
           "da": "Cykelcafé <i>{name}</i>",
           "cs": "Cyklokavárna <i>{name}</i>",
-          "ca": "Cafè ciclista <i>{name}</i>"
+          "ca": "Cafè ciclista <i>{name}</i>",
+          "es": "Cafetería para ciclistas <i>{name}</i>"
         }
       },
       {
@@ -114,7 +115,8 @@
           "pt": "Café de bicicleta",
           "ca": "Cafeteria per a bicicletes",
           "da": "Cykelcafé",
-          "cs": "Cyklokavárna"
+          "cs": "Cyklokavárna",
+          "es": "Cafetería para ciclistas"
         }
       },
       {
@@ -154,7 +156,8 @@
           "pt": "Café de bicicleta <i>{name}</i>",
           "da": "Cykelcafé <i>{name}</i>",
           "cs": "Cyklokavárna <i>{name}</i>",
-          "ca": "Cafè ciclista <i>{name}</i>"
+          "ca": "Cafè ciclista <i>{name}</i>",
+          "es": "Cafetería para ciclistas <i>{name}</i>"
         }
       },
       {
@@ -193,7 +196,8 @@
           "pt": "Café de bicicleta",
           "ca": "Cafeteria per a bicicletes",
           "da": "Cykelcafé",
-          "cs": "Cyklokavárna"
+          "cs": "Cyklokavárna",
+          "es": "Cafetería para ciclistas"
         }
       },
       {
@@ -1640,7 +1644,8 @@
           "es": "{name}",
           "zh_Hans": "{name}",
           "ca": "{name}",
-          "pl": "{name}"
+          "pl": "{name}",
+          "cs": "{name}"
         }
       },
       {
@@ -1653,7 +1658,8 @@
           "pt": "Abrigo para animais",
           "ca": "Refugi d'animals",
           "pl": "Schronisko dla zwierząt",
-          "fr": "Un refuge animalier"
+          "fr": "Un refuge animalier",
+          "cs": "Útulek pro zvířata"
         }
       },
       {
@@ -1669,7 +1675,8 @@
           "es": "{name}",
           "zh_Hans": "{name}",
           "ca": "{name}",
-          "pl": "{name}"
+          "pl": "{name}",
+          "cs": "{name}"
         }
       },
       {
@@ -1682,7 +1689,8 @@
           "pt": "Abrigo para animais",
           "ca": "Refugi d'animals",
           "pl": "Schronisko dla zwierząt",
-          "fr": "Un refuge animalier"
+          "fr": "Un refuge animalier",
+          "cs": "Útulek pro zvířata"
         }
       },
       {
@@ -2597,14 +2605,18 @@
         "if": "emergency=assembly_point",
         "then": {
           "en": "Assembly point during emergencies",
-          "de": "Sammelplatz bei Notfällen"
+          "de": "Sammelplatz bei Notfällen",
+          "cs": "Shromaždiště při mimořádných událostech",
+          "es": "Punto de encuentro durante emergencias"
         }
       },
       {
         "if": "emergency=assembly_point",
         "then": {
           "en": "Assembly point during emergencies",
-          "de": "Sammelplatz bei Notfällen"
+          "de": "Sammelplatz bei Notfällen",
+          "cs": "Shromaždiště při mimořádných událostech",
+          "es": "Punto de encuentro durante emergencias"
         }
       },
       {
@@ -6386,7 +6398,8 @@
         },
         "then": {
           "en": "Aerialway {name}",
-          "de": "Seilbahn {name}"
+          "de": "Seilbahn {name}",
+          "cs": "Dráha {name}"
         }
       },
       {
@@ -6399,7 +6412,8 @@
         },
         "then": {
           "en": "Aerialway {name}",
-          "de": "Seilbahn {name}"
+          "de": "Seilbahn {name}",
+          "cs": "Dráha {name}"
         }
       },
       {
@@ -10994,7 +11008,7 @@
           "nl": "Parking voor auto's",
           "en": "Car parking",
           "de": "Parkplatz",
-          "es": "aparcamiento de coches",
+          "es": "Aparcamiento de coches",
           "fr": "Lieu de stationnement",
           "pl": "Parking samochodowy",
           "ca": "Aparcament de cotxes",
@@ -11007,7 +11021,7 @@
           "nl": "Parking voor auto's",
           "en": "Car parking",
           "de": "Parkplatz",
-          "es": "aparcamiento de coches",
+          "es": "Aparcamiento de coches",
           "fr": "Lieu de stationnement",
           "pl": "Parking samochodowy",
           "ca": "Aparcament de cotxes",
@@ -11020,7 +11034,7 @@
           "nl": "Parking voor auto's",
           "en": "Car parking",
           "de": "Parkplatz",
-          "es": "aparcamiento de coches",
+          "es": "Aparcamiento de coches",
           "fr": "Lieu de stationnement",
           "pl": "Parking samochodowy",
           "ca": "Aparcament de cotxes",
@@ -11033,7 +11047,7 @@
           "nl": "Parking voor auto's",
           "en": "Car parking",
           "de": "Parkplatz",
-          "es": "aparcamiento de coches",
+          "es": "Aparcamiento de coches",
           "fr": "Lieu de stationnement",
           "pl": "Parking samochodowy",
           "ca": "Aparcament de cotxes",
@@ -11961,7 +11975,8 @@
           ]
         },
         "then": {
-          "en": "Bicycle counter"
+          "en": "Bicycle counter",
+          "de": "Fahrradzählstelle"
         }
       },
       {
@@ -11972,7 +11987,8 @@
           ]
         },
         "then": {
-          "en": "Bicycle counter"
+          "en": "Bicycle counter",
+          "de": "Fahrradzählstelle"
         }
       },
       {
@@ -12002,7 +12018,8 @@
           ]
         },
         "then": {
-          "en": "Bicycle counter"
+          "en": "Bicycle counter",
+          "de": "Fahrradzählstelle"
         }
       },
       {
@@ -12531,21 +12548,27 @@
         "if": "amenity=bbq",
         "then": {
           "en": "BBQ",
-          "de": "Grillstelle"
+          "de": "Grillstelle",
+          "cs": "BBQ",
+          "es": "Barbacoa"
         }
       },
       {
         "if": "amenity=bbq",
         "then": {
           "en": "BBQ",
-          "de": "Grillstelle"
+          "de": "Grillstelle",
+          "cs": "BBQ",
+          "es": "Barbacoa"
         }
       },
       {
         "if": "amenity=bbq",
         "then": {
           "en": "BBQ",
-          "de": "Grillstelle"
+          "de": "Grillstelle",
+          "cs": "BBQ",
+          "es": "Barbacoa"
         }
       },
       {
@@ -12608,7 +12631,9 @@
         "if": "amenity=bbq",
         "then": {
           "en": "BBQ",
-          "de": "Grillstelle"
+          "de": "Grillstelle",
+          "cs": "BBQ",
+          "es": "Barbacoa"
         }
       },
       {
@@ -13224,7 +13249,9 @@
         },
         "then": {
           "en": "{name}",
-          "de": "{name}"
+          "de": "{name}",
+          "cs": "{name}",
+          "es": "{name}"
         }
       },
       {
@@ -13236,7 +13263,9 @@
         },
         "then": {
           "en": "{name}",
-          "de": "{name}"
+          "de": "{name}",
+          "cs": "{name}",
+          "es": "{name}"
         }
       },
       {
@@ -13459,14 +13488,16 @@
         "if": "repair=assisted_self_service",
         "then": {
           "en": "Workshop for assisted repair",
-          "de": "Werkstatt für unterstützte Reparaturen"
+          "de": "Werkstatt für unterstützte Reparaturen",
+          "cs": "Dílna pro asistované opravy"
         }
       },
       {
         "if": "repair=assisted_self_service",
         "then": {
           "en": "Workshop for assisted repair",
-          "de": "Werkstatt für unterstützte Reparaturen"
+          "de": "Werkstatt für unterstützte Reparaturen",
+          "cs": "Dílna pro asistované opravy"
         }
       },
       {
@@ -16041,7 +16072,7 @@
           "if": "advertising=flag",
           "then": {
             "ca": "Açò és una bandera",
-            "es": "Esto es una bndera",
+            "es": "Esto es una bandera",
             "en": "This is a flag",
             "de": "Dies ist eine Flagge",
             "cs": "Toto je vlajka",
@@ -16196,7 +16227,8 @@
           "then": {
             "en": "This is tilework - the advertisement is painted on tiles",
             "de": "Dies ist eine Kachelarbeit - die Werbung ist auf Fliesen gemalt",
-            "cs": "Jedná se o dlaždice - reklama je namalovaná na dlaždicích"
+            "cs": "Jedná se o dlaždice - reklama je namalovaná na dlaždicích",
+            "es": "Esto es un azulejería - la publicidad está pintada en azulejos"
           }
         },
         {
@@ -16204,7 +16236,8 @@
           "then": {
             "en": "This is a relief",
             "de": "Dies ist ein Relief",
-            "cs": "Toto je reliéf"
+            "cs": "Toto je reliéf",
+            "es": "Esto es un alivio"
           }
         }
       ],
@@ -16226,7 +16259,7 @@
       "id": "animated",
       "question": {
         "ca": "Com canvien els anuncis d'aquest element?",
-        "es": "¿Como cambian los anuncios de este elemento?",
+        "es": "¿Pasa este anuncio por varios mensajes?",
         "en": "Does this advertisement cycle through multiple messages?",
         "de": "Werden mehrere Werbungen abwechselnd angezeigt?",
         "cs": "Zobrazuje tato reklama cyklicky několik zpráv?",
@@ -16754,7 +16787,7 @@
           "then": {
             "en": "This object has advertisements on a single side",
             "ca": "Aquest mupi té publicitat a un únic costat",
-            "es": "Este mupi tiene publicidad en un único lado",
+            "es": "Este objeto tiene publicidad en un único lado",
             "de": "Werbung wird nur auf einer Seite angezeigt",
             "cs": "Tento objekt má reklamy na jedné straně",
             "fr": "Cet objet a de la publicité sur un seul côté",
@@ -16829,7 +16862,7 @@
       "question": {
         "en": "Is this sign for a business that no longer exists or no longer being maintained?",
         "de": "Ist dieses Schild für ein Geschäft, das nicht mehr existiert oder nicht mehr gepflegt wird?",
-        "es": "¿Es este rótulo de un negocio que ya no existe o que ya no se mantiene?",
+        "es": "¿Es este cartel de un negocio que ya no existe o que ya no se mantiene?",
         "cs": "Je tato značka určena pro již neexistující nebo neudržovaný podnik?"
       },
       "mappings": [
@@ -16839,7 +16872,8 @@
           "then": {
             "en": "This is a historic advertisement sign (an advertisement for a business that no longer exists or a very old sign with heritage value)",
             "de": "Es handelt sich um ein historisches Werbeschild (eine Werbung für ein Unternehmen, das nicht mehr existiert, oder ein sehr altes Schild mit historischem Wert)",
-            "cs": "Jedná se o historický reklamní nápis (reklama na již neexistující podnik nebo velmi starý nápis s památkovou hodnotou)"
+            "cs": "Jedná se o historický reklamní nápis (reklama na již neexistující podnik nebo velmi starý nápis s památkovou hodnotou)",
+            "es": "Esto es un cartel publicitario histórico (un anuncio para un negocio que ya no existe o un cartel con un gran valor patrimonial)"
           }
         },
         {
@@ -16847,7 +16881,8 @@
           "then": {
             "en": "This advertisement sign has no historic value (the business still exists and has no heritage value)",
             "de": "Dieses Werbeschild hat keinen historischen Wert (das Unternehmen existiert noch und hat keinen denkmalpflegerischen Wert)",
-            "cs": "Tento reklamní nápis nemá žádnou historickou hodnotu (podnik stále existuje a nemá žádnou památkovou hodnotu)"
+            "cs": "Tento reklamní nápis nemá žádnou historickou hodnotu (podnik stále existuje a nemá žádnou památkovou hodnotu)",
+            "es": "Este cartel publicitario no tiene valor histórico (el negocio todavía existe y no tiene valor patrimonial)"
           }
         }
       ],
@@ -24916,7 +24951,9 @@
       "question": {
         "en": "Does this artwork serve as a memorial?",
         "de": "Dient dieses Kunstwerk als Mahnmal?",
-        "fr": "Cet œuvre a-t-elle un rôle de mémorial ?"
+        "fr": "Cet œuvre a-t-elle un rôle de mémorial ?",
+        "cs": "Slouží toto dílo jako památník?",
+        "es": "¿Sirve esta obra de arte como monumento conmemorativo?"
       },
       "mappings": [
         {
@@ -24925,7 +24962,9 @@
             "en": "This artwork also serves as a memorial",
             "de": "Dieses Kunstwerk dient auch als Mahnmal",
             "ca": "Aquesta obra d'art també serveix com a memorial",
-            "fr": "Cette œuvre est un mémorial"
+            "fr": "Cette œuvre est un mémorial",
+            "cs": "Toto dílo slouží také jako památník",
+            "es": "Esta obra de arte también sirve como monumento conmemorativo"
           }
         },
         {
@@ -24934,7 +24973,9 @@
           "then": {
             "en": "This artwork does not serve as a bench",
             "de": "Dieses Kunstwerk dient nicht als Sitzbank",
-            "fr": "Cette œuvre ne sert pas de banc"
+            "fr": "Cette œuvre ne sert pas de banc",
+            "cs": "Toto dílo neslouží jako lavička",
+            "es": "Esta obra de arte no sirve como banco"
           }
         }
       ],
@@ -25331,7 +25372,7 @@
             "de": "Diese Sitzbank hat eine Rückenlehne",
             "fr": "Ce banc a un dossier",
             "nl": "Heeft een rugleuning",
-            "es": "Tiene respaldo",
+            "es": "Este banco tiene respaldo",
             "hu": "Van háttámlája",
             "id": "Sandaran: Ya",
             "it": "Schienale: Sì",
@@ -25345,7 +25386,7 @@
             "pt": "Encosto: Sim",
             "ca": "Aquest banc té espatller",
             "da": "Har et ryglæn",
-            "cs": "Má opěradlo",
+            "cs": "Tato lavice má opěradlo",
             "he": "יש משענת גב",
             "_context": "layers:bench.tagRenderings.bench-backrest.mappings.1.then"
           },
@@ -25363,7 +25404,7 @@
             "de": "Diese Sitzbank hat <b>keine</b> Rückenlehne",
             "fr": "Ce banc n'a <b>pas</b> de dossier",
             "nl": "Heeft <b>geen</b> rugleuning",
-            "es": "<b>No</b> tiene respaldo",
+            "es": "Este banco <b>no</b> tiene respaldo",
             "hu": "<b>Nincs</b> háttámlája",
             "id": "Sandaran: Tidak",
             "it": "Questa panchina <b>non</b> ha uno schienale",
@@ -25377,7 +25418,7 @@
             "pt": "Não <b>not</b> tem um encosto",
             "ca": "Aquest banc <b>No</b> té espatller",
             "da": "Har <b>ikke</b> et ryglæn",
-            "cs": "<b>nemá</b> opěradlo",
+            "cs": "Tato lavice <b>nemá opěradlo</b>",
             "_context": "layers:bench.tagRenderings.bench-backrest.mappings.2.then"
           }
         }
@@ -25387,7 +25428,7 @@
         "de": "Hat diese Sitzbank eine Rückenlehne?",
         "fr": "Ce banc dispose-t-il d'un dossier ?",
         "nl": "Heeft deze zitbank een rugleuning?",
-        "es": "¿Este banco tiene respaldo?",
+        "es": "¿Tiene este banco respaldo?",
         "hu": "Van-e háttámlája ennek a padnak?",
         "id": "Apakah bangku ini memiliki sandaran?",
         "it": "Questa panchina ha lo schienale?",
@@ -25427,6 +25468,8 @@
             "en": "This bench does have one or more armrests",
             "de": "Diese Sitzbank hat eine oder mehrere Armlehnen",
             "nl": "Deze bank heeft armleuningen",
+            "cs": "Tato lavice má jednu nebo více opěrek na ruce",
+            "es": "Este banco dispone de uno o más reposabrazos",
             "_context": "layers:bench.tagRenderings.bench-armrest.mappings.0.then"
           }
         },
@@ -25436,6 +25479,8 @@
             "en": "This bench does <b>not</b> have any armrests",
             "de": "Diese Sitzbank hat <b>keine</b> Armlehnen",
             "nl": "Deze bank heeft <b>geen</b> armleuningen",
+            "cs": "Tato lavice <b>nemá opěrky rukou</b>",
+            "es": "Este banco <b>not</b> dispone de reposabrazos",
             "_context": "layers:bench.tagRenderings.bench-armrest.mappings.1.then"
           }
         }
@@ -25444,6 +25489,8 @@
         "en": "Does this bench have one or more armrests?",
         "de": "Hat diese Sitzbank eine oder mehrere Armlehnen?",
         "nl": "Heeft deze bank armleuningen?",
+        "cs": "Má tato lavice jednu nebo více opěrek?",
+        "es": "¿Dispone este banco de uno o más reposabrazos?",
         "_context": "layers:bench.tagRenderings.bench-armrest.question"
       },
       "id": "bench-armrest",
@@ -25467,7 +25514,7 @@
         "de": "Diese Sitzbank hat {seats} Sitzplätze",
         "fr": "{seats} places",
         "nl": "{seats} zitplaatsen",
-        "es": "{seats} asientos",
+        "es": "Este banco tiene {seats} asientos",
         "hu": "{seats} ülőhely",
         "id": "{seats} kursi",
         "it": "{seats} posti",
@@ -25479,7 +25526,7 @@
         "pt": "{seats} lugares",
         "ca": "Aquest banc té {seats} seients",
         "da": "{seats} pladser",
-        "cs": "{seats} míst k sezení",
+        "cs": "Tato lavička má {seats} sedadla",
         "zh_Hans": "{seats}座",
         "he": "{seats} מושבים",
         "_context": "layers:bench.tagRenderings.bench-seats.render"
@@ -26214,7 +26261,7 @@
         "cs": "Má tato lavička nápis?",
         "pt": "Esse banco tem inscrição?",
         "pt_BR": "Esse banco tem uma inscrição?",
-        "es": "¿Este banco tiene una inscripción?",
+        "es": "¿Tiene este banco una inscripción?",
         "_context": "layers:bench.tagRenderings.bench-inscription.question"
       },
       "freeform": {
@@ -26712,7 +26759,7 @@
         "he": "הכספומט מופעל על ידי {operator}",
         "pl": "Ten bankomat jest obsługiwany przez {operator}",
         "pt_BR": "O caixa eletrônico é operado por {operator}",
-        "es": "El cajero es de {operator}",
+        "es": "El cajero lo opera {operator}",
         "pt": "O multibanco é operado por {operator}",
         "sl": "Ta bankomat upravlja {operator}"
       }
@@ -27200,7 +27247,7 @@
         "he": "האם לבנק הזה יש כספומט?",
         "pl": "Czy ten bank ma bankomat?",
         "pt_BR": "Esse banco tem caixa eletrônico?",
-        "es": "¿Este banco tiene cajero automático?",
+        "es": "¿Tiene este banco cajero automático?",
         "pt": "Este banco tem multibanco?"
       },
       "mappings": [
@@ -29399,7 +29446,7 @@
         "de": "Wie viele Fahrräder passen auf diesen Fahrrad-Parkplatz?",
         "it": "Quante biciclette entrano in questo parcheggio per bici (incluse le eventuali bici cargo)?",
         "zh_Hant": "這個單車停車場能放幾台單車 (包括裝箱單車)？",
-        "es": "¿Cuántas bicicletas caben en este aparcamiento de bicicletas (incluyendo posibles bicicletas de carga)?",
+        "es": "¿Cuántas bicicletas caben en este aparcamiento de bicicletas?",
         "da": "Hvor mange cykler er der plads til på denne cykelparkering (inklusive mulige ladcykler)?",
         "cs": "Kolik jízdních kol se vejde na toto parkoviště (včetně případných nákladních kol)?",
         "ca": "Quantes bicicletes caben en aquest aparcament de bicicletes?",
@@ -29411,7 +29458,8 @@
         "en": "This includes regular bicycles, cargo bikes, ebikes, ...",
         "nl": "Dit is het totaal aantal gewone fietsen, bakfietsen, elektrische fietsen, ...",
         "de": "Dazu gehören reguläre Fahrräder, Lasträder, Ebikes,...",
-        "pl": "To obejmuje zwykłe rowery, do transportu dóbr, elektryczne, ..."
+        "pl": "To obejmuje zwykłe rowery, do transportu dóbr, elektryczne, ...",
+        "es": "Esto incluye bicis normales, de carga, eléctricas, ..."
       },
       "render": {
         "en": "Place for {capacity} bikes",
@@ -29575,7 +29623,8 @@
         "en": "Are these bicycle parkings free to use?",
         "nl": "Is deze fietsenstalling gratis te gebruiken?",
         "de": "Sind die Fahrradparkplätze kostenlos zu benutzen?",
-        "ca": "Aquests aparcaments de bicicletes són gratuïts?"
+        "ca": "Aquests aparcaments de bicicletes són gratuïts?",
+        "es": "¿Son estos aparcamientos de bicicletras de uso gratuito?"
       },
       "mappings": [
         {
@@ -29584,7 +29633,8 @@
             "en": "One has to <b>pay</b> to use this bicycle parking",
             "nl": "<b>Betalende</b> fietsparking",
             "de": "Man muss <b>zahlen</b>, um den Fahrradparkplatz zu nutzen",
-            "fr": "L'utilisation de ce parking à vélo est <b>payant</b>"
+            "fr": "L'utilisation de ce parking à vélo est <b>payant</b>",
+            "es": "Uno tiene que <b>pagar</b> para utilizar este aparcamiento de bicicletas"
           }
         },
         {
@@ -29594,7 +29644,8 @@
             "en": "Free to use",
             "nl": "Gratis te gebruiken",
             "de": "Die Nutzung ist kostenlos",
-            "fr": "L'utilisation de ce parking à vélo est <b>gratuit</b>"
+            "fr": "L'utilisation de ce parking à vélo est <b>gratuit</b>",
+            "es": "Uso gratuito"
           }
         }
       ],
@@ -29618,17 +29669,20 @@
       "question": {
         "en": "How much does it cost to park your bike here?",
         "nl": "Hoeveel kost het om een fiets te stallen?",
-        "de": "Wie viel kostet es, Ihr Fahrrad hier zu parken?"
+        "de": "Wie viel kostet es, Ihr Fahrrad hier zu parken?",
+        "es": "¿Cuánto cuesta aparcar aquí tu bici?"
       },
       "questionHint": {
         "en": "This is the amount which is charged for a single bike",
         "nl": "Dit is de kostprijs voor een enkele fiets",
-        "de": "Das ist der Betrag, der für ein einzelnes Fahrrad berechnet wird"
+        "de": "Das ist der Betrag, der für ein einzelnes Fahrrad berechnet wird",
+        "es": "Esta es la cantidad que se cobra por una sola bici"
       },
       "render": {
         "en": "Parking your bike costs {charge}",
         "nl": "Je fiets hier parkeren kost {charge}",
-        "de": "Das Parken Ihres Fahrrads kostet {charge}"
+        "de": "Das Parken Ihres Fahrrads kostet {charge}",
+        "es": "Aparcar tu bici cuesta {charge}"
       },
       "freeform": {
         "key": "charge",
@@ -29744,13 +29798,15 @@
         "nl": "Wie beheert deze fietsenstalling?",
         "de": "Wer unterhält diese Fahrradabstellplätze?",
         "fr": "Qui entretient ce parking à vélos ?",
-        "ca": "Qui manté aquest aparcament per a bicis?"
+        "ca": "Qui manté aquest aparcament per a bicis?",
+        "es": "¿Quién mantiene este aparcamiento de bicicletas?"
       },
       "render": {
         "en": "This bicycle parking is maintained by {operator}",
         "nl": "Deze fietsenstalling wordt beheerd door {operator}",
         "de": "Dieser Fahrradparkplatz wird von {operator} bereitgestellt",
-        "ca": "{operator} manté aquest aparcament per a bicis"
+        "ca": "{operator} manté aquest aparcament per a bicis",
+        "es": "Este aparcamiento de bicicletas es mantenido por {operator}"
       },
       "freeform": {
         "key": "operator",
@@ -29772,7 +29828,8 @@
         "en": "What is the phone number of the operator of this bicycle parking?",
         "nl": "Wat is het telefoonnummer van de operator van deze fietsenstalling?",
         "de": "Wie lautet die Telefonnummer des Betreibers dieses Fahrradparkplatzes?",
-        "ca": "Quin és el número de telèfon de l'operador d'aquest aparcament per a bicis?"
+        "ca": "Quin és el número de telèfon de l'operador d'aquest aparcament per a bicis?",
+        "es": "¿Cuál es número de teléfono del operador de este aparcamiento de bicicletas?"
       },
       "questionHint": {
         "en": "One might be able to call this number in case of problems, e.g. to remove unmaintained bicycles",
@@ -29822,7 +29879,8 @@
       "question": {
         "en": "What is the website number of the operator of this bicycle parking?",
         "nl": "Wat is de website van de operator van deze fietsenstalling?",
-        "de": "Wie lautet die Nummer auf der Website des Betreibers dieses Fahrradparkplatzes?"
+        "de": "Wie lautet die Nummer auf der Website des Betreibers dieses Fahrradparkplatzes?",
+        "es": "¿Cuál es la página web del operador de este aparcamiento de bicicletas?"
       },
       "icon": "./assets/layers/icons/website.svg",
       "freeform": {
@@ -29867,7 +29925,8 @@
         "en": "What is the email address of the operator of this bicycle parking?",
         "nl": "Wat is het emailadres van de beheerder van deze parking?",
         "de": "Wie lautet die E-Mail-Adresse des Betreibers dieses Fahrradparkplatzes?",
-        "ca": "Quina és l'adreça de correu electrònic de l'operador d'aquest aparcament per a bicis?"
+        "ca": "Quina és l'adreça de correu electrònic de l'operador d'aquest aparcament per a bicis?",
+        "es": "¿Cuál es la dirección de correo electrónico del operador de este aparcamiento de bicicletas?"
       },
       "icon": "./assets/svg/envelope.svg",
       "freeform": {
@@ -30032,7 +30091,8 @@
         "en": "What is the maximum allowed parking duration?",
         "nl": "Wat is de toegestane, maximale parkeerduur?",
         "de": "Was ist die maximal erlaubte Parkdauer?",
-        "ca": "Quina és la durada màxima permesa d'estacionament?"
+        "ca": "Quina és la durada màxima permesa d'estacionament?",
+        "es": "¿Cuál es la duración máxima permitida de estacionamiento?"
       },
       "questionHint": {
         "en": "If the bicycle is parked for a longer amount, it might be removed by the operator",
@@ -30048,7 +30108,8 @@
         "en": "A bike can be parked here for at most {canonical(maxstay)}",
         "nl": "Een fiets mag hier maximaal {canonical(maxstay)} parkeren",
         "de": "Ein Fahrrad kann hier höchstens für {canonical(maxstay)} geparkt werden",
-        "ca": "Una bici pot aparcar aquí com a màxim {canonical(maxstay)}"
+        "ca": "Una bici pot aparcar aquí com a màxim {canonical(maxstay)}",
+        "es": "Se puede aparcar aquí una bici por como mucho {canonical(maxstay)}"
       },
       "condition": {
         "or": [
@@ -32479,7 +32540,8 @@
           "then": {
             "en": "Cargo bikes can be rented here",
             "nl": "Bakfietsen kunnen hier gehuurd worden",
-            "de": "Lastenräder können hier gemietet werden"
+            "de": "Lastenräder können hier gemietet werden",
+            "es": "Aquí se pueden alquilar bicicletas de carga"
           }
         }
       ],
@@ -50462,12 +50524,16 @@
     {
       "question": {
         "en": "What is the name of this repair workshop?",
-        "de": "Wie heißt diese Reparaturwerkstatt?"
+        "de": "Wie heißt diese Reparaturwerkstatt?",
+        "cs": "Jak se tato opravna jmenuje?",
+        "es": "¿Cuál es el nombre de este taller de reparación?"
       },
       "id": "assisted_repair_name",
       "render": {
         "en": "This workshop is called <b>{name}</b>",
-        "de": "Diese Werkstatt heißt <b>{name}</b>"
+        "de": "Diese Werkstatt heißt <b>{name}</b>",
+        "cs": "Tato dílna se nazývá <b>{name}</b>",
+        "es": "Este taller se llama <b>{name}</b>"
       },
       "freeform": {
         "key": "name",
@@ -50512,7 +50578,9 @@
     {
       "question": {
         "en": "What type of items are repaired here?",
-        "de": "Welche Art von Gegenständen wird hier repariert?"
+        "de": "Welche Art von Gegenständen wird hier repariert?",
+        "cs": "Jaké předměty se zde opravují?",
+        "es": "¿Qué tipo de objetos se reparan aquí?"
       },
       "id": "item:repair",
       "mappings": [
@@ -50524,7 +50592,9 @@
           ],
           "then": {
             "en": "Mobile phones are repaired here",
-            "de": "Mobiltelefone werden hier repariert"
+            "de": "Mobiltelefone werden hier repariert",
+            "cs": "Zde se opravují mobilní telefony",
+            "es": "Aquí se reparan teléfonos móviles"
           },
           "ifnot": "service:mobile_phone:repair=no"
         },
@@ -50536,7 +50606,9 @@
           ],
           "then": {
             "en": "Computers are repaired here",
-            "de": "Computer werden hier repariert"
+            "de": "Computer werden hier repariert",
+            "cs": "Počítače se opravují zde",
+            "es": "Aquí se reparan ordenadores"
           },
           "ifnot": "service:computer:repair=no"
         },
@@ -50548,7 +50620,9 @@
           ],
           "then": {
             "en": "Bicycles are repaired here",
-            "de": "Fahrräder werden hier repariert"
+            "de": "Fahrräder werden hier repariert",
+            "cs": "Zde se opravují jízdní kola",
+            "es": "Aquí se reparan bicicletas"
           },
           "ifnot": "service:bicycle:repair=no"
         },
@@ -50560,7 +50634,9 @@
           ],
           "then": {
             "en": "Electronic devices are repaired here",
-            "de": "Elektronische Geräte werden hier repariert"
+            "de": "Elektronische Geräte werden hier repariert",
+            "cs": "Zde se opravují elektronická zařízení",
+            "es": "Aquí se reparan dispositivos electrónicos"
           },
           "ifnot": "service:electronics:repair=no",
           "icon": "./assets/layers/recycling/small_electrical_appliances.svg"
@@ -50573,7 +50649,9 @@
           ],
           "then": {
             "en": "Furniture is repaired here",
-            "de": "Möbel werden hier repariert"
+            "de": "Möbel werden hier repariert",
+            "cs": "Zde se opravuje nábytek",
+            "es": "Aquí se reparan muebles"
           },
           "ifnot": "service:furniture:repair=no",
           "icon": "./assets/layers/recycling/furniture.svg"
@@ -50586,7 +50664,9 @@
           ],
           "then": {
             "en": "Clothes are repaired here",
-            "de": "Kleidung wird hier repariert"
+            "de": "Kleidung wird hier repariert",
+            "cs": "Zde se opravují oděvy",
+            "es": "Aquí se reparan prendas textiles"
           },
           "ifnot": "service:clothes:repair=no",
           "icon": "./assets/layers/recycling/clothes.svg"
@@ -79536,7 +79616,8 @@
             "amenity="
           ],
           "then": {
-            "en": "This drinking water is permanently closed"
+            "en": "This drinking water is permanently closed",
+            "de": "Die Trinkwasserstelle ist dauerhaft geschlossen"
           }
         }
       ],
@@ -80057,7 +80138,7 @@
           "ifnot": "bicycle=",
           "then": {
             "en": "This guidepost shows bicycle routes",
-            "de": "Dieser Wegweiser zeigt Fahrradrouten",
+            "de": "Dieser Wegweiser zeigt Fahrradwege",
             "fr": "Un itinéraire vélo"
           }
         },
@@ -81143,25 +81224,33 @@
     {
       "id": "bicycle_counter_display",
       "question": {
-        "en": "Does this bicycle counter have a display showing the number of passing bicycles?"
+        "en": "Does this bicycle counter have a display showing the number of passing bicycles?",
+        "cs": "Má tento počítač jízdních kol displej zobrazující počet projíždějících jízdních kol?",
+        "de": "Zeigt die Fahrradzählstelle die Anzahl gezählter Fahrräder an?"
       },
       "mappings": [
         {
           "if": "display=digital",
           "then": {
-            "en": "This counter has a digital display"
+            "en": "This counter has a digital display",
+            "cs": "Toto počítadlo má digitální displej",
+            "de": "Die Zählstelle hat eine digitale Anzeige"
           }
         },
         {
           "if": "display=analog",
           "then": {
-            "en": "This counter has an analog display"
+            "en": "This counter has an analog display",
+            "cs": "Toto počítadlo má analogový displej",
+            "de": "Die Zählstelle hat eine analoge Anzeige"
           }
         },
         {
           "if": "display=no",
           "then": {
-            "en": "This counter has no display"
+            "en": "This counter has no display",
+            "cs": "Toto počítadlo nemá žádný displej",
+            "de": "Die Zählstelle hat keine Anzeige"
           }
         }
       ],
@@ -81179,18 +81268,23 @@
     {
       "id": "bicycle_counter_name",
       "question": {
-        "en": "What is the name of the counted location?"
+        "en": "What is the name of the counted location?",
+        "cs": "Jak se jmenuje započítávaná lokalita?",
+        "de": "Wie lautet der Name des Zählorts?"
       },
       "freeform": {
         "key": "name",
         "type": "string",
         "placeholder": {
-          "en": "Name of the counted location"
+          "en": "Name of the counted location",
+          "cs": "Název započítávané lokality",
+          "de": "Name des Zählorts"
         },
         "inline": true
       },
       "render": {
-        "en": "Name of the counted location: {name}"
+        "en": "Name of the counted location: {name}",
+        "de": "Name des Zählorts: {name}"
       },
       "condition": {
         "and": [
@@ -81206,18 +81300,21 @@
     {
       "id": "bicycle_counter_start_date",
       "question": {
-        "en": "When did this counter start counting?"
+        "en": "When did this counter start counting?",
+        "de": "Wann wurde die Zählstelle aufgestellt?"
       },
       "freeform": {
         "key": "start_date",
         "type": "date",
         "placeholder": {
-          "en": "Start date of the counter"
+          "en": "Start date of the counter",
+          "de": "Aufstelldatum der Zählstelle"
         },
         "inline": true
       },
       "render": {
-        "en": "This counter started counting on {start_date}"
+        "en": "This counter started counting on {start_date}",
+        "de": "Die Zählstelle wurde am {start_date} aufgestellt"
       },
       "condition": {
         "and": [
@@ -81233,19 +81330,25 @@
     {
       "id": "clock",
       "question": {
-        "en": "Does this bicycle counter have a clock?"
+        "en": "Does this bicycle counter have a clock?",
+        "cs": "Má toto počítadlo kol hodiny?",
+        "de": "Zeigt die Fahrradzählstelle die Uhrzeit an?"
       },
       "mappings": [
         {
           "if": "amenity=clock",
           "then": {
-            "en": "This counter has a clock"
+            "en": "This counter has a clock",
+            "cs": "Toto počítadlo je vybaveno hodinami",
+            "de": "Die Zählstelle zeigt die Uhrzeit an"
           }
         },
         {
           "if": "amenity=",
           "then": {
-            "en": "This counter has no clock"
+            "en": "This counter has no clock",
+            "cs": "Toto počítadlo nemá žádné hodiny",
+            "de": "Die Zählstelle zeigt keine Uhrzeit an"
           }
         }
       ],
@@ -81259,13 +81362,15 @@
     {
       "id": "bicycle_counter_ref",
       "question": {
-        "en": "What is the reference number of this counter?"
+        "en": "What is the reference number of this counter?",
+        "de": "Wie lautet die Kennziffer der Zählstelle?"
       },
       "freeform": {
         "key": "ref",
         "type": "string",
         "placeholder": {
-          "en": "Reference number of the counter"
+          "en": "Reference number of the counter",
+          "de": "Kennziffer der Zählstelle"
         },
         "addExtraTags": [
           "noref="
@@ -81273,13 +81378,15 @@
         "inline": true
       },
       "render": {
-        "en": "Reference number of the counter: {ref}"
+        "en": "Reference number of the counter: {ref}",
+        "de": "Kennziffer der Zählstelle: {ref}"
       },
       "mappings": [
         {
           "if": "noref=yes",
           "then": {
-            "en": "This counter has no reference number"
+            "en": "This counter has no reference number",
+            "de": "Die Zählstelle hat keine Kennziffer"
           }
         }
       ],
@@ -81297,17 +81404,20 @@
     {
       "id": "bicycle_counter_website",
       "question": {
-        "en": "Is there a website for this bicycle counter?"
+        "en": "Is there a website for this bicycle counter?",
+        "de": "Gibt es eine Website für die Fahrradzählstelle?"
       },
       "freeform": {
         "key": "website",
         "type": "url",
         "placeholder": {
-          "en": "Website of the counter"
+          "en": "Website of the counter",
+          "de": "Website der Zählstelle"
         }
       },
       "render": {
-        "en": "Website of the counter: <a href='{website}'>{website}</a>"
+        "en": "Website of the counter: <a href='{website}'>{website}</a>",
+        "de": "Website der Zählstelle: <a href='{website}'>{website}</a>"
       },
       "condition": {
         "and": [
@@ -81335,7 +81445,8 @@
         "pt": "Qual o nome deste café de bicicleta?",
         "da": "Hvad hedder denne cykelcafé?",
         "cs": "Jak se jmenuje tato cyklokavárna?",
-        "ca": "Quin és el nom d'aquest cafè ciclista?"
+        "ca": "Quin és el nom d'aquest cafè ciclista?",
+        "es": "¿Cómo se llama la cafetería para ciclistas?"
       },
       "render": {
         "en": "This bike cafe is called {name}",
@@ -81351,7 +81462,8 @@
         "pt": "Este café de bicicleta se chama {name}",
         "da": "Denne cykelcafé hedder {name}",
         "cs": "Tato cyklokavárna se jmenuje {name}",
-        "ca": "Aquest cafè ciclista s'anomena {name}"
+        "ca": "Aquest cafè ciclista s'anomena {name}",
+        "es": "La cafetería para ciclistas se llama {name}"
       },
       "freeform": {
         "key": "name",
@@ -81396,7 +81508,8 @@
         "cs": "Nabízí tato cyklistická kavárna vzduchový kompresor na kolo k použití pro kohokoli?",
         "ca": "Aquest cafè ciclista ofereix una bomba de bicicletes per a qualsevol persona?",
         "pt_BR": "Esse café para ciclistas oferece uma bomba de ar para qualquer um usar?",
-        "pt": "Este café para ciclistas oferece uma bomba de ar para qualquer um usar?"
+        "pt": "Este café para ciclistas oferece uma bomba de ar para qualquer um usar?",
+        "es": "¿Ofrece esta cafetería para ciclistas una bomba de aire para uso de cualquier persona?"
       },
       "mappings": [
         {
@@ -81415,7 +81528,8 @@
             "cs": "Tato cyklistická kavárna nabízí vzduchový kompresor na kolo pro každého",
             "ca": "Aquest cafè ciclista ofereix una bomba per a bicicletes per a qualsevol persona",
             "pt_BR": "Esse café para ciclistas oferece uma bomba de ar para todos",
-            "pt": "Este café para ciclistas oferece uma bomba de ar para todos"
+            "pt": "Este café para ciclistas oferece uma bomba de ar para todos",
+            "es": "Esta cafetería para ciclistas ofrece una bomba de aire para cualquier persona"
           }
         },
         {
@@ -81434,7 +81548,8 @@
             "cs": "Tato cyklistická kavárna nenabízí vzduchový kompresor na kolo",
             "ca": "Aquest cafè ciclista no ofereix una bomba per a bicicletes per a qualsevol persona",
             "pt_BR": "Esse café para ciclistas não oferece uma bomba de ar para ninguém",
-            "pt": "Este café para ciclistas não oferece uma bomba de ar para ninguém"
+            "pt": "Este café para ciclistas não oferece uma bomba de ar para ninguém",
+            "es": "Esta cafetería para ciclistas no ofrece una bomba de aire para cualquier persona"
           }
         }
       ],
@@ -82232,7 +82347,8 @@
           "if": "vending=ice_cream",
           "then": {
             "en": "Ice cream is sold",
-            "nl": "IJs wordt verkocht"
+            "nl": "IJs wordt verkocht",
+            "de": "Speiseeis wird verkauft"
           },
           "icon": "./assets/layers/ice_cream/ice_cream.svg"
         },
@@ -84148,13 +84264,17 @@
         "en": "What is the name of this assembly point?",
         "it": "Qual è il nome di questo punto di raccolta?",
         "de": "Wie lautet der Name dieser Sammelstelle?",
-        "pl": "Jak nazywa się ten punkt zbiórki?"
+        "pl": "Jak nazywa się ten punkt zbiórki?",
+        "cs": "Jak se jmenuje toto shromaždiště?",
+        "es": "¿Cuál es el nombre de este punto de encuentro?"
       },
       "render": {
         "en": "This assembly point is named <b>{name}</b>",
         "it": "Questo punto di raccolta si chiama <b>{name}</b>",
         "de": "Diese Sammelstelle hat den Namen <b>{name}</b>",
-        "pl": "Ten punkt zbiórki nazywa się <b>{name}</b>"
+        "pl": "Ten punkt zbiórki nazywa się <b>{name}</b>",
+        "cs": "Toto shromaždiště se jmenuje <b>{name}</b>",
+        "es": "Este punto de encuentro se llama <b>{name}</b>"
       },
       "condition": {
         "or": [
@@ -84168,12 +84288,16 @@
       "render": {
         "en": "This assembly point is operated by <b>{operator}</b>",
         "it": "Questo punto di raccolta è gestita da <b>{operator}</b>",
-        "de": "Diese Sammelstelle wird von <b>{operator}</b> betrieben"
+        "de": "Diese Sammelstelle wird von <b>{operator}</b> betrieben",
+        "cs": "Toto shromaždiště provozuje <b>{operator}</b>",
+        "es": "Este punto de encuentro lo opera <b>{operator}</b>"
       },
       "question": {
         "en": "What organization operates this assembly point?",
         "it": "Quale organizzazione gestisce questo punto di raccolta?",
-        "de": "Welche Organisation betreibt diese Sammelstelle?"
+        "de": "Welche Organisation betreibt diese Sammelstelle?",
+        "cs": "Jaká organizace provozuje toto shromaždiště?",
+        "es": "¿Qué organización opera este punto de encuentro?"
       },
       "freeform": {
         "key": "operator",
@@ -84192,7 +84316,9 @@
       "question": {
         "en": "For which disaster type is this assembly point meant?",
         "it": "Per quali tipi di disastro è pensato questo punto di raccolta?",
-        "de": "Für welche Art von Katastrophe ist diese Sammelstelle gedacht?"
+        "de": "Für welche Art von Katastrophe ist diese Sammelstelle gedacht?",
+        "cs": "Pro jaký typ katastrofy je toto shromaždiště určeno?",
+        "es": "¿A qué tipo de catástrofe está destinado este punto de encuentro?"
       },
       "multiAnswer": true,
       "mappings": [
@@ -84203,7 +84329,9 @@
             "en": "Earthquake",
             "it": "Terremoto",
             "de": "Erdbeben",
-            "pl": "Trzęsienie ziemi"
+            "pl": "Trzęsienie ziemi",
+            "cs": "Zemětřesení",
+            "es": "Terremoto"
           },
           "icon": {
             "path": "./assets/layers/assembly_point/earthquake.svg",
@@ -84217,7 +84345,9 @@
             "en": "Flood",
             "it": "Alluvione",
             "de": "Flut",
-            "pl": "Powódź"
+            "pl": "Powódź",
+            "cs": "Povodně",
+            "es": "Riada"
           },
           "icon": {
             "path": "./assets/layers/assembly_point/flood.svg",
@@ -84231,7 +84361,9 @@
             "en": "Fire",
             "it": "Incendio",
             "de": "Feuer",
-            "pl": "Pożar"
+            "pl": "Pożar",
+            "cs": "Požár",
+            "es": "Incendio"
           },
           "icon": {
             "path": "./assets/layers/assembly_point/fire.svg",
@@ -84245,7 +84377,9 @@
             "en": "Landslide",
             "it": "Frana",
             "de": "Erdrutsch",
-            "pl": "Osuwisko"
+            "pl": "Osuwisko",
+            "cs": "Sesuv půdy",
+            "es": "Deslizamiento de tierra"
           },
           "icon": {
             "path": "./assets/layers/assembly_point/landslide.svg",
@@ -85144,7 +85278,7 @@
             "hu": "A mentőállomást a kormány üzemelteti.",
             "ru": "Станция управляется правительством.",
             "nl": "Dit station wordt beheerd door de overheid.",
-            "es": "La estación la opera el govierno.",
+            "es": "La estación la opera el gobierno.",
             "da": "Stationen drives af staten.",
             "cs": "Provozovatelem stanice je vláda.",
             "ca": "El govern opera aquesta estació.",
@@ -87846,49 +87980,62 @@
       "id": "bbq_access",
       "question": {
         "en": "What is the permitted access?",
-        "de": "Was ist der erlaubte Zugang?"
+        "de": "Was ist der erlaubte Zugang?",
+        "cs": "Jaký přístup je povolen?"
       },
       "mappings": [
         {
           "if": "access=yes",
           "then": {
             "de": "Öffentlich",
-            "en": "Public"
+            "en": "Public",
+            "cs": "Veřejné",
+            "es": "Pública"
           }
         },
         {
           "if": "access=no",
           "then": {
             "de": "Kein Zugang",
-            "en": "No access"
+            "en": "No access",
+            "cs": "Zákaz vstupu",
+            "es": "Sin acceso"
           }
         },
         {
           "if": "access=private",
           "then": {
             "de": "Privat",
-            "en": "Private"
+            "en": "Private",
+            "cs": "Soukromé",
+            "es": "Privada"
           }
         },
         {
           "if": "access=permissive",
           "then": {
             "de": "Zugang bis auf Widerruf",
-            "en": "Access until revoked"
+            "en": "Access until revoked",
+            "cs": "Přístup až do odvolání",
+            "es": "Acceso hasta que se anule"
           }
         },
         {
           "if": "access=customers",
           "then": {
             "de": "Zugang nur für Kunden",
-            "en": "Access only for customers"
+            "en": "Access only for customers",
+            "cs": "Přístup pouze pro zákazníky",
+            "es": "Acceso exclusivo para clientes"
           }
         },
         {
           "if": "access=permit",
           "then": {
             "de": "Zugang nur für Berechtigte",
-            "en": "Access only for authorized persons"
+            "en": "Access only for authorized persons",
+            "cs": "Přístup pouze pro oprávněné osoby",
+            "es": "Acceso exclusivo a personal autorizado"
           }
         }
       ],
@@ -87906,21 +88053,27 @@
       "id": "bbq_covered",
       "question": {
         "en": "Is the grill covered?",
-        "de": "Ist die Grillstelle überdacht?"
+        "de": "Ist die Grillstelle überdacht?",
+        "cs": "Je gril zakrytý?",
+        "es": "¿Está cubierta la parrilla?"
       },
       "mappings": [
         {
           "if": "covered=no",
           "then": {
             "de": "Die Grillstelle ist nicht überdacht",
-            "en": "The grill is not covered"
+            "en": "The grill is not covered",
+            "cs": "Gril není zakrytý",
+            "es": "La parrilla no está cubierta"
           }
         },
         {
           "if": "covered=yes",
           "then": {
             "de": "Die Grillstelle ist überdacht",
-            "en": "The grill is covered"
+            "en": "The grill is covered",
+            "cs": "Gril je zakrytý",
+            "es": "La parrilla está cubierta"
           }
         }
       ],
@@ -87938,35 +88091,45 @@
       "id": "fuel",
       "question": {
         "en": "How ist the grill fueled?",
-        "de": "Mit was wird die Grillstelle angefeuert?"
+        "de": "Mit was wird die Grillstelle angefeuert?",
+        "cs": "Jak je gril napájen?",
+        "es": "¿Cómo se alimenta la parrilla?"
       },
       "mappings": [
         {
           "if": "fuel=wood",
           "then": {
             "de": "Holz",
-            "en": "Wood"
+            "en": "Wood",
+            "cs": "Dřevo",
+            "es": "Madera"
           }
         },
         {
           "if": "fuel=charcoal",
           "then": {
             "de": "Kohle",
-            "en": "Charcoal"
+            "en": "Charcoal",
+            "cs": "Dřevěné uhlí",
+            "es": "Carbón"
           }
         },
         {
           "if": "fuel=electric",
           "then": {
             "de": "Elektronisch",
-            "en": "Electric"
+            "en": "Electric",
+            "cs": "Elektrický",
+            "es": "Eléctrica"
           }
         },
         {
           "if": "fuel=gas",
           "then": {
             "de": "Gas",
-            "en": "Gas"
+            "en": "Gas",
+            "cs": "Plynový",
+            "es": "Gas"
           }
         }
       ],
@@ -88392,7 +88555,8 @@
           "icon": "🇲🇽",
           "then": {
             "en": "Mexican dishes are served here",
-            "nl": "Dit is een mexicaans restaurant"
+            "nl": "Dit is een mexicaans restaurant",
+            "de": "Hier werden mexikanische Gerichte serviert"
           }
         },
         {
@@ -88400,7 +88564,8 @@
           "icon": "🇯🇵",
           "then": {
             "en": "Japanese dishes are served here",
-            "nl": "Dit is een japans restaurant"
+            "nl": "Dit is een japans restaurant",
+            "de": "Hier werden japanische Gerichte serviert"
           }
         },
         {
@@ -88408,7 +88573,8 @@
           "icon": "🐔",
           "then": {
             "en": "Chicken based dishes are served here",
-            "nl": "Dit is een kiprestaurant"
+            "nl": "Dit is een kiprestaurant",
+            "de": "Hier werden Hühnergerichte serviert"
           }
         },
         {
@@ -88416,7 +88582,8 @@
           "icon": "🐟",
           "then": {
             "en": "Seafood dishes are served here",
-            "nl": "Dit is een vis- en zeerestaurant"
+            "nl": "Dit is een vis- en zeerestaurant",
+            "de": "Hier werden Fisch und Meeresfrüchte serviert"
           }
         }
       ],
@@ -89787,7 +89954,7 @@
           "if": "hackerspace=hacklab",
           "then": {
             "en": "This is a <b>hacklab</b> which is mostly focussed on basic computer skills, using recycled devices and/or providing internet to the community. This is typically located in autonomous spaces, squats or social facilities",
-            "de": "Dies ist ein <b>Hackerspace/Hack-Lab</b>, das sich hauptsächlich auf grundlegende Computerkenntnisse konzentriert, recycelte Geräte verwendet und/oder der Gemeinschaft Internet bereitstellt. Es befindet sich typischerweise in autonomen Räumen, besetzten Häusern oder sozialen Einrichtungen."
+            "de": "Dies ist ein <b>Hackerspace/Hack-Lab</b>, das sich hauptsächlich auf grundlegende Computerkenntnisse konzentriert, recycelte Geräte verwendet und/oder der Gemeinschaft Internet bereitstellt. Es befindet sich typischerweise in autonomen Räumen, besetzten Häusern oder sozialen Einrichtungen"
           }
         }
       ],
@@ -91907,7 +92074,7 @@
           "if": "map_size=site",
           "then": {
             "en": "A map of special site, like of a historical castle, a park, a campus, a forest, ....",
-            "de": "Örtlichkeit (z.B. Burg)",
+            "de": "Eine Karte mit besonderen Orten, wie einem historischen Schloss, einem Park, einem Campus, einem Wald, ....",
             "ca": "Un mapa d'un lloc especial, com un castell històric, un parc, un campus, un bosc, …",
             "cs": "Mapa speciálního místa, například historického zámku, parku, areálu, lesa, ....",
             "fr": "La carte d'un site particulier, comme un château, un parc, un campus, une forêt, ...."
@@ -91927,7 +92094,7 @@
         {
           "if": "map_size=city",
           "then": {
-            "en": " A map of a city",
+            "en": "A map of a city",
             "de": "Stadt",
             "pl": " Mapa miasta",
             "ca": " Un mapa d'una ciutat",
@@ -94609,7 +94776,8 @@
     {
       "question": {
         "en": "What type of aerialway is this?",
-        "de": "Um welchen Seilbahntyp handelt es sich?"
+        "de": "Um welchen Seilbahntyp handelt es sich?",
+        "cs": "O jaký typ dráhy se jedná?"
       },
       "id": "aerialway_type",
       "mappings": [
@@ -94678,21 +94846,24 @@
           "if": "aerialway=platter",
           "then": {
             "en": "A drag lift with a platter to drag a single passenger at a time",
-            "de": "Ein Schlepplift mit einem Teller für jeweils einen Passagier"
+            "de": "Ein Schlepplift mit einem Teller für jeweils einen Passagier",
+            "cs": "Vlek s talířem, který táhne jednoho cestujícího"
           }
         },
         {
           "if": "aerialway=rope_tow",
           "then": {
             "en": "A tow line which which drags skieers",
-            "de": "Eine Schleppleine, die Skifahrer mit sich zieht"
+            "de": "Eine Schleppleine, die Skifahrer mit sich zieht",
+            "cs": "Vlečné lano, které táhne lyžaře"
           }
         },
         {
           "if": "aerialway=magic_carpet",
           "then": {
             "en": "A magic carpet (a conveyor belt on the ground)",
-            "de": "Ein magic carpet (ein Förderband auf dem Boden)"
+            "de": "Ein magic carpet (ein Förderband auf dem Boden)",
+            "cs": "Kouzelný koberec (pásový dopravník na zemi)"
           }
         },
         {
@@ -94776,7 +94947,8 @@
         "en": "{aerialway:occupancy} people fit a single carriage",
         "de": "{aerialway:occupancy} Leute passen in eine Kabine",
         "pl": "{aerialway:occupancy} osób mieści się w jednym wagonie",
-        "cs": "{aerialway:occupancy} osob se vejde do jednoho vozu"
+        "cs": "{aerialway:occupancy} osob se vejde do jednoho vozu",
+        "es": "{aerialway:occupancy} personas entran en un solo vagón"
       },
       "condition": {
         "and": [
@@ -94933,7 +95105,8 @@
         "zh_Hans": "这个动物收容所叫什么名字？",
         "ca": "Quin nom té aquest refugi d'animals?",
         "pl": "Jak nazywa się to schronisko dla zwierząt?",
-        "fr": "Quel est le nom de ce refuge animalier ?"
+        "fr": "Quel est le nom de ce refuge animalier ?",
+        "cs": "Jak se jmenuje tento útulek pro zvířata?"
       },
       "render": {
         "en": "This animal shelter is named <b>{name}</b>",
@@ -94941,7 +95114,8 @@
         "es": "Este refugio de animales se llama <b>{name}</b>",
         "zh_Hans": "这个动物收容所叫 <b>{name}</b>",
         "pl": "To schronisko dla zwierząt nazywa się <b>{name}</b>",
-        "fr": "Ce refuge s'appelle <b>{name}</b>"
+        "fr": "Ce refuge s'appelle <b>{name}</b>",
+        "cs": "Tento útulek pro zvířata se jmenuje <b>{name}</b>"
       },
       "condition": {
         "or": [
@@ -94958,7 +95132,8 @@
         "es": "¿Cuál es la finalidad del refugio de animales?",
         "zh_Hans": "动物收容所的目的是什么？",
         "ca": "Quina és la finalitat del refugi d'animals?",
-        "pl": "Jaki jest cel tego schroniska dla zwierząt?"
+        "pl": "Jaki jest cel tego schroniska dla zwierząt?",
+        "cs": "Jaký je účel útulku pro zvířata?"
       },
       "mappings": [
         {
@@ -94969,7 +95144,8 @@
             "zh_Hans": "动物被饲养在这里直到被新主人收养",
             "ca": "Els animals romanen ací fins que son adoptats per un nou propietari",
             "pl": "Zwierzęta są tutaj dopóki nie znajdą nowego właściciela",
-            "fr": "Les animaux sont gardés jusqu'à ce qu'ils soient adoptés par un nouveau maître"
+            "fr": "Les animaux sont gardés jusqu'à ce qu'ils soient adoptés par un nouveau maître",
+            "cs": "Zvířata jsou zde držena do doby, než si je osvojí nový majitel"
           },
           "if": "purpose=adoption"
         },
@@ -94980,7 +95156,8 @@
             "es": "Los animales reciben cuidados para el resto de su vida",
             "zh_Hans": "动物的余生都得到照顾",
             "ca": "Els animals reben cures per a la resta de la seva vida",
-            "fr": "Les animaux sont recueillis pour le reste de leur vie"
+            "fr": "Les animaux sont recueillis pour le reste de leur vie",
+            "cs": "Zvířata jsou v péči po zbytek života"
           },
           "if": "purpose=sanctuary"
         },
@@ -94992,7 +95169,8 @@
             "zh_Hans": "受伤的动物在这里康复，直到它们可以再次被释放到大自然中 ",
             "ca": "Els animals ferits es rehabiliten aquí fins que puguen ser alliberats de nou a la natura ",
             "pl": "Ranne zwierzęta przechodzą tutaj rehabilitację do momentu, kiedy mogą zostać wypuszczone na wolność ",
-            "fr": "Les animaux blessés sont soignés jusqu'à ce qu'ils soient en état d'être relâchés dans la nature "
+            "fr": "Les animaux blessés sont soignés jusqu'à ce qu'ils soient en état d'être relâchés dans la nature ",
+            "cs": "Zraněná zvířata jsou zde rehabilitována do doby, než mohou být opět vypuštěna do přírody "
           },
           "if": "purpose=release"
         }
@@ -95010,7 +95188,9 @@
         "en": "Which animals are accepted here?",
         "de": "Welche Tiere werden hier akzeptiert?",
         "pl": "Jakie zwierzęta są tutaj przyjmowane?",
-        "ca": "Quins animals s'accepten aquí?"
+        "ca": "Quins animals s'accepten aquí?",
+        "cs": "Která zvířata jsou zde přijímána?",
+        "es": "¿Qué animales se aceptan aquí?"
       },
       "id": "boarded_animals",
       "mappings": [
@@ -95019,7 +95199,9 @@
           "then": {
             "en": "Dogs are kept here",
             "de": "Hunde werden hier gehalten",
-            "pl": "Są tutaj trzymane psy"
+            "pl": "Są tutaj trzymane psy",
+            "cs": "Chovají se zde psi",
+            "es": "Aquí se guardan perros"
           }
         },
         {
@@ -95027,7 +95209,9 @@
           "then": {
             "en": "Cats are kept here",
             "de": "Katzen werden hier gehalten",
-            "pl": "Są tutaj trzymane koty"
+            "pl": "Są tutaj trzymane koty",
+            "cs": "Chovají se zde kočky",
+            "es": "Aquí se guardan gatos"
           }
         },
         {
@@ -95035,7 +95219,9 @@
           "then": {
             "en": "Horses are kept here",
             "de": "Pferde werden hier gehalten",
-            "pl": "Są tutaj trzymane konie"
+            "pl": "Są tutaj trzymane konie",
+            "cs": "Chovají se zde koně",
+            "es": "Aquí se guardan caballos"
           }
         },
         {
@@ -95043,7 +95229,9 @@
           "then": {
             "en": "Birds are kept here",
             "de": "Vögel werden hier gehalten",
-            "pl": "Są tutaj trzymane ptaki"
+            "pl": "Są tutaj trzymane ptaki",
+            "cs": "Chovají se zde ptáci",
+            "es": "Aquí se guardan aves"
           }
         },
         {
@@ -95051,13 +95239,17 @@
           "then": {
             "en": "Wild animals are kept here",
             "de": "Wildtiere werden hier gehalten",
-            "pl": "Są tutaj trzymane dzikie zwierzęta"
+            "pl": "Są tutaj trzymane dzikie zwierzęta",
+            "cs": "Chovají se zde divoká zvířata",
+            "es": "Aquí se guardan animales salvajes"
           }
         }
       ],
       "render": {
         "en": "{animal_shelter} is kept here",
-        "de": "{animal_shelter} wird hier gehalten"
+        "de": "{animal_shelter} wird hier gehalten",
+        "cs": "{animal_shelter} je uložen zde",
+        "es": "Aquí se guardan {animal_shelter}"
       },
       "freeform": {
         "key": "animal_shelter",
@@ -99210,7 +99402,7 @@
           "then": {
             "en": "The surface is <b>fine gravel</b>",
             "nl": "De ondergrond bestaat uit <b>grind</b>",
-            "de": "Die Oberfläche ist <b>feiner Kies</b>",
+            "de": "Der Belag ist <b>feiner Kies</b>",
             "ca": "La superfície és <b> grava fina</b>"
           }
         },
@@ -99220,7 +99412,7 @@
             "en": "The surface of this track is Tartan, a synthetic, slightly springy, porous surface",
             "nl": "De ondergrond is Tartan, een synthetisch, licht verende en poreuze ondergrond",
             "ca": "La superfície d'aquesta pista és Tartan, una superfície sintètica, lleugerament molla i porosa",
-            "de": "Der Belag dieser Laufbahn ist Tartan, ein synthetischer, leicht federnder, poröser Belag"
+            "de": "Der Belag ist Tartan, ein synthetischer, leicht federnder, poröser Belag"
           }
         }
       ],
