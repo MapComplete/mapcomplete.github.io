@@ -16022,7 +16022,8 @@
             "he": "זה שלט חוצות",
             "pl": "To jest bilbord",
             "pt_BR": "Isso é um outdoor",
-            "zh_Hans": "这是一个广告牌"
+            "zh_Hans": "这是一个广告牌",
+            "uk": "Це білборд"
           },
           "icon": {
             "path": "./assets/themes/advertising/billboard.svg",
@@ -16041,7 +16042,8 @@
             "pt": "Isso é uma placa",
             "pl": "To jest tablica",
             "pt_BR": "Isso é uma placa",
-            "zh_Hans": "这是一块板"
+            "zh_Hans": "这是一块板",
+            "uk": "Це дошка"
           },
           "icon": {
             "path": "./assets/themes/advertising/board.svg",
@@ -16215,7 +16217,8 @@
             "pl": "To jest mural ścienny",
             "pt_BR": "Isso é uma pintura mural",
             "zh_Hans": "这是一幅壁画",
-            "pt": "Isto é uma pintura mural"
+            "pt": "Isto é uma pintura mural",
+            "uk": "Це настінний розпис"
           },
           "icon": {
             "path": "./assets/themes/advertising/wall_painting.svg",
@@ -16228,7 +16231,8 @@
             "en": "This is tilework - the advertisement is painted on tiles",
             "de": "Dies ist eine Kachelarbeit - die Werbung ist auf Fliesen gemalt",
             "cs": "Jedná se o dlaždice - reklama je namalovaná na dlaždicích",
-            "es": "Esto es un azulejería - la publicidad está pintada en azulejos"
+            "es": "Esto es un azulejería - la publicidad está pintada en azulejos",
+            "uk": "Це кахельна плитка - реклама намальована на плитці"
           }
         },
         {
@@ -16267,7 +16271,8 @@
         "pt": "Este anúncio percorre várias mensagens?",
         "pl": "Czy ta reklama przechodzi przez wiele różnych wiadomości?",
         "pt_BR": "Este anúncio passa por várias mensagens em sequência?",
-        "zh_Hans": "该广告是否会在多条消息中循环播放？"
+        "zh_Hans": "该广告是否会在多条消息中循环播放？",
+        "uk": "Чи циркулює ця реклама через кілька повідомлень?"
       },
       "condition": {
         "and": [
@@ -16294,7 +16299,8 @@
             "pt": "<b> Static</b>, mostra sempre a mesma mensagem",
             "pl": "<b>Statyczne</b>, zawsze pokazuje tą samą wiadomość",
             "pt_BR": "<b>Estático</b>, mostra sempre a mesma mensagem",
-            "zh_Hans": "<b>静态</b>，始终显示相同的消息"
+            "zh_Hans": "<b>静态</b>，始终显示相同的消息",
+            "uk": "<b>Статичний</b>, завжди показує одне й те саме повідомлення"
           }
         },
         {
@@ -16309,7 +16315,8 @@
             "pt": "Este objeto possui um <b>digital display</b> embutido para mostrar preços ou alguma outra mensagem",
             "pl": "Ten obiekt ma wbudowany <b>cyfrowy wyświetlacz</b> do pokazywania cen lub innych informacji",
             "pt_BR": "Este objeto possui um <b>display digital</b> incorporado para mostrar preços ou alguma outra mensagem",
-            "zh_Hans": "该对象有一个内置的<b>数字显示器</b>来显示价格或其他一些消息"
+            "zh_Hans": "该对象有一个内置的<b>数字显示器</b>来显示价格或其他一些消息",
+            "uk": "Цей об'єкт має вбудований <b>цифровий дисплей</b> для відображення цін або іншого повідомлення"
           },
           "hideInAnswer": {
             "and": [
@@ -16331,7 +16338,8 @@
             "fr": "<b>Trivision</b> - le panneau est constitué de lames triangulaires qui tournent régulièrement",
             "pt": "<b>Trivision</b> - o outdoor consiste em muitos prismas triangulares que giram regularmente",
             "pt_BR": "<b>Trivision</b> - o outdoor consiste em muitos prismas triangulares que giram regularmente",
-            "zh_Hans": "<b>Trivision</b> - 广告牌由许多有规律旋转的三棱柱组成"
+            "zh_Hans": "<b>Trivision</b> - 广告牌由许多有规律旋转的三棱柱组成",
+            "uk": "<b>Поділ</b> - білборд складається з багатьох трикутних призм, які регулярно обертаються"
           },
           "icon": {
             "class": "large",
@@ -16351,7 +16359,8 @@
             "fr": "Affiches <b>défilantes</b>",
             "pt": "Pôsteres de <b>rolagem</b>",
             "pt_BR": "Pôsteres <b>deslizantes</b>",
-            "zh_Hans": "<b>滚动</b>海报"
+            "zh_Hans": "<b>滚动</b>海报",
+            "uk": "<b>Прокрутка</b> постерів"
           },
           "hideInAnswer": {
             "and": [
@@ -16372,7 +16381,8 @@
             "fr": "<b>Tourne</b> sur elle-même",
             "pt": "<b>Gira</b> sobre si mesmo",
             "pt_BR": "<b>Gira</b> sobre si mesmo",
-            "zh_Hans": "<b>自行旋转</b>"
+            "zh_Hans": "<b>自行旋转</b>",
+            "uk": "<b>Обертається</b> на себе"
           },
           "hideInAnswer": {
             "and": [
@@ -16410,7 +16420,8 @@
             "he": "זהו תאורת ניאון",
             "pl": "To jest lampa neonowa",
             "pt_BR": "Isso é uma luz de neon",
-            "zh_Hans": "这是霓虹灯管"
+            "zh_Hans": "这是霓虹灯管",
+            "uk": "Це неонова лампа"
           },
           "hideInAnswer": "advertising!=sign",
           "addExtraTags": [
@@ -16504,7 +16515,8 @@
         "pt_BR": "Operado por {operator}",
         "he": "מופעל על ידי {operator}",
         "pl": "Obsługiwane przez {operator}",
-        "zh_Hans": "由{operator}运营"
+        "zh_Hans": "由{operator}运营",
+        "uk": "Управляється {operator}"
       },
       "question": {
         "ca": "Qui opera aquest element?",
@@ -16518,7 +16530,8 @@
         "he": "מי מפעיל את התכונה הזו?",
         "pl": "Kto obsługuje ten obiekt?",
         "pt_BR": "Quem opera este recurso?",
-        "zh_Hans": "谁操作此物件？"
+        "zh_Hans": "谁操作此物件？",
+        "uk": "Хто керує цим об'єктом?"
       },
       "freeform": {
         "addExtraTags": [],
@@ -16546,7 +16559,8 @@
         "he": "איזה סוג הודעה מוצגת?",
         "pl": "Jaki rodzaj wiadomości jest pokazany?",
         "pt_BR": "Que tipo de mensagem é exibido?",
-        "zh_Hans": "显示什么样的消息？"
+        "zh_Hans": "显示什么样的消息？",
+        "uk": "Яке повідомлення відображається?"
       },
       "mappings": [
         {
@@ -16564,7 +16578,8 @@
             "he": "מסר מסחרי",
             "nl": "Commerciële boodschap",
             "pl": "Wiadomość komercyjna",
-            "zh_Hans": "商业留言"
+            "zh_Hans": "商业留言",
+            "uk": "Комерційне повідомлення"
           }
         },
         {
@@ -16582,7 +16597,8 @@
             "nl": "Lokale informatie",
             "pl": "Informacja lokalna",
             "pt_BR": "Informações locais",
-            "zh_Hans": "本地信息"
+            "zh_Hans": "本地信息",
+            "uk": "Місцева інформація"
           }
         },
         {
@@ -16599,7 +16615,8 @@
             "he": "מידע אבטחה",
             "pl": "Informacje dotyczące bezpieczeństwa",
             "pt_BR": "Informações de segurança",
-            "zh_Hans": "安全信息"
+            "zh_Hans": "安全信息",
+            "uk": "Інформація про безпеку"
           },
           "hideInAnswer": {
             "and": [
@@ -16621,7 +16638,8 @@
             "he": "פרסום בחירות",
             "pl": "Reklamy wyborcze",
             "pt_BR": "Propaganda eleitoral",
-            "zh_Hans": "选举广告"
+            "zh_Hans": "选举广告",
+            "uk": "Передвиборча реклама"
           }
         },
         {
@@ -16640,7 +16658,8 @@
             "eu": "Antzerkiari, kontzertuei eta abarri buruzko informazioa",
             "pl": "Informacje dotyczące teatru, koncertów, …",
             "pt_BR": "Informações relacionadas a teatro, concertos, …",
-            "zh_Hans": "与戏剧、音乐会等相关的信息……"
+            "zh_Hans": "与戏剧、音乐会等相关的信息……",
+            "uk": "Інформація, пов'язана з театром, концертами, …"
           },
           "hideInAnswer": {
             "and": [
@@ -16662,7 +16681,8 @@
             "pt": "Mensagem de organizações sem fins lucrativos",
             "pl": "Wiadomość od organizacji non-profit",
             "pt_BR": "Mensagens de organizações sem fins lucrativos",
-            "zh_Hans": "来自非营利组织的消息"
+            "zh_Hans": "来自非营利组织的消息",
+            "uk": "Повідомлення від неприбуткових організацій"
           }
         },
         {
@@ -16678,7 +16698,8 @@
             "pt": "Para expressar sua opinião",
             "pl": "Żeby wyrazić swoją opinię",
             "pt_BR": "Para expressar sua opinião",
-            "zh_Hans": "表达您的意见"
+            "zh_Hans": "表达您的意见",
+            "uk": "Щоб висловити свою думку"
           },
           "hideInAnswer": {
             "or": [
@@ -16702,7 +16723,8 @@
             "pt_BR": "Mensagem religiosa",
             "he": "מסר דתי",
             "pl": "Przekaz religijny",
-            "zh_Hans": "宗教讯息"
+            "zh_Hans": "宗教讯息",
+            "uk": "Релігійне послання"
           }
         },
         {
@@ -16717,7 +16739,8 @@
             "pt": "sinal de financiamento",
             "pl": "Znak finansowania",
             "pt_BR": "Placa de financiamento",
-            "zh_Hans": "资助标志"
+            "zh_Hans": "资助标志",
+            "uk": "Ознака фінансування"
           },
           "hideInAnswer": {
             "or": [
@@ -16740,7 +16763,8 @@
             "pt": "Um mapa",
             "pt_BR": "Um mapa",
             "pl": "Mapa",
-            "zh_Hans": "地图"
+            "zh_Hans": "地图",
+            "uk": "Карта"
           }
         }
       ],
@@ -16779,7 +16803,8 @@
         "eu": "Zenbat aldetatik ikus dezakezu publizitatea?",
         "pl": "Z ilu stron można oglądać reklamy?",
         "pt_BR": "De quantos lados você consegue visualizar os anúncios?",
-        "zh_Hans": "您可以从几个侧面观看广告？"
+        "zh_Hans": "您可以从几个侧面观看广告？",
+        "uk": "Зі скількох сторін можна дивитися рекламу?"
       },
       "mappings": [
         {
@@ -16796,7 +16821,8 @@
             "pl": "Ten obiekt ma reklamy po jednej stronie",
             "pt_BR": "Este objeto tem anúncios em um único lado",
             "zh_Hans": "该物体单面有广告",
-            "it": "Questo oggetto ha la pubblicità solo da un lato"
+            "it": "Questo oggetto ha la pubblicità solo da un lato",
+            "uk": "Цей об'єкт має рекламу з одного боку"
           }
         },
         {
@@ -16812,7 +16838,8 @@
             "eu": "Objektu honek iragarkiak ditu bi aldeetan",
             "pl": "Ten obiekt ma reklamy po dwóch stronach",
             "pt_BR": "Este objeto tem anúncios em ambos os lados",
-            "zh_Hans": "该物体双面有广告"
+            "zh_Hans": "该物体双面有广告",
+            "uk": "Цей об'єкт має рекламу з обох боків"
           }
         }
       ]
@@ -16830,7 +16857,8 @@
         "pt": "O número de referência é {ref}",
         "pt_BR": "O número de referência é {ref}",
         "pl": "Numer referencyjny to {ref}",
-        "zh_Hans": "编号是{ref}"
+        "zh_Hans": "编号是{ref}",
+        "uk": "Номер посилання: {ref}"
       },
       "question": {
         "ca": "Quin és el número de refèrencia?",
@@ -16843,7 +16871,8 @@
         "pt": "Qual é o número de referência?",
         "pl": "Jaki jest numer referencyjny?",
         "pt_BR": "Qual é o número de referência?",
-        "zh_Hans": "编号是多少？"
+        "zh_Hans": "编号是多少？",
+        "uk": "Який номер посилання?"
       },
       "freeform": {
         "key": "ref",
@@ -16863,7 +16892,8 @@
         "en": "Is this sign for a business that no longer exists or no longer being maintained?",
         "de": "Ist dieses Schild für ein Geschäft, das nicht mehr existiert oder nicht mehr gepflegt wird?",
         "es": "¿Es este cartel de un negocio que ya no existe o que ya no se mantiene?",
-        "cs": "Je tato značka určena pro již neexistující nebo neudržovaný podnik?"
+        "cs": "Je tato značka určena pro již neexistující nebo neudržovaný podnik?",
+        "uk": "Це знак для бізнесу, який більше не існує або більше не підтримується?"
       },
       "mappings": [
         {
@@ -16873,7 +16903,8 @@
             "en": "This is a historic advertisement sign (an advertisement for a business that no longer exists or a very old sign with heritage value)",
             "de": "Es handelt sich um ein historisches Werbeschild (eine Werbung für ein Unternehmen, das nicht mehr existiert, oder ein sehr altes Schild mit historischem Wert)",
             "cs": "Jedná se o historický reklamní nápis (reklama na již neexistující podnik nebo velmi starý nápis s památkovou hodnotou)",
-            "es": "Esto es un cartel publicitario histórico (un anuncio para un negocio que ya no existe o un cartel con un gran valor patrimonial)"
+            "es": "Esto es un cartel publicitario histórico (un anuncio para un negocio que ya no existe o un cartel con un gran valor patrimonial)",
+            "uk": "Це історична рекламна вивіска (реклама підприємства, яке більше не існує, або дуже стара вивіска, що має історичну цінність)"
           }
         },
         {
@@ -16882,7 +16913,8 @@
             "en": "This advertisement sign has no historic value (the business still exists and has no heritage value)",
             "de": "Dieses Werbeschild hat keinen historischen Wert (das Unternehmen existiert noch und hat keinen denkmalpflegerischen Wert)",
             "cs": "Tento reklamní nápis nemá žádnou historickou hodnotu (podnik stále existuje a nemá žádnou památkovou hodnotu)",
-            "es": "Este cartel publicitario no tiene valor histórico (el negocio todavía existe y no tiene valor patrimonial)"
+            "es": "Este cartel publicitario no tiene valor histórico (el negocio todavía existe y no tiene valor patrimonial)",
+            "uk": "Ця рекламна вивіска не має історичної цінності (бізнес все ще існує і не має історичної цінності)"
           }
         }
       ],
@@ -24971,8 +25003,8 @@
           "if": "historic=",
           "alsoShowIf": "historic!=memorial",
           "then": {
-            "en": "This artwork does not serve as a bench",
-            "de": "Dieses Kunstwerk dient nicht als Sitzbank",
+            "en": "This artwork does not serve as a memorial",
+            "de": "Dieses Kunstwerk dient nicht als Denkmal",
             "fr": "Cette œuvre ne sert pas de banc",
             "cs": "Toto dílo neslouží jako lavička",
             "es": "Esta obra de arte no sirve como banco"
@@ -79072,12 +79104,14 @@
         "en": "Are these toilets gender-segregated?",
         "nl": "Zijn deze toiletten gescheiden op basis van geslacht?",
         "de": "Sind diese Toiletten geschlechtergetrennt?",
-        "ca": "Aquests lavabos estan separats per gènere?"
+        "ca": "Aquests lavabos estan separats per gènere?",
+        "cs": "Jsou tyto toalety rozděleny podle pohlaví?"
       },
       "questionHint": {
         "en": "Are there separate stalls or separate areas for men and women and are they signposted as such?",
         "nl": "Is er een aparte ruimte voor mannen en vrouwen en zijn deze ruimtes ook expliciet aangegeven?",
-        "de": "Gibt es getrennte Kabinen oder getrennte Bereiche für Männer und Frauen, und sind sie als solche ausgeschildert?"
+        "de": "Gibt es getrennte Kabinen oder getrennte Bereiche für Männer und Frauen, und sind sie als solche ausgeschildert?",
+        "cs": "Existují samostatné stánky nebo oddělené prostory pro muže a ženy a jsou jako takové označeny?"
       },
       "mappings": [
         {
@@ -79086,7 +79120,8 @@
             "en": "There is a separate, signposted area for men and women",
             "nl": "Er zijn aparte ruimtes of toiletten voor mannen en vrouwen",
             "de": "Es gibt einen separaten, ausgeschilderten Bereich für Männer und Frauen",
-            "ca": "Hi ha una zona separada, senyalitzada per a homes i dones"
+            "ca": "Hi ha una zona separada, senyalitzada per a homes i dones",
+            "cs": "K dispozici je oddělený, označený prostor pro muže a ženy"
           }
         },
         {
@@ -79094,7 +79129,8 @@
           "then": {
             "en": "There is no separate, signposted area for men and women",
             "nl": "Mannen en vrouwen gebruiken dezelfde ruimtes en toiletten",
-            "de": "Es gibt keinen getrennten, ausgeschilderten Bereich für Männer und Frauen"
+            "de": "Es gibt keinen getrennten, ausgeschilderten Bereich für Männer und Frauen",
+            "cs": "Neexistuje žádný oddělený, označený prostor pro muže a ženy"
           }
         }
       ]
@@ -88857,8 +88893,8 @@
         {
           "if": "delivery=yes",
           "then": {
-            "en": "This business does home delivery (eventually via a third party)",
-            "de": "Dieses Unternehmen liefert nach Hause (eventuell über eine dritte Partei)",
+            "en": "This business does home delivery (possibly via a third party)",
+            "de": "Dieses Unternehmen liefert nach Hause (möglicherweise über eine dritte Partei)",
             "fr": "Ce restaurant effectue la livraison à domicile (éventuellement via un tiers)",
             "nl": "Deze zaak levert aan huis (eventueel via een derde partij)",
             "ca": "Aquest negoci fa lliuraments a domicili (eventualment a través d'un tercer)",
@@ -89211,7 +89247,8 @@
         {
           "if": "diet:vegetarian=only",
           "then": {
-            "en": "Serves only vegetarian snacks and burgers"
+            "en": "Serves only vegetarian snacks and burgers",
+            "de": "Nur vegetarische Snacks und Burger erhältlich"
           }
         },
         {
@@ -89274,7 +89311,8 @@
         {
           "if": "diet:vegan=only",
           "then": {
-            "en": "Serves only vegan snacks and burgers"
+            "en": "Serves only vegan snacks and burgers",
+            "de": "Nur vegane Snacks und Burger erhältlich"
           }
         },
         {
@@ -92349,7 +92387,8 @@
         "nl": "Wat is de legale maximumsnelheid voor deze weg?",
         "fr": "Quelle est la vitesse maximum autorisée sur cette route ?",
         "cs": "Jaká je zákonná maximální povolená rychlost na této silnici?",
-        "pl": "Jaka jest maksymalna prawnie dopuszczona prędkość na tej drodze?"
+        "pl": "Jaka jest maksymalna prawnie dopuszczona prędkość na tej drodze?",
+        "ru": "С какой максимальной скоростью разрешено ездить по этой дороге?"
       },
       "freeform": {
         "key": "maxspeed",
@@ -101516,7 +101555,8 @@
         "en": "What is the via point for this bus line?",
         "de": "Über welchen Zwischenhalt fährt die Buslinie?",
         "nl": "Via welk punt gaat deze buslijn?",
-        "cs": "Jaký je průjezdní bod této autobusové linky?"
+        "cs": "Jaký je průjezdní bod této autobusové linky?",
+        "ru": "Где находится конечный пункт этого автобусного маршрута?"
       },
       "condition": {
         "and": [
@@ -102824,7 +102864,8 @@
             "da": "En affaldskurv til almindeligt affald",
             "fr": "Une poubelle pour tout type d'ordures",
             "ca": "Una paperera per a residus generals",
-            "cs": "Odpadkový koš na běžný odpad"
+            "cs": "Odpadkový koš na běžný odpad",
+            "ru": "Корзина для общих отходов"
           }
         },
         {
@@ -102838,7 +102879,8 @@
             "da": "En affaldskurv til hundeekskrementer",
             "fr": "Une poubelle pour déjections canines",
             "ca": "Una paperera per a excrements de gossos",
-            "cs": "Odpadkový koš na psí exkrementy"
+            "cs": "Odpadkový koš na psí exkrementy",
+            "ru": "Корзина для собачьих экскрементов"
           }
         },
         {
@@ -102852,7 +102894,8 @@
             "da": "En affaldskurv til cigaretter",
             "fr": "Une poubelle pour mégots",
             "ca": "Una paperera per a cigarrets",
-            "cs": "Odpadkový koš na cigarety"
+            "cs": "Odpadkový koš na cigarety",
+            "ru": "Корзина для сигарет"
           }
         },
         {
@@ -102866,7 +102909,8 @@
             "da": "En affaldskurv til stoffer",
             "ca": "Una paperera per a medicaments",
             "fr": "Une poubelle pour médicaments",
-            "cs": "Odpadkový koš na léky"
+            "cs": "Odpadkový koš na léky",
+            "ru": "Корзина для наркотиков"
           }
         },
         {
@@ -102880,7 +102924,8 @@
             "da": "En affaldskurv til nåle og andre skarpe genstande",
             "fr": "Une poubelle pour aiguilles et autres objets tranchants",
             "ca": "Una paperera per a agulles i altres objectes punxants",
-            "cs": "Odpadkový koš na jehly a jiné ostré předměty"
+            "cs": "Odpadkový koš na jehly a jiné ostré předměty",
+            "ru": "Корзина для иголок и других острых предметов"
           }
         },
         {
@@ -102894,7 +102939,8 @@
             "da": "En affaldskurv til plast",
             "fr": "Une poubelle pour plastiques",
             "ca": "Una paperera per a plàstic",
-            "cs": "Odpadkový koš na plasty"
+            "cs": "Odpadkový koš na plasty",
+            "ru": "Корзина для пластика"
           }
         },
         {
@@ -102902,7 +102948,8 @@
           "then": {
             "en": "A waste basket for plastic packaging, metal packaging and drink cartons (PMD)",
             "nl": "Een vuilnisbak voor plastic verpakkingen, metalen verpakkingen en drankpakken (PMD)",
-            "de": "Ein Papierkorb für Kunststoffverpackungen, Metallverpackungen und Getränkekartons (Tetrapak)"
+            "de": "Ein Papierkorb für Kunststoffverpackungen, Metallverpackungen und Getränkekartons (Tetrapak)",
+            "ru": "Корзина для пластиковой упаковки, металлической упаковки и картонной упаковки из-под напитков (PMD)"
           }
         },
         {
@@ -102916,7 +102963,8 @@
             "da": "En affaldskurv til papir",
             "fr": "Une poubelle pour papier",
             "ca": "Una paperera per a paper",
-            "cs": "Odpadový koš na papír"
+            "cs": "Odpadový koš na papír",
+            "ru": "Корзина для бумаг"
           }
         }
       ],
@@ -103336,6 +103384,7 @@
         "in_favourite"
       ],
       "render": {
+        "cs": "{link(<img textmode='📞' alt='phone' src='./assets/layers/questions/phone.svg'/>,tel:&LBRACEphone&RBRACE,,,telefon,)}",
         "de": "{link(<img textmode='📞' alt='phone' src='./assets/layers/questions/phone.svg'/>,tel:&LBRACEphone&RBRACE,,,Telefon,)}",
         "en": "{link(<img textmode='📞' alt='phone' src='./assets/layers/questions/phone.svg'/>,tel:&LBRACEphone&RBRACE,,,phone,)}",
         "nl": "{link(<img textmode='📞' alt='phone' src='./assets/layers/questions/phone.svg'/>,tel:&LBRACEphone&RBRACE,,,Telefoneer,)}",
@@ -103346,6 +103395,7 @@
           "#": "ignore-image-in-then",
           "if": "contact:phone~*",
           "then": {
+            "cs": "{link(<img textmode='📞' alt='phone' src='./assets/layers/questions/phone.svg'/>,tel:&LBRACEcontact:phone&RBRACE,,,telefon,)}",
             "de": "{link(<img textmode='📞' alt='phone' src='./assets/layers/questions/phone.svg'/>,tel:&LBRACEcontact:phone&RBRACE,,,Telefon,)}",
             "en": "{link(<img textmode='📞' alt='phone' src='./assets/layers/questions/phone.svg'/>,tel:&LBRACEcontact:phone&RBRACE,,,phone,)}",
             "nl": "{link(<img textmode='📞' alt='phone' src='./assets/layers/questions/phone.svg'/>,tel:&LBRACEcontact:phone&RBRACE,,,Telefoneer,)}",
@@ -103523,6 +103573,7 @@
         "defaults"
       ],
       "render": {
+        "cs": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,https://openstreetmap.org/&LBRACEid&RBRACE,,,Otevřít na openstreetmap.org,)}",
         "da": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,https://openstreetmap.org/&LBRACEid&RBRACE,,,Åbn på openstreetmap.org,)}",
         "de": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,https://openstreetmap.org/&LBRACEid&RBRACE,,,Auf openstreetmap.org öffnen,)}",
         "en": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,https://openstreetmap.org/&LBRACEid&RBRACE,,,Open on openstreetmap.org,)}",
@@ -103539,6 +103590,7 @@
           "#": "ignore-image-in-then",
           "if": "_backend~*",
           "then": {
+            "cs": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,&LBRACE_backend&RBRACE/&LBRACEid&RBRACE,,,Otevřít na openstreetmap.org,)}",
             "da": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,&LBRACE_backend&RBRACE/&LBRACEid&RBRACE,,,Åbn på openstreetmap.org,)}",
             "de": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,&LBRACE_backend&RBRACE/&LBRACEid&RBRACE,,,Auf openstreetmap.org öffnen,)}",
             "en": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,&LBRACE_backend&RBRACE/&LBRACEid&RBRACE,,,Open on openstreetmap.org,)}",
@@ -103550,6 +103602,7 @@
           "#": "ignore-image-in-then",
           "if": "osm_id~*",
           "then": {
+            "cs": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,https://www.openstreetmap.org/&LBRACEosm_id&RBRACE,,,Otevřít na openstreetmap.org,)}",
             "da": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,https://www.openstreetmap.org/&LBRACEosm_id&RBRACE,,,Åbn på openstreetmap.org,)}",
             "de": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,https://www.openstreetmap.org/&LBRACEosm_id&RBRACE,,,Auf openstreetmap.org öffnen,)}",
             "en": "{link(<img alt='on osm' textmode='🗺️' src='./assets/svg/osm-logo-us.svg'/>,https://www.openstreetmap.org/&LBRACEosm_id&RBRACE,,,Open on openstreetmap.org,)}",
