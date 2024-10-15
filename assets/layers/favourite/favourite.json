@@ -24192,6 +24192,29 @@
       }
     },
     {
+      "id": "images_no_blur",
+      "description": "Same as `images`, but uploaded request to disable blurring to the panoramax server",
+      "render": {
+        "*": "{image_carousel()}{image_upload(,,,true)}"
+      },
+      "condition": {
+        "or": [
+          "historic=memorial",
+          "historic=memorial",
+          "historic=memorial",
+          "memorial=ghost_bike",
+          "memorial=ghost_bike",
+          "memorial=ghost_bike",
+          "tourism=artwork",
+          "tourism=artwork",
+          "tourism=artwork",
+          "memorial~.+",
+          "memorial~.+",
+          "memorial~.+"
+        ]
+      }
+    },
+    {
       "labels": [
         "artwork-question"
       ],
@@ -88672,9 +88695,9 @@
     {
       "id": "add-menu-image",
       "render": {
-        "de": "{image_upload(image:menu,Ein Bild aus dem Menü hinzufügen)}",
-        "en": "{image_upload(image:menu,Add an image from the menu)}",
-        "nl": "{image_upload(image:menu,Voeg een foto van het menu toe)}"
+        "de": "{image_upload(image:menu,Ein Bild aus dem Menü hinzufügen,)}",
+        "en": "{image_upload(image:menu,Add an image from the menu,)}",
+        "nl": "{image_upload(image:menu,Voeg een foto van het menu toe,)}"
       },
       "condition": {
         "or": [

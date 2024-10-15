@@ -188,7 +188,7 @@
     }
   ],
   "tagRenderings": [
-    "images",
+    "images_no_blur",
     {
       "labels": [
         "artwork-question"
