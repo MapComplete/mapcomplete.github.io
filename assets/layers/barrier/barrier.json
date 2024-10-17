@@ -155,7 +155,7 @@
         "en": "a cycle barrier",
         "nl": "een fietsbarrière",
         "de": "ein Fahrradhindernis",
-        "hu": "Kerékpárakadály",
+        "hu": "kerékpárakadály",
         "fr": "une barrière cyclable",
         "da": "en stibom",
         "es": "una barrera ciclista",
@@ -469,7 +469,7 @@
           "then": {
             "en": "Squeeze gate - the gap is smaller at the top than at the bottom",
             "nl": "Knijppoort, ruimte is smaller aan de top, dan aan de bodem",
-            "de": "Eine Durchfahrtsbeschränkung, Durchfahrtsbreite ist oben kleiner als unten",
+            "de": "Durchfahrtsbeschränkung - die Durchfahrtsbreite ist oben kleiner als unten",
             "hu": "Szűkítőkapu: a rés felül keskenyebb, mint alul",
             "fr": "Poire, l’espace en hauteur est plus faible qu’au sol",
             "es": "Barrera de seguridad, el espacio es menor en la parte superior que en la inferior",

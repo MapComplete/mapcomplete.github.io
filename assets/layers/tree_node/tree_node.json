@@ -171,7 +171,8 @@
         "da": "et nåletræ",
         "pt": "uma árvore com folhas de agulha",
         "ca": "un arbre amb fulles d'agulla",
-        "cs": "jehličnatý strom"
+        "cs": "jehličnatý strom",
+        "hu": "tűlevelű fa"
       },
       "description": {
         "nl": "Een boom van een soort met naalden, bijvoorbeeld den of spar.",
@@ -203,7 +204,8 @@
         "da": "et træ",
         "pt": "uma árvore",
         "pt_BR": "uma árvore",
-        "cs": "strom"
+        "cs": "strom",
+        "hu": "fa"
       },
       "description": {
         "nl": "Wanneer je niet zeker bent of het nu een loof- of naaldboom is.",
@@ -700,7 +702,8 @@
         "da": "Har træet et navn?",
         "pt": "A árvore tem nome?",
         "ca": "Té nom aquest arbre?",
-        "cs": "Má strom nějaké jméno?"
+        "cs": "Má strom nějaké jméno?",
+        "hu": "Van-e neve ennek a fának?"
       },
       "freeform": {
         "key": "name",

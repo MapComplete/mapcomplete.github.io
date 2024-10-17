@@ -6,7 +6,7 @@
   },
   "description": {
     "en": "An establishment specifically dedicated to prostitution.",
-    "de": "Eine Einrichtung, die speziell der Prostitution gewidmet ist. "
+    "de": "Eine Einrichtung, die speziell der Prostitution gewidmet ist."
   },
   "source": {
     "osmTags": "amenity=brothel"
@@ -83,11 +83,13 @@
       "question": {
         "en": "What is the name of this brothel?",
         "de": "Wie lautet der Name des Bordells?",
-        "ca": "Com es diu aquest bordell?"
+        "ca": "Com es diu aquest bordell?",
+        "hu": "Mi a neve ennek a bordélynak?"
       },
       "render": {
         "en": "This brothel is named <b>{name}</b>",
-        "de": "Der Name des Bordells lautet <b>{name}</b>"
+        "de": "Der Name des Bordells lautet <b>{name}</b>",
+        "hu": "A bordélyház neve: <b>{name}</b>"
       }
     },
     "opening_hours",

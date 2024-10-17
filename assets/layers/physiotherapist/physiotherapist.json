@@ -74,7 +74,8 @@
         "nl": "Wat is de naam van deze kinesistenpraktijk?",
         "de": "Wie heißt die Praxis des Physiotherapeuten?",
         "ca": "Quin és el nom d'aquesta consulta fisioterapèutica?",
-        "cs": "Jak se jmenuje ordinace fyzioterapeuta?"
+        "cs": "Jak se jmenuje ordinace fyzioterapeuta?",
+        "hu": "Mi a neve ennek a gyógytornász-rendelőnek?"
       },
       "render": {
         "en": "This physiotherapists office is called {name}",

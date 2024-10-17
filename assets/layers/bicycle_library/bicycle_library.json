@@ -163,7 +163,8 @@
         "da": "Hvad hedder dette cykelbibliotek?",
         "es": "¿Cuál es el nombre de esta biblioteca de bicicletas?",
         "cs": "Jak se jmenuje tato půjčovna kol?",
-        "ca": "Com es diu aquesta biblioteca de bicicletes?"
+        "ca": "Com es diu aquesta biblioteca de bicicletes?",
+        "hu": "Mi a neve ennek a kerékpárkönyvtárnak?"
       },
       "render": {
         "en": "This bicycle library is called {name}",

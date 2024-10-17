@@ -17,7 +17,7 @@
     "en": "A layer showing cafés and pubs where one can gather around a drink.",
     "hu": "Egy olyan réteg, amely kávézókat és kocsmákat jelenít meg, ahol össze lehet gyűlni egy ital köré. A réteg néhány lényeges kérdést tesz fel",
     "nl": "Een laag die kroegen en koffiehuizen toont waar je iets kunt drinken. De laag zal je enkele vragen stellen",
-    "de": "Eine Ebene mit Cafés und Kneipen, in denen man sich auf ein Getränk treffen kann. Die Ebene fragt nach einigen relevanten Eigenschaften",
+    "de": "Eine Ebene mit Cafés und Kneipen, in denen man sich auf ein Getränk treffen kann.",
     "es": "Una capa que muestra cafeterías y bares donde uno se puede reunir con una bebida. La capa hace algunas preguntas relevantes",
     "da": "Et lag med caféer og pubber, hvor man kan samles omkring en drink. Laget stiller nogle relevante spørgsmål",
     "fr": "Une couche montrant les cafés et pubs où l’on peut prendre un verre. Cette couche pose des questions y afférant.",
@@ -217,7 +217,7 @@
       "description": {
         "en": "A <b>café</b> to drink tea, coffee or an alcoholic beverage in a quiet environment",
         "nl": "Dit is een <b>cafe</b> - een plaats waar men rustig kan zitten om een thee, koffie of alcoholische drank te nuttigen.",
-        "de": "Ein <b>Café</b>, um in ruhiger Umgebung Tee, Kaffee oder ein alkoholisches Getränk zu trinken",
+        "de": "Ein <b>Café</b>, um in ruhiger Umgebung Tee, Kaffee oder alkoholische Getränke zu trinken",
         "da": "En <b>café</b> til at drikke te, kaffe eller en alkoholisk drik i rolige omgivelser",
         "es": "Un <b>café</b> para tomar té, café o una bebida alcohólica en un ambiente tranquilo",
         "fr": "Un <b>café</b> pour prendre un thé, un café ou une boisson alcoolisée dans un environnement calme",
@@ -238,7 +238,8 @@
         "da": "en natklub eller et diskotek",
         "ca": "un club nocturn o discoteca",
         "pl": "klub nocny lub dyskoteka",
-        "cs": "noční klub nebo diskotéka"
+        "cs": "noční klub nebo diskotéka",
+        "hu": "night club vagy diszkó"
       },
       "description": {
         "en": "A <b>nightclub</b> or disco with a focus on dancing, music by a DJ with accompanying light show and a bar to get alcoholic) drinks",
@@ -261,7 +262,7 @@
         "en": "What is the name of this business?",
         "de": "Was ist der Name dieses Unternehmens?",
         "fr": "Quel est le nom de ce pub ?",
-        "hu": "Mi a neve ennek a kocsmának?",
+        "hu": "Mi a neve ennek a vállalkozásnak?",
         "da": "Hvad hedder denne pub?",
         "es": "¿Cuál es el nombre de esta empresa?",
         "ca": "Quin és el nom d'aquest negoci?",
@@ -328,7 +329,7 @@
           "then": {
             "en": "A <b>café</b> to drink tea, coffee or an alcoholic beverage in a quiet environment",
             "nl": "Dit is een <b>cafe</b> - een plaats waar men rustig kan zitten om een thee, koffie of alcoholische drank te nuttigen.",
-            "de": "Ein <b>Café</b>, um in ruhiger Umgebung Tee, Kaffee oder ein alkoholisches Getränk zu trinken",
+            "de": "Ein <b>Café</b>, um in ruhiger Umgebung Tee, Kaffee oder alkoholische Getränke zu trinken",
             "da": "En <b>café</b> til at drikke te, kaffe eller en alkoholisk drik i rolige omgivelser",
             "es": "Una <b>cafetería</b> para beber té, café o una bebida alcohólica en un ambiente tranquilo",
             "fr": "Un <b>café</b> pour boire du thé, du café ou une boisson alcoolisée au calme",
@@ -354,7 +355,7 @@
           "then": {
             "en": "This is a beer garden: an open-air space where beer is served, typically seen in Germany",
             "nl": "Een open ruimte waar bier geserveerd wordt. Typisch in Duitsland",
-            "de": "Ein Außenbereich mit Bierausschank, typischerweise in Deutschland",
+            "de": "Ein Biergarten mit Außenbereich mit Bierausschank, typischerweise in Deutschland",
             "da": "Et åbent rum, hvor der serveres øl, typisk set i Tyskland",
             "es": "Un espacio abierto donde se sirve cerveza, típico de Alemania",
             "fr": "Un espace ouvert où la bière est servie, typiquement vu en Allemagne",

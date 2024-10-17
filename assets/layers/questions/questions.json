@@ -760,7 +760,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -786,7 +787,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -799,7 +801,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -828,7 +831,8 @@
               "nb_NO": "Døgnåpent (inkludert helligdager)",
               "cs": "Otevřeno 24/7 (včetně svátků)",
               "ca": "Obert 24/7 (incloent-hi festius)",
-              "pl": "Otwarte 24/7 (również w święta)"
+              "pl": "Otwarte 24/7 (również w święta)",
+              "uk": "Працює 24/7 (включаючи святкові дні)"
             }
           }
         ]
@@ -862,7 +866,8 @@
               "es": "Sólo con cita previa",
               "nb_NO": "Kun ved avtale",
               "pl": "Tylko po wcześniejszym umówieniu się",
-              "cs": "Pouze po domluvě"
+              "cs": "Pouze po domluvě",
+              "uk": "Тільки за попереднім записом"
             }
           },
           {
@@ -876,7 +881,8 @@
               "es": "Sólo con cita previa",
               "nb_NO": "Kun ved avtale",
               "pl": "Tylko po wcześniejszym umówieniu się",
-              "cs": "Pouze po domluvě"
+              "cs": "Pouze po domluvě",
+              "uk": "Тільки за попереднім записом"
             },
             "hideInAnswer": true
           }
@@ -1768,7 +1774,8 @@
         "es": "¿En qué nivel se encuentra esta característica?",
         "nb_NO": "Hvilken etasje befinner funksjonen seg i?",
         "da": "På hvilket niveau er denne funktion placeret?",
-        "cs": "V jaké úrovni se tento prvek nachází?"
+        "cs": "V jaké úrovni se tento prvek nachází?",
+        "uk": "На якому поверсі знаходиться цей об'єкт?"
       },
       "render": {
         "en": "Located on the {level}th floor",
@@ -1792,7 +1799,8 @@
         "da": "Beliggende på {level}. etage",
         "nb_NO": "Ligger i {level} etasje",
         "id": "Terletak di lantai {level}",
-        "cs": "Nachází se v {level}. patře"
+        "cs": "Nachází se v {level}. patře",
+        "uk": "Розташований на {level} поверсі"
       },
       "freeform": {
         "key": "level",
@@ -1822,7 +1830,8 @@
             "fil": "Nasa ilalim ng lupa",
             "es": "Localizado bajo tierra",
             "da": "Placeret under jorden",
-            "cs": "Nachází se v podzemí"
+            "cs": "Nachází se v podzemí",
+            "uk": "Розташований під землею"
           },
           "hideInAnswer": true
         },
@@ -1850,7 +1859,8 @@
             "fil": "Nasa unang palapag",
             "es": "Localizado en la planta baja",
             "da": "Beliggende i stueetagen",
-            "cs": "Nachází se v přízemí"
+            "cs": "Nachází se v přízemí",
+            "uk": "Розташований на рівні землі"
           }
         },
         {
@@ -1878,7 +1888,8 @@
             "fil": "Nasa unang palapag",
             "es": "Localizado en la planta baja",
             "da": "Beliggende i stueetagen",
-            "cs": "Nachází se v přízemí"
+            "cs": "Nachází se v přízemí",
+            "uk": "Розташований на рівні землі"
           }
         },
         {
@@ -1905,7 +1916,8 @@
             "fil": "Nasa unang palapag",
             "es": "Localizado en la primera planta",
             "da": "Beliggende på første sal",
-            "cs": "Nachází se v prvním patře"
+            "cs": "Nachází se v prvním patře",
+            "uk": "Розташований на першому поверсі"
           }
         },
         {
@@ -1926,7 +1938,8 @@
             "pt": "Localizado no primeiro nível da cave",
             "da": "Beliggende på første kælderetage",
             "cs": "Nachází se v prvním suterénu",
-            "pl": "Położone na pierwszym poziomie piwnicy"
+            "pl": "Położone na pierwszym poziomie piwnicy",
+            "uk": "Розташований на першому підвальному поверсі"
           }
         }
       ]

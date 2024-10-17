@@ -197,7 +197,8 @@
           "if": "hackerspace=hacklab",
           "then": {
             "en": "This is a <b>hacklab</b> which is mostly focussed on basic computer skills, using recycled devices and/or providing internet to the community. This is typically located in autonomous spaces, squats or social facilities",
-            "de": "Dies ist ein <b>Hackerspace/Hack-Lab</b>, das sich hauptsächlich auf grundlegende Computerkenntnisse konzentriert, recycelte Geräte verwendet und/oder der Gemeinschaft Internet bereitstellt. Es befindet sich typischerweise in autonomen Räumen, besetzten Häusern oder sozialen Einrichtungen"
+            "de": "Dies ist ein <b>Hackerspace/Hack-Lab</b>, das sich hauptsächlich auf grundlegende Computerkenntnisse konzentriert, recycelte Geräte verwendet und/oder der Gemeinschaft Internet bereitstellt. Es befindet sich typischerweise in autonomen Räumen, besetzten Häusern oder sozialen Einrichtungen",
+            "uk": "Це <b>хак-лабораторія</b>, яка здебільшого зосереджена на базових комп'ютерних навичках, використовує перероблені пристрої та/або надає доступ до Інтернету громаді. Зазвичай вони розташовані в автономних приміщеннях, сквотах або соціальних об'єктах"
           }
         }
       ]
@@ -210,7 +211,8 @@
         "es": "¿Cual es el nombre de este espacio hacker?",
         "nl": "Wat is de naam van deze hackerspace?",
         "ca": "Quin és el nom d'aquest espai hacker?",
-        "cs": "Jak se jmenuje tento hackerspace?"
+        "cs": "Jak se jmenuje tento hackerspace?",
+        "hu": "Mi a neve ennek a hackerspace-nek?"
       },
       "render": {
         "en": "This hackerspace is named <b>{name}</b>",
@@ -219,7 +221,8 @@
         "es": "Este espacio hacker se llama <b>{name}</b>",
         "nl": "Deze hackerspace heet <b>{name}</b>",
         "ca": "Aquest espai hacker es diu <b>{name}</b>",
-        "cs": "Tento hackerský prostor se jmenuje <b>{name}</b>"
+        "cs": "Tento hackerský prostor se jmenuje <b>{name}</b>",
+        "hu": "A hackerspace neve: <b>{name}</b>"
       },
       "freeform": {
         "key": "name"
@@ -241,7 +244,8 @@
           "es": "¿Cuándo está abierto este espacio hacker?",
           "nl": "Wanneer is deze hackerspace geopend?",
           "ca": "Quan obri aquest espai hacker?",
-          "cs": "Kdy je tento prostor hackerů otevřen?"
+          "cs": "Kdy je tento prostor hackerů otevřen?",
+          "uk": "Коли відкривається цей хакерський простір?"
         }
       }
     },

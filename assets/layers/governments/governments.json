@@ -78,7 +78,8 @@
         "de": "Wie lautet der Name dieser Behörde?",
         "nl": "Wat is de naam van deze overheidsdienst?",
         "ca": "Quin és el nom d'aquesta oficina gornavental?",
-        "cs": "Jak se jmenuje tento úřad vlády?"
+        "cs": "Jak se jmenuje tento úřad vlády?",
+        "hu": "Mi a neve ennek a hivatalnak?"
       },
       "render": {
         "en": "This Governmental Office is called {name}",

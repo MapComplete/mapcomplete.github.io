@@ -120,7 +120,8 @@
         "nl": "Wat is de naam van deze dierenartspraktijk?",
         "fr": "Quel est le nom de ce vétérinaire ?",
         "ca": "Qui és el nom d'aquest veterinari?",
-        "cs": "Jak se jmenuje tento veterinář?"
+        "cs": "Jak se jmenuje tento veterinář?",
+        "hu": "Mi a neve ennek az állatorvosnak?"
       },
       "render": {
         "en": "The name of this veterinarian is {name}",

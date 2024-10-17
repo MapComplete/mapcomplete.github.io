@@ -71,7 +71,7 @@
         "nl": "een fitness-centrum",
         "ca": "un centre de fitness",
         "cs": "fitness centra",
-        "hu": "fitneszstúdió"
+        "hu": "edzőterem"
       },
       "icon": "./assets/layers/fitness_centre/gym.svg"
     }
@@ -84,7 +84,8 @@
         "de": "Wie lautet der Name des Fitnessstudios?",
         "nl": "Wat is de naam van dit fitness-centrum?",
         "ca": "Quin és el nom d'aquest centre de fitness?",
-        "cs": "Jak se jmenuje toto fitness centrum?"
+        "cs": "Jak se jmenuje toto fitness centrum?",
+        "hu": "Mi a neve ennek az edzőteremnek?"
       },
       "freeform": {
         "key": "name",

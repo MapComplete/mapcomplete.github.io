@@ -160,7 +160,8 @@
         "de": "einen Sportplatz",
         "es": "una pista de deportes",
         "ca": "una pista d'esports",
-        "cs": "sportovní hřiště"
+        "cs": "sportovní hřiště",
+        "hu": "sportpálya"
       },
       "tags": [
         "leisure=pitch",
@@ -693,7 +694,8 @@
         "ru": "В какое время доступна эта площадка?",
         "de": "Wann ist dieser Sportplatz zugänglich?",
         "es": "¿Cuándo es accesible esta pista?",
-        "cs": "Kdy je toto hřiště přístupné?"
+        "cs": "Kdy je toto hřiště přístupné?",
+        "uk": "Коли цей майданчик доступний?"
       },
       "render": "Openingsuren: {opening_hours_table()}",
       "freeform": {
@@ -708,7 +710,8 @@
             "nl": "24/7 toegankelijk",
             "de": "Immer zugänglich",
             "ca": "Sempre accesible",
-            "cs": "Vždy přístupné"
+            "cs": "Vždy přístupné",
+            "uk": "Завжди доступні"
           },
           "hideInAnswer": true
         },
@@ -723,7 +726,8 @@
             "de": "Immer zugänglich",
             "es": "Siempre accesible",
             "cs": "Vždy přístupné",
-            "ca": "Sempre accesible"
+            "ca": "Sempre accesible",
+            "uk": "Завжди доступні"
           }
         }
       ],

@@ -102,7 +102,8 @@
         "fr": "Quel est le nom de cet établissement scolaire?",
         "ca": "Quin és el nom d'aquesta escola?",
         "pl": "Jaką nazwę ma ta szkoła?",
-        "cs": "Jak se jmenuje tato škola?"
+        "cs": "Jak se jmenuje tato škola?",
+        "hu": "Mi a neve ennek az iskolának?"
       },
       "freeform": {
         "key": "name"

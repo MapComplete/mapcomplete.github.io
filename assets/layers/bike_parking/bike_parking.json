@@ -542,7 +542,7 @@
       "questionHint": {
         "en": "This includes all types of bicycle - regular, cargo, ebike etc.",
         "nl": "Dit is het totaal aantal gewone fietsen, bakfietsen, elektrische fietsen, ...",
-        "de": "Dazu gehören reguläre Fahrräder, Lasträder, Ebikes,...",
+        "de": "Dazu gehören alle Fahrradtypen - reguläre Fahrräder, Lastenräder, Elektrofahrräder etc.",
         "pl": "To obejmuje zwykłe rowery, do transportu dóbr, elektryczne, ...",
         "es": "Esto incluye bicis normales, de carga, eléctricas, ..."
       },
@@ -690,7 +690,7 @@
       "question": {
         "en": "Is it free to park a bicycle here?",
         "nl": "Is deze fietsenstalling gratis te gebruiken?",
-        "de": "Sind die Fahrradparkplätze kostenlos zu benutzen?",
+        "de": "Kann man hier kostenlos Fahrräder abstellen?",
         "ca": "Aquests aparcaments de bicicletes són gratuïts?",
         "es": "¿Son estos aparcamientos de bicicletras de uso gratuito?"
       },
@@ -778,7 +778,7 @@
       "questionHint": {
         "en": "One might be able to call this number in case of problems, e.g. to remove abandoned bicycles",
         "nl": "Men kan dit nummer bellen om bv. fietswrakken of defecten te melden",
-        "de": "Man könnte diese Nummer anrufen, wenn es Probleme gibt, z. B. um nicht gewartete Fahrräder zu entfernen",
+        "de": "Man könnte diese Nummer anrufen, wenn es Probleme gibt, z. B. um herrenlose Fahrräder zu entfernen",
         "ca": "És possible que es pugui trucar a aquest número en cas de problemes, p. per retirar les bicicletes abandonades"
       },
       "icon": "./assets/layers/questions/phone.svg",

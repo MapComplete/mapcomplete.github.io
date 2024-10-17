@@ -157,7 +157,8 @@
         "fr": "une caméra de surveillance fixée au mur",
         "ca": "una càmera de vigilància muntada en una paret",
         "cs": "sledovací kamera namontovaná na zdi",
-        "sl": "nadzorna kamera pritrjena na steno"
+        "sl": "nadzorna kamera pritrjena na steno",
+        "hu": "falra szerelt térfigyelő kamera"
       },
       "snapToLayer": [
         "walls_and_buildings"
@@ -173,7 +174,8 @@
         "ca": "una càmera ALPR (lector automàtic de matrícules, per les seves sigles en anglès)",
         "de": "Eine Kamera zur automatischen Nummernschilderkennung",
         "cs": "kamera ALPR (automatická čtečka registračních značek)",
-        "sl": "kamera za prepoznavo registrskih tablic"
+        "sl": "kamera za prepoznavo registrskih tablic",
+        "hu": "automatikus rendszámfelismerő kamera"
       },
       "description": {
         "en": "An ALPR typically has two lenses and an array of infrared lights.",
@@ -198,7 +200,8 @@
         "ca": "una càmera ALPR (lector automàtic de matrícules) muntada a la paret",
         "de": "eine Kamera zur Nummernschilderkennung, die an einer Wand befestigt ist",
         "cs": "kamera ALPR (Automatická čtečka registračních značek) namontovaná na zdi",
-        "sl": "na steno pritrjena kamera za prepoznavo registrskih tablic"
+        "sl": "na steno pritrjena kamera za prepoznavo registrskih tablic",
+        "hu": "falra szerelt automatikus rendszámfelismerő kamera"
       },
       "description": {
         "en": "An ALPR typically has two lenses and an array of infrared lights.",

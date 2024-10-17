@@ -180,7 +180,8 @@
         "pl": "Dzieło sztuki na ścianie",
         "pt_BR": "uma obra de arte em uma parede",
         "zh_Hans": "一个墙上的艺术品",
-        "pt": "uma obra de arte numa parede"
+        "pt": "uma obra de arte numa parede",
+        "hu": "falon lévő műalkotás"
       },
       "snapToLayer": [
         "walls_and_buildings"
@@ -677,7 +678,7 @@
         "en": "Is there an official website with more information about this artwork?",
         "nl": "Is er een website met meer informatie over dit kunstwerk?",
         "fr": "Existe-t-il un site web où trouver plus d'informations sur cette œuvre d'art ?",
-        "de": "Auf welcher Webseite gibt es weitere Informationen zum Kunstwerk?",
+        "de": "Auf welcher offiziellen Webseite gibt es weitere Informationen zum Kunstwerk?",
         "it": "Esiste un sito web con maggiori informazioni su quest’opera?",
         "ru": "Есть ли сайт с более подробной информацией об этой работе?",
         "ja": "この作品についての詳しい情報はどのウェブサイトにありますか?",

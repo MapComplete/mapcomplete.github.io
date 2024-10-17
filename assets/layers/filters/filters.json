@@ -23,7 +23,8 @@
             "id": "Saat ini buka",
             "it": "Aperto ora",
             "pl": "Otwarte teraz",
-            "cs": "Nyní otevřeno"
+            "cs": "Nyní otevřeno",
+            "uk": "Відчинено"
           },
           "osmTags": "_isOpen=yes"
         }
@@ -239,7 +240,8 @@
             "de": "Bio-Produkte im Angebot",
             "nl": "Heeft biologische opties",
             "ca": "Té opcions orgàniques",
-            "cs": "Má bio možnosti"
+            "cs": "Má bio možnosti",
+            "uk": "Має органічні продукти"
           }
         }
       ]
@@ -275,7 +277,8 @@
             "en": "No preference towards dogs",
             "nl": "Geen voorkeur voor honden",
             "de": "Keine Bevorzugung von Hunden",
-            "cs": "Bez preference psů"
+            "cs": "Bez preference psů",
+            "uk": "Не надає переваги собакам"
           }
         },
         {

@@ -110,7 +110,8 @@
         "es": "¿Cual es el nombre de este parque para perros?",
         "nl": "Wat is de naam van deze hondenweide?",
         "ca": "Com s'anomena aquest parc per a gossos?",
-        "cs": "Jak se jmenuje tento psí park?"
+        "cs": "Jak se jmenuje tento psí park?",
+        "hu": "Mi a neve ennek a kutyafuttatónak?"
       },
       "render": {
         "en": "The name of this dog park is {name}",

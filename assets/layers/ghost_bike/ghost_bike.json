@@ -151,7 +151,8 @@
         "it": "A chi è dedicata questa bici fantasma?",
         "fr": "À qui est dédié ce vélo fantôme ?",
         "ca": "A qui recorda aquesta bicicleta fantasma?",
-        "cs": "Na koho vzpomíná toto kolo duchů?"
+        "cs": "Na koho vzpomíná toto kolo duchů?",
+        "hu": "Mi a neve ennek a szellemkerékpárnak?"
       },
       "render": {
         "en": "In remembrance of {subject}",

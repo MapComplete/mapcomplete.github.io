@@ -104,7 +104,8 @@
         "ca": "un rellotge muntat en un paret",
         "fr": "une horloge fixée au mur",
         "pl": "zegar na ścianie",
-        "cs": "hodiny na stěně"
+        "cs": "hodiny na stěně",
+        "hu": "falra szerelt óra"
       },
       "description": {
         "en": "A publicly visible clock mounted on a wall",
@@ -402,7 +403,7 @@
       "question": {
         "en": "Does this clock also display the air pressure? (barometer)",
         "nl": "Toont deze klok ook de luchtdruk?",
-        "de": "Zeigt diese Uhr auch den Luftdruck an?",
+        "de": "Zeigt diese Uhr auch den Luftdruck an? (Barometer)",
         "ca": "Aquest rellotge també mostra la pressió de l'aire?",
         "fr": "Est-ce que cette horloge affiche également la pression atmosphérique ?",
         "pl": "Czy ten zegar wyświetla ciśnienie?",

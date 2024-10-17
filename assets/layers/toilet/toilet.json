@@ -163,7 +163,8 @@
         "ru": "tуалет с доступом для пользователей кресел-колясок",
         "da": "et toilet med kørestolsvenligt toilet",
         "ca": "un lavabo amb lavabo accessible per a cadires de rodes",
-        "cs": "toalety s bezbariérovou toaletou"
+        "cs": "toalety s bezbariérovou toaletou",
+        "hu": "akadálymentes illemhellyel is rendelkező WC"
       },
       "tags": [
         "amenity=toilets",
@@ -427,7 +428,8 @@
           "fr": "Quand ces toilettes sont-elles ouvertes ?",
           "da": "Hvornår åbnes disse toiletter?",
           "ca": "Quan obrin aquests lavabos?",
-          "cs": "Kdy jsou tyto toalety otevřeny?"
+          "cs": "Kdy jsou tyto toalety otevřeny?",
+          "uk": "Коли відкриваються ці туалети?"
         }
       }
     },
@@ -691,7 +693,8 @@
       "question": {
         "en": "Where are the free menstrual products located?",
         "nl": "Waar bevinden de gratis menstruatieproducten zich?",
-        "de": "Wo befinden sich die kostenlosen Menstruationsprodukte?"
+        "de": "Wo befinden sich die kostenlosen Menstruationsprodukte?",
+        "uk": "Де знаходяться безкоштовні менструальні засоби?"
       },
       "condition": {
         "or": [
@@ -713,7 +716,8 @@
           "then": {
             "en": "The free, menstrual products are located in the toilet for women",
             "nl": "De gratis menstruatieproducten bevinden zich in het vrouwentoilet",
-            "de": "Die kostenlosen Menstruationsprodukte befinden sich in der Toilette für Frauen"
+            "de": "Die kostenlosen Menstruationsprodukte befinden sich in der Toilette für Frauen",
+            "uk": "Безкоштовні менструальні засоби знаходяться в туалеті для жінок"
           },
           "if": "toilets:menstrual_products:location=female_toilet",
           "alsoShowIf": "toilets:menstrual_products:location="
@@ -722,7 +726,8 @@
           "then": {
             "en": "The free, menstrual products are located in the toilet for men",
             "nl": "De gratis menstruatieproducten bevinden zich in het mannentoilet",
-            "de": "Die kostenlosen Menstruationsprodukte befinden sich in der Toilette für Männer"
+            "de": "Die kostenlosen Menstruationsprodukte befinden sich in der Toilette für Männer",
+            "uk": "Безкоштовні менструальні засоби знаходяться в туалеті для чоловіків"
           },
           "if": "toilets:menstrual_products:location=male_toilet"
         },
@@ -731,7 +736,8 @@
           "then": {
             "en": "The free, menstrual products are located in the toilet for wheelchair users",
             "nl": "De gratis menstruatieproducten bevinden zich in het rolstoeltoegankelijke toilet",
-            "de": "Die kostenlosen Menstruationsprodukte befinden sich auf der Toilette für Rollstuhlfahrende"
+            "de": "Die kostenlosen Menstruationsprodukte befinden sich auf der Toilette für Rollstuhlfahrende",
+            "uk": "Безкоштовні менструальні засоби знаходяться в туалеті для людей на візках"
           }
         }
       ]
@@ -796,7 +802,8 @@
         "es": "¿Dónde está el cambiador?",
         "da": "Hvor er puslebordet placeret?",
         "ca": "On està el canviador?",
-        "cs": "Kde je umístěn přebalovací pult?"
+        "cs": "Kde je umístěn přebalovací pult?",
+        "uk": "Де знаходиться пеленальний столик?"
       },
       "render": {
         "en": "A changing table is located at {changing_table:location}",

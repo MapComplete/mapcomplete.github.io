@@ -247,7 +247,8 @@
             "ca": "Aquest contenidor està situat a l'interior",
             "cs": "Tento kontejner se nachází uvnitř",
             "pl": "Kontener ten znajduje się w pomieszczeniu zamkniętym",
-            "zh_Hant": "這個容器位於室內"
+            "zh_Hant": "這個容器位於室內",
+            "uk": "Цей контейнер знаходиться в приміщенні"
           }
         },
         {
@@ -262,7 +263,8 @@
             "ca": "Aquest contenidor està situat a l'aire lliure",
             "cs": "Tento kontejner se nachází venku",
             "pl": "Kontener ten znajduje się na zewnątrz",
-            "zh_Hant": "這個容器位於室外"
+            "zh_Hant": "這個容器位於室外",
+            "uk": "Цей контейнер розташований на відкритому повітрі"
           }
         }
       ]

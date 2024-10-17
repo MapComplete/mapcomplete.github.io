@@ -21,7 +21,7 @@
   "description": {
     "en": "A bike café is a café geared towards cyclists, for example with services such as a pump, and with bicycle-related decoration.",
     "nl": "Een fietscafé is een café dat gericht is op fietsers, bijvoorbeeld omdat het een fietspomp heeft, fietsgerelateerde decoratie heeft enzovoorts.",
-    "de": "Ein Fahrradcafé ist ein Café, das auf Radfahrer ausgerichtet ist, zum Beispiel mit Dienstleistungen wie einer Pumpe, mit viel fahrradbezogener Dekoration, …",
+    "de": "Ein Fahrradcafé ist ein Café, das auf Radfahrer ausgerichtet ist, zum Beispiel mit Dienstleistungen wie einer Pumpe und mit fahrradbezogener Dekoration.",
     "da": "En cykelcafé er en café rettet mod cyklister, for eksempel med tjenester som en pumpe, med masser af cykelrelateret dekoration, o.s.v",
     "fr": "Un vélo café est un café à destination des cyclistes avec, par exemple, des services tels qu’une pompe, et de nombreuses décorations liées aux vélos, etc.",
     "cs": "Cyklokavárna je kavárna zaměřená na cyklisty, například se službami, jako je pumpa, se spoustou výzdoby související s jízdními koly, …",
@@ -164,7 +164,8 @@
         "da": "Hvad hedder denne cykelcafé?",
         "cs": "Jak se jmenuje tato cyklokavárna?",
         "ca": "Quin és el nom d'aquest cafè ciclista?",
-        "es": "¿Cómo se llama la cafetería para ciclistas?"
+        "es": "¿Cómo se llama la cafetería para ciclistas?",
+        "hu": "Mi a neve ennek a kerékpároskávézónak?"
       },
       "render": {
         "en": "This bike café is called {name}",
@@ -388,7 +389,8 @@
           "pt": "Quando este café de bicicleta abre?",
           "da": "Hvornår er denne cykelcafé åbent?",
           "cs": "Kdy byla tato cyklistická kavárna otevřena?",
-          "ca": "Quan obri aquest cafè ciclista?"
+          "ca": "Quan obri aquest cafè ciclista?",
+          "uk": "Коли працює велокафе?"
         }
       }
     }

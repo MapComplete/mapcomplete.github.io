@@ -121,7 +121,8 @@
         "fr": "Quel est le nom de cette pharmacie ?",
         "ca": "Quin és el nom de la farmàcia?",
         "cs": "Jak se lékárna jmenuje?",
-        "pl": "Jak nazywa się ta apteka?"
+        "pl": "Jak nazywa się ta apteka?",
+        "hu": "Mi a neve ennek a patikának?"
       },
       "render": {
         "en": "This pharmacy is called {name}",

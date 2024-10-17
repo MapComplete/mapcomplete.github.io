@@ -106,7 +106,8 @@
         "es": "un desfibrilador montado en una pared",
         "ca": "un desfibril·lador muntat en la paret",
         "pl": "defibrylator na ścianie",
-        "cs": "defibrilátor namontovaný na stěně"
+        "cs": "defibrilátor namontovaný na stěně",
+        "hu": "falra szerelt defibrillátor"
       },
       "tags": [
         "emergency=defibrillator"
@@ -637,7 +638,8 @@
           "es": "¿A qué horas está disponible este desfibrilador?",
           "ca": "En quins horaris està disponible aquest desfibril·lador?",
           "pl": "W jakich godzinach dostępny jest ten defibrylator?",
-          "cs": "V jakých hodinách je tento defibrilátor k dispozici?"
+          "cs": "V jakých hodinách je tento defibrilátor k dispozici?",
+          "uk": "В який час цей дефібрилятор доступний?"
         }
       }
     },

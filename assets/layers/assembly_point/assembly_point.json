@@ -5,12 +5,13 @@
     "it": "Punti di raccolta per emergenze",
     "de": "Notfallsammelplätze",
     "cs": "Nouzová shromaždiště",
-    "es": "Puntos de encuentro por emergencia"
+    "es": "Puntos de encuentro por emergencia",
+    "hu": "Vészhelyzeti gyülekezőhely"
   },
   "description": {
     "en": "This layer shows assembly points and waiting areas, where employees, passengers or a large crowd assemble in case of an emergency.",
     "it": "Questo livello contiene punti di raccolta e aree di attesa in cui tutti i dipendenti, i passeggeri o una grande folla si riuniscono in caso di emergenza.",
-    "de": "Diese Ebene enthält Sammelplätze und Wartebereiche, in denen sich alle Mitarbeiter, Fahrgäste oder eine große Menschenmenge im Notfall versammeln.",
+    "de": "Diese Ebene enthält Sammelplätze und Wartebereiche, in denen sich Mitarbeiter, Fahrgäste oder eine große Menschenmenge im Notfall versammeln.",
     "pl": "Ta warstwa zawiera punkty zbiórki oraz miejsca oczekiwania, gdzie wszyscy pracownicy, pasażerowie lub duży tłum gromadzą się w przypadku zagrożenia.",
     "cs": "Tato vrstva obsahuje shromaždiště a čekací prostory, kde se v případě nouze shromažďují všichni zaměstnanci, cestující nebo velký dav lidí."
   },
@@ -74,7 +75,8 @@
         "de": "Wie lautet der Name dieser Sammelstelle?",
         "pl": "Jak nazywa się ten punkt zbiórki?",
         "cs": "Jak se jmenuje toto shromaždiště?",
-        "es": "¿Cuál es el nombre de este punto de encuentro?"
+        "es": "¿Cuál es el nombre de este punto de encuentro?",
+        "hu": "Mi a neve ennek a gyülekezőhelynek?"
       },
       "render": {
         "en": "This assembly point is named <b>{name}</b>",
@@ -82,7 +84,8 @@
         "de": "Diese Sammelstelle hat den Namen <b>{name}</b>",
         "pl": "Ten punkt zbiórki nazywa się <b>{name}</b>",
         "cs": "Toto shromaždiště se jmenuje <b>{name}</b>",
-        "es": "Este punto de encuentro se llama <b>{name}</b>"
+        "es": "Este punto de encuentro se llama <b>{name}</b>",
+        "hu": "A gyülekezőhely neve: <b>{name}</b>"
       }
     },
     {

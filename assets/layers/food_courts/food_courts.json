@@ -56,7 +56,9 @@
       "id": "name",
       "question": {
         "en": "What is the name of this food court?",
-        "de": "Wie lautet der Name dieses Food-Courts?"
+        "de": "Wie lautet der Name dieses Food-Courts?",
+        "hu": "Mi a neve ennek az étkezőtérnek?",
+        "uk": "Як називається цей фудкорт?"
       },
       "freeform": {
         "key": "name",
@@ -68,7 +70,9 @@
       },
       "render": {
         "en": "This food court is called <b>{name}</b>.",
-        "de": "Dieser Food Court heißt <b>{name}</b>."
+        "de": "Dieser Food Court heißt <b>{name}</b>.",
+        "hu": "Az étkezőtér neve: <b>{name}</b>.",
+        "uk": "Цей фудкорт називається <b>{name}</b>."
       }
     },
     "reviews",

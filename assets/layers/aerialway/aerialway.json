@@ -4,11 +4,12 @@
     "en": "Aerialways",
     "de": "Seilbahnen",
     "cs": "Letecké trasy",
-    "ca": "Vies aeries"
+    "ca": "Vies aeries",
+    "hu": "Kötélpályák"
   },
   "description": {
     "en": "Various forms of transport for passengers and goods that use wires, including cable cars, gondolas, chair lifts, drag lifts, and zip lines.",
-    "de": "Alle Arten von seil- oder drahtgestütztem Personen- oder Gütertransport, wie Seilbahnen, Gondeln, Sessellifte, Schlepplifte. ",
+    "de": "Alle Arten von seil- oder drahtgestütztem Personen- oder Gütertransport, wie Seilbahnen, Gondeln, Sessellifte, Schlepplifte.",
     "es": "Diversas formas de transporte de pasajeros y mercancías que utilizan cables, como teleféricos, telecabinas, telesillas, telesquíes y tirolinas. ",
     "pl": "Różne formy transportu dla pasażerów i dóbr, które używają lin, w tym kolejki gondolowe, wyciągi krzesełkowe i orczykowe oraz tyrolki. ",
     "cs": "Různé formy přepravy osob a zboží, které využívají dráty, včetně lanovek, gondol, sedačkových lanovek, vleků a lanových drah. ",
@@ -108,7 +109,7 @@
           "if": "aerialway=gondola",
           "then": {
             "en": "This is a gondola where the cars loop around once reaching the end.",
-            "de": "Es handelt sich um eine Seilbahn, bei der die Kabinen in ständigen Kreisen fahren",
+            "de": "Es handelt sich um eine Seilbahn, bei der die Kabinen in ständigen Kreisen fahren.",
             "cs": "Jedná se o gondolu, kde vozy jezdí v nepřetržitých kruzích"
           },
           "icon": "./assets/layers/aerialway/gondola_lift.svg"
@@ -185,7 +186,7 @@
           "if": "aerialway=zip_line",
           "then": {
             "en": "A zip line. (A tourist attraction where adventurous people go down at high speeds)",
-            "de": "Eine Seilrutsche. (Eine Touristenattraktion, bei der abenteuerlustige Menschen mit hoher Geschwindigkeit hinunterfahren) ",
+            "de": "Eine Seilrutsche. (Eine Touristenattraktion, bei der abenteuerlustige Menschen mit hoher Geschwindigkeit hinunterfahren)",
             "pl": "Tyrolka. (Atrakcja turystyczna, która pozwala żądnym przygód zjechać z dużą szybkością) ",
             "cs": "Lano na visuté dráze. (Turistická atrakce, kde se odvážlivci spouštějí vysokou rychlostí) "
           }

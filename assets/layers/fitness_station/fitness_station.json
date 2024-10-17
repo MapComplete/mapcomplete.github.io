@@ -94,7 +94,8 @@
         "de": "Wie lautet der Name der Fitness-Station?",
         "nl": "Wat is de naam van dit fitness-toestel?",
         "ca": "Quin és el nom d'aquesta estació de fitness?",
-        "cs": "Jak se tato fitness stanice jmenuje?"
+        "cs": "Jak se tato fitness stanice jmenuje?",
+        "hu": "Mi a neve ennek a fitneszparknak?"
       },
       "freeform": {
         "key": "name",

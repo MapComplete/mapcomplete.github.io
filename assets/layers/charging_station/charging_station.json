@@ -2326,7 +2326,7 @@
           "then": {
             "en": "Authentication via text message is available",
             "nl": "Aanmelden via SMS is mogelijk",
-            "de": "Authentifizierung per SMS ist möglich",
+            "de": "Authentifizierung per SMS",
             "fr": "Authentification possible par SMS"
           }
         },
@@ -2384,13 +2384,13 @@
         "en": "Authenticate by calling or texting <a href='tel:{authentication:phone_call:number}'>{authentication:phone_call:number}</a>",
         "nl": "Aanmelden door te bellen of te SMS'en naar <a href='tel:{authentication:phone_call:number}'>{authentication:phone_call:number}</a>",
         "ca": "Autentiqueu-vos trucant o enviant SMS a <a href='tel:{authentication:phone_call:number}'>{authentication:phone_call:number}</a>",
-        "de": "Authentifiziere dich, indem du anrufst oder eine SMS sendest an <a href='tel:{authentication:phone_call:number}'>{authentication:phone_call:number}</a>"
+        "de": "Authentifizierung per Anruf oder SMS an <a href='tel:{authentication:phone_call:number}'>{authentication:phone_call:number}</a>"
       },
       "question": {
         "en": "What phone number should you contact to authenticate (call or text)?",
         "nl": "Wat is het telefoonnummer dat men moet bellen of SMS'en om zich aan te melden?",
         "ca": "Quin és el número de telèfon per a la trucada d'autenticació o SMS?",
-        "de": "Wie lautet die Telefonnummer für den Authentifizierungsanruf oder die SMS?"
+        "de": "An welche Telefonnummer kann man sich wenden, um sich zu authentifizieren (Anruf oder SMS)?"
       },
       "freeform": {
         "key": "authentication:phone_call:number",
@@ -2741,7 +2741,7 @@
         "en": "Do you have to pay a parking fee while charging?",
         "nl": "Moet men parkeergeld betalen tijdens het opladen?",
         "ca": "Cal pagar una taxa d'aparcament mentre es carrega?",
-        "de": "Muss man während des Ladens eine Parkgebühr bezahlen?"
+        "de": "Ist während des Ladens eine Parkgebühr zu bezahlen?"
       },
       "mappings": [
         {
@@ -2884,7 +2884,8 @@
         "en": "charging station for cars",
         "nl": "oplaadstation voor elektrische auto's",
         "ca": "estació de càrrega per a cotxes",
-        "de": "Ladestation für Autos"
+        "de": "Ladestation für Autos",
+        "hu": "gépkocsitöltő"
       }
     }
   ],

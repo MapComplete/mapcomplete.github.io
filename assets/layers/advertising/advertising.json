@@ -17,7 +17,8 @@
     "zh_Hant": "廣告",
     "fr": "Publicité",
     "ru": "Реклама",
-    "uk": "Оголошення"
+    "uk": "Оголошення",
+    "hu": "Reklámhordozók"
   },
   "description": {
     "ca": "Completarem les dades dels elements publicitaris amb referència, operador i il·luminació",
@@ -477,7 +478,8 @@
         "cs": "billboard připevněný na stěnu",
         "ca": "un cartell muntat a una paret",
         "es": "una valla publicitaria montada en un muro",
-        "uk": "білборд, прикріплений до стіни"
+        "uk": "білборд, прикріплений до стіни",
+        "hu": "falra erősített óriásplakát"
       },
       "description": {
         "en": "A large outdoor advertising structure, typically found in high-traffic areas such as alongside busy roads mounted on a wall",
@@ -508,7 +510,8 @@
         "pt_BR": "uma caixa expositora independente",
         "it": "un cartellone pubblicitario fissato a terra",
         "zh_Hant": "獨自設立的海報框",
-        "uk": "окремо стояча коробка для плакатів"
+        "uk": "окремо стояча коробка для плакатів",
+        "hu": "megállítótábla"
       },
       "exampleImages": [
         "./assets/themes/advertising/Mupi_spain.jpg",
@@ -531,7 +534,8 @@
         "pt_BR": "uma caixa de pôster montada em uma parede",
         "zh_Hans": "安装在墙上的海报盒子",
         "it": "un cartellone pubblicitario fissato al muro",
-        "uk": "коробка для плакатів, що кріпиться на стіну"
+        "uk": "коробка для плакатів, що кріпиться на стіну",
+        "hu": "falra szerelt posztertartó"
       },
       "snapToLayer": [
         "walls_and_buildings"
@@ -550,7 +554,8 @@
         "es": "una caja de carteles que forma parte de una marquesina de transporte público",
         "cs": "plakátovací skříňka, která je součástí přístřešku veřejné dopravy",
         "ca": "un mupi que forma part d'un refugi de transport públic",
-        "uk": "афішна скринька, що є частиною зупинки громадського транспорту"
+        "uk": "афішна скринька, що є частиною зупинки громадського транспорту",
+        "hu": "tömegközlekedési megállóban lévő posztertartó"
       },
       "snapToLayer": [
         "shelter"
@@ -611,7 +616,8 @@
         "pt_BR": "uma coluna",
         "it": "una colonna",
         "ru": "столбец",
-        "uk": "стовпчик"
+        "uk": "стовпчик",
+        "hu": "oszlop"
       },
       "description": {
         "en": "A cylindrical outdoor structure which shows advertisements",
@@ -650,7 +656,8 @@
         "pt_BR": "uma bandeira",
         "zh_Hans": "一个旗子",
         "it": "una bandiera",
-        "uk": "прапор"
+        "uk": "прапор",
+        "hu": "zászló"
       },
       "exampleImages": [
         "./assets/themes/advertising/Advertising_flag.jpg",
@@ -674,7 +681,8 @@
         "pt_BR": "uma tela",
         "zh_Hans": "一块屏幕",
         "it": "uno schermo",
-        "uk": "екран"
+        "uk": "екран",
+        "hu": "képernyő"
       },
       "exampleImages": [
         "./assets/themes/advertising/Screen_poster_box.jpg",
@@ -698,7 +706,8 @@
         "pt_BR": "uma tela montada em uma parede",
         "zh_Hans": "一块挂在墙上的屏幕",
         "it": "uno schermo fissato al muro",
-        "uk": "екран, встановлений на стіні"
+        "uk": "екран, встановлений на стіні",
+        "hu": "falra szerelt képernyő"
       },
       "exampleImages": [
         "./assets/themes/advertising/Subway_screen.jpg",
@@ -723,7 +732,8 @@
         "es": "una pantalla montada en una marquesina de tránsito",
         "cs": "obrazovka namontovaná na dopravním přístřešku",
         "ca": "una pantalla muntada en una marquesina",
-        "uk": "екран, встановлений на тимчасовому укритті"
+        "uk": "екран, встановлений на тимчасовому укритті",
+        "hu": "tömegközlekedési megállóban lévő képernyő"
       },
       "snapToLayer": [
         "shelter"
@@ -747,7 +757,8 @@
         "pt_BR": "uma lona",
         "zh_Hans": "防水布",
         "it": "un telone",
-        "uk": "брезент"
+        "uk": "брезент",
+        "hu": "ponyva"
       },
       "description": {
         "en": "A piece of waterproof textile with a printed message, permanently anchored on a wall",
@@ -813,7 +824,8 @@
         "pl": "znak",
         "zh_Hans": "标志",
         "it": "un'insegna",
-        "uk": "знак"
+        "uk": "знак",
+        "hu": "tábla"
       },
       "description": {
         "en": "Used for advertising signs, neon signs, logos & institutional entrance signs",
@@ -856,7 +868,8 @@
         "pt_BR": "uma escultura",
         "zh_Hans": "雕像",
         "it": "una scultura",
-        "uk": "скульптура"
+        "uk": "скульптура",
+        "hu": "szobor"
       },
       "exampleImages": [
         "./assets/themes/advertising/Aircraft_Sculpture.jpg",
@@ -882,7 +895,8 @@
         "pt_BR": "uma pintura mural",
         "zh_Hans": "墙上的画",
         "it": "un murales",
-        "uk": "настінний розпис"
+        "uk": "настінний розпис",
+        "hu": "falfestmény"
       },
       "exampleImages": [
         "./assets/themes/advertising/Capitol_wall.jpg",

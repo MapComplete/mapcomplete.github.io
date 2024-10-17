@@ -79,11 +79,13 @@
       },
       "question": {
         "en": "What is the name of this stripclub?",
-        "de": "Wie lautet der Name des Stripclubs?"
+        "de": "Wie lautet der Name des Stripclubs?",
+        "hu": "Mi a neve ennek a sztriptízbárnak?"
       },
       "render": {
         "en": "This stripclub is named <b>{name}</b>",
-        "de": "Der Name des Stripclubs lautet <b>{name}</b>"
+        "de": "Der Name des Stripclubs lautet <b>{name}</b>",
+        "hu": "A sztriptízbár neve: <b>{name}</b>"
       }
     },
     "opening_hours",

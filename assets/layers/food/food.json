@@ -210,7 +210,8 @@
         "de": "ein Schnellimbiss",
         "ca": "un negoci de menjar ràpid",
         "fr": "un fast-food",
-        "cs": "rychlé občerstvení"
+        "cs": "rychlé občerstvení",
+        "hu": "büfé, gyorsétterem"
       },
       "tags": [
         "amenity=fast_food"
@@ -232,7 +233,8 @@
         "de": "eine Pommesbude",
         "fr": "Une friterie",
         "ca": "una botiga de patates fregides",
-        "cs": "obchod s hranolky"
+        "cs": "obchod s hranolky",
+        "hu": "sültkrumpliárus"
       },
       "tags": [
         "amenity=fast_food",
@@ -259,7 +261,9 @@
         "es": "¿Cuál es el nombre de este negocio?",
         "fr": "Quel est le nom de ce restaurant ?",
         "ca": "Quin és el nom d'aquest negoci?",
-        "cs": "Jak se tento podnik jmenuje?"
+        "cs": "Jak se tento podnik jmenuje?",
+        "hu": "Mi a neve ennek a vállalkozásnak?",
+        "uk": "Як називається цей бізнес?"
       },
       "render": {
         "nl": "De naam van deze eetgelegeheid is {name}",
@@ -268,7 +272,8 @@
         "es": "El nombre de este negocio es {name}",
         "fr": "Le nom de ce restaurant est {name}",
         "ca": "El nom d'aquest negoci és {name}",
-        "cs": "Název tohoto podniku je {name}"
+        "cs": "Název tohoto podniku je {name}",
+        "uk": "Назва цього бізнесу - {name}"
       },
       "freeform": {
         "key": "name"
@@ -283,7 +288,8 @@
         "es": "¿Qué tipo de negocio es este?",
         "fr": "Quel type de restaurant est-ce ?",
         "ca": "Quin tipus de negoci és aquest?",
-        "cs": "O jaký typ podnikání se jedná?"
+        "cs": "O jaký typ podnikání se jedná?",
+        "uk": "Що це за бізнес?"
       },
       "mappings": [
         {
@@ -296,7 +302,8 @@
             "fr": "C'est un fast-food, centrée sur le service rapide. Si des places sont disponibles, elles sont plutôt limitées et fonctionnelles.",
             "hu": "Ez egy gyorsétterem (büfé), amely a gyors kiszolgálásra összpontosít. Ha vannak is ülőhelyek, ezek meglehetősen korlátozottak és funkcionálisak.",
             "ca": "Aquest és un negoci de menjar ràpid, centrat en el servei ràpid. Si hi han seients disponibles, aquests seran limitats i funcionals.",
-            "cs": "Jedná se o podnik s rychlým občerstvením, zaměřený na rychlou obsluhu. Pokud je k dispozici místo k sezení, je spíše omezené a funkční."
+            "cs": "Jedná se o podnik s rychlým občerstvením, zaměřený na rychlou obsluhu. Pokud je k dispozici místo k sezení, je spíše omezené a funkční.",
+            "uk": "Це бізнес швидкого харчування, орієнтований на швидке обслуговування. Якщо місця для сидіння і є, то вони досить обмежені та функціональні."
           }
         },
         {
@@ -308,7 +315,8 @@
             "es": "Un <b>restaurante</b>, centrado en crear una experiencia agradable en la que uno se sirve en mesa",
             "fr": "Un <b>restaurant</b>, axé sur la création d'une expérience agréable où l'on est servi à table",
             "ca": "Un <b>restaurant</b>, centrat en crear una bona experiència on es serveix a taula",
-            "cs": "<b>Restaurace</b> zaměřená na vytvoření příjemného zážitku, kde se obsluhuje u stolu"
+            "cs": "<b>Restaurace</b> zaměřená na vytvoření příjemného zážitku, kde se obsluhuje u stolu",
+            "uk": "<b>Ресторан</b>, орієнтований на створення приємних вражень, коли вас обслуговують за столом"
           }
         }
       ],
@@ -329,7 +337,8 @@
         "es": "¿Qué tipo de comida sirven aquí?",
         "fr": "Quelle type de nourriture est servie ici ?",
         "ca": "Quin tipus de menjar es serveix aquí?",
-        "cs": "Jaké jídlo se zde podává?"
+        "cs": "Jaké jídlo se zde podává?",
+        "uk": "Яку їжу тут подають?"
       },
       "render": {
         "nl": "Deze plaats serveert vooral {cuisine}",
@@ -598,7 +607,8 @@
           "label": {
             "en": "Add an image from the menu",
             "nl": "Voeg een foto van het menu toe",
-            "de": "Ein Bild aus dem Menü hinzufügen"
+            "de": "Ein Bild aus dem Menü hinzufügen",
+            "uk": "Додати зображення з меню"
           }
         }
       }
@@ -1302,7 +1312,8 @@
             "pl": "Rezerwacja nie jest wymagana",
             "ca": "No cal reservar",
             "cs": "Rezervace není nutná",
-            "es": "No se necesita reserva"
+            "es": "No se necesita reserva",
+            "uk": "Бронювання не потрібно"
           },
           "osmTags": {
             "or": [
@@ -1364,7 +1375,8 @@
             "cs": "Má vegetariánské menu",
             "pl": "Ma menu wegetariańskie",
             "es": "Tiene menú vegetariano",
-            "fr": "A un menu végétarien"
+            "fr": "A un menu végétarien",
+            "uk": "Має вегетаріанське меню"
           },
           "icon": "./assets/layers/food/Vegetarian-mark.svg",
           "osmTags": {
@@ -1390,7 +1402,8 @@
             "fr": "A un menu végétalien",
             "pl": "Ma menu wegańskie",
             "ca": "Té menú vegà",
-            "cs": "Má veganské menu"
+            "cs": "Má veganské menu",
+            "uk": "Має веганське меню"
           },
           "osmTags": {
             "or": [
@@ -1413,7 +1426,8 @@
             "es": "Tiene menú halah",
             "fr": "A un menu halal",
             "ca": "Té menú halal",
-            "cs": "Má halal menu"
+            "cs": "Má halal menu",
+            "uk": "Має халяльне меню"
           },
           "osmTags": {
             "or": [

@@ -7,7 +7,7 @@
   },
   "description": {
     "en": "A self-assisted workshop is a location where people can repair their goods with help of volunteers and provided tools. A repair café is a type of event organized regularly along the same principles.",
-    "de": "Eine Selbsthilfewerkstatt ist ein Ort, an dem Menschen ihre Gegenstände mit Hilfe von Freiwilligen und den vor Ort verfügbaren Werkzeugen reparieren können. Ein Repair-Café ist eine Art von Veranstaltung, die regelmäßig nach denselben Prinzipien organisiert wird.",
+    "de": "Eine Selbsthilfewerkstatt ist ein Ort, an dem Menschen ihre Gegenstände mit Hilfe von Freiwilligen und verfügbaren Werkzeugen reparieren können. Ein Repair-Café ist eine Art von Veranstaltung, die regelmäßig nach denselben Prinzipien organisiert wird.",
     "cs": "Svépomocná dílna je místo, kam mohou lidé přijít a opravit si své zboží s pomocí dobrovolníků a nástrojů, které jsou na daném místě k dispozici.  Opravárenská kavárna je typ akce, která se pravidelně pořádá na stejných principech."
   },
   "source": {
@@ -94,14 +94,17 @@
         "en": "What is the name of this repair workshop?",
         "de": "Wie heißt diese Reparaturwerkstatt?",
         "cs": "Jak se tato opravna jmenuje?",
-        "es": "¿Cuál es el nombre de este taller de reparación?"
+        "es": "¿Cuál es el nombre de este taller de reparación?",
+        "hu": "Mi a neve ennek a szerelőműhelynek?"
       },
       "id": "name",
       "render": {
         "en": "This workshop is called <b>{name}</b>",
         "de": "Diese Werkstatt heißt <b>{name}</b>",
         "cs": "Tato dílna se nazývá <b>{name}</b>",
-        "es": "Este taller se llama <b>{name}</b>"
+        "es": "Este taller se llama <b>{name}</b>",
+        "hu": "A szerelőműhely neve: <b>{name}</b>",
+        "uk": "Ця майстерня називається <b>{name}</b>"
       },
       "freeform": {
         "key": "name"

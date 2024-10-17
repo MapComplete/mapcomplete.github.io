@@ -71,12 +71,14 @@
     {
       "question": {
         "en": "What is the name of the person buried here?",
-        "de": "Wie lautet der Name der hier begrabenen Person?"
+        "de": "Wie lautet der Name der hier begrabenen Person?",
+        "hu": "Ki van itt eltemetve?"
       },
       "id": "name",
       "render": {
         "en": "<b>{name}</b> is buried here",
-        "de": "<b>{name}</b> ist hier begraben"
+        "de": "<b>{name}</b> ist hier begraben",
+        "hu": "Itt van eltemetve <b>{name}</b>"
       },
       "freeform": {
         "key": "name"

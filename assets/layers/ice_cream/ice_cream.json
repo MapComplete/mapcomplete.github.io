@@ -95,7 +95,8 @@
       "render": {
         "en": "This ice cream parlor is named <b>{name}</b>",
         "nl": "Dit ijssalon heet <b>{name}</b>",
-        "de": "Diese Eisdiele heißt <b>{name}</b>"
+        "de": "Diese Eisdiele heißt <b>{name}</b>",
+        "hu": "A fagylaltozó neve: <b>{name}</b>"
       }
     },
     "opening_hours",

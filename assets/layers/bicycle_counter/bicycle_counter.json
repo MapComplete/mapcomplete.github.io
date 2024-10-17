@@ -69,7 +69,8 @@
       "question": {
         "en": "What is the name of the monitored location?",
         "cs": "Jak se jmenuje započítávaná lokalita?",
-        "de": "Wie lautet der Name des Zählorts?"
+        "de": "Wie lautet der Name des Zählorts?",
+        "hu": "Mi a neve a megfigyelt helynek?"
       },
       "freeform": {
         "key": "name",

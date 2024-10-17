@@ -79,7 +79,8 @@
         "fr": "Comment s'appelle ce cabinet médical ?",
         "ca": "Com es diu aquesta consulta mèdica?",
         "he": "מה השם של מקום הרופאים הזה?",
-        "cs": "Jak se jmenuje toto místo lékařů?"
+        "cs": "Jak se jmenuje toto místo lékařů?",
+        "hu": "Mi a neve ennek az orvosi rendelőnek?"
       },
       "render": {
         "en": "This doctors place is called {name}",

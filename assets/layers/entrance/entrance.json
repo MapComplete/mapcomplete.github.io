@@ -95,7 +95,8 @@
         "de": "eine Innentür",
         "nl": "een binnendeur",
         "ca": "una porta interior",
-        "cs": "vnitřní dveře"
+        "cs": "vnitřní dveře",
+        "hu": "beltéri ajtó"
       },
       "tags": [
         "indoor=door"

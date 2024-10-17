@@ -14,7 +14,7 @@
   "description": {
     "en": "Crossings for pedestrians and/or cyclists",
     "nl": "Oversteekplaatsen voor voetgangers en fietsers",
-    "de": "Übergänge für Fußgänger und Radfahrer",
+    "de": "Übergänge für Fußgänger und/oder Radfahrer",
     "fr": "Traversée pour piétons et cyclistes",
     "da": "Overgange for fodgængere og cyklister",
     "es": "Pasos para peatones y ciclistas",
@@ -118,7 +118,7 @@
       "description": {
         "en": "Layer showing crossings for pedestrians and/or cyclists",
         "nl": "Oversteekplaats voor voetgangers en/of fietsers",
-        "de": "Kreuzung für Fußgänger und/oder Radfahrer",
+        "de": "Eine Ebene die Überwege für Fußgänger und/oder Radfahrer zeigt",
         "fr": "Traversée pour piétons et/ou cyclistes",
         "da": "Overgang for fodgængere og/eller cyklister",
         "es": "Cruce para peatones y/o ciclistas",
@@ -140,7 +140,8 @@
         "da": "et trafiksignal",
         "es": "un semáforo",
         "ca": "un semàfor",
-        "cs": "semafor"
+        "cs": "semafor",
+        "hu": "jelzőlámpa"
       },
       "tags": [
         "highway=traffic_signals"
@@ -390,7 +391,7 @@
           "then": {
             "en": "This crossing has tactile paving, but it doesn't meet regulations",
             "nl": "Deze oversteekplaats heeft een geleidelijn, die incorrect is.",
-            "de": "Diese Kreuzung hat taktile Pflasterung, ist aber nicht korrekt",
+            "de": "Der Überweg ist mit taktilem Pflaster ausgestattet, das jedoch nicht den Vorschriften entspricht",
             "es": "Este cruce tiene superficie podotáctil, pero no correctamente",
             "fr": "Ce passage piéton a une surface podotactile, mais elle n'est pas adéquate",
             "ca": "Este creuament té superfície podotàctil, però no correctament",
@@ -510,7 +511,8 @@
         "nl": "Heeft dit verkeerslicht een element dat trilt om te helpen bij het oversteken? (meestal onderaan de oversteekknop geplaatst)",
         "fr": "Est-ce que ce feu a un signal vibrant pour aider à traverser ? (habituellement situé sous le bouton)",
         "ca": "Aquest semàfor té senyals de vibració per facilitar el pas? (normalment es troba a la part inferior del botó d'encreuament)",
-        "cs": "Má tento semafor vibrační signály pro usnadnění přecházení? (obvykle se nachází ve spodní části tlačítka pro přecházení)"
+        "cs": "Má tento semafor vibrační signály pro usnadnění přecházení? (obvykle se nachází ve spodní části tlačítka pro přecházení)",
+        "uk": "Чи має цей світлофор вібраційні сигнали для полегшення переходу? (зазвичай розташовані внизу кнопки переходу)"
       },
       "condition": {
         "and": [

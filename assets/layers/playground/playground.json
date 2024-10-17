@@ -725,7 +725,8 @@
         "de": "Wann ist dieser Spielplatz zugänglich?",
         "ca": "Quan és accesible aquest parc infantil?",
         "cs": "Kdy je toto hřiště přístupné?",
-        "pl": "Kiedy dostępny jest ten plac zabaw?"
+        "pl": "Kiedy dostępny jest ten plac zabaw?",
+        "uk": "Коли цей майданчик доступний?"
       },
       "mappings": [
         {
@@ -740,7 +741,8 @@
             "es": "Accesible desde el amanecer hasta el anochecer",
             "ca": "Accesible des de la sortida del sol fins al vespre",
             "cs": "Přístupné od východu do západu slunce",
-            "pl": "Dostępny od wschodu do zachodu słońca"
+            "pl": "Dostępny od wschodu do zachodu słońca",
+            "uk": "Доступний від сходу до заходу сонця"
           }
         },
         {
@@ -755,7 +757,8 @@
             "ca": "Sempre accessible",
             "es": "Siempre accesible",
             "cs": "Vždy přístupné",
-            "pl": "Dostępny zawsze"
+            "pl": "Dostępny zawsze",
+            "uk": "Завжди доступні"
           }
         }
       ],

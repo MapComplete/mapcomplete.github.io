@@ -103,7 +103,7 @@
         {
           "if": "access=permissive",
           "then": {
-            "de": "Zugang bis auf Widerruf",
+            "de": "Zugang bis auf Widerruf (Erlaubt)",
             "en": "Access until revoked (Permissive)",
             "cs": "Přístup až do odvolání",
             "es": "Acceso hasta que se anule"

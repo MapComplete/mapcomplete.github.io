@@ -487,7 +487,8 @@
           "fr": "Zone d’escalade <b>{name}</b>",
           "de": "Klettergebiet <b>{name}</b>",
           "it": "Area di arrampicata <b>{name}</b>",
-          "cs": "Lezecká oblast <b>{name}</b>"
+          "cs": "Lezecká oblast <b>{name}</b>",
+          "hu": "A mászóhely neve: <b>{name}</b>"
         }
       },
       {
@@ -539,7 +540,8 @@
           "fr": "Zone d’escalade <b>{name}</b>",
           "de": "Klettergebiet <b>{name}</b>",
           "it": "Area di arrampicata <b>{name}</b>",
-          "cs": "Lezecká oblast <b>{name}</b>"
+          "cs": "Lezecká oblast <b>{name}</b>",
+          "hu": "A mászóhely neve: <b>{name}</b>"
         }
       },
       {
@@ -1429,7 +1431,8 @@
           "it": "Muro da arrampicata <b>{name}</b>",
           "de": "Klettergarten <b>{name}</b>",
           "nl": "Klimrots of klimzone <b>{name}</b>",
-          "cs": "Lezecká cesta <b>{name}</b>"
+          "cs": "Lezecká cesta <b>{name}</b>",
+          "hu": "A mászófal neve: <b>{name}</b>"
         }
       },
       {
@@ -1446,7 +1449,8 @@
           "it": "Muro da arrampicata <b>{name}</b>",
           "de": "Klettergarten <b>{name}</b>",
           "nl": "Klimrots of klimzone <b>{name}</b>",
-          "cs": "Lezecká cesta <b>{name}</b>"
+          "cs": "Lezecká cesta <b>{name}</b>",
+          "hu": "A mászófal neve: <b>{name}</b>"
         }
       },
       {
@@ -3056,7 +3060,8 @@
           "ca": "<b>{name}</b>",
           "es": "<b>{name}</b>",
           "pl": "<b>{name}</b>",
-          "cs": "<b>{name}</b>"
+          "cs": "<b>{name}</b>",
+          "hu": "<b>{name}</b>"
         }
       },
       {
@@ -3087,7 +3092,8 @@
           "ca": "<b>{name}</b>",
           "es": "<b>{name}</b>",
           "pl": "<b>{name}</b>",
-          "cs": "<b>{name}</b>"
+          "cs": "<b>{name}</b>",
+          "hu": "<b>{name}</b>"
         }
       },
       {
@@ -3430,7 +3436,8 @@
           "de": "Klettereinrichtung <b>{name}</b>",
           "it": "Opportunità di arrampicata <b>{name}</b>",
           "ca": "Oportunitat d'escalada <b>{name}</b>",
-          "cs": "Lezecká příležitost <b>{name}</b>"
+          "cs": "Lezecká příležitost <b>{name}</b>",
+          "hu": "A mászólétesítmény neve: <b>{name}</b>"
         }
       },
       {
@@ -3473,7 +3480,8 @@
           "de": "Klettereinrichtung <b>{name}</b>",
           "it": "Opportunità di arrampicata <b>{name}</b>",
           "ca": "Oportunitat d'escalada <b>{name}</b>",
-          "cs": "Lezecká příležitost <b>{name}</b>"
+          "cs": "Lezecká příležitost <b>{name}</b>",
+          "hu": "A mászólétesítmény neve: <b>{name}</b>"
         }
       },
       {
@@ -23986,7 +23994,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "V jakých hodinách je tento defibrilátor k dispozici?"
+        "cs": "V jakých hodinách je tento defibrilátor k dispozici?",
+        "uk": "В який час цей дефібрилятор доступний?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -24012,7 +24021,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -24035,7 +24045,8 @@
             "nb_NO": "Døgnåpent (inkludert helligdager)",
             "cs": "Otevřeno 24/7 (včetně svátků)",
             "ca": "Obert 24/7 (incloent-hi festius)",
-            "pl": "Otwarte 24/7 (również w święta)"
+            "pl": "Otwarte 24/7 (również w święta)",
+            "uk": "Працює 24/7 (включаючи святкові дні)"
           }
         },
         {
@@ -24044,7 +24055,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -24749,7 +24761,7 @@
         "en": "Is there an official website with more information about this artwork?",
         "nl": "Is er een website met meer informatie over dit kunstwerk?",
         "fr": "Existe-t-il un site web où trouver plus d'informations sur cette œuvre d'art ?",
-        "de": "Auf welcher Webseite gibt es weitere Informationen zum Kunstwerk?",
+        "de": "Auf welcher offiziellen Webseite gibt es weitere Informationen zum Kunstwerk?",
         "it": "Esiste un sito web con maggiori informazioni su quest’opera?",
         "ru": "Есть ли сайт с более подробной информацией об этой работе?",
         "ja": "この作品についての詳しい情報はどのウェブサイトにありますか?",
@@ -26846,7 +26858,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -26872,7 +26885,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -26895,7 +26909,8 @@
             "nb_NO": "Døgnåpent (inkludert helligdager)",
             "cs": "Otevřeno 24/7 (včetně svátků)",
             "ca": "Obert 24/7 (incloent-hi festius)",
-            "pl": "Otwarte 24/7 (również w święta)"
+            "pl": "Otwarte 24/7 (również w święta)",
+            "uk": "Працює 24/7 (включаючи святкові дні)"
           }
         },
         {
@@ -26904,7 +26919,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -27385,7 +27401,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Jam berapa kantor pos ini buka?",
-        "cs": "Jaká je otevírací doba této pošty?"
+        "cs": "Jaká je otevírací doba této pošty?",
+        "uk": "Які години роботи цього поштового відділення?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -27411,7 +27428,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -27425,7 +27443,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -28702,7 +28721,8 @@
         "es": "¿En qué nivel se encuentra esta característica?",
         "nb_NO": "Hvilken etasje befinner funksjonen seg i?",
         "da": "På hvilket niveau er denne funktion placeret?",
-        "cs": "V jaké úrovni se tento prvek nachází?"
+        "cs": "V jaké úrovni se tento prvek nachází?",
+        "uk": "На якому поверсі знаходиться цей об'єкт?"
       },
       "render": {
         "en": "Located on the {level}th floor",
@@ -28726,7 +28746,8 @@
         "da": "Beliggende på {level}. etage",
         "nb_NO": "Ligger i {level} etasje",
         "id": "Terletak di lantai {level}",
-        "cs": "Nachází se v {level}. patře"
+        "cs": "Nachází se v {level}. patře",
+        "uk": "Розташований на {level} поверсі"
       },
       "freeform": {
         "key": "level",
@@ -28757,7 +28778,8 @@
             "fil": "Nasa ilalim ng lupa",
             "es": "Localizado bajo tierra",
             "da": "Placeret under jorden",
-            "cs": "Nachází se v podzemí"
+            "cs": "Nachází se v podzemí",
+            "uk": "Розташований під землею"
           },
           "hideInAnswer": true
         },
@@ -28785,7 +28807,8 @@
             "fil": "Nasa unang palapag",
             "es": "Localizado en la planta baja",
             "da": "Beliggende i stueetagen",
-            "cs": "Nachází se v přízemí"
+            "cs": "Nachází se v přízemí",
+            "uk": "Розташований на рівні землі"
           }
         },
         {
@@ -28813,7 +28836,8 @@
             "fil": "Nasa unang palapag",
             "es": "Localizado en la planta baja",
             "da": "Beliggende i stueetagen",
-            "cs": "Nachází se v přízemí"
+            "cs": "Nachází se v přízemí",
+            "uk": "Розташований на рівні землі"
           }
         },
         {
@@ -28840,7 +28864,8 @@
             "fil": "Nasa unang palapag",
             "es": "Localizado en la primera planta",
             "da": "Beliggende på første sal",
-            "cs": "Nachází se v prvním patře"
+            "cs": "Nachází se v prvním patře",
+            "uk": "Розташований на першому поверсі"
           }
         },
         {
@@ -28861,7 +28886,8 @@
             "pt": "Localizado no primeiro nível da cave",
             "da": "Beliggende på første kælderetage",
             "cs": "Nachází se v prvním suterénu",
-            "pl": "Położone na pierwszym poziomie piwnicy"
+            "pl": "Położone na pierwszym poziomie piwnicy",
+            "uk": "Розташований на першому підвальному поверсі"
           }
         }
       ]
@@ -29520,7 +29546,7 @@
       "questionHint": {
         "en": "This includes all types of bicycle - regular, cargo, ebike etc.",
         "nl": "Dit is het totaal aantal gewone fietsen, bakfietsen, elektrische fietsen, ...",
-        "de": "Dazu gehören reguläre Fahrräder, Lasträder, Ebikes,...",
+        "de": "Dazu gehören alle Fahrradtypen - reguläre Fahrräder, Lastenräder, Elektrofahrräder etc.",
         "pl": "To obejmuje zwykłe rowery, do transportu dóbr, elektryczne, ...",
         "es": "Esto incluye bicis normales, de carga, eléctricas, ..."
       },
@@ -29685,7 +29711,7 @@
       "question": {
         "en": "Is it free to park a bicycle here?",
         "nl": "Is deze fietsenstalling gratis te gebruiken?",
-        "de": "Sind die Fahrradparkplätze kostenlos zu benutzen?",
+        "de": "Kann man hier kostenlos Fahrräder abstellen?",
         "ca": "Aquests aparcaments de bicicletes són gratuïts?",
         "es": "¿Son estos aparcamientos de bicicletras de uso gratuito?"
       },
@@ -29777,7 +29803,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -29803,7 +29830,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -29826,7 +29854,8 @@
             "nb_NO": "Døgnåpent (inkludert helligdager)",
             "cs": "Otevřeno 24/7 (včetně svátků)",
             "ca": "Obert 24/7 (incloent-hi festius)",
-            "pl": "Otwarte 24/7 (również w święta)"
+            "pl": "Otwarte 24/7 (również w święta)",
+            "uk": "Працює 24/7 (включаючи святкові дні)"
           },
           "#": "The first mapping is 'opening_hours=24/7', we amend this to also show if no info is known",
           "alsoShowIf": "opening_hours="
@@ -29837,7 +29866,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -29897,7 +29927,7 @@
       "questionHint": {
         "en": "One might be able to call this number in case of problems, e.g. to remove abandoned bicycles",
         "nl": "Men kan dit nummer bellen om bv. fietswrakken of defecten te melden",
-        "de": "Man könnte diese Nummer anrufen, wenn es Probleme gibt, z. B. um nicht gewartete Fahrräder zu entfernen",
+        "de": "Man könnte diese Nummer anrufen, wenn es Probleme gibt, z. B. um herrenlose Fahrräder zu entfernen",
         "ca": "És possible que es pugui trucar a aquest número en cas de problemes, p. per retirar les bicicletes abandonades"
       },
       "icon": "./assets/layers/questions/phone.svg",
@@ -30281,7 +30311,7 @@
             "en": "A machine is present which dispenses and accepts keys after authentication and/or payment. The bicycles are parked nearby",
             "nl": "Hier is een machine die fietssleutels verdeelt en terugneemt, eventueel na aanmelden of betaling. De fietsen staan in de buurt geparkeerd",
             "hu": "Ez egy leadási pont: ennek a kerékpárkölcsönzőnek a kijelölt kerékpártárolója",
-            "de": "Dies ist ein Automat, der Schlüssel ausgibt und annimmt, eventuell nach Authentifizierung und/oder Bezahlung. Die Fahrräder sind in der Nähe geparkt",
+            "de": "Dies ist ein Automat, der Schlüssel nach Authentifizierung und/oder Bezahlung ausgibt und annimmt. Die Fahrräder sind in der Nähe geparkt",
             "es": "Una máquina que dispensa y acepta llaves, eventualmente después de la autenticación y/o el pago está presente. Las bicicletas están aparcadas cerca",
             "fr": "Il y a un distributeur qui distribue et accepte les clés, éventuellement après identification et/ou payement. Les vélos sont stationnés à proximité",
             "da": "Der er en maskine til stede, som udleverer og modtager nøgler, eventuelt efter autentificering og/eller betaling. Cyklerne er parkeret i nærheden",
@@ -31759,7 +31789,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -31785,7 +31816,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -31799,7 +31831,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -33060,7 +33093,8 @@
         "da": "Hvad hedder dette cykelbibliotek?",
         "es": "¿Cuál es el nombre de esta biblioteca de bicicletas?",
         "cs": "Jak se jmenuje tato půjčovna kol?",
-        "ca": "Com es diu aquesta biblioteca de bicicletes?"
+        "ca": "Com es diu aquesta biblioteca de bicicletes?",
+        "hu": "Mi a neve ennek a kerékpárkönyvtárnak?"
       },
       "render": {
         "en": "This bicycle library is called {name}",
@@ -33116,7 +33150,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -33142,7 +33177,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -33156,7 +33192,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -36779,7 +36816,7 @@
           "then": {
             "en": "This crossing has tactile paving, but it doesn't meet regulations",
             "nl": "Deze oversteekplaats heeft een geleidelijn, die incorrect is.",
-            "de": "Diese Kreuzung hat taktile Pflasterung, ist aber nicht korrekt",
+            "de": "Der Überweg ist mit taktilem Pflaster ausgestattet, das jedoch nicht den Vorschriften entspricht",
             "es": "Este cruce tiene superficie podotáctil, pero no correctamente",
             "fr": "Ce passage piéton a une surface podotactile, mais elle n'est pas adéquate",
             "ca": "Este creuament té superfície podotàctil, però no correctament",
@@ -36928,7 +36965,8 @@
         "nl": "Heeft dit verkeerslicht een element dat trilt om te helpen bij het oversteken? (meestal onderaan de oversteekknop geplaatst)",
         "fr": "Est-ce que ce feu a un signal vibrant pour aider à traverser ? (habituellement situé sous le bouton)",
         "ca": "Aquest semàfor té senyals de vibració per facilitar el pas? (normalment es troba a la part inferior del botó d'encreuament)",
-        "cs": "Má tento semafor vibrační signály pro usnadnění přecházení? (obvykle se nachází ve spodní části tlačítka pro přecházení)"
+        "cs": "Má tento semafor vibrační signály pro usnadnění přecházení? (obvykle se nachází ve spodní části tlačítka pro přecházení)",
+        "uk": "Чи має цей світлофор вібраційні сигнали для полегшення переходу? (зазвичай розташовані внизу кнопки переходу)"
       },
       "condition": {
         "and": [
@@ -37409,7 +37447,8 @@
         "nl": "Deze halte heet <b>{name}</b>",
         "ca": "Aquesta parada es diu <b>{name}</b>",
         "fr": "Cet arrêt est nommé <b>{name}</b>",
-        "cs": "Tato zastávka se jmenuje <b>{name}</b>"
+        "cs": "Tato zastávka se jmenuje <b>{name}</b>",
+        "hu": "A megálló neve: <b>{name}</b>"
       },
       "freeform": {
         "key": "name",
@@ -37451,7 +37490,8 @@
         "da": "Hvad er navnet på dette stop?",
         "nl": "Wat is de naam van deze halte?",
         "ca": "Quin és el nom d'aquesta parada?",
-        "cs": "Jak se tato zastávka jmenuje?"
+        "cs": "Jak se tato zastávka jmenuje?",
+        "hu": "Mi a neve ennek a megállónak?"
       },
       "condition": {
         "or": [
@@ -37835,7 +37875,8 @@
         "es": "¿A qué pisos va este ascensor?",
         "nb_NO": "Hvilke etasjer går heisen til?",
         "da": "Hvilke niveauer går denne elevator til?",
-        "cs": "Do jakých podlaží tento výtah jezdí?"
+        "cs": "Do jakých podlaží tento výtah jezdí?",
+        "uk": "На якому поверсі знаходиться цей об'єкт?"
       },
       "render": {
         "en": "This elevator goes to floors {level}",
@@ -37859,7 +37900,8 @@
         "da": "Denne elevator går til etager {level}",
         "nb_NO": "Heisen går til etasje {level}",
         "id": "Lift ini berjalan ke lantai {level}",
-        "cs": "Tento výtah jede do {level} patra"
+        "cs": "Tento výtah jede do {level} patra",
+        "uk": "Розташований на {level} поверсі"
       },
       "freeform": {
         "key": "level",
@@ -37890,7 +37932,8 @@
             "fil": "Nasa ilalim ng lupa",
             "es": "Localizado bajo tierra",
             "da": "Placeret under jorden",
-            "cs": "Nachází se v podzemí"
+            "cs": "Nachází se v podzemí",
+            "uk": "Розташований під землею"
           },
           "hideInAnswer": true
         },
@@ -37918,7 +37961,8 @@
             "fil": "Nasa unang palapag",
             "es": "Localizado en la planta baja",
             "da": "Beliggende i stueetagen",
-            "cs": "Nachází se v přízemí"
+            "cs": "Nachází se v přízemí",
+            "uk": "Розташований на рівні землі"
           }
         },
         {
@@ -37946,7 +37990,8 @@
             "fil": "Nasa unang palapag",
             "es": "Localizado en la planta baja",
             "da": "Beliggende i stueetagen",
-            "cs": "Nachází se v přízemí"
+            "cs": "Nachází se v přízemí",
+            "uk": "Розташований на рівні землі"
           }
         },
         {
@@ -37973,7 +38018,8 @@
             "fil": "Nasa unang palapag",
             "es": "Localizado en la primera planta",
             "da": "Beliggende på første sal",
-            "cs": "Nachází se v prvním patře"
+            "cs": "Nachází se v prvním patře",
+            "uk": "Розташований на першому поверсі"
           }
         },
         {
@@ -37994,7 +38040,8 @@
             "pt": "Localizado no primeiro nível da cave",
             "da": "Beliggende på første kælderetage",
             "cs": "Nachází se v prvním suterénu",
-            "pl": "Położone na pierwszym poziomie piwnicy"
+            "pl": "Położone na pierwszym poziomie piwnicy",
+            "uk": "Розташований на першому підвальному поверсі"
           }
         }
       ],
@@ -38455,7 +38502,8 @@
         "es": "¿A qué pisos va este ascensor?",
         "nb_NO": "Hvilke etasjer går heisen til?",
         "da": "Hvilke niveauer går denne elevator til?",
-        "cs": "Mezi kterými podlažími jsou tyto schody?"
+        "cs": "Mezi kterými podlažími jsou tyto schody?",
+        "uk": "На якому поверсі знаходиться цей об'єкт?"
       },
       "render": {
         "en": "These stairs are between the levels {level}",
@@ -38479,7 +38527,8 @@
         "da": "Denne elevator går til etager {level}",
         "nb_NO": "Heisen går til etasje {level}",
         "id": "Lift ini berjalan ke lantai {level}",
-        "cs": "Tyto schody jsou mezi patry {level}"
+        "cs": "Tyto schody jsou mezi patry {level}",
+        "uk": "Розташований на {level} поверсі"
       },
       "freeform": {
         "key": "level",
@@ -38510,7 +38559,8 @@
             "fil": "Nasa ilalim ng lupa",
             "es": "Localizado bajo tierra",
             "da": "Placeret under jorden",
-            "cs": "Nachází se v podzemí"
+            "cs": "Nachází se v podzemí",
+            "uk": "Розташований під землею"
           },
           "hideInAnswer": true
         },
@@ -38538,7 +38588,8 @@
             "fil": "Nasa unang palapag",
             "es": "Localizado en la planta baja",
             "da": "Beliggende i stueetagen",
-            "cs": "Nachází se v přízemí"
+            "cs": "Nachází se v přízemí",
+            "uk": "Розташований на рівні землі"
           }
         },
         {
@@ -38566,7 +38617,8 @@
             "fil": "Nasa unang palapag",
             "es": "Localizado en la planta baja",
             "da": "Beliggende i stueetagen",
-            "cs": "Nachází se v přízemí"
+            "cs": "Nachází se v přízemí",
+            "uk": "Розташований на рівні землі"
           }
         },
         {
@@ -38593,7 +38645,8 @@
             "fil": "Nasa unang palapag",
             "es": "Localizado en la primera planta",
             "da": "Beliggende på første sal",
-            "cs": "Nachází se v prvním patře"
+            "cs": "Nachází se v prvním patře",
+            "uk": "Розташований на першому поверсі"
           }
         },
         {
@@ -38614,7 +38667,8 @@
             "pt": "Localizado no primeiro nível da cave",
             "da": "Beliggende på første kælderetage",
             "cs": "Nachází se v prvním suterénu",
-            "pl": "Położone na pierwszym poziomie piwnicy"
+            "pl": "Położone na pierwszym poziomie piwnicy",
+            "uk": "Розташований на першому підвальному поверсі"
           }
         }
       ],
@@ -39391,7 +39445,7 @@
         "en": "What is the name of this business?",
         "de": "Was ist der Name dieses Unternehmens?",
         "fr": "Quel est le nom de ce pub ?",
-        "hu": "Mi a neve ennek a kocsmának?",
+        "hu": "Mi a neve ennek a vállalkozásnak?",
         "da": "Hvad hedder denne pub?",
         "es": "¿Cuál es el nombre de esta empresa?",
         "ca": "Quin és el nom d'aquest negoci?",
@@ -39478,7 +39532,7 @@
           "then": {
             "en": "A <b>café</b> to drink tea, coffee or an alcoholic beverage in a quiet environment",
             "nl": "Dit is een <b>cafe</b> - een plaats waar men rustig kan zitten om een thee, koffie of alcoholische drank te nuttigen.",
-            "de": "Ein <b>Café</b>, um in ruhiger Umgebung Tee, Kaffee oder ein alkoholisches Getränk zu trinken",
+            "de": "Ein <b>Café</b>, um in ruhiger Umgebung Tee, Kaffee oder alkoholische Getränke zu trinken",
             "da": "En <b>café</b> til at drikke te, kaffe eller en alkoholisk drik i rolige omgivelser",
             "es": "Una <b>cafetería</b> para beber té, café o una bebida alcohólica en un ambiente tranquilo",
             "fr": "Un <b>café</b> pour boire du thé, du café ou une boisson alcoolisée au calme",
@@ -39504,7 +39558,7 @@
           "then": {
             "en": "This is a beer garden: an open-air space where beer is served, typically seen in Germany",
             "nl": "Een open ruimte waar bier geserveerd wordt. Typisch in Duitsland",
-            "de": "Ein Außenbereich mit Bierausschank, typischerweise in Deutschland",
+            "de": "Ein Biergarten mit Außenbereich mit Bierausschank, typischerweise in Deutschland",
             "da": "Et åbent rum, hvor der serveres øl, typisk set i Tyskland",
             "es": "Un espacio abierto donde se sirve cerveza, típico de Alemania",
             "fr": "Un espace ouvert où la bière est servie, typiquement vu en Allemagne",
@@ -39572,7 +39626,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -39598,7 +39653,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -39612,7 +39668,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -41545,7 +41602,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -41571,7 +41629,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -41594,7 +41653,8 @@
             "nb_NO": "Døgnåpent (inkludert helligdager)",
             "cs": "Otevřeno 24/7 (včetně svátků)",
             "ca": "Obert 24/7 (incloent-hi festius)",
-            "pl": "Otwarte 24/7 (również w święta)"
+            "pl": "Otwarte 24/7 (również w święta)",
+            "uk": "Працює 24/7 (включаючи святкові дні)"
           }
         },
         {
@@ -41603,7 +41663,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -41685,7 +41746,9 @@
       "id": "food_courts_name",
       "question": {
         "en": "What is the name of this food court?",
-        "de": "Wie lautet der Name dieses Food-Courts?"
+        "de": "Wie lautet der Name dieses Food-Courts?",
+        "hu": "Mi a neve ennek az étkezőtérnek?",
+        "uk": "Як називається цей фудкорт?"
       },
       "freeform": {
         "key": "name",
@@ -41698,7 +41761,9 @@
       },
       "render": {
         "en": "This food court is called <b>{name}</b>.",
-        "de": "Dieser Food Court heißt <b>{name}</b>."
+        "de": "Dieser Food Court heißt <b>{name}</b>.",
+        "hu": "Az étkezőtér neve: <b>{name}</b>.",
+        "uk": "Цей фудкорт називається <b>{name}</b>."
       },
       "condition": {
         "and": [
@@ -41734,7 +41799,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -41760,7 +41826,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -41774,7 +41841,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -41829,7 +41897,8 @@
         "ca": "Com es diu aquest lloc?",
         "cs": "Jak se toto místo jmenuje?",
         "pl": "Jak nazywa się to miejsce?",
-        "pt": "Qual o nome deste lugar?"
+        "pt": "Qual o nome deste lugar?",
+        "hu": "Mi a neve ennek a helynek?"
       },
       "freeform": {
         "key": "name",
@@ -48563,7 +48632,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -48589,7 +48659,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -48612,7 +48683,8 @@
             "nb_NO": "Døgnåpent (inkludert helligdager)",
             "cs": "Otevřeno 24/7 (včetně svátků)",
             "ca": "Obert 24/7 (incloent-hi festius)",
-            "pl": "Otwarte 24/7 (również w święta)"
+            "pl": "Otwarte 24/7 (również w święta)",
+            "uk": "Працює 24/7 (включаючи святкові дні)"
           }
         },
         {
@@ -48621,7 +48693,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -48837,7 +48910,7 @@
           "then": {
             "en": "Authentication via text message is available",
             "nl": "Aanmelden via SMS is mogelijk",
-            "de": "Authentifizierung per SMS ist möglich",
+            "de": "Authentifizierung per SMS",
             "fr": "Authentification possible par SMS"
           }
         },
@@ -48907,13 +48980,13 @@
         "en": "Authenticate by calling or texting <a href='tel:{authentication:phone_call:number}'>{authentication:phone_call:number}</a>",
         "nl": "Aanmelden door te bellen of te SMS'en naar <a href='tel:{authentication:phone_call:number}'>{authentication:phone_call:number}</a>",
         "ca": "Autentiqueu-vos trucant o enviant SMS a <a href='tel:{authentication:phone_call:number}'>{authentication:phone_call:number}</a>",
-        "de": "Authentifiziere dich, indem du anrufst oder eine SMS sendest an <a href='tel:{authentication:phone_call:number}'>{authentication:phone_call:number}</a>"
+        "de": "Authentifizierung per Anruf oder SMS an <a href='tel:{authentication:phone_call:number}'>{authentication:phone_call:number}</a>"
       },
       "question": {
         "en": "What phone number should you contact to authenticate (call or text)?",
         "nl": "Wat is het telefoonnummer dat men moet bellen of SMS'en om zich aan te melden?",
         "ca": "Quin és el número de telèfon per a la trucada d'autenticació o SMS?",
-        "de": "Wie lautet die Telefonnummer für den Authentifizierungsanruf oder die SMS?"
+        "de": "An welche Telefonnummer kann man sich wenden, um sich zu authentifizieren (Anruf oder SMS)?"
       },
       "freeform": {
         "key": "authentication:phone_call:number",
@@ -49411,7 +49484,7 @@
         "en": "Do you have to pay a parking fee while charging?",
         "nl": "Moet men parkeergeld betalen tijdens het opladen?",
         "ca": "Cal pagar una taxa d'aparcament mentre es carrega?",
-        "de": "Muss man während des Ladens eine Parkgebühr bezahlen?"
+        "de": "Ist während des Ladens eine Parkgebühr zu bezahlen?"
       },
       "mappings": [
         {
@@ -49497,7 +49570,8 @@
         "es": "¿Qué servicios están disponibles en esta localización?",
         "da": "Hvilke tjenester er tilgængelige på dette sted?",
         "cs": "Jaké služby jsou na tomto místě k dispozici?",
-        "ca": "Quins serveis hi ha disponibles en aquesta ubicació?"
+        "ca": "Quins serveis hi ha disponibles en aquesta ubicació?",
+        "uk": "Які послуги доступні в цьому місці?"
       },
       "mappings": [
         {
@@ -49519,7 +49593,8 @@
             "es": "Solo hay una bomba presente",
             "da": "Der er kun en pumpe",
             "cs": "K dispozici je pouze vzduchový kompresor",
-            "ca": "Només hi ha una bomba present"
+            "ca": "Només hi ha una bomba present",
+            "uk": "Присутній тільки насос"
           }
         },
         {
@@ -49541,7 +49616,8 @@
             "es": "Solo hay herramientas (destornilladores, pinzas...) presentes",
             "da": "Der er kun værktøj (skruetrækkere, tænger, ...) til stede",
             "cs": "K dispozici je pouze nářadí (šroubováky, kleště, …)",
-            "ca": "Només hi ha present ferramentes (tornavísos, pinces, …)"
+            "ca": "Només hi ha present ferramentes (tornavísos, pinces, …)",
+            "uk": "Присутні лише інструменти (викрутки, плоскогубці, ...)"
           }
         },
         {
@@ -49563,7 +49639,8 @@
             "es": "Hay tanto herramientas como bombas",
             "da": "Der er både værktøj og pumpe",
             "cs": "K dispozici jsou nástroje i vzduchový kompresor",
-            "ca": "Hi ha tant eines com una bomba"
+            "ca": "Hi ha tant eines com una bomba",
+            "uk": "Присутні як інструменти, так і насос"
           }
         }
       ],
@@ -49615,7 +49692,8 @@
             "es": "La bomba para bicicletas está rota",
             "da": "Cykelpumpen er i stykker",
             "cs": "Vzduchový kompresor na kolo je rozbitý",
-            "ca": "La bomba per a bicicletes està trencada"
+            "ca": "La bomba per a bicicletes està trencada",
+            "uk": "Велосипедний насос зламаний"
           }
         },
         {
@@ -49632,7 +49710,8 @@
             "es": "La bomba para bicicletas está operativa",
             "da": "Cykelpumpen er i drift",
             "cs": "Vzduchový kompresor na kolo je v provozu",
-            "ca": "La bomba per a la bicicleta està operativa"
+            "ca": "La bomba per a la bicicleta està operativa",
+            "uk": "Велосипедний насос працює"
           }
         }
       ],
@@ -49662,7 +49741,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvornår er dette cykelreparationssted åbent?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Kdy je toto místo pro opravu jízdních kol otevřeno?"
+        "cs": "Kdy je toto místo pro opravu jízdních kol otevřeno?",
+        "uk": "Коли працює цей пункт ремонту велосипедів?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -49688,7 +49768,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -49711,7 +49792,8 @@
             "nb_NO": "Døgnåpent (inkludert helligdager)",
             "cs": "Otevřeno 24/7 (včetně svátků)",
             "ca": "Obert 24/7 (incloent-hi festius)",
-            "pl": "Otwarte 24/7 (również w święta)"
+            "pl": "Otwarte 24/7 (również w święta)",
+            "uk": "Працює 24/7 (включаючи святкові дні)"
           }
         },
         {
@@ -49720,7 +49802,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -50001,7 +50084,8 @@
         "es": "¿Esta estación tiene un gancho para colgar tu bici o un soporte para elevarla?",
         "da": "Har denne cykelstation en krog til at hænge din cykel på eller et stativ til at hæve den?",
         "cs": "Má tato cyklistická stanice hák na zavěšení kola nebo stojan na jeho zvednutí?",
-        "ca": "Aquesta estació de bicicletes té un ganxo per penjar la bicicleta o un suport per aixecar-la?"
+        "ca": "Aquesta estació de bicicletes té un ganxo per penjar la bicicleta o un suport per aixecar-la?",
+        "uk": "Чи є на цій станції гачок, на який можна повісити велосипед, або підставка для його підйому?"
       },
       "condition": {
         "and": [
@@ -50024,7 +50108,8 @@
             "es": "Hay un gancho o soporte",
             "da": "Der er en krog eller et stativ",
             "cs": "K dispozici je závěsný hák nebo stojan",
-            "ca": "Hi ha un ganxo o suport"
+            "ca": "Hi ha un ganxo o suport",
+            "uk": "Є гачок або підставка"
           }
         },
         {
@@ -50041,7 +50126,8 @@
             "es": "No hay ningún gancho o soporte",
             "da": "Der er ingen krog eller stativ",
             "cs": "Není zde žádný závěsný hák ani stojan",
-            "ca": "No hi ha ganxo ni suport"
+            "ca": "No hi ha ganxo ni suport",
+            "uk": "Немає гачка або підставки"
           }
         }
       ]
@@ -50063,7 +50149,8 @@
         "es": "{send_email(&LBRACEemail&RBRACE,Bomba para bicicletas rota,Hola&COMMA\n\nCon este correo&COMMA me gustaría informar de que esta bomba para bicicletas situada en https://mapcomplete.org/cyclofix?lat=&LBRACE_lat&RBRACE&lon=&LBRACE_lon&RBRACE&z=18#&LBRACEid&RBRACE está rota.\n\nUn saludo,Reportar esta bomba para bicicletas como rota)}",
         "fr": "{send_email(&LBRACEemail&RBRACE,Pompe à vélo cassée,Bonjour&COMMA\n\nCe mail pour vous informer que la pompe à vélo située à https://mapcomplete.org/cyclofix?lat=&LBRACE_lat&RBRACE&lon=&LBRACE_lon&RBRACE&z=18#&LBRACEid&RBRACE est cassée.\n\nBien à vous.,Signaler cette pompe à vélo cassée)}",
         "nl": "{send_email(&LBRACEemail&RBRACE,Kapotte fietspomp,Geachte\n\nGraag had ik u gemeld dat een fietspomp defect is. De fietspomp bevindt zich hier: https://mapcomplete.org/cyclofix?lat=&LBRACE_lat&RBRACE&lon=&LBRACE_lon&RBRACE&z=18#&LBRACEid&RBRACE.\n\nMet vriendelijke groeten.,Rapporteer deze fietspomp als kapot)}",
-        "pl": "{send_email(&LBRACEemail&RBRACE,Zepsuta pompka rowerowa,Hello&COMMA\n\nWith this email&COMMA I'd like to inform you that the bicycle pump located at https://mapcomplete.org/cyclofix?lat=&LBRACE_lat&RBRACE&lon=&LBRACE_lon&RBRACE&z=18#&LBRACEid&RBRACE is broken.\n\n Kind regards,Zgłoś&COMMA że ta pompka rowerowa jest zepsuta)}"
+        "pl": "{send_email(&LBRACEemail&RBRACE,Zepsuta pompka rowerowa,Hello&COMMA\n\nWith this email&COMMA I'd like to inform you that the bicycle pump located at https://mapcomplete.org/cyclofix?lat=&LBRACE_lat&RBRACE&lon=&LBRACE_lon&RBRACE&z=18#&LBRACEid&RBRACE is broken.\n\n Kind regards,Zgłoś&COMMA że ta pompka rowerowa jest zepsuta)}",
+        "uk": "{send_email(&LBRACEemail&RBRACE,Broken bicycle pump,Доброго дня&COMMA\n\nЦим листом хочу повідомити&COMMA що велосипедний насос&COMMA розташований за адресою https://mapcomplete.org/cyclofix?lat=&LBRACE_lat&RBRACE&lon=&LBRACE_lon&RBRACE&z=18#&LBRACEid&RBRACE&COMMA вийшов з ладу.\n\n З повагою,Report this bicycle pump as broken)}"
       },
       "id": "send_email_about_broken_pump"
     },
@@ -50073,7 +50160,7 @@
         "nl": "Welke ventielen werken er met de pomp?",
         "fr": "Quelles valves sont compatibles ?",
         "gl": "Que válvulas son compatíbeis?",
-        "de": "Welche Ventile werden unterstützt?",
+        "de": "Welche Ventile stehen zur Verfügung?",
         "it": "Quali valvole sono supportate?",
         "pl": "Jakie zawory są obsługiwane?",
         "es": "¿Que válvulas se soportan?",
@@ -50086,7 +50173,7 @@
         "nl": "Deze pomp werkt met de volgende ventielen: {valves}",
         "fr": "Cette pompe est compatible avec les valves suivantes : {valves}",
         "gl": "Esta bomba de ar admite as seguintes válvulas: {valves}",
-        "de": "Diese Pumpe unterstützt die folgenden Ventile: {valves}",
+        "de": "Die Pumpe hat folgende Ventile: {valves}",
         "it": "Questa pompa è compatibile con le seguenti valvole: {valves}",
         "ru": "Этот насос поддерживает следующие клапаны: {valves}",
         "pl": "Ta pompka obsługuje następujące zawory: {valves}",
@@ -50233,7 +50320,7 @@
         "nl": "Heeft deze pomp een luchtdrukmeter?",
         "fr": "Est-ce que la pompe à un manomètre integré ?",
         "gl": "Ten a bomba de ar un indicador de presión ou un manómetro?",
-        "de": "Verfügt die Pumpe über einen Druckanzeiger oder ein Manometer?",
+        "de": "Verfügt die Pumpe über ein Druckmessgerät?",
         "it": "Questa pompa ha l’indicatore della pressione o il manometro?",
         "pl": "Czy pompka posiada wskaźnik ciśnienia lub manometr?",
         "es": "¿La bomba tiene un indicador de presión o manómetro?",
@@ -50255,7 +50342,7 @@
             "nl": "Er is een luchtdrukmeter",
             "fr": "Il y a un manomètre",
             "gl": "Hai manómetro",
-            "de": "Es gibt ein Manometer",
+            "de": "Es gibt ein Druckmessgerät",
             "it": "C’è un manometro",
             "ru": "Есть манометр",
             "pl": "Jest manometr",
@@ -50274,7 +50361,7 @@
             "nl": "Er is geen luchtdrukmeter",
             "fr": "Il n'y a pas de manomètre",
             "gl": "Non hai manómetro",
-            "de": "Es gibt kein Manometer",
+            "de": "Es gibt kein Druckmessgerät",
             "it": "Non c’è un manometro",
             "ru": "Нет манометра",
             "pl": "Nie ma manometru",
@@ -50293,7 +50380,7 @@
             "nl": "Er is een luchtdrukmeter maar die is momenteel defect",
             "fr": "Il y a un manomètre mais il est cassé",
             "gl": "Hai manómetro pero está estragado",
-            "de": "Es gibt ein Manometer, aber es ist kaputt",
+            "de": "Es gibt ein Druckmessgerät, aber es ist kaputt",
             "it": "C’è un manometro ma è rotto",
             "ru": "Есть манометр, но он сломан",
             "pl": "Jest manometr, ale jest uszkodzony",
@@ -50356,7 +50443,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -50382,7 +50470,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -50401,7 +50490,8 @@
             "es": "Sólo con cita previa",
             "nb_NO": "Kun ved avtale",
             "pl": "Tylko po wcześniejszym umówieniu się",
-            "cs": "Pouze po domluvě"
+            "cs": "Pouze po domluvě",
+            "uk": "Тільки за попереднім записом"
           }
         },
         {
@@ -50415,7 +50505,8 @@
             "es": "Sólo con cita previa",
             "nb_NO": "Kun ved avtale",
             "pl": "Tylko po wcześniejszym umówieniu się",
-            "cs": "Pouze po domluvě"
+            "cs": "Pouze po domluvě",
+            "uk": "Тільки за попереднім записом"
           },
           "hideInAnswer": true
         },
@@ -50425,7 +50516,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -50589,14 +50681,17 @@
         "en": "What is the name of this repair workshop?",
         "de": "Wie heißt diese Reparaturwerkstatt?",
         "cs": "Jak se tato opravna jmenuje?",
-        "es": "¿Cuál es el nombre de este taller de reparación?"
+        "es": "¿Cuál es el nombre de este taller de reparación?",
+        "hu": "Mi a neve ennek a szerelőműhelynek?"
       },
       "id": "assisted_repair_name",
       "render": {
         "en": "This workshop is called <b>{name}</b>",
         "de": "Diese Werkstatt heißt <b>{name}</b>",
         "cs": "Tato dílna se nazývá <b>{name}</b>",
-        "es": "Este taller se llama <b>{name}</b>"
+        "es": "Este taller se llama <b>{name}</b>",
+        "hu": "A szerelőműhely neve: <b>{name}</b>",
+        "uk": "Ця майстерня називається <b>{name}</b>"
       },
       "freeform": {
         "key": "name",
@@ -50753,7 +50848,9 @@
         "de": "Wie ist der Name dieses Geschäfts?",
         "es": "¿Cual es el nombre de esta tienda?",
         "ca": "Quin és el nom d'aquesta botiga?",
-        "cs": "Jak se jmenuje tento obchod?"
+        "cs": "Jak se jmenuje tento obchod?",
+        "hu": "Mi a neve ennek a boltnak?",
+        "uk": "Як називається цей магазин?"
       },
       "render": {
         "en": "This shop is called <i>{name}</i>",
@@ -50761,7 +50858,8 @@
         "nl": "Deze zaak heet <i>{name}</i>",
         "ca": "La botiga s'anomena <i>{name}</i>",
         "fr": "Ce commerce s'appelle <i>{name}</i>",
-        "cs": "Tento obchod se jmenuje <i>{name}</i>"
+        "cs": "Tento obchod se jmenuje <i>{name}</i>",
+        "uk": "Цей магазин називається <i>{name}</i>"
       },
       "freeform": {
         "key": "name",
@@ -74270,7 +74368,8 @@
       "id": "shops_brand",
       "question": {
         "en": "What is the brand of this shop?",
-        "de": "Zu welcher Marke gehört dieses Geschäft?"
+        "de": "Zu welcher Marke gehört dieses Geschäft?",
+        "uk": "Який бренд цього магазину?"
       },
       "render": {
         "en": "Part of <b>{brand}</b>",
@@ -74285,7 +74384,8 @@
           "if": "not:brand=yes",
           "then": {
             "en": "This shop does not have a specific brand, it is not part of a bigger chain",
-            "de": "Das Geschäft gehört zu keiner Marke oder Handelskette"
+            "de": "Das Geschäft gehört zu keiner Marke oder Handelskette",
+            "uk": "Цей магазин не має певного бренду, він не є частиною великої мережі"
           }
         }
       ],
@@ -74363,7 +74463,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -74389,7 +74490,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -74403,7 +74505,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -76304,7 +76407,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -76330,7 +76434,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -76344,7 +76449,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -76507,7 +76613,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -76533,7 +76640,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -76547,7 +76655,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -78815,7 +78924,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvornår åbnes disse toiletter?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Kdy jsou tyto toalety otevřeny?"
+        "cs": "Kdy jsou tyto toalety otevřeny?",
+        "uk": "Коли відкриваються ці туалети?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -78841,7 +78951,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -78864,7 +78975,8 @@
             "nb_NO": "Døgnåpent (inkludert helligdager)",
             "cs": "Otevřeno 24/7 (včetně svátků)",
             "ca": "Obert 24/7 (incloent-hi festius)",
-            "pl": "Otwarte 24/7 (również w święta)"
+            "pl": "Otwarte 24/7 (również w święta)",
+            "uk": "Працює 24/7 (включаючи святкові дні)"
           }
         },
         {
@@ -78873,7 +78985,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -79236,7 +79349,8 @@
       "question": {
         "en": "Where are the free menstrual products located?",
         "nl": "Waar bevinden de gratis menstruatieproducten zich?",
-        "de": "Wo befinden sich die kostenlosen Menstruationsprodukte?"
+        "de": "Wo befinden sich die kostenlosen Menstruationsprodukte?",
+        "uk": "Де знаходяться безкоштовні менструальні засоби?"
       },
       "condition": {
         "and": [
@@ -79279,7 +79393,8 @@
           "then": {
             "en": "The free, menstrual products are located in the toilet for women",
             "nl": "De gratis menstruatieproducten bevinden zich in het vrouwentoilet",
-            "de": "Die kostenlosen Menstruationsprodukte befinden sich in der Toilette für Frauen"
+            "de": "Die kostenlosen Menstruationsprodukte befinden sich in der Toilette für Frauen",
+            "uk": "Безкоштовні менструальні засоби знаходяться в туалеті для жінок"
           },
           "if": "toilets:menstrual_products:location=female_toilet",
           "alsoShowIf": "toilets:menstrual_products:location="
@@ -79288,7 +79403,8 @@
           "then": {
             "en": "The free, menstrual products are located in the toilet for men",
             "nl": "De gratis menstruatieproducten bevinden zich in het mannentoilet",
-            "de": "Die kostenlosen Menstruationsprodukte befinden sich in der Toilette für Männer"
+            "de": "Die kostenlosen Menstruationsprodukte befinden sich in der Toilette für Männer",
+            "uk": "Безкоштовні менструальні засоби знаходяться в туалеті для чоловіків"
           },
           "if": "toilets:menstrual_products:location=male_toilet"
         },
@@ -79297,7 +79413,8 @@
           "then": {
             "en": "The free, menstrual products are located in the toilet for wheelchair users",
             "nl": "De gratis menstruatieproducten bevinden zich in het rolstoeltoegankelijke toilet",
-            "de": "Die kostenlosen Menstruationsprodukte befinden sich auf der Toilette für Rollstuhlfahrende"
+            "de": "Die kostenlosen Menstruationsprodukte befinden sich auf der Toilette für Rollstuhlfahrende",
+            "uk": "Безкоштовні менструальні засоби знаходяться в туалеті для людей на візках"
           }
         }
       ]
@@ -79379,7 +79496,8 @@
         "es": "¿Dónde está el cambiador?",
         "da": "Hvor er puslebordet placeret?",
         "ca": "On està el canviador?",
-        "cs": "Kde je umístěn přebalovací pult?"
+        "cs": "Kde je umístěn přebalovací pult?",
+        "uk": "Де знаходиться пеленальний столик?"
       },
       "render": {
         "en": "A changing table is located at {changing_table:location}",
@@ -79612,7 +79730,8 @@
         "hu": "Működik-e még ez az ivóvíznyerő hely?",
         "es": "¿Todavía esta operativo este punto de agua potable?",
         "ca": "Aquest punt d'aigua potable continua operatiu?",
-        "cs": "Je toto místo na pitnou vodu stále funkční?"
+        "cs": "Je toto místo na pitnou vodu stále funkční?",
+        "uk": "Чи працює цей пункт з питною водою?"
       },
       "render": {
         "en": "The operational status is <i>{operational_status}</i>",
@@ -79624,7 +79743,8 @@
         "es": "El estado operacional es <i>{operational_status}</i>",
         "ca": "L'estat operatiu és <i>{operational_status}</i>",
         "cs": "Provozní stav je <i>{operational_status}</i>",
-        "pt": "O estado operacional é: <i>{operational_status}</i>"
+        "pt": "O estado operacional é: <i>{operational_status}</i>",
+        "uk": "Операційний статус - <i>{operational_status}</i>"
       },
       "freeform": {
         "key": "operational_status",
@@ -79650,7 +79770,8 @@
             "hu": "Ez az ivóvízkút működik",
             "es": "Esta agua potable funciona",
             "ca": "La font d'aigua funciona",
-            "cs": "Tato pitná voda funguje"
+            "cs": "Tato pitná voda funguje",
+            "uk": "Ця питна вода працює"
           }
         },
         {
@@ -79664,7 +79785,8 @@
             "hu": "Ez az ivóvízkút elromlott",
             "es": "Esta agua potable está rota",
             "ca": "Aquesta font d'aigua potable està trencada",
-            "cs": "Tato pitná voda je rozbitá"
+            "cs": "Tato pitná voda je rozbitá",
+            "uk": "Цей пункт питної води зламаний"
           }
         },
         {
@@ -79678,7 +79800,8 @@
             "hu": "Ez az ivóvízkút el van zárva",
             "es": "Esta agua potable está cerrada",
             "ca": "Aquesta font d'aigua potable està tancada",
-            "cs": "Tato pitná voda je uzavřena"
+            "cs": "Tato pitná voda je uzavřena",
+            "uk": "Ця пункт питної води закритий"
           }
         },
         {
@@ -79688,7 +79811,8 @@
           ],
           "then": {
             "en": "This drinking water is permanently closed",
-            "de": "Die Trinkwasserstelle ist dauerhaft geschlossen"
+            "de": "Die Trinkwasserstelle ist dauerhaft geschlossen",
+            "uk": "Цей пункт питної води постійно закритий"
           }
         }
       ],
@@ -79714,7 +79838,8 @@
         "en": "What type of drinking water point is this?",
         "nl": "Wat voor soort drinkwaterpunt is dit?",
         "de": "Um welche Art von Trinkwasserentnahmestelle handelt es sich?",
-        "ca": "Quin tipus de punt d'aigua potable és aquest?"
+        "ca": "Quin tipus de punt d'aigua potable és aquest?",
+        "uk": "Що це за тип пункту питної води?"
       },
       "mappings": [
         {
@@ -79723,7 +79848,8 @@
           "then": {
             "en": "This is a bubbler fountain. A water jet to drink from is sent upwards, typically controlled by a push button.",
             "nl": "Dit is een waterhappertje - een drinkwaterfonteintje waarbij een waterstraaltje omhoog spuit. Dit kan permanent werken of door op een drukknop te duwen.",
-            "de": "Dies ist ein Sprudelbrunnen. Ein Wasserstrahl zum Trinken wird nach oben gerichtet und in der Regel durch einen Druckknopf gesteuert."
+            "de": "Dies ist ein Sprudelbrunnen. Ein Wasserstrahl zum Trinken wird nach oben gerichtet und in der Regel durch einen Druckknopf gesteuert.",
+            "uk": "Це барботажний фонтан. Струмінь води, з якого можна пити, спрямовується вгору, зазвичай керується кнопкою."
           },
           "addExtraTags": [
             "man_made="
@@ -79736,7 +79862,8 @@
             "en": "This is a bottle refill point where the water is sent downwards, typically controlled by a push button or a motion sensor. Drinking directly from the stream might be very hard or impossible.",
             "nl": "Dit is een hervulpunt voor drinkwaterflessen. De waterstraal wordt omlaag gestuurd wanneer op een drukknop geduwd wordt of wanneer er beweging gedetecteerd wordt. Rechtstreeks van de waterstraal drinking kan moeilijk of zelfs onmogelijk zijn.",
             "de": "Dies ist eine Flaschenauffüllstation, an der das Wasser nach unten geleitet wird, in der Regel durch einen Druckknopf oder einen Bewegungssensor gesteuert. Direkt aus dem Wasserstrahl zu trinken, kann sehr schwierig oder unmöglich sein.",
-            "ca": "Aquest és un punt de reomplida d'ampolles on l'aigua s'envia cap avall, normalment controlat per un polsador o un sensor de moviment. Beure directament del raig pot ser molt difícil o impossible."
+            "ca": "Aquest és un punt de reomplida d'ampolles on l'aigua s'envia cap avall, normalment controlat per un polsador o un sensor de moviment. Beure directament del raig pot ser molt difícil o impossible.",
+            "uk": "Це пункт наповнення пляшок, де вода спрямовується вниз, як правило, за допомогою кнопки або датчика руху. Пити безпосередньо зі струмка може бути дуже важко або неможливо."
           },
           "addExtraTags": [
             "man_made=",
@@ -79750,7 +79877,8 @@
             "en": "This is a water tap. The water flows downward and the stream is controlled by a valve or push-button.",
             "nl": "Dit is een waterkraan. Het water strooomt naar beneden en het volume wordt door een knop of draaimechanisme geregeld.",
             "de": "Dies ist ein Wasserhahn. Das Wasser fließt nach unten und der Wasserstrahl wird durch ein Ventil oder einen Druckknopf gesteuert.",
-            "ca": "Això és una aixeta d'aigua. L'aigua flueix cap avall i el corrent és controlat per una vàlvula o polsador."
+            "ca": "Això és una aixeta d'aigua. L'aigua flueix cap avall i el corrent és controlat per una vàlvula o polsador.",
+            "uk": "Це водопровідний кран. Вода тече вниз, а керує потоком вентиль або кнопка."
           },
           "addExtraTags": [
             "fountain="
@@ -79963,7 +80091,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -79989,7 +80118,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -80036,7 +80166,8 @@
             "en": "This drinking water fountain is closed this season. As such, the opening hours are not shown.",
             "nl": "Dit drinkwaterpunt is dit seizoen gesloten. De openingsuren worden dus niet weergegeven.",
             "de": "Der Trinkwasserbrunnen ist derzeit nicht in Betrieb. Deshalb werden keine Öffnungszeiten angezeigt.",
-            "ca": "Aquesta font d'aigua potable està tancada aquesta temporada. Com a tal, l'horari d'obertura no es mostra."
+            "ca": "Aquesta font d'aigua potable està tancada aquesta temporada. Com a tal, l'horari d'obertura no es mostra.",
+            "uk": "У цьому сезоні фонтан з питною водою закритий. Тому години роботи не вказані."
           },
           "hideInAnswer": true
         },
@@ -80055,7 +80186,8 @@
             "nb_NO": "Døgnåpent (inkludert helligdager)",
             "cs": "Otevřeno 24/7 (včetně svátků)",
             "ca": "Obert 24/7 (incloent-hi festius)",
-            "pl": "Otwarte 24/7 (również w święta)"
+            "pl": "Otwarte 24/7 (również w święta)",
+            "uk": "Працює 24/7 (включаючи святкові дні)"
           }
         },
         {
@@ -80064,7 +80196,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -80076,7 +80209,8 @@
         "en": "These are the opening hours if the drinking water fountain is operational.",
         "nl": "Tijdens deze openingsuren is dit drinkwaterpunt bruikbaar.",
         "de": "Dies sind die Öffnungszeiten des Trinkwasserbrunnens, wenn dieser in Betrieb ist.",
-        "ca": "Aquests són els horaris d'obertura si la font d'aigua potable està operativa."
+        "ca": "Aquests són els horaris d'obertura si la font d'aigua potable està operativa.",
+        "uk": "Це години роботи фонтанчика з питною водою, якщо він працює."
       },
       "condition": {
         "and": [
@@ -80103,7 +80237,8 @@
         "en": "Does this drinking water fountain have an artistic element?",
         "nl": "Heeft dit drinkwaterpunt een geintegreerd kunstwerk?",
         "de": "Verfügt der Trinkwasserbrunnen über ein künstlerisches Element?",
-        "ca": "Aquesta font d'aigua potable té un element artístic?"
+        "ca": "Aquesta font d'aigua potable té un element artístic?",
+        "uk": "Чи має цей фонтан питної води мистецьку складову?"
       },
       "mappings": [
         {
@@ -80115,7 +80250,8 @@
             "en": "This drinking water point has an integrated artwork",
             "nl": "Dit drinkwaterpunt heeft een geintegreerd kunstwerk",
             "de": "Die Trinkwasserstelle hat ein integriertes Kunstwerk",
-            "ca": "Aquest punt d'aigua potable té una obra d'art integrada"
+            "ca": "Aquest punt d'aigua potable té una obra d'art integrada",
+            "uk": "Цей пункт питної води має інтегрований арт-об'єкт"
           }
         },
         {
@@ -80124,7 +80260,8 @@
             "en": "This drinking water point does not have an integrated artwork",
             "nl": "Dit drinkwaterpunt heeft geen geïntegreerd kunstwerk",
             "de": "Die Trinkwasserstelle hat kein integriertes Kunstwerk",
-            "ca": "Aquest punt d'aigua potable no té una obra d'art integrada"
+            "ca": "Aquest punt d'aigua potable no té una obra d'art integrada",
+            "uk": "Цей пункт питної води не має інтегрованого художнього оформлення"
           },
           "addExtraTags": [
             "tourism="
@@ -80145,7 +80282,8 @@
         "en": "E.g. it has an integrated statue or other non-trivial, creative work",
         "nl": "Bijvoorbeeld een standbeeld of ander, niet-triviaal kunstwerk",
         "de": "Z.B. eine integrierte Statue oder andere künstlerische Werke",
-        "ca": "P. ex. té una estàtua integrada o un altre treball creatiu no trivial"
+        "ca": "P. ex. té una estàtua integrada o un altre treball creatiu no trivial",
+        "uk": "Наприклад, він має вбудовану статую або іншу нетривіальну, креативну роботу"
       },
       "condition": {
         "and": [
@@ -80177,7 +80315,8 @@
         "hu": "<a href='#{_closest_other_drinking_water_id}'>Van egy másik ivóvízkút {_closest_other_drinking_water_distance} méter távolságra</a>",
         "es": "<a href='#{_closest_other_drinking_water_id}'>Hay otra fuente de agua potable a {_closest_other_drinking_water_distance} metros</a>",
         "ca": "<a href='#{_closest_other_drinking_water_id}'>Hi ha una altra font d'aigua potable a {_closest_other_drinking_water_distance} metres</a>",
-        "cs": "<a href='#{_closest_other_drinking_water_id}'>Do {_closest_other_drinking_water_distance} metrů je další fontána s pitnou vodou</a>"
+        "cs": "<a href='#{_closest_other_drinking_water_id}'>Do {_closest_other_drinking_water_distance} metrů je další fontána s pitnou vodou</a>",
+        "uk": "<a href='#{_closest_other_drinking_water_id}'>На відстані {_closest_other_drinking_water_distance} метрів є ще один фонтан із питною водою</a>"
       },
       "condition": {
         "and": [
@@ -80570,7 +80709,7 @@
       "question": {
         "en": "Does this clock also display the air pressure? (barometer)",
         "nl": "Toont deze klok ook de luchtdruk?",
-        "de": "Zeigt diese Uhr auch den Luftdruck an?",
+        "de": "Zeigt diese Uhr auch den Luftdruck an? (Barometer)",
         "ca": "Aquest rellotge també mostra la pressió de l'aire?",
         "fr": "Est-ce que cette horloge affiche également la pression atmosphérique ?",
         "pl": "Czy ten zegar wyświetla ciśnienie?",
@@ -81059,7 +81198,7 @@
           "then": {
             "en": "Squeeze gate - the gap is smaller at the top than at the bottom",
             "nl": "Knijppoort, ruimte is smaller aan de top, dan aan de bodem",
-            "de": "Eine Durchfahrtsbeschränkung, Durchfahrtsbreite ist oben kleiner als unten",
+            "de": "Durchfahrtsbeschränkung - die Durchfahrtsbreite ist oben kleiner als unten",
             "hu": "Szűkítőkapu: a rés felül keskenyebb, mint alul",
             "fr": "Poire, l’espace en hauteur est plus faible qu’au sol",
             "es": "Barrera de seguridad, el espacio es menor en la parte superior que en la inferior",
@@ -81341,7 +81480,8 @@
       "question": {
         "en": "What is the name of the monitored location?",
         "cs": "Jak se jmenuje započítávaná lokalita?",
-        "de": "Wie lautet der Name des Zählorts?"
+        "de": "Wie lautet der Name des Zählorts?",
+        "hu": "Mi a neve a megfigyelt helynek?"
       },
       "freeform": {
         "key": "name",
@@ -81517,7 +81657,8 @@
         "da": "Hvad hedder denne cykelcafé?",
         "cs": "Jak se jmenuje tato cyklokavárna?",
         "ca": "Quin és el nom d'aquest cafè ciclista?",
-        "es": "¿Cómo se llama la cafetería para ciclistas?"
+        "es": "¿Cómo se llama la cafetería para ciclistas?",
+        "hu": "Mi a neve ennek a kerékpároskávézónak?"
       },
       "render": {
         "en": "This bike café is called {name}",
@@ -81831,7 +81972,8 @@
         "zh_Hans": "这家自行车咖啡什么时候开门营业？",
         "da": "Hvornår er denne cykelcafé åbent?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Kdy byla tato cyklistická kavárna otevřena?"
+        "cs": "Kdy byla tato cyklistická kavárna otevřena?",
+        "uk": "Коли працює велокафе?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -81857,7 +81999,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -81871,7 +82014,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -81911,6 +82055,7 @@
       "question": {
         "en": "What is the brand of this shop?",
         "de": "Zu welcher Marke gehört dieses Geschäft?",
+        "uk": "Який бренд цього магазину?",
         "_context": "layers:shops.tagRenderings.brand.question"
       },
       "render": {
@@ -81928,6 +82073,7 @@
           "then": {
             "en": "This shop does not have a specific brand, it is not part of a bigger chain",
             "de": "Das Geschäft gehört zu keiner Marke oder Handelskette",
+            "uk": "Цей магазин не має певного бренду, він не є частиною великої мережі",
             "_context": "layers:shops.tagRenderings.brand.mappings.0.then"
           }
         }
@@ -81990,6 +82136,7 @@
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
         "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?",
         "_context": "layers:shops.tagRenderings.opening_hours.question"
       },
       "render": {
@@ -82017,6 +82164,7 @@
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
         "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}",
         "_context": "layers:shops.tagRenderings.opening_hours.render"
       },
       "freeform": {
@@ -82032,6 +82180,7 @@
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
             "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час",
             "_context": "layers:shops.tagRenderings.opening_hours.mappings.0.then"
           },
           "hideInAnswer": true
@@ -82097,7 +82246,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -82123,7 +82273,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -82137,7 +82288,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -82697,7 +82849,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -82723,7 +82876,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -82746,7 +82900,8 @@
             "nb_NO": "Døgnåpent (inkludert helligdager)",
             "cs": "Otevřeno 24/7 (včetně svátků)",
             "ca": "Obert 24/7 (incloent-hi festius)",
-            "pl": "Otwarte 24/7 (również w święta)"
+            "pl": "Otwarte 24/7 (również w święta)",
+            "uk": "Працює 24/7 (включаючи святкові дні)"
           }
         },
         {
@@ -82755,7 +82910,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -83624,7 +83780,8 @@
             "es": "El estado operacional es <i>{operational_status}</i>",
             "da": "Driftsstatus er <i>{operational_status}</i>",
             "cs": "Provozní stav je <i>{operational_status}</i>",
-            "ca": "L'estat operatiu és <i>{operational_status}</i>"
+            "ca": "L'estat operatiu és <i>{operational_status}</i>",
+            "uk": "Операційний статус - <i>{operational_status}</i>"
           }
         }
       ],
@@ -83657,7 +83814,8 @@
         "ca": "Quin és el nom d'aquest hospital?",
         "ru": "Как называется эта больница?",
         "cs": "Jak se jmenuje tato nemocnice?",
-        "pl": "Jak nazywa się ten szpital?"
+        "pl": "Jak nazywa się ten szpital?",
+        "hu": "Mi a neve ennek a kórháznak?"
       },
       "freeform": {
         "key": "name",
@@ -83779,7 +83937,8 @@
         "nl": "Wat is de naam van dit brandweerstation?",
         "es": "¿Cual es el nombre de este parque de bomberos?",
         "ca": "Quin és el nom d'aquest parc de bombers?",
-        "cs": "Jak se jmenuje tato požární stanice?"
+        "cs": "Jak se jmenuje tato požární stanice?",
+        "hu": "Mi a neve ennek a tűzoltóságnak?"
       },
       "render": {
         "en": "This station is called {name}.",
@@ -83818,7 +83977,8 @@
         "nl": " Aan welke straat ligt dit station?",
         "de": " In welcher Straße ist die Feuerwache?",
         "ca": " Quin és el nom del carrer on es troba aquesta estació?",
-        "cs": " Jak se jmenuje ulice, kde se stanice nachází?"
+        "cs": " Jak se jmenuje ulice, kde se stanice nachází?",
+        "uk": " Як називається вулиця, на якій розташована станція?"
       },
       "render": {
         "en": "This station is along a highway called {addr:street}.",
@@ -84055,12 +84215,14 @@
         "en": "What is the name of this organization?",
         "it": "Qual è il nome di questa organizzazione?",
         "de": "Wie lautet der Name dieser Organisation?",
-        "ca": "Quin és el nom d'aquesta organització?"
+        "ca": "Quin és el nom d'aquesta organització?",
+        "hu": "Mi a neve ennek a szervezetnek?"
       },
       "render": {
         "en": "This organization is named <b>{name}</b>",
         "it": "Questa organizzazione si chiama <b>{name}</b>",
-        "de": "Diese Organisation heißt <b>{name}</b>"
+        "de": "Diese Organisation heißt <b>{name}</b>",
+        "hu": "A szervezet neve: <b>{name}</b>"
       },
       "condition": {
         "or": [
@@ -84072,12 +84234,14 @@
     {
       "question": {
         "en": "What is the name of this police facility?",
-        "de": "Wie lautet der Name der Polizeieinrichtung?"
+        "de": "Wie lautet der Name der Polizeieinrichtung?",
+        "hu": "Mi a neve ennek a rendőrségi létesítménynek?"
       },
       "id": "police_name",
       "render": {
         "en": "<b>{name}</b>",
-        "de": "<b>{name}</b>"
+        "de": "<b>{name}</b>",
+        "hu": "<b>{name}</b>"
       },
       "freeform": {
         "key": "name",
@@ -84153,7 +84317,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -84179,7 +84344,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -84193,7 +84359,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -84346,7 +84513,8 @@
         "de": "Wie lautet der Name dieser Sammelstelle?",
         "pl": "Jak nazywa się ten punkt zbiórki?",
         "cs": "Jak se jmenuje toto shromaždiště?",
-        "es": "¿Cuál es el nombre de este punto de encuentro?"
+        "es": "¿Cuál es el nombre de este punto de encuentro?",
+        "hu": "Mi a neve ennek a gyülekezőhelynek?"
       },
       "render": {
         "en": "This assembly point is named <b>{name}</b>",
@@ -84354,7 +84522,8 @@
         "de": "Diese Sammelstelle hat den Namen <b>{name}</b>",
         "pl": "Ten punkt zbiórki nazywa się <b>{name}</b>",
         "cs": "Toto shromaždiště se jmenuje <b>{name}</b>",
-        "es": "Este punto de encuentro se llama <b>{name}</b>"
+        "es": "Este punto de encuentro se llama <b>{name}</b>",
+        "hu": "A gyülekezőhely neve: <b>{name}</b>"
       },
       "condition": {
         "or": [
@@ -84995,7 +85164,8 @@
         "fr": "Comment s'appelle ce cabinet médical ?",
         "ca": "Com es diu aquesta consulta mèdica?",
         "he": "מה השם של מקום הרופאים הזה?",
-        "cs": "Jak se jmenuje toto místo lékařů?"
+        "cs": "Jak se jmenuje toto místo lékařů?",
+        "hu": "Mi a neve ennek az orvosi rendelőnek?"
       },
       "render": {
         "en": "This doctors place is called {name}",
@@ -85181,7 +85351,8 @@
         "pl": "Jak nazywa się ulica, przy której znajduje się stacja?",
         "pt_BR": "Como é o nome da rua em que a estação está localizada?",
         "zh_Hans": "车站所在的街道名称是什么？",
-        "pt": "Como é o nome da rua em que a estação está localizada?"
+        "pt": "Como é o nome da rua em que a estação está localizada?",
+        "uk": "Як називається вулиця, на якій розташована станція?"
       },
       "render": {
         "en": "This station is along a highway called {addr:street}.",
@@ -85227,7 +85398,8 @@
         "he": "היכן ממוקמת התחנה? (למשל שם השכונה, הכפר או העיירה)",
         "pt_BR": "Onde está localizada a estação? (por exemplo, nome do bairro, vila ou cidade)",
         "zh_Hans": "车站位于哪里？ （例如邻里、村庄或城镇的名称）",
-        "pt": "Onde está a estação localizada ? (por exemplo, nome do bairro, vila ou cidade)"
+        "pt": "Onde está a estação localizada ? (por exemplo, nome do bairro, vila ou cidade)",
+        "uk": "Де розташована станція? (наприклад, назва району, села чи міста)"
       },
       "freeform": {
         "key": "addr:place",
@@ -85485,7 +85657,8 @@
         "fr": "Quel est le nom de cette pharmacie ?",
         "ca": "Quin és el nom de la farmàcia?",
         "cs": "Jak se lékárna jmenuje?",
-        "pl": "Jak nazywa się ta apteka?"
+        "pl": "Jak nazywa się ta apteka?",
+        "hu": "Mi a neve ennek a patikának?"
       },
       "render": {
         "en": "This pharmacy is called {name}",
@@ -85530,7 +85703,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -85556,7 +85730,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -85570,7 +85745,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -85930,7 +86106,8 @@
         "fr": "Quel est le nom de cet établissement scolaire?",
         "ca": "Quin és el nom d'aquesta escola?",
         "pl": "Jaką nazwę ma ta szkoła?",
-        "cs": "Jak se jmenuje tato škola?"
+        "cs": "Jak se jmenuje tato škola?",
+        "hu": "Mi a neve ennek az iskolának?"
       },
       "freeform": {
         "key": "name",
@@ -86379,7 +86556,8 @@
         "nl": "Wat is de naam van deze faciliteit?",
         "ca": "Com s'anomena aquesta instal·lació?",
         "pl": "Jaka jest nazwa tej placówki?",
-        "cs": "Jak se toto zařízení jmenuje?"
+        "cs": "Jak se toto zařízení jmenuje?",
+        "hu": "Mi a neve ennek a létesítménynek?"
       },
       "render": {
         "en": "This facility is named <b>{name}</b>",
@@ -86387,7 +86565,8 @@
         "ca": "Aquesta instal·lació s'anomena <b>{name}</b>",
         "nl": "Deze faciliteit heet <b>{name}</b>",
         "pl": "Ta placówka nazywa się <b>{name}</b>",
-        "cs": "Toto zařízení se jmenuje <b>{name}</b>"
+        "cs": "Toto zařízení se jmenuje <b>{name}</b>",
+        "hu": "A létesítmény neve: <b>{name}</b>"
       },
       "freeform": {
         "key": "name",
@@ -86433,7 +86612,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Kdy je tato péče o děti otevřena?"
+        "cs": "Kdy je tato péče o děti otevřena?",
+        "uk": "Коли відкривається цей дитячий садок?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -86459,7 +86639,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -86473,7 +86654,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -86561,7 +86743,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -86587,7 +86770,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -86610,7 +86794,8 @@
             "nb_NO": "Døgnåpent (inkludert helligdager)",
             "cs": "Otevřeno 24/7 (včetně svátků)",
             "ca": "Obert 24/7 (incloent-hi festius)",
-            "pl": "Otwarte 24/7 (również w święta)"
+            "pl": "Otwarte 24/7 (również w święta)",
+            "uk": "Працює 24/7 (включаючи святкові дні)"
           }
         },
         {
@@ -86619,7 +86804,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -87002,7 +87188,8 @@
             "de": "Der Prägeautomat befindet sich im Inneren.",
             "es": "Esta prensa está ubicada en interior.",
             "ca": "Esta premsa està ubicada en interior.",
-            "cs": "Tento lis na mince je umístěn v interiéru."
+            "cs": "Tento lis na mince je umístěn v interiéru.",
+            "uk": "Цей копійчаний прес розташований у приміщенні."
           }
         },
         {
@@ -87012,7 +87199,8 @@
             "de": "Der Prägeautomat befindet sich im Freien.",
             "es": "Esta prensa está ubicada al aire libre.",
             "ca": "Esta premsa està ubicada a l'exterior.",
-            "cs": "Tento lis na mince je umístěn venku."
+            "cs": "Tento lis na mince je umístěn venku.",
+            "uk": "Цей копійчаний прес розташований на відкритому повітрі."
           }
         }
       ],
@@ -87146,7 +87334,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -87172,7 +87361,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -87195,7 +87385,8 @@
             "nb_NO": "Døgnåpent (inkludert helligdager)",
             "cs": "Otevřeno 24/7 (včetně svátků)",
             "ca": "Obert 24/7 (incloent-hi festius)",
-            "pl": "Otwarte 24/7 (również w święta)"
+            "pl": "Otwarte 24/7 (również w święta)",
+            "uk": "Працює 24/7 (включаючи святкові дні)"
           }
         },
         {
@@ -87204,7 +87395,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -87407,7 +87599,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -87433,7 +87626,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -87456,7 +87650,8 @@
             "nb_NO": "Døgnåpent (inkludert helligdager)",
             "cs": "Otevřeno 24/7 (včetně svátků)",
             "ca": "Obert 24/7 (incloent-hi festius)",
-            "pl": "Otwarte 24/7 (również w święta)"
+            "pl": "Otwarte 24/7 (również w święta)",
+            "uk": "Працює 24/7 (включаючи святкові дні)"
           }
         },
         {
@@ -87465,7 +87660,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -88105,7 +88301,7 @@
         {
           "if": "access=permissive",
           "then": {
-            "de": "Zugang bis auf Widerruf",
+            "de": "Zugang bis auf Widerruf (Erlaubt)",
             "en": "Access until revoked (Permissive)",
             "cs": "Přístup až do odvolání",
             "es": "Acceso hasta que se anule"
@@ -88241,7 +88437,9 @@
         "es": "¿Cuál es el nombre de este negocio?",
         "fr": "Quel est le nom de ce restaurant ?",
         "ca": "Quin és el nom d'aquest negoci?",
-        "cs": "Jak se tento podnik jmenuje?"
+        "cs": "Jak se tento podnik jmenuje?",
+        "hu": "Mi a neve ennek a vállalkozásnak?",
+        "uk": "Як називається цей бізнес?"
       },
       "render": {
         "nl": "De naam van deze eetgelegeheid is {name}",
@@ -88250,7 +88448,8 @@
         "es": "El nombre de este negocio es {name}",
         "fr": "Le nom de ce restaurant est {name}",
         "ca": "El nom d'aquest negoci és {name}",
-        "cs": "Název tohoto podniku je {name}"
+        "cs": "Název tohoto podniku je {name}",
+        "uk": "Назва цього бізнесу - {name}"
       },
       "freeform": {
         "key": "name",
@@ -88280,7 +88479,8 @@
         "es": "¿Qué tipo de negocio es este?",
         "fr": "Quel type de restaurant est-ce ?",
         "ca": "Quin tipus de negoci és aquest?",
-        "cs": "O jaký typ podnikání se jedná?"
+        "cs": "O jaký typ podnikání se jedná?",
+        "uk": "Що це за бізнес?"
       },
       "mappings": [
         {
@@ -88293,7 +88493,8 @@
             "fr": "C'est un fast-food, centrée sur le service rapide. Si des places sont disponibles, elles sont plutôt limitées et fonctionnelles.",
             "hu": "Ez egy gyorsétterem (büfé), amely a gyors kiszolgálásra összpontosít. Ha vannak is ülőhelyek, ezek meglehetősen korlátozottak és funkcionálisak.",
             "ca": "Aquest és un negoci de menjar ràpid, centrat en el servei ràpid. Si hi han seients disponibles, aquests seran limitats i funcionals.",
-            "cs": "Jedná se o podnik s rychlým občerstvením, zaměřený na rychlou obsluhu. Pokud je k dispozici místo k sezení, je spíše omezené a funkční."
+            "cs": "Jedná se o podnik s rychlým občerstvením, zaměřený na rychlou obsluhu. Pokud je k dispozici místo k sezení, je spíše omezené a funkční.",
+            "uk": "Це бізнес швидкого харчування, орієнтований на швидке обслуговування. Якщо місця для сидіння і є, то вони досить обмежені та функціональні."
           }
         },
         {
@@ -88305,7 +88506,8 @@
             "es": "Un <b>restaurante</b>, centrado en crear una experiencia agradable en la que uno se sirve en mesa",
             "fr": "Un <b>restaurant</b>, axé sur la création d'une expérience agréable où l'on est servi à table",
             "ca": "Un <b>restaurant</b>, centrat en crear una bona experiència on es serveix a taula",
-            "cs": "<b>Restaurace</b> zaměřená na vytvoření příjemného zážitku, kde se obsluhuje u stolu"
+            "cs": "<b>Restaurace</b> zaměřená na vytvoření příjemného zážitku, kde se obsluhuje u stolu",
+            "uk": "<b>Ресторан</b>, орієнтований на створення приємних вражень, коли вас обслуговують за столом"
           }
         }
       ],
@@ -88355,7 +88557,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -88381,7 +88584,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -88395,7 +88599,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -88426,7 +88631,8 @@
         "es": "¿Qué tipo de comida sirven aquí?",
         "fr": "Quelle type de nourriture est servie ici ?",
         "ca": "Quin tipus de menjar es serveix aquí?",
-        "cs": "Jaké jídlo se zde podává?"
+        "cs": "Jaké jídlo se zde podává?",
+        "uk": "Яку їжу тут подають?"
       },
       "render": {
         "nl": "Deze plaats serveert vooral {cuisine}",
@@ -88732,7 +88938,8 @@
       "render": {
         "de": "{image_upload(image:menu,Ein Bild aus dem Menü hinzufügen,)}",
         "en": "{image_upload(image:menu,Add an image from the menu,)}",
-        "nl": "{image_upload(image:menu,Voeg een foto van het menu toe,)}"
+        "nl": "{image_upload(image:menu,Voeg een foto van het menu toe,)}",
+        "uk": "{image_upload(image:menu,Додати зображення з меню,)}"
       },
       "condition": {
         "or": [
@@ -89599,7 +89806,8 @@
       "render": {
         "en": "This ice cream parlor is named <b>{name}</b>",
         "nl": "Dit ijssalon heet <b>{name}</b>",
-        "de": "Diese Eisdiele heißt <b>{name}</b>"
+        "de": "Diese Eisdiele heißt <b>{name}</b>",
+        "hu": "A fagylaltozó neve: <b>{name}</b>"
       },
       "condition": {
         "or": [
@@ -89636,7 +89844,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -89662,7 +89871,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -89676,7 +89886,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -89753,7 +89964,8 @@
         "it": "A chi è dedicata questa bici fantasma?",
         "fr": "À qui est dédié ce vélo fantôme ?",
         "ca": "A qui recorda aquesta bicicleta fantasma?",
-        "cs": "Na koho vzpomíná toto kolo duchů?"
+        "cs": "Na koho vzpomíná toto kolo duchů?",
+        "hu": "Mi a neve ennek a szellemkerékpárnak?"
       },
       "render": {
         "en": "In remembrance of {subject}",
@@ -90059,7 +90271,8 @@
           "if": "hackerspace=hacklab",
           "then": {
             "en": "This is a <b>hacklab</b> which is mostly focussed on basic computer skills, using recycled devices and/or providing internet to the community. This is typically located in autonomous spaces, squats or social facilities",
-            "de": "Dies ist ein <b>Hackerspace/Hack-Lab</b>, das sich hauptsächlich auf grundlegende Computerkenntnisse konzentriert, recycelte Geräte verwendet und/oder der Gemeinschaft Internet bereitstellt. Es befindet sich typischerweise in autonomen Räumen, besetzten Häusern oder sozialen Einrichtungen"
+            "de": "Dies ist ein <b>Hackerspace/Hack-Lab</b>, das sich hauptsächlich auf grundlegende Computerkenntnisse konzentriert, recycelte Geräte verwendet und/oder der Gemeinschaft Internet bereitstellt. Es befindet sich typischerweise in autonomen Räumen, besetzten Häusern oder sozialen Einrichtungen",
+            "uk": "Це <b>хак-лабораторія</b>, яка здебільшого зосереджена на базових комп'ютерних навичках, використовує перероблені пристрої та/або надає доступ до Інтернету громаді. Зазвичай вони розташовані в автономних приміщеннях, сквотах або соціальних об'єктах"
           }
         }
       ],
@@ -90078,7 +90291,8 @@
         "es": "¿Cual es el nombre de este espacio hacker?",
         "nl": "Wat is de naam van deze hackerspace?",
         "ca": "Quin és el nom d'aquest espai hacker?",
-        "cs": "Jak se jmenuje tento hackerspace?"
+        "cs": "Jak se jmenuje tento hackerspace?",
+        "hu": "Mi a neve ennek a hackerspace-nek?"
       },
       "render": {
         "en": "This hackerspace is named <b>{name}</b>",
@@ -90087,7 +90301,8 @@
         "es": "Este espacio hacker se llama <b>{name}</b>",
         "nl": "Deze hackerspace heet <b>{name}</b>",
         "ca": "Aquest espai hacker es diu <b>{name}</b>",
-        "cs": "Tento hackerský prostor se jmenuje <b>{name}</b>"
+        "cs": "Tento hackerský prostor se jmenuje <b>{name}</b>",
+        "hu": "A hackerspace neve: <b>{name}</b>"
       },
       "freeform": {
         "key": "name",
@@ -90125,7 +90340,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Kdy je tento prostor hackerů otevřen?"
+        "cs": "Kdy je tento prostor hackerů otevřen?",
+        "uk": "Коли відкривається цей хакерський простір?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -90151,7 +90367,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -90174,7 +90391,8 @@
             "nb_NO": "Døgnåpent (inkludert helligdager)",
             "cs": "Otevřeno 24/7 (včetně svátků)",
             "ca": "Obert 24/7 (incloent-hi festius)",
-            "pl": "Otwarte 24/7 (również w święta)"
+            "pl": "Otwarte 24/7 (również w święta)",
+            "uk": "Працює 24/7 (включаючи святкові дні)"
           }
         },
         {
@@ -90183,7 +90401,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -90726,7 +90945,8 @@
         "nl": "Wat is de naam van deze kinesistenpraktijk?",
         "de": "Wie heißt die Praxis des Physiotherapeuten?",
         "ca": "Quin és el nom d'aquesta consulta fisioterapèutica?",
-        "cs": "Jak se jmenuje ordinace fyzioterapeuta?"
+        "cs": "Jak se jmenuje ordinace fyzioterapeuta?",
+        "hu": "Mi a neve ennek a gyógytornász-rendelőnek?"
       },
       "render": {
         "en": "This physiotherapists office is called {name}",
@@ -90774,7 +90994,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -90800,7 +91021,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -90814,7 +91036,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -90839,7 +91062,8 @@
         "nl": "Hoe heet deze tandarts?",
         "ca": "Com s'anomena aquest dentista?",
         "pl": "Jaka jest nazwa tego gabinetu dentystycznego?",
-        "cs": "Jak se jmenuje tento zubař?"
+        "cs": "Jak se jmenuje tento zubař?",
+        "hu": "Mi a neve ennek a fogorvosnak?"
       },
       "render": {
         "en": "This dentist is called {name}",
@@ -90869,7 +91093,8 @@
       "question": {
         "en": "What is the name of this {title()}?",
         "de": "Wie lautet der Name von {title()}?",
-        "nl": "Wat is de naam van deze {title()}"
+        "nl": "Wat is de naam van deze {title()}",
+        "hu": "Mi a neve ennek: {title}?"
       },
       "render": {
         "en": "{name}",
@@ -90953,11 +91178,13 @@
       "id": "love_hotel_name",
       "question": {
         "en": "What is the name of this love hotel?",
-        "de": "Wie lautet der Name des Love Hotels?"
+        "de": "Wie lautet der Name des Love Hotels?",
+        "hu": "Mi a neve ennek a love hotelnek?"
       },
       "render": {
         "en": "This love hotel is named <b>{name}</b>",
-        "de": "Der Name des Love Hotels lautet <b>{name}</b>"
+        "de": "Der Name des Love Hotels lautet <b>{name}</b>",
+        "hu": "A love hotel neve: <b>{name}</b>"
       },
       "freeform": {
         "key": "name",
@@ -91039,7 +91266,8 @@
         "ru": "Как называется эта комната?",
         "ca": "Quin és el nom d'aquesta habitació?",
         "cs": "Jak se jmenuje tato místnost?",
-        "pl": "Jaka jest nazwa tego pomieszczenia?"
+        "pl": "Jaka jest nazwa tego pomieszczenia?",
+        "hu": "Mi a neve ennek a helyiségnek?"
       },
       "render": {
         "en": "This room is named {name}",
@@ -91442,6 +91670,7 @@
         "da": "Hvornår åbnes disse toiletter?",
         "id": "Kapan jam buka {title()}?",
         "cs": "Kdy jsou tyto toalety otevřeny?",
+        "uk": "Коли відкриваються ці туалети?",
         "_context": "layers:toilet.tagRenderings.opening_hours_24_7.question"
       },
       "render": {
@@ -91469,6 +91698,7 @@
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
         "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}",
         "_context": "layers:toilet.tagRenderings.opening_hours_24_7.render"
       },
       "freeform": {
@@ -91493,6 +91723,7 @@
             "cs": "Otevřeno 24/7 (včetně svátků)",
             "ca": "Obert 24/7 (incloent-hi festius)",
             "pl": "Otwarte 24/7 (również w święta)",
+            "uk": "Працює 24/7 (включаючи святкові дні)",
             "_context": "layers:toilet.tagRenderings.opening_hours_24_7.mappings.0.then"
           }
         },
@@ -91503,6 +91734,7 @@
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
             "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час",
             "_context": "layers:toilet.tagRenderings.opening_hours_24_7.mappings.1.then"
           },
           "hideInAnswer": true
@@ -92705,12 +92937,14 @@
     {
       "question": {
         "en": "What is the name of the person buried here?",
-        "de": "Wie lautet der Name der hier begrabenen Person?"
+        "de": "Wie lautet der Name der hier begrabenen Person?",
+        "hu": "Ki van itt eltemetve?"
       },
       "id": "grave_name",
       "render": {
         "en": "<b>{name}</b> is buried here",
-        "de": "<b>{name}</b> ist hier begraben"
+        "de": "<b>{name}</b> ist hier begraben",
+        "hu": "Itt van eltemetve <b>{name}</b>"
       },
       "freeform": {
         "key": "name",
@@ -93655,7 +93889,8 @@
         "es": "¿Cual es el nombre de esta torre?",
         "ca": "Com s'anomena aquesta torre?",
         "pl": "Jaka jest nazwa tej wieży?",
-        "cs": "Jak se jmenuje tato věž?"
+        "cs": "Jak se jmenuje tato věž?",
+        "hu": "Mi a neve ennek a toronynak?"
       },
       "render": {
         "en": "This tower is called <b>{name}</b>",
@@ -93664,7 +93899,8 @@
         "es": "Esta torre se llama <b>{name}</b>",
         "ca": "Aquesta torre s'anomena <b>{name}</b>",
         "pl": "Ta wieża nazywa się <b>{name}</b>",
-        "cs": "Tato věž se jmenuje <b>{name}</b>"
+        "cs": "Tato věž se jmenuje <b>{name}</b>",
+        "hu": "A torony neve: <b>{name}</b>"
       },
       "freeform": {
         "key": "name",
@@ -94367,7 +94603,8 @@
         "de": "Wie lautet der Name dieser Behörde?",
         "nl": "Wat is de naam van deze overheidsdienst?",
         "ca": "Quin és el nom d'aquesta oficina gornavental?",
-        "cs": "Jak se jmenuje tento úřad vlády?"
+        "cs": "Jak se jmenuje tento úřad vlády?",
+        "hu": "Mi a neve ennek a hivatalnak?"
       },
       "render": {
         "en": "This Governmental Office is called {name}",
@@ -94900,7 +95137,7 @@
           "if": "aerialway=gondola",
           "then": {
             "en": "This is a gondola where the cars loop around once reaching the end.",
-            "de": "Es handelt sich um eine Seilbahn, bei der die Kabinen in ständigen Kreisen fahren",
+            "de": "Es handelt sich um eine Seilbahn, bei der die Kabinen in ständigen Kreisen fahren.",
             "cs": "Jedná se o gondolu, kde vozy jezdí v nepřetržitých kruzích"
           },
           "icon": "./assets/layers/aerialway/gondola_lift.svg"
@@ -94977,7 +95214,7 @@
           "if": "aerialway=zip_line",
           "then": {
             "en": "A zip line. (A tourist attraction where adventurous people go down at high speeds)",
-            "de": "Eine Seilrutsche. (Eine Touristenattraktion, bei der abenteuerlustige Menschen mit hoher Geschwindigkeit hinunterfahren) ",
+            "de": "Eine Seilrutsche. (Eine Touristenattraktion, bei der abenteuerlustige Menschen mit hoher Geschwindigkeit hinunterfahren)",
             "pl": "Tyrolka. (Atrakcja turystyczna, która pozwala żądnym przygód zjechać z dużą szybkością) ",
             "cs": "Lano na visuté dráze. (Turistická atrakce, kde se odvážlivci spouštějí vysokou rychlostí) "
           }
@@ -95090,7 +95327,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -95116,7 +95354,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -95130,7 +95369,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -95225,7 +95465,8 @@
         "zh_Hans": "这个动物收容所叫 <b>{name}</b>",
         "pl": "To schronisko dla zwierząt nazywa się <b>{name}</b>",
         "fr": "Ce refuge s'appelle <b>{name}</b>",
-        "cs": "Tento útulek pro zvířata se jmenuje <b>{name}</b>"
+        "cs": "Tento útulek pro zvířata se jmenuje <b>{name}</b>",
+        "hu": "Az állatmenhely neve: <b>{name}</b>"
       },
       "condition": {
         "or": [
@@ -95274,7 +95515,7 @@
         {
           "then": {
             "en": "Injured animals are rehabilitated here until they can be released in nature again",
-            "de": "Tiere werden hier untergebracht und gepflegt bis sie wieder in freier Natur ausgesetzt werden können ",
+            "de": "Tiere werden hier untergebracht und gepflegt bis sie wieder in freier Natur ausgesetzt werden können",
             "es": "Los animales heridos se rehabilitan aquí hasta que pueden ser liberados de nuevo en la naturaleza ",
             "zh_Hans": "受伤的动物在这里康复，直到它们可以再次被释放到大自然中 ",
             "ca": "Els animals ferits es rehabiliten aquí fins que puguen ser alliberats de nou a la natura ",
@@ -95381,7 +95622,8 @@
         "es": "¿Cual es el nombre de este parque para perros?",
         "nl": "Wat is de naam van deze hondenweide?",
         "ca": "Com s'anomena aquest parc per a gossos?",
-        "cs": "Jak se jmenuje tento psí park?"
+        "cs": "Jak se jmenuje tento psí park?",
+        "hu": "Mi a neve ennek a kutyafuttatónak?"
       },
       "render": {
         "en": "The name of this dog park is {name}",
@@ -95440,7 +95682,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -95466,7 +95709,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -95489,7 +95733,8 @@
             "nb_NO": "Døgnåpent (inkludert helligdager)",
             "cs": "Otevřeno 24/7 (včetně svátků)",
             "ca": "Obert 24/7 (incloent-hi festius)",
-            "pl": "Otwarte 24/7 (również w święta)"
+            "pl": "Otwarte 24/7 (również w święta)",
+            "uk": "Працює 24/7 (включаючи святкові дні)"
           }
         },
         {
@@ -95498,7 +95743,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -95673,7 +95919,8 @@
         "de": "Wie lautet der Name des Fitnessstudios?",
         "nl": "Wat is de naam van dit fitness-centrum?",
         "ca": "Quin és el nom d'aquest centre de fitness?",
-        "cs": "Jak se jmenuje toto fitness centrum?"
+        "cs": "Jak se jmenuje toto fitness centrum?",
+        "hu": "Mi a neve ennek az edzőteremnek?"
       },
       "freeform": {
         "key": "name",
@@ -95740,7 +95987,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -95766,7 +96014,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -95780,7 +96029,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -95805,7 +96055,8 @@
         "de": "Wie lautet der Name der Fitness-Station?",
         "nl": "Wat is de naam van dit fitness-toestel?",
         "ca": "Quin és el nom d'aquesta estació de fitness?",
-        "cs": "Jak se tato fitness stanice jmenuje?"
+        "cs": "Jak se tato fitness stanice jmenuje?",
+        "hu": "Mi a neve ennek a fitneszparknak?"
       },
       "freeform": {
         "key": "name",
@@ -96244,7 +96495,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -96270,7 +96522,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -96293,7 +96546,8 @@
             "nb_NO": "Døgnåpent (inkludert helligdager)",
             "cs": "Otevřeno 24/7 (včetně svátků)",
             "ca": "Obert 24/7 (incloent-hi festius)",
-            "pl": "Otwarte 24/7 (również w święta)"
+            "pl": "Otwarte 24/7 (również w święta)",
+            "uk": "Працює 24/7 (включаючи святкові дні)"
           }
         },
         {
@@ -96302,7 +96556,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -96454,7 +96709,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -96480,7 +96736,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -96503,7 +96760,8 @@
             "nb_NO": "Døgnåpent (inkludert helligdager)",
             "cs": "Otevřeno 24/7 (včetně svátků)",
             "ca": "Obert 24/7 (incloent-hi festius)",
-            "pl": "Otwarte 24/7 (również w święta)"
+            "pl": "Otwarte 24/7 (również w święta)",
+            "uk": "Працює 24/7 (включаючи святкові дні)"
           }
         },
         {
@@ -96512,7 +96770,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -97336,7 +97595,8 @@
         "de": "Wann ist dieser Spielplatz zugänglich?",
         "ca": "Quan és accesible aquest parc infantil?",
         "cs": "Kdy je toto hřiště přístupné?",
-        "pl": "Kiedy dostępny jest ten plac zabaw?"
+        "pl": "Kiedy dostępny jest ten plac zabaw?",
+        "uk": "Коли цей майданчик доступний?"
       },
       "mappings": [
         {
@@ -97351,7 +97611,8 @@
             "es": "Accesible desde el amanecer hasta el anochecer",
             "ca": "Accesible des de la sortida del sol fins al vespre",
             "cs": "Přístupné od východu do západu slunce",
-            "pl": "Dostępny od wschodu do zachodu słońca"
+            "pl": "Dostępny od wschodu do zachodu słońca",
+            "uk": "Доступний від сходу до заходу сонця"
           }
         },
         {
@@ -97366,7 +97627,8 @@
             "ca": "Sempre accessible",
             "es": "Siempre accesible",
             "cs": "Vždy přístupné",
-            "pl": "Dostępny zawsze"
+            "pl": "Dostępny zawsze",
+            "uk": "Завжди доступні"
           }
         }
       ],
@@ -98047,7 +98309,8 @@
         "it": "Come si chiama questo centro raccolta e riciclo rifiuti?",
         "ca": "Quin és el nom d’aquest centre de reciclatge?",
         "fr": "Quel est le nom de cette déchèterie ?",
-        "cs": "Jak se toto recyklační centrum jmenuje?"
+        "cs": "Jak se toto recyklační centrum jmenuje?",
+        "hu": "Mi a neve ennek a hulladékudvarnak?"
       },
       "render": {
         "en": "This recycling centre is named <b>{name}</b>",
@@ -98057,7 +98320,8 @@
         "it": "Questo centro raccolta e riciclo rifiuti si chiama <b>{name}</b>",
         "ca": "Aquest centre de reciclatge s'anomena <b>{name}</b>",
         "fr": "Le nom de cette déchèterie est <b>{name}</b>",
-        "cs": "Toto recyklační středisko se jmenuje <b>{name}</b>"
+        "cs": "Toto recyklační středisko se jmenuje <b>{name}</b>",
+        "hu": "A hulladékudva neve: <b>{name}</b>"
       },
       "freeform": {
         "key": "name",
@@ -98127,7 +98391,8 @@
             "it": "Questo contenitore è al chiuso",
             "ca": "Aquest contenidor està situat a l'interior",
             "fr": "Ce conteneur est situé en intérieur",
-            "cs": "Tento kontejner je umístěn uvnitř"
+            "cs": "Tento kontejner je umístěn uvnitř",
+            "uk": "Цей контейнер знаходиться в приміщенні"
           }
         },
         {
@@ -98140,7 +98405,8 @@
             "it": "Questo contenitore è all'aperto",
             "ca": "Aquest contenidor està situat a l'aire lliure",
             "fr": "Ce conteneur est situé à l'extérieur",
-            "cs": "Tento kontejner je umístěn venku"
+            "cs": "Tento kontejner je umístěn venku",
+            "uk": "Цей контейнер розташований на відкритому повітрі"
           }
         }
       ]
@@ -98683,7 +98949,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba tohoto recyklačního zařízení?"
+        "cs": "Jaká je otevírací doba tohoto recyklačního zařízení?",
+        "uk": "Які години роботи цього об'єкту з переробки?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -98709,7 +98976,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -98732,7 +99000,8 @@
             "nb_NO": "Døgnåpent (inkludert helligdager)",
             "cs": "Otevřeno 24/7 (včetně svátků)",
             "ca": "Obert 24/7 (incloent-hi festius)",
-            "pl": "Otwarte 24/7 (również w święta)"
+            "pl": "Otwarte 24/7 (również w święta)",
+            "uk": "Працює 24/7 (включаючи святкові дні)"
           }
         },
         {
@@ -98741,7 +99010,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -99019,7 +99289,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -99045,7 +99316,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -99059,7 +99331,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -99784,7 +100057,8 @@
         "ru": "В какое время доступна эта площадка?",
         "de": "Wann ist dieser Sportplatz zugänglich?",
         "es": "¿Cuándo es accesible esta pista?",
-        "cs": "Kdy je toto hřiště přístupné?"
+        "cs": "Kdy je toto hřiště přístupné?",
+        "uk": "Коли цей майданчик доступний?"
       },
       "render": "Openingsuren: {opening_hours_table()}",
       "freeform": {
@@ -99800,7 +100074,8 @@
             "nl": "24/7 toegankelijk",
             "de": "Immer zugänglich",
             "ca": "Sempre accesible",
-            "cs": "Vždy přístupné"
+            "cs": "Vždy přístupné",
+            "uk": "Завжди доступні"
           },
           "hideInAnswer": true
         },
@@ -99815,7 +100090,8 @@
             "de": "Immer zugänglich",
             "es": "Siempre accesible",
             "cs": "Vždy přístupné",
-            "ca": "Sempre accesible"
+            "ca": "Sempre accesible",
+            "uk": "Завжди доступні"
           }
         }
       ],
@@ -99862,7 +100138,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -99888,7 +100165,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -99902,7 +100180,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -101449,7 +101728,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Kdy je otevřeno zařízení, kde se tyto toalety nacházejí?"
+        "cs": "Kdy je otevřeno zařízení, kde se tyto toalety nacházejí?",
+        "uk": "Коли відкрито приміщення, де розташовані ці туалети?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -101475,7 +101755,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -101489,7 +101770,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -102288,7 +102570,8 @@
         "da": "Har træet et navn?",
         "pt": "A árvore tem nome?",
         "ca": "Té nom aquest arbre?",
-        "cs": "Má strom nějaké jméno?"
+        "cs": "Má strom nějaké jméno?",
+        "hu": "Van-e neve ennek a fának?"
       },
       "freeform": {
         "key": "name",
@@ -102778,7 +103061,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -102804,7 +103088,8 @@
         "da": "<h3> Åbningstider</h3>{opening_hours_table(opening_hours)}",
         "id": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}",
         "pa_PK": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}",
-        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}"
+        "cs": "<h3>Otevírací hodiny</h3>{opening_hours_table(opening_hours)}",
+        "uk": "<h3>Години роботи</h3>{opening_hours_table(opening_hours)}"
       },
       "freeform": {
         "key": "opening_hours",
@@ -102818,7 +103103,8 @@
           "then": {
             "en": "Marked as closed for an unspecified time",
             "nl": "Gesloten voor onbepaalde duur",
-            "de": "Als geschlossen für eine unbestimmte Zeit markiert"
+            "de": "Als geschlossen für eine unbestimmte Zeit markiert",
+            "uk": "Позначений як закритий на невизначений час"
           },
           "hideInAnswer": true
         }
@@ -102849,7 +103135,8 @@
         "nl": "Wat is de naam van deze dierenartspraktijk?",
         "fr": "Quel est le nom de ce vétérinaire ?",
         "ca": "Qui és el nom d'aquest veterinari?",
-        "cs": "Jak se jmenuje tento veterinář?"
+        "cs": "Jak se jmenuje tento veterinář?",
+        "hu": "Mi a neve ennek az állatorvosnak?"
       },
       "render": {
         "en": "The name of this veterinarian is {name}",
@@ -103312,7 +103599,8 @@
             "ca": "Aquest contenidor està situat a l'interior",
             "cs": "Tento kontejner se nachází uvnitř",
             "pl": "Kontener ten znajduje się w pomieszczeniu zamkniętym",
-            "zh_Hant": "這個容器位於室內"
+            "zh_Hant": "這個容器位於室內",
+            "uk": "Цей контейнер знаходиться в приміщенні"
           }
         },
         {
@@ -103327,7 +103615,8 @@
             "ca": "Aquest contenidor està situat a l'aire lliure",
             "cs": "Tento kontejner se nachází venku",
             "pl": "Kontener ten znajduje się na zewnątrz",
-            "zh_Hant": "這個容器位於室外"
+            "zh_Hant": "這個容器位於室外",
+            "uk": "Цей контейнер розташований на відкритому повітрі"
           }
         }
       ],

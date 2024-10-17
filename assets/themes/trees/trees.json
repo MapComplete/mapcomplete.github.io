@@ -57,7 +57,8 @@
     "ca": "Mapeja tots els arbres",
     "es": "Mapa de los Árboles",
     "da": "Kortlæg alle træer",
-    "cs": "Zmapujte všechny stromy"
+    "cs": "Zmapujte všechny stromy",
+    "uk": "Нанесіть на карту всі дерева"
   },
   "icon": "./assets/themes/trees/logo.svg",
   "socialImage": "./assets/themes/trees/logo.svg",

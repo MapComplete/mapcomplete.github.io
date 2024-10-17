@@ -113,7 +113,7 @@
         "ca": "una botiga de lloguer de bicicletes",
         "pt_BR": "uma loja de aluguel de bicicletas",
         "pt": "uma loja de aluguel de bicicletas",
-        "hu": "kerékpárkölcsönző"
+        "hu": "kerékpárkölcsönző üzlet"
       },
       "tags": [
         "amenity=bicycle_rental",
@@ -143,7 +143,8 @@
         "cs": "půjčovna kol",
         "ca": "un lloguer de bicicletes",
         "pt_BR": "um aluguel de bicicletas",
-        "pt": "um aluguel de bicicletas"
+        "pt": "um aluguel de bicicletas",
+        "hu": "kerékpárkölcsönző"
       },
       "tags": [
         "amenity=bicycle_rental"
@@ -250,7 +251,7 @@
             "en": "A machine is present which dispenses and accepts keys after authentication and/or payment. The bicycles are parked nearby",
             "nl": "Hier is een machine die fietssleutels verdeelt en terugneemt, eventueel na aanmelden of betaling. De fietsen staan in de buurt geparkeerd",
             "hu": "Ez egy leadási pont: ennek a kerékpárkölcsönzőnek a kijelölt kerékpártárolója",
-            "de": "Dies ist ein Automat, der Schlüssel ausgibt und annimmt, eventuell nach Authentifizierung und/oder Bezahlung. Die Fahrräder sind in der Nähe geparkt",
+            "de": "Dies ist ein Automat, der Schlüssel nach Authentifizierung und/oder Bezahlung ausgibt und annimmt. Die Fahrräder sind in der Nähe geparkt",
             "es": "Una máquina que dispensa y acepta llaves, eventualmente después de la autenticación y/o el pago está presente. Las bicicletas están aparcadas cerca",
             "fr": "Il y a un distributeur qui distribue et accepte les clés, éventuellement après identification et/ou payement. Les vélos sont stationnés à proximité",
             "da": "Der er en maskine til stede, som udleverer og modtager nøgler, eventuelt efter autentificering og/eller betaling. Cyklerne er parkeret i nærheden",
