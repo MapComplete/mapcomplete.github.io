@@ -54,8 +54,7 @@
         "en": "a disaster response organization",
         "it": "un'organizzazione per la risposta ai disastri",
         "de": "eine Katastrophenschutzorganisation",
-        "ca": "una organització de resposta a desastres",
-        "hu": "katasztrófaelhárító szervezet"
+        "ca": "una organització de resposta a desastres"
       },
       "tags": [
         "emergency=disaster_response"
@@ -74,14 +73,12 @@
         "en": "What is the name of this organization?",
         "it": "Qual è il nome di questa organizzazione?",
         "de": "Wie lautet der Name dieser Organisation?",
-        "ca": "Quin és el nom d'aquesta organització?",
-        "hu": "Mi a neve ennek a szervezetnek?"
+        "ca": "Quin és el nom d'aquesta organització?"
       },
       "render": {
         "en": "This organization is named <b>{name}</b>",
         "it": "Questa organizzazione si chiama <b>{name}</b>",
-        "de": "Diese Organisation heißt <b>{name}</b>",
-        "hu": "A szervezet neve: <b>{name}</b>"
+        "de": "Diese Organisation heißt <b>{name}</b>"
       }
     }
   ],

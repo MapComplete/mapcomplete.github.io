@@ -560,8 +560,7 @@
         "it": "un contenitore per il riciclo",
         "ca": "un contenidor de reciclatge",
         "fr": "un conteneur de recyclage",
-        "cs": "recyklační kontejner",
-        "hu": "szelektív hulladékgyűjtő konténer"
+        "cs": "recyklační kontejner"
       },
       "tags": [
         "amenity=recycling",
@@ -577,8 +576,7 @@
         "it": "un centro di riciclo",
         "ca": "un centre de reciclatge",
         "fr": "une déchèterie",
-        "cs": "recyklační centrum",
-        "hu": "hulladékudvar"
+        "cs": "recyklační centrum"
       },
       "tags": [
         "amenity=recycling",
@@ -710,8 +708,7 @@
         "it": "Come si chiama questo centro raccolta e riciclo rifiuti?",
         "ca": "Quin és el nom d’aquest centre de reciclatge?",
         "fr": "Quel est le nom de cette déchèterie ?",
-        "cs": "Jak se toto recyklační centrum jmenuje?",
-        "hu": "Mi a neve ennek a hulladékudvarnak?"
+        "cs": "Jak se toto recyklační centrum jmenuje?"
       },
       "render": {
         "en": "This recycling centre is named <b>{name}</b>",
@@ -721,8 +718,7 @@
         "it": "Questo centro raccolta e riciclo rifiuti si chiama <b>{name}</b>",
         "ca": "Aquest centre de reciclatge s'anomena <b>{name}</b>",
         "fr": "Le nom de cette déchèterie est <b>{name}</b>",
-        "cs": "Toto recyklační středisko se jmenuje <b>{name}</b>",
-        "hu": "A hulladékudva neve: <b>{name}</b>"
+        "cs": "Toto recyklační středisko se jmenuje <b>{name}</b>"
       },
       "freeform": {
         "key": "name"
@@ -781,8 +777,7 @@
             "it": "Questo contenitore è al chiuso",
             "ca": "Aquest contenidor està situat a l'interior",
             "fr": "Ce conteneur est situé en intérieur",
-            "cs": "Tento kontejner je umístěn uvnitř",
-            "uk": "Цей контейнер знаходиться в приміщенні"
+            "cs": "Tento kontejner je umístěn uvnitř"
           }
         },
         {
@@ -795,8 +790,7 @@
             "it": "Questo contenitore è all'aperto",
             "ca": "Aquest contenidor està situat a l'aire lliure",
             "fr": "Ce conteneur est situé à l'extérieur",
-            "cs": "Tento kontejner je umístěn venku",
-            "uk": "Цей контейнер розташований на відкритому повітрі"
+            "cs": "Tento kontejner je umístěn venku"
           }
         }
       ]
@@ -1320,8 +1314,7 @@
           "es": "¿A qué horas abre esta facilidad de reciclado?",
           "it": "Quali sono gli orari di apertura di questo impianto di raccolta e riciclo?",
           "ca": "Quin és l'horari d'obertura d'aquesta instal·lació de reciclatge?",
-          "cs": "Jaká je otevírací doba tohoto recyklačního zařízení?",
-          "uk": "Які години роботи цього об'єкту з переробки?"
+          "cs": "Jaká je otevírací doba tohoto recyklačního zařízení?"
         }
       }
     },

@@ -49,8 +49,7 @@
         "en": "BBQ",
         "de": "Grillstelle",
         "cs": "BBQ",
-        "es": "Barbacoa",
-        "hu": "grillezőhely"
+        "es": "Barbacoa"
       },
       "description": {
         "de": "Ein ortsfest installierter Grill, typischerweise öffentlich zugänglich.",
@@ -103,8 +102,8 @@
         {
           "if": "access=permissive",
           "then": {
-            "de": "Zugang bis auf Widerruf (Erlaubt)",
-            "en": "Access until revoked (Permissive)",
+            "de": "Zugang bis auf Widerruf",
+            "en": "Access until revoked",
             "cs": "Přístup až do odvolání",
             "es": "Acceso hasta que se anule"
           }
@@ -161,7 +160,7 @@
     {
       "id": "fuel",
       "question": {
-        "en": "How is the grill fuelled?",
+        "en": "How ist the grill fueled?",
         "de": "Mit was wird die Grillstelle angefeuert?",
         "cs": "Jak je gril napájen?",
         "es": "¿Cómo se alimenta la parrilla?"

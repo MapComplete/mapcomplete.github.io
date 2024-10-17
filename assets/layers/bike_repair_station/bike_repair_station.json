@@ -13,8 +13,7 @@
     "da": "Cykelpumpe og reparation",
     "cs": "Vzduchový kompresor a opravy jízdních kol",
     "ca": "Manxa i reparació de bicicletes",
-    "pt": "Estações de bicicletas (reparo, bomba ou ambos)",
-    "uk": "Велосипедний насос і ремонт"
+    "pt": "Estações de bicicletas (reparo, bomba ou ambos)"
   },
   "description": {
     "en": "A layer showing bicycle pumps and bicycle repair tool stands",
@@ -332,8 +331,7 @@
         "da": "en cykelpumpe",
         "cs": "pumpa na kolo",
         "ca": "una manxa per a bicicletes",
-        "pt": "uma bomba de bicicleta",
-        "hu": "kerékpárpumpa"
+        "pt": "uma bomba de bicicleta"
       },
       "tags": [
         "amenity=bicycle_repair_station",
@@ -341,7 +339,7 @@
         "service:bicycle:pump=yes"
       ],
       "description": {
-        "en": "A device to inflate your tires in a fixed location in a public space.",
+        "en": "A device to inflate your tires on a fixed location in the public space.",
         "nl": "Een fietspomp in de publieke ruimte zonder extra gereedschap. De fietspomp in je kelder telt dus niet.",
         "it": "Un dispositivo per gonfiare le proprie gomme in un luogo fisso pubblicamente accessibile.",
         "fr": "Un dispositif pour gonfler vos pneus sur un emplacement fixe dans l'espace public.",
@@ -372,8 +370,7 @@
         "es": "una estación de reparación de bicicletas y bomba",
         "da": "en cykelreparationsstation og pumpe",
         "cs": "opravna kol a vzduchový kompresor",
-        "ca": "una estació de reparació de bicicletes i una bomba",
-        "hu": "kerékpárszerelő pont pumpával"
+        "ca": "una estació de reparació de bicicletes i una bomba"
       },
       "tags": [
         "amenity=bicycle_repair_station",
@@ -381,7 +378,7 @@
         "service:bicycle:pump=yes"
       ],
       "description": {
-        "en": "A bicycle pump and tools to repair your bike in a public space. The tools are often secured with chains against theft.",
+        "en": "A bicycle pump and tools to repair your bike in the public space. The tools are often secured with chains against theft.",
         "nl": "Een fietspomp en gereedschap om je fiets te herstellen in de publieke ruimte. Deze zijn op een vastgemaakt, bijvoorbeeld aan een paal.",
         "fr": "Un dispositif avec des outils pour réparer votre vélo combiné à une pompe a un emplacement fixe. Les outils sont souvent attachés par une chaîne pour empêcher le vol.",
         "it": "Un dispositivo con attrezzi per riparare la tua bici e una pompa in un luogo fisso. Gli attrezzi sono spesso attaccati ad una catena per prevenire il furto.",
@@ -410,8 +407,7 @@
         "es": "una estación de reparación de bicicletas sin bomba",
         "da": "en cykelreparationsstation uden pumpe",
         "cs": "opravna kol bez vzduchového kompresoru",
-        "ca": "una estació de reparació de bicicletes sense bomba",
-        "hu": "kerékpárszerelő pont pumpa nélkül"
+        "ca": "una estació de reparació de bicicletes sense bomba"
       },
       "tags": [
         "amenity=bicycle_repair_station",
@@ -419,7 +415,7 @@
         "service:bicycle:pump=no"
       ],
       "description": {
-        "en": "Tools to repair your bike in a public space (without pump). The tools are secured against theft.",
+        "en": "Tools to repair your bike in the public space (without pump). The tools are secured against theft.",
         "nl": "Gereedschap om je fiets te herstellen in de publieke ruimte (zonder pomp). Deze zijn op een vastgemaakt, bijvoorbeeld aan een paal.",
         "de": "Werkzeug, um Ihr Fahrrad im öffentlichen Raum zu reparieren (ohne Pumpe). Die Werkzeuge sind gegen Diebstahl gesichert.",
         "es": "Herramientas para reparar tu bici en el espacio público (sin bomba).Las herramientas están aseguradas contra el robo.",
@@ -446,8 +442,7 @@
         "es": "¿Qué servicios están disponibles en esta localización?",
         "da": "Hvilke tjenester er tilgængelige på dette sted?",
         "cs": "Jaké služby jsou na tomto místě k dispozici?",
-        "ca": "Quins serveis hi ha disponibles en aquesta ubicació?",
-        "uk": "Які послуги доступні в цьому місці?"
+        "ca": "Quins serveis hi ha disponibles en aquesta ubicació?"
       },
       "mappings": [
         {
@@ -469,8 +464,7 @@
             "es": "Solo hay una bomba presente",
             "da": "Der er kun en pumpe",
             "cs": "K dispozici je pouze vzduchový kompresor",
-            "ca": "Només hi ha una bomba present",
-            "uk": "Присутній тільки насос"
+            "ca": "Només hi ha una bomba present"
           }
         },
         {
@@ -492,8 +486,7 @@
             "es": "Solo hay herramientas (destornilladores, pinzas...) presentes",
             "da": "Der er kun værktøj (skruetrækkere, tænger, ...) til stede",
             "cs": "K dispozici je pouze nářadí (šroubováky, kleště, …)",
-            "ca": "Només hi ha present ferramentes (tornavísos, pinces, …)",
-            "uk": "Присутні лише інструменти (викрутки, плоскогубці, ...)"
+            "ca": "Només hi ha present ferramentes (tornavísos, pinces, …)"
           }
         },
         {
@@ -515,8 +508,7 @@
             "es": "Hay tanto herramientas como bombas",
             "da": "Der er både værktøj og pumpe",
             "cs": "K dispozici jsou nástroje i vzduchový kompresor",
-            "ca": "Hi ha tant eines com una bomba",
-            "uk": "Присутні як інструменти, так і насос"
+            "ca": "Hi ha tant eines com una bomba"
           }
         }
       ]
@@ -552,8 +544,7 @@
             "es": "La bomba para bicicletas está rota",
             "da": "Cykelpumpen er i stykker",
             "cs": "Vzduchový kompresor na kolo je rozbitý",
-            "ca": "La bomba per a bicicletes està trencada",
-            "uk": "Велосипедний насос зламаний"
+            "ca": "La bomba per a bicicletes està trencada"
           }
         },
         {
@@ -570,8 +561,7 @@
             "es": "La bomba para bicicletas está operativa",
             "da": "Cykelpumpen er i drift",
             "cs": "Vzduchový kompresor na kolo je v provozu",
-            "ca": "La bomba per a la bicicleta està operativa",
-            "uk": "Велосипедний насос працює"
+            "ca": "La bomba per a la bicicleta està operativa"
           }
         }
       ],
@@ -590,8 +580,7 @@
           "es": "¿Cuándo está abierto este punto de reparación de bicicletas?",
           "da": "Hvornår er dette cykelreparationssted åbent?",
           "cs": "Kdy je toto místo pro opravu jízdních kol otevřeno?",
-          "ca": "Quan està obert aquest punt de reparació de bicicletes?",
-          "uk": "Коли працює цей пункт ремонту велосипедів?"
+          "ca": "Quan està obert aquest punt de reparació de bicicletes?"
         }
       }
     },
@@ -822,8 +811,7 @@
         "es": "¿Esta estación tiene un gancho para colgar tu bici o un soporte para elevarla?",
         "da": "Har denne cykelstation en krog til at hænge din cykel på eller et stativ til at hæve den?",
         "cs": "Má tato cyklistická stanice hák na zavěšení kola nebo stojan na jeho zvednutí?",
-        "ca": "Aquesta estació de bicicletes té un ganxo per penjar la bicicleta o un suport per aixecar-la?",
-        "uk": "Чи є на цій станції гачок, на який можна повісити велосипед, або підставка для його підйому?"
+        "ca": "Aquesta estació de bicicletes té un ganxo per penjar la bicicleta o un suport per aixecar-la?"
       },
       "condition": "service:bicycle:tools=yes",
       "mappings": [
@@ -841,8 +829,7 @@
             "es": "Hay un gancho o soporte",
             "da": "Der er en krog eller et stativ",
             "cs": "K dispozici je závěsný hák nebo stojan",
-            "ca": "Hi ha un ganxo o suport",
-            "uk": "Є гачок або підставка"
+            "ca": "Hi ha un ganxo o suport"
           }
         },
         {
@@ -859,8 +846,7 @@
             "es": "No hay ningún gancho o soporte",
             "da": "Der er ingen krog eller stativ",
             "cs": "Není zde žádný závěsný hák ani stojan",
-            "ca": "No hi ha ganxo ni suport",
-            "uk": "Немає гачка або підставки"
+            "ca": "No hi ha ganxo ni suport"
           }
         }
       ]
@@ -895,8 +881,7 @@
             "es": "Hola,\n\nCon este correo, me gustaría informar de que esta bomba para bicicletas situada en https://mapcomplete.org/cyclofix?lat={_lat}&lon={_lon}&z=18#{id} está rota.\n\nUn saludo",
             "fr": "Bonjour,\n\nCe mail pour vous informer que la pompe à vélo située à https://mapcomplete.org/cyclofix?lat={_lat}&lon={_lon}&z=18#{id} est cassée.\n\nBien à vous.",
             "cs": "Dobrý den,\n\ntímto e-mailem bych Vás chtěl informovat, že vzduchový kompresor na kolo umístěný na adrese https://mapcomplete.org/cyclofix?lat={_lat}&lon={_lon}&z=18#{id} je rozbitý.\n\n S pozdravem",
-            "ca": "Hola,\n\nAmb aquest correu electrònic, m'agradaria informar-vos que la bomba de bicicleta situada a https://mapcomplete.org/cyclofix?lat={_lat}&lon={_lon}&z=18#{id} està trencada.\n\nSalutacions cordials",
-            "uk": "Доброго дня,\n\nЦим листом хочу повідомити, що велосипедний насос, розташований за адресою https://mapcomplete.org/cyclofix?lat={_lat}&lon={_lon}&z=18#{id}, вийшов з ладу.\n\n З повагою"
+            "ca": "Hola,\n\nAmb aquest correu electrònic, m'agradaria informar-vos que la bomba de bicicleta situada a https://mapcomplete.org/cyclofix?lat={_lat}&lon={_lon}&z=18#{id} està trencada.\n\nSalutacions cordials"
           },
           "button_text": {
             "en": "Report this bicycle pump as broken",
@@ -915,11 +900,11 @@
     },
     {
       "question": {
-        "en": "What valves are available?",
+        "en": "What valves are supported?",
         "nl": "Welke ventielen werken er met de pomp?",
         "fr": "Quelles valves sont compatibles ?",
         "gl": "Que válvulas son compatíbeis?",
-        "de": "Welche Ventile stehen zur Verfügung?",
+        "de": "Welche Ventile werden unterstützt?",
         "it": "Quali valvole sono supportate?",
         "pl": "Jakie zawory są obsługiwane?",
         "es": "¿Que válvulas se soportan?",
@@ -928,11 +913,11 @@
         "ca": "Quines vàlvules són compatibles?"
       },
       "render": {
-        "en": "This pump has the following valves: {valves}",
+        "en": "This pump supports the following valves: {valves}",
         "nl": "Deze pomp werkt met de volgende ventielen: {valves}",
         "fr": "Cette pompe est compatible avec les valves suivantes : {valves}",
         "gl": "Esta bomba de ar admite as seguintes válvulas: {valves}",
-        "de": "Die Pumpe hat folgende Ventile: {valves}",
+        "de": "Diese Pumpe unterstützt die folgenden Ventile: {valves}",
         "it": "Questa pompa è compatibile con le seguenti valvole: {valves}",
         "ru": "Этот насос поддерживает следующие клапаны: {valves}",
         "pl": "Ta pompka obsługuje następujące zawory: {valves}",
@@ -986,7 +971,7 @@
         {
           "if": "valves=schrader",
           "then": {
-            "en": "Schrader (cars and mountain bikes)",
+            "en": "Schrader (cars and mountainbikes)",
             "nl": "Schrader (auto's en mountainbikes)",
             "fr": "Schrader (voitures et vélos de montagne)",
             "gl": "Schrader (para automóbiles)",
@@ -1062,11 +1047,11 @@
     {
       "id": "bike_repair_station-manometer",
       "question": {
-        "en": "Does the pump have a pressure gauge?",
+        "en": "Does the pump have a pressure indicator or manometer?",
         "nl": "Heeft deze pomp een luchtdrukmeter?",
         "fr": "Est-ce que la pompe à un manomètre integré ?",
         "gl": "Ten a bomba de ar un indicador de presión ou un manómetro?",
-        "de": "Verfügt die Pumpe über ein Druckmessgerät?",
+        "de": "Verfügt die Pumpe über einen Druckanzeiger oder ein Manometer?",
         "it": "Questa pompa ha l’indicatore della pressione o il manometro?",
         "pl": "Czy pompka posiada wskaźnik ciśnienia lub manometr?",
         "es": "¿La bomba tiene un indicador de presión o manómetro?",
@@ -1079,11 +1064,11 @@
         {
           "if": "manometer=yes",
           "then": {
-            "en": "There is a pressure gauge",
+            "en": "There is a manometer",
             "nl": "Er is een luchtdrukmeter",
             "fr": "Il y a un manomètre",
             "gl": "Hai manómetro",
-            "de": "Es gibt ein Druckmessgerät",
+            "de": "Es gibt ein Manometer",
             "it": "C’è un manometro",
             "ru": "Есть манометр",
             "pl": "Jest manometr",
@@ -1098,11 +1083,11 @@
         {
           "if": "manometer=no",
           "then": {
-            "en": "There is no pressure gauge",
+            "en": "There is no manometer",
             "nl": "Er is geen luchtdrukmeter",
             "fr": "Il n'y a pas de manomètre",
             "gl": "Non hai manómetro",
-            "de": "Es gibt kein Druckmessgerät",
+            "de": "Es gibt kein Manometer",
             "it": "Non c’è un manometro",
             "ru": "Нет манометра",
             "pl": "Nie ma manometru",
@@ -1117,11 +1102,11 @@
         {
           "if": "manometer=broken",
           "then": {
-            "en": "There is a pressure gauge but it is broken",
+            "en": "There is manometer but it is broken",
             "nl": "Er is een luchtdrukmeter maar die is momenteel defect",
             "fr": "Il y a un manomètre mais il est cassé",
             "gl": "Hai manómetro pero está estragado",
-            "de": "Es gibt ein Druckmessgerät, aber es ist kaputt",
+            "de": "Es gibt ein Manometer, aber es ist kaputt",
             "it": "C’è un manometro ma è rotto",
             "ru": "Есть манометр, но он сломан",
             "pl": "Jest manometr, ale jest uszkodzony",

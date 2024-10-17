@@ -20,8 +20,7 @@
     "cs": "Stromy",
     "pt_BR": "Árvores",
     "eu": "Zuhaitzak",
-    "pt": "Árvores",
-    "uk": "Дерева"
+    "pt": "Árvores"
   },
   "description": {
     "nl": "Breng bomen in kaart!",
@@ -57,8 +56,7 @@
     "ca": "Mapeja tots els arbres",
     "es": "Mapa de los Árboles",
     "da": "Kortlæg alle træer",
-    "cs": "Zmapujte všechny stromy",
-    "uk": "Нанесіть на карту всі дерева"
+    "cs": "Zmapujte všechny stromy"
   },
   "icon": "./assets/themes/trees/logo.svg",
   "socialImage": "./assets/themes/trees/logo.svg",

@@ -79,8 +79,7 @@
         "de": "eine Grundschule oder weiterführende Schule",
         "fr": "une école primaire ou secondaire",
         "ca": "una escola de primària o secundària",
-        "cs": "základní nebo střední škola",
-        "hu": "általános vagy középiskola"
+        "cs": "základní nebo střední škola"
       }
     }
   ],
@@ -102,8 +101,7 @@
         "fr": "Quel est le nom de cet établissement scolaire?",
         "ca": "Quin és el nom d'aquesta escola?",
         "pl": "Jaką nazwę ma ta szkoła?",
-        "cs": "Jak se jmenuje tato škola?",
-        "hu": "Mi a neve ennek az iskolának?"
+        "cs": "Jak se jmenuje tato škola?"
       },
       "freeform": {
         "key": "name"

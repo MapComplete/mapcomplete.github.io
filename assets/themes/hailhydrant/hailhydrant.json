@@ -15,8 +15,7 @@
     "ca": "Hidrants, Extintors, Parcs de Bombers i estacions d'Ambulàncies",
     "da": "Brandhaner, brandslukkere, brandstationer og ambulancestationer",
     "cs": "Hydranty, hasicí přístroje, požární stanice a stanice záchranné služby",
-    "pl": "Hydranty, gaśnice, remizy strażackie i pogotowia ratunkowe",
-    "uk": "Гідранти, вогнегасники, пожежні станції та станції швидкої допомоги"
+    "pl": "Hydranty, gaśnice, remizy strażackie i pogotowia ratunkowe"
   },
   "description": {
     "en": "On this map you can find and update hydrants, fire stations, ambulance stations, and extinguishers in your favorite neighborhoods.",
@@ -48,8 +47,7 @@
     "nl": "Kaart om hydranten, brandblussers, brandweerkazernes en ambulanceposten weer te geven.",
     "da": "Kort for at vise brandhaner, brandslukkere, brandstationer og ambulancestationer.",
     "cs": "Mapa zobrazující hydranty, hasicí přístroje, požární stanice a stanice záchranné služby.",
-    "pl": "Mapa przedstawiająca hydranty, gaśnice, remizy strażackie i karetki pogotowia.",
-    "uk": "Мапа, що показує гідранти, вогнегасники, пожежні станції та станції швидкої допомоги."
+    "pl": "Mapa przedstawiająca hydranty, gaśnice, remizy strażackie i karetki pogotowia."
   },
   "icon": "./assets/themes/hailhydrant/logo.svg",
   "startZoom": 6,

@@ -82,8 +82,7 @@
         "es": "un parque para perros",
         "nl": "een hondenweide",
         "ca": "un parc per a gossos",
-        "cs": "psí park",
-        "hu": "kutyafuttató"
+        "cs": "psí park"
       },
       "tags": [
         "leisure=dog_park"
@@ -110,8 +109,7 @@
         "es": "¿Cual es el nombre de este parque para perros?",
         "nl": "Wat is de naam van deze hondenweide?",
         "ca": "Com s'anomena aquest parc per a gossos?",
-        "cs": "Jak se jmenuje tento psí park?",
-        "hu": "Mi a neve ennek a kutyafuttatónak?"
+        "cs": "Jak se jmenuje tento psí park?"
       },
       "render": {
         "en": "The name of this dog park is {name}",

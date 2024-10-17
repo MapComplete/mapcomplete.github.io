@@ -49,8 +49,7 @@
           "ca": "<b>{name}</b>",
           "es": "<b>{name}</b>",
           "pl": "<b>{name}</b>",
-          "cs": "<b>{name}</b>",
-          "hu": "<b>{name}</b>"
+          "cs": "<b>{name}</b>"
         }
       }
     ]
@@ -85,8 +84,7 @@
         "es": "¿Cual es el nombre de esta torre?",
         "ca": "Com s'anomena aquesta torre?",
         "pl": "Jaka jest nazwa tej wieży?",
-        "cs": "Jak se jmenuje tato věž?",
-        "hu": "Mi a neve ennek a toronynak?"
+        "cs": "Jak se jmenuje tato věž?"
       },
       "render": {
         "en": "This tower is called <b>{name}</b>",
@@ -95,8 +93,7 @@
         "es": "Esta torre se llama <b>{name}</b>",
         "ca": "Aquesta torre s'anomena <b>{name}</b>",
         "pl": "Ta wieża nazywa się <b>{name}</b>",
-        "cs": "Tato věž se jmenuje <b>{name}</b>",
-        "hu": "A torony neve: <b>{name}</b>"
+        "cs": "Tato věž se jmenuje <b>{name}</b>"
       },
       "freeform": {
         "key": "name"

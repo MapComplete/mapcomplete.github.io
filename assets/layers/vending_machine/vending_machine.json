@@ -362,8 +362,7 @@
         "de": "ein Verkaufsautomat",
         "fr": "un distributeur",
         "ca": "una màquina expenedora",
-        "cs": "prodejní automat",
-        "hu": "árusító automata"
+        "cs": "prodejní automat"
       },
       "tags": [
         "amenity=vending_machine"
@@ -1056,8 +1055,7 @@
             "es": "El estado operacional es <i>{operational_status}</i>",
             "da": "Driftsstatus er <i>{operational_status}</i>",
             "cs": "Provozní stav je <i>{operational_status}</i>",
-            "ca": "L'estat operatiu és <i>{operational_status}</i>",
-            "uk": "Операційний статус - <i>{operational_status}</i>"
+            "ca": "L'estat operatiu és <i>{operational_status}</i>"
           }
         }
       ]

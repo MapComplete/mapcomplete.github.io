@@ -4,8 +4,7 @@
     "en": "Bicycle counters",
     "cs": "Počítadla jízdních kol",
     "de": "Fahrradzählstellen",
-    "es": "Contadores de bicicletas",
-    "uk": "Стійки для велосипедів"
+    "es": "Contadores de bicicletas"
   },
   "description": {
     "en": "Layer showing monitoring stations for bicycle traffic",
@@ -67,22 +66,21 @@
     {
       "id": "name",
       "question": {
-        "en": "What is the name of the monitored location?",
+        "en": "What is the name of the counted location?",
         "cs": "Jak se jmenuje započítávaná lokalita?",
-        "de": "Wie lautet der Name des Zählorts?",
-        "hu": "Mi a neve a megfigyelt helynek?"
+        "de": "Wie lautet der Name des Zählorts?"
       },
       "freeform": {
         "key": "name",
         "type": "string",
         "placeholder": {
-          "en": "Name of the monitored location",
+          "en": "Name of the counted location",
           "cs": "Název započítávané lokality",
           "de": "Name des Zählorts"
         }
       },
       "render": {
-        "en": "Name of the monitored location: {name}",
+        "en": "Name of the counted location: {name}",
         "de": "Name des Zählorts: {name}"
       }
     },
@@ -211,8 +209,7 @@
         "en": "a bicycle counter",
         "cs": "počítadlo jízdních kol",
         "de": "eine Fahrradzählstelle",
-        "es": "un contador de bicicletas",
-        "hu": "kerékpárszámláló"
+        "es": "un contador de bicicletas"
       },
       "tags": [
         "man_made=monitoring_station",

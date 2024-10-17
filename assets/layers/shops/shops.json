@@ -210,8 +210,7 @@
         "eo": "Butiko",
         "es": "una tienda",
         "ca": "una botiga",
-        "cs": "obchod",
-        "hu": "üzlet"
+        "cs": "obchod"
       },
       "description": {
         "en": "You can specify later on what this shop sells.",
@@ -240,9 +239,7 @@
         "de": "Wie ist der Name dieses Geschäfts?",
         "es": "¿Cual es el nombre de esta tienda?",
         "ca": "Quin és el nom d'aquesta botiga?",
-        "cs": "Jak se jmenuje tento obchod?",
-        "hu": "Mi a neve ennek a boltnak?",
-        "uk": "Як називається цей магазин?"
+        "cs": "Jak se jmenuje tento obchod?"
       },
       "render": {
         "en": "This shop is called <i>{name}</i>",
@@ -250,8 +247,7 @@
         "nl": "Deze zaak heet <i>{name}</i>",
         "ca": "La botiga s'anomena <i>{name}</i>",
         "fr": "Ce commerce s'appelle <i>{name}</i>",
-        "cs": "Tento obchod se jmenuje <i>{name}</i>",
-        "uk": "Цей магазин називається <i>{name}</i>"
+        "cs": "Tento obchod se jmenuje <i>{name}</i>"
       },
       "freeform": {
         "key": "name"
@@ -319,8 +315,7 @@
       "id": "brand",
       "question": {
         "en": "What is the brand of this shop?",
-        "de": "Zu welcher Marke gehört dieses Geschäft?",
-        "uk": "Який бренд цього магазину?"
+        "de": "Zu welcher Marke gehört dieses Geschäft?"
       },
       "render": {
         "en": "Part of <b>{brand}</b>",
@@ -334,8 +329,7 @@
           "if": "not:brand=yes",
           "then": {
             "en": "This shop does not have a specific brand, it is not part of a bigger chain",
-            "de": "Das Geschäft gehört zu keiner Marke oder Handelskette",
-            "uk": "Цей магазин не має певного бренду, він не є частиною великої мережі"
+            "de": "Das Geschäft gehört zu keiner Marke oder Handelskette"
           }
         }
       ]
@@ -573,6 +567,7 @@
           "service:bicycle:retail~*",
           "shop=outdoor",
           "shop=sport",
+          "shop=sports",
           "shop=diy",
           "shop=doityourself"
         ]
@@ -683,6 +678,7 @@
         "or": [
           "service:bicycle:repair~*",
           "shop=sport",
+          "shop=sports",
           "shop=outdoor",
           "shop=bicycle",
           "service:bicycle:retail=yes",
@@ -788,6 +784,7 @@
           "service:bicycle:rental~*",
           "shop=bicycle",
           "shop=sport",
+          "shop=sports",
           "shop=bicycle_repair",
           "shop=outdoor",
           "shop=rental"

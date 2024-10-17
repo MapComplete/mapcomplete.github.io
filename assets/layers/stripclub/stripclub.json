@@ -59,8 +59,7 @@
     {
       "title": {
         "en": "a stripclub",
-        "de": "ein Stripclub",
-        "hu": "sztriptízbár"
+        "de": "ein Stripclub"
       },
       "tags": [
         "amenity=stripclub"
@@ -79,13 +78,11 @@
       },
       "question": {
         "en": "What is the name of this stripclub?",
-        "de": "Wie lautet der Name des Stripclubs?",
-        "hu": "Mi a neve ennek a sztriptízbárnak?"
+        "de": "Wie lautet der Name des Stripclubs?"
       },
       "render": {
         "en": "This stripclub is named <b>{name}</b>",
-        "de": "Der Name des Stripclubs lautet <b>{name}</b>",
-        "hu": "A sztriptízbár neve: <b>{name}</b>"
+        "de": "Der Name des Stripclubs lautet <b>{name}</b>"
       }
     },
     "opening_hours",

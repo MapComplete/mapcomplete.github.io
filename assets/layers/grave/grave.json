@@ -39,8 +39,7 @@
     {
       "title": {
         "en": "a tombstone",
-        "de": "ein Grabstein",
-        "hu": "sírkő"
+        "de": "ein Grabstein"
       },
       "tags": [
         "historic=tomb"
@@ -71,14 +70,12 @@
     {
       "question": {
         "en": "What is the name of the person buried here?",
-        "de": "Wie lautet der Name der hier begrabenen Person?",
-        "hu": "Ki van itt eltemetve?"
+        "de": "Wie lautet der Name der hier begrabenen Person?"
       },
       "id": "name",
       "render": {
         "en": "<b>{name}</b> is buried here",
-        "de": "<b>{name}</b> ist hier begraben",
-        "hu": "Itt van eltemetve <b>{name}</b>"
+        "de": "<b>{name}</b> ist hier begraben"
       },
       "freeform": {
         "key": "name"

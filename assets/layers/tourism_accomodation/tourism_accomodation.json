@@ -137,8 +137,7 @@
         "ru": "гостиница",
         "fr": "un hôtel",
         "cs": "hotel",
-        "pl": "hotel",
-        "hu": "szálloda"
+        "pl": "hotel"
       },
       "description": {
         "en": "A  hotel is an establishment that provides paid lodging, usually on a short-term basis. Rooms are not shared with strangers.",
@@ -156,8 +155,7 @@
       "title": {
         "en": "a hostel",
         "de": "Ein Hostel",
-        "nl": "een herberg",
-        "hu": "turistaszálló"
+        "nl": "een herberg"
       },
       "description": {
         "en": "A hostel is a type of tourist accommodation where people can sleep in a room shared with strangers",
@@ -172,8 +170,7 @@
       "title": {
         "en": "a vacation apartment",
         "de": "eine Ferienwohnung",
-        "nl": "een vakantie-appartement",
-        "hu": "apartman"
+        "nl": "een vakantie-appartement"
       },
       "description": {
         "en": "A furnished apartment or flat with cooking and bathroom facilities in a shared building that can be rented for vacations, typically without breakfast or reception desk",
@@ -187,8 +184,7 @@
       ],
       "title": {
         "en": "a vacation chalet",
-        "de": "ein Ferienchalet",
-        "hu": "nyaralóház"
+        "de": "ein Ferienchalet"
       },
       "description": {
         "en": "A holiday cottage or vacation home with cooking and bathroom facilities that can be rented for holiday vacations, typically without breakfast or reception desk",
@@ -202,8 +198,7 @@
       "title": {
         "en": "a motel",
         "de": "ein Motel",
-        "nl": "een motel",
-        "hu": "motel"
+        "nl": "een motel"
       },
       "description": {
         "en": "A motel is an establishment that provides paid lodging, usually on a short-term basis, with convenient parking for motor cars at or close to the room. They are typically cheaper then a hotel",
@@ -217,8 +212,7 @@
       ],
       "title": {
         "en": "a bed-and-breakfast",
-        "de": "eine Frühstückspension",
-        "hu": "panzió"
+        "de": "eine Frühstückspension"
       },
       "description": {
         "en": "A bed-and-breakfast in a guesthouse is a small lodging establishment. These are often a few rooms within a private family home where the owners also accommodate the guests. There is no reception desk, nor is there staff at all times. In some cases, check-in happens remotely by sharing a code to get in.",
@@ -231,8 +225,7 @@
       ],
       "title": {
         "en": "a small-scale lodging facility, typically operated by the owner",
-        "de": "eine kleine Beherbergungseinrichtung, die in der Regel vom Eigentümer betrieben wird",
-        "hu": "kis léptékű szálláshely, amelyet jellemzően a tulajdonos üzemeltet"
+        "de": "eine kleine Beherbergungseinrichtung, die in der Regel vom Eigentümer betrieben wird"
       }
     },
     {
@@ -241,8 +234,7 @@
       ],
       "title": {
         "en": "a camp site or camp ground",
-        "de": "een kempeerterrein",
-        "hu": "kemping vagy sátrazóhely"
+        "de": "een kempeerterrein"
       }
     }
   ],
@@ -254,8 +246,7 @@
       "question": {
         "en": "What is the name of this {title()}?",
         "de": "Wie lautet der Name von {title()}?",
-        "nl": "Wat is de naam van deze {title()}",
-        "hu": "Mi a neve ennek: {title}?"
+        "nl": "Wat is de naam van deze {title()}"
       },
       "render": {
         "en": "{name}",

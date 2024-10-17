@@ -1049,7 +1049,7 @@
                         "then": "Private fietsenstalling van een school, een bedrijf, ..."
                     },
                     "3": {
-                        "then": "Private fietsenstalling van een school, een bedrijf, ..."
+                        "then": "Private fietsenstalling die niet voor het grote publiek toegankelijk is (dus ook niet met bv. een abonnement)"
                     }
                 },
                 "question": "Wie mag er deze fietsenstalling gebruiken?",
@@ -1062,6 +1062,9 @@
                     },
                     "1": {
                         "then": "Rek met zijbeugel"
+                    },
+                    "10": {
+                        "then": "Een aanleunbeugel met klem waarbij je de zadelbuis in een anker kan vastklikken. Er is meestal een oog om een slot door te steken"
                     },
                     "2": {
                         "then": "Wielrek/lussen"

@@ -142,8 +142,7 @@
         "it": "una tavolo da tennistavolo",
         "ru": "Стол для настольного тенниса",
         "de": "eine Tischtennisplatte",
-        "cs": "stůl na stolní tenis",
-        "hu": "pingpongasztal"
+        "cs": "stůl na stolní tenis"
       },
       "tags": [
         "leisure=pitch",
@@ -160,8 +159,7 @@
         "de": "einen Sportplatz",
         "es": "una pista de deportes",
         "ca": "una pista d'esports",
-        "cs": "sportovní hřiště",
-        "hu": "sportpálya"
+        "cs": "sportovní hřiště"
       },
       "tags": [
         "leisure=pitch",
@@ -694,8 +692,7 @@
         "ru": "В какое время доступна эта площадка?",
         "de": "Wann ist dieser Sportplatz zugänglich?",
         "es": "¿Cuándo es accesible esta pista?",
-        "cs": "Kdy je toto hřiště přístupné?",
-        "uk": "Коли цей майданчик доступний?"
+        "cs": "Kdy je toto hřiště přístupné?"
       },
       "render": "Openingsuren: {opening_hours_table()}",
       "freeform": {
@@ -710,8 +707,7 @@
             "nl": "24/7 toegankelijk",
             "de": "Immer zugänglich",
             "ca": "Sempre accesible",
-            "cs": "Vždy přístupné",
-            "uk": "Завжди доступні"
+            "cs": "Vždy přístupné"
           },
           "hideInAnswer": true
         },
@@ -726,8 +722,7 @@
             "de": "Immer zugänglich",
             "es": "Siempre accesible",
             "cs": "Vždy přístupné",
-            "ca": "Sempre accesible",
-            "uk": "Завжди доступні"
+            "ca": "Sempre accesible"
           }
         }
       ],

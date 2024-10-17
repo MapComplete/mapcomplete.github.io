@@ -74,8 +74,7 @@
         "nl": "Deze halte heet <b>{name}</b>",
         "ca": "Aquesta parada es diu <b>{name}</b>",
         "fr": "Cet arrêt est nommé <b>{name}</b>",
-        "cs": "Tato zastávka se jmenuje <b>{name}</b>",
-        "hu": "A megálló neve: <b>{name}</b>"
+        "cs": "Tato zastávka se jmenuje <b>{name}</b>"
       },
       "freeform": {
         "key": "name",
@@ -116,8 +115,7 @@
         "da": "Hvad er navnet på dette stop?",
         "nl": "Wat is de naam van deze halte?",
         "ca": "Quin és el nom d'aquesta parada?",
-        "cs": "Jak se tato zastávka jmenuje?",
-        "hu": "Mi a neve ennek a megállónak?"
+        "cs": "Jak se tato zastávka jmenuje?"
       }
     },
     "images",

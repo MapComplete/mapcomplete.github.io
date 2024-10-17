@@ -15,8 +15,7 @@
     "cs": "Hackerspaces a tvůrčí prostory",
     "es": "Hackerspaces y makerspaces",
     "eu": "Hackerspace",
-    "pl": "Hackerspace'y",
-    "uk": "Хакерспейси та мейкерспейси"
+    "pl": "Hackerspace'y"
   },
   "description": {
     "en": "On this map you can see hackerspaces, add a new hackerspace or update data directly",
@@ -44,8 +43,7 @@
     "cs": "Mapa označující Hackerspaces",
     "es": "Un mapa de hackerspaces",
     "ca": "Un mapa dels hackerspaces",
-    "pl": "Mapa hackerspaceów",
-    "uk": "Карта хакерських просторів"
+    "pl": "Mapa hackerspaceów"
   },
   "icon": "./assets/themes/hackerspaces/glider.svg",
   "layers": [

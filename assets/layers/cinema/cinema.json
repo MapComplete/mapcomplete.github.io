@@ -5,8 +5,8 @@
     "de": "Kino"
   },
   "description": {
-    "en": "A place showing movies (films), generally open to the public for a fee. Commonly referred to as a movie theater in the US",
-    "de": "Ein Ort, an dem Filme gezeigt werden, die der Öffentlichkeit gegen Gebühr zugänglich sind"
+    "en": " A place showing movies (films), generally open to the public for a fee. Commonly referred to as a movie theater in the US",
+    "de": " Ein Ort, an dem Filme gezeigt werden, die der Öffentlichkeit gegen Gebühr zugänglich sind"
   },
   "source": {
     "osmTags": "amenity=cinema"

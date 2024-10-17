@@ -14,8 +14,7 @@
     "pl": "Sporty",
     "it": "Sport",
     "ru": "Спортивные объекты",
-    "hu": "Sporttérkép",
-    "uk": "Спорт"
+    "hu": "Sporttérkép"
   },
   "description": {
     "en": "All about sports, find sport pitches, fitness centres and more.",
@@ -38,8 +37,7 @@
     "cs": "Mapa se sportovními zařízeními.",
     "zh_Hant": "顯示運動設施的地圖。",
     "pl": "Mapa pokazująca obiekty sportowe.",
-    "it": "Mappa che mostra gli impianti sportivi.",
-    "uk": "Карта з позначенням спортивних об'єктів."
+    "it": "Mappa che mostra gli impianti sportivi."
   },
   "icon": "./assets/themes/sports/sport.svg",
   "layers": [

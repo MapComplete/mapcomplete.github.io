@@ -90,8 +90,7 @@
         "de": "ein Schutzgebiet",
         "ca": "una reserva natural",
         "cs": "přírodní rezervace",
-        "fr": "une réserve naturelle",
-        "hu": "természetvédelmi terület"
+        "fr": "une réserve naturelle"
       },
       "description": {
         "en": "Add a missing nature reserve",

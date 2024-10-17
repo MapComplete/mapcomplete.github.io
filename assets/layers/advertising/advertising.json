@@ -17,8 +17,7 @@
     "zh_Hant": "廣告",
     "fr": "Publicité",
     "ru": "Реклама",
-    "uk": "Оголошення",
-    "hu": "Reklámhordozók"
+    "uk": "Оголошення"
   },
   "description": {
     "ca": "Completarem les dades dels elements publicitaris amb referència, operador i il·luminació",
@@ -441,8 +440,7 @@
         "it": "un cartellone",
         "zh_Hant": "一塊告示牌",
         "ru": "билборд",
-        "uk": "білборд",
-        "hu": "óriásplakát"
+        "uk": "білборд"
       },
       "description": {
         "en": "A large outdoor advertising structure, typically found in high-traffic areas such as alongside busy roads",
@@ -478,8 +476,7 @@
         "cs": "billboard připevněný na stěnu",
         "ca": "un cartell muntat a una paret",
         "es": "una valla publicitaria montada en un muro",
-        "uk": "білборд, прикріплений до стіни",
-        "hu": "falra erősített óriásplakát"
+        "uk": "білборд, прикріплений до стіни"
       },
       "description": {
         "en": "A large outdoor advertising structure, typically found in high-traffic areas such as alongside busy roads mounted on a wall",
@@ -510,8 +507,7 @@
         "pt_BR": "uma caixa expositora independente",
         "it": "un cartellone pubblicitario fissato a terra",
         "zh_Hant": "獨自設立的海報框",
-        "uk": "окремо стояча коробка для плакатів",
-        "hu": "megállítótábla"
+        "uk": "окремо стояча коробка для плакатів"
       },
       "exampleImages": [
         "./assets/themes/advertising/Mupi_spain.jpg",
@@ -534,8 +530,7 @@
         "pt_BR": "uma caixa de pôster montada em uma parede",
         "zh_Hans": "安装在墙上的海报盒子",
         "it": "un cartellone pubblicitario fissato al muro",
-        "uk": "коробка для плакатів, що кріпиться на стіну",
-        "hu": "falra szerelt posztertartó"
+        "uk": "коробка для плакатів, що кріпиться на стіну"
       },
       "snapToLayer": [
         "walls_and_buildings"
@@ -547,15 +542,14 @@
         "support=street_furniture:transit_shelter"
       ],
       "title": {
-        "en": "a poster box that is part of a public transport shelter",
+        "en": "a poster box part of a public transport shelter",
         "de": "ein Plakatkasten, der zu einem Unterstand für öffentliche Verkehrsmittel gehört",
         "fr": "Un affichage sur un abribus",
         "it": "un contenitore di poster pubblicitari di una pensilina del trasporto pubblico",
         "es": "una caja de carteles que forma parte de una marquesina de transporte público",
         "cs": "plakátovací skříňka, která je součástí přístřešku veřejné dopravy",
         "ca": "un mupi que forma part d'un refugi de transport públic",
-        "uk": "афішна скринька, що є частиною зупинки громадського транспорту",
-        "hu": "tömegközlekedési megállóban lévő posztertartó"
+        "uk": "афішна скринька, що є частиною зупинки громадського транспорту"
       },
       "snapToLayer": [
         "shelter"
@@ -580,7 +574,7 @@
         "uk": "дошка"
       },
       "description": {
-        "en": "Small billboard for neighbourhood advertising, generally targetting pedestrians",
+        "en": "Small billboard for neighbourhood advertising, generally intended for pedestrians",
         "es": "Un pequeño tablón de anuncios para anuncios del vecindario, normalmente destinado a peatones",
         "ca": "Un xicotet tauló d'anuncics per a anuncis del veïnat, normalment destitat a peatons",
         "de": "Kleines Anschlagbrett für Nachbarschaftswerbung, normalerweise an Fußgänger gerichtet",
@@ -616,8 +610,7 @@
         "pt_BR": "uma coluna",
         "it": "una colonna",
         "ru": "столбец",
-        "uk": "стовпчик",
-        "hu": "oszlop"
+        "uk": "стовпчик"
       },
       "description": {
         "en": "A cylindrical outdoor structure which shows advertisements",
@@ -656,8 +649,7 @@
         "pt_BR": "uma bandeira",
         "zh_Hans": "一个旗子",
         "it": "una bandiera",
-        "uk": "прапор",
-        "hu": "zászló"
+        "uk": "прапор"
       },
       "exampleImages": [
         "./assets/themes/advertising/Advertising_flag.jpg",
@@ -681,8 +673,7 @@
         "pt_BR": "uma tela",
         "zh_Hans": "一块屏幕",
         "it": "uno schermo",
-        "uk": "екран",
-        "hu": "képernyő"
+        "uk": "екран"
       },
       "exampleImages": [
         "./assets/themes/advertising/Screen_poster_box.jpg",
@@ -706,8 +697,7 @@
         "pt_BR": "uma tela montada em uma parede",
         "zh_Hans": "一块挂在墙上的屏幕",
         "it": "uno schermo fissato al muro",
-        "uk": "екран, встановлений на стіні",
-        "hu": "falra szerelt képernyő"
+        "uk": "екран, встановлений на стіні"
       },
       "exampleImages": [
         "./assets/themes/advertising/Subway_screen.jpg",
@@ -725,15 +715,14 @@
         "support=street_furniture:transit_shelter"
       ],
       "title": {
-        "en": "a screen mounted on a transport shelter",
+        "en": "a screen mounted on a transit shelter",
         "de": "ein Bildschirm, der an einem Wartehäuschen angebracht ist",
         "fr": "un écran fixé sur un abri de transport",
         "it": "uno schermo montato su una pensilina del traporto pubblico",
         "es": "una pantalla montada en una marquesina de tránsito",
         "cs": "obrazovka namontovaná na dopravním přístřešku",
         "ca": "una pantalla muntada en una marquesina",
-        "uk": "екран, встановлений на тимчасовому укритті",
-        "hu": "tömegközlekedési megállóban lévő képernyő"
+        "uk": "екран, встановлений на тимчасовому укритті"
       },
       "snapToLayer": [
         "shelter"
@@ -757,8 +746,7 @@
         "pt_BR": "uma lona",
         "zh_Hans": "防水布",
         "it": "un telone",
-        "uk": "брезент",
-        "hu": "ponyva"
+        "uk": "брезент"
       },
       "description": {
         "en": "A piece of waterproof textile with a printed message, permanently anchored on a wall",
@@ -824,8 +812,7 @@
         "pl": "znak",
         "zh_Hans": "标志",
         "it": "un'insegna",
-        "uk": "знак",
-        "hu": "tábla"
+        "uk": "знак"
       },
       "description": {
         "en": "Used for advertising signs, neon signs, logos & institutional entrance signs",
@@ -868,8 +855,7 @@
         "pt_BR": "uma escultura",
         "zh_Hans": "雕像",
         "it": "una scultura",
-        "uk": "скульптура",
-        "hu": "szobor"
+        "uk": "скульптура"
       },
       "exampleImages": [
         "./assets/themes/advertising/Aircraft_Sculpture.jpg",
@@ -895,8 +881,7 @@
         "pt_BR": "uma pintura mural",
         "zh_Hans": "墙上的画",
         "it": "un murales",
-        "uk": "настінний розпис",
-        "hu": "falfestmény"
+        "uk": "настінний розпис"
       },
       "exampleImages": [
         "./assets/themes/advertising/Capitol_wall.jpg",
@@ -1164,9 +1149,8 @@
             "en": "This is tilework - the advertisement is painted on tiles",
             "de": "Dies ist eine Kachelarbeit - die Werbung ist auf Fliesen gemalt",
             "cs": "Jedná se o dlaždice - reklama je namalovaná na dlaždicích",
-            "es": "Esto es un mosaico - la publicidad está pintada en azulejos",
-            "uk": "Це кахельна плитка - реклама намальована на плитці",
-            "ca": "Açò és un mosaic - la publicitat està pintada en rajoles"
+            "es": "Esto es un azulejería - la publicidad está pintada en azulejos",
+            "uk": "Це кахельна плитка - реклама намальована на плитці"
           }
         },
         {
@@ -1629,7 +1613,7 @@
       "question": {
         "ca": "Per quants costats pots veure publicitat?",
         "es": "¿Por cuantos lados puedes ver publicidad?",
-        "en": "How many sides display advertisements?",
+        "en": "From how many sides you can watch advertisments?",
         "de": "Auf wie vielen Seiten wird Werbung angezeigt?",
         "cs": "Z kolika stran můžete vidět reklamy?",
         "fr": "Sur combien de côtés peut-on voir de la publicité ?",
@@ -1697,7 +1681,7 @@
       "question": {
         "ca": "Quin és el número de refèrencia?",
         "es": "¿Cual es el número de referencia?",
-        "en": "What is the reference number?",
+        "en": "Wich is the reference number?",
         "de": "Wie lautet die Referenznummer?",
         "cs": "Jaké je referenční číslo?",
         "fr": "Quel est le numéro de référence ?",
@@ -1735,8 +1719,7 @@
             "de": "Es handelt sich um ein historisches Werbeschild (eine Werbung für ein Unternehmen, das nicht mehr existiert, oder ein sehr altes Schild mit historischem Wert)",
             "cs": "Jedná se o historický reklamní nápis (reklama na již neexistující podnik nebo velmi starý nápis s památkovou hodnotou)",
             "es": "Esto es un cartel publicitario histórico (un anuncio para un negocio que ya no existe o un cartel con un gran valor patrimonial)",
-            "uk": "Це історична рекламна вивіска (реклама підприємства, яке більше не існує, або дуже стара вивіска, що має історичну цінність)",
-            "ca": "Açò és un cartell publicitari històric (un anunci per a un negoci que ja no existeix o un cartell amb un gran valor patrimonial)"
+            "uk": "Це історична рекламна вивіска (реклама підприємства, яке більше не існує, або дуже стара вивіска, що має історичну цінність)"
           }
         },
         {
@@ -1746,8 +1729,7 @@
             "de": "Dieses Werbeschild hat keinen historischen Wert (das Unternehmen existiert noch und hat keinen denkmalpflegerischen Wert)",
             "cs": "Tento reklamní nápis nemá žádnou historickou hodnotu (podnik stále existuje a nemá žádnou památkovou hodnotu)",
             "es": "Este cartel publicitario no tiene valor histórico (el negocio todavía existe y no tiene valor patrimonial)",
-            "uk": "Ця рекламна вивіска не має історичної цінності (бізнес все ще існує і не має історичної цінності)",
-            "ca": "Aquest cartell publicitari no té valor històric (el negoci encara existeix i no té valor patrimonial)"
+            "uk": "Ця рекламна вивіска не має історичної цінності (бізнес все ще існує і не має історичної цінності)"
           }
         }
       ]

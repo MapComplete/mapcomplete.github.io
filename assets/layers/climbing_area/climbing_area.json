@@ -65,8 +65,7 @@
           "it": "Muro da arrampicata <b>{name}</b>",
           "de": "Klettergarten <b>{name}</b>",
           "nl": "Klimrots of klimzone <b>{name}</b>",
-          "cs": "Lezecká cesta <b>{name}</b>",
-          "hu": "A mászófal neve: <b>{name}</b>"
+          "cs": "Lezecká cesta <b>{name}</b>"
         }
       },
       {
@@ -87,8 +86,7 @@
           "fr": "Zone d’escalade <b>{name}</b>",
           "de": "Klettergebiet <b>{name}</b>",
           "it": "Area di arrampicata <b>{name}</b>",
-          "cs": "Lezecká oblast <b>{name}</b>",
-          "hu": "A mászóhely neve: <b>{name}</b>"
+          "cs": "Lezecká oblast <b>{name}</b>"
         }
       },
       {
@@ -117,8 +115,7 @@
           "de": "Klettereinrichtung <b>{name}</b>",
           "it": "Opportunità di arrampicata <b>{name}</b>",
           "ca": "Oportunitat d'escalada <b>{name}</b>",
-          "cs": "Lezecká příležitost <b>{name}</b>",
-          "hu": "A mászólétesítmény neve: <b>{name}</b>"
+          "cs": "Lezecká příležitost <b>{name}</b>"
         }
       }
     ]
@@ -161,8 +158,7 @@
         "fr": "une opportunité d’escalade",
         "it": "una opportunità di arrampicata",
         "ca": "una oportuinitat d'escalada",
-        "cs": "lezecká příležitost",
-        "hu": "falmászó létesítmény"
+        "cs": "lezecká příležitost"
       },
       "description": {
         "nl": "Een klimgelegenheid",

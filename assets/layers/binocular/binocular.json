@@ -79,7 +79,7 @@
         "amenity=binoculars"
       ],
       "title": {
-        "en": "binoculars",
+        "en": "a binocular",
         "nl": "een verrekijker",
         "de": "ein Fernglas",
         "ru": "бинокль",
@@ -87,8 +87,7 @@
         "da": "en kikkert",
         "es": "unos prismáticos",
         "fr": "des jumelles",
-        "cs": "dalekohled",
-        "hu": "távcső"
+        "cs": "dalekohled"
       },
       "description": {
         "en": "A telescope or pair of binoculars mounted on a pole, available to the public to look around. <img src='./assets/layers/binocular/binoculars_example.jpg' style='height: 300px; width: auto; display: block;' />",

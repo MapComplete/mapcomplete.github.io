@@ -70,8 +70,7 @@
         "ca": "un contenidor de basura",
         "cs": "koš na odpadky",
         "pl": "kosz na śmieci",
-        "zh_Hant": "廢棄物處理桶",
-        "hu": "szemeteskonténer"
+        "zh_Hant": "廢棄物處理桶"
       },
       "tags": [
         "amenity=waste_disposal"
@@ -247,8 +246,7 @@
             "ca": "Aquest contenidor està situat a l'interior",
             "cs": "Tento kontejner se nachází uvnitř",
             "pl": "Kontener ten znajduje się w pomieszczeniu zamkniętym",
-            "zh_Hant": "這個容器位於室內",
-            "uk": "Цей контейнер знаходиться в приміщенні"
+            "zh_Hant": "這個容器位於室內"
           }
         },
         {
@@ -263,8 +261,7 @@
             "ca": "Aquest contenidor està situat a l'aire lliure",
             "cs": "Tento kontejner se nachází venku",
             "pl": "Kontener ten znajduje się na zewnątrz",
-            "zh_Hant": "這個容器位於室外",
-            "uk": "Цей контейнер розташований на відкритому повітрі"
+            "zh_Hant": "這個容器位於室外"
           }
         }
       ]

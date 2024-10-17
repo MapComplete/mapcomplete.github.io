@@ -14,8 +14,7 @@
     "nb_NO": "Åpent etymologikart",
     "cs": "Etymologie - podle čeho je místo pojmenováno?",
     "es": "Etimología: ¿De qué recibe el nombre un lugar?",
-    "pl": "Etymologia - od czego pochodzi nazwa ulicy?",
-    "uk": "Етимологія - на честь чого названо місце?"
+    "pl": "Etymologia - od czego pochodzi nazwa ulicy?"
   },
   "description": {
     "en": "On this map, you can see what an object is named after. The streets, buildings, ... come from OpenStreetMap which got linked with Wikidata. In the popup, you'll see the Wikipedia article (if it exists) or a wikidata box of what the object is named after. If the object itself has a wikipedia page, that'll be shown too.<br/><br/><b>You can help contribute too!</b>Zoom in enough and <i>all</i> streets will show up. You can click one and a Wikidata-search box will popup. With a few clicks, you can add an etymology link. Note that you need a free OpenStreetMap account to do this.",
@@ -44,8 +43,7 @@
     "da": "Hvad er oprindelsen af et stednavn?",
     "cs": "Jaký je původ toponyma?",
     "pl": "Jakie jest pochodzenie toponimów?",
-    "ru": "Каково происхождение топонима?",
-    "uk": "Звідки походить топонім?"
+    "ru": "Каково происхождение топонима?"
   },
   "icon": "./assets/layers/etymology/logo.svg",
   "hideFromOverview": false,
@@ -68,8 +66,7 @@
           "da": "Gader uden oprindelses information",
           "nb_NO": "Gater uten etymologi-info",
           "cs": "Ulice bez etymologických informací",
-          "pl": "Ulice bez informacji o etymologii",
-          "uk": "Вулиці без етимологічної інформації"
+          "pl": "Ulice bez informacji o etymologii"
         },
         "minzoom": 15,
         "isCounted": false,
@@ -101,8 +98,7 @@
           "da": "Parker og skove uden oprindelses information",
           "nb_NO": "Parker og skoger uten etymologi-info",
           "cs": "Parky a lesy bez etymologických informací",
-          "pl": "Parki i lasy bez informacji o etymologii",
-          "uk": "Парки та ліси без етимологічної інформації"
+          "pl": "Parki i lasy bez informacji o etymologii"
         },
         "minzoom": 18,
         "isCounted": false,
@@ -135,8 +131,7 @@
           "da": "Uddannelsesinstitutioner uden oprindelses oplysninger",
           "nb_NO": "Utdannelsesinstitusjoner uten etymologi-info",
           "cs": "Vzdělávací instituce bez etymologických informací",
-          "pl": "Instytucje edukacyjne bez informacji o etymologii",
-          "uk": "Навчальні заклади без етимологічної інформації"
+          "pl": "Instytucje edukacyjne bez informacji o etymologii"
         },
         "minzoom": 18,
         "isCounted": false,
@@ -172,8 +167,7 @@
           "da": "Kulturelle steder uden oprindelses information",
           "nb_NO": "Kulturelle steder uten etymologi-info",
           "cs": "Kulturní místa bez etymologických informací",
-          "pl": "Miejsca kulturowe bez informacji o etymologii",
-          "uk": "Культурні місця без етимологічної інформації"
+          "pl": "Miejsca kulturowe bez informacji o etymologii"
         },
         "minzoom": 18,
         "isCounted": false,
@@ -209,8 +203,7 @@
           "da": "Turistiske steder uden oprindelses information",
           "nb_NO": "Turiststeder uten etymologi-info",
           "cs": "Turistická místa bez etymologických informací",
-          "pl": "Miejsca turystyczne bez informacji o etymologii",
-          "uk": "Туристичні місця без інформації про етимологію"
+          "pl": "Miejsca turystyczne bez informacji o etymologii"
         },
         "minzoom": 18,
         "isCounted": false,
@@ -245,8 +238,7 @@
           "nb_NO": "Helse- og sosiale steder uten etymologi-info",
           "cs": "Zdravotní a sociální místa bez etymologických informací",
           "es": "Lugares sanitarios y sociales sin información etimológica",
-          "pl": "Miejsca związane ze zdrowiem i społeczeństwem bez informacji o etymologii",
-          "uk": "Медичні та соціальні заклади без етимологічної інформації"
+          "pl": "Miejsca związane ze zdrowiem i społeczeństwem bez informacji o etymologii"
         },
         "minzoom": 18,
         "isCounted": false,
@@ -280,8 +272,7 @@
           "da": "Sportspladser uden oprindelses information",
           "nb_NO": "Sportssteder uten etymologi-info",
           "cs": "Sportovní místa bez etymologických informací",
-          "pl": "Miejsca sportowe bez informacji o etymologii",
-          "uk": "Спортивні місця без етимологічної інформації"
+          "pl": "Miejsca sportowe bez informacji o etymologii"
         },
         "minzoom": 18,
         "isCounted": false,

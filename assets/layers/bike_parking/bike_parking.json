@@ -16,8 +16,7 @@
     "ca": "Aparcament per a bicicletes",
     "es": "Aparcamiento de bicis",
     "da": "Cykelparkering",
-    "cs": "Parkování kol",
-    "uk": "Велопарковка"
+    "cs": "Parkování kol"
   },
   "description": {
     "en": "A layer showing where you can park your bike",
@@ -95,7 +94,7 @@
         "fr": "un parking à vélo",
         "gl": "Aparcadoiro de bicicletas",
         "de": "einen Fahrrad-Parkplatz",
-        "hu": "kerékpártároló",
+        "hu": "Kerékpártároló",
         "it": "una parcheggio bici",
         "zh_Hant": "單車停車場",
         "ru": "Велосипедная парковка",
@@ -355,6 +354,13 @@
             "nl": "Een fietskluis waar één of enkele fietsen staan en op slot kan en die te klein is om in recht te staan.",
             "de": "Ein Schließfach - Fahrräder werden einzeln oder mit mehreren Fahrrädern zusammen eingeschlossen. Der Schrank ist zu klein für eine stehende Person."
           }
+        },
+        {
+          "if": "bicycle_parking=lean_and_stick",
+          "then": {
+            "en": "A lean-to bracket with possibility to use a lock through eyelet. The seat tube can be held by the stand by an anchor",
+            "nl": "Een aanleunbeugel met klem waarbij je de zadelbuis in een anker kan vastklikken. Er is meestal een oog om een slot door te steken"
+          }
         }
       ],
       "id": "Bicycle parking type"
@@ -540,9 +546,9 @@
         "pl": "Ile rowerów mieści się na tym parkingu rowerowym?"
       },
       "questionHint": {
-        "en": "This includes all types of bicycle - regular, cargo, ebike etc.",
+        "en": "This includes regular bicycles, cargo bikes, ebikes, ...",
         "nl": "Dit is het totaal aantal gewone fietsen, bakfietsen, elektrische fietsen, ...",
-        "de": "Dazu gehören alle Fahrradtypen - reguläre Fahrräder, Lastenräder, Elektrofahrräder etc.",
+        "de": "Dazu gehören reguläre Fahrräder, Lasträder, Ebikes,...",
         "pl": "To obejmuje zwykłe rowery, do transportu dóbr, elektryczne, ...",
         "es": "Esto incluye bicis normales, de carga, eléctricas, ..."
       },
@@ -668,18 +674,8 @@
         {
           "if": "access=private",
           "then": {
-            "en": "Access is limited to members of a school, company or organisation",
-            "nl": "Private fietsenstalling van een school, een bedrijf, ...",
-            "fr": "Accès limité aux membres d'une école, entreprise ou organisation",
-            "it": "Accesso limitato ai membri di una scuola, una compagnia o un’organizzazione",
-            "zh_Hant": "通行性僅限學校、公司或組織的成員",
-            "pt_BR": "Acesso é limitado aos membros de uma escola, companhia ou organização",
-            "de": "Der Parkplatz darf nur von Mitgliedern einer Schule, Firma oder Organisation genutzt werden",
-            "pt": "Acesso é limitado aos membros de uma escola, companhia ou organização",
-            "es": "El acceso se limita a miembros de una escuela, compañía u organización",
-            "da": "Adgangen er begrænset til medlemmer af en skole, virksomhed eller organisation",
-            "cs": "Přístup je omezen na členy školy, společnosti nebo organizace",
-            "ca": "L'accés està limitat a membres d'una escola, companyia o organització"
+            "en": "Private bicycle parking which is never available to the public, also not via a membership fee",
+            "nl": "Private fietsenstalling die niet voor het grote publiek toegankelijk is (dus ook niet met bv. een abonnement)"
           }
         }
       ],
@@ -688,9 +684,9 @@
     {
       "id": "fee",
       "question": {
-        "en": "Is it free to park a bicycle here?",
+        "en": "Are these bicycle parkings free to use?",
         "nl": "Is deze fietsenstalling gratis te gebruiken?",
-        "de": "Kann man hier kostenlos Fahrräder abstellen?",
+        "de": "Sind die Fahrradparkplätze kostenlos zu benutzen?",
         "ca": "Aquests aparcaments de bicicletes són gratuïts?",
         "es": "¿Son estos aparcamientos de bicicletras de uso gratuito?"
       },
@@ -776,9 +772,9 @@
         "es": "¿Cuál es número de teléfono del operador de este aparcamiento de bicicletas?"
       },
       "questionHint": {
-        "en": "One might be able to call this number in case of problems, e.g. to remove abandoned bicycles",
+        "en": "One might be able to call this number in case of problems, e.g. to remove unmaintained bicycles",
         "nl": "Men kan dit nummer bellen om bv. fietswrakken of defecten te melden",
-        "de": "Man könnte diese Nummer anrufen, wenn es Probleme gibt, z. B. um herrenlose Fahrräder zu entfernen",
+        "de": "Man könnte diese Nummer anrufen, wenn es Probleme gibt, z. B. um nicht gewartete Fahrräder zu entfernen",
         "ca": "És possible que es pugui trucar a aquest número en cas de problemes, p. per retirar les bicicletes abandonades"
       },
       "icon": "./assets/layers/questions/phone.svg",
@@ -1001,7 +997,7 @@
         "es": "¿Cuál es la duración máxima permitida de estacionamiento?"
       },
       "questionHint": {
-        "en": "If the bicycle is parked for longer, it might be removed by the operator",
+        "en": "If the bicycle is parked for a longer amount, it might be removed by the operator",
         "nl": "Indien een fiets langer geparkeerd staat, kan deze verwijderd worden door de beheerder",
         "de": "Wenn das Fahrrad für längere Zeit abgestellt wird, kann es vom Betreiber entfernt werden"
       },

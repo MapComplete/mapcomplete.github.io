@@ -62,8 +62,7 @@
         "de": "Einen Münzprägeautomaten",
         "es": "una prensa de centavo",
         "ca": "una premsa de cèntim",
-        "cs": "ražba mincí",
-        "hu": "érmenyújtó prés"
+        "cs": "ražba mincí"
       },
       "tags": [
         "amenity=vending_machine",
@@ -417,8 +416,7 @@
             "de": "Der Prägeautomat befindet sich im Inneren.",
             "es": "Esta prensa está ubicada en interior.",
             "ca": "Esta premsa està ubicada en interior.",
-            "cs": "Tento lis na mince je umístěn v interiéru.",
-            "uk": "Цей копійчаний прес розташований у приміщенні."
+            "cs": "Tento lis na mince je umístěn v interiéru."
           }
         },
         {
@@ -428,8 +426,7 @@
             "de": "Der Prägeautomat befindet sich im Freien.",
             "es": "Esta prensa está ubicada al aire libre.",
             "ca": "Esta premsa està ubicada a l'exterior.",
-            "cs": "Tento lis na mince je umístěn venku.",
-            "uk": "Цей копійчаний прес розташований на відкритому повітрі."
+            "cs": "Tento lis na mince je umístěn venku."
           }
         }
       ]

@@ -78,8 +78,7 @@
         "de": "einen Eingang",
         "nl": "een toegang",
         "ca": "una entrada",
-        "cs": "vchod",
-        "hu": "bejárat"
+        "cs": "vchod"
       },
       "tags": [
         "entrance=yes"
@@ -95,8 +94,7 @@
         "de": "eine Innentür",
         "nl": "een binnendeur",
         "ca": "una porta interior",
-        "cs": "vnitřní dveře",
-        "hu": "beltéri ajtó"
+        "cs": "vnitřní dveře"
       },
       "tags": [
         "indoor=door"

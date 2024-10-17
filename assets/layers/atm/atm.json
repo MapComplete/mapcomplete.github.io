@@ -14,8 +14,7 @@
     "pt_BR": "Caixas eletrônicos",
     "es": "Cajeros automáticos",
     "pt": "Multibancos",
-    "it": "Sportelli Bancomat",
-    "hu": "Bankautomaták"
+    "it": "Sportelli Bancomat"
   },
   "description": {
     "en": "ATMs to withdraw money",
@@ -109,8 +108,7 @@
         "pt_BR": "um caixa eletrônico",
         "es": "un cajero automático",
         "pt": "um multibanco",
-        "it": "Uno sportello bancomat",
-        "hu": "bankautomata"
+        "it": "Uno sportello bancomat"
       }
     }
   ],

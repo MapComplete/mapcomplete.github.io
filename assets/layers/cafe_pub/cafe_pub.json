@@ -14,10 +14,10 @@
     "cs": "Kavárny a hospody"
   },
   "description": {
-    "en": "A layer showing cafés and pubs where one can gather around a drink.",
+    "en": "A layer showing cafés and pubs where one can gather around a drink. The layer asks for some relevant questions",
     "hu": "Egy olyan réteg, amely kávézókat és kocsmákat jelenít meg, ahol össze lehet gyűlni egy ital köré. A réteg néhány lényeges kérdést tesz fel",
     "nl": "Een laag die kroegen en koffiehuizen toont waar je iets kunt drinken. De laag zal je enkele vragen stellen",
-    "de": "Eine Ebene mit Cafés und Kneipen, in denen man sich auf ein Getränk treffen kann.",
+    "de": "Eine Ebene mit Cafés und Kneipen, in denen man sich auf ein Getränk treffen kann. Die Ebene fragt nach einigen relevanten Eigenschaften",
     "es": "Una capa que muestra cafeterías y bares donde uno se puede reunir con una bebida. La capa hace algunas preguntas relevantes",
     "da": "Et lag med caféer og pubber, hvor man kan samles omkring en drink. Laget stiller nogle relevante spørgsmål",
     "fr": "Une couche montrant les cafés et pubs où l’on peut prendre un verre. Cette couche pose des questions y afférant.",
@@ -82,7 +82,7 @@
       {
         "if": "amenity=cafe",
         "then": {
-          "en": "Café",
+          "en": "Cafe",
           "de": "Café",
           "ca": "CAfè"
         }
@@ -159,7 +159,7 @@
         "cs": "hospoda"
       },
       "description": {
-        "en": "A pub, mostly for drinking beer in a warm, relaxed interior",
+        "en": "A pub, mostly for drinking beers in a warm, relaxed interior",
         "nl": "Dit is <b>een bruin café of een kroeg</b> waar voornamelijk bier wordt gedronken. De inrichting is typisch gezellig met veel houtwerk",
         "de": "Eine Kneipe, in der vor allem Bier in ruhiger, entspannter Atmosphäre getrunken wird",
         "es": "Un bar, principalmente para beber cervezas en un interior templado y relajado",
@@ -202,7 +202,7 @@
         "amenity=cafe"
       ],
       "title": {
-        "en": "a café",
+        "en": "a cafe",
         "nl": "een café",
         "de": "ein Café",
         "ru": "кафе",
@@ -215,9 +215,9 @@
         "cs": "kavárna"
       },
       "description": {
-        "en": "A <b>café</b> to drink tea, coffee or an alcoholic beverage in a quiet environment",
+        "en": "A <b>cafe</b> to drink tea, coffee or an alcoholical bevarage in a quiet environment",
         "nl": "Dit is een <b>cafe</b> - een plaats waar men rustig kan zitten om een thee, koffie of alcoholische drank te nuttigen.",
-        "de": "Ein <b>Café</b>, um in ruhiger Umgebung Tee, Kaffee oder alkoholische Getränke zu trinken",
+        "de": "Ein <b>Café</b>, um in ruhiger Umgebung Tee, Kaffee oder ein alkoholisches Getränk zu trinken",
         "da": "En <b>café</b> til at drikke te, kaffe eller en alkoholisk drik i rolige omgivelser",
         "es": "Un <b>café</b> para tomar té, café o una bebida alcohólica en un ambiente tranquilo",
         "fr": "Un <b>café</b> pour prendre un thé, un café ou une boisson alcoolisée dans un environnement calme",
@@ -238,11 +238,10 @@
         "da": "en natklub eller et diskotek",
         "ca": "un club nocturn o discoteca",
         "pl": "klub nocny lub dyskoteka",
-        "cs": "noční klub nebo diskotéka",
-        "hu": "night club vagy diszkó"
+        "cs": "noční klub nebo diskotéka"
       },
       "description": {
-        "en": "A <b>nightclub</b> or disco with a focus on dancing, music by a DJ with accompanying light show and a bar to get alcoholic) drinks",
+        "en": "A <b>nightclub</b> or disco with a focus on dancing, music by a DJ with accompanying light show and a bar to get (alcoholic) drinks",
         "nl": "Een <b>nachtclub</b> met dansvloer, DJ met bijhorende lichteffecten en bar waar men (alcoholische) dranken kan nuttigen",
         "de": "Ein <b>Club</b> oder eine Diskothek mit Fokus auf Tanzen, Musik von einem DJ mit begleitender Lichtshow und einer Bar, an der man (alkoholische) Getränke bekommt",
         "es": "Un <b>club nocturno</b> o discoteca centrada en bailar, la música de un DJ acompañado por un espectáculo de luces y un bar donde conseguir bebidas (alcohólicas)",
@@ -262,7 +261,7 @@
         "en": "What is the name of this business?",
         "de": "Was ist der Name dieses Unternehmens?",
         "fr": "Quel est le nom de ce pub ?",
-        "hu": "Mi a neve ennek a vállalkozásnak?",
+        "hu": "Mi a neve ennek a kocsmának?",
         "da": "Hvad hedder denne pub?",
         "es": "¿Cuál es el nombre de esta empresa?",
         "ca": "Quin és el nom d'aquest negoci?",
@@ -286,7 +285,7 @@
     },
     {
       "question": {
-        "en": "What kind of café is this?",
+        "en": "What kind of cafe is this?",
         "nl": "Welk soort café is dit?",
         "de": "Was ist das für ein Café?",
         "hu": "Milyen fajta kávézó ez?",
@@ -301,7 +300,7 @@
         {
           "if": "amenity=pub",
           "then": {
-            "en": "A pub, mostly for drinking beer in a warm, relaxed interior",
+            "en": "A pub, mostly for drinking beers in a warm, relaxed interior",
             "nl": "Dit is <b>een bruin café of een kroeg</b> waar voornamelijk bier wordt gedronken. De inrichting is typisch gezellig met veel houtwerk",
             "de": "Eine Kneipe, in der vor allem Bier in ruhiger, entspannter Atmosphäre getrunken wird",
             "es": "Un bar, principalmente para beber cervezas en un interior cálido y relajado",
@@ -327,9 +326,9 @@
         {
           "if": "amenity=cafe",
           "then": {
-            "en": "A <b>café</b> to drink tea, coffee or an alcoholic beverage in a quiet environment",
+            "en": "A <b>cafe</b> to drink tea, coffee or an alcoholical bevarage in a quiet environment",
             "nl": "Dit is een <b>cafe</b> - een plaats waar men rustig kan zitten om een thee, koffie of alcoholische drank te nuttigen.",
-            "de": "Ein <b>Café</b>, um in ruhiger Umgebung Tee, Kaffee oder alkoholische Getränke zu trinken",
+            "de": "Ein <b>Café</b>, um in ruhiger Umgebung Tee, Kaffee oder ein alkoholisches Getränk zu trinken",
             "da": "En <b>café</b> til at drikke te, kaffe eller en alkoholisk drik i rolige omgivelser",
             "es": "Una <b>cafetería</b> para beber té, café o una bebida alcohólica en un ambiente tranquilo",
             "fr": "Un <b>café</b> pour boire du thé, du café ou une boisson alcoolisée au calme",
@@ -353,9 +352,9 @@
         {
           "if": "amenity=biergarten",
           "then": {
-            "en": "This is a beer garden: an open-air space where beer is served, typically seen in Germany",
+            "en": "An open space where beer is served, typically seen in Germany",
             "nl": "Een open ruimte waar bier geserveerd wordt. Typisch in Duitsland",
-            "de": "Ein Biergarten mit Außenbereich mit Bierausschank, typischerweise in Deutschland",
+            "de": "Ein Außenbereich mit Bierausschank, typischerweise in Deutschland",
             "da": "Et åbent rum, hvor der serveres øl, typisk set i Tyskland",
             "es": "Un espacio abierto donde se sirve cerveza, típico de Alemania",
             "fr": "Un espace ouvert où la bière est servie, typiquement vu en Allemagne",

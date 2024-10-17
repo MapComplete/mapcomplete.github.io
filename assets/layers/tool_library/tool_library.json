@@ -58,8 +58,7 @@
     {
       "title": {
         "en": "a tool library",
-        "de": "Eine Werkzeugbibliothek",
-        "hu": "szerszámkönyvtár"
+        "de": "Eine Werkzeugbibliothek"
       },
       "tags": [
         "amenity=tool_library"

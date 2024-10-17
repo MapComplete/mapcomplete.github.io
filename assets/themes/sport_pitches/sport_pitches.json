@@ -14,8 +14,7 @@
     "es": "Pistas de deportes",
     "da": "Sportspladser",
     "cs": "Sportovní hřiště",
-    "pl": "Boiska sportowe",
-    "uk": "Спортивні майданчики"
+    "pl": "Boiska sportowe"
   },
   "description": {
     "nl": "Een sportveld is een ingerichte plaats met infrastructuur om een sport te beoefenen",
@@ -47,8 +46,7 @@
     "da": "Et kort, der viser sportspladser",
     "ca": "Un mapa que mostra pistes d'esports",
     "cs": "Mapa sportovních hřišť",
-    "pl": "Mapa przedstawiająca boiska sportowe",
-    "uk": "Карта з позначенням спортивних майданчиків"
+    "pl": "Mapa przedstawiająca boiska sportowe"
   },
   "icon": "./assets/layers/sport_pitch/table_tennis.svg",
   "layers": [

@@ -94,8 +94,7 @@
         "ru": "детский сад",
         "ca": "una llar d'infants",
         "pl": "przedszkole",
-        "cs": "mateřská školka",
-        "hu": "óvoda"
+        "cs": "mateřská školka"
       },
       "description": "A kindergarten (also known as <i>preschool</i>) is a school where small kids receive early education.",
       "tags": [
@@ -111,8 +110,7 @@
         "de": "eine Kinderkrippe",
         "ca": "una guarderia",
         "pl": "żłobek",
-        "cs": "péče o děti",
-        "hu": "bölcsőde"
+        "cs": "péče o děti"
       },
       "description": "A childcare (also known as <i>a nursery</i> or <i>daycare</i>) is a facility which looks after small kids, but does not offer them an education program.",
       "tags": [
@@ -170,8 +168,7 @@
         "nl": "Wat is de naam van deze faciliteit?",
         "ca": "Com s'anomena aquesta instal·lació?",
         "pl": "Jaka jest nazwa tej placówki?",
-        "cs": "Jak se toto zařízení jmenuje?",
-        "hu": "Mi a neve ennek a létesítménynek?"
+        "cs": "Jak se toto zařízení jmenuje?"
       },
       "render": {
         "en": "This facility is named <b>{name}</b>",
@@ -179,8 +176,7 @@
         "ca": "Aquesta instal·lació s'anomena <b>{name}</b>",
         "nl": "Deze faciliteit heet <b>{name}</b>",
         "pl": "Ta placówka nazywa się <b>{name}</b>",
-        "cs": "Toto zařízení se jmenuje <b>{name}</b>",
-        "hu": "A létesítmény neve: <b>{name}</b>"
+        "cs": "Toto zařízení se jmenuje <b>{name}</b>"
       },
       "freeform": {
         "key": "name"
@@ -197,8 +193,7 @@
           "nl": "Wanneer is deze kinderopvang geopend?",
           "de": "Wann ist diese Kinderbetreuung geöffnet?",
           "pl": "W jakich godzinach ten żłobek jest otwarty?",
-          "cs": "Kdy je tato péče o děti otevřena?",
-          "uk": "Коли відкривається цей дитячий садок?"
+          "cs": "Kdy je tato péče o děti otevřena?"
         },
         "condition": "amenity=childcare"
       }

@@ -271,8 +271,7 @@
         "ru": "Как называется эта комната?",
         "ca": "Quin és el nom d'aquesta habitació?",
         "cs": "Jak se jmenuje tato místnost?",
-        "pl": "Jaka jest nazwa tego pomieszczenia?",
-        "hu": "Mi a neve ennek a helyiségnek?"
+        "pl": "Jaka jest nazwa tego pomieszczenia?"
       },
       "render": {
         "en": "This room is named {name}",

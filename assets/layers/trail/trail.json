@@ -111,15 +111,13 @@
         "en": "What is the name of this trail?",
         "nl": "Wat is de naam van deze wandeling?",
         "de": "Wie heißt dieser Weg?",
-        "ca": "Quin és el nom d'aquest sender?",
-        "hu": "Mi a neve ennek az útnak?"
+        "ca": "Quin és el nom d'aquest sender?"
       },
       "render": {
         "en": "This trail is called <b>{name}</b>",
         "nl": "Deze wandeling heet <b>{name}</b>",
         "de": "Dieser Weg heißt <b>{name}</b>",
-        "ca": "Aquest sender s'anomena <b>{name}</b>",
-        "hu": "Az út neve: <b>{name}</b>"
+        "ca": "Aquest sender s'anomena <b>{name}</b>"
       },
       "freeform": {
         "key": "name"

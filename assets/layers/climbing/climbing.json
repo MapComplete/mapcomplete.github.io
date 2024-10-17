@@ -1,7 +1,7 @@
 {
   "id": "climbing",
   "description": {
-    "en": "A dummy layer which contains tag renderings, shared among the climbing layers",
+    "en": "A dummy layer which contains tagrenderings, shared among the climbing layers",
     "nl": "Een dummy-laag die tagrenderings bevat, gedeeld over de verschillende klimsport lagen",
     "de": "Eine Dummy-Ebene, die Tagrenderings enthält, die von den Kletterebenen gemeinsam genutzt werden",
     "cs": "Falešná vrstva, která obsahuje tagrenderingy sdílené mezi lezeckými vrstvami",
@@ -16,7 +16,7 @@
     {
       "id": "website",
       "question": {
-        "en": "Is there a (unofficial) website with more information (e.g. topos)?",
+        "en": "Is there a (unofficial) website with more informations (e.g. topos)?",
         "de": "Gibt es eine (inoffizielle) Website mit mehr Informationen (z.B. Topos)?",
         "ja": "もっと情報のある(非公式の)ウェブサイトはありますか(例えば、topos)?",
         "nl": "Is er een (onofficiële) website met meer informatie (b.v. met topos)?",
@@ -415,7 +415,7 @@
             "charge="
           ],
           "then": {
-            "en": "It's free to climb here",
+            "en": "Climbing here is free of charge",
             "de": "Das Klettern ist hier kostenlos",
             "es": "La escalada es gratis",
             "nl": "Hier klimmen is gratis",

@@ -75,8 +75,7 @@
         "fr": "Une société de location de véhicules",
         "ca": "un lloguer de cotxes",
         "pl": "wypożyczalnia samochodów",
-        "cs": "půjčovna aut",
-        "hu": "autókölcsönző"
+        "cs": "půjčovna aut"
       },
       "description": {
         "en": "A place where you can rent a car",
@@ -116,8 +115,7 @@
         "fr": "Quel est le nom de cette société de location de véhicules ?",
         "ca": "Com es diu aquest lloguer de cotxes?",
         "pl": "Jaka jest nazwa tej wypożyczalni samochodów?",
-        "cs": "Jak se jmenuje tato půjčovna aut?",
-        "hu": "Mi a neve ennek az autókölcsönzőnek?"
+        "cs": "Jak se jmenuje tato půjčovna aut?"
       },
       "mappings": [
         {

@@ -68,8 +68,7 @@
       "title": {
         "en": "a police office",
         "de": "eine Polizeiwache",
-        "ca": "una comissaria",
-        "hu": "rendőrség"
+        "ca": "una comissaria"
       },
       "description": {
         "en": "A police office where the general public can enter for inquiries",
@@ -83,8 +82,7 @@
       ],
       "title": {
         "en": "a police checkpoint",
-        "de": "eine Polizeikontrolle",
-        "hu": "rendőrségi ellenőrzőpont"
+        "de": "eine Polizeikontrolle"
       },
       "description": {
         "en": "A place where police performs checks on travelling people",
@@ -97,8 +95,7 @@
       ],
       "title": {
         "en": "an administrative, police backoffice",
-        "de": "ein Verwaltungsbüro der Polizei",
-        "hu": "igazgatási célú rendőrségi iroda"
+        "de": "ein Verwaltungsbüro der Polizei"
       },
       "description": {
         "en": "An administrative police office without services for the general public.",
@@ -132,14 +129,12 @@
     {
       "question": {
         "en": "What is the name of this police facility?",
-        "de": "Wie lautet der Name der Polizeieinrichtung?",
-        "hu": "Mi a neve ennek a rendőrségi létesítménynek?"
+        "de": "Wie lautet der Name der Polizeieinrichtung?"
       },
       "id": "police_name",
       "render": {
         "en": "<b>{name}</b>",
-        "de": "<b>{name}</b>",
-        "hu": "<b>{name}</b>"
+        "de": "<b>{name}</b>"
       },
       "freeform": {
         "key": "name"

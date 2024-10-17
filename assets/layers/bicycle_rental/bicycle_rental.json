@@ -112,8 +112,7 @@
         "cs": "půjčovna jízdních kol",
         "ca": "una botiga de lloguer de bicicletes",
         "pt_BR": "uma loja de aluguel de bicicletas",
-        "pt": "uma loja de aluguel de bicicletas",
-        "hu": "kerékpárkölcsönző üzlet"
+        "pt": "uma loja de aluguel de bicicletas"
       },
       "tags": [
         "amenity=bicycle_rental",
@@ -143,8 +142,7 @@
         "cs": "půjčovna kol",
         "ca": "un lloguer de bicicletes",
         "pt_BR": "um aluguel de bicicletas",
-        "pt": "um aluguel de bicicletas",
-        "hu": "kerékpárkölcsönző"
+        "pt": "um aluguel de bicicletas"
       },
       "tags": [
         "amenity=bicycle_rental"
@@ -248,10 +246,10 @@
             "service:bicycle:rental="
           ],
           "then": {
-            "en": "A machine is present which dispenses and accepts keys after authentication and/or payment. The bicycles are parked nearby",
+            "en": "A machine is present which dispenses and accepts keys, eventually after authentication and/or payment. The bicycles are parked nearby",
             "nl": "Hier is een machine die fietssleutels verdeelt en terugneemt, eventueel na aanmelden of betaling. De fietsen staan in de buurt geparkeerd",
             "hu": "Ez egy leadási pont: ennek a kerékpárkölcsönzőnek a kijelölt kerékpártárolója",
-            "de": "Dies ist ein Automat, der Schlüssel nach Authentifizierung und/oder Bezahlung ausgibt und annimmt. Die Fahrräder sind in der Nähe geparkt",
+            "de": "Dies ist ein Automat, der Schlüssel ausgibt und annimmt, eventuell nach Authentifizierung und/oder Bezahlung. Die Fahrräder sind in der Nähe geparkt",
             "es": "Una máquina que dispensa y acepta llaves, eventualmente después de la autenticación y/o el pago está presente. Las bicicletas están aparcadas cerca",
             "fr": "Il y a un distributeur qui distribue et accepte les clés, éventuellement après identification et/ou payement. Les vélos sont stationnés à proximité",
             "da": "Der er en maskine til stede, som udleverer og modtager nøgler, eventuelt efter autentificering og/eller betaling. Cyklerne er parkeret i nærheden",
@@ -393,7 +391,7 @@
         {
           "if": "rental=mtb",
           "then": {
-            "en": "Mountain bikes can be rented here",
+            "en": "Mountainbikes can be rented here",
             "nl": "Mountainbikes kunnen hier gehuurd worden",
             "de": "Mountainbikes können ausgeliehen werden",
             "es": "Aquí se pueden alquilar bicis de montaña",
@@ -409,7 +407,7 @@
         {
           "if": "rental=kid_bike",
           "then": {
-            "en": "Children's bikes can be rented here",
+            "en": "Bikes for children can be rented here",
             "nl": "Kinderfietsen kunnen hier gehuurd worden",
             "de": "Kinderfahrräder können ausgeliehen werden",
             "es": "Aquí se pueden alquilar bicis infantiles",
@@ -528,7 +526,7 @@
           [
             "kid_bike",
             {
-              "en": "Children's bikes",
+              "en": "bikes for children",
               "nl": "kinderfietsen",
               "de": "Kinderfahrräder",
               "es": "bicis infantiles",
@@ -562,7 +560,7 @@
           [
             "mtb",
             {
-              "en": "mountain bikes",
+              "en": "mountainbikes",
               "nl": "mountainbikes",
               "ca": "bicicletas de muntanya",
               "de": "Mountainbikes",
@@ -687,7 +685,7 @@
           ]
         },
         "then": {
-          "en": "This bicycle shop used to rent out bikes, but no longer does",
+          "en": "This bicycle shop used to rent out bikes but doesn't rent out bikes anymore",
           "nl": "Deze fietszaak verhuurde vroeger fietsen, maar nu niet meer",
           "fr": "Ce magasin de vélo louait des vélos, mais n'en loue plus maintenant",
           "de": "Dieser Fahrradladen vermietete früher Fahrräder, aber jetzt nicht mehr",

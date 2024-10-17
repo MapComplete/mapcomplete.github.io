@@ -35,8 +35,7 @@
     {
       "title": {
         "en": "a route marker",
-        "de": "ein Routenmarker",
-        "hu": "turistaútjelzés"
+        "de": "ein Routenmarker"
       },
       "tags": [
         "tourism=information",

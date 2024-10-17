@@ -23,7 +23,7 @@
     "cs": "Kola duchů"
   },
   "description": {
-    "en": "A layer showing memorials for cyclists killed in road accidents",
+    "en": "A layer showing memorials for cyclists, killed in road accidents",
     "nl": "Een laag die herdenkingsplaatsen voor verongelukte fietsers toont",
     "de": "Eine Ebene mit Gedenkstätten für Radfahrer, die bei Verkehrsunfällen ums Leben gekommen sind",
     "fr": "Une couche affichant les mémoriaux en l'hommage de cyclistes tuées lors d'accidents de la route",
@@ -113,7 +113,7 @@
         "es": "una bicicleta blanca",
         "fi": "Haamupyörä",
         "gl": "Bicicleta pantasma",
-        "hu": "szellemkerékpár",
+        "hu": "Emlékkerékpár",
         "ja": "ゴーストバイク",
         "nb_NO": "en spøkelsessykler",
         "pl": "Duch roweru",
@@ -151,8 +151,7 @@
         "it": "A chi è dedicata questa bici fantasma?",
         "fr": "À qui est dédié ce vélo fantôme ?",
         "ca": "A qui recorda aquesta bicicleta fantasma?",
-        "cs": "Na koho vzpomíná toto kolo duchů?",
-        "hu": "Mi a neve ennek a szellemkerékpárnak?"
+        "cs": "Na koho vzpomíná toto kolo duchů?"
       },
       "render": {
         "en": "In remembrance of {subject}",

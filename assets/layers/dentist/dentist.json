@@ -72,8 +72,7 @@
         "nl": "een tandartspraktijk",
         "fr": "un cabinet de dentistes",
         "ca": "una clínica dental",
-        "cs": "zubní ordinace",
-        "hu": "fogorvosi rendelő"
+        "cs": "zubní ordinace"
       },
       "tags": [
         "amenity=dentist"
@@ -93,8 +92,7 @@
         "nl": "Hoe heet deze tandarts?",
         "ca": "Com s'anomena aquest dentista?",
         "pl": "Jaka jest nazwa tego gabinetu dentystycznego?",
-        "cs": "Jak se jmenuje tento zubař?",
-        "hu": "Mi a neve ennek a fogorvosnak?"
+        "cs": "Jak se jmenuje tento zubař?"
       },
       "render": {
         "en": "This dentist is called {name}",

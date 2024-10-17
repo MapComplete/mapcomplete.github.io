@@ -59,8 +59,7 @@
         "de": "ein Büro der öffentlichen Verwaltung",
         "nl": "een overheidsdienst",
         "ca": "una oficina Governamental",
-        "cs": "vládní úřad",
-        "hu": "kormányzati hivatal"
+        "cs": "vládní úřad"
       },
       "tags": [
         "office=government"
@@ -78,8 +77,7 @@
         "de": "Wie lautet der Name dieser Behörde?",
         "nl": "Wat is de naam van deze overheidsdienst?",
         "ca": "Quin és el nom d'aquesta oficina gornavental?",
-        "cs": "Jak se jmenuje tento úřad vlády?",
-        "hu": "Mi a neve ennek a hivatalnak?"
+        "cs": "Jak se jmenuje tento úřad vlády?"
       },
       "render": {
         "en": "This Governmental Office is called {name}",

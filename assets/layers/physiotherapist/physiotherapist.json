@@ -58,8 +58,7 @@
         "nl": "een fysiotherapeutenpraktijk",
         "fr": "un cabinet de kinésithérapeutes",
         "ca": "una consulta fisioterapèutica",
-        "cs": "ordinace fyzioterapeuta",
-        "hu": "gyógytornászrendelő"
+        "cs": "ordinace fyzioterapeuta"
       },
       "tags": [
         "healthcare=physiotherapist"
@@ -74,8 +73,7 @@
         "nl": "Wat is de naam van deze kinesistenpraktijk?",
         "de": "Wie heißt die Praxis des Physiotherapeuten?",
         "ca": "Quin és el nom d'aquesta consulta fisioterapèutica?",
-        "cs": "Jak se jmenuje ordinace fyzioterapeuta?",
-        "hu": "Mi a neve ennek a gyógytornász-rendelőnek?"
+        "cs": "Jak se jmenuje ordinace fyzioterapeuta?"
       },
       "render": {
         "en": "This physiotherapists office is called {name}",

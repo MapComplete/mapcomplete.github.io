@@ -199,7 +199,7 @@
         {
           "if": "access=key",
           "then": {
-            "en": "A <b>key</b> must be requested to access this charging station<br/><span class='subtle'>E.g. a charging station operated by hotel which is only usable by their guests, who receive a key from the reception to unlock the charging station</span>",
+            "en": "A <b>key</b> must be requested to access this charging station<br/><span class='subtle'>E.g. a charging station operated by hotel which is only usable by their guests, which receive a key from the reception to unlock the charging station</span>",
             "nl": "Een <b>sleutel</b> is nodig om dit oplaadpunt te gebruiken<br/><span class='subtle'>Bv. voor klanten van een hotel of een bar, die de sleutel aan de receptie kunnen krijgen</span>",
             "ca": "S'ha de sol·licitar una <b>clau</b> per a utilitzar aquest punt de càrrega<br/><span class='subtle'>p.e un punt de càrrega operat per un hotel nomes utilitzable pel seus hostes, els quals reben una clau des de recepció per a desbloquejar el punt de càrrega</span>",
             "de": "Für den Zugang zur Station muss ein <b>Schlüssel</b> angefordert werden<br/><span class='subtle'>z.B. eine von einem Hotel betriebene Ladestation, die nur von dessen Gästen genutzt werden kann, die an der Rezeption einen Schlüssel erhalten, um die Ladestation aufzuschließen</span>"
@@ -235,7 +235,7 @@
         "pl": "{capacity} pojazdów może być tutaj ładowanych jednocześnie"
       },
       "question": {
-        "en": "How many vehicles can be charged here at the same time?",
+        "en": "How much vehicles can be charged here at the same time?",
         "nl": "Hoeveel voertuigen kunnen hier opgeladen worden?",
         "ca": "Quants vehicles poden carregar a la vegada?",
         "de": "Wie viele Fahrzeuge können hier gleichzeitig laden?",
@@ -2017,7 +2017,7 @@
         {
           "id": "plugs-amount-{{id}}",
           "question": {
-            "en": "How many plugs of type {{description}} are available here?",
+            "en": "How much plugs of type {{description}} are available here?",
             "nl": "Hoeveel stekkers van type {{description}} heeft dit oplaadpunt?",
             "ca": "Quants connectors del tipus {{description}} hi han disponibles aquí?",
             "cs": "Kolik zástrček typu {{description}} je k dispozici?",
@@ -2151,7 +2151,7 @@
       "builtin": "opening_hours_24_7",
       "override": {
         "question": {
-          "en": "When is this charging station open?",
+          "en": "When is this charging station opened?",
           "nl": "Wanneer is dit oplaadpunt beschikbaar??",
           "ca": "Quan està oberta aquesta estació de càrrega?",
           "de": "Wann ist die Ladestation geöffnet?",
@@ -2225,7 +2225,7 @@
           },
           "then": {
             "nl": "Betalend te gebruiken, maar gratis voor klanten van het bijhorende hotel/café/ziekenhuis/...",
-            "en": "Paid use, but free for customers of the hotel/pub/hospital/... which operates the charging station",
+            "en": "Paid use, but free for customers of the hotel/pub/hospital/... who operates the charging station",
             "ca": "De pagament, però gratuït per als clients de l'hotel/bar/hospital/... que gestiona l'estació de càrrega",
             "de": "Die Nutzung ist kostenpflichtig, aber für Kunden des Betreibers der Einrichtung, wie Hotel, Krankenhaus, ... kostenlos"
           }
@@ -2249,7 +2249,7 @@
     {
       "id": "charge",
       "question": {
-        "en": "How much do you have to pay to use this charging station?",
+        "en": "How much does one have to pay to use this charging station?",
         "nl": "Hoeveel moet men betalen om dit oplaadpunt te gebruiken?",
         "ca": "Quant cal pagar per utilitzar aquesta estació de càrrega?",
         "de": "Wie viel muss man für die Nutzung dieser Ladestation bezahlen?"
@@ -2292,7 +2292,7 @@
           "if": "authentication:membership_card=yes",
           "ifnot": "authentication:membership_card=no",
           "then": {
-            "en": "Authentication with a membership card",
+            "en": "Authentication by a membership card",
             "nl": "Aanmelden met een lidkaart is mogelijk",
             "ca": "Autenticació mitjançant una targeta de soci",
             "de": "Authentifizierung durch eine Mitgliedskarte",
@@ -2303,7 +2303,7 @@
           "if": "authentication:app=yes",
           "ifnot": "authentication:app=no",
           "then": {
-            "en": "Authentication with an app",
+            "en": "Authentication by an app",
             "nl": "Aanmelden via een applicatie is mogelijk",
             "ca": "Autenticació mitjançant una aplicació",
             "de": "Authentifizierung per App",
@@ -2324,9 +2324,9 @@
           "if": "authentication:short_message=yes",
           "ifnot": "authentication:short_message=no",
           "then": {
-            "en": "Authentication via text message is available",
+            "en": "Authentication via SMS is available",
             "nl": "Aanmelden via SMS is mogelijk",
-            "de": "Authentifizierung per SMS",
+            "de": "Authentifizierung per SMS ist möglich",
             "fr": "Authentification possible par SMS"
           }
         },
@@ -2381,16 +2381,16 @@
     {
       "id": "Auth phone",
       "render": {
-        "en": "Authenticate by calling or texting <a href='tel:{authentication:phone_call:number}'>{authentication:phone_call:number}</a>",
+        "en": "Authenticate by calling or SMS'ing to <a href='tel:{authentication:phone_call:number}'>{authentication:phone_call:number}</a>",
         "nl": "Aanmelden door te bellen of te SMS'en naar <a href='tel:{authentication:phone_call:number}'>{authentication:phone_call:number}</a>",
         "ca": "Autentiqueu-vos trucant o enviant SMS a <a href='tel:{authentication:phone_call:number}'>{authentication:phone_call:number}</a>",
-        "de": "Authentifizierung per Anruf oder SMS an <a href='tel:{authentication:phone_call:number}'>{authentication:phone_call:number}</a>"
+        "de": "Authentifiziere dich, indem du anrufst oder eine SMS sendest an <a href='tel:{authentication:phone_call:number}'>{authentication:phone_call:number}</a>"
       },
       "question": {
-        "en": "What phone number should you contact to authenticate (call or text)?",
+        "en": "What's the phone number for authentication call or SMS?",
         "nl": "Wat is het telefoonnummer dat men moet bellen of SMS'en om zich aan te melden?",
         "ca": "Quin és el número de telèfon per a la trucada d'autenticació o SMS?",
-        "de": "An welche Telefonnummer kann man sich wenden, um sich zu authentifizieren (Anruf oder SMS)?"
+        "de": "Wie lautet die Telefonnummer für den Authentifizierungsanruf oder die SMS?"
       },
       "freeform": {
         "key": "authentication:phone_call:number",
@@ -2406,7 +2406,7 @@
     {
       "id": "maxstay",
       "question": {
-        "en": "What is the maximum amount of time you are allowed to stay here?",
+        "en": "What is the maximum amount of time one is allowed to stay here?",
         "nl": "Hoelang mag een voertuig hier blijven staan?",
         "ca": "Quina és la quantitat màxima de temps que es permet permaneixer aquí?",
         "de": "Wie lange darf man hier maximal parken?"
@@ -2425,7 +2425,7 @@
         {
           "if": "maxstay=unlimited",
           "then": {
-            "en": "No time limit on leaving your vehicle here",
+            "en": "No timelimit on leaving your vehicle here",
             "nl": "Geen maximum parkeertijd",
             "ca": "No hi ha límit de temps per a deixar el teu vehicle aquí",
             "de": "Keine Höchstparkdauer"
@@ -2559,7 +2559,7 @@
     {
       "id": "phone",
       "question": {
-        "en": "What number can you call if there is a problem with this charging station?",
+        "en": "What number can one call if there is a problem with this charging station?",
         "nl": "Wat is het telefoonnummer van de beheerder van dit oplaadpunt?",
         "ca": "A quin número es pot cridar si hi ha algun problema amb aquest punt de càrrega?",
         "de": "Welche Nummer kann man anrufen, wenn es ein Problem mit dieser Ladestation gibt?",
@@ -2738,10 +2738,10 @@
     {
       "id": "Parking:fee",
       "question": {
-        "en": "Do you have to pay a parking fee while charging?",
+        "en": "Does one have to pay a parking fee while charging?",
         "nl": "Moet men parkeergeld betalen tijdens het opladen?",
         "ca": "Cal pagar una taxa d'aparcament mentre es carrega?",
-        "de": "Ist während des Ladens eine Parkgebühr zu bezahlen?"
+        "de": "Muss man während des Ladens eine Parkgebühr bezahlen?"
       },
       "mappings": [
         {
@@ -2870,8 +2870,7 @@
       "title": {
         "en": "charging station for electrical bikes",
         "nl": "oplaadpunt voor elektrische fietsen",
-        "de": "Ladestation für Elektrofahrräder",
-        "hu": "e-kerékpár-töltő"
+        "de": "Ladestation für Elektrofahrräder"
       }
     },
     {
@@ -2884,8 +2883,7 @@
         "en": "charging station for cars",
         "nl": "oplaadstation voor elektrische auto's",
         "ca": "estació de càrrega per a cotxes",
-        "de": "Ladestation für Autos",
-        "hu": "gépkocsitöltő"
+        "de": "Ladestation für Autos"
       }
     }
   ],

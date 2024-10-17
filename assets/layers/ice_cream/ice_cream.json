@@ -66,8 +66,7 @@
         "en": "an ice cream parlor",
         "de": "eine Eisdiele",
         "fr": "un glacier",
-        "nl": "een ijssalon",
-        "hu": "fagylaltos bódé"
+        "nl": "een ijssalon"
       },
       "tags": [
         "amenity=ice_cream"
@@ -95,8 +94,7 @@
       "render": {
         "en": "This ice cream parlor is named <b>{name}</b>",
         "nl": "Dit ijssalon heet <b>{name}</b>",
-        "de": "Diese Eisdiele heißt <b>{name}</b>",
-        "hu": "A fagylaltozó neve: <b>{name}</b>"
+        "de": "Diese Eisdiele heißt <b>{name}</b>"
       }
     },
     "opening_hours",

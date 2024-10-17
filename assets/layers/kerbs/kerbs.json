@@ -87,8 +87,7 @@
         "ru": "бордюр",
         "pl": "krawężnik",
         "ca": "una vorada",
-        "cs": "obrubník",
-        "hu": "járdaszegély"
+        "cs": "obrubník"
       },
       "tags": [
         "barrier=kerb"

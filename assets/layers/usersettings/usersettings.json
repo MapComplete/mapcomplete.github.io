@@ -30,8 +30,7 @@
       "fi": "Asetukset",
       "zh_Hant": "設定",
       "sl": "Nastavitve",
-      "ru": "Настройки",
-      "uk": "Налаштування"
+      "ru": "Настройки"
     }
   },
   "pointRendering": null,
@@ -180,8 +179,7 @@
             "nl": "Je hebt {_csCount} verschillende keren bijgedragen! Dat is indrukwekkend!",
             "da": "Du har lavet ændringer ved {_csCount} forskellige begivenheder! Det er fantastisk!",
             "es": "Has hecho cambios en {_csCount} ocasiones diferentes. ¡Es alucinante!",
-            "cs": "Změny jste provedli při {_csCount} různých příležitostech! To je úžasné!",
-            "uk": "Ви вносили зміни {_csCount} разів! Це чудово!"
+            "cs": "Změny jste provedli při {_csCount} různých příležitostech! To je úžasné!"
           },
           "icon": "party"
         }
@@ -390,13 +388,11 @@
         "cs": "Jaká vrstva pozadí by se měla zobrazovat ve výchozím nastavení?",
         "nl": "Welke achtergrondlaag moet altijd gebruikt worden?",
         "fr": "Quel fond souhaitez-vous utiliser par défaut ?",
-        "da": "Hvilket baggrundslag skal vises som standard?",
-        "uk": "Який фоновий шар показувати за замовчуванням?"
+        "da": "Hvilket baggrundslag skal vises som standard?"
       },
       "questionHint": {
         "en": "To set a specific background as default, select it in the background menu first after which it will appear here.",
-        "de": "Um einen bestimmten Hintergrund als Standard festzulegen, wähle ihn zuerst im Hintergrundmenü aus, danach wird er hier angezeigt.",
-        "uk": "Щоб встановити певний фон за замовчуванням, спочатку виберіть його в меню фону, після чого він з'явиться тут."
+        "de": "Um einen bestimmten Hintergrund als Standard festzulegen, wähle ihn zuerst im Hintergrundmenü aus, danach wird er hier angezeigt."
       },
       "condition": "_theme:backgroundLayer=",
       "mappings": [
@@ -501,16 +497,14 @@
         "en": "Should a crosshair be shown in the center of the display?",
         "cs": "Měl by se uprostřed displeje zobrazovat kříž?",
         "de": "Soll ein Fadenkreuz in der Mitte des Bildschirms angezeigt werden?",
-        "nl": "Moet er een kruisje getoond worden in het centrum van je display?",
-        "uk": "Чи потрібно показувати перехрестя в центрі дисплея?"
+        "nl": "Moet er een kruisje getoond worden in het centrum van je display?"
       },
       "questionHint": {
         "en": "This can help to accurately position a new element",
         "cs": "To může pomoci přesněji umístit nový prvek",
         "de": "Dies kann dazu beitragen, ein neues Element genau zu positionieren",
         "nl": "Dit kan helpen om nieuwe elementen accuraat te plaatsen",
-        "ca": "Això pot ajudar a posicionar amb precisió un nou element",
-        "uk": "Це може допомогти точно позиціонувати новий об'єкт"
+        "ca": "Això pot ajudar a posicionar amb precisió un nou element"
       },
       "mappings": [
         {
@@ -540,8 +534,7 @@
         "ca": "El nord hauria d'estar sempre amunt?",
         "cs": "Měl by být sever vždy nahoře?",
         "nl": "Moet het noorden altijd naar boven getoond worden?",
-        "da": "Skal nord altid pege opad?",
-        "uk": "Чи завжди північ має бути вгорі?"
+        "da": "Skal nord altid pege opad?"
       },
       "mappings": [
         {
@@ -555,8 +548,7 @@
             "fr": "Autoriser la rotation de la carte",
             "da": "Tillad rotation af kortet",
             "cs": "Umožnit otáčení mapy",
-            "nl": "Sta kaartrotatie toe",
-            "uk": "Дозволити обертати карту"
+            "nl": "Sta kaartrotatie toe"
           }
         },
         {
@@ -569,8 +561,7 @@
             "ca": "Mantingueu sempre el nord apuntant cap amunt",
             "cs": "Sever vždy směřujte nahoru",
             "nl": "Hou het noorden altijd naar boven",
-            "da": "Nord peger altid opad",
-            "uk": "Завжди тримати північ угорі"
+            "da": "Nord peger altid opad"
           }
         }
       ]
@@ -581,8 +572,7 @@
         "en": "Should a scale bar be shown on the map?",
         "nl": "Moet er een schaalbalk weergegeven worden?",
         "de": "Kartenmaßstab anzeigen?",
-        "cs": "Má být na mapě zobrazeno měřítko?",
-        "uk": "Чи потрібно показувати масштабну лінійку на карті?"
+        "cs": "Má být na mapě zobrazeno měřítko?"
       },
       "mappings": [
         {
@@ -590,8 +580,7 @@
           "then": {
             "en": "Show the scalebar",
             "nl": "Toon de schaalbalk",
-            "de": "Maßstab anzeigen",
-            "uk": "Показати масштабну лінійку"
+            "de": "Maßstab anzeigen"
           }
         },
         {
@@ -601,8 +590,7 @@
             "en": "Hide the scalebar",
             "nl": "Verberg de schaalbalk",
             "de": "Maßstab ausblenden",
-            "cs": "Skrytí panelu měřítka",
-            "uk": "Приховати лінійку масштабу"
+            "cs": "Skrytí panelu měřítka"
           }
         }
       ]
@@ -612,8 +600,7 @@
       "render": {
         "en": "<h3>Editing settings</h3>",
         "de": "<h3> Einstellungen bearbeiten</h3>",
-        "cs": "<h3>Úprava nastavení</h3>",
-        "uk": "<h3>Редагування налаштувань</h3>"
+        "cs": "<h3>Úprava nastavení</h3>"
       }
     },
     {
@@ -668,8 +655,7 @@
         "fr": "Afficher les attributs OpenStreetMap bruts ?",
         "ca": "Mostra les etiquetes d'OpenStreetMap en brut?",
         "cs": "Zobrazit nezpracované/raw tagy OpenStreetMap?",
-        "nl": "Moeten de data-attributen getoond worden?",
-        "uk": "Показувати необроблені OpenStreetMap-теги?"
+        "nl": "Moeten de data-attributen getoond worden?"
       },
       "questionHint": {
         "en": "<b>Tags</b> are attributes that every element has. This is the technical data that is stored in the database. You don't need this information to edit with MapComplete, but advanced users might want to use this as reference.",
@@ -677,8 +663,7 @@
         "ca": "Les <b>etiquetes</b> són atributs que té cada element. Aquestes són les dades tècniques que s'emmagatzemen a la base de dades. No necessiteu aquesta informació per editar amb MapComplete, però és possible que els usuaris avançats la vulguin fer servir com a referència.",
         "cs": "<b>Tagy</b> jsou atributy, které má každý element. Jedná se o technické údaje, které jsou uloženy v databázi. K úpravám pomocí MapComplete tyto informace nepotřebujete, ale pokročilí uživatelé by je mohli chtít použít jako referenci.",
         "nl": "<b>Data-attributen</b> zijn stukjes data die elk element in OpenStreetMap heeft. Dit is technische data die in de databank komt. Je hoeft deze informatie niet te kennen om aanpassingen te maken met MapComplete, maar geavanceerde gebruikers kunnen dit als referentie gebruiken.",
-        "fr": "Les<b>Tags</b> ou étiquettes sont des attributs rattachés à chaque élément. C'est une donnée technique qui est stockée dans une base de données. Vous n'avez pas besoin de connaître ces étiquettes pour utiliser MapComplete, mais certains utilisateurs préfèrent les afficher.",
-        "uk": "<b>Теги</b> – це атрибути, які має кожен об'єкт. Це технічні дані, які зберігаються в базі даних. Вам не потрібна ця інформація для редагування за допомогою MapComplete, але досвідчені користувачі можуть використовувати її як довідку."
+        "fr": "Les<b>Tags</b> ou étiquettes sont des attributs rattachés à chaque élément. C'est une donnée technique qui est stockée dans une base de données. Vous n'avez pas besoin de connaître ces étiquettes pour utiliser MapComplete, mais certains utilisateurs préfèrent les afficher."
       },
       "mappings": [
         {
@@ -689,8 +674,7 @@
             "ca": "No mostris mai les etiquetes.",
             "cs": "Nikdy nezobrazovat tagy.",
             "nl": "Verberg data-attributen",
-            "fr": "Ne jamais voir les étiquettes.",
-            "uk": "Ніколи не показувати теги."
+            "fr": "Ne jamais voir les étiquettes."
           }
         },
         {
@@ -701,8 +685,7 @@
             "ca": "Mostra les etiquetes que s'aplicaran un cop hagi fet {__userjourney_tagsVisibleAt} conjunts de canvis",
             "cs": "Zobrazit tagy, které budou použity, jakmile provedu {__userjourney_tagsVisibleAt} sady změn",
             "nl": "Toon data-attributen bij wijzigingen indien je meer dan {__userjourney_tagsVisibleAt} changesets hebt gemaakt",
-            "fr": "Voir les étiquettes au bout de  {__userjourney_tagsVisibleAt} modifications",
-            "uk": "Показати теги, які будуть застосовані після того, як я зроблю {__userjourney_tagsVisibleAt} пакет правок"
+            "fr": "Voir les étiquettes au bout de  {__userjourney_tagsVisibleAt} modifications"
           }
         },
         {
@@ -713,8 +696,7 @@
             "ca": "Mostra les etiquetes que s'aplicaran en fer un canvi",
             "cs": "Zobrazení tagů, které budou použity při provádění změny",
             "nl": "Toon de data-attributen die toegepast zullen worden bij wijzigingen",
-            "fr": "Voir les étiquettes quand je fais une modification",
-            "uk": "Показати теги, які будуть застосовані при внесенні змін"
+            "fr": "Voir les étiquettes quand je fais une modification"
           }
         },
         {
@@ -725,8 +707,7 @@
             "ca": "Mostra les etiquetes que s'aplicaran a l'hora de fer un canvi i mostra la taula d'etiquetes a cada element",
             "cs": "Zobrazení tagů, které se použijí při provádění změny, a zobrazení tabulky tagů u každé funkce",
             "nl": "Toon de data-attributen die toegepast zullen worden bij wijzigingen en toon een tabel met alle data-attributen bij elk object.",
-            "fr": "Voir les étiquettes quand je fais une modification et toujours voir les étiquettes pour chaque élément",
-            "uk": "Показати теги, які будуть застосовані при внесенні змін, і показати таблицю тегів для кожного об'єкта"
+            "fr": "Voir les étiquettes quand je fais une modification et toujours voir les étiquettes pour chaque élément"
           }
         }
       ]
@@ -788,8 +769,7 @@
       "render": {
         "en": "<h3>Privacy and legal</h3>",
         "de": "<h3>Datenschutz und Rechtliches</h3>",
-        "cs": "<h3>Soukromí a právní záležitosti</h3>",
-        "uk": "<h3>Приватність і законність</h3>"
+        "cs": "<h3>Soukromí a právní záležitosti</h3>"
       }
     },
     {
@@ -810,14 +790,12 @@
       "question": {
         "en": "When making changes, should a rough indication be given how far away you were from the object?",
         "de": "Sollte bei Änderungen eine grobe Angabe gemacht werden, wie weit du vom Objekt entfernt warst?",
-        "nl": "Mag er opgeslaan worden hoever je je van een object bevindt wanneer je aanpassingen maakt aan dit object?",
-        "uk": "Вносячи зміни, чи потрібно приблизно вказувати, як далеко ви знаходилися від об'єкта?"
+        "nl": "Mag er opgeslaan worden hoever je je van een object bevindt wanneer je aanpassingen maakt aan dit object?"
       },
       "questionHint": {
         "en": "If you make a change to one or more objects and you enabled your location, a rough indication of where you made will be saved: it is indicated if you were closer then 25m, 500m, 5km or further away then 5km. This helps mappers understand your context when making changes, but gives an indication of where you were at this time. ",
         "de": "Wenn du eine Änderung an einem oder mehreren Objekten vornimmst und deinen Standort aktivierst, wird eine ungefähre Angabe darüber gespeichert, wo du dich befunden hast: Es wird angezeigt, ob du näher als 25m, 500m, 5km oder weiter als 5km entfernt warst. Das hilft den Kartierern, deinen Kontext zu verstehen, wenn du Änderungen vornimmst, gibt aber auch einen Hinweis darauf, wo du zu diesem Zeitpunkt warst. ",
-        "nl": "Wanneer je een wijziging maakt aan één of meer interessepunten en als MapComplete toont waar je bent, dan kan opgeslaan worden hoever je je ongeveer van deze objecten bevindt. Er wordt aangeduid of je dichter dan 25m, 500m, 5km of verder dan 5km was. Dit helpt om andere bijdragers te begrijpen hoe je je bijdragen deed, maar geeft natuurlijk ook aan waar je op dat moment was. ",
-        "uk": "Якщо ви вносите зміни до одного або декількох об'єктів і ввімкнули функцію визначення вашого місцезнаходження, буде збережено приблизну інформацію про те, де ви перебували: чи були ви ближче 25 м, 500 м, 5 км або далі 5 км від об'єкта. Це допомагає картографам зрозуміти ваш контекст при внесенні змін, але дає уявлення про те, де ви були в цей час. "
+        "nl": "Wanneer je een wijziging maakt aan één of meer interessepunten en als MapComplete toont waar je bent, dan kan opgeslaan worden hoever je je ongeveer van deze objecten bevindt. Er wordt aangeduid of je dichter dan 25m, 500m, 5km of verder dan 5km was. Dit helpt om andere bijdragers te begrijpen hoe je je bijdragen deed, maar geeft natuurlijk ook aan waar je op dat moment was. "
       },
       "mappings": [
         {
@@ -827,8 +805,7 @@
             "en": "When making changes to OpenStreetMap, do not indicate how far away you were from the changed objects.",
             "de": "Wenn du Änderungen an OpenStreetMap vornimmst, gibst du nicht an, wie weit du von den geänderten Objekten entfernt warst.",
             "nl": "Geef niet aan hoever je je van de gewijzigde objecten bevindt wanneer je wijzigingen maakt met MapComplete.",
-            "cs": "Při provádění změn v OpenStreetMap neuvádějte, jak daleko jste byli od změněných objektů.",
-            "uk": "Вносячи зміни до OpenStreetMap, не вказуйте, як далеко ви знаходилися від змінених об'єктів."
+            "cs": "Při provádění změn v OpenStreetMap neuvádějte, jak daleko jste byli od změněných objektů."
           }
         },
         {
@@ -838,8 +815,7 @@
             "en": "When making changes to OpenStreetMap, roughly indicate how far away you were from the changed objects. This helps other contributors to understand how you made the change",
             "de": "Gebe bei Änderungen an OpenStreetMap an, wie weit du ungefähr von den geänderten Objekten entfernt warst. Das hilft anderen Mitwirkenden zu verstehen, wie du die Änderung vorgenommen hast",
             "nl": "Geef aan hoever je je ongeveer bevindt ten opzichte van objecten die je wijzigt in OpenStreetMap. Dit helpt andere bijdagers te begrijpen welke wijzigingen je waarom maakt.",
-            "cs": "Při provádění změn v OpenStreetMap zhruba uveďte, jak daleko jste byli od změněných objektů. To pomůže ostatním přispěvatelům pochopit, jak jste změnu provedli",
-            "uk": "Вносячи зміни до OpenStreetMap, приблизно вказуйте, як далеко ви знаходилися від змінених об'єктів. Це допоможе іншим учасникам зрозуміти, як ви внесли зміни"
+            "cs": "Při provádění změn v OpenStreetMap zhruba uveďte, jak daleko jste byli od změněných objektů. To pomůže ostatním přispěvatelům pochopit, jak jste změnu provedli"
           }
         }
       ]
@@ -848,13 +824,11 @@
       "id": "sync-visited-themes",
       "question": {
         "en": "Should the thematic maps you visit be saved?",
-        "de": "Sollen besuchte Themenkarten gespeichert werden?",
-        "uk": "Чи потрібно зберігати тематичні карти, які ви відвідуєте?"
+        "de": "Sollen besuchte Themenkarten gespeichert werden?"
       },
       "questionHint": {
         "en": "If you visit a map about a certain topic, MapComplete can remember this and offer this as suggestion.",
-        "de": "Besuchte Themenkarten, können von MapComplete gespeichert und als Vorschlag angeboten werden.",
-        "uk": "Якщо ви відвідуєте мапу на певну тему, MapComplete може запам'ятати це і запропонувати її як підказку."
+        "de": "Besuchte Themenkarten, können von MapComplete gespeichert und als Vorschlag angeboten werden."
       },
       "mappings": [
         {
@@ -863,24 +837,21 @@
           "then": {
             "en": "Save the visited thematic maps and sync them via openstreetmap.org. OpenStreetMap and all apps you use can see this history",
             "de": "Besuchte Themenkarten speichern und über opentreetmap.org synchronisieren. OpenStreetMap und alle verwendeten Programme können diesen Verlauf sehen",
-            "cs": "Uložit navštívené tematické mapy a synchronizovat je prostřednictvím openstreetmap.org. OpenStreetMap a všechny aplikace, které používáte, mohou tuto historii vidět",
-            "uk": "Зберігайте відвідані тематичні карти та синхронізуйте їх через openstreetmap.org. OpenStreetMap та всі програми, якими ви користуєтесь, можуть бачити цю історію"
+            "cs": "Uložit navštívené tematické mapy a synchronizovat je prostřednictvím openstreetmap.org. OpenStreetMap a všechny aplikace, které používáte, mohou tuto historii vidět"
           }
         },
         {
           "if": "mapcomplete-preference-theme-history=local",
           "then": {
             "en": "Save the visited thematic maps on my device",
-            "de": "Besuchte Themenkarten auf meinem Gerät speichern",
-            "uk": "Зберегти відвідані тематичні карти на моєму пристрої"
+            "de": "Besuchte Themenkarten auf meinem Gerät speichern"
           }
         },
         {
           "if": "mapcomplete-preference-theme-history=no",
           "then": {
             "en": "Don't save visited thematic maps",
-            "de": "Besuchte Themenkarten nicht auf meinem Gerät speichern",
-            "uk": "Не зберігайте відвідані тематичні мапи"
+            "de": "Besuchte Themenkarten nicht auf meinem Gerät speichern"
           }
         }
       ]
@@ -889,13 +860,11 @@
       "id": "sync-visited-locations",
       "question": {
         "en": "Should the locations you search for and inspect be remembered?",
-        "de": "Sollen die gesuchten und überprüften Orte gespeichert werden?",
-        "uk": "Чи варто запам'ятовувати місця, які ви шукаєте та оглядаєте?"
+        "de": "Sollen die gesuchten und überprüften Orte gespeichert werden?"
       },
       "questionHint": {
         "en": "Those locations will be offered in the search menu",
-        "de": "Diese Orte werden im Suchmenü angezeigt",
-        "uk": "Ці локації будуть запропоновані в меню пошуку"
+        "de": "Diese Orte werden im Suchmenü angezeigt"
       },
       "mappings": [
         {
@@ -903,24 +872,21 @@
           "alsoShowIf": "mapcomplete-preference-search-history=",
           "then": {
             "en": "Save the locations you search for and inspect and sync them via openstreetmap.org. OpenStreetMap and all apps you use can see this history",
-            "de": "Gesuchte und überprüfte Orte speichern und über openstreetmap.org synchronisieren. OpenStreetMap und alle verwendeten Programme können diesen Verlauf sehen",
-            "uk": "Зберігайте місця, які ви шукаєте, переглядайте та синхронізуйте їх через openstreetmap.org. OpenStreetMap та всі програми, якими ви користуєтесь, можуть бачити цю історію"
+            "de": "Gesuchte und überprüfte Orte speichern und über openstreetmap.org synchronisieren. OpenStreetMap und alle verwendeten Programme können diesen Verlauf sehen"
           }
         },
         {
           "if": "mapcomplete-preference-search-history=local",
           "then": {
             "en": "Save the locations you search for and inspect on my device",
-            "de": "Gesuchte und überprüfte Orte auf meinem Gerät speichern",
-            "uk": "Зберігайте місця, які ви шукаєте та перевіряєте, на моєму пристрої"
+            "de": "Gesuchte und überprüfte Orte auf meinem Gerät speichern"
           }
         },
         {
           "if": "mapcomplete-preference-search-history=no",
           "then": {
             "en": "Don't save the locations you search for and inspect ",
-            "de": "Gesuchte und überprüfte Orte nicht auf meinem Gerät speichern ",
-            "uk": "Не зберігайте місця, які ви шукаєте та перевіряєте "
+            "de": "Gesuchte und überprüfte Orte nicht auf meinem Gerät speichern "
           }
         }
       ]
@@ -929,8 +895,7 @@
       "id": "title-id",
       "render": {
         "en": "<h3>Mangrove ID management</h3>",
-        "de": "<h3>Mangrove ID Management</h3>",
-        "uk": "<h3>Керування ідентифікатором Mangrove</h3>"
+        "de": "<h3>Mangrove ID Management</h3>"
       }
     },
     {
@@ -1003,8 +968,7 @@
         "fr": "Voulez-vous aider à traduire MapComplete ?",
         "pt": "Quer ajudar na tradução do MapComplete?",
         "nl": "Wil je MapComplete helpen vertalen?",
-        "da": "Vil du hjælpe med at oversætte MapComplete?",
-        "uk": "Ви хочете допомогти з перекладом MapComplete?"
+        "da": "Vil du hjælpe med at oversætte MapComplete?"
       },
       "mappings": [
         {
@@ -1017,8 +981,7 @@
             "fr": "Ne pas afficher de bouton pour modifier les traductions rapidement",
             "pt": "Não mostrar um botão para alterar as traduções rapidamente",
             "cs": "Nezobrazovat tlačítko pro rychlou změnu překladů",
-            "nl": "Verberg de knoppen om een vertaling in te voeren.",
-            "uk": "Не показувати кнопку для швидкої зміни перекладу"
+            "nl": "Verberg de knoppen om een vertaling in te voeren."
           }
         },
         {
@@ -1045,8 +1008,7 @@
             "fr": "Toujours afficher les boutons de traduction, même sur mobile",
             "pt": "Mostrar sempre os botões de tradução, inclusive no celular",
             "cs": "Vždy zobrazovat tlačítka překladu, a to i na mobilu",
-            "nl": "Toon een knopje om snel vertalingen te maken op mobiel en op grote schermen",
-            "uk": "Завжди показуйте кнопки перекладу, в тому числі на мобільних пристроях"
+            "nl": "Toon een knopje om snel vertalingen te maken op mobiel en op grote schermen"
           }
         }
       ]
@@ -1074,8 +1036,7 @@
             "fr": "Cliquez sur l'icône \"traduire\" à côté d'une chaîne de caractères pour saisir ou mettre à jour la chaine de texte. Vous aurez besoin d'un compte Weblate pour cela. Créez-en un avec votre nom d'utilisateur OSM pour déverrouiller automatiquement le mode traduction.",
             "nl": "Klik op het 'vertaal'-icoontje die naast een stukje tekst staat om deze tekst te vertalen of aan te passen. Hiervoor heb je een (gratis) Weblate-account nodig. Indien je jouw account maakt met dezelfde naam als je OSM-gebruikersnaam, dan zullen de vertaalknoppen automatisch verschijnen.",
             "zh_Hant": "點字串旁邊的 'translate'-icon 來輸入或是更新一段文字。你需要 Weblate 帳號。用你 OSM 帳號名稱來創建帳號，並且自動解鎖翻譯模式。",
-            "cs": "Chcete-li zadat nebo aktualizovat část textu, klikněte na ikonu „přeložit“ vedle řetězce. K tomu potřebujete účet Weblate. Vytvořte si jej s vaším uživatelským jménem OSM, abyste automaticky odemkli režim překladu.",
-            "uk": "Натисніть на іконку \"перекласти\" поруч з рядком, щоб ввести або оновити фрагмент тексту. Для цього вам потрібен обліковий запис Weblate. Створіть його з вашим OSM-іменем користувача, щоб автоматично розблокувати режим перекладу."
+            "cs": "Chcete-li zadat nebo aktualizovat část textu, klikněte na ikonu „přeložit“ vedle řetězce. K tomu potřebujete účet Weblate. Vytvořte si jej s vaším uživatelským jménem OSM, abyste automaticky odemkli režim překladu."
           },
           "icon": "./assets/svg/translate.svg"
         }
@@ -1097,8 +1058,7 @@
         "nl": "Vertalingen voor {_theme} in {_language} zijn momenteel op {_translation_percentage}%: van {_translation_total} teksten zijn er reeds {_translation_translated_count} vertaald",
         "zh_Hant": "{_theme} 的 {_language} 翻譯目前是 {_translation_percentage}%：{_translation_total} 中的 {_translation_translated_count} 已經翻譯了",
         "fr": "Les traductions pour {_theme} en {_language} sont à {_translation_percentage} % : {_translation_translated_count} chaînes traduites sur {_translation_total}",
-        "cs": "Překlady pro {_theme} v {_language} jsou na úrovni {_translation_percentage}%: {_translation_translated_count} z {_translation_total} je přeloženo",
-        "uk": "Переклади {_theme} {_language} становлять {_translation_percentage}%: {_translation_translated_count} рядків із {_translation_total} перекладено"
+        "cs": "Překlady pro {_theme} v {_language} jsou na úrovni {_translation_percentage}%: {_translation_translated_count} z {_translation_total} je přeloženo"
       },
       "condition": {
         "or": [
@@ -1150,8 +1110,7 @@
       "id": "debug-title",
       "render": {
         "en": "<h3>Debugging options</h3>",
-        "de": "<h3>Debugging-Optionen</h3>",
-        "uk": "<h3>Опції налагодження</h3>"
+        "de": "<h3>Debugging-Optionen</h3>"
       }
     },
     {
@@ -1185,8 +1144,7 @@
         "cs": "Zobrazit informace o ladění v nastavení?",
         "ca": "Vols mostrar la informació de depuració de la configuració de l'usuari?",
         "pt": "Mostrar informações de depuração das configurações do usuário?",
-        "nl": "Moet debug-informatie getoond worden?",
-        "uk": "Показувати інформацію про налагодження налаштувань користувача?"
+        "nl": "Moet debug-informatie getoond worden?"
       },
       "mappings": [
         {
@@ -1198,8 +1156,7 @@
             "cs": "Zobrazit informace o ladění",
             "ca": "Mostra la informació de depuració",
             "pt": "Mostrar informações de depuração",
-            "nl": "Toon debug-informatie",
-            "uk": "Показати інформацію про налагодження"
+            "nl": "Toon debug-informatie"
           }
         },
         {
@@ -1223,8 +1180,7 @@
             "pt": "Não mostrar informações de depuração",
             "da": "Vis ikke debug-informationer",
             "ca": "No mostris informació de depuració",
-            "nl": "Verberg debug-informatie",
-            "uk": "Не показувати інформацію про налагодження"
+            "nl": "Verberg debug-informatie"
           },
           "hideInAnswer": true
         }

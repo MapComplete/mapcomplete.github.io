@@ -10,8 +10,7 @@
     "es": "Memoriales",
     "cs": "Památníky",
     "ru": "Памятники",
-    "hu": "Emlékművek",
-    "uk": "Меморіали"
+    "hu": "Emlékművek"
   },
   "description": {
     "en": "Memorials are physical objects permantently placed in the public space to remember a person or event. They can be a wide range of objects, such as statues, plaques, paintings, military objects (such as tanks), ...",

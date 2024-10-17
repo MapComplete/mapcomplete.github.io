@@ -61,8 +61,7 @@
         "nl": "een dokterspraktijk",
         "fr": "un cabinet médical",
         "ca": "un consultori mèdic",
-        "cs": "lékařská ordinace",
-        "hu": "orvosi rendelő"
+        "cs": "lékařská ordinace"
       },
       "tags": [
         "amenity=doctors"
@@ -79,8 +78,7 @@
         "fr": "Comment s'appelle ce cabinet médical ?",
         "ca": "Com es diu aquesta consulta mèdica?",
         "he": "מה השם של מקום הרופאים הזה?",
-        "cs": "Jak se jmenuje toto místo lékařů?",
-        "hu": "Mi a neve ennek az orvosi rendelőnek?"
+        "cs": "Jak se jmenuje toto místo lékařů?"
       },
       "render": {
         "en": "This doctors place is called {name}",

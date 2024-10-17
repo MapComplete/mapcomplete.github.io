@@ -92,8 +92,7 @@
         "de": "eine Apotheke",
         "fr": "une pharmacie",
         "ca": "una farmàcia",
-        "cs": "lékárna",
-        "hu": "gyógyszertár"
+        "cs": "lékárna"
       }
     }
   ],
@@ -121,8 +120,7 @@
         "fr": "Quel est le nom de cette pharmacie ?",
         "ca": "Quin és el nom de la farmàcia?",
         "cs": "Jak se lékárna jmenuje?",
-        "pl": "Jak nazywa się ta apteka?",
-        "hu": "Mi a neve ennek a patikának?"
+        "pl": "Jak nazywa się ta apteka?"
       },
       "render": {
         "en": "This pharmacy is called {name}",

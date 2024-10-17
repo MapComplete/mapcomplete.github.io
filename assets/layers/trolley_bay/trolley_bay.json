@@ -33,8 +33,7 @@
     {
       "title": {
         "en": "a trolley bay",
-        "de": "eine Einkaufswagenbucht",
-        "hu": "bevásárlókocsi-tároló"
+        "de": "eine Einkaufswagenbucht"
       },
       "tags": [
         "amenity=trolley_bay"

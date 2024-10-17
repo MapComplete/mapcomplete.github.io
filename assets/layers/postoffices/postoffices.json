@@ -128,7 +128,7 @@
         "ru": "Почтовое отделение",
         "zh_Hant": "郵局",
         "id": "Kantor Pos",
-        "hu": "posta",
+        "hu": "Posta",
         "nl": "een postkantoor",
         "ca": "una oficina de correus",
         "es": "una oficina de correo",
@@ -157,8 +157,7 @@
           "nl": "Wat zijn de openingsuren voor dit postkantoor?",
           "fr": "Quelles sont les heures d’ouverture de ce bureau de poste ?",
           "ca": "Quines son els horaris d'apertura per a aquesta oficina postal?",
-          "cs": "Jaká je otevírací doba této pošty?",
-          "uk": "Які години роботи цього поштового відділення?"
+          "cs": "Jaká je otevírací doba této pošty?"
         }
       }
     },

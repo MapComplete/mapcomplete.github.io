@@ -73,8 +73,7 @@
         "fr": "une table de pique-nique",
         "es": "una mesa de pícnic",
         "ca": "una taula de pícnic",
-        "cs": "piknikový stůl",
-        "hu": "piknikezőasztal"
+        "cs": "piknikový stůl"
       }
     }
   ],
@@ -91,8 +90,7 @@
         "fr": "En quel matériau est faite la table de pique-nique ?",
         "es": "¿De qué material está hecha esta mesa de pícnic?",
         "ca": "De quin material està feta aquesta taula de pícnic?",
-        "cs": "Z jakého materiálu je vyroben tento piknikový stůl?",
-        "uk": "З якого матеріалу виготовлений цей стіл для пікніка?"
+        "cs": "Z jakého materiálu je vyroben tento piknikový stůl?"
       },
       "render": {
         "en": "This picnic table is made of {material}",
@@ -120,8 +118,7 @@
             "fr": "C’est une table en bois",
             "es": "Esta es una mesa de pícnic de madera",
             "ca": "Aquesta és una taula de pícnic de fusta",
-            "cs": "Jedná se o dřevěný piknikový stůl",
-            "uk": "Це дерев'яний стіл для пікніка"
+            "cs": "Jedná se o dřevěný piknikový stůl"
           }
         },
         {
@@ -135,8 +132,7 @@
             "fr": "C’est une table en béton",
             "es": "Esta es una mesa de pícnic de hormigón",
             "ca": "Açò és una taula de pícnic de formigó",
-            "cs": "Jedná se o betonový piknikový stůl",
-            "uk": "Це бетонний стіл для пікніка"
+            "cs": "Jedná se o betonový piknikový stůl"
           }
         },
         {
@@ -148,8 +144,7 @@
             "es": "Esta es una mesa de picnic hecha de plástico reciclado",
             "fr": "Cette table de pique-nique est en plastique (recyclé)",
             "ca": "Açò és una taula de pícnic feta de plàstic reciclat",
-            "cs": "Tento piknikový stůl je vyroben z plastu (recyklované)",
-            "uk": "Цей стіл для пікніка виготовлений з (переробленого) пластику"
+            "cs": "Tento piknikový stůl je vyroben z plastu (recyklované)"
           }
         },
         {
@@ -157,8 +152,7 @@
           "then": {
             "en": "This picnic table is made from metal",
             "nl": "Deze picnictafel is gemaakt uit metaal",
-            "de": "Der Picknicktisch ist aus Metall",
-            "uk": "Цей стіл для пікніка виготовлений з металу"
+            "de": "Der Picknicktisch ist aus Metall"
           }
         }
       ],

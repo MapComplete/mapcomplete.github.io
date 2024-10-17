@@ -87,8 +87,7 @@
         "ca": "Quin és el nom d'aquest hospital?",
         "ru": "Как называется эта больница?",
         "cs": "Jak se jmenuje tato nemocnice?",
-        "pl": "Jak nazywa się ten szpital?",
-        "hu": "Mi a neve ennek a kórháznak?"
+        "pl": "Jak nazywa się ten szpital?"
       },
       "freeform": {
         "key": "name"

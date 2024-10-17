@@ -20,11 +20,11 @@
     "ca": "Bancs en una parada de transport públic"
   },
   "description": {
-    "en": "A layer showing all public transport stops that have a bench",
+    "en": "A layer showing all public-transport-stops which do have a bench",
     "es": "Una capa que muestra todas las paradas de transporte público que tienen bancos",
     "nl": "Een laag die stopplaatsen van openbaar vervoer toont waar er een zitbank is",
     "fr": "Une couche montrant tous les arrêts de transports publics qui ont un banc",
-    "de": "Eine Ebene mit allen Haltestellen des Öffentlichen Verkehrs mit Sitzbank",
+    "de": "Eine Ebene mit allen Haltestellen des öffentlichen Nahverkehrs, die über eine Sitzbank verfügen",
     "da": "Et lag, der viser alle offentlige stoppesteder, som har en bænk",
     "cs": "Vrstva zobrazující všechny zastávky veřejné dopravy, které mají lavičku",
     "ca": "Una capa que mostra totes les parades de transport públic que tenen bancs",
@@ -254,7 +254,7 @@
       {
         "if": "bench=no",
         "then": {
-          "en": "This bus stop does not have a bench (there never was one, or it has been removed)",
+          "en": "This bus stop does not have a bench (there never was one or it has been removed)",
           "de": "Diese Bushaltestelle hat keine Bank (es gab nie eine oder sie wurde entfernt)",
           "fr": "Cette station de bus n'a pas de banc (il n'y en a jamais eu ou il a été retiré)",
           "nl": "Deze bushalte heeft geen zitbank (er is er nooit een geweest of deze is verwijderd)",
