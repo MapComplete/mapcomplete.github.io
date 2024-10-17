@@ -70,7 +70,8 @@
         "ca": "un contenidor de basura",
         "cs": "koš na odpadky",
         "pl": "kosz na śmieci",
-        "zh_Hant": "廢棄物處理桶"
+        "zh_Hant": "廢棄物處理桶",
+        "hu": "szemeteskonténer"
       },
       "tags": [
         "amenity=waste_disposal"

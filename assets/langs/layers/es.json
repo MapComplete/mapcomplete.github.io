@@ -190,7 +190,7 @@
                         "then": "Esto es una pared pintada"
                     },
                     "11": {
-                        "then": "Esto es un azulejería - la publicidad está pintada en azulejos"
+                        "then": "Esto es un mosaico - la publicidad está pintada en azulejos"
                     },
                     "12": {
                         "then": "Esto es un alivio"
@@ -5197,13 +5197,6 @@
                 "mappings": {
                     "0": {
                         "then": "Has hecho cambios en {_csCount} ocasiones diferentes. ¡Es alucinante!"
-                    }
-                }
-            },
-            "picture-license": {
-                "mappings": {
-                    "1": {
-                        "then": "Las fotografías que tome tendrán una licencia con <b>CC0</b> y se agregarán al dominio público. Esto significa que todos pueden usar sus imágenes para cualquier propósito."
                     }
                 }
             },

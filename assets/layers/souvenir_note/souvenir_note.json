@@ -55,7 +55,8 @@
     {
       "title": {
         "en": "a souvenir banknote machine",
-        "de": "eine Souvenir-Banknotenmaschine"
+        "de": "eine Souvenir-Banknotenmaschine",
+        "hu": "emlékbankjegy-automata"
       },
       "description": {
         "en": "Add a machine selling souvenir banknotes",

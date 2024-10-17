@@ -118,7 +118,8 @@
         "fr": "une université",
         "da": "et universitet",
         "ca": "una universitat",
-        "cs": "univerzita"
+        "cs": "univerzita",
+        "hu": "egyetem"
       },
       "description": {
         "en": "An institute where tertiary education is given (at the level equivalent of a bachelors degree or higher). A single point per campus is enough - buildings and faculties should not be mapped with different university points.",

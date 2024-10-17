@@ -78,7 +78,8 @@
         "en": "a memorial",
         "de": "ein Denkmal",
         "fr": "un mémorial",
-        "nl": "een gedenkteken"
+        "nl": "een gedenkteken",
+        "hu": "emlékmű"
       },
       "description": {
         "en": "A memorial is a physical object which remembers a person or event.",

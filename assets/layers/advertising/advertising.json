@@ -440,7 +440,8 @@
         "it": "un cartellone",
         "zh_Hant": "一塊告示牌",
         "ru": "билборд",
-        "uk": "білборд"
+        "uk": "білборд",
+        "hu": "óriásplakát"
       },
       "description": {
         "en": "A large outdoor advertising structure, typically found in high-traffic areas such as alongside busy roads",
@@ -542,7 +543,7 @@
         "support=street_furniture:transit_shelter"
       ],
       "title": {
-        "en": "a poster box part of a public transport shelter",
+        "en": "a poster box that is part of a public transport shelter",
         "de": "ein Plakatkasten, der zu einem Unterstand für öffentliche Verkehrsmittel gehört",
         "fr": "Un affichage sur un abribus",
         "it": "un contenitore di poster pubblicitari di una pensilina del trasporto pubblico",
@@ -574,7 +575,7 @@
         "uk": "дошка"
       },
       "description": {
-        "en": "Small billboard for neighbourhood advertising, generally intended for pedestrians",
+        "en": "Small billboard for neighbourhood advertising, generally targetting pedestrians",
         "es": "Un pequeño tablón de anuncios para anuncios del vecindario, normalmente destinado a peatones",
         "ca": "Un xicotet tauló d'anuncics per a anuncis del veïnat, normalment destitat a peatons",
         "de": "Kleines Anschlagbrett für Nachbarschaftswerbung, normalerweise an Fußgänger gerichtet",
@@ -715,7 +716,7 @@
         "support=street_furniture:transit_shelter"
       ],
       "title": {
-        "en": "a screen mounted on a transit shelter",
+        "en": "a screen mounted on a transport shelter",
         "de": "ein Bildschirm, der an einem Wartehäuschen angebracht ist",
         "fr": "un écran fixé sur un abri de transport",
         "it": "uno schermo montato su una pensilina del traporto pubblico",
@@ -1149,8 +1150,9 @@
             "en": "This is tilework - the advertisement is painted on tiles",
             "de": "Dies ist eine Kachelarbeit - die Werbung ist auf Fliesen gemalt",
             "cs": "Jedná se o dlaždice - reklama je namalovaná na dlaždicích",
-            "es": "Esto es un azulejería - la publicidad está pintada en azulejos",
-            "uk": "Це кахельна плитка - реклама намальована на плитці"
+            "es": "Esto es un mosaico - la publicidad está pintada en azulejos",
+            "uk": "Це кахельна плитка - реклама намальована на плитці",
+            "ca": "Açò és un mosaic - la publicitat està pintada en rajoles"
           }
         },
         {
@@ -1613,7 +1615,7 @@
       "question": {
         "ca": "Per quants costats pots veure publicitat?",
         "es": "¿Por cuantos lados puedes ver publicidad?",
-        "en": "From how many sides you can watch advertisments?",
+        "en": "How many sides display advertisements?",
         "de": "Auf wie vielen Seiten wird Werbung angezeigt?",
         "cs": "Z kolika stran můžete vidět reklamy?",
         "fr": "Sur combien de côtés peut-on voir de la publicité ?",
@@ -1681,7 +1683,7 @@
       "question": {
         "ca": "Quin és el número de refèrencia?",
         "es": "¿Cual es el número de referencia?",
-        "en": "Wich is the reference number?",
+        "en": "What is the reference number?",
         "de": "Wie lautet die Referenznummer?",
         "cs": "Jaké je referenční číslo?",
         "fr": "Quel est le numéro de référence ?",
@@ -1719,7 +1721,8 @@
             "de": "Es handelt sich um ein historisches Werbeschild (eine Werbung für ein Unternehmen, das nicht mehr existiert, oder ein sehr altes Schild mit historischem Wert)",
             "cs": "Jedná se o historický reklamní nápis (reklama na již neexistující podnik nebo velmi starý nápis s památkovou hodnotou)",
             "es": "Esto es un cartel publicitario histórico (un anuncio para un negocio que ya no existe o un cartel con un gran valor patrimonial)",
-            "uk": "Це історична рекламна вивіска (реклама підприємства, яке більше не існує, або дуже стара вивіска, що має історичну цінність)"
+            "uk": "Це історична рекламна вивіска (реклама підприємства, яке більше не існує, або дуже стара вивіска, що має історичну цінність)",
+            "ca": "Açò és un cartell publicitari històric (un anunci per a un negoci que ja no existeix o un cartell amb un gran valor patrimonial)"
           }
         },
         {
@@ -1729,7 +1732,8 @@
             "de": "Dieses Werbeschild hat keinen historischen Wert (das Unternehmen existiert noch und hat keinen denkmalpflegerischen Wert)",
             "cs": "Tento reklamní nápis nemá žádnou historickou hodnotu (podnik stále existuje a nemá žádnou památkovou hodnotu)",
             "es": "Este cartel publicitario no tiene valor histórico (el negocio todavía existe y no tiene valor patrimonial)",
-            "uk": "Ця рекламна вивіска не має історичної цінності (бізнес все ще існує і не має історичної цінності)"
+            "uk": "Ця рекламна вивіска не має історичної цінності (бізнес все ще існує і не має історичної цінності)",
+            "ca": "Aquest cartell publicitari no té valor històric (el negoci encara existeix i no té valor patrimonial)"
           }
         }
       ]

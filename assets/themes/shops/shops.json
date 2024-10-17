@@ -9,14 +9,15 @@
     "de": "Geschäfte",
     "it": "Negozi",
     "nb_NO": "Kart over åpne butikker",
-    "hu": "Bolttérkép",
+    "hu": "Boltok",
     "nl": "Winkels",
     "ca": "Botigues",
     "da": "Butikker",
     "es": "Tiendas",
     "cs": "Obchody",
     "eu": "Denda",
-    "pl": "Sklepy"
+    "pl": "Sklepy",
+    "uk": "Магазини"
   },
   "description": {
     "en": "On this map, one can mark basic information about shops, add opening hours and phone numbers",
@@ -25,7 +26,7 @@
     "zh_Hant": "這份地圖上，你可以標記商家基本資訊，新增營業時間以及聯絡電話",
     "de": "Auf dieser Karte kann man grundlegende Informationen über Geschäfte markieren, Öffnungszeiten und Telefonnummern hinzufügen",
     "it": "In questa cartina è possibile aggiungere informazioni di base di un negozio, orari di apertura e numeri di telefono",
-    "hu": "Ezen a térképen az üzletek alapvető adatait lehet megadni, például nyitvatartási időt és telefonszámokat.",
+    "hu": "Ezen a térképen az üzletek alapvető adatait lehet megadni, például nyitvatartási időt és telefonszámokat",
     "es": "En este mapa, se puede marcar información básica sobre tiendas, añadir horarios y números de teléfono",
     "nl": "Op deze kaart kan men algemene informatie over winkels toevoegen, evenals openingsuren en telefoonnummers",
     "da": "På dette kort kan man markere grundlæggende informationer om butikker, tilføje åbningstider og telefonnumre",
@@ -47,7 +48,8 @@
     "cs": "Upravitelná mapa se základními informacemi o obchodech",
     "zh_Hant": "有基本商家資訊的可編輯性的地圖",
     "pl": "Edytowalna mapa z podstawowymi informacjami o sklepach",
-    "ru": "Редактируемая карта с основной информацией о магазине"
+    "ru": "Редактируемая карта с основной информацией о магазине",
+    "uk": "Редагована карта з основною інформацією про магазин"
   },
   "icon": "./assets/themes/shops/shop.svg",
   "layers": [

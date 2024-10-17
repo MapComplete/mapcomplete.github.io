@@ -25,7 +25,7 @@
     "zh_Hans": "艺术品"
   },
   "description": {
-    "en": "An open map of statues, busts, graffitis and other artwork all over the world",
+    "en": "An open map of statues, busts, graffiti and other artworks all over the world",
     "nl": "Een vrije kaart met standbeelden, bustes, graffiti en andere kunstwerken van over de hele wereld",
     "fr": "Une carte ouverte de statues, bustes, graffitis et autres œuvres d'art de par le monde",
     "de": "Eine freie Karte mit Statuen, Büsten, Graffitis und anderen Kunstwerken auf der ganzen Welt",
@@ -153,7 +153,7 @@
         "nb_NO": "en kunstverk",
         "fi": "Taideteos",
         "gl": "Obra de arte",
-        "hu": "Műalkotás",
+        "hu": "műalkotás",
         "id": "Karya Seni",
         "pl": "dzieło sztuki",
         "pt": "uma obra de arte",
@@ -215,7 +215,7 @@
         "pt_BR": "Isso é um(a) {artwork_type}"
       },
       "question": {
-        "en": "What is the type of this artwork?",
+        "en": "What type of artwork is this?",
         "nl": "Wat voor soort kunstwerk is dit?",
         "fr": "Quel est le type de cette œuvre d'art ?",
         "de": "Um welche Art Kunstwerk handelt es sich?",
@@ -674,7 +674,7 @@
     },
     {
       "question": {
-        "en": "Is there a website with more information about this artwork?",
+        "en": "Is there an official website with more information about this artwork?",
         "nl": "Is er een website met meer informatie over dit kunstwerk?",
         "fr": "Existe-t-il un site web où trouver plus d'informations sur cette œuvre d'art ?",
         "de": "Auf welcher Webseite gibt es weitere Informationen zum Kunstwerk?",

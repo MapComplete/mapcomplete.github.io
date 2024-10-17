@@ -560,7 +560,8 @@
         "it": "un contenitore per il riciclo",
         "ca": "un contenidor de reciclatge",
         "fr": "un conteneur de recyclage",
-        "cs": "recyklační kontejner"
+        "cs": "recyklační kontejner",
+        "hu": "szelektív hulladékgyűjtő konténer"
       },
       "tags": [
         "amenity=recycling",

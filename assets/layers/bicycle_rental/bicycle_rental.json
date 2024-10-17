@@ -112,7 +112,8 @@
         "cs": "půjčovna jízdních kol",
         "ca": "una botiga de lloguer de bicicletes",
         "pt_BR": "uma loja de aluguel de bicicletas",
-        "pt": "uma loja de aluguel de bicicletas"
+        "pt": "uma loja de aluguel de bicicletas",
+        "hu": "kerékpárkölcsönző"
       },
       "tags": [
         "amenity=bicycle_rental",
@@ -246,7 +247,7 @@
             "service:bicycle:rental="
           ],
           "then": {
-            "en": "A machine is present which dispenses and accepts keys, eventually after authentication and/or payment. The bicycles are parked nearby",
+            "en": "A machine is present which dispenses and accepts keys after authentication and/or payment. The bicycles are parked nearby",
             "nl": "Hier is een machine die fietssleutels verdeelt en terugneemt, eventueel na aanmelden of betaling. De fietsen staan in de buurt geparkeerd",
             "hu": "Ez egy leadási pont: ennek a kerékpárkölcsönzőnek a kijelölt kerékpártárolója",
             "de": "Dies ist ein Automat, der Schlüssel ausgibt und annimmt, eventuell nach Authentifizierung und/oder Bezahlung. Die Fahrräder sind in der Nähe geparkt",
@@ -391,7 +392,7 @@
         {
           "if": "rental=mtb",
           "then": {
-            "en": "Mountainbikes can be rented here",
+            "en": "Mountain bikes can be rented here",
             "nl": "Mountainbikes kunnen hier gehuurd worden",
             "de": "Mountainbikes können ausgeliehen werden",
             "es": "Aquí se pueden alquilar bicis de montaña",
@@ -407,7 +408,7 @@
         {
           "if": "rental=kid_bike",
           "then": {
-            "en": "Bikes for children can be rented here",
+            "en": "Children's bikes can be rented here",
             "nl": "Kinderfietsen kunnen hier gehuurd worden",
             "de": "Kinderfahrräder können ausgeliehen werden",
             "es": "Aquí se pueden alquilar bicis infantiles",
@@ -526,7 +527,7 @@
           [
             "kid_bike",
             {
-              "en": "bikes for children",
+              "en": "Children's bikes",
               "nl": "kinderfietsen",
               "de": "Kinderfahrräder",
               "es": "bicis infantiles",
@@ -560,7 +561,7 @@
           [
             "mtb",
             {
-              "en": "mountainbikes",
+              "en": "mountain bikes",
               "nl": "mountainbikes",
               "ca": "bicicletas de muntanya",
               "de": "Mountainbikes",
@@ -685,7 +686,7 @@
           ]
         },
         "then": {
-          "en": "This bicycle shop used to rent out bikes but doesn't rent out bikes anymore",
+          "en": "This bicycle shop used to rent out bikes, but no longer does",
           "nl": "Deze fietszaak verhuurde vroeger fietsen, maar nu niet meer",
           "fr": "Ce magasin de vélo louait des vélos, mais n'en loue plus maintenant",
           "de": "Dieser Fahrradladen vermietete früher Fahrräder, aber jetzt nicht mehr",

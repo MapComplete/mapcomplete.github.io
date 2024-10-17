@@ -23,7 +23,7 @@
     "cs": "Kola duchů"
   },
   "description": {
-    "en": "A layer showing memorials for cyclists, killed in road accidents",
+    "en": "A layer showing memorials for cyclists killed in road accidents",
     "nl": "Een laag die herdenkingsplaatsen voor verongelukte fietsers toont",
     "de": "Eine Ebene mit Gedenkstätten für Radfahrer, die bei Verkehrsunfällen ums Leben gekommen sind",
     "fr": "Une couche affichant les mémoriaux en l'hommage de cyclistes tuées lors d'accidents de la route",
@@ -113,7 +113,7 @@
         "es": "una bicicleta blanca",
         "fi": "Haamupyörä",
         "gl": "Bicicleta pantasma",
-        "hu": "Emlékkerékpár",
+        "hu": "szellemkerékpár",
         "ja": "ゴーストバイク",
         "nb_NO": "en spøkelsessykler",
         "pl": "Duch roweru",

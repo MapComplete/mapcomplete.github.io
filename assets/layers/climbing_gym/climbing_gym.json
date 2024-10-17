@@ -96,7 +96,8 @@
         "en": "Climbing gym",
         "nl": "Klimzaal",
         "de": "Kletterhalle",
-        "cs": "Lezecká tělocvična"
+        "cs": "Lezecká tělocvična",
+        "hu": "falmászó sportcsarnok"
       },
       "tags": [
         "leisure=sports_centre",

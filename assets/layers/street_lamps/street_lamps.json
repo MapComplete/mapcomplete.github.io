@@ -73,7 +73,8 @@
         "de": "eine Straßenlaterne",
         "es": "una farola",
         "ca": "un fanal",
-        "cs": "pouliční lampy"
+        "cs": "pouliční lampy",
+        "hu": "utcai lámpa"
       },
       "tags": [
         "highway=street_lamp"

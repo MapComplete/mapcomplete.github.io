@@ -75,7 +75,8 @@
         "de": "einen Aufzug",
         "ca": "un ascensor",
         "pl": "winda",
-        "cs": "výtah"
+        "cs": "výtah",
+        "hu": "lift"
       },
       "tags": [
         "highway=elevator"

@@ -58,7 +58,8 @@
         "de": "eine Dusche",
         "fr": "une douche",
         "ca": "una dutxa",
-        "cs": "sprcha"
+        "cs": "sprcha",
+        "hu": "zuhanyzó"
       },
       "description": {
         "en": "A (public) shower",

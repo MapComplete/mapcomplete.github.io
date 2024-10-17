@@ -107,7 +107,8 @@
         "de": "eine Kletterroute",
         "it": "una via di arrampicata",
         "ca": "una ruta d'escalada",
-        "cs": "lezecká trasa"
+        "cs": "lezecká trasa",
+        "hu": "mászóútvonal"
       },
       "snapToLayer": [
         "climbing_opportunity"

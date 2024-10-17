@@ -120,7 +120,7 @@
         "de": "einen Poller",
         "ru": "Прикол",
         "fr": "une bollard",
-        "hu": "Terelőoszlop",
+        "hu": "terelőoszlop",
         "es": "una bolardo",
         "ca": "una pilona",
         "da": "en pullert",
@@ -467,7 +467,7 @@
         {
           "if": "cycle_barrier=squeeze",
           "then": {
-            "en": "Squeeze gate, gap is smaller at top, than at the bottom",
+            "en": "Squeeze gate - the gap is smaller at the top than at the bottom",
             "nl": "Knijppoort, ruimte is smaller aan de top, dan aan de bodem",
             "de": "Eine Durchfahrtsbeschränkung, Durchfahrtsbreite ist oben kleiner als unten",
             "hu": "Szűkítőkapu: a rés felül keskenyebb, mint alul",

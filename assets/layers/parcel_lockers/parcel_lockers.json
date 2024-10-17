@@ -92,7 +92,8 @@
         "ca": "una bústia intel·ligent",
         "fr": "un casier à colis",
         "pl": "paczkomat",
-        "cs": "schránky na balíky"
+        "cs": "schránky na balíky",
+        "hu": "csomagautomata"
       },
       "tags": [
         "amenity=parcel_locker"

@@ -38,7 +38,8 @@
       "title": {
         "en": "a guidepost",
         "cs": "rozcestník",
-        "de": "ein Wegweiser"
+        "de": "ein Wegweiser",
+        "hu": "útirányjelző tábla"
       },
       "tags": [
         "information=guidepost",

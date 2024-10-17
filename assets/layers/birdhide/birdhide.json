@@ -135,7 +135,8 @@
         "fr": "un observatoire ornithologique",
         "ca": "un observatori d'ocells",
         "cs": "pozorovatelna",
-        "es": "un observatorio de aves"
+        "es": "un observatorio de aves",
+        "hu": "madárvárta"
       },
       "description": {
         "en": "A covered shelter where one can watch birds comfortably",
@@ -296,7 +297,7 @@
             ]
           },
           "then": {
-            "en": "A wheelchair can easily use this birdhide",
+            "en": "A wheelchair user can easily use this bird hide",
             "nl": "Een rolstoel raakt er vlot",
             "da": "En kørestolsbruger kan sagtens bruge dette fugleskjul",
             "de": "Der Ort ist rollstuhlgerecht gestaltet",
@@ -312,7 +313,7 @@
             ]
           },
           "then": {
-            "en": "This birdhide is reachable by wheelchair, but it is not easy",
+            "en": "This bird hide is accessible in a wheelchair, but it is not easy",
             "nl": "Je kan er raken met een rolstoel, maar het is niet makkelijk",
             "da": "Dette fugleskjul kan nås med kørestol, men det er ikke nemt",
             "de": "Der Ort ist nur eingeschränkt rollstuhlgerecht gestaltet",

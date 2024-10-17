@@ -1,7 +1,7 @@
 {
   "id": "caravansites",
   "name": {
-    "en": "Camper sites",
+    "en": "Caravan sites",
     "it": "Aree camper",
     "ru": "Площадки для кемпинга",
     "ja": "キャンプサイト",
@@ -22,7 +22,7 @@
     "zh_Hans": "露营地"
   },
   "description": {
-    "en": "camper sites",
+    "en": "caravan sites",
     "it": "Aree camper",
     "ru": "площадки для кемпинга",
     "ja": "キャンプサイト",
@@ -53,7 +53,7 @@
   "minzoom": 7,
   "title": {
     "render": {
-      "en": "Camper site {name}",
+      "en": "Caravan site {name}",
       "it": "Area camper {name}",
       "ru": "Место для кемпинга {name}",
       "ja": "キャンプサイト {name}",
@@ -78,7 +78,7 @@
           ]
         },
         "then": {
-          "en": "Unnamed camper site",
+          "en": "Unnamed caravan site",
           "it": "Area camper senza nome",
           "ru": "Место для кемпинга без названия",
           "ja": "無名のキャンプサイト",
@@ -141,7 +141,7 @@
         "tourism=caravan_site"
       ],
       "title": {
-        "en": "a camper site",
+        "en": "a caravan site",
         "ru": "площадка для кемпинга",
         "ja": "キャンプサイト",
         "zh_Hant": "露營地",
@@ -162,7 +162,7 @@
         "zh_Hans": "露营地"
       },
       "description": {
-        "en": "Add a new official camper site. These are designated places to stay overnight with your camper. They might look like a real camping or just look like a parking. They might not be signposted at all, but just be defined in a municipal decision. A regular parking intended for campers where it is not expected to spend the night, is -not- a camper site ",
+        "en": "A layer showing (official) campervan sites. These are designated places to stay overnight with your camper. They might look like a real site or just look like parking. They may not be signposted at all, but just be defined in a municipal decision.",
         "ru": "Добавьте новую официальную площадку для кемпинга. Это специально отведённые места для ночлега с автофургоном. Они могут выглядеть как настоящий кемпинг или просто выглядеть как парковка. Они не могут быть обозначены вообще, а просто быть определены в муниципальном решении. Обычная парковка, предназначенная для отдыхающих, где не ожидается, что они проведут ночь это -НЕ- площадка для кемпинга ",
         "ja": "新しい公式キャンプサイトを追加します。お客様のキャンピングカーで一泊する指定の場所です。本物のキャンプのように見えるかもしれないし、単なる駐車場のように見えるかもしれない。それらは全く署名されていないかもしれませんが、自治体の決定で定義されているだけです。夜を過ごすことが予想されないキャンパー向けの通常の駐車場は、キャンプサイトではない ",
         "it": "Aggiungi una nuova area di sosta ufficiale per camper. Si tratta di aree destinate alla sosta notturna dei camper. Potrebbe trattarsi di luoghi di campeggio o semplici parcheggi. Potrebbero anche non essere segnalati sul posto, ma semplicemente indicati in una delibera comunale. Un parcheggio destinato ai camper in cui non è però consentito trascorrere la notte -non- va considerato un'area di sosta per camper. ",
@@ -432,7 +432,7 @@
     },
     {
       "render": {
-        "en": "{capacity} campers can use this place at the same time",
+        "en": "{capacity} caravans can use this place at the same time",
         "it": "{capacity} camper possono usare questo luogo al contempo",
         "ru": "{capacity} кемперов могут использовать это место одновременно",
         "ja": "{capacity} 人が同時に使用できます",
@@ -451,7 +451,7 @@
         "zh_Hans": "{capacity} 名露营者可以同时使用这个地方"
       },
       "question": {
-        "en": "How many campers can stay here? (skip if there is no obvious number of spaces or allowed vehicles)",
+        "en": "How many caravans can stay here? (skip if there is no obvious number of spaces or allowed vehicles)",
         "it": "Quanti camper possono stare qua? (non rispondere se non c’è un numero chario di spazi o veicoli ammessi)",
         "ru": "Сколько кемперов может здесь остановиться? (пропустите, если нет очевидного количества мест или разрешённых транспортных средств)",
         "ja": "ここには何人のキャンパーが泊まれますか?(許可された車両の数や駐車スペースが明らかでない場合は省略)",

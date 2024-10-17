@@ -83,7 +83,8 @@
         "da": "en affaldskurv",
         "ca": "una paperera",
         "fr": "une poubelle",
-        "cs": "odpadkový koš"
+        "cs": "odpadkový koš",
+        "hu": "szemétkosár"
       },
       "presiceInput": {
         "preferredBackground": "photo"

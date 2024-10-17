@@ -61,7 +61,8 @@
         "nl": "een dokterspraktijk",
         "fr": "un cabinet médical",
         "ca": "un consultori mèdic",
-        "cs": "lékařská ordinace"
+        "cs": "lékařská ordinace",
+        "hu": "orvosi rendelő"
       },
       "tags": [
         "amenity=doctors"

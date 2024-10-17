@@ -362,7 +362,8 @@
         "de": "ein Verkaufsautomat",
         "fr": "un distributeur",
         "ca": "una màquina expenedora",
-        "cs": "prodejní automat"
+        "cs": "prodejní automat",
+        "hu": "árusító automata"
       },
       "tags": [
         "amenity=vending_machine"

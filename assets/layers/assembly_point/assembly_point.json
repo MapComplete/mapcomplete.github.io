@@ -8,7 +8,7 @@
     "es": "Puntos de encuentro por emergencia"
   },
   "description": {
-    "en": "This layer contains assembly points and waiting areas where all employees, passengers or a large crowd assemble in case of an emergency.",
+    "en": "This layer shows assembly points and waiting areas, where employees, passengers or a large crowd assemble in case of an emergency.",
     "it": "Questo livello contiene punti di raccolta e aree di attesa in cui tutti i dipendenti, i passeggeri o una grande folla si riuniscono in caso di emergenza.",
     "de": "Diese Ebene enthält Sammelplätze und Wartebereiche, in denen sich alle Mitarbeiter, Fahrgäste oder eine große Menschenmenge im Notfall versammeln.",
     "pl": "Ta warstwa zawiera punkty zbiórki oraz miejsca oczekiwania, gdzie wszyscy pracownicy, pasażerowie lub duży tłum gromadzą się w przypadku zagrożenia.",
@@ -53,7 +53,8 @@
         "de": "ein Sammelplatz",
         "pl": "punkt zbiórki",
         "cs": "shromaždiště",
-        "es": "un punto de encuentro"
+        "es": "un punto de encuentro",
+        "hu": "gyülekezőhely"
       },
       "tags": [
         "emergency=assembly_point"

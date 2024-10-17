@@ -93,7 +93,8 @@
         "es": "una boca de incendios",
         "ca": "un hidrant",
         "cs": "požární hydrant",
-        "pl": "hydrant"
+        "pl": "hydrant",
+        "hu": "tűzcsap"
       },
       "description": {
         "en": "A hydrant is a connection point where firefighters can tap water. It might be located underground.",
@@ -124,7 +125,8 @@
         "es": "¿De que color es la boca de incendios?",
         "ca": "De quin color es l'hidrant?",
         "cs": "Jakou barvu má hydrant?",
-        "pl": "Jakiego koloru jest ten hydrant?"
+        "pl": "Jakiego koloru jest ten hydrant?",
+        "uk": "Якого кольору гідрант?"
       },
       "render": {
         "en": "The hydrant color is {colour}",
@@ -161,7 +163,8 @@
             "es": "La boca de incendios es amarilla.",
             "ca": "L'hidrant és de color groc.",
             "cs": "Barva hydrantu je žlutá.",
-            "pl": "Ten hydrant ma żółty kolor."
+            "pl": "Ten hydrant ma żółty kolor.",
+            "uk": "Колір гідранта - жовтий."
           }
         },
         {
@@ -181,7 +184,8 @@
             "ca": "L'hidrant és de color roig.",
             "es": "La boca de incendios es roja.",
             "cs": "Barva hydrantu je červená.",
-            "pl": "Ten hydrant ma czerwony kolor."
+            "pl": "Ten hydrant ma czerwony kolor.",
+            "uk": "Колір гідранта - червоний."
           }
         }
       ]
@@ -199,7 +203,8 @@
         "es": "¿De qué tipo es esta boca de incendios?",
         "ca": "Quin tipus d'hidrant és?",
         "cs": "O jaký typ hydrantu se jedná?",
-        "pl": "Jakiego rodzaju jest to hydrant?"
+        "pl": "Jakiego rodzaju jest to hydrant?",
+        "uk": "Який це тип гідранта?"
       },
       "freeform": {
         "key": "fire_hydrant:type"
@@ -233,7 +238,8 @@
             "es": "De pilar.",
             "ca": "De pilar.",
             "ru": "Наземный.",
-            "cs": "Typ sloupek."
+            "cs": "Typ sloupek.",
+            "uk": "Стовповий тип."
           },
           "icon": {
             "path": "./assets/themes/hailhydrant/hydrant_pillar.svg",
@@ -256,7 +262,8 @@
             "es": "De tubería.",
             "ca": "De tuberia.",
             "ru": "Труба.",
-            "cs": "Typ potrubí."
+            "cs": "Typ potrubí.",
+            "uk": "Тип труби."
           },
           "icon": {
             "path": "./assets/themes/hailhydrant/hydrant_unknown.svg",
@@ -280,7 +287,8 @@
             "nl": "Muur type.",
             "es": "De pared.",
             "ca": "De paret.",
-            "cs": "Nástěnný typ."
+            "cs": "Nástěnný typ.",
+            "uk": "Настінний тип."
           },
           "icon": {
             "path": "./assets/themes/hailhydrant/hydrant_unknown.svg",
@@ -303,7 +311,8 @@
             "ca": "Subterrani.",
             "es": "Bajo tierra.",
             "ru": "Подземный.",
-            "cs": "Podzemní typ."
+            "cs": "Podzemní typ.",
+            "uk": "Підземного типу."
           },
           "icon": {
             "path": "./assets/themes/hailhydrant/hydrant_underground.svg",
@@ -401,7 +410,8 @@
         "ca": "Quin és el diàmetre d'aquest hidrant?",
         "ru": "Какой диаметр трубы у этого гидранта?",
         "fr": "Quel est le diamètre du tuyau de cette bouche d'incendie ?",
-        "cs": "Jaký je průměr trubky tohoto hydrantu?"
+        "cs": "Jaký je průměr trubky tohoto hydrantu?",
+        "uk": "Який діаметр труби цього гідранта?"
       },
       "freeform": {
         "key": "fire_hydrant:diameter",

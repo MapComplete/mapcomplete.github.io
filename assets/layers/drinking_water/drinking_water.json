@@ -12,7 +12,8 @@
     "hu": "Ivóvíz",
     "ca": "Aigua potable",
     "es": "Agua potable",
-    "cs": "Pitná voda"
+    "cs": "Pitná voda",
+    "uk": "Питна вода"
   },
   "description": {
     "en": "A layer showing drinking water fountains",
@@ -131,7 +132,7 @@
         "it": "una acqua potabile",
         "ru": "питьевая вода",
         "id": "air minum",
-        "hu": "ivóvíz",
+        "hu": "ivóvízcsap",
         "ca": "una font d'aigua potable",
         "cs": "pitná voda"
       },

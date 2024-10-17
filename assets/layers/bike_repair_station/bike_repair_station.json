@@ -13,7 +13,8 @@
     "da": "Cykelpumpe og reparation",
     "cs": "Vzduchový kompresor a opravy jízdních kol",
     "ca": "Manxa i reparació de bicicletes",
-    "pt": "Estações de bicicletas (reparo, bomba ou ambos)"
+    "pt": "Estações de bicicletas (reparo, bomba ou ambos)",
+    "uk": "Велосипедний насос і ремонт"
   },
   "description": {
     "en": "A layer showing bicycle pumps and bicycle repair tool stands",
@@ -331,7 +332,8 @@
         "da": "en cykelpumpe",
         "cs": "pumpa na kolo",
         "ca": "una manxa per a bicicletes",
-        "pt": "uma bomba de bicicleta"
+        "pt": "uma bomba de bicicleta",
+        "hu": "kerékpárpumpa"
       },
       "tags": [
         "amenity=bicycle_repair_station",
@@ -339,7 +341,7 @@
         "service:bicycle:pump=yes"
       ],
       "description": {
-        "en": "A device to inflate your tires on a fixed location in the public space.",
+        "en": "A device to inflate your tires in a fixed location in a public space.",
         "nl": "Een fietspomp in de publieke ruimte zonder extra gereedschap. De fietspomp in je kelder telt dus niet.",
         "it": "Un dispositivo per gonfiare le proprie gomme in un luogo fisso pubblicamente accessibile.",
         "fr": "Un dispositif pour gonfler vos pneus sur un emplacement fixe dans l'espace public.",
@@ -378,7 +380,7 @@
         "service:bicycle:pump=yes"
       ],
       "description": {
-        "en": "A bicycle pump and tools to repair your bike in the public space. The tools are often secured with chains against theft.",
+        "en": "A bicycle pump and tools to repair your bike in a public space. The tools are often secured with chains against theft.",
         "nl": "Een fietspomp en gereedschap om je fiets te herstellen in de publieke ruimte. Deze zijn op een vastgemaakt, bijvoorbeeld aan een paal.",
         "fr": "Un dispositif avec des outils pour réparer votre vélo combiné à une pompe a un emplacement fixe. Les outils sont souvent attachés par une chaîne pour empêcher le vol.",
         "it": "Un dispositivo con attrezzi per riparare la tua bici e una pompa in un luogo fisso. Gli attrezzi sono spesso attaccati ad una catena per prevenire il furto.",
@@ -415,7 +417,7 @@
         "service:bicycle:pump=no"
       ],
       "description": {
-        "en": "Tools to repair your bike in the public space (without pump). The tools are secured against theft.",
+        "en": "Tools to repair your bike in a public space (without pump). The tools are secured against theft.",
         "nl": "Gereedschap om je fiets te herstellen in de publieke ruimte (zonder pomp). Deze zijn op een vastgemaakt, bijvoorbeeld aan een paal.",
         "de": "Werkzeug, um Ihr Fahrrad im öffentlichen Raum zu reparieren (ohne Pumpe). Die Werkzeuge sind gegen Diebstahl gesichert.",
         "es": "Herramientas para reparar tu bici en el espacio público (sin bomba).Las herramientas están aseguradas contra el robo.",
@@ -900,7 +902,7 @@
     },
     {
       "question": {
-        "en": "What valves are supported?",
+        "en": "What valves are available?",
         "nl": "Welke ventielen werken er met de pomp?",
         "fr": "Quelles valves sont compatibles ?",
         "gl": "Que válvulas son compatíbeis?",
@@ -913,7 +915,7 @@
         "ca": "Quines vàlvules són compatibles?"
       },
       "render": {
-        "en": "This pump supports the following valves: {valves}",
+        "en": "This pump has the following valves: {valves}",
         "nl": "Deze pomp werkt met de volgende ventielen: {valves}",
         "fr": "Cette pompe est compatible avec les valves suivantes : {valves}",
         "gl": "Esta bomba de ar admite as seguintes válvulas: {valves}",
@@ -971,7 +973,7 @@
         {
           "if": "valves=schrader",
           "then": {
-            "en": "Schrader (cars and mountainbikes)",
+            "en": "Schrader (cars and mountain bikes)",
             "nl": "Schrader (auto's en mountainbikes)",
             "fr": "Schrader (voitures et vélos de montagne)",
             "gl": "Schrader (para automóbiles)",
@@ -1047,7 +1049,7 @@
     {
       "id": "bike_repair_station-manometer",
       "question": {
-        "en": "Does the pump have a pressure indicator or manometer?",
+        "en": "Does the pump have a pressure gauge?",
         "nl": "Heeft deze pomp een luchtdrukmeter?",
         "fr": "Est-ce que la pompe à un manomètre integré ?",
         "gl": "Ten a bomba de ar un indicador de presión ou un manómetro?",
@@ -1064,7 +1066,7 @@
         {
           "if": "manometer=yes",
           "then": {
-            "en": "There is a manometer",
+            "en": "There is a pressure gauge",
             "nl": "Er is een luchtdrukmeter",
             "fr": "Il y a un manomètre",
             "gl": "Hai manómetro",
@@ -1083,7 +1085,7 @@
         {
           "if": "manometer=no",
           "then": {
-            "en": "There is no manometer",
+            "en": "There is no pressure gauge",
             "nl": "Er is geen luchtdrukmeter",
             "fr": "Il n'y a pas de manomètre",
             "gl": "Non hai manómetro",
@@ -1102,7 +1104,7 @@
         {
           "if": "manometer=broken",
           "then": {
-            "en": "There is manometer but it is broken",
+            "en": "There is a pressure gauge but it is broken",
             "nl": "Er is een luchtdrukmeter maar die is momenteel defect",
             "fr": "Il y a un manomètre mais il est cassé",
             "gl": "Hai manómetro pero está estragado",

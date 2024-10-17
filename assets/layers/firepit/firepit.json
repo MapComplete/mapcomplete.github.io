@@ -44,7 +44,8 @@
     {
       "title": {
         "en": "Firepit",
-        "de": "Feuerstelle"
+        "de": "Feuerstelle",
+        "hu": "tűzrakóhely"
       },
       "description": {
         "de": "Eine Stelle im Freien zum Feuermachen, typischerweise öffentlich zugänglich.",

@@ -62,7 +62,8 @@
         "de": "Einen Münzprägeautomaten",
         "es": "una prensa de centavo",
         "ca": "una premsa de cèntim",
-        "cs": "ražba mincí"
+        "cs": "ražba mincí",
+        "hu": "érmenyújtó prés"
       },
       "tags": [
         "amenity=vending_machine",

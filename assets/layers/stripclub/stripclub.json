@@ -59,7 +59,8 @@
     {
       "title": {
         "en": "a stripclub",
-        "de": "ein Stripclub"
+        "de": "ein Stripclub",
+        "hu": "sztriptízbár"
       },
       "tags": [
         "amenity=stripclub"

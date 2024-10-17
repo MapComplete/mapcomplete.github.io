@@ -78,7 +78,8 @@
         "de": "einen Eingang",
         "nl": "een toegang",
         "ca": "una entrada",
-        "cs": "vchod"
+        "cs": "vchod",
+        "hu": "bejárat"
       },
       "tags": [
         "entrance=yes"

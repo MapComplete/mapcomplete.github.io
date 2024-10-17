@@ -82,7 +82,8 @@
         "es": "un parque para perros",
         "nl": "een hondenweide",
         "ca": "un parc per a gossos",
-        "cs": "psí park"
+        "cs": "psí park",
+        "hu": "kutyafuttató"
       },
       "tags": [
         "leisure=dog_park"

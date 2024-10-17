@@ -79,7 +79,8 @@
         "de": "eine Fitness-Station",
         "nl": "een fitness-toestel",
         "ca": "una estació de fitness",
-        "cs": "fitness stanice"
+        "cs": "fitness stanice",
+        "hu": "fitneszpark"
       },
       "icon": "./assets/layers/fitness_station/fitness.svg"
     }

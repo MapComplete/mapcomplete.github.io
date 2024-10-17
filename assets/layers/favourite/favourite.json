@@ -62,7 +62,7 @@
           ]
         },
         "then": {
-          "en": "Bike cafe <i>{name}</i>",
+          "en": "Bike café <i>{name}</i>",
           "nl": "Fietscafé <i>{name}</i>",
           "fr": "Café Vélo <i>{name}</i>",
           "gl": "Café de ciclistas <i>{name}</i>",
@@ -102,7 +102,7 @@
           ]
         },
         "then": {
-          "en": "Bike cafe",
+          "en": "Bike café",
           "nl": "Fietscafé",
           "fr": "Café Vélo",
           "gl": "Café de ciclistas",
@@ -143,7 +143,7 @@
           ]
         },
         "then": {
-          "en": "Bike cafe <i>{name}</i>",
+          "en": "Bike café <i>{name}</i>",
           "nl": "Fietscafé <i>{name}</i>",
           "fr": "Café Vélo <i>{name}</i>",
           "gl": "Café de ciclistas <i>{name}</i>",
@@ -183,7 +183,7 @@
           ]
         },
         "then": {
-          "en": "Bike cafe",
+          "en": "Bike café",
           "nl": "Fietscafé",
           "fr": "Café Vélo",
           "gl": "Café de ciclistas",
@@ -8653,7 +8653,7 @@
       {
         "if": "amenity=cafe",
         "then": {
-          "en": "Cafe",
+          "en": "Café",
           "de": "Café",
           "ca": "CAfè"
         }
@@ -8714,7 +8714,7 @@
       {
         "if": "amenity=cafe",
         "then": {
-          "en": "Cafe",
+          "en": "Café",
           "de": "Café",
           "ca": "CAfè"
         }
@@ -8775,7 +8775,7 @@
       {
         "if": "amenity=cafe",
         "then": {
-          "en": "Cafe",
+          "en": "Café",
           "de": "Café",
           "ca": "CAfè"
         }
@@ -10479,7 +10479,7 @@
           ]
         },
         "then": {
-          "en": "Unnamed camper site",
+          "en": "Unnamed caravan site",
           "it": "Area camper senza nome",
           "ru": "Место для кемпинга без названия",
           "ja": "無名のキャンプサイト",
@@ -10505,7 +10505,7 @@
           ]
         },
         "then": {
-          "en": "Camper site {name}",
+          "en": "Caravan site {name}",
           "it": "Area camper {name}",
           "ru": "Место для кемпинга {name}",
           "ja": "キャンプサイト {name}",
@@ -10532,7 +10532,7 @@
           ]
         },
         "then": {
-          "en": "Unnamed camper site",
+          "en": "Unnamed caravan site",
           "it": "Area camper senza nome",
           "ru": "Место для кемпинга без названия",
           "ja": "無名のキャンプサイト",
@@ -10558,7 +10558,7 @@
           ]
         },
         "then": {
-          "en": "Camper site {name}",
+          "en": "Caravan site {name}",
           "it": "Area camper {name}",
           "ru": "Место для кемпинга {name}",
           "ja": "キャンプサイト {name}",
@@ -16231,8 +16231,9 @@
             "en": "This is tilework - the advertisement is painted on tiles",
             "de": "Dies ist eine Kachelarbeit - die Werbung ist auf Fliesen gemalt",
             "cs": "Jedná se o dlaždice - reklama je namalovaná na dlaždicích",
-            "es": "Esto es un azulejería - la publicidad está pintada en azulejos",
-            "uk": "Це кахельна плитка - реклама намальована на плитці"
+            "es": "Esto es un mosaico - la publicidad está pintada en azulejos",
+            "uk": "Це кахельна плитка - реклама намальована на плитці",
+            "ca": "Açò és un mosaic - la publicitat està pintada en rajoles"
           }
         },
         {
@@ -16795,7 +16796,7 @@
       "question": {
         "ca": "Per quants costats pots veure publicitat?",
         "es": "¿Por cuantos lados puedes ver publicidad?",
-        "en": "From how many sides you can watch advertisments?",
+        "en": "How many sides display advertisements?",
         "de": "Auf wie vielen Seiten wird Werbung angezeigt?",
         "cs": "Z kolika stran můžete vidět reklamy?",
         "fr": "Sur combien de côtés peut-on voir de la publicité ?",
@@ -16863,7 +16864,7 @@
       "question": {
         "ca": "Quin és el número de refèrencia?",
         "es": "¿Cual es el número de referencia?",
-        "en": "Wich is the reference number?",
+        "en": "What is the reference number?",
         "de": "Wie lautet die Referenznummer?",
         "cs": "Jaké je referenční číslo?",
         "fr": "Quel est le numéro de référence ?",
@@ -16904,7 +16905,8 @@
             "de": "Es handelt sich um ein historisches Werbeschild (eine Werbung für ein Unternehmen, das nicht mehr existiert, oder ein sehr altes Schild mit historischem Wert)",
             "cs": "Jedná se o historický reklamní nápis (reklama na již neexistující podnik nebo velmi starý nápis s památkovou hodnotou)",
             "es": "Esto es un cartel publicitario histórico (un anuncio para un negocio que ya no existe o un cartel con un gran valor patrimonial)",
-            "uk": "Це історична рекламна вивіска (реклама підприємства, яке більше не існує, або дуже стара вивіска, що має історичну цінність)"
+            "uk": "Це історична рекламна вивіска (реклама підприємства, яке більше не існує, або дуже стара вивіска, що має історичну цінність)",
+            "ca": "Açò és un cartell publicitari històric (un anunci per a un negoci que ja no existeix o un cartell amb un gran valor patrimonial)"
           }
         },
         {
@@ -16914,7 +16916,8 @@
             "de": "Dieses Werbeschild hat keinen historischen Wert (das Unternehmen existiert noch und hat keinen denkmalpflegerischen Wert)",
             "cs": "Tento reklamní nápis nemá žádnou historickou hodnotu (podnik stále existuje a nemá žádnou památkovou hodnotu)",
             "es": "Este cartel publicitario no tiene valor histórico (el negocio todavía existe y no tiene valor patrimonial)",
-            "uk": "Ця рекламна вивіска не має історичної цінності (бізнес все ще існує і не має історичної цінності)"
+            "uk": "Ця рекламна вивіска не має історичної цінності (бізнес все ще існує і не має історичної цінності)",
+            "ca": "Aquest cartell publicitari no té valor històric (el negoci encara existeix i no té valor patrimonial)"
           }
         }
       ],
@@ -24240,7 +24243,7 @@
         "pt_BR": "Isso é um(a) {artwork_type}"
       },
       "question": {
-        "en": "What is the type of this artwork?",
+        "en": "What type of artwork is this?",
         "nl": "Wat voor soort kunstwerk is dit?",
         "fr": "Quel est le type de cette œuvre d'art ?",
         "de": "Um welche Art Kunstwerk handelt es sich?",
@@ -24743,7 +24746,7 @@
     },
     {
       "question": {
-        "en": "Is there a website with more information about this artwork?",
+        "en": "Is there an official website with more information about this artwork?",
         "nl": "Is er een website met meer informatie over dit kunstwerk?",
         "fr": "Existe-t-il un site web où trouver plus d'informations sur cette œuvre d'art ?",
         "de": "Auf welcher Webseite gibt es weitere Informationen zum Kunstwerk?",
@@ -25517,11 +25520,12 @@
         {
           "if": "armrest=yes",
           "then": {
-            "en": "This bench does have one or more armrests",
+            "en": "This bench has one or more armrests",
             "de": "Diese Sitzbank hat eine oder mehrere Armlehnen",
             "nl": "Deze bank heeft armleuningen",
             "cs": "Tato lavice má jednu nebo více opěrek na ruce",
             "es": "Este banco dispone de uno o más reposabrazos",
+            "uk": "Ця лавка має один або кілька підлокітників",
             "_context": "layers:bench.tagRenderings.bench-armrest.mappings.0.then"
           }
         },
@@ -25533,6 +25537,7 @@
             "nl": "Deze bank heeft <b>geen</b> armleuningen",
             "cs": "Tato lavice <b>nemá opěrky rukou</b>",
             "es": "Este banco <b>not</b> dispone de reposabrazos",
+            "uk": "Ця лавка <b>не</b> має підлокітників",
             "_context": "layers:bench.tagRenderings.bench-armrest.mappings.1.then"
           }
         }
@@ -25543,6 +25548,7 @@
         "nl": "Heeft deze bank armleuningen?",
         "cs": "Má tato lavice jednu nebo více opěrek?",
         "es": "¿Dispone este banco de uno o más reposabrazos?",
+        "uk": "Чи має ця лавка один або кілька підлокітників?",
         "_context": "layers:bench.tagRenderings.bench-armrest.question"
       },
       "id": "bench-armrest",
@@ -28870,7 +28876,8 @@
         "fr": "En quel matériau est faite la table de pique-nique ?",
         "es": "¿De qué material está hecha esta mesa de pícnic?",
         "ca": "De quin material està feta aquesta taula de pícnic?",
-        "cs": "Z jakého materiálu je vyroben tento piknikový stůl?"
+        "cs": "Z jakého materiálu je vyroben tento piknikový stůl?",
+        "uk": "З якого матеріалу виготовлений цей стіл для пікніка?"
       },
       "render": {
         "en": "This picnic table is made of {material}",
@@ -28899,7 +28906,8 @@
             "fr": "C’est une table en bois",
             "es": "Esta es una mesa de pícnic de madera",
             "ca": "Aquesta és una taula de pícnic de fusta",
-            "cs": "Jedná se o dřevěný piknikový stůl"
+            "cs": "Jedná se o dřevěný piknikový stůl",
+            "uk": "Це дерев'яний стіл для пікніка"
           }
         },
         {
@@ -28913,7 +28921,8 @@
             "fr": "C’est une table en béton",
             "es": "Esta es una mesa de pícnic de hormigón",
             "ca": "Açò és una taula de pícnic de formigó",
-            "cs": "Jedná se o betonový piknikový stůl"
+            "cs": "Jedná se o betonový piknikový stůl",
+            "uk": "Це бетонний стіл для пікніка"
           }
         },
         {
@@ -28925,7 +28934,8 @@
             "es": "Esta es una mesa de picnic hecha de plástico reciclado",
             "fr": "Cette table de pique-nique est en plastique (recyclé)",
             "ca": "Açò és una taula de pícnic feta de plàstic reciclat",
-            "cs": "Tento piknikový stůl je vyroben z plastu (recyklované)"
+            "cs": "Tento piknikový stůl je vyroben z plastu (recyklované)",
+            "uk": "Цей стіл для пікніка виготовлений з (переробленого) пластику"
           }
         },
         {
@@ -28933,7 +28943,8 @@
           "then": {
             "en": "This picnic table is made from metal",
             "nl": "Deze picnictafel is gemaakt uit metaal",
-            "de": "Der Picknicktisch ist aus Metall"
+            "de": "Der Picknicktisch ist aus Metall",
+            "uk": "Цей стіл для пікніка виготовлений з металу"
           }
         }
       ],
@@ -29507,7 +29518,7 @@
         "pl": "Ile rowerów mieści się na tym parkingu rowerowym?"
       },
       "questionHint": {
-        "en": "This includes regular bicycles, cargo bikes, ebikes, ...",
+        "en": "This includes all types of bicycle - regular, cargo, ebike etc.",
         "nl": "Dit is het totaal aantal gewone fietsen, bakfietsen, elektrische fietsen, ...",
         "de": "Dazu gehören reguläre Fahrräder, Lasträder, Ebikes,...",
         "pl": "To obejmuje zwykłe rowery, do transportu dóbr, elektryczne, ...",
@@ -29672,7 +29683,7 @@
     {
       "id": "fee",
       "question": {
-        "en": "Are these bicycle parkings free to use?",
+        "en": "Is it free to park a bicycle here?",
         "nl": "Is deze fietsenstalling gratis te gebruiken?",
         "de": "Sind die Fahrradparkplätze kostenlos zu benutzen?",
         "ca": "Aquests aparcaments de bicicletes són gratuïts?",
@@ -29884,7 +29895,7 @@
         "es": "¿Cuál es número de teléfono del operador de este aparcamiento de bicicletas?"
       },
       "questionHint": {
-        "en": "One might be able to call this number in case of problems, e.g. to remove unmaintained bicycles",
+        "en": "One might be able to call this number in case of problems, e.g. to remove abandoned bicycles",
         "nl": "Men kan dit nummer bellen om bv. fietswrakken of defecten te melden",
         "de": "Man könnte diese Nummer anrufen, wenn es Probleme gibt, z. B. um nicht gewartete Fahrräder zu entfernen",
         "ca": "És possible que es pugui trucar a aquest número en cas de problemes, p. per retirar les bicicletes abandonades"
@@ -30147,7 +30158,7 @@
         "es": "¿Cuál es la duración máxima permitida de estacionamiento?"
       },
       "questionHint": {
-        "en": "If the bicycle is parked for a longer amount, it might be removed by the operator",
+        "en": "If the bicycle is parked for longer, it might be removed by the operator",
         "nl": "Indien een fiets langer geparkeerd staat, kan deze verwijderd worden door de beheerder",
         "de": "Wenn das Fahrrad für längere Zeit abgestellt wird, kann es vom Betreiber entfernt werden"
       },
@@ -30267,7 +30278,7 @@
             "service:bicycle:rental="
           ],
           "then": {
-            "en": "A machine is present which dispenses and accepts keys, eventually after authentication and/or payment. The bicycles are parked nearby",
+            "en": "A machine is present which dispenses and accepts keys after authentication and/or payment. The bicycles are parked nearby",
             "nl": "Hier is een machine die fietssleutels verdeelt en terugneemt, eventueel na aanmelden of betaling. De fietsen staan in de buurt geparkeerd",
             "hu": "Ez egy leadási pont: ennek a kerékpárkölcsönzőnek a kijelölt kerékpártárolója",
             "de": "Dies ist ein Automat, der Schlüssel ausgibt und annimmt, eventuell nach Authentifizierung und/oder Bezahlung. Die Fahrräder sind in der Nähe geparkt",
@@ -32511,7 +32522,7 @@
         {
           "if": "rental=mtb",
           "then": {
-            "en": "Mountainbikes can be rented here",
+            "en": "Mountain bikes can be rented here",
             "nl": "Mountainbikes kunnen hier gehuurd worden",
             "de": "Mountainbikes können ausgeliehen werden",
             "es": "Aquí se pueden alquilar bicis de montaña",
@@ -32527,7 +32538,7 @@
         {
           "if": "rental=kid_bike",
           "then": {
-            "en": "Bikes for children can be rented here",
+            "en": "Children's bikes can be rented here",
             "nl": "Kinderfietsen kunnen hier gehuurd worden",
             "de": "Kinderfahrräder können ausgeliehen werden",
             "es": "Aquí se pueden alquilar bicis infantiles",
@@ -32740,7 +32751,7 @@
         "bicycle_rental"
       ],
       "question": {
-        "en": "How many bikes for children can be rented here?",
+        "en": "How many Children's bikes can be rented here?",
         "nl": "Hoeveel kinderfietsen kunnen hier uitgeleend worden?",
         "de": "Wie viele Kinderfahrräder können hier gemietet werden?",
         "fr": "Combien de vélos d'enfants peuvent être loués ici ?",
@@ -32751,7 +32762,7 @@
         "pt": "Quantos bicicletas para crianças podem ser alugados aqui?"
       },
       "render": {
-        "en": "{capacity:kid_bike} bikes for children can be rented here",
+        "en": "{capacity:kid_bike} Children's bikes can be rented here",
         "nl": "{capacity:kid_bike} kinderfietsen kunnen hier uitgeleend worden",
         "de": "{capacity:kid_bike} Kinderfahrräder können hier gemietet werden",
         "fr": "{capacity:kid_bike} vélos d'enfants peuvent être loués ici",
@@ -32860,7 +32871,7 @@
         "bicycle_rental"
       ],
       "question": {
-        "en": "How many mountainbikes can be rented here?",
+        "en": "How many mountain bikes can be rented here?",
         "nl": "Hoeveel mountainbikes kunnen hier uitgeleend worden?",
         "de": "Wie viele Mountainbikes können hier gemietet werden?",
         "fr": "Combien de vélos de montagne peuvent être loués ici ?",
@@ -32871,7 +32882,7 @@
         "pt": "Quantos bicicletas de montanha podem ser alugados aqui?"
       },
       "render": {
-        "en": "{capacity:mtb} mountainbikes can be rented here",
+        "en": "{capacity:mtb} mountain bikes can be rented here",
         "nl": "{capacity:mtb} mountainbikes kunnen hier uitgeleend worden",
         "de": "{capacity:mtb} Mountainbikes können hier gemietet werden",
         "fr": "{capacity:mtb} vélos de montagne peuvent être loués ici",
@@ -33290,7 +33301,7 @@
           "if": "bicycle_library:for=child",
           "then": {
             "nl": "Aanbod voor kinderen",
-            "en": "Bikes for children available",
+            "en": "Bikes for children are available",
             "fr": "Vélos pour enfants disponibles",
             "it": "Sono disponibili biciclette per bambini",
             "de": "Fahrräder für Kinder verfügbar",
@@ -33308,7 +33319,7 @@
           "if": "bicycle_library:for=adult",
           "then": {
             "nl": "Aanbod voor volwassenen",
-            "en": "Bikes for adult available",
+            "en": "Bikes for adults are available",
             "fr": "Vélos pour adultes disponibles",
             "it": "Sono disponibili biciclette per adulti",
             "de": "Fahrräder für Erwachsene verfügbar",
@@ -33326,7 +33337,7 @@
           "if": "bicycle_library:for=disabled",
           "then": {
             "nl": "Aanbod voor personen met een handicap",
-            "en": "Bikes for disabled persons available",
+            "en": "Bikes for disabled people available",
             "fr": "Vélos pour personnes handicapées disponibles",
             "it": "Sono disponibili biciclette per disabili",
             "de": "Fahrräder für Behinderte verfügbar",
@@ -36766,7 +36777,7 @@
         {
           "if": "tactile_paving=incorrect",
           "then": {
-            "en": "This crossing has tactile paving, but is not correct",
+            "en": "This crossing has tactile paving, but it doesn't meet regulations",
             "nl": "Deze oversteekplaats heeft een geleidelijn, die incorrect is.",
             "de": "Diese Kreuzung hat taktile Pflasterung, ist aber nicht korrekt",
             "es": "Este cruce tiene superficie podotáctil, pero no correctamente",
@@ -36781,7 +36792,7 @@
     {
       "id": "crossing-button",
       "question": {
-        "en": "Does this traffic light have a button to request green light?",
+        "en": "Does this traffic light have a button to request a green light?",
         "nl": "Heeft dit verkeerslicht een knop voor groen licht?",
         "de": "Hat diese Ampel eine Taste, um ein grünes Signal anzufordern?",
         "es": "¿Este semáforo tiene un botón para pedir luz verde?",
@@ -36818,7 +36829,7 @@
         {
           "if": "button_operated=yes",
           "then": {
-            "en": "This traffic light has a button to request green light",
+            "en": "This traffic light has a button to request a green light",
             "nl": "Dit verkeerslicht heeft een knop voor groen licht",
             "de": "Diese Ampel hat eine Taste, um ein grünes Signal anzufordern",
             "es": "Este semáforo tiene un botón para pedir luz verde",
@@ -36830,7 +36841,7 @@
         {
           "if": "button_operated=no",
           "then": {
-            "en": "This traffic light does not have a button to request green light",
+            "en": "This traffic light does not have a button to request a green light",
             "nl": "Dit verkeerlicht heeft geen knop voor groen licht",
             "de": "Diese Ampel hat keine Taste, um ein grünes Signal anzufordern",
             "es": "Este semáforo no tiene un botón para pedir luz verde",
@@ -39424,7 +39435,7 @@
     },
     {
       "question": {
-        "en": "What kind of cafe is this?",
+        "en": "What kind of café is this?",
         "nl": "Welk soort café is dit?",
         "de": "Was ist das für ein Café?",
         "hu": "Milyen fajta kávézó ez?",
@@ -39439,7 +39450,7 @@
         {
           "if": "amenity=pub",
           "then": {
-            "en": "A pub, mostly for drinking beers in a warm, relaxed interior",
+            "en": "A pub, mostly for drinking beer in a warm, relaxed interior",
             "nl": "Dit is <b>een bruin café of een kroeg</b> waar voornamelijk bier wordt gedronken. De inrichting is typisch gezellig met veel houtwerk",
             "de": "Eine Kneipe, in der vor allem Bier in ruhiger, entspannter Atmosphäre getrunken wird",
             "es": "Un bar, principalmente para beber cervezas en un interior cálido y relajado",
@@ -39465,7 +39476,7 @@
         {
           "if": "amenity=cafe",
           "then": {
-            "en": "A <b>cafe</b> to drink tea, coffee or an alcoholical bevarage in a quiet environment",
+            "en": "A <b>café</b> to drink tea, coffee or an alcoholic beverage in a quiet environment",
             "nl": "Dit is een <b>cafe</b> - een plaats waar men rustig kan zitten om een thee, koffie of alcoholische drank te nuttigen.",
             "de": "Ein <b>Café</b>, um in ruhiger Umgebung Tee, Kaffee oder ein alkoholisches Getränk zu trinken",
             "da": "En <b>café</b> til at drikke te, kaffe eller en alkoholisk drik i rolige omgivelser",
@@ -39491,7 +39502,7 @@
         {
           "if": "amenity=biergarten",
           "then": {
-            "en": "An open space where beer is served, typically seen in Germany",
+            "en": "This is a beer garden: an open-air space where beer is served, typically seen in Germany",
             "nl": "Een open ruimte waar bier geserveerd wordt. Typisch in Duitsland",
             "de": "Ein Außenbereich mit Bierausschank, typischerweise in Deutschland",
             "da": "Et åbent rum, hvor der serveres øl, typisk set i Tyskland",
@@ -42052,7 +42063,7 @@
     },
     {
       "render": {
-        "en": "{capacity} campers can use this place at the same time",
+        "en": "{capacity} caravans can use this place at the same time",
         "it": "{capacity} camper possono usare questo luogo al contempo",
         "ru": "{capacity} кемперов могут использовать это место одновременно",
         "ja": "{capacity} 人が同時に使用できます",
@@ -42071,7 +42082,7 @@
         "zh_Hans": "{capacity} 名露营者可以同时使用这个地方"
       },
       "question": {
-        "en": "How many campers can stay here? (skip if there is no obvious number of spaces or allowed vehicles)",
+        "en": "How many caravans can stay here? (skip if there is no obvious number of spaces or allowed vehicles)",
         "it": "Quanti camper possono stare qua? (non rispondere se non c’è un numero chario di spazi o veicoli ammessi)",
         "ru": "Сколько кемперов может здесь остановиться? (пропустите, если нет очевидного количества мест или разрешённых транспортных средств)",
         "ja": "ここには何人のキャンパーが泊まれますか?(許可された車両の数や駐車スペースが明らかでない場合は省略)",
@@ -43250,7 +43261,7 @@
         {
           "if": "access=key",
           "then": {
-            "en": "A <b>key</b> must be requested to access this charging station<br/><span class='subtle'>E.g. a charging station operated by hotel which is only usable by their guests, which receive a key from the reception to unlock the charging station</span>",
+            "en": "A <b>key</b> must be requested to access this charging station<br/><span class='subtle'>E.g. a charging station operated by hotel which is only usable by their guests, who receive a key from the reception to unlock the charging station</span>",
             "nl": "Een <b>sleutel</b> is nodig om dit oplaadpunt te gebruiken<br/><span class='subtle'>Bv. voor klanten van een hotel of een bar, die de sleutel aan de receptie kunnen krijgen</span>",
             "ca": "S'ha de sol·licitar una <b>clau</b> per a utilitzar aquest punt de càrrega<br/><span class='subtle'>p.e un punt de càrrega operat per un hotel nomes utilitzable pel seus hostes, els quals reben una clau des de recepció per a desbloquejar el punt de càrrega</span>",
             "de": "Für den Zugang zur Station muss ein <b>Schlüssel</b> angefordert werden<br/><span class='subtle'>z.B. eine von einem Hotel betriebene Ladestation, die nur von dessen Gästen genutzt werden kann, die an der Rezeption einen Schlüssel erhalten, um die Ladestation aufzuschließen</span>"
@@ -43302,7 +43313,7 @@
         "pl": "{capacity} pojazdów może być tutaj ładowanych jednocześnie"
       },
       "question": {
-        "en": "How much vehicles can be charged here at the same time?",
+        "en": "How many vehicles can be charged here at the same time?",
         "nl": "Hoeveel voertuigen kunnen hier opgeladen worden?",
         "ca": "Quants vehicles poden carregar a la vegada?",
         "de": "Wie viele Fahrzeuge können hier gleichzeitig laden?",
@@ -44682,7 +44693,7 @@
     {
       "id": "plugs-amount-socket:schuko",
       "question": {
-        "en": "How much plugs of type <b>Schuko wall plug</b> without ground pin (CEE7/4 type F) are available here?",
+        "en": "How many plugs of type <b>Schuko wall plug</b> without ground pin (CEE7/4 type F) are available here?",
         "nl": "Hoeveel stekkers van type <b>Schuko stekker</b> zonder aardingspin (CEE7/4 type F) heeft dit oplaadpunt?",
         "ca": "Quants connectors del tipus <b>Schuko wall plug</b> without ground pin (CEE7/4 type F) hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>Schuko wall plug</b> without ground pin (CEE7/4 type F) je k dispozici?",
@@ -44855,7 +44866,7 @@
     {
       "id": "plugs-amount-socket:typee",
       "question": {
-        "en": "How much plugs of type <b>European wall plug</b> with ground pin (CEE7/4 type E) are available here?",
+        "en": "How many plugs of type <b>European wall plug</b> with ground pin (CEE7/4 type E) are available here?",
         "nl": "Hoeveel stekkers van type <b>Europese stekker</b> met aardingspin (CEE7/4 type E) heeft dit oplaadpunt?",
         "ca": "Quants connectors del tipus <b>European wall plug</b> with ground pin (CEE7/4 type E) hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>European wall plug</b> with ground pin (CEE7/4 type E) je k dispozici?",
@@ -45036,7 +45047,7 @@
     {
       "id": "plugs-amount-socket:chademo",
       "question": {
-        "en": "How much plugs of type <b>Chademo</b> are available here?",
+        "en": "How many plugs of type <b>Chademo</b> are available here?",
         "nl": "Hoeveel stekkers van type <b>Chademo</b> heeft dit oplaadpunt?",
         "ca": "Quants connectors del tipus <b>Chademo</b> hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>Chademo</b> je k dispozici?",
@@ -45209,7 +45220,7 @@
     {
       "id": "plugs-amount-socket:type1_cable",
       "question": {
-        "en": "How much plugs of type <b>Type 1 with cable</b> (J1772) are available here?",
+        "en": "How many plugs of type <b>Type 1 with cable</b> (J1772) are available here?",
         "nl": "Hoeveel stekkers van type <b>Type 1 met kabel</b> (J1772) heeft dit oplaadpunt?",
         "ca": "Quants connectors del tipus <b>Type 1 with cable</b> (J1772) hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>Type 1 with cable</b> (J1772) je k dispozici?",
@@ -45399,7 +45410,7 @@
     {
       "id": "plugs-amount-socket:type1",
       "question": {
-        "en": "How much plugs of type <b>Type 1 <i>without</i> cable</b> (J1772) are available here?",
+        "en": "How many plugs of type <b>Type 1 <i>without</i> cable</b> (J1772) are available here?",
         "nl": "Hoeveel stekkers van type <b>Type 1 <i>zonder</i> kabel</b> (J1772) heeft dit oplaadpunt?",
         "ca": "Quants connectors del tipus <b>Type 1 <i>without</i> cable</b> (J1772) hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>Type 1 <i>without</i> cable</b> (J1772) je k dispozici?",
@@ -45605,7 +45616,7 @@
     {
       "id": "plugs-amount-socket:type1_combo",
       "question": {
-        "en": "How much plugs of type <b>Type 1 CCS</b> (aka Type 1 Combo) are available here?",
+        "en": "How many plugs of type <b>Type 1 CCS</b> (aka Type 1 Combo) are available here?",
         "nl": "Hoeveel stekkers van type <b>Type 1 CCS</b> (ook gekend als Type 1 Combo) heeft dit oplaadpunt?",
         "ca": "Quants connectors del tipus <b>Type 1 CCS</b> (aka Type 1 Combo) hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>Type 1 CCS</b> (aka Type 1 Combo) je k dispozici?",
@@ -45819,7 +45830,7 @@
     {
       "id": "plugs-amount-socket:tesla_supercharger",
       "question": {
-        "en": "How much plugs of type <b>Tesla Supercharger</b> are available here?",
+        "en": "How many plugs of type <b>Tesla Supercharger</b> are available here?",
         "nl": "Hoeveel stekkers van type <b>Tesla Supercharger</b> heeft dit oplaadpunt?",
         "ca": "Quants connectors del tipus <b>Tesla Supercharger</b> hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>Tesla Supercharger</b> je k dispozici?",
@@ -46016,7 +46027,7 @@
     {
       "id": "plugs-amount-socket:type2",
       "question": {
-        "en": "How much plugs of type <b>Type 2</b> (mennekes) are available here?",
+        "en": "How many plugs of type <b>Type 2</b> (mennekes) are available here?",
         "nl": "Hoeveel stekkers van type <b>Type 2</b> (mennekes) heeft dit oplaadpunt?",
         "ca": "Quants connectors del tipus <b>Type 2</b> (mennekes) hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>Type 2</b> (mennekes) je k dispozici?",
@@ -46214,7 +46225,7 @@
     {
       "id": "plugs-amount-socket:type2_combo",
       "question": {
-        "en": "How much plugs of type <b>Type 2 CCS</b> (mennekes) are available here?",
+        "en": "How many plugs of type <b>Type 2 CCS</b> (mennekes) are available here?",
         "nl": "Hoeveel stekkers van type <b>Type 2 CCS</b> (mennekes) heeft dit oplaadpunt?",
         "ca": "Quants connectors del tipus <b>Type 2 CCS</b> (mennekes) hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>Type 2 CCS</b> (mennekes) je k dispozici?",
@@ -46404,7 +46415,7 @@
     {
       "id": "plugs-amount-socket:type2_cable",
       "question": {
-        "en": "How much plugs of type <b>Type 2 with cable</b> (mennekes) are available here?",
+        "en": "How many plugs of type <b>Type 2 with cable</b> (mennekes) are available here?",
         "nl": "Hoeveel stekkers van type <b>Type 2 met kabel</b> (J1772) heeft dit oplaadpunt?",
         "ca": "Quants connectors del tipus <b>Type 2 with cable</b> (mennekes) hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>Type 2 with cable</b> (mennekes) je k dispozici?",
@@ -46602,7 +46613,7 @@
     {
       "id": "plugs-amount-socket:tesla_supercharger_ccs",
       "question": {
-        "en": "How much plugs of type <b>Tesla Supercharger CCS</b> (a branded type2_css) are available here?",
+        "en": "How many plugs of type <b>Tesla Supercharger CCS</b> (a branded type2_css) are available here?",
         "nl": "Hoeveel stekkers van type <b>Tesla Supercharger CCS</b> (een type2 CCS met Tesla-logo) heeft dit oplaadpunt?",
         "ca": "Quants connectors del tipus <b>Tesla Supercharger CCS</b> (a branded type2_css) hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>Tesla Supercharger CCS</b> (a branded type2_css) je k dispozici?",
@@ -46792,7 +46803,7 @@
     {
       "id": "plugs-amount-socket:tesla_destination_us",
       "question": {
-        "en": "How much plugs of type <b>Tesla Supercharger (destination)</b> are available here?",
+        "en": "How many plugs of type <b>Tesla Supercharger (destination)</b> are available here?",
         "nl": "Hoeveel stekkers van type <b>Tesla Supercharger (destination)</b> heeft dit oplaadpunt?",
         "ca": "Quants connectors del tipus <b>Tesla Supercharger (destination)</b> hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>Tesla Supercharger (destination)</b> je k dispozici?",
@@ -46989,7 +47000,7 @@
     {
       "id": "plugs-amount-socket:tesla_destination",
       "question": {
-        "en": "How much plugs of type <b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) are available here?",
+        "en": "How many plugs of type <b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) are available here?",
         "nl": "Hoeveel stekkers van type <b>Tesla supercharger (destination</b> (Een Type 2 met kabel en Tesla-logo) heeft dit oplaadpunt?",
         "ca": "Quants connectors del tipus <b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>Tesla supercharger (destination)</b> (A Type 2 with cable branded as tesla) je k dispozici?",
@@ -47187,7 +47198,7 @@
     {
       "id": "plugs-amount-socket:USB-A",
       "question": {
-        "en": "How much plugs of type <b>USB</b> to charge phones and small electronics are available here?",
+        "en": "How many plugs of type <b>USB</b> to charge phones and small electronics are available here?",
         "nl": "Hoeveel stekkers van type <b>USB</b> om GSMs en kleine electronica op te laden heeft dit oplaadpunt?",
         "ca": "Quants connectors del tipus <b>USB</b> to charge phones and small electronics hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>USB</b> to charge phones and small electronics je k dispozici?",
@@ -47376,7 +47387,7 @@
     {
       "id": "plugs-amount-socket:bosch_3pin",
       "question": {
-        "en": "How much plugs of type <b>Bosch Active Connect with 3 pins</b> and cable are available here?",
+        "en": "How many plugs of type <b>Bosch Active Connect with 3 pins</b> and cable are available here?",
         "nl": "Hoeveel stekkers van type <b>Bosch Active Connect met 3 pinnen</b> aan een kabel heeft dit oplaadpunt?",
         "ca": "Quants connectors del tipus <b>Bosch Active Connect with 3 pins</b> and cable hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>Bosch Active Connect with 3 pins</b> and cable je k dispozici?",
@@ -47521,7 +47532,7 @@
     {
       "id": "plugs-amount-socket:bosch_5pin",
       "question": {
-        "en": "How much plugs of type <b>Bosch Active Connect with 5 pins</b> and cable are available here?",
+        "en": "How many plugs of type <b>Bosch Active Connect with 5 pins</b> and cable are available here?",
         "nl": "Hoeveel stekkers van type <b>Bosch Active Connect met 5 pinnen</b> aan een kabel heeft dit oplaadpunt?",
         "ca": "Quants connectors del tipus <b>Bosch Active Connect with 5 pins</b> and cable hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>Bosch Active Connect with 5 pins</b> and cable je k dispozici?",
@@ -47666,7 +47677,7 @@
     {
       "id": "plugs-amount-socket:bs1363",
       "question": {
-        "en": "How much plugs of type <b>BS1363</b> (Type G) are available here?",
+        "en": "How many plugs of type <b>BS1363</b> (Type G) are available here?",
         "nl": "Hoeveel stekkers van type <b>BS1363</b> (VK 3-pin) heeft dit oplaadpunt?",
         "ca": "Quants connectors del tipus <b>BS1363</b> (Type G) hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>BS1363</b> (Type G) je k dispozici?",
@@ -47839,7 +47850,7 @@
     {
       "id": "plugs-amount-socket:nema5_15",
       "question": {
-        "en": "How much plugs of type <b>NEMA 5-15</b> (Type B) are available here?",
+        "en": "How many plugs of type <b>NEMA 5-15</b> (Type B) are available here?",
         "nl": "Hoeveel stekkers van type <b>NEMA 5-15</b> (VS 3-pin) heeft dit oplaadpunt?",
         "ca": "Quants connectors del tipus <b>NEMA 5-15</b> (Type B) hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>NEMA 5-15</b> (Type B) je k dispozici?",
@@ -48012,7 +48023,7 @@
     {
       "id": "plugs-amount-socket:sev1011_t23",
       "question": {
-        "en": "How much plugs of type <b>SEV 1011 T23</b> (Type J) are available here?",
+        "en": "How many plugs of type <b>SEV 1011 T23</b> (Type J) are available here?",
         "nl": "Hoeveel stekkers van type <b>SEV 1011 T23</b> (Zwitserse 3-pin) heeft dit oplaadpunt?",
         "ca": "Quants connectors del tipus <b>SEV 1011 T23</b> (Type J) hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>SEV 1011 T23</b> (Type J) je k dispozici?",
@@ -48185,7 +48196,7 @@
     {
       "id": "plugs-amount-socket:as3112",
       "question": {
-        "en": "How much plugs of type <b>AS3112</b> (Type I) are available here?",
+        "en": "How many plugs of type <b>AS3112</b> (Type I) are available here?",
         "nl": "Hoeveel stekkers van type <b>AS3112</b> (Australische 3-pin) heeft dit oplaadpunt?",
         "ca": "Quants connectors del tipus <b>AS3112</b> (Type I) hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>AS3112</b> (Type I) je k dispozici?",
@@ -48358,7 +48369,7 @@
     {
       "id": "plugs-amount-socket:nema_5_20",
       "question": {
-        "en": "How much plugs of type <b>NEMA 5-20</b> (Type B) are available here?",
+        "en": "How many plugs of type <b>NEMA 5-20</b> (Type B) are available here?",
         "nl": "Hoeveel stekkers van type <b>NEMA 5-20</b> (VS 3-pin) heeft dit oplaadpunt?",
         "ca": "Quants connectors del tipus <b>NEMA 5-20</b> (Type B) hi han disponibles aquí?",
         "cs": "Kolik zástrček typu <b>NEMA 5-20</b> (Type B) je k dispozici?",
@@ -48531,7 +48542,7 @@
     {
       "id": "OH",
       "question": {
-        "en": "When is this charging station opened?",
+        "en": "When is this charging station open?",
         "fr": "Quelles sont les horaires d'ouverture de {title()} ?",
         "de": "Wann ist die Ladestation geöffnet?",
         "nl": "Wanneer is dit oplaadpunt beschikbaar??",
@@ -48704,7 +48715,7 @@
           },
           "then": {
             "nl": "Betalend te gebruiken, maar gratis voor klanten van het bijhorende hotel/café/ziekenhuis/...",
-            "en": "Paid use, but free for customers of the hotel/pub/hospital/... who operates the charging station",
+            "en": "Paid use, but free for customers of the hotel/pub/hospital/... which operates the charging station",
             "ca": "De pagament, però gratuït per als clients de l'hotel/bar/hospital/... que gestiona l'estació de càrrega",
             "de": "Die Nutzung ist kostenpflichtig, aber für Kunden des Betreibers der Einrichtung, wie Hotel, Krankenhaus, ... kostenlos"
           }
@@ -48744,7 +48755,7 @@
     {
       "id": "charging_station_charge",
       "question": {
-        "en": "How much does one have to pay to use this charging station?",
+        "en": "How much do you have to pay to use this charging station?",
         "nl": "Hoeveel moet men betalen om dit oplaadpunt te gebruiken?",
         "ca": "Quant cal pagar per utilitzar aquesta estació de càrrega?",
         "de": "Wie viel muss man für die Nutzung dieser Ladestation bezahlen?"
@@ -48792,7 +48803,7 @@
           "if": "authentication:membership_card=yes",
           "ifnot": "authentication:membership_card=no",
           "then": {
-            "en": "Authentication by a membership card",
+            "en": "Authentication with a membership card",
             "nl": "Aanmelden met een lidkaart is mogelijk",
             "ca": "Autenticació mitjançant una targeta de soci",
             "de": "Authentifizierung durch eine Mitgliedskarte",
@@ -48803,7 +48814,7 @@
           "if": "authentication:app=yes",
           "ifnot": "authentication:app=no",
           "then": {
-            "en": "Authentication by an app",
+            "en": "Authentication with an app",
             "nl": "Aanmelden via een applicatie is mogelijk",
             "ca": "Autenticació mitjançant una aplicació",
             "de": "Authentifizierung per App",
@@ -48824,7 +48835,7 @@
           "if": "authentication:short_message=yes",
           "ifnot": "authentication:short_message=no",
           "then": {
-            "en": "Authentication via SMS is available",
+            "en": "Authentication via text message is available",
             "nl": "Aanmelden via SMS is mogelijk",
             "de": "Authentifizierung per SMS ist möglich",
             "fr": "Authentification possible par SMS"
@@ -48893,13 +48904,13 @@
     {
       "id": "Auth phone",
       "render": {
-        "en": "Authenticate by calling or SMS'ing to <a href='tel:{authentication:phone_call:number}'>{authentication:phone_call:number}</a>",
+        "en": "Authenticate by calling or texting <a href='tel:{authentication:phone_call:number}'>{authentication:phone_call:number}</a>",
         "nl": "Aanmelden door te bellen of te SMS'en naar <a href='tel:{authentication:phone_call:number}'>{authentication:phone_call:number}</a>",
         "ca": "Autentiqueu-vos trucant o enviant SMS a <a href='tel:{authentication:phone_call:number}'>{authentication:phone_call:number}</a>",
         "de": "Authentifiziere dich, indem du anrufst oder eine SMS sendest an <a href='tel:{authentication:phone_call:number}'>{authentication:phone_call:number}</a>"
       },
       "question": {
-        "en": "What's the phone number for authentication call or SMS?",
+        "en": "What phone number should you contact to authenticate (call or text)?",
         "nl": "Wat is het telefoonnummer dat men moet bellen of SMS'en om zich aan te melden?",
         "ca": "Quin és el número de telèfon per a la trucada d'autenticació o SMS?",
         "de": "Wie lautet die Telefonnummer für den Authentifizierungsanruf oder die SMS?"
@@ -48930,7 +48941,7 @@
     {
       "id": "charging_station_maxstay",
       "question": {
-        "en": "What is the maximum amount of time one is allowed to stay here?",
+        "en": "What is the maximum amount of time you are allowed to stay here?",
         "nl": "Hoelang mag een voertuig hier blijven staan?",
         "ca": "Quina és la quantitat màxima de temps que es permet permaneixer aquí?",
         "de": "Wie lange darf man hier maximal parken?"
@@ -48950,7 +48961,7 @@
         {
           "if": "maxstay=unlimited",
           "then": {
-            "en": "No timelimit on leaving your vehicle here",
+            "en": "No time limit on leaving your vehicle here",
             "nl": "Geen maximum parkeertijd",
             "ca": "No hi ha límit de temps per a deixar el teu vehicle aquí",
             "de": "Keine Höchstparkdauer"
@@ -49134,7 +49145,7 @@
     {
       "id": "charging_station_phone",
       "question": {
-        "en": "What number can one call if there is a problem with this charging station?",
+        "en": "What number can you call if there is a problem with this charging station?",
         "nl": "Wat is het telefoonnummer van de beheerder van dit oplaadpunt?",
         "ca": "A quin número es pot cridar si hi ha algun problema amb aquest punt de càrrega?",
         "de": "Welche Nummer kann man anrufen, wenn es ein Problem mit dieser Ladestation gibt?",
@@ -49397,7 +49408,7 @@
     {
       "id": "Parking:fee",
       "question": {
-        "en": "Does one have to pay a parking fee while charging?",
+        "en": "Do you have to pay a parking fee while charging?",
         "nl": "Moet men parkeergeld betalen tijdens het opladen?",
         "ca": "Cal pagar una taxa d'aparcament mentre es carrega?",
         "de": "Muss man während des Ladens eine Parkgebühr bezahlen?"
@@ -50058,7 +50069,7 @@
     },
     {
       "question": {
-        "en": "What valves are supported?",
+        "en": "What valves are available?",
         "nl": "Welke ventielen werken er met de pomp?",
         "fr": "Quelles valves sont compatibles ?",
         "gl": "Que válvulas son compatíbeis?",
@@ -50071,7 +50082,7 @@
         "ca": "Quines vàlvules són compatibles?"
       },
       "render": {
-        "en": "This pump supports the following valves: {valves}",
+        "en": "This pump has the following valves: {valves}",
         "nl": "Deze pomp werkt met de volgende ventielen: {valves}",
         "fr": "Cette pompe est compatible avec les valves suivantes : {valves}",
         "gl": "Esta bomba de ar admite as seguintes válvulas: {valves}",
@@ -50130,7 +50141,7 @@
         {
           "if": "valves=schrader",
           "then": {
-            "en": "Schrader (cars and mountainbikes)",
+            "en": "Schrader (cars and mountain bikes)",
             "nl": "Schrader (auto's en mountainbikes)",
             "fr": "Schrader (voitures et vélos de montagne)",
             "gl": "Schrader (para automóbiles)",
@@ -50218,7 +50229,7 @@
     {
       "id": "bike_repair_station-manometer",
       "question": {
-        "en": "Does the pump have a pressure indicator or manometer?",
+        "en": "Does the pump have a pressure gauge?",
         "nl": "Heeft deze pomp een luchtdrukmeter?",
         "fr": "Est-ce que la pompe à un manomètre integré ?",
         "gl": "Ten a bomba de ar un indicador de presión ou un manómetro?",
@@ -50240,7 +50251,7 @@
         {
           "if": "manometer=yes",
           "then": {
-            "en": "There is a manometer",
+            "en": "There is a pressure gauge",
             "nl": "Er is een luchtdrukmeter",
             "fr": "Il y a un manomètre",
             "gl": "Hai manómetro",
@@ -50259,7 +50270,7 @@
         {
           "if": "manometer=no",
           "then": {
-            "en": "There is no manometer",
+            "en": "There is no pressure gauge",
             "nl": "Er is geen luchtdrukmeter",
             "fr": "Il n'y a pas de manomètre",
             "gl": "Non hai manómetro",
@@ -50278,7 +50289,7 @@
         {
           "if": "manometer=broken",
           "then": {
-            "en": "There is manometer but it is broken",
+            "en": "There is a pressure gauge but it is broken",
             "nl": "Er is een luchtdrukmeter maar die is momenteel defect",
             "fr": "Il y a un manomètre mais il est cassé",
             "gl": "Hai manómetro pero está estragado",
@@ -76431,7 +76442,7 @@
             "charge="
           ],
           "then": {
-            "en": "Climbing here is free of charge",
+            "en": "It's free to climb here",
             "de": "Das Klettern ist hier kostenlos",
             "es": "La escalada es gratis",
             "nl": "Hier klimmen is gratis",
@@ -77812,7 +77823,7 @@
     {
       "id": "climbing_area_website",
       "question": {
-        "en": "Is there a (unofficial) website with more informations (e.g. topos)?",
+        "en": "Is there a (unofficial) website with more information (e.g. topos)?",
         "de": "Gibt es eine (inoffizielle) Website mit mehr Informationen (z.B. Topos)?",
         "ja": "もっと情報のある(非公式の)ウェブサイトはありますか(例えば、topos)?",
         "nl": "Is er een (onofficiële) website met meer informatie (b.v. met topos)?",
@@ -77885,7 +77896,7 @@
             "charge="
           ],
           "then": {
-            "en": "Climbing here is free of charge",
+            "en": "It's free to climb here",
             "de": "Das Klettern ist hier kostenlos",
             "es": "La escalada es gratis",
             "nl": "Hier klimmen is gratis",
@@ -78901,7 +78912,8 @@
         "it": "C'è un WC riservato alle persone in sedia a rotelle?",
         "da": "Er der et særligt toilet til kørestolsbrugere?",
         "ca": "Hi ha un lavabo específic per a usuaris amb cadira de rodes?",
-        "cs": "Je zde vyhrazená toaleta pro vozíčkáře?"
+        "cs": "Je zde vyhrazená toaleta pro vozíčkáře?",
+        "uk": "Чи є спеціальний туалет для людей на візках?"
       },
       "mappings": [
         {
@@ -78914,7 +78926,8 @@
             "es": "Hay un baño dedicado para usuarios con sillas de ruedas",
             "da": "Der er et særligt toilet til kørestolsbrugere",
             "ca": "Hi ha un lavabo dedicat per a usuaris amb cadira de rodes",
-            "cs": "K dispozici je speciální toaleta pro vozíčkáře"
+            "cs": "K dispozici je speciální toaleta pro vozíčkáře",
+            "uk": "Є спеціальний туалет для людей на інвалідних візках"
           },
           "if": "wheelchair=yes"
         },
@@ -78930,7 +78943,8 @@
             "es": "Sin acceso para sillas de ruedas",
             "da": "Ingen kørestolsadgang",
             "ca": "Sense accés per a cadires de rodes",
-            "cs": "Žádný bezbariérový přístup"
+            "cs": "Žádný bezbariérový přístup",
+            "uk": "Немає доступу для інвалідних візків"
           }
         },
         {
@@ -78941,7 +78955,8 @@
             "de": "Es gibt nur eine barrierefreie Toilette für Rollstuhlfahrer",
             "da": "Der er kun et særligt toilet til kørestolsbrugere",
             "ca": "És només un lavabo per a usuaris amb cadira de rodes",
-            "cs": "K dispozici je pouze vyhrazená toaleta pro vozíčkáře"
+            "cs": "K dispozici je pouze vyhrazená toaleta pro vozíčkáře",
+            "uk": "Є лише спеціальний туалет для людей на візках"
           }
         }
       ],
@@ -80475,7 +80490,7 @@
         {
           "if": "date=",
           "then": {
-            "en": "This clock does probably not display the date",
+            "en": "This clock probably doesn't display the date",
             "nl": "Deze klok toont de datum waarschijnlijk niet",
             "de": "Diese Uhr zeigt wahrscheinlich nicht das Datum an",
             "ca": "Aquest rellotge probablement no mostra la data",
@@ -80532,7 +80547,7 @@
         {
           "if": "thermometer=",
           "then": {
-            "en": "This clock does probably not display the temperature",
+            "en": "This clock probably doesn't display the temperature",
             "nl": "Deze klok toont de temperatuur waarschijnlijk niet",
             "de": "Diese Uhr zeigt wahrscheinlich nicht die Temperatur an",
             "ca": "Aquest rellotge probablement no mostra la temperatura",
@@ -80553,7 +80568,7 @@
     {
       "id": "barometer",
       "question": {
-        "en": "Does this clock also display the air pressure?",
+        "en": "Does this clock also display the air pressure? (barometer)",
         "nl": "Toont deze klok ook de luchtdruk?",
         "de": "Zeigt diese Uhr auch den Luftdruck an?",
         "ca": "Aquest rellotge també mostra la pressió de l'aire?",
@@ -80589,7 +80604,7 @@
         {
           "if": "barometer=",
           "then": {
-            "en": "This clock does probably not display the air pressure",
+            "en": "This clock probably doesn't display the air pressure",
             "nl": "Deze klok toont de luchtdruk waarschijnlijk niet",
             "de": "Diese Uhr zeigt wahrscheinlich nicht den Luftdruck an",
             "ca": "Aquest rellotge probablement no mostra la pressió de l'aire",
@@ -80646,7 +80661,7 @@
         {
           "if": "hygrometer=",
           "then": {
-            "en": "This clock does probably not display the humidity",
+            "en": "This clock probably doesn't display the humidity",
             "nl": "Deze klok toont de luchtvochtigheid waarschijnlijk niet",
             "de": "Diese Uhr zeigt wahrscheinlich nicht die Luftfeuchtigkeit an",
             "ca": "Aquest rellotge probablement no mostra la humitat",
@@ -81042,7 +81057,7 @@
         {
           "if": "cycle_barrier=squeeze",
           "then": {
-            "en": "Squeeze gate, gap is smaller at top, than at the bottom",
+            "en": "Squeeze gate - the gap is smaller at the top than at the bottom",
             "nl": "Knijppoort, ruimte is smaller aan de top, dan aan de bodem",
             "de": "Eine Durchfahrtsbeschränkung, Durchfahrtsbreite ist oben kleiner als unten",
             "hu": "Szűkítőkapu: a rés felül keskenyebb, mint alul",
@@ -81324,7 +81339,7 @@
     {
       "id": "bicycle_counter_name",
       "question": {
-        "en": "What is the name of the counted location?",
+        "en": "What is the name of the monitored location?",
         "cs": "Jak se jmenuje započítávaná lokalita?",
         "de": "Wie lautet der Name des Zählorts?"
       },
@@ -81332,14 +81347,14 @@
         "key": "name",
         "type": "string",
         "placeholder": {
-          "en": "Name of the counted location",
+          "en": "Name of the monitored location",
           "cs": "Název započítávané lokality",
           "de": "Name des Zählorts"
         },
         "inline": true
       },
       "render": {
-        "en": "Name of the counted location: {name}",
+        "en": "Name of the monitored location: {name}",
         "de": "Name des Zählorts: {name}"
       },
       "condition": {
@@ -81488,7 +81503,7 @@
     },
     {
       "question": {
-        "en": "What is the name of this bike cafe?",
+        "en": "What is the name of this bike café?",
         "nl": "Wat is de naam van dit fietscafé?",
         "fr": "Quel est le nom de ce Café vélo ?",
         "gl": "Cal é o nome deste café de ciclistas?",
@@ -81505,7 +81520,7 @@
         "es": "¿Cómo se llama la cafetería para ciclistas?"
       },
       "render": {
-        "en": "This bike cafe is called {name}",
+        "en": "This bike café is called {name}",
         "nl": "Dit fietscafé heet {name}",
         "fr": "Ce Café vélo s'appelle {name}",
         "gl": "Este café de ciclistas chámase {name}",
@@ -81551,7 +81566,7 @@
     {
       "id": "bike_cafe-bike-pump",
       "question": {
-        "en": "Does this bike cafe offer a bike pump for use by anyone?",
+        "en": "Does this bike café offer a bike pump for use by anyone?",
         "nl": "Biedt dit fietscafé een fietspomp aan voor iedereen?",
         "fr": "Est-ce que ce Café vélo propose une pompe en libre accès ?",
         "gl": "Este café de ciclistas ofrece unha bomba de ar para que calquera persoa poida usala?",
@@ -81571,7 +81586,7 @@
         {
           "if": "service:bicycle:pump=yes",
           "then": {
-            "en": "This bike cafe offers a bike pump for anyone",
+            "en": "This bike café offers a bike pump for anyone",
             "nl": "Dit fietscafé biedt een fietspomp aan voor eender wie",
             "fr": "Ce Café vélo offre une pompe en libre accès",
             "gl": "Este café de ciclistas ofrece unha bomba de ar",
@@ -81591,7 +81606,7 @@
         {
           "if": "service:bicycle:pump=no",
           "then": {
-            "en": "This bike cafe doesn't offer a bike pump for anyone",
+            "en": "This bike café doesn't offer a bike pump for anyone",
             "nl": "Dit fietscafé biedt geen fietspomp aan voor iedereen",
             "fr": "Ce Café vélo n'offre pas de pompe en libre accès",
             "gl": "Este café de ciclistas non ofrece unha bomba de ar",
@@ -81654,7 +81669,7 @@
         {
           "if": "service:bicycle:diy=yes",
           "then": {
-            "en": "This bike cafe offers tools for DIY repair",
+            "en": "This bike café offers tools for DIY repair",
             "nl": "Dit fietscafé biedt gereedschap aan om je fiets zelf te herstellen",
             "fr": "Ce Café vélo propose des outils pour réparer son vélo soi-même",
             "gl": "Hai ferramentas aquí para arranxar a túa propia bicicleta",
@@ -81673,7 +81688,7 @@
         {
           "if": "service:bicycle:diy=no",
           "then": {
-            "en": "This bike cafe doesn't offer tools for DIY repair",
+            "en": "This bike café doesn't offer tools for DIY repair",
             "nl": "Dit fietscafé biedt geen gereedschap aan om je fiets zelf te herstellen",
             "fr": "Ce Café vélo ne propose pas d'outils pour réparer son vélo soi-même",
             "gl": "Non hai ferramentas aquí para arranxar a túa propia bicicleta",
@@ -81715,7 +81730,7 @@
     {
       "id": "bike_cafe-repair-service",
       "question": {
-        "en": "Does this bike cafe repair bikes?",
+        "en": "Does this bike café repair bikes?",
         "nl": "Herstelt dit fietscafé fietsen?",
         "fr": "Est-ce que ce Café vélo répare les vélos ?",
         "gl": "Este café de ciclistas arranxa bicicletas?",
@@ -81734,7 +81749,7 @@
         {
           "if": "service:bicycle:repair=yes",
           "then": {
-            "en": "This bike cafe repairs bikes",
+            "en": "This bike café repairs bikes",
             "nl": "Dit fietscafé herstelt fietsen",
             "fr": "Ce Café vélo répare les vélos",
             "gl": "Este café de ciclistas arranxa bicicletas",
@@ -81753,7 +81768,7 @@
         {
           "if": "service:bicycle:repair=no",
           "then": {
-            "en": "This bike cafe doesn't repair bikes",
+            "en": "This bike café doesn't repair bikes",
             "nl": "Dit fietscafé herstelt geen fietsen",
             "fr": "Ce Café vélo ne répare pas les vélos",
             "gl": "Este café de ciclistas non arranxa bicicletas",
@@ -81795,7 +81810,7 @@
     {
       "id": "bike_cafe_opening_hours",
       "question": {
-        "en": "When it this bike café opened?",
+        "en": "When is this bike café open?",
         "fr": "Quand ce Café vélo est-t-il ouvert ?",
         "de": "Wann ist dieses Fahrradcafé geöffnet?",
         "nl": "Wanneer is dit fietscafé geopend?",
@@ -83777,7 +83792,8 @@
         "de": "Der Name der Feuerwache ist {name}.",
         "es": "Este parque de bomberos se llama {name}.",
         "ca": "Aquest parc de bombers es diu {name}.",
-        "cs": "Tato stanice se jmenuje {name}."
+        "cs": "Tato stanice se jmenuje {name}.",
+        "uk": "Ця станція називається {name}."
       },
       "condition": {
         "or": [
@@ -83813,7 +83829,8 @@
         "nl": "Dit station ligt aan {addr:street}.",
         "de": "Die Feuerwache liegt an der Straße namens {addr:street}.",
         "ca": "Aquesta estació es troba al llarg d'una carretera anomenada {addr:street}.",
-        "cs": "Tato stanice je podél dálnice s názvem {addr:street}."
+        "cs": "Tato stanice je podél dálnice s názvem {addr:street}.",
+        "uk": "Ця станція знаходиться вздовж вулиці під назвою {addr:street}."
       },
       "condition": {
         "or": [
@@ -83834,7 +83851,8 @@
         "nl": "Waar is dit station gelegen? (v.b. naam van de buurt, dorp of stad)",
         "de": "Wo befindet sich die Station? (z. B. Name des Viertels, des Dorfes oder der Stadt)",
         "ca": "On es troba aquesta estació? (p.e. nom del barri, poble o ciutat)",
-        "cs": "Kde se stanice nachází? (např. název čtvrti, obce nebo města)"
+        "cs": "Kde se stanice nachází? (např. název čtvrti, obce nebo města)",
+        "uk": "Де розташована станція? (наприклад, назва району, села чи міста)"
       },
       "freeform": {
         "key": "addr:place",
@@ -83870,7 +83888,8 @@
         "de": "Welche Organisation betreibt diese Station?",
         "es": "¿Que agencia opera este parque?",
         "ca": "Quina agència opera aquesta estació?",
-        "cs": "Jaká agentura provozuje tuto stanici?"
+        "cs": "Jaká agentura provozuje tuto stanici?",
+        "uk": "Яке відомство управляє цією станцією?"
       },
       "render": {
         "en": "This station is operated by {operator}.",
@@ -83925,7 +83944,8 @@
         "nl": "Wat voor soort beheerder beheert dit station?",
         "de": "Wie kann der Betreiber der Feuerwache eingestuft werden?",
         "ca": "Com es classifica l'operador de l'estació?",
-        "cs": "Jak je klasifikován provozovatel stanice?"
+        "cs": "Jak je klasifikován provozovatel stanice?",
+        "uk": "Як класифікується оператор станції?"
       },
       "render": {
         "en": "The operator is a(n) {operator:type} entity.",
@@ -83958,7 +83978,8 @@
             "de": "Die Station wird von einer Behörde betrieben.",
             "es": "Este parque de bomberos lo opera el gobierno.",
             "ca": "Aquest parc l'opera el govern.",
-            "cs": "Provozovatelem stanice je vláda."
+            "cs": "Provozovatelem stanice je vláda.",
+            "uk": "Станція знаходиться в управлінні держави."
           }
         },
         {
@@ -83975,7 +83996,8 @@
             "nl": "Dit station wordt beheerd door een informele of gemeenschapsorganisatie.",
             "de": "Die Feuerwache wird von einer gemeinnützigen Organisation betrieben.",
             "ca": "Aquesta estació l'opera una comunitat o organització informal.",
-            "cs": "Provozovatelem stanice je komunitní nebo neformální organizace."
+            "cs": "Provozovatelem stanice je komunitní nebo neformální organizace.",
+            "uk": "Станція управляється громадською або неформальною організацією."
           }
         },
         {
@@ -83992,7 +84014,8 @@
             "nl": "Dit station wordt beheerd door een formele groep vrijwilligers.",
             "de": "Die Feuerwache wird von einer Freiwilligenorganisation betrieben.",
             "ca": "Aquest operació l'opera un grup formal de voluntaris.",
-            "cs": "Stanice je provozována formální skupinou dobrovolníků."
+            "cs": "Stanice je provozována formální skupinou dobrovolníků.",
+            "uk": "Станцію обслуговує офіційна група волонтерів."
           }
         },
         {
@@ -84009,7 +84032,8 @@
             "nl": "Dit station wordt door private organisatie beheerd.",
             "de": "Die Feuerwache wird von einer privaten Organisation betrieben.",
             "ca": "Aquesta estació l'opera una entitat privada.",
-            "cs": "Stanice je provozována soukromě."
+            "cs": "Stanice je provozována soukromě.",
+            "uk": "Станція знаходиться в приватному управлінні."
           }
         }
       ],
@@ -84464,7 +84488,8 @@
         "es": "¿De que color es la boca de incendios?",
         "ca": "De quin color es l'hidrant?",
         "cs": "Jakou barvu má hydrant?",
-        "pl": "Jakiego koloru jest ten hydrant?"
+        "pl": "Jakiego koloru jest ten hydrant?",
+        "uk": "Якого кольору гідрант?"
       },
       "render": {
         "en": "The hydrant color is {colour}",
@@ -84502,7 +84527,8 @@
             "es": "La boca de incendios es amarilla.",
             "ca": "L'hidrant és de color groc.",
             "cs": "Barva hydrantu je žlutá.",
-            "pl": "Ten hydrant ma żółty kolor."
+            "pl": "Ten hydrant ma żółty kolor.",
+            "uk": "Колір гідранта - жовтий."
           }
         },
         {
@@ -84522,7 +84548,8 @@
             "ca": "L'hidrant és de color roig.",
             "es": "La boca de incendios es roja.",
             "cs": "Barva hydrantu je červená.",
-            "pl": "Ten hydrant ma czerwony kolor."
+            "pl": "Ten hydrant ma czerwony kolor.",
+            "uk": "Колір гідранта - червоний."
           }
         }
       ],
@@ -84547,7 +84574,8 @@
         "es": "¿De qué tipo es esta boca de incendios?",
         "ca": "Quin tipus d'hidrant és?",
         "cs": "O jaký typ hydrantu se jedná?",
-        "pl": "Jakiego rodzaju jest to hydrant?"
+        "pl": "Jakiego rodzaju jest to hydrant?",
+        "uk": "Який це тип гідранта?"
       },
       "freeform": {
         "key": "fire_hydrant:type",
@@ -84582,7 +84610,8 @@
             "es": "De pilar.",
             "ca": "De pilar.",
             "ru": "Наземный.",
-            "cs": "Typ sloupek."
+            "cs": "Typ sloupek.",
+            "uk": "Стовповий тип."
           },
           "icon": {
             "path": "./assets/themes/hailhydrant/hydrant_pillar.svg",
@@ -84605,7 +84634,8 @@
             "es": "De tubería.",
             "ca": "De tuberia.",
             "ru": "Труба.",
-            "cs": "Typ potrubí."
+            "cs": "Typ potrubí.",
+            "uk": "Тип труби."
           },
           "icon": {
             "path": "./assets/themes/hailhydrant/hydrant_unknown.svg",
@@ -84629,7 +84659,8 @@
             "nl": "Muur type.",
             "es": "De pared.",
             "ca": "De paret.",
-            "cs": "Nástěnný typ."
+            "cs": "Nástěnný typ.",
+            "uk": "Настінний тип."
           },
           "icon": {
             "path": "./assets/themes/hailhydrant/hydrant_unknown.svg",
@@ -84652,7 +84683,8 @@
             "ca": "Subterrani.",
             "es": "Bajo tierra.",
             "ru": "Подземный.",
-            "cs": "Podzemní typ."
+            "cs": "Podzemní typ.",
+            "uk": "Підземного типу."
           },
           "icon": {
             "path": "./assets/themes/hailhydrant/hydrant_underground.svg",
@@ -84764,7 +84796,8 @@
         "ca": "Quin és el diàmetre d'aquest hidrant?",
         "ru": "Какой диаметр трубы у этого гидранта?",
         "fr": "Quel est le diamètre du tuyau de cette bouche d'incendie ?",
-        "cs": "Jaký je průměr trubky tohoto hydrantu?"
+        "cs": "Jaký je průměr trubky tohoto hydrantu?",
+        "uk": "Який діаметр труби цього гідранта?"
       },
       "freeform": {
         "key": "fire_hydrant:diameter",
@@ -87781,7 +87814,8 @@
         "fr": "<h3>Article Wikipedia de la référence au nom</h3>{wikipedia(name:etymology:wikidata):max-height:20rem}",
         "ca": "<h3> Article de la Viquipèdia del nom donant</h3>{wikipedia(name:etymology:wikidata):max-height:20rem}",
         "cs": "<h3>Článek autora jména na Wikipedii</h3>{wikipedia(name:etymology:wikidata):max-height:20rem}",
-        "da": "<h3>Wikipedia-artikel om navnets ophav</h3>{wikipedia(name:etymology:wikidata):max-height:20rem}"
+        "da": "<h3>Wikipedia-artikel om navnets ophav</h3>{wikipedia(name:etymology:wikidata):max-height:20rem}",
+        "uk": "<h3>Стаття у Вікіпедії про давача імені</h3>{wikipedia(name:etymology:wikidata):max-height:20rem}"
       }
     },
     {
@@ -87868,7 +87902,8 @@
         "fr": "{image_carousel(image:streetsign)}<br/>{image_upload(image:streetsign, Ajouter une photo de la plaque de rue)}",
         "ca": "{image_carousel(image:streetsign)}<br/>{image_upload(image:streetsign, Afegeix una imatge de la placa amb el nom del carrer)}",
         "cs": "{image_carousel(image:streetsign)}<br/>{image_upload(image:streetsign, Add image of a street name sign)}",
-        "da": "{image_carousel(image:streetsign)}<br/>{image_upload(image:streetsign, Tilføj foto af gadenavneskilt)}"
+        "da": "{image_carousel(image:streetsign)}<br/>{image_upload(image:streetsign, Tilføj foto af gadenavneskilt)}",
+        "uk": "{image_carousel(image:streetsign)}<br/>{image_upload(image:streetsign, Додати зображення таблички з назвою вулиці)}"
       },
       "condition": {
         "or": [
@@ -88071,7 +88106,7 @@
           "if": "access=permissive",
           "then": {
             "de": "Zugang bis auf Widerruf",
-            "en": "Access until revoked",
+            "en": "Access until revoked (Permissive)",
             "cs": "Přístup až do odvolání",
             "es": "Acceso hasta que se anule"
           }
@@ -88146,7 +88181,7 @@
     {
       "id": "fuel",
       "question": {
-        "en": "How ist the grill fueled?",
+        "en": "How is the grill fuelled?",
         "de": "Mit was wird die Grillstelle angefeuert?",
         "cs": "Jak je gril napájen?",
         "es": "¿Cómo se alimenta la parrilla?"
@@ -92817,7 +92852,7 @@
             ]
           },
           "then": {
-            "en": "A wheelchair can easily use this birdhide",
+            "en": "A wheelchair user can easily use this bird hide",
             "nl": "Een rolstoel raakt er vlot",
             "da": "En kørestolsbruger kan sagtens bruge dette fugleskjul",
             "de": "Der Ort ist rollstuhlgerecht gestaltet",
@@ -92833,7 +92868,7 @@
             ]
           },
           "then": {
-            "en": "This birdhide is reachable by wheelchair, but it is not easy",
+            "en": "This bird hide is accessible in a wheelchair, but it is not easy",
             "nl": "Je kan er raken met een rolstoel, maar het is niet makkelijk",
             "da": "Dette fugleskjul kan nås med kørestol, men det er ikke nemt",
             "de": "Der Ort ist nur eingeschränkt rollstuhlgerecht gestaltet",
@@ -94864,7 +94899,7 @@
         {
           "if": "aerialway=gondola",
           "then": {
-            "en": "This is a gondola where the cars go around in continuous circles",
+            "en": "This is a gondola where the cars loop around once reaching the end.",
             "de": "Es handelt sich um eine Seilbahn, bei der die Kabinen in ständigen Kreisen fahren",
             "cs": "Jedná se o gondolu, kde vozy jezdí v nepřetržitých kruzích"
           },
@@ -94924,9 +94959,10 @@
         {
           "if": "aerialway=rope_tow",
           "then": {
-            "en": "A tow line which which drags skieers",
+            "en": "A tow line which which drags skiers",
             "de": "Eine Schleppleine, die Skifahrer mit sich zieht",
-            "cs": "Vlečné lano, které táhne lyžaře"
+            "cs": "Vlečné lano, které táhne lyžaře",
+            "ru": "Буксировочный трос, который тащит лыжников"
           }
         },
         {
@@ -94940,7 +94976,7 @@
         {
           "if": "aerialway=zip_line",
           "then": {
-            "en": "A zip line. (A touristical attraction where adventurous people go down at high speeds) ",
+            "en": "A zip line. (A tourist attraction where adventurous people go down at high speeds)",
             "de": "Eine Seilrutsche. (Eine Touristenattraktion, bei der abenteuerlustige Menschen mit hoher Geschwindigkeit hinunterfahren) ",
             "pl": "Tyrolka. (Atrakcja turystyczna, która pozwala żądnym przygód zjechać z dużą szybkością) ",
             "cs": "Lano na visuté dráze. (Turistická atrakce, kde se odvážlivci spouštějí vysokou rychlostí) "
@@ -94962,13 +94998,14 @@
     {
       "id": "duration",
       "question": {
-        "en": "How long takes a single journey with this elevator?",
+        "en": "How long does a single journey take on this elevator?",
         "de": "Wie lange dauert eine Fahrt mit diesem Aufzug?",
         "fr": "Combien de temps dure le trajet dans cet ascenseur ?",
         "pl": "Jak długo trwa pojedynczy przejazd tą windą?",
         "es": "¿Cuánto dura un viaje en este ascensor?",
         "cs": "Jak dlouho trvá jedna jízda tímto výtahem?",
-        "ca": "Quant de temps triga un trajecte amb aquest ascensor?"
+        "ca": "Quant de temps triga un trajecte amb aquest ascensor?",
+        "ru": "Сколько времени занимает один подъем на этом подъемнике?"
       },
       "questionHint": {
         "en": "This excludes the waiting time.",
@@ -95007,7 +95044,7 @@
         "inline": true
       },
       "question": {
-        "en": "How many people fit a single carriage?",
+        "en": "How many people fit in a single carriage?",
         "de": "Wie viele Leute passen in eine Kabine?",
         "pl": "Ile osób może pomieścić jeden wagon?",
         "es": "¿Cuál es la capacidad de la cabina?",
@@ -95015,7 +95052,7 @@
         "cs": "Kolik osob se vejde do jednoho vozu?"
       },
       "render": {
-        "en": "{aerialway:occupancy} people fit a single carriage",
+        "en": "{aerialway:occupancy} people fit in a single carriage",
         "de": "{aerialway:occupancy} Leute passen in eine Kabine",
         "pl": "{aerialway:occupancy} osób mieści się w jednym wagonie",
         "cs": "{aerialway:occupancy} osob se vejde do jednoho vozu",
@@ -95127,7 +95164,8 @@
           "then": {
             "en": "This aerialway can only be taken to the top",
             "de": "Diese Seilbahn kann nur nach oben gefahren werden",
-            "cs": "Touto lanovkou lze vyjet pouze na vrchol"
+            "cs": "Touto lanovkou lze vyjet pouze na vrchol",
+            "ru": "По этой канатной дороге можно подняться только на самый верх"
           }
         },
         {
@@ -95150,10 +95188,11 @@
     {
       "id": "length",
       "render": {
-        "en": "This aerialway is {_length:km} kilometer long",
+        "en": "This aerialway is {_length:km} kilometers long",
         "de": "Die Seilbahn hat eine Länge von {_length:km} km",
         "fr": "Cette voie aérienne fait {_length:km} kilomètre de long",
-        "cs": "Tato dráha je dlouhá {_length:km} kilometr"
+        "cs": "Tato dráha je dlouhá {_length:km} kilometr",
+        "ru": "Длина этой воздушной трассы составляет {_length:km} километра"
       },
       "condition": {
         "and": [
@@ -95234,7 +95273,7 @@
         },
         {
           "then": {
-            "en": "Injured animals are rehabilitated here until they can be released in nature again ",
+            "en": "Injured animals are rehabilitated here until they can be released in nature again",
             "de": "Tiere werden hier untergebracht und gepflegt bis sie wieder in freier Natur ausgesetzt werden können ",
             "es": "Los animales heridos se rehabilitan aquí hasta que pueden ser liberados de nuevo en la naturaleza ",
             "zh_Hans": "受伤的动物在这里康复，直到它们可以再次被释放到大自然中 ",
@@ -96655,7 +96694,8 @@
           "then": {
             "en": "Free to use",
             "nl": "Gratis te gebruiken",
-            "de": "Nutzung kostenlos"
+            "de": "Nutzung kostenlos",
+            "uk": "Вільне використання"
           }
         },
         {
@@ -96663,7 +96703,8 @@
           "then": {
             "en": "Paid playground",
             "nl": "Betalend",
-            "de": "Gebührenpflichtiger Spielplatz"
+            "de": "Gebührenpflichtiger Spielplatz",
+            "uk": "Платний дитячий майданчик"
           }
         }
       ],
@@ -96687,7 +96728,8 @@
         "de": "Welchen Bodenbelag hat dieser Spielplatz?",
         "fr": "De quelle matière est la surface de l’aire de jeu ?",
         "ca": "Quina és la superfície d'aquest parc infantil?",
-        "cs": "Jaký je povrch tohoto hřiště?"
+        "cs": "Jaký je povrch tohoto hřiště?",
+        "uk": "Яка поверхня цього дитячого майданчика?"
       },
       "render": {
         "nl": "De ondergrond is <b>{surface}</b>",
@@ -96716,7 +96758,8 @@
             "fr": "La surface est en <b>gazon</b>",
             "es": "La superficie es <b>hierba</b>",
             "ca": "La superfície és <b>herba</b>",
-            "cs": "Povrch je <b>tráva</b>"
+            "cs": "Povrch je <b>tráva</b>",
+            "uk": "Поверхня - <b>трава</b>"
           }
         },
         {
@@ -96730,7 +96773,8 @@
             "fr": "La surface est en <b>sable</b>",
             "es": "La superficie es <b>arena</b>",
             "ca": "La superfície és <b>sorra</b>",
-            "cs": "Povrch je <b>písek</b>"
+            "cs": "Povrch je <b>písek</b>",
+            "uk": "Поверхня - <b>пісок</b>"
           }
         },
         {
@@ -96743,7 +96787,8 @@
             "ru": "Покрытие из <b>щепы</b>",
             "fr": "La surface est en <b>copeaux de bois</b>",
             "ca": "La superfície consisteix en <b>estelles</b>",
-            "cs": "Povrch tvoří <b>dřevěná štěpka</b>"
+            "cs": "Povrch tvoří <b>dřevěná štěpka</b>",
+            "uk": "Поверхня складається з <b>деревної стружки</b>"
           }
         },
         {
@@ -96757,7 +96802,8 @@
             "fr": "La surface est en <b>pavés</b>",
             "es": "La superficie es de <b>adoquines</b>",
             "ca": "La superfície són <b>llambordes</b>",
-            "cs": "Povrch je <b>dlažební kostky</b>"
+            "cs": "Povrch je <b>dlažební kostky</b>",
+            "uk": "Покриття - <b>бруківка</b>"
           }
         },
         {
@@ -96771,7 +96817,8 @@
             "fr": "La surface est en <b>bitume</b>",
             "es": "La superficie es <b>asfalto</b>",
             "ca": "La superfície és <b>asfalt</b>",
-            "cs": "Povrch je <b>asfalt</b>"
+            "cs": "Povrch je <b>asfalt</b>",
+            "uk": "Покриття - <b>асфальт</b>"
           }
         },
         {
@@ -96785,7 +96832,8 @@
             "fr": "La surface est en <b>béton</b>",
             "es": "La superficie es <b>hormigón</b>",
             "ca": "La superfície és <b>formigó</b>",
-            "cs": "Povrch je <b>beton</b>"
+            "cs": "Povrch je <b>beton</b>",
+            "uk": "Поверхня - <b>бетон</b>"
           }
         },
         {
@@ -96822,7 +96870,8 @@
             "en": "The surface is tartan - a synthetic, springy surface typically seen on athletic pistes",
             "nl": "De ondergrond bestaat uit Tartan - een synthetisch, elastisch en poreus materiaal dat je ook vindt op atletiekpistes",
             "de": "Der Belag ist aus Tartan - ein synthetischer, federnder Belag, der typischerweise auf Sportbahnen zu finden ist",
-            "fr": "La surface est en tartan - un revêtement synthétique typiquement utilisé sur les pistes d'athlétisme"
+            "fr": "La surface est en tartan - un revêtement synthétique typiquement utilisé sur les pistes d'athlétisme",
+            "uk": "Покриття - тартан - синтетична, пружна поверхня, яку зазвичай можна побачити на спортивних трасах"
           }
         },
         {
@@ -96831,7 +96880,8 @@
             "en": "The surface is made from rubber, such as rubber tiles, rubber mulch or a big rubber area",
             "nl": "De ondergrond bestaat uit rubber, zoals rubberen tegels, rubber snippers of een groot rubberen oppervlak",
             "de": "Die Oberfläche besteht aus Gummi, z. B. aus Gummifliesen, Gummimulch oder einer großen Gummifläche",
-            "fr": "La surface est en caoutchouc, comme des dalles de caoutchouc, des copeaux de caoutchouc ou une grande surface en caoutchouc"
+            "fr": "La surface est en caoutchouc, comme des dalles de caoutchouc, des copeaux de caoutchouc ou une grande surface en caoutchouc",
+            "uk": "Поверхня зроблена з гуми, наприклад, гумова плитка, гумова мульча або велика гумова площа"
           }
         },
         {
@@ -96839,7 +96889,8 @@
           "then": {
             "en": "The surface is <b>fine gravel</b> (less then 2 cm per stone)",
             "nl": "De ondergrond bestaat uit <b>kleine grindsteentjes</b> (steentjes kleiner dan 2 cm)",
-            "de": "Die Oberfläche ist <b>feiner Kies</b> (weniger als 2 cm pro Stein)"
+            "de": "Die Oberfläche ist <b>feiner Kies</b> (weniger als 2 cm pro Stein)",
+            "uk": "Поверхня - <b>дрібний гравій</b> (менше 2 см на камінь)"
           }
         }
       ],
@@ -96851,7 +96902,8 @@
         "de": "Wenn es mehrere gibt, wähle den am häufigsten vorkommende aus",
         "fr": "Pour plusieurs matières, sélectionner la principale",
         "ca": "Si n'hi ha múltiples, selecciona la més predominant",
-        "cs": "Pokud jich je více, vyberte nejčastěji se vyskytující"
+        "cs": "Pokud jich je více, vyberte nejčastěji se vyskytující",
+        "uk": "Якщо їх декілька, виберіть найпоширеніший"
       },
       "condition": {
         "and": [
@@ -96874,7 +96926,8 @@
         "ru": "Эта игровая площадка освещается ночью?",
         "ca": "Aquest parc infantil està il·luminat per la nit?",
         "cs": "Je toto hřiště v noci osvětlené?",
-        "pl": "Czy ten plac zabaw jest oświetlony w nocy?"
+        "pl": "Czy ten plac zabaw jest oświetlony w nocy?",
+        "uk": "Чи освітлюється цей майданчик вночі?"
       },
       "mappings": [
         {
@@ -96888,7 +96941,8 @@
             "fr": "L’aire de jeu est éclairée de nuit",
             "ca": "Aquest parc infantil està il·luminat per la nit",
             "cs": "Toto hřiště je v noci osvětleno",
-            "pl": "Ten plac zabaw jest oświetlony w nocy"
+            "pl": "Ten plac zabaw jest oświetlony w nocy",
+            "uk": "Цей майданчик освітлюється вночі"
           }
         },
         {
@@ -96902,7 +96956,8 @@
             "fr": "L’aire de jeu n’est pas éclairée de nuit",
             "ca": "Aquest parc infantil no està il·luminat per la nit",
             "cs": "Toto hřiště není v noci osvětleno",
-            "pl": "Ten plac zabaw nie jest oświetlony w nocy"
+            "pl": "Ten plac zabaw nie jest oświetlony w nocy",
+            "uk": "Цей майданчик не освітлюється вночі"
           }
         }
       ],
@@ -96926,7 +96981,8 @@
         "de": "Zugang nur für Kinder ab {min_age} Jahren",
         "es": "Accesible a niños menores de {min_age} años",
         "ca": "Accessible a nens menors de {min_age} anys",
-        "cs": "Přístupné dětem starším {min_age} let"
+        "cs": "Přístupné dětem starším {min_age} let",
+        "uk": "Доступно для дітей старше {min_age} років"
       },
       "question": {
         "nl": "Wat is de minimale leeftijd om op deze speeltuin te mogen?",
@@ -96936,7 +96992,8 @@
         "ru": "С какого возраста доступна эта детская площадка?",
         "de": "Ab welchem Alter dürfen Kinder auf dem Spielplatz spielen?",
         "ca": "Quina és l'edat mínima requerida per a accedir al parc infantil?",
-        "cs": "Jaký je minimální věk pro vstup na toto hřiště?"
+        "cs": "Jaký je minimální věk pro vstup na toto hřiště?",
+        "uk": "Який мінімальний вік, необхідний для доступу до цього дитячого майданчика?"
       },
       "freeform": {
         "key": "min_age",

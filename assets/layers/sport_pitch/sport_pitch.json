@@ -142,7 +142,8 @@
         "it": "una tavolo da tennistavolo",
         "ru": "Стол для настольного тенниса",
         "de": "eine Tischtennisplatte",
-        "cs": "stůl na stolní tenis"
+        "cs": "stůl na stolní tenis",
+        "hu": "pingpongasztal"
       },
       "tags": [
         "leisure=pitch",

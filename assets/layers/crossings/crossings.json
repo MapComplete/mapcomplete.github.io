@@ -12,7 +12,7 @@
     "cs": "Přechody"
   },
   "description": {
-    "en": "Crossings for pedestrians and cyclists",
+    "en": "Crossings for pedestrians and/or cyclists",
     "nl": "Oversteekplaatsen voor voetgangers en fietsers",
     "de": "Übergänge für Fußgänger und Radfahrer",
     "fr": "Traversée pour piétons et cyclistes",
@@ -109,13 +109,14 @@
         "ca": "un creuament",
         "da": "en overgang",
         "es": "un cruce",
-        "cs": "přechod"
+        "cs": "přechod",
+        "hu": "gyalogosátkelő"
       },
       "tags": [
         "highway=crossing"
       ],
       "description": {
-        "en": "Crossing for pedestrians and/or cyclists",
+        "en": "Layer showing crossings for pedestrians and/or cyclists",
         "nl": "Oversteekplaats voor voetgangers en/of fietsers",
         "de": "Kreuzung für Fußgänger und/oder Radfahrer",
         "fr": "Traversée pour piétons et/ou cyclistes",
@@ -387,7 +388,7 @@
         {
           "if": "tactile_paving=incorrect",
           "then": {
-            "en": "This crossing has tactile paving, but is not correct",
+            "en": "This crossing has tactile paving, but it doesn't meet regulations",
             "nl": "Deze oversteekplaats heeft een geleidelijn, die incorrect is.",
             "de": "Diese Kreuzung hat taktile Pflasterung, ist aber nicht korrekt",
             "es": "Este cruce tiene superficie podotáctil, pero no correctamente",
@@ -402,7 +403,7 @@
     {
       "id": "crossing-button",
       "question": {
-        "en": "Does this traffic light have a button to request green light?",
+        "en": "Does this traffic light have a button to request a green light?",
         "nl": "Heeft dit verkeerslicht een knop voor groen licht?",
         "de": "Hat diese Ampel eine Taste, um ein grünes Signal anzufordern?",
         "es": "¿Este semáforo tiene un botón para pedir luz verde?",
@@ -420,7 +421,7 @@
         {
           "if": "button_operated=yes",
           "then": {
-            "en": "This traffic light has a button to request green light",
+            "en": "This traffic light has a button to request a green light",
             "nl": "Dit verkeerslicht heeft een knop voor groen licht",
             "de": "Diese Ampel hat eine Taste, um ein grünes Signal anzufordern",
             "es": "Este semáforo tiene un botón para pedir luz verde",
@@ -432,7 +433,7 @@
         {
           "if": "button_operated=no",
           "then": {
-            "en": "This traffic light does not have a button to request green light",
+            "en": "This traffic light does not have a button to request a green light",
             "nl": "Dit verkeerlicht heeft geen knop voor groen licht",
             "de": "Diese Ampel hat keine Taste, um ein grünes Signal anzufordern",
             "es": "Este semáforo no tiene un botón para pedir luz verde",

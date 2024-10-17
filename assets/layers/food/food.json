@@ -185,7 +185,8 @@
         "es": "un restaurante",
         "fr": "un restaurant",
         "pl": "restauracja",
-        "cs": "restaurace"
+        "cs": "restaurace",
+        "hu": "étterem"
       },
       "tags": [
         "amenity=restaurant"
@@ -1448,7 +1449,7 @@
       {
         "if": "amenity=cafe",
         "then": {
-          "en": "This is actually a cafe",
+          "en": "This is actually a café",
           "de": "Dies ist eigentlich ein Café",
           "fr": "C'est en fait un café",
           "nl": "Dit is eigenlijk een cafe (een plaats waar men rustig kan zitten om een thee, koffie of alcoholische drank te nuttigen)",

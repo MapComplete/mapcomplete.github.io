@@ -137,7 +137,8 @@
         "ru": "гостиница",
         "fr": "un hôtel",
         "cs": "hotel",
-        "pl": "hotel"
+        "pl": "hotel",
+        "hu": "szálloda"
       },
       "description": {
         "en": "A  hotel is an establishment that provides paid lodging, usually on a short-term basis. Rooms are not shared with strangers.",

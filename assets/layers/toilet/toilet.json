@@ -146,7 +146,8 @@
         "da": "et offentligt toilet",
         "ca": "un lavabo públic",
         "cs": "veřejné WC",
-        "sl": "javno stranišče"
+        "sl": "javno stranišče",
+        "hu": "nyilvános WC"
       },
       "tags": [
         "amenity=toilets"
@@ -443,7 +444,8 @@
         "it": "C'è un WC riservato alle persone in sedia a rotelle?",
         "da": "Er der et særligt toilet til kørestolsbrugere?",
         "ca": "Hi ha un lavabo específic per a usuaris amb cadira de rodes?",
-        "cs": "Je zde vyhrazená toaleta pro vozíčkáře?"
+        "cs": "Je zde vyhrazená toaleta pro vozíčkáře?",
+        "uk": "Чи є спеціальний туалет для людей на візках?"
       },
       "mappings": [
         {
@@ -456,7 +458,8 @@
             "es": "Hay un baño dedicado para usuarios con sillas de ruedas",
             "da": "Der er et særligt toilet til kørestolsbrugere",
             "ca": "Hi ha un lavabo dedicat per a usuaris amb cadira de rodes",
-            "cs": "K dispozici je speciální toaleta pro vozíčkáře"
+            "cs": "K dispozici je speciální toaleta pro vozíčkáře",
+            "uk": "Є спеціальний туалет для людей на інвалідних візках"
           },
           "if": "wheelchair=yes"
         },
@@ -472,7 +475,8 @@
             "es": "Sin acceso para sillas de ruedas",
             "da": "Ingen kørestolsadgang",
             "ca": "Sense accés per a cadires de rodes",
-            "cs": "Žádný bezbariérový přístup"
+            "cs": "Žádný bezbariérový přístup",
+            "uk": "Немає доступу для інвалідних візків"
           }
         },
         {
@@ -483,7 +487,8 @@
             "de": "Es gibt nur eine barrierefreie Toilette für Rollstuhlfahrer",
             "da": "Der er kun et særligt toilet til kørestolsbrugere",
             "ca": "És només un lavabo per a usuaris amb cadira de rodes",
-            "cs": "K dispozici je pouze vyhrazená toaleta pro vozíčkáře"
+            "cs": "K dispozici je pouze vyhrazená toaleta pro vozíčkáře",
+            "uk": "Є лише спеціальний туалет для людей на візках"
           }
         }
       ]

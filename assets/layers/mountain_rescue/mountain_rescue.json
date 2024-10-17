@@ -53,7 +53,8 @@
         "en": "a mountain rescue station",
         "de": "eine Bergrettungsstation",
         "fr": "un poste de secours en montagne",
-        "pl": "stacja ratownictwa górskiego"
+        "pl": "stacja ratownictwa górskiego",
+        "hu": "hegyimentő-állomás"
       },
       "tags": [
         "emergency=mountain_rescue"

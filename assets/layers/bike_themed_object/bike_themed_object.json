@@ -10,10 +10,11 @@
     "da": "Cykelrelateret genstand",
     "ca": "Objectes relacionats amb bicicletes",
     "cs": "Objekt související s jízdním kolem",
-    "pl": "Obiekt związany z rowerami"
+    "pl": "Obiekt związany z rowerami",
+    "uk": "Об'єкт, пов'язаний з велосипедом"
   },
   "description": {
-    "en": "A layer with bike-themed objects but who don't match any other layer",
+    "en": "A layer with bike-themed objects that don't match any other layer",
     "nl": "Een laag met fietsgerelateerde diensten, die in geen enkele andere laag konden ondergebracht worden",
     "de": "Eine Ebene mit Objekten zum Thema Fahrrad, die zu keiner anderen Ebene passen",
     "es": "Una capa con los objetos relacionados con bicis pero que no coinciden con ninguna otra capa",

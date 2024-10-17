@@ -1,7 +1,7 @@
 {
   "id": "bike_cafe",
   "name": {
-    "en": "Bike cafe",
+    "en": "Bike café",
     "nl": "Fietscafé",
     "fr": "Café vélo",
     "gl": "Café de ciclistas",
@@ -15,10 +15,11 @@
     "ca": "Cafeteria per a bicicletes",
     "da": "Cykelcafé",
     "cs": "Cyklokavárna",
-    "es": "Cafetería para ciclistas"
+    "es": "Cafetería para ciclistas",
+    "uk": "Велокафе"
   },
   "description": {
-    "en": "A bike café is a café geared towards cyclists, for example with services such as a pump, with lots of bicycle-related decoration, …",
+    "en": "A bike café is a café geared towards cyclists, for example with services such as a pump, and with bicycle-related decoration.",
     "nl": "Een fietscafé is een café dat gericht is op fietsers, bijvoorbeeld omdat het een fietspomp heeft, fietsgerelateerde decoratie heeft enzovoorts.",
     "de": "Ein Fahrradcafé ist ein Café, das auf Radfahrer ausgerichtet ist, zum Beispiel mit Dienstleistungen wie einer Pumpe, mit viel fahrradbezogener Dekoration, …",
     "da": "En cykelcafé er en café rettet mod cyklister, for eksempel med tjenester som en pumpe, med masser af cykelrelateret dekoration, o.s.v",
@@ -55,7 +56,7 @@
   "minzoom": 13,
   "title": {
     "render": {
-      "en": "Bike cafe",
+      "en": "Bike café",
       "nl": "Fietscafé",
       "fr": "Café Vélo",
       "gl": "Café de ciclistas",
@@ -75,7 +76,7 @@
       {
         "if": "name~*",
         "then": {
-          "en": "Bike cafe <i>{name}</i>",
+          "en": "Bike café <i>{name}</i>",
           "nl": "Fietscafé <i>{name}</i>",
           "fr": "Café Vélo <i>{name}</i>",
           "gl": "Café de ciclistas <i>{name}</i>",
@@ -122,7 +123,7 @@
   "presets": [
     {
       "title": {
-        "en": "a bike cafe",
+        "en": "a bike café",
         "nl": "een fietscafé",
         "fr": "une café vélo",
         "gl": "Café de ciclistas",
@@ -136,7 +137,8 @@
         "da": "en cykelcafé",
         "cs": "kavárna pro cyklisty",
         "ca": "un cafè ciclista",
-        "es": "una cafetería para ciclistas"
+        "es": "una cafetería para ciclistas",
+        "hu": "kerékpároskávézó"
       },
       "tags": [
         "amenity=pub",
@@ -148,7 +150,7 @@
     "images",
     {
       "question": {
-        "en": "What is the name of this bike cafe?",
+        "en": "What is the name of this bike café?",
         "nl": "Wat is de naam van dit fietscafé?",
         "fr": "Quel est le nom de ce Café vélo ?",
         "gl": "Cal é o nome deste café de ciclistas?",
@@ -165,7 +167,7 @@
         "es": "¿Cómo se llama la cafetería para ciclistas?"
       },
       "render": {
-        "en": "This bike cafe is called {name}",
+        "en": "This bike café is called {name}",
         "nl": "Dit fietscafé heet {name}",
         "fr": "Ce Café vélo s'appelle {name}",
         "gl": "Este café de ciclistas chámase {name}",
@@ -189,7 +191,7 @@
     {
       "id": "bike_cafe-bike-pump",
       "question": {
-        "en": "Does this bike cafe offer a bike pump for use by anyone?",
+        "en": "Does this bike café offer a bike pump for use by anyone?",
         "nl": "Biedt dit fietscafé een fietspomp aan voor iedereen?",
         "fr": "Est-ce que ce Café vélo propose une pompe en libre accès ?",
         "gl": "Este café de ciclistas ofrece unha bomba de ar para que calquera persoa poida usala?",
@@ -209,7 +211,7 @@
         {
           "if": "service:bicycle:pump=yes",
           "then": {
-            "en": "This bike cafe offers a bike pump for anyone",
+            "en": "This bike café offers a bike pump for anyone",
             "nl": "Dit fietscafé biedt een fietspomp aan voor eender wie",
             "fr": "Ce Café vélo offre une pompe en libre accès",
             "gl": "Este café de ciclistas ofrece unha bomba de ar",
@@ -229,7 +231,7 @@
         {
           "if": "service:bicycle:pump=no",
           "then": {
-            "en": "This bike cafe doesn't offer a bike pump for anyone",
+            "en": "This bike café doesn't offer a bike pump for anyone",
             "nl": "Dit fietscafé biedt geen fietspomp aan voor iedereen",
             "fr": "Ce Café vélo n'offre pas de pompe en libre accès",
             "gl": "Este café de ciclistas non ofrece unha bomba de ar",
@@ -271,7 +273,7 @@
         {
           "if": "service:bicycle:diy=yes",
           "then": {
-            "en": "This bike cafe offers tools for DIY repair",
+            "en": "This bike café offers tools for DIY repair",
             "nl": "Dit fietscafé biedt gereedschap aan om je fiets zelf te herstellen",
             "fr": "Ce Café vélo propose des outils pour réparer son vélo soi-même",
             "gl": "Hai ferramentas aquí para arranxar a túa propia bicicleta",
@@ -290,7 +292,7 @@
         {
           "if": "service:bicycle:diy=no",
           "then": {
-            "en": "This bike cafe doesn't offer tools for DIY repair",
+            "en": "This bike café doesn't offer tools for DIY repair",
             "nl": "Dit fietscafé biedt geen gereedschap aan om je fiets zelf te herstellen",
             "fr": "Ce Café vélo ne propose pas d'outils pour réparer son vélo soi-même",
             "gl": "Non hai ferramentas aquí para arranxar a túa propia bicicleta",
@@ -311,7 +313,7 @@
     {
       "id": "bike_cafe-repair-service",
       "question": {
-        "en": "Does this bike cafe repair bikes?",
+        "en": "Does this bike café repair bikes?",
         "nl": "Herstelt dit fietscafé fietsen?",
         "fr": "Est-ce que ce Café vélo répare les vélos ?",
         "gl": "Este café de ciclistas arranxa bicicletas?",
@@ -330,7 +332,7 @@
         {
           "if": "service:bicycle:repair=yes",
           "then": {
-            "en": "This bike cafe repairs bikes",
+            "en": "This bike café repairs bikes",
             "nl": "Dit fietscafé herstelt fietsen",
             "fr": "Ce Café vélo répare les vélos",
             "gl": "Este café de ciclistas arranxa bicicletas",
@@ -349,7 +351,7 @@
         {
           "if": "service:bicycle:repair=no",
           "then": {
-            "en": "This bike cafe doesn't repair bikes",
+            "en": "This bike café doesn't repair bikes",
             "nl": "Dit fietscafé herstelt geen fietsen",
             "fr": "Ce Café vélo ne répare pas les vélos",
             "gl": "Este café de ciclistas non arranxa bicicletas",
@@ -374,7 +376,7 @@
       "builtin": "opening_hours",
       "override": {
         "question": {
-          "en": "When it this bike café opened?",
+          "en": "When is this bike café open?",
           "nl": "Wanneer is dit fietscafé geopend?",
           "fr": "Quand ce Café vélo est-t-il ouvert ?",
           "it": "Quando è aperto questo cafè per ciclisti?",

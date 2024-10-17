@@ -115,7 +115,8 @@
         "ca": "un mapa",
         "es": "un mapa",
         "pl": "mapa",
-        "cs": "mapa"
+        "cs": "mapa",
+        "hu": "térkép"
       },
       "description": {
         "en": "Add a missing map",

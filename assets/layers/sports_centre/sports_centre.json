@@ -67,7 +67,8 @@
         "de": "ein Sportzentrum",
         "ca": "un centre esportiu",
         "cs": "sportovní centra",
-        "id": "pusat olahraga"
+        "id": "pusat olahraga",
+        "hu": "sportközpont"
       },
       "tags": [
         "leisure=sports_centre"

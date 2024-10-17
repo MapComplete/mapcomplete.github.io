@@ -89,7 +89,8 @@
         "sl": "Defibrilator",
         "da": "en hjertestarter",
         "pl": "defibrylator",
-        "cs": "defibrilátor"
+        "cs": "defibrilátor",
+        "hu": "defibrillátor"
       },
       "tags": [
         "emergency=defibrillator"

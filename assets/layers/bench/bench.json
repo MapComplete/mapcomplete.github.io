@@ -116,7 +116,9 @@
         "pt": "uma banco",
         "ca": "un banc",
         "da": "en bænk",
-        "cs": "lavička"
+        "cs": "lavička",
+        "hu": "pad",
+        "uk": "лавка"
       },
       "presiceInput": {
         "preferredBackground": "photo"
@@ -239,11 +241,12 @@
         {
           "if": "armrest=yes",
           "then": {
-            "en": "This bench does have one or more armrests",
+            "en": "This bench has one or more armrests",
             "de": "Diese Sitzbank hat eine oder mehrere Armlehnen",
             "nl": "Deze bank heeft armleuningen",
             "cs": "Tato lavice má jednu nebo více opěrek na ruce",
-            "es": "Este banco dispone de uno o más reposabrazos"
+            "es": "Este banco dispone de uno o más reposabrazos",
+            "uk": "Ця лавка має один або кілька підлокітників"
           }
         },
         {
@@ -253,7 +256,8 @@
             "de": "Diese Sitzbank hat <b>keine</b> Armlehnen",
             "nl": "Deze bank heeft <b>geen</b> armleuningen",
             "cs": "Tato lavice <b>nemá opěrky rukou</b>",
-            "es": "Este banco <b>not</b> dispone de reposabrazos"
+            "es": "Este banco <b>not</b> dispone de reposabrazos",
+            "uk": "Ця лавка <b>не</b> має підлокітників"
           }
         }
       ],
@@ -262,7 +266,8 @@
         "de": "Hat diese Sitzbank eine oder mehrere Armlehnen?",
         "nl": "Heeft deze bank armleuningen?",
         "cs": "Má tato lavice jednu nebo více opěrek?",
-        "es": "¿Dispone este banco de uno o más reposabrazos?"
+        "es": "¿Dispone este banco de uno o más reposabrazos?",
+        "uk": "Чи має ця лавка один або кілька підлокітників?"
       },
       "id": "bench-armrest",
       "labels": [

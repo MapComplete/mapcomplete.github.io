@@ -55,7 +55,8 @@
     {
       "title": {
         "en": "a souvenir coin machine",
-        "de": "ein Souvenir-Münzautomaten"
+        "de": "ein Souvenir-Münzautomaten",
+        "hu": "emlékérme-automata"
       },
       "description": {
         "en": "Add a machine selling souvenir coins",

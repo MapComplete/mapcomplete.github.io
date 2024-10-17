@@ -54,7 +54,8 @@
         "en": "a disaster response organization",
         "it": "un'organizzazione per la risposta ai disastri",
         "de": "eine Katastrophenschutzorganisation",
-        "ca": "una organització de resposta a desastres"
+        "ca": "una organització de resposta a desastres",
+        "hu": "katasztrófaelhárító szervezet"
       },
       "tags": [
         "emergency=disaster_response"

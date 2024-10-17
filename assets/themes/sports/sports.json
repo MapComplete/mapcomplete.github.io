@@ -13,7 +13,9 @@
     "eu": "Kirolak",
     "pl": "Sporty",
     "it": "Sport",
-    "ru": "Спортивные объекты"
+    "ru": "Спортивные объекты",
+    "hu": "Sporttérkép",
+    "uk": "Спорт"
   },
   "description": {
     "en": "All about sports, find sport pitches, fitness centres and more.",
@@ -36,7 +38,8 @@
     "cs": "Mapa se sportovními zařízeními.",
     "zh_Hant": "顯示運動設施的地圖。",
     "pl": "Mapa pokazująca obiekty sportowe.",
-    "it": "Mappa che mostra gli impianti sportivi."
+    "it": "Mappa che mostra gli impianti sportivi.",
+    "uk": "Карта з позначенням спортивних об'єктів."
   },
   "icon": "./assets/themes/sports/sport.svg",
   "layers": [

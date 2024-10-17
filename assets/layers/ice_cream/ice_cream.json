@@ -66,7 +66,8 @@
         "en": "an ice cream parlor",
         "de": "eine Eisdiele",
         "fr": "un glacier",
-        "nl": "een ijssalon"
+        "nl": "een ijssalon",
+        "hu": "fagylaltos bódé"
       },
       "tags": [
         "amenity=ice_cream"

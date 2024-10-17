@@ -39,7 +39,8 @@
     {
       "title": {
         "en": "a tombstone",
-        "de": "ein Grabstein"
+        "de": "ein Grabstein",
+        "hu": "sírkő"
       },
       "tags": [
         "historic=tomb"

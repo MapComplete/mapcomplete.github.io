@@ -85,7 +85,8 @@
         "nl": "een brandweerstation",
         "es": "un parque de bomberos",
         "ca": "un parc de bombers",
-        "cs": "požární stanice"
+        "cs": "požární stanice",
+        "hu": "tűzoltóság"
       },
       "description": {
         "en": "A fire station is a place where the fire trucks and firefighters are located when not in operation.",
@@ -129,7 +130,8 @@
         "de": "Der Name der Feuerwache ist {name}.",
         "es": "Este parque de bomberos se llama {name}.",
         "ca": "Aquest parc de bombers es diu {name}.",
-        "cs": "Tato stanice se jmenuje {name}."
+        "cs": "Tato stanice se jmenuje {name}.",
+        "uk": "Ця станція називається {name}."
       }
     },
     {
@@ -157,7 +159,8 @@
         "nl": "Dit station ligt aan {addr:street}.",
         "de": "Die Feuerwache liegt an der Straße namens {addr:street}.",
         "ca": "Aquesta estació es troba al llarg d'una carretera anomenada {addr:street}.",
-        "cs": "Tato stanice je podél dálnice s názvem {addr:street}."
+        "cs": "Tato stanice je podél dálnice s názvem {addr:street}.",
+        "uk": "Ця станція знаходиться вздовж вулиці під назвою {addr:street}."
       }
     },
     {
@@ -171,7 +174,8 @@
         "nl": "Waar is dit station gelegen? (v.b. naam van de buurt, dorp of stad)",
         "de": "Wo befindet sich die Station? (z. B. Name des Viertels, des Dorfes oder der Stadt)",
         "ca": "On es troba aquesta estació? (p.e. nom del barri, poble o ciutat)",
-        "cs": "Kde se stanice nachází? (např. název čtvrti, obce nebo města)"
+        "cs": "Kde se stanice nachází? (např. název čtvrti, obce nebo města)",
+        "uk": "Де розташована станція? (наприклад, назва району, села чи міста)"
       },
       "freeform": {
         "key": "addr:place"
@@ -199,7 +203,8 @@
         "de": "Welche Organisation betreibt diese Station?",
         "es": "¿Que agencia opera este parque?",
         "ca": "Quina agència opera aquesta estació?",
-        "cs": "Jaká agentura provozuje tuto stanici?"
+        "cs": "Jaká agentura provozuje tuto stanici?",
+        "uk": "Яке відомство управляє цією станцією?"
       },
       "render": {
         "en": "This station is operated by {operator}.",
@@ -246,7 +251,8 @@
         "nl": "Wat voor soort beheerder beheert dit station?",
         "de": "Wie kann der Betreiber der Feuerwache eingestuft werden?",
         "ca": "Com es classifica l'operador de l'estació?",
-        "cs": "Jak je klasifikován provozovatel stanice?"
+        "cs": "Jak je klasifikován provozovatel stanice?",
+        "uk": "Як класифікується оператор станції?"
       },
       "render": {
         "en": "The operator is a(n) {operator:type} entity.",
@@ -278,7 +284,8 @@
             "de": "Die Station wird von einer Behörde betrieben.",
             "es": "Este parque de bomberos lo opera el gobierno.",
             "ca": "Aquest parc l'opera el govern.",
-            "cs": "Provozovatelem stanice je vláda."
+            "cs": "Provozovatelem stanice je vláda.",
+            "uk": "Станція знаходиться в управлінні держави."
           }
         },
         {
@@ -295,7 +302,8 @@
             "nl": "Dit station wordt beheerd door een informele of gemeenschapsorganisatie.",
             "de": "Die Feuerwache wird von einer gemeinnützigen Organisation betrieben.",
             "ca": "Aquesta estació l'opera una comunitat o organització informal.",
-            "cs": "Provozovatelem stanice je komunitní nebo neformální organizace."
+            "cs": "Provozovatelem stanice je komunitní nebo neformální organizace.",
+            "uk": "Станція управляється громадською або неформальною організацією."
           }
         },
         {
@@ -312,7 +320,8 @@
             "nl": "Dit station wordt beheerd door een formele groep vrijwilligers.",
             "de": "Die Feuerwache wird von einer Freiwilligenorganisation betrieben.",
             "ca": "Aquest operació l'opera un grup formal de voluntaris.",
-            "cs": "Stanice je provozována formální skupinou dobrovolníků."
+            "cs": "Stanice je provozována formální skupinou dobrovolníků.",
+            "uk": "Станцію обслуговує офіційна група волонтерів."
           }
         },
         {
@@ -329,7 +338,8 @@
             "nl": "Dit station wordt door private organisatie beheerd.",
             "de": "Die Feuerwache wird von einer privaten Organisation betrieben.",
             "ca": "Aquesta estació l'opera una entitat privada.",
-            "cs": "Stanice je provozována soukromě."
+            "cs": "Stanice je provozována soukromě.",
+            "uk": "Станція знаходиться в приватному управлінні."
           }
         }
       ]

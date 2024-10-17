@@ -53,7 +53,8 @@
         "en": "a ticket validator",
         "de": "einen Fahrkartenentwerter",
         "ca": "un validador de bitllets",
-        "cs": "validátor jízdenek"
+        "cs": "validátor jízdenek",
+        "hu": "jegyérvényesítő"
       },
       "description": {
         "en": "A ticket validator to validate a public transport ticket. This can be either a digital reader, reading a card or ticket, or a machine stamping or punching a ticket.",

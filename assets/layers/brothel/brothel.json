@@ -5,7 +5,7 @@
     "de": "Bordelle"
   },
   "description": {
-    "en": "An establishment specifically dedicated to prostitution. ",
+    "en": "An establishment specifically dedicated to prostitution.",
     "de": "Eine Einrichtung, die speziell der Prostitution gewidmet ist. "
   },
   "source": {
@@ -62,7 +62,8 @@
     {
       "title": {
         "en": "a brothel",
-        "de": "ein Bordell"
+        "de": "ein Bordell",
+        "hu": "bordélyház"
       },
       "tags": [
         "amenity=brothel"

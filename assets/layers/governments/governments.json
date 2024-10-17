@@ -59,7 +59,8 @@
         "de": "ein Büro der öffentlichen Verwaltung",
         "nl": "een overheidsdienst",
         "ca": "una oficina Governamental",
-        "cs": "vládní úřad"
+        "cs": "vládní úřad",
+        "hu": "kormányzati hivatal"
       },
       "tags": [
         "office=government"

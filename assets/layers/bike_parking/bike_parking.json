@@ -16,7 +16,8 @@
     "ca": "Aparcament per a bicicletes",
     "es": "Aparcamiento de bicis",
     "da": "Cykelparkering",
-    "cs": "Parkování kol"
+    "cs": "Parkování kol",
+    "uk": "Велопарковка"
   },
   "description": {
     "en": "A layer showing where you can park your bike",
@@ -94,7 +95,7 @@
         "fr": "un parking à vélo",
         "gl": "Aparcadoiro de bicicletas",
         "de": "einen Fahrrad-Parkplatz",
-        "hu": "Kerékpártároló",
+        "hu": "kerékpártároló",
         "it": "una parcheggio bici",
         "zh_Hant": "單車停車場",
         "ru": "Велосипедная парковка",
@@ -539,7 +540,7 @@
         "pl": "Ile rowerów mieści się na tym parkingu rowerowym?"
       },
       "questionHint": {
-        "en": "This includes regular bicycles, cargo bikes, ebikes, ...",
+        "en": "This includes all types of bicycle - regular, cargo, ebike etc.",
         "nl": "Dit is het totaal aantal gewone fietsen, bakfietsen, elektrische fietsen, ...",
         "de": "Dazu gehören reguläre Fahrräder, Lasträder, Ebikes,...",
         "pl": "To obejmuje zwykłe rowery, do transportu dóbr, elektryczne, ...",
@@ -687,7 +688,7 @@
     {
       "id": "fee",
       "question": {
-        "en": "Are these bicycle parkings free to use?",
+        "en": "Is it free to park a bicycle here?",
         "nl": "Is deze fietsenstalling gratis te gebruiken?",
         "de": "Sind die Fahrradparkplätze kostenlos zu benutzen?",
         "ca": "Aquests aparcaments de bicicletes són gratuïts?",
@@ -775,7 +776,7 @@
         "es": "¿Cuál es número de teléfono del operador de este aparcamiento de bicicletas?"
       },
       "questionHint": {
-        "en": "One might be able to call this number in case of problems, e.g. to remove unmaintained bicycles",
+        "en": "One might be able to call this number in case of problems, e.g. to remove abandoned bicycles",
         "nl": "Men kan dit nummer bellen om bv. fietswrakken of defecten te melden",
         "de": "Man könnte diese Nummer anrufen, wenn es Probleme gibt, z. B. um nicht gewartete Fahrräder zu entfernen",
         "ca": "És possible que es pugui trucar a aquest número en cas de problemes, p. per retirar les bicicletes abandonades"
@@ -1000,7 +1001,7 @@
         "es": "¿Cuál es la duración máxima permitida de estacionamiento?"
       },
       "questionHint": {
-        "en": "If the bicycle is parked for a longer amount, it might be removed by the operator",
+        "en": "If the bicycle is parked for longer, it might be removed by the operator",
         "nl": "Indien een fiets langer geparkeerd staat, kan deze verwijderd worden door de beheerder",
         "de": "Wenn das Fahrrad für längere Zeit abgestellt wird, kann es vom Betreiber entfernt werden"
       },

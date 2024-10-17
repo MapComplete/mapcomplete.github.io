@@ -75,7 +75,8 @@
         "fr": "Une société de location de véhicules",
         "ca": "un lloguer de cotxes",
         "pl": "wypożyczalnia samochodów",
-        "cs": "půjčovna aut"
+        "cs": "půjčovna aut",
+        "hu": "autókölcsönző"
       },
       "description": {
         "en": "A place where you can rent a car",

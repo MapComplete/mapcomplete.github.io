@@ -81,7 +81,8 @@
         "nl": "een oversteekplaats",
         "fr": "un passage",
         "ca": "un creuament",
-        "cs": "přechod"
+        "cs": "přechod",
+        "hu": "gyalogosátkelő"
       },
       "tags": [
         "highway=footway",

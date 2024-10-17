@@ -115,6 +115,16 @@
                 },
                 "question": "Com canvien els anuncis d'aquest element?"
             },
+            "historic": {
+                "mappings": {
+                    "0": {
+                        "then": "Açò és un cartell publicitari històric (un anunci per a un negoci que ja no existeix o un cartell amb un gran valor patrimonial)"
+                    },
+                    "1": {
+                        "then": "Aquest cartell publicitari no té valor històric (el negoci encara existeix i no té valor patrimonial)"
+                    }
+                }
+            },
             "luminous_or_lit_advertising": {
                 "override": {
                     "+mappings": {
@@ -177,6 +187,9 @@
                     },
                     "10": {
                         "then": "Açò és una paret pintada"
+                    },
+                    "11": {
+                        "then": "Açò és un mosaic - la publicitat està pintada en rajoles"
                     },
                     "2": {
                         "then": "Açò és una columna"
@@ -8956,23 +8969,6 @@
                         "text": "Baixeu la clau privada del vostre compte de Mangrove"
                     }
                 }
-            },
-            "picture-license": {
-                "mappings": {
-                    "0": {
-                        "then": "Les imatges que feu tindran llicència <b>CC0</b> i s'afegiran al domini públic. Això vol dir que tothom pot utilitzar les vostres imatges per a qualsevol propòsit. <span class='subtle'>Aquesta és l'opció predeterminada. </span>"
-                    },
-                    "1": {
-                        "then": "Les imatges que feu tindran llicència <b>CC0</b> i s'afegiran al domini públic. Això vol dir que tothom pot utilitzar les vostres imatges per a qualsevol propòsit."
-                    },
-                    "2": {
-                        "then": "Les fotografies que facis es publicaran sota <b>CC-BY 4.0</b> que requereix que qualsevol que utilitzi la vostra imatge us ha de donar crèdits"
-                    },
-                    "3": {
-                        "then": "Les imatges que feu tindran una llicència amb <b>CC-BY-SA 4.0</b> el que significa que tothom que utilitzi la vostra imatge us ha d'atribuir i que els derivats de la vostra imatge s'han de tornar a compartir amb la mateixa llicència."
-                    }
-                },
-                "question": "Sota quina llicència vols publicar les teves fotos?"
             },
             "profile-description": {
                 "mappings": {

@@ -70,7 +70,8 @@
         "de": "ein Fitnessstudio",
         "nl": "een fitness-centrum",
         "ca": "un centre de fitness",
-        "cs": "fitness centra"
+        "cs": "fitness centra",
+        "hu": "fitneszstúdió"
       },
       "icon": "./assets/layers/fitness_centre/gym.svg"
     }

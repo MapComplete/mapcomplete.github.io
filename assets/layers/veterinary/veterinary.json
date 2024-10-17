@@ -87,7 +87,8 @@
         "nl": "een dierenarts",
         "fr": "un vétérinaire",
         "ca": "un veterinari",
-        "cs": "veterinář"
+        "cs": "veterinář",
+        "hu": "állatorvos"
       },
       "tags": [
         "amenity=veterinary",

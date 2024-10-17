@@ -47,7 +47,8 @@
         "de": "eine Geschwindigkeitsanzeige",
         "nl": "een snelheidsdisplay",
         "ca": "un radar pedagògic",
-        "cs": "ukazatel rychlosti"
+        "cs": "ukazatel rychlosti",
+        "hu": "sebességkijelző"
       },
       "tags": [
         "highway=speed_display"

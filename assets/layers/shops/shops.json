@@ -210,7 +210,8 @@
         "eo": "Butiko",
         "es": "una tienda",
         "ca": "una botiga",
-        "cs": "obchod"
+        "cs": "obchod",
+        "hu": "üzlet"
       },
       "description": {
         "en": "You can specify later on what this shop sells.",

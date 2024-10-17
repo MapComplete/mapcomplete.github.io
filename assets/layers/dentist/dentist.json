@@ -72,7 +72,8 @@
         "nl": "een tandartspraktijk",
         "fr": "un cabinet de dentistes",
         "ca": "una clínica dental",
-        "cs": "zubní ordinace"
+        "cs": "zubní ordinace",
+        "hu": "fogorvosi rendelő"
       },
       "tags": [
         "amenity=dentist"

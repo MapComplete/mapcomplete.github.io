@@ -253,7 +253,8 @@
         "fr": "<h3>Article Wikipedia de la référence au nom</h3>{wikipedia(name:etymology:wikidata):max-height:20rem}",
         "ca": "<h3> Article de la Viquipèdia del nom donant</h3>{wikipedia(name:etymology:wikidata):max-height:20rem}",
         "cs": "<h3>Článek autora jména na Wikipedii</h3>{wikipedia(name:etymology:wikidata):max-height:20rem}",
-        "da": "<h3>Wikipedia-artikel om navnets ophav</h3>{wikipedia(name:etymology:wikidata):max-height:20rem}"
+        "da": "<h3>Wikipedia-artikel om navnets ophav</h3>{wikipedia(name:etymology:wikidata):max-height:20rem}",
+        "uk": "<h3>Стаття у Вікіпедії про давача імені</h3>{wikipedia(name:etymology:wikidata):max-height:20rem}"
       }
     },
     {
@@ -330,7 +331,8 @@
         "fr": "{image_carousel(image:streetsign)}<br/>{image_upload(image:streetsign, Ajouter une photo de la plaque de rue)}",
         "ca": "{image_carousel(image:streetsign)}<br/>{image_upload(image:streetsign, Afegeix una imatge de la placa amb el nom del carrer)}",
         "cs": "{image_carousel(image:streetsign)}<br/>{image_upload(image:streetsign, Add image of a street name sign)}",
-        "da": "{image_carousel(image:streetsign)}<br/>{image_upload(image:streetsign, Tilføj foto af gadenavneskilt)}"
+        "da": "{image_carousel(image:streetsign)}<br/>{image_upload(image:streetsign, Tilføj foto af gadenavneskilt)}",
+        "uk": "{image_carousel(image:streetsign)}<br/>{image_upload(image:streetsign, Додати зображення таблички з назвою вулиці)}"
       }
     },
     {
