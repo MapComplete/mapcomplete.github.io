@@ -16796,7 +16796,7 @@
         "ca": "Per quants costats pots veure publicitat?",
         "es": "¿Por cuantos lados puedes ver publicidad?",
         "en": "From how many sides you can watch advertisments?",
-        "de": "Auf wie vielen Seiten wird Werbung angezeigt?",
+        "de": "Von wie vielen Seiten kann man Werbung betrachten?",
         "cs": "Z kolika stran můžete vidět reklamy?",
         "fr": "Sur combien de côtés peut-on voir de la publicité ?",
         "pt": "De quantos lados você pode assistir a anúncios?",
@@ -21759,6 +21759,7 @@
         "da": "{qr_code()}Skan denne kode for at åbne dette sted på en anden enhed",
         "de": "{qr_code()}QR Code scannen, um diesen Ort auf einem anderen Gerät zu öffnen",
         "en": "{qr_code()}Scan this code to open this location on another device",
+        "hu": "{qr_code()}Szkenneld be ezt a kódot, hogy egy másik eszközön is meg tudd nyitni a helyet",
         "nl": "{qr_code()}Scan deze code om deze locatie op een ander apparaat te zien",
         "sl": "{qr_code()}Skenirajte to kodo, da odprete ta kraj na drugi napravi"
       },
@@ -23983,7 +23984,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "V jakých hodinách je tento defibrilátor k dispozici?"
+        "cs": "V jakých hodinách je tento defibrilátor k dispozici?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -24291,7 +24293,8 @@
             "pt_BR": "Arquitetura",
             "he": "אדריכלות",
             "eu": "Arkitektura",
-            "zh_Hans": "建筑"
+            "zh_Hans": "建筑",
+            "uk": "Архітектура"
           }
         },
         {
@@ -24318,7 +24321,8 @@
             "pt_BR": "Mural",
             "he": "ציור קיר",
             "eu": "Murala",
-            "zh_Hans": "壁画"
+            "zh_Hans": "壁画",
+            "uk": "Мурал"
           }
         },
         {
@@ -24344,7 +24348,8 @@
             "he": "ציור",
             "eu": "Margolana",
             "pt_BR": "Pintura",
-            "zh_Hans": "喷绘"
+            "zh_Hans": "喷绘",
+            "uk": "Живопис"
           }
         },
         {
@@ -24371,7 +24376,8 @@
             "pt_BR": "Escultura",
             "he": "פיסול",
             "eu": "Eskultura",
-            "zh_Hans": "雕塑"
+            "zh_Hans": "雕塑",
+            "uk": "Скульптура"
           }
         },
         {
@@ -24396,7 +24402,8 @@
             "pt_BR": "Estátua",
             "he": "פסל",
             "eu": "Estatua",
-            "zh_Hans": "雕像"
+            "zh_Hans": "雕像",
+            "uk": "Статуя"
           }
         },
         {
@@ -24420,7 +24427,8 @@
             "cs": "Busta",
             "pt_BR": "Busto",
             "eu": "Bustoa",
-            "zh_Hans": "半身像"
+            "zh_Hans": "半身像",
+            "uk": "Бюст"
           }
         },
         {
@@ -24447,7 +24455,8 @@
             "pt_BR": "Pedra",
             "he": "אבן",
             "eu": "Harria",
-            "zh_Hans": "石头"
+            "zh_Hans": "石头",
+            "uk": "Камінь"
           }
         },
         {
@@ -24472,7 +24481,8 @@
             "cs": "Instalace",
             "pt_BR": "Instalação",
             "eu": "Instalazioa",
-            "zh_Hans": "设施"
+            "zh_Hans": "设施",
+            "uk": "Інсталяція"
           }
         },
         {
@@ -24497,7 +24507,8 @@
             "cs": "Grafiti",
             "eu": "Graffitia",
             "pt_BR": "Grafite",
-            "zh_Hans": "涂鸦/粗糙雕刻"
+            "zh_Hans": "涂鸦/粗糙雕刻",
+            "uk": "Графіті"
           }
         },
         {
@@ -24521,7 +24532,8 @@
             "da": "Relief",
             "cs": "Reliéf",
             "eu": "Erliebea",
-            "pt_BR": "Relevo"
+            "pt_BR": "Relevo",
+            "uk": "Рельєф"
           }
         },
         {
@@ -24545,7 +24557,8 @@
             "cs": "Azulejo (španělské dekorativní dlaždice)",
             "ca": "Azulejo (Rajoles decoratives espanyoles i portugueses)",
             "pt_BR": "Azulejo (Revestimento de azulejos decorativos espanhóis)",
-            "zh_Hans": "Azulejo（西班牙装饰瓷砖）"
+            "zh_Hans": "Azulejo（西班牙装饰瓷砖）",
+            "uk": "Азулехо (іспанська декоративна плитка)"
           }
         },
         {
@@ -24569,7 +24582,8 @@
             "cs": "Obklady a dlažba",
             "he": "יצירת פסיפס",
             "eu": "Keramika",
-            "pt_BR": "Azulejaria"
+            "pt_BR": "Azulejaria",
+            "uk": "Кахельна плитка"
           }
         },
         {
@@ -24588,7 +24602,8 @@
             "eu": "Egur taila",
             "pl": "Rzeźbienie w drewnie",
             "pt_BR": "Entalhe",
-            "it": "Scultura in legno"
+            "it": "Scultura in legno",
+            "uk": "Різьба по дереву"
           }
         }
       ],
@@ -24632,7 +24647,8 @@
         "he": "מי יצר את היצירה הזו?",
         "pl": "Kto stworzył to dzieło sztuki?",
         "pt_BR": "Quem fez essa obra de arte?",
-        "zh_Hans": "这件艺术品是谁创作的？"
+        "zh_Hans": "这件艺术品是谁创作的？",
+        "uk": "Хто створив цю роботу?"
       },
       "freeform": {
         "key": "artist:wikidata",
@@ -25008,7 +25024,8 @@
         "de": "Dient dieses Kunstwerk als Mahnmal?",
         "fr": "Cet œuvre a-t-elle un rôle de mémorial ?",
         "cs": "Slouží toto dílo jako památník?",
-        "es": "¿Sirve esta obra de arte como monumento conmemorativo?"
+        "es": "¿Sirve esta obra de arte como monumento conmemorativo?",
+        "uk": "Чи слугує ця робота меморіалом?"
       },
       "mappings": [
         {
@@ -25019,7 +25036,8 @@
             "ca": "Aquesta obra d'art també serveix com a memorial",
             "fr": "Cette œuvre est un mémorial",
             "cs": "Toto dílo slouží také jako památník",
-            "es": "Esta obra de arte también sirve como monumento conmemorativo"
+            "es": "Esta obra de arte también sirve como monumento conmemorativo",
+            "uk": "Цей витвір мистецтва також слугує меморіалом"
           }
         },
         {
@@ -25027,7 +25045,8 @@
           "alsoShowIf": "historic!=memorial",
           "then": {
             "en": "This artwork does not serve as a memorial",
-            "de": "Dieses Kunstwerk dient nicht als Denkmal"
+            "de": "Dieses Kunstwerk dient nicht als Denkmal",
+            "uk": "Ця робота не є меморіалом"
           }
         }
       ],
@@ -25074,6 +25093,7 @@
             "de": "Dies ist eine Gedenktafel",
             "fr": "C'est une plaque",
             "sl": "To je plošča",
+            "uk": "Це меморіальна дошка",
             "_context": "layers:memorial.tagRenderings.memorial-type.mappings.1.then"
           }
         },
@@ -25259,6 +25279,7 @@
         "fr": "Quelle est l'inscription sur cette plaque ?",
         "nl": "Wat is het opschrift van dit gedenkteken?",
         "sl": "Kakšen je napis na tem spomeniku?",
+        "uk": "Який напис на цьому пам'ятнику?",
         "_context": "layers:memorial.tagRenderings.inscription.question"
       },
       "#:condition": "Benches have a separate inscription question",
@@ -25284,6 +25305,7 @@
         "de": "Die Inschrift auf diesem Denkmal lautet: <p><i>{inscription}<i></p>",
         "fr": "L'inscription sur cette plaque indique: <p><i>{inscription}<i></p>",
         "sl": "Napis na tem spomeniku je: <p><i>{inscription}<i></p>",
+        "uk": "Напис на цьому меморіалі: <p><i>{inscription}<i></p>",
         "_context": "layers:memorial.tagRenderings.inscription.render"
       },
       "freeform": {
@@ -25300,6 +25322,7 @@
             "fr": "Il n'y a aucune inscription sur cette plaque",
             "nl": "Dit gedenkteken heeft geen opschrift",
             "sl": "Ta spomenik nima napisa",
+            "uk": "Цей пам'ятник не має напису",
             "_context": "layers:memorial.tagRenderings.inscription.mappings.0.then"
           },
           "addExtraTags": [
@@ -25323,7 +25346,8 @@
         "pt_BR": "Essa obra de arte serve como banco?",
         "es": "¿Sirve esta obra de arte como banco?",
         "pt": "Esta obra de arte serve como banco?",
-        "it": "Quest'opera d'arte funge da panchina?"
+        "it": "Quest'opera d'arte funge da panchina?",
+        "uk": "Чи слугує ця робота лавкою?"
       },
       "mappings": [
         {
@@ -25340,7 +25364,8 @@
             "pt_BR": "Essa obra de arte também serve como banco",
             "es": "Esta obra de arte también sirve de banco",
             "pt": "Esta obra de arte também serve como banco",
-            "it": "Quest'opera d'arte funge anche da panchina"
+            "it": "Quest'opera d'arte funge anche da panchina",
+            "uk": "Цей витвір мистецтва також слугує лавкою"
           }
         },
         {
@@ -25358,7 +25383,8 @@
             "pt_BR": "Essa obra de arte não serve como banco",
             "es": "Esta obra no sirve de banco",
             "pt": "Esta obra de arte não serve como banco",
-            "it": "Quest'opera d'arte non funge anche da panchina"
+            "it": "Quest'opera d'arte non funge anche da panchina",
+            "uk": "Цей витвір мистецтва не слугує лавкою"
           }
         },
         {
@@ -25410,6 +25436,7 @@
             "pl": "Ta ławka jest dwustronna ze wspólnym oparciem",
             "pt_BR": "Esse banco é de dois lados e compartilha o encosto",
             "pt": "Esse banco é de dois lados e partilha o encosto",
+            "uk": "Ця лавка двостороння і має спільну спинку",
             "_context": "layers:bench.tagRenderings.bench-backrest.mappings.0.then"
           },
           "icon": {
@@ -25425,7 +25452,7 @@
             "fr": "Ce banc a un dossier",
             "nl": "Heeft een rugleuning",
             "es": "Este banco tiene respaldo",
-            "hu": "Van háttámlája",
+            "hu": "A padnak van háttámlája",
             "id": "Sandaran: Ya",
             "it": "Schienale: Sì",
             "ru": "Со спинкой",
@@ -25440,6 +25467,7 @@
             "da": "Har et ryglæn",
             "cs": "Tato lavice má opěradlo",
             "he": "יש משענת גב",
+            "uk": "Ця лавка має спинку",
             "_context": "layers:bench.tagRenderings.bench-backrest.mappings.1.then"
           },
           "addExtraTags": [
@@ -25457,7 +25485,7 @@
             "fr": "Ce banc n'a <b>pas</b> de dossier",
             "nl": "Heeft <b>geen</b> rugleuning",
             "es": "Este banco <b>no</b> tiene respaldo",
-            "hu": "<b>Nincs</b> háttámlája",
+            "hu": "A padnak <b>nincs</b> háttámlája",
             "id": "Sandaran: Tidak",
             "it": "Questa panchina <b>non</b> ha uno schienale",
             "ru": "Без спинки",
@@ -25471,6 +25499,7 @@
             "ca": "Aquest banc <b>No</b> té espatller",
             "da": "Har <b>ikke</b> et ryglæn",
             "cs": "Tato lavice <b>nemá opěradlo</b>",
+            "uk": "Ця лавка <b>не має</b> спинки",
             "_context": "layers:bench.tagRenderings.bench-backrest.mappings.2.then"
           }
         }
@@ -25495,6 +25524,7 @@
         "cs": "Má tato lavička opěradlo?",
         "ca": "Aquest banc té respatller?",
         "he": "האם לספסל הזה יש משענת?",
+        "uk": "Чи є у цієї лавки спинка?",
         "_context": "layers:bench.tagRenderings.bench-backrest.question"
       },
       "id": "bench-backrest",
@@ -25522,6 +25552,7 @@
             "nl": "Deze bank heeft armleuningen",
             "cs": "Tato lavice má jednu nebo více opěrek na ruce",
             "es": "Este banco dispone de uno o más reposabrazos",
+            "uk": "Ця лавка має один або кілька підлокітників",
             "_context": "layers:bench.tagRenderings.bench-armrest.mappings.0.then"
           }
         },
@@ -25533,6 +25564,7 @@
             "nl": "Deze bank heeft <b>geen</b> armleuningen",
             "cs": "Tato lavice <b>nemá opěrky rukou</b>",
             "es": "Este banco <b>not</b> dispone de reposabrazos",
+            "uk": "Ця лавка <b>не</b> має підлокітників",
             "_context": "layers:bench.tagRenderings.bench-armrest.mappings.1.then"
           }
         }
@@ -25543,6 +25575,7 @@
         "nl": "Heeft deze bank armleuningen?",
         "cs": "Má tato lavice jednu nebo více opěrek?",
         "es": "¿Dispone este banco de uno o más reposabrazos?",
+        "uk": "Чи має ця лавка один або кілька підлокітників?",
         "_context": "layers:bench.tagRenderings.bench-armrest.question"
       },
       "id": "bench-armrest",
@@ -25567,7 +25600,7 @@
         "fr": "{seats} places",
         "nl": "{seats} zitplaatsen",
         "es": "Este banco tiene {seats} asientos",
-        "hu": "{seats} ülőhely",
+        "hu": "A padra {seats} ember tud leülni",
         "id": "{seats} kursi",
         "it": "{seats} posti",
         "ru": "{seats} мест",
@@ -26302,6 +26335,7 @@
         "pt": "Este banco tem a seguinte inscrição:<br/><p><i>{inscription}</i></p>",
         "pt_BR": "Esse banco tem a seguinte inscrição: <br/><p><i>{inscription}</i></p>",
         "es": "Este banco tiene la siguiente inscripción:<br/><p><i>{inscription}</i></p>",
+        "uk": "Ця лавка має такий напис:<br/><p><i>{inscription}</i></p>",
         "_context": "layers:bench.tagRenderings.bench-inscription.render"
       },
       "question": {
@@ -26314,6 +26348,7 @@
         "pt": "Esse banco tem inscrição?",
         "pt_BR": "Esse banco tem uma inscrição?",
         "es": "¿Tiene este banco una inscripción?",
+        "uk": "Чи є на цій лавці напис?",
         "_context": "layers:bench.tagRenderings.bench-inscription.question"
       },
       "freeform": {
@@ -26337,6 +26372,7 @@
             "pt": "Este banco não tem inscrição",
             "pt_BR": "Esse banco não tem uma inscrição",
             "es": "Este banco no tiene inscripción",
+            "uk": "Ця лавка не має напису",
             "_context": "layers:bench.tagRenderings.bench-inscription.mappings.0.then"
           },
           "addExtraTags": [
@@ -26355,6 +26391,7 @@
             "cs": "Tato lavička <span class='subtle'>(pravděpodobně)</span> nemá nápis",
             "pt_BR": "Esse banco <span class='subtle'>provavelmente</span> não tem uma inscrição",
             "pt": "Esse banco <span class='subtle'>provavelmente</span> não tem uma inscrição",
+            "uk": "Ця лавка <span class='subtle'>імовірно</span> не має напису",
             "_context": "layers:bench.tagRenderings.bench-inscription.mappings.1.then"
           },
           "hideInAnswer": true
@@ -26370,6 +26407,7 @@
         "pt": "Por exemplo: em placa montada, no encosto, ...",
         "pt_BR": "P. ex. em uma placa montada, no encosto, …",
         "es": "Por ejemplo, en una placa montada, en el respaldo, …",
+        "uk": "Наприклад, на вмонтованій табличці, в спинці крісла, …",
         "_context": "layers:bench.tagRenderings.bench-inscription.questionHint"
       },
       "condition": {
@@ -26592,7 +26630,8 @@
         "pl": "Czy ta ławka ma wbudowane dzieło sztuki?",
         "pt_BR": "Esse banco tem um elemento artístico?",
         "es": "¿Tiene este banco un elemento artístico?",
-        "pt": "Este banco tem um elemento artístico?"
+        "pt": "Este banco tem um elemento artístico?",
+        "uk": "Чи є в цій лавці художній елемент?"
       },
       "mappings": [
         {
@@ -26611,7 +26650,8 @@
             "pl": "Ta ławka ma wbudowane dzieło sztuki",
             "pt_BR": "Esse banco tem uma obra de arte integrada",
             "es": "Este banco tiene una obra de arte integrada",
-            "pt": "Este banco tem uma obra de arte integrada"
+            "pt": "Este banco tem uma obra de arte integrada",
+            "uk": "Ця лавка має інтегрований арт-об'єкт"
           }
         },
         {
@@ -26627,7 +26667,8 @@
             "he": "לספסל זה אין יצירת אמנות משולבת",
             "pl": "Ta ławka nie ma wbudowanego dzieła sztuki",
             "pt_BR": "Esse banco não tem uma obra de arte integrada",
-            "pt": "Este banco não tem uma obra de arte integrada"
+            "pt": "Este banco não tem uma obra de arte integrada",
+            "uk": "Ця лавка не має інтегрованого художнього оформлення"
           },
           "addExtraTags": [
             "tourism="
@@ -26659,7 +26700,8 @@
         "pl": "Np. jest na niej coś namalowane, ma rzeźbę lub inną nietrywialną pracę",
         "pt_BR": "Ex. possui uma pintura integrada, estátua ou outro trabalho criativo não trivial",
         "es": "Por ejemplo, si lleva integrado un cuadro, una estatua u otra obra creativa no trivial",
-        "pt": "Ex. possui uma pintura integrada, estátua ou outro trabalho criativo não trivial"
+        "pt": "Ex. possui uma pintura integrada, estátua ou outro trabalho criativo não trivial",
+        "uk": "Наприклад, він має інтегровану картину, статую або іншу нетривіальну, творчу роботу"
       },
       "condition": {
         "or": [
@@ -26840,7 +26882,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -27379,7 +27422,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Jam berapa kantor pos ini buka?",
-        "cs": "Jaká je otevírací doba této pošty?"
+        "cs": "Jaká je otevírací doba této pošty?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -28696,7 +28740,8 @@
         "es": "¿En qué nivel se encuentra esta característica?",
         "nb_NO": "Hvilken etasje befinner funksjonen seg i?",
         "da": "På hvilket niveau er denne funktion placeret?",
-        "cs": "V jaké úrovni se tento prvek nachází?"
+        "cs": "V jaké úrovni se tento prvek nachází?",
+        "uk": "На якому поверсі знаходиться цей об'єкт?"
       },
       "render": {
         "en": "Located on the {level}th floor",
@@ -28720,7 +28765,8 @@
         "da": "Beliggende på {level}. etage",
         "nb_NO": "Ligger i {level} etasje",
         "id": "Terletak di lantai {level}",
-        "cs": "Nachází se v {level}. patře"
+        "cs": "Nachází se v {level}. patře",
+        "uk": "Розташований на {level} поверсі"
       },
       "freeform": {
         "key": "level",
@@ -28751,7 +28797,8 @@
             "fil": "Nasa ilalim ng lupa",
             "es": "Localizado bajo tierra",
             "da": "Placeret under jorden",
-            "cs": "Nachází se v podzemí"
+            "cs": "Nachází se v podzemí",
+            "uk": "Розташований під землею"
           },
           "hideInAnswer": true
         },
@@ -28779,7 +28826,8 @@
             "fil": "Nasa unang palapag",
             "es": "Localizado en la planta baja",
             "da": "Beliggende i stueetagen",
-            "cs": "Nachází se v přízemí"
+            "cs": "Nachází se v přízemí",
+            "uk": "Розташований на рівні землі"
           }
         },
         {
@@ -28807,7 +28855,8 @@
             "fil": "Nasa unang palapag",
             "es": "Localizado en la planta baja",
             "da": "Beliggende i stueetagen",
-            "cs": "Nachází se v přízemí"
+            "cs": "Nachází se v přízemí",
+            "uk": "Розташований на рівні землі"
           }
         },
         {
@@ -28834,7 +28883,8 @@
             "fil": "Nasa unang palapag",
             "es": "Localizado en la primera planta",
             "da": "Beliggende på første sal",
-            "cs": "Nachází se v prvním patře"
+            "cs": "Nachází se v prvním patře",
+            "uk": "Розташований на другому поверсі"
           }
         },
         {
@@ -28855,7 +28905,8 @@
             "pt": "Localizado no primeiro nível da cave",
             "da": "Beliggende på første kælderetage",
             "cs": "Nachází se v prvním suterénu",
-            "pl": "Położone na pierwszym poziomie piwnicy"
+            "pl": "Położone na pierwszym poziomie piwnicy",
+            "uk": "Розташований на першому підвальному поверсі"
           }
         }
       ]
@@ -29652,7 +29703,8 @@
           "if": "access=private",
           "then": {
             "en": "Private bicycle parking which is never available to the public, also not via a membership fee",
-            "nl": "Private fietsenstalling die niet voor het grote publiek toegankelijk is (dus ook niet met bv. een abonnement)"
+            "nl": "Private fietsenstalling die niet voor het grote publiek toegankelijk is (dus ook niet met bv. een abonnement)",
+            "de": "Private Fahrradabstellplätze, die nie der Öffentlichkeit zur Verfügung stehen, auch nicht über einen Mitgliedsbeitrag"
           }
         }
       ],
@@ -29763,7 +29815,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -29929,7 +29982,8 @@
         "en": "What is the website number of the operator of this bicycle parking?",
         "nl": "Wat is de website van de operator van deze fietsenstalling?",
         "de": "Wie lautet die Nummer auf der Website des Betreibers dieses Fahrradparkplatzes?",
-        "es": "¿Cuál es la página web del operador de este aparcamiento de bicicletas?"
+        "es": "¿Cuál es la página web del operador de este aparcamiento de bicicletas?",
+        "uk": "Яка адреса веб-сайту оператора цієї велопарковки?"
       },
       "icon": "./assets/layers/icons/website.svg",
       "freeform": {
@@ -30333,7 +30387,8 @@
         "es": "¿Cual es el sitio web de {title()}?",
         "zh_Hans": "{title()} 的网站为何？",
         "da": "Hvad er webstedet for {title()}?",
-        "cs": "Jaká je webová stránka {title()}?"
+        "cs": "Jaká je webová stránka {title()}?",
+        "uk": "Який веб-сайт має {title()}?"
       },
       "render": {
         "*": "<a href='{website}' rel='nofollow noopener noreferrer' target='_blank'>{website}</a>"
@@ -31745,7 +31800,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -33102,7 +33158,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -34499,7 +34556,7 @@
           "then": {
             "en": "There is (probably) no incline here",
             "de": "Hier gibt es (wahrscheinlich) keine Steigung",
-            "nl": "De straat hier is (waarschijnlijk) zonder helling"
+            "nl": "De straat heeft hier (waarschijnlijk) geen helling"
           },
           "hideInAnswer": true
         },
@@ -36914,7 +36971,8 @@
         "nl": "Heeft dit verkeerslicht een element dat trilt om te helpen bij het oversteken? (meestal onderaan de oversteekknop geplaatst)",
         "fr": "Est-ce que ce feu a un signal vibrant pour aider à traverser ? (habituellement situé sous le bouton)",
         "ca": "Aquest semàfor té senyals de vibració per facilitar el pas? (normalment es troba a la part inferior del botó d'encreuament)",
-        "cs": "Má tento semafor vibrační signály pro usnadnění přecházení? (obvykle se nachází ve spodní části tlačítka pro přecházení)"
+        "cs": "Má tento semafor vibrační signály pro usnadnění přecházení? (obvykle se nachází ve spodní části tlačítka pro přecházení)",
+        "uk": "Чи має цей світлофор вібраційні сигнали для полегшення переходу? (зазвичай розташовані внизу кнопки переходу)"
       },
       "condition": {
         "and": [
@@ -37821,7 +37879,8 @@
         "es": "¿A qué pisos va este ascensor?",
         "nb_NO": "Hvilke etasjer går heisen til?",
         "da": "Hvilke niveauer går denne elevator til?",
-        "cs": "Do jakých podlaží tento výtah jezdí?"
+        "cs": "Do jakých podlaží tento výtah jezdí?",
+        "uk": "На якому поверсі знаходиться цей об'єкт?"
       },
       "render": {
         "en": "This elevator goes to floors {level}",
@@ -37845,7 +37904,8 @@
         "da": "Denne elevator går til etager {level}",
         "nb_NO": "Heisen går til etasje {level}",
         "id": "Lift ini berjalan ke lantai {level}",
-        "cs": "Tento výtah jede do {level} patra"
+        "cs": "Tento výtah jede do {level} patra",
+        "uk": "Розташований на {level} поверсі"
       },
       "freeform": {
         "key": "level",
@@ -37876,7 +37936,8 @@
             "fil": "Nasa ilalim ng lupa",
             "es": "Localizado bajo tierra",
             "da": "Placeret under jorden",
-            "cs": "Nachází se v podzemí"
+            "cs": "Nachází se v podzemí",
+            "uk": "Розташований під землею"
           },
           "hideInAnswer": true
         },
@@ -37904,7 +37965,8 @@
             "fil": "Nasa unang palapag",
             "es": "Localizado en la planta baja",
             "da": "Beliggende i stueetagen",
-            "cs": "Nachází se v přízemí"
+            "cs": "Nachází se v přízemí",
+            "uk": "Розташований на рівні землі"
           }
         },
         {
@@ -37932,7 +37994,8 @@
             "fil": "Nasa unang palapag",
             "es": "Localizado en la planta baja",
             "da": "Beliggende i stueetagen",
-            "cs": "Nachází se v přízemí"
+            "cs": "Nachází se v přízemí",
+            "uk": "Розташований на рівні землі"
           }
         },
         {
@@ -37959,7 +38022,8 @@
             "fil": "Nasa unang palapag",
             "es": "Localizado en la primera planta",
             "da": "Beliggende på første sal",
-            "cs": "Nachází se v prvním patře"
+            "cs": "Nachází se v prvním patře",
+            "uk": "Розташований на другому поверсі"
           }
         },
         {
@@ -37980,7 +38044,8 @@
             "pt": "Localizado no primeiro nível da cave",
             "da": "Beliggende på første kælderetage",
             "cs": "Nachází se v prvním suterénu",
-            "pl": "Położone na pierwszym poziomie piwnicy"
+            "pl": "Położone na pierwszym poziomie piwnicy",
+            "uk": "Розташований на першому підвальному поверсі"
           }
         }
       ],
@@ -38441,7 +38506,8 @@
         "es": "¿A qué pisos va este ascensor?",
         "nb_NO": "Hvilke etasjer går heisen til?",
         "da": "Hvilke niveauer går denne elevator til?",
-        "cs": "Mezi kterými podlažími jsou tyto schody?"
+        "cs": "Mezi kterými podlažími jsou tyto schody?",
+        "uk": "На якому поверсі знаходиться цей об'єкт?"
       },
       "render": {
         "en": "These stairs are between the levels {level}",
@@ -38465,7 +38531,8 @@
         "da": "Denne elevator går til etager {level}",
         "nb_NO": "Heisen går til etasje {level}",
         "id": "Lift ini berjalan ke lantai {level}",
-        "cs": "Tyto schody jsou mezi patry {level}"
+        "cs": "Tyto schody jsou mezi patry {level}",
+        "uk": "Розташований на {level} поверсі"
       },
       "freeform": {
         "key": "level",
@@ -38496,7 +38563,8 @@
             "fil": "Nasa ilalim ng lupa",
             "es": "Localizado bajo tierra",
             "da": "Placeret under jorden",
-            "cs": "Nachází se v podzemí"
+            "cs": "Nachází se v podzemí",
+            "uk": "Розташований під землею"
           },
           "hideInAnswer": true
         },
@@ -38524,7 +38592,8 @@
             "fil": "Nasa unang palapag",
             "es": "Localizado en la planta baja",
             "da": "Beliggende i stueetagen",
-            "cs": "Nachází se v přízemí"
+            "cs": "Nachází se v přízemí",
+            "uk": "Розташований на рівні землі"
           }
         },
         {
@@ -38552,7 +38621,8 @@
             "fil": "Nasa unang palapag",
             "es": "Localizado en la planta baja",
             "da": "Beliggende i stueetagen",
-            "cs": "Nachází se v přízemí"
+            "cs": "Nachází se v přízemí",
+            "uk": "Розташований на рівні землі"
           }
         },
         {
@@ -38579,7 +38649,8 @@
             "fil": "Nasa unang palapag",
             "es": "Localizado en la primera planta",
             "da": "Beliggende på første sal",
-            "cs": "Nachází se v prvním patře"
+            "cs": "Nachází se v prvním patře",
+            "uk": "Розташований на другому поверсі"
           }
         },
         {
@@ -38600,7 +38671,8 @@
             "pt": "Localizado no primeiro nível da cave",
             "da": "Beliggende på første kælderetage",
             "cs": "Nachází se v prvním suterénu",
-            "pl": "Położone na pierwszym poziomie piwnicy"
+            "pl": "Położone na pierwszym poziomie piwnicy",
+            "uk": "Розташований на першому підвальному поверсі"
           }
         }
       ],
@@ -39381,18 +39453,20 @@
         "da": "Hvad hedder denne pub?",
         "es": "¿Cuál es el nombre de esta empresa?",
         "ca": "Quin és el nom d'aquest negoci?",
-        "cs": "Jak se tento podnik jmenuje?"
+        "cs": "Jak se tento podnik jmenuje?",
+        "uk": "Як називається цей бізнес?"
       },
       "render": {
         "nl": "De naam van deze zaak is {name}",
         "en": "This business is named {name}",
         "de": "Das Unternehmen heißt {name}",
         "fr": "Ce pub se nomme {name}",
-        "hu": "A kocsma neve: {name}",
+        "hu": "A vállalkozás neve: {name}",
         "da": "Denne pub hedder {name}",
         "es": "Esta empresa se llama {name}",
         "ca": "Aquest negoci es diu {name}",
-        "cs": "Tento podnik se jmenuje {name}"
+        "cs": "Tento podnik se jmenuje {name}",
+        "uk": "Цей бізнес називається {name}"
       },
       "freeform": {
         "key": "name",
@@ -39426,11 +39500,12 @@
         "de": "Was ist das für ein Café?",
         "hu": "Milyen fajta kávézó ez?",
         "da": "Hvilken slags cafe er dette?",
-        "es": "Qué tipo de cafe es este?",
+        "es": "¿Qué tipo de café es este?",
         "fr": "Quel genre de café est-ce ?",
         "ca": "Quin tipus de cafeteria és aquesta?",
         "pl": "Jakiego rodzaju jest to kawiarnia?",
-        "cs": "O jakou kavárnu se jedná?"
+        "cs": "O jakou kavárnu se jedná?",
+        "uk": "Що це за кафе?"
       },
       "mappings": [
         {
@@ -39443,7 +39518,8 @@
             "fr": "Un pub, principalement pour boire un verre dans une atmosphère chaleureuse et décontractée",
             "da": "En pub, mest et sted at drikke øl i hyggelige, afslappede omgivelser",
             "ca": "Un bar, principalment per a beure cerveses en un interior càlid i relaxat",
-            "cs": "Hospoda, kde se většinou pije pivo v příjemném a uvolněném interiéru"
+            "cs": "Hospoda, kde se většinou pije pivo v příjemném a uvolněném interiéru",
+            "uk": "Паб, переважно для пиття пива в теплому, розслабленому інтер'єрі"
           }
         },
         {
@@ -39456,7 +39532,8 @@
             "es": "Un <b>bar de copas</b> más moderno y comercial, posiblemente con una instalación de música y luz",
             "fr": "Un <b>bar</b> plus moderne et commercial, avec éventuellement musique et jeux de lumière",
             "ca": "Un <b>bar de copes</b> més modern i comercial, possiblement amb equipació de música i llums",
-            "cs": "Modernější a komerčnější <b>bar</b>, případně s hudební a světelnou instalací"
+            "cs": "Modernější a komerčnější <b>bar</b>, případně s hudební a světelnou instalací",
+            "uk": "Більш сучасний і комерційний <b>бар</b>, можливо, з музичною та світловою інсталяцією"
           }
         },
         {
@@ -39469,7 +39546,8 @@
             "es": "Una <b>cafetería</b> para beber té, café o una bebida alcohólica en un ambiente tranquilo",
             "fr": "Un <b>café</b> pour boire du thé, du café ou une boisson alcoolisée au calme",
             "ca": "Una <b>cafeteria</b> per a a beure té, café o una beguda alcohólica en un ambient tranquil",
-            "cs": "<b>kavárna</b>, kde si můžete v klidném prostředí vypít čaj, kávu nebo alkoholický nápoj"
+            "cs": "<b>kavárna</b>, kde si můžete v klidném prostředí vypít čaj, kávu nebo alkoholický nápoj",
+            "uk": "<b>Кафе</b>, щоб випити чаю, кави чи алкогольного напою в тихій обстановці"
           }
         },
         {
@@ -39482,7 +39560,8 @@
             "es": "Un <b>restaurante</b> donde se pueda comer como es debido",
             "fr": "Un <b>restaurant</b> où l'on peut prendre un bon repas",
             "ca": "Un <b>restaurant</b> on es pot menjar bé",
-            "cs": "<b>Restaurace</b>, kde se dá pořádně najíst"
+            "cs": "<b>Restaurace</b>, kde se dá pořádně najíst",
+            "uk": "<b>Ресторан</b> де можна смачно поїсти"
           }
         },
         {
@@ -39509,7 +39588,8 @@
             "fr": "Une <b>boîte de nuit</b> ou discothèque orientée danse, la musique d'un DJ avec un spectacle de lumière et un bar pour prendre des boissons (alcoolisées)",
             "da": "Dette er en <b>natklub</b> eller diskotek med fokus på dans, musik af en DJ med tilhørende lysshow og en bar, hvor man kan købe (alkoholiske) drikkevarer",
             "ca": "Açò és un <b>club nocturn</b> o discoteca centrat en ballar, música d'un DJ acompanyat d'un espectacle de llums i una barra on obtindre begudes (alcohòliques)",
-            "cs": "Jedná se o <b>noční klub</b> nebo diskotéku se zaměřením na tanec, hudbu DJ s doprovodnou světelnou show a bar, kde si můžete dát (alkoholické) nápoje"
+            "cs": "Jedná se o <b>noční klub</b> nebo diskotéku se zaměřením na tanec, hudbu DJ s doprovodnou světelnou show a bar, kde si můžete dát (alkoholické) nápoje",
+            "uk": "Це <b>нічний клуб</b> або дискотека з акцентом на танці, музикою від ді-джея з супроводом світлового шоу та баром, щоб отримати (алкогольні) напої"
           }
         }
       ],
@@ -39558,7 +39638,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -41081,7 +41162,8 @@
         "es": "El nombre de red es <b>{internet_access:ssid}</b>",
         "fr": "Le nom du réseau est <b>{internet_access:ssid}</b>",
         "ca": "El nom de la xarxa és <b>{internet_access:ssid}</b>",
-        "pl": "Nazwa sieci to <b>{internet_access:ssid}</b>"
+        "pl": "Nazwa sieci to <b>{internet_access:ssid}</b>",
+        "uk": "Назва мережі: <b>{internet_access:ssid}</b>"
       }
     },
     {
@@ -41531,7 +41613,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -41720,7 +41803,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -48549,7 +48633,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -49648,7 +49733,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvornår er dette cykelreparationssted åbent?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Kdy je toto místo pro opravu jízdních kol otevřeno?"
+        "cs": "Kdy je toto místo pro opravu jízdních kol otevřeno?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -50049,7 +50135,8 @@
         "es": "{send_email(&LBRACEemail&RBRACE,Bomba para bicicletas rota,Hola&COMMA\n\nCon este correo&COMMA me gustaría informar de que esta bomba para bicicletas situada en https://mapcomplete.org/cyclofix?lat=&LBRACE_lat&RBRACE&lon=&LBRACE_lon&RBRACE&z=18#&LBRACEid&RBRACE está rota.\n\nUn saludo,Reportar esta bomba para bicicletas como rota)}",
         "fr": "{send_email(&LBRACEemail&RBRACE,Pompe à vélo cassée,Bonjour&COMMA\n\nCe mail pour vous informer que la pompe à vélo située à https://mapcomplete.org/cyclofix?lat=&LBRACE_lat&RBRACE&lon=&LBRACE_lon&RBRACE&z=18#&LBRACEid&RBRACE est cassée.\n\nBien à vous.,Signaler cette pompe à vélo cassée)}",
         "nl": "{send_email(&LBRACEemail&RBRACE,Kapotte fietspomp,Geachte\n\nGraag had ik u gemeld dat een fietspomp defect is. De fietspomp bevindt zich hier: https://mapcomplete.org/cyclofix?lat=&LBRACE_lat&RBRACE&lon=&LBRACE_lon&RBRACE&z=18#&LBRACEid&RBRACE.\n\nMet vriendelijke groeten.,Rapporteer deze fietspomp als kapot)}",
-        "pl": "{send_email(&LBRACEemail&RBRACE,Zepsuta pompka rowerowa,Hello&COMMA\n\nWith this email&COMMA I'd like to inform you that the bicycle pump located at https://mapcomplete.org/cyclofix?lat=&LBRACE_lat&RBRACE&lon=&LBRACE_lon&RBRACE&z=18#&LBRACEid&RBRACE is broken.\n\n Kind regards,Zgłoś&COMMA że ta pompka rowerowa jest zepsuta)}"
+        "pl": "{send_email(&LBRACEemail&RBRACE,Zepsuta pompka rowerowa,Hello&COMMA\n\nWith this email&COMMA I'd like to inform you that the bicycle pump located at https://mapcomplete.org/cyclofix?lat=&LBRACE_lat&RBRACE&lon=&LBRACE_lon&RBRACE&z=18#&LBRACEid&RBRACE is broken.\n\n Kind regards,Zgłoś&COMMA że ta pompka rowerowa jest zepsuta)}",
+        "uk": "{send_email(&LBRACEemail&RBRACE,Broken bicycle pump,Доброго дня&COMMA\n\nЦим листом хочу повідомити&COMMA що велосипедний насос&COMMA розташований за адресою https://mapcomplete.org/cyclofix?lat=&LBRACE_lat&RBRACE&lon=&LBRACE_lon&RBRACE&z=18#&LBRACEid&RBRACE&COMMA вийшов з ладу.\n\n З повагою,Report this bicycle pump as broken)}"
       },
       "id": "send_email_about_broken_pump"
     },
@@ -50342,7 +50429,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -74349,7 +74437,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -76278,7 +76367,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -76481,7 +76571,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -78789,7 +78880,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvornår åbnes disse toiletter?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Kdy jsou tyto toalety otevřeny?"
+        "cs": "Kdy jsou tyto toalety otevřeny?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -79206,7 +79298,8 @@
       "question": {
         "en": "Where are the free menstrual products located?",
         "nl": "Waar bevinden de gratis menstruatieproducten zich?",
-        "de": "Wo befinden sich die kostenlosen Menstruationsprodukte?"
+        "de": "Wo befinden sich die kostenlosen Menstruationsprodukte?",
+        "uk": "Де знаходяться безкоштовні менструальні засоби?"
       },
       "condition": {
         "and": [
@@ -79249,7 +79342,8 @@
           "then": {
             "en": "The free, menstrual products are located in the toilet for women",
             "nl": "De gratis menstruatieproducten bevinden zich in het vrouwentoilet",
-            "de": "Die kostenlosen Menstruationsprodukte befinden sich in der Toilette für Frauen"
+            "de": "Die kostenlosen Menstruationsprodukte befinden sich in der Toilette für Frauen",
+            "uk": "Безкоштовні менструальні засоби знаходяться в туалеті для жінок"
           },
           "if": "toilets:menstrual_products:location=female_toilet",
           "alsoShowIf": "toilets:menstrual_products:location="
@@ -79258,7 +79352,8 @@
           "then": {
             "en": "The free, menstrual products are located in the toilet for men",
             "nl": "De gratis menstruatieproducten bevinden zich in het mannentoilet",
-            "de": "Die kostenlosen Menstruationsprodukte befinden sich in der Toilette für Männer"
+            "de": "Die kostenlosen Menstruationsprodukte befinden sich in der Toilette für Männer",
+            "uk": "Безкоштовні менструальні засоби знаходяться в туалеті для чоловіків"
           },
           "if": "toilets:menstrual_products:location=male_toilet"
         },
@@ -79267,7 +79362,8 @@
           "then": {
             "en": "The free, menstrual products are located in the toilet for wheelchair users",
             "nl": "De gratis menstruatieproducten bevinden zich in het rolstoeltoegankelijke toilet",
-            "de": "Die kostenlosen Menstruationsprodukte befinden sich auf der Toilette für Rollstuhlfahrende"
+            "de": "Die kostenlosen Menstruationsprodukte befinden sich auf der Toilette für Rollstuhlfahrende",
+            "uk": "Безкоштовні менструальні засоби знаходяться в туалеті для людей на візках"
           }
         }
       ]
@@ -79349,7 +79445,8 @@
         "es": "¿Dónde está el cambiador?",
         "da": "Hvor er puslebordet placeret?",
         "ca": "On està el canviador?",
-        "cs": "Kde je umístěn přebalovací pult?"
+        "cs": "Kde je umístěn přebalovací pult?",
+        "uk": "Де знаходиться пеленальний столик?"
       },
       "render": {
         "en": "A changing table is located at {changing_table:location}",
@@ -79933,7 +80030,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -81801,7 +81899,8 @@
         "zh_Hans": "这家自行车咖啡什么时候开门营业？",
         "da": "Hvornår er denne cykelcafé åbent?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Kdy byla tato cyklistická kavárna otevřena?"
+        "cs": "Kdy byla tato cyklistická kavárna otevřena?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -81960,6 +82059,7 @@
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
         "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?",
         "_context": "layers:shops.tagRenderings.opening_hours.question"
       },
       "render": {
@@ -82067,7 +82167,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -82667,7 +82768,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -83787,7 +83889,8 @@
         "nl": " Aan welke straat ligt dit station?",
         "de": " In welcher Straße ist die Feuerwache?",
         "ca": " Quin és el nom del carrer on es troba aquesta estació?",
-        "cs": " Jak se jmenuje ulice, kde se stanice nachází?"
+        "cs": " Jak se jmenuje ulice, kde se stanice nachází?",
+        "uk": " Як називається вулиця, на якій розташована станція?"
       },
       "render": {
         "en": "This station is along a highway called {addr:street}.",
@@ -83819,7 +83922,8 @@
         "nl": "Waar is dit station gelegen? (v.b. naam van de buurt, dorp of stad)",
         "de": "Wo befindet sich die Station? (z. B. Name des Viertels, des Dorfes oder der Stadt)",
         "ca": "On es troba aquesta estació? (p.e. nom del barri, poble o ciutat)",
-        "cs": "Kde se stanice nachází? (např. název čtvrti, obce nebo města)"
+        "cs": "Kde se stanice nachází? (např. název čtvrti, obce nebo města)",
+        "uk": "Де розташована станція? (наприклад, назва району, села чи міста)"
       },
       "freeform": {
         "key": "addr:place",
@@ -84114,7 +84218,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -85133,7 +85238,8 @@
         "pl": "Jak nazywa się ulica, przy której znajduje się stacja?",
         "pt_BR": "Como é o nome da rua em que a estação está localizada?",
         "zh_Hans": "车站所在的街道名称是什么？",
-        "pt": "Como é o nome da rua em que a estação está localizada?"
+        "pt": "Como é o nome da rua em que a estação está localizada?",
+        "uk": "Як називається вулиця, на якій розташована станція?"
       },
       "render": {
         "en": "This station is along a highway called {addr:street}.",
@@ -85179,7 +85285,8 @@
         "he": "היכן ממוקמת התחנה? (למשל שם השכונה, הכפר או העיירה)",
         "pt_BR": "Onde está localizada a estação? (por exemplo, nome do bairro, vila ou cidade)",
         "zh_Hans": "车站位于哪里？ （例如邻里、村庄或城镇的名称）",
-        "pt": "Onde está a estação localizada ? (por exemplo, nome do bairro, vila ou cidade)"
+        "pt": "Onde está a estação localizada ? (por exemplo, nome do bairro, vila ou cidade)",
+        "uk": "Де знаходиться станція? (наприклад, назва району, села чи міста)"
       },
       "freeform": {
         "key": "addr:place",
@@ -85482,7 +85589,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -86385,7 +86493,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Kdy je tato péče o děti otevřena?"
+        "cs": "Kdy je tato péče o děti otevřena?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -86513,7 +86622,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -86954,7 +87064,8 @@
             "de": "Der Prägeautomat befindet sich im Inneren.",
             "es": "Esta prensa está ubicada en interior.",
             "ca": "Esta premsa està ubicada en interior.",
-            "cs": "Tento lis na mince je umístěn v interiéru."
+            "cs": "Tento lis na mince je umístěn v interiéru.",
+            "uk": "Цей копійчаний прес розташований у приміщенні."
           }
         },
         {
@@ -86964,7 +87075,8 @@
             "de": "Der Prägeautomat befindet sich im Freien.",
             "es": "Esta prensa está ubicada al aire libre.",
             "ca": "Esta premsa està ubicada a l'exterior.",
-            "cs": "Tento lis na mince je umístěn venku."
+            "cs": "Tento lis na mince je umístěn venku.",
+            "uk": "Цей копійчаний прес розташований на відкритому повітрі."
           }
         }
       ],
@@ -87098,7 +87210,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -87359,7 +87472,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -88132,7 +88246,7 @@
       "id": "fuel",
       "question": {
         "en": "How ist the grill fueled?",
-        "de": "Mit was wird die Grillstelle angefeuert?",
+        "de": "Womit wird der Grill befeuert?",
         "cs": "Jak je gril napájen?",
         "es": "¿Cómo se alimenta la parrilla?"
       },
@@ -88191,7 +88305,8 @@
         "es": "¿Cuál es el nombre de este negocio?",
         "fr": "Quel est le nom de ce restaurant ?",
         "ca": "Quin és el nom d'aquest negoci?",
-        "cs": "Jak se tento podnik jmenuje?"
+        "cs": "Jak se tento podnik jmenuje?",
+        "uk": "Як називається цей бізнес?"
       },
       "render": {
         "nl": "De naam van deze eetgelegeheid is {name}",
@@ -88200,7 +88315,8 @@
         "es": "El nombre de este negocio es {name}",
         "fr": "Le nom de ce restaurant est {name}",
         "ca": "El nom d'aquest negoci és {name}",
-        "cs": "Název tohoto podniku je {name}"
+        "cs": "Název tohoto podniku je {name}",
+        "uk": "Цей бізнес називається {name}"
       },
       "freeform": {
         "key": "name",
@@ -88230,7 +88346,8 @@
         "es": "¿Qué tipo de negocio es este?",
         "fr": "Quel type de restaurant est-ce ?",
         "ca": "Quin tipus de negoci és aquest?",
-        "cs": "O jaký typ podnikání se jedná?"
+        "cs": "O jaký typ podnikání se jedná?",
+        "uk": "Що це за бізнес?"
       },
       "mappings": [
         {
@@ -88241,9 +88358,10 @@
             "de": "Es handelt sich um einen Schnellimbiss, mit Fokus auf schnelle Bedienung am Tresen. Sitzmöglichkeiten sind begrenzt und funktional.",
             "es": "Se trata de un negocio de comida rápida, centrado en el servicio rápido. Si hay asientos disponibles, son más bien limitados y funcionales.",
             "fr": "C'est un fast-food, centrée sur le service rapide. Si des places sont disponibles, elles sont plutôt limitées et fonctionnelles.",
-            "hu": "Ez egy gyorsétterem (büfé), amely a gyors kiszolgálásra összpontosít. Ha vannak is ülőhelyek, ezek meglehetősen korlátozottak és funkcionálisak.",
+            "hu": "Ez egy gyorsétterem (büfé), amely a gyors kiszolgálásra összpontosít. Ha van is ülőhely, az meglehetősen korlátozott és funkcionális.",
             "ca": "Aquest és un negoci de menjar ràpid, centrat en el servei ràpid. Si hi han seients disponibles, aquests seran limitats i funcionals.",
-            "cs": "Jedná se o podnik s rychlým občerstvením, zaměřený na rychlou obsluhu. Pokud je k dispozici místo k sezení, je spíše omezené a funkční."
+            "cs": "Jedná se o podnik s rychlým občerstvením, zaměřený na rychlou obsluhu. Pokud je k dispozici místo k sezení, je spíše omezené a funkční.",
+            "uk": "Це бізнес швидкого харчування, орієнтований на швидке обслуговування. Якщо місця для сидіння і є, то вони досить обмежені та функціональні."
           }
         },
         {
@@ -88255,7 +88373,8 @@
             "es": "Un <b>restaurante</b>, centrado en crear una experiencia agradable en la que uno se sirve en mesa",
             "fr": "Un <b>restaurant</b>, axé sur la création d'une expérience agréable où l'on est servi à table",
             "ca": "Un <b>restaurant</b>, centrat en crear una bona experiència on es serveix a taula",
-            "cs": "<b>Restaurace</b> zaměřená na vytvoření příjemného zážitku, kde se obsluhuje u stolu"
+            "cs": "<b>Restaurace</b> zaměřená na vytvoření příjemného zážitku, kde se obsluhuje u stolu",
+            "uk": "<b>Ресторан</b>, зосереджений на створенні приємних вражень, де обслуговують за столом"
           }
         }
       ],
@@ -88305,7 +88424,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -89586,7 +89706,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -89817,7 +89938,8 @@
         "it": "Che cosa è scritto sulla bici fantasma?",
         "fr": "Quelle est l'inscription sur ce vélo fantôme ?",
         "ca": "Quina és la inscripció d'aquesta bicicleta fantasma?",
-        "cs": "Jaký je nápis na tomto kole duchů?"
+        "cs": "Jaký je nápis na tomto kole duchů?",
+        "uk": "Який напис на цьому примарному велосипеді?"
       },
       "render": {
         "en": "<i>{inscription}</i>",
@@ -89829,7 +89951,8 @@
         "ru": "<i>{inscription}</i>",
         "id": "<i>{inscription}</i>",
         "cs": "<i>{inscription}</i>",
-        "pl": "<i>{inscription}</i>"
+        "pl": "<i>{inscription}</i>",
+        "uk": "<i>{inscription}</i>"
       },
       "freeform": {
         "key": "inscription",
@@ -89897,7 +90020,8 @@
         "en": "What is the text on the sign?",
         "de": "Was ist der Text auf dem Schild?",
         "es": "¿Cuál es el texto del cartel?",
-        "ca": "Quin és el text del rètol?"
+        "ca": "Quin és el text del rètol?",
+        "uk": "Який текст на вивісці?"
       },
       "freeform": {
         "key": "inscription",
@@ -89906,14 +90030,16 @@
           "en": "Text on the sign",
           "de": "Text auf dem Schild",
           "es": "Texto en el cartel",
-          "ca": "Text en el rètol"
+          "ca": "Text en el rètol",
+          "uk": "Текст на табличці"
         },
         "inline": true
       },
       "render": {
         "en": "The text on the sign is: {inscription}",
         "de": "Der Text auf dem Schild ist: {inscription}",
-        "es": "El texto del cartel es: {inscription}"
+        "es": "El texto del cartel es: {inscription}",
+        "uk": "Текст на табличці: {inscription}"
       },
       "condition": {
         "and": [
@@ -90009,7 +90135,8 @@
           "if": "hackerspace=hacklab",
           "then": {
             "en": "This is a <b>hacklab</b> which is mostly focussed on basic computer skills, using recycled devices and/or providing internet to the community. This is typically located in autonomous spaces, squats or social facilities",
-            "de": "Dies ist ein <b>Hackerspace/Hack-Lab</b>, das sich hauptsächlich auf grundlegende Computerkenntnisse konzentriert, recycelte Geräte verwendet und/oder der Gemeinschaft Internet bereitstellt. Es befindet sich typischerweise in autonomen Räumen, besetzten Häusern oder sozialen Einrichtungen"
+            "de": "Dies ist ein <b>Hackerspace/Hack-Lab</b>, das sich hauptsächlich auf grundlegende Computerkenntnisse konzentriert, recycelte Geräte verwendet und/oder der Gemeinschaft Internet bereitstellt. Es befindet sich typischerweise in autonomen Räumen, besetzten Häusern oder sozialen Einrichtungen",
+            "uk": "Це <b>хак-лабораторія</b>, яка здебільшого зосереджена на базових комп'ютерних навичках, використовує перероблені пристрої та/або надає доступ до Інтернету громаді. Зазвичай вони розташовані в автономних приміщеннях, сквотах або соціальних об'єктах"
           }
         }
       ],
@@ -90075,7 +90202,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Kdy je tento prostor hackerů otevřen?"
+        "cs": "Kdy je tento prostor hackerů otevřen?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -90724,7 +90852,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -91392,6 +91521,7 @@
         "da": "Hvornår åbnes disse toiletter?",
         "id": "Kapan jam buka {title()}?",
         "cs": "Kdy jsou tyto toalety otevřeny?",
+        "uk": "Які години роботи {title()}?",
         "_context": "layers:toilet.tagRenderings.opening_hours_24_7.question"
       },
       "render": {
@@ -92599,7 +92729,8 @@
         "de": "Wie lautet der Text auf dieser Geschwindigkeitsanzeige?",
         "ca": "Quin text es mostra al radar pedagògic?",
         "nl": "Wat is de tekst op dit snelheidsdisplay?",
-        "cs": "Jaký je text na tomto ukazateli rychlosti?"
+        "cs": "Jaký je text na tomto ukazateli rychlosti?",
+        "uk": "Який текст відображається на цьому дисплеї швидкості?"
       },
       "freeform": {
         "key": "inscription",
@@ -92609,7 +92740,8 @@
           "de": "Text auf der Geschwindigkeitsanzeige (z. B. \"Ihre Geschwindigkeit\")",
           "nl": "Tekst op snelheidsdisplay (b.v. 'Uw snelheid')",
           "ca": "Text al radar pedagògic (p. e. 'La seva velocitat')",
-          "cs": "Text na displeji rychlosti (např. \"Vaše rychlost\")"
+          "cs": "Text na displeji rychlosti (např. \"Vaše rychlost\")",
+          "uk": "Текст на дисплеї швидкості (наприклад, \"Ваша швидкість\")"
         },
         "inline": true
       },
@@ -92618,7 +92750,8 @@
         "de": "Der Text auf dieser Geschwindigkeitsanzeige ist {inscription}",
         "nl": "De tekst op dit snelheidsdisplay is {inscription}",
         "ca": "El text a aquest radar pedagogic és {inscription}",
-        "cs": "Text na tomto ukazateli rychlosti je {inscription}"
+        "cs": "Text na tomto ukazateli rychlosti je {inscription}",
+        "uk": "Текст на цьому дисплеї швидкості має вигляд {inscription}"
       },
       "condition": {
         "and": [
@@ -92919,7 +93052,8 @@
         "nl": "De toegankelijkheid van dit gebied is: {access:description}",
         "de": "Zugang zu diesem Naturschutzgebiet: {access:description}",
         "ca": "Accés a aquesta reserva natural: {access:description}",
-        "cs": "Přístup do této přírodní rezervace: {access:description}"
+        "cs": "Přístup do této přírodní rezervace: {access:description}",
+        "uk": "Доступ до цього природного заповідника: {access:description}"
       },
       "question": {
         "en": "Is this nature reserve accessible to the public?",
@@ -95038,7 +95172,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -95386,7 +95521,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -95686,7 +95822,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -96190,7 +96327,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -96400,7 +96538,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -97856,7 +97995,8 @@
         "it": "Che tipo di raccolta è questo?",
         "ca": "Quin tipus de reciclatge és aquest?",
         "fr": "De quel type d’installation de recyclage s’agit-il ?",
-        "cs": "O jaký typ recyklace se jedná?"
+        "cs": "O jaký typ recyklace se jedná?",
+        "uk": "Що це за тип переробки?"
       },
       "mappings": [
         {
@@ -97872,7 +98012,8 @@
             "it": "Questo è un contenitore per il riciclo di rifiuti",
             "ca": "Açò és un contenidor de reciclatge",
             "fr": "C'est un conteneur de recyclage",
-            "cs": "Jedná se o recyklační kontejner"
+            "cs": "Jedná se o recyklační kontejner",
+            "uk": "Це контейнер для вторинної переробки"
           }
         },
         {
@@ -97888,7 +98029,8 @@
             "it": "Questo è un centro per la raccola e riciclo di rifiuti",
             "ca": "Açò és un centre de reciclatge",
             "fr": "C'est une déchèterie",
-            "cs": "Jedná se o recyklační centrum"
+            "cs": "Jedná se o recyklační centrum",
+            "uk": "Це центр переробки сміття"
           }
         },
         {
@@ -97900,7 +98042,8 @@
             "it": "Contenitore per lo smaltimento del secco",
             "ca": "Contenidor per a residus no reciclables (fracció resta)",
             "fr": "Conteneur à déchets pour déchets résiduels",
-            "cs": "Kontejner na zbytkový odpad"
+            "cs": "Kontejner na zbytkový odpad",
+            "uk": "Контейнер для утилізації залишкових відходів"
           },
           "addExtraTags": [
             "recycling:batteries=",
@@ -97940,7 +98083,8 @@
             "ca": "Aquest és un punt de recollida. El rebuig es col·loca aquí sense col·locar-lo en un contenidor dedicat.",
             "de": "Dies ist ein Abholpunkt. Abfälle werden hier abgelegt, ohne sie in einen speziellen Behälter zu geben.",
             "fr": "C'est un point de ramassage. Les déchets y sont déposés sans être placés dans un conteneur spécifique.",
-            "cs": "Jedná se o místo vyzvednutí. Odpadní materiál se zde ukládá bez umístění do vyhrazeného kontejneru."
+            "cs": "Jedná se o místo vyzvednutí. Odpadní materiál se zde ukládá bez umístění do vyhrazeného kontejneru.",
+            "uk": "Це пункт прийому відходів. Відходи розміщують тут, не поміщаючи їх у спеціальний контейнер."
           }
         },
         {
@@ -97954,7 +98098,8 @@
             "ca": "Es tracta d’un abocador on s’apilen els residus.",
             "de": "Dies ist eine Deponie, auf der die Abfälle gelagert werden.",
             "fr": "C'est une décharge où les déchets sont empilés.",
-            "cs": "Jedná se o skládku, kde se ukládá odpadní materiál."
+            "cs": "Jedná se o skládku, kde se ukládá odpadní materiál.",
+            "uk": "Це звалище, куди складають відходи."
           }
         }
       ],
@@ -97975,7 +98120,8 @@
         "it": "Come si chiama questo centro raccolta e riciclo rifiuti?",
         "ca": "Quin és el nom d’aquest centre de reciclatge?",
         "fr": "Quel est le nom de cette déchèterie ?",
-        "cs": "Jak se toto recyklační centrum jmenuje?"
+        "cs": "Jak se toto recyklační centrum jmenuje?",
+        "uk": "Як називається цей центр переробки?"
       },
       "render": {
         "en": "This recycling centre is named <b>{name}</b>",
@@ -97985,7 +98131,8 @@
         "it": "Questo centro raccolta e riciclo rifiuti si chiama <b>{name}</b>",
         "ca": "Aquest centre de reciclatge s'anomena <b>{name}</b>",
         "fr": "Le nom de cette déchèterie est <b>{name}</b>",
-        "cs": "Toto recyklační středisko se jmenuje <b>{name}</b>"
+        "cs": "Toto recyklační středisko se jmenuje <b>{name}</b>",
+        "uk": "Цей центр переробки має назву <b>{name}</b>"
       },
       "freeform": {
         "key": "name",
@@ -98002,7 +98149,8 @@
             "it": "Questo centro raccolta e riciclo rifiuti non ha un nome specifico",
             "ca": "Aquest centre de reciclatge no té un nom específic",
             "fr": "Cette déchèterie n'a pas de nom spécifique",
-            "cs": "Toto recyklační centrum nemá konkrétní název"
+            "cs": "Toto recyklační centrum nemá konkrétní název",
+            "uk": "Цей центр переробки не має конкретної назви"
           }
         }
       ],
@@ -98055,7 +98203,8 @@
             "it": "Questo contenitore è al chiuso",
             "ca": "Aquest contenidor està situat a l'interior",
             "fr": "Ce conteneur est situé en intérieur",
-            "cs": "Tento kontejner je umístěn uvnitř"
+            "cs": "Tento kontejner je umístěn uvnitř",
+            "uk": "Цей контейнер знаходиться в приміщенні"
           }
         },
         {
@@ -98068,7 +98217,8 @@
             "it": "Questo contenitore è all'aperto",
             "ca": "Aquest contenidor està situat a l'aire lliure",
             "fr": "Ce conteneur est situé à l'extérieur",
-            "cs": "Tento kontejner je umístěn venku"
+            "cs": "Tento kontejner je umístěn venku",
+            "uk": "Цей контейнер розташований на відкритому повітрі"
           }
         }
       ]
@@ -98083,7 +98233,8 @@
         "it": "Cosa si può riciclare qui?",
         "ca": "Què es pot reciclar aquí?",
         "fr": "Que peut-on recycler ici ?",
-        "cs": "Co se zde dá recyklovat?"
+        "cs": "Co se zde dá recyklovat?",
+        "uk": "Що тут можна переробити?"
       },
       "multiAnswer": true,
       "mappings": [
@@ -98098,7 +98249,8 @@
             "it": "Batterie",
             "ca": "Aquí es poden reciclar piles",
             "fr": "Les piles et batteries domestiques peuvent être recyclées ici",
-            "cs": "Baterie se zde dají recyklovat"
+            "cs": "Baterie se zde dají recyklovat",
+            "uk": "Батарейки"
           },
           "icon": {
             "path": "./assets/layers/recycling/batteries.svg",
@@ -98115,7 +98267,8 @@
             "it": "Cartoni per bevande",
             "ca": "Aquí es poden reciclar els cartons de begudes",
             "fr": "Les briques alimentaires en carton peuvent être recyclées ici",
-            "cs": "Nápojové kartony se zde dají recyklovat"
+            "cs": "Nápojové kartony se zde dají recyklovat",
+            "uk": "Коробки з-під напоїв"
           },
           "icon": {
             "path": "./assets/layers/recycling/beverage_cartons.svg",
@@ -98133,7 +98286,8 @@
             "it": "Lattine",
             "ca": "Aquí es poden reciclar llaunes",
             "fr": "Les boites de conserve et canettes peuvent être recyclées ici",
-            "cs": "Plechovky se zde dají recyklovat"
+            "cs": "Plechovky se zde dají recyklovat",
+            "uk": "Бляшанки"
           },
           "icon": {
             "path": "./assets/layers/recycling/cans.svg",
@@ -98151,7 +98305,8 @@
             "it": "Abiti",
             "ca": "Aquí es pot reciclar roba",
             "fr": "Les vêtements peuvent être recyclés ici",
-            "cs": "Oblečení se zde dá recyklovat"
+            "cs": "Oblečení se zde dá recyklovat",
+            "uk": "Одяг"
           },
           "icon": {
             "path": "./assets/layers/recycling/clothes.svg",
@@ -98169,7 +98324,8 @@
             "it": "Olio da cucina",
             "ca": "Aquí es pot reciclar oli de cuina",
             "fr": "Les huiles de friture peuvent être recyclées ici",
-            "cs": "Olej na vaření zde lze recyklovat"
+            "cs": "Olej na vaření zde lze recyklovat",
+            "uk": "Олія для приготування їжі"
           },
           "icon": {
             "path": "./assets/layers/recycling/cooking_oil.svg",
@@ -98187,7 +98343,8 @@
             "it": "Olio di motore",
             "ca": "Aquí es pot reciclar oli de motor",
             "fr": "Les huiles de moteur peuvent être recyclées ici",
-            "cs": "Motorový olej zde lze recyklovat"
+            "cs": "Motorový olej zde lze recyklovat",
+            "uk": "Моторна олива"
           },
           "icon": {
             "path": "./assets/layers/recycling/engine_oil.svg",
@@ -98203,7 +98360,8 @@
             "de": "Hier können Leuchtstoffröhren recycelt werden",
             "ca": "Aquí es poden reciclar tub fluroescents",
             "fr": "Les lampes fluorescentes peuvent être recyclées ici",
-            "cs": "Zářivky se zde dají recyklovat"
+            "cs": "Zářivky se zde dají recyklovat",
+            "uk": "Флуоресцентні лампи"
           },
           "icon": {
             "path": "./assets/layers/recycling/fluorescent_tubes.svg",
@@ -98221,7 +98379,8 @@
             "ca": "Aquí es poden reciclar residus verds",
             "fr": "Les déchets verts peuvent être recyclés ici",
             "cs": "Zelený odpad se zde dá recyklovat",
-            "es": "Los residuos orgánicos pueden reciclarse aquí"
+            "es": "Los residuos orgánicos pueden reciclarse aquí",
+            "uk": "Зелені відходи"
           },
           "icon": {
             "path": "./assets/layers/recycling/garden_waste.svg",
@@ -98258,7 +98417,8 @@
             "it": "Bottiglie di vetro",
             "ca": "Aquí es poden reciclar ampolles de vidre",
             "fr": "Les bouteilles en verre et bocaux peuvent être recyclés ici",
-            "cs": "Skleněné lahve se zde dají recyklovat"
+            "cs": "Skleněné lahve se zde dají recyklovat",
+            "uk": "Скляні пляшки"
           },
           "icon": {
             "path": "./assets/layers/recycling/glass_bottles.svg",
@@ -98276,7 +98436,8 @@
             "it": "Vetro",
             "ca": "Aquí es pot reciclar vidre",
             "fr": "Tout type de verre peut être recyclé ici",
-            "cs": "Sklo se zde dá recyklovat"
+            "cs": "Sklo se zde dá recyklovat",
+            "uk": "Скло"
           },
           "icon": {
             "path": "./assets/layers/recycling/glass.svg",
@@ -98293,7 +98454,8 @@
             "ca": "Aquí es poden reciclar bombetes",
             "fr": "Les lampes basse consommation peuvent être recyclées ici",
             "cs": "Žárovky se zde dají recyklovat",
-            "es": "Las bombillas pueden reciclarse aquí"
+            "es": "Las bombillas pueden reciclarse aquí",
+            "uk": "Лампочки"
           },
           "icon": {
             "path": "./assets/layers/recycling/light_bulbs.svg",
@@ -98311,7 +98473,8 @@
             "it": "Giornali",
             "ca": "Aquí es poden reciclar diaris",
             "fr": "Les journaux peuvent être recyclés ici",
-            "cs": "Noviny se zde dají recyklovat"
+            "cs": "Noviny se zde dají recyklovat",
+            "uk": "Газети"
           },
           "icon": {
             "path": "./assets/layers/recycling/newspaper.svg",
@@ -98329,7 +98492,8 @@
             "it": "Carta",
             "ca": "Aquí es pot reciclar paper",
             "fr": "Le papier peut être recyclé ici",
-            "cs": "Papír se zde dá recyklovat"
+            "cs": "Papír se zde dá recyklovat",
+            "uk": "Папір"
           },
           "icon": {
             "path": "./assets/layers/recycling/paper.svg",
@@ -98347,7 +98511,8 @@
             "it": "Bottiglie di platica",
             "ca": "Aquí es poden reciclar ampolles de plàstic",
             "fr": "Les bouteilles en plastique peuvent être recyclées ici",
-            "cs": "Plastové lahve se zde dají recyklovat"
+            "cs": "Plastové lahve se zde dají recyklovat",
+            "uk": "Пластикові пляшки"
           },
           "icon": {
             "path": "./assets/layers/recycling/plastic_bottles.svg",
@@ -98365,7 +98530,8 @@
             "it": "Confezioni di plastica",
             "ca": "Aquí es poden reciclar envasos de plàstic",
             "fr": "Les emballages plastiques peuvent être recyclés ici",
-            "cs": "Plastové obaly se zde dají recyklovat"
+            "cs": "Plastové obaly se zde dají recyklovat",
+            "uk": "Пластикова упаковка"
           },
           "icon": {
             "path": "./assets/layers/recycling/plastic_packaging.svg",
@@ -98384,7 +98550,8 @@
             "ca": "Aquí es pot reciclar plàstic",
             "fr": "Le plastique peut être recyclé ici",
             "pl": "Plastik może być tutaj poddany recyklingowi",
-            "cs": "Plast se zde dá recyklovat"
+            "cs": "Plast se zde dá recyklovat",
+            "uk": "Пластик"
           },
           "icon": {
             "path": "./assets/layers/recycling/plastic.svg",
@@ -98397,7 +98564,8 @@
           "then": {
             "en": "Plastic packaging, metal packaging and drink cartons (PMD) can be recycled here",
             "nl": "Plastic verpakkingen, metalen verpakkingen en drankpakken kunnen hier gerecycled worden",
-            "de": "Kunststoffverpackungen, Metallverpackungen und Getränkekartons (Tetrapak) können hier recycelt werden"
+            "de": "Kunststoffverpackungen, Metallverpackungen und Getränkekartons (Tetrapak) können hier recycelt werden",
+            "uk": "Пластикова упаковка, металева упаковка та упаковка для напоїв (PMD)"
           },
           "icon": {
             "path": "./assets/layers/recycling/pmd.svg",
@@ -98413,7 +98581,8 @@
             "de": "Druckerpatronen können hier recycelt werden",
             "ca": "Els cartutxos d'impressora es poden reciclar aquí",
             "fr": "Les cartouches d'imprimante peuvent être recyclées ici",
-            "cs": "Náplně do tiskáren lze recyklovat zde"
+            "cs": "Náplně do tiskáren lze recyklovat zde",
+            "uk": "Картриджі для принтерів"
           },
           "icon": {
             "path": "./assets/layers/recycling/printer_cartridges.svg",
@@ -98431,7 +98600,8 @@
             "es": "Aquí se puede reciclar chatarra",
             "it": "Rottami metallici",
             "fr": "La ferraille peut être recyclée ici",
-            "cs": "Kovový šrot lze zde recyklovat"
+            "cs": "Kovový šrot lze zde recyklovat",
+            "uk": "Металобрухт"
           },
           "icon": {
             "path": "./assets/layers/recycling/scrap_metal.svg",
@@ -98449,7 +98619,8 @@
             "it": "Scarpe",
             "ca": "Aquí es poden reciclar sabates",
             "fr": "Les chaussures peuvent être recyclées ici",
-            "cs": "Boty se zde dají recyklovat"
+            "cs": "Boty se zde dají recyklovat",
+            "uk": "Взуття"
           },
           "icon": {
             "path": "./assets/layers/recycling/shoes.svg",
@@ -98466,7 +98637,8 @@
             "it": "Piccoli elettrodomestici",
             "ca": "Aquí es poden reciclar petits electrodomèstics",
             "fr": "Les petits appareils électriques peuvent être recyclés ici",
-            "cs": "Drobné elektrospotřebiče se zde dají recyklovat"
+            "cs": "Drobné elektrospotřebiče se zde dají recyklovat",
+            "uk": "Малі електричні прилади"
           },
           "icon": {
             "path": "./assets/layers/recycling/small_electrical_appliances.svg",
@@ -98501,7 +98673,8 @@
             "it": "Aghi e oggetti appuntiti",
             "ca": "Aquí es poden reciclar agulles",
             "fr": "Les aiguilles peuvent être recyclées ici",
-            "cs": "Jehly se zde dají recyklovat"
+            "cs": "Jehly se zde dají recyklovat",
+            "uk": "Голки"
           },
           "icon": {
             "path": "./assets/layers/recycling/needles.svg",
@@ -98518,7 +98691,8 @@
             "it": "Secco",
             "ca": "Ací es pot reciclar el rebuig",
             "fr": "Les autres déchets peuvent être déposés ici",
-            "cs": "Zbytkový odpad zde lze recyklovat"
+            "cs": "Zbytkový odpad zde lze recyklovat",
+            "uk": "Залишкові відходи"
           },
           "icon": {
             "path": "./assets/layers/waste_disposal/waste_disposal.svg",
@@ -98535,7 +98709,8 @@
             "ca": "Aquí es poden reciclar bicicletes",
             "de": "Fahrräder können hier recycelt werden",
             "fr": "Les vélos peuvent être recyclés ici",
-            "cs": "Kola se zde dají recyklovat"
+            "cs": "Kola se zde dají recyklovat",
+            "uk": "Велосипеди"
           },
           "icon": {
             "path": "./assets/layers/recycling/bicycles.svg",
@@ -98611,7 +98786,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba tohoto recyklačního zařízení?"
+        "cs": "Jaká je otevírací doba tohoto recyklačního zařízení?",
+        "uk": "Які години роботи цього об'єкту з переробки?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -98947,7 +99123,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -99790,7 +99967,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -101377,7 +101555,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Kdy je otevřeno zařízení, kde se tyto toalety nacházejí?"
+        "cs": "Kdy je otevřeno zařízení, kde se tyto toalety nacházejí?",
+        "uk": "Коли відкрито приміщення, де розташовані ці туалети?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -102706,7 +102885,8 @@
         "zh_Hans": "{title()} 的开放时间为何？",
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Kapan jam buka {title()}?",
-        "cs": "Jaká je otevírací doba {title()}?"
+        "cs": "Jaká je otevírací doba {title()}?",
+        "uk": "Які години роботи {title()}?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -103073,7 +103253,8 @@
         "ca": "Quin tipus de contenidor de brossa és aquest?",
         "cs": "Co je to za odpadkový koš?",
         "pl": "Co to za pojemnik na śmieci?",
-        "zh_Hant": "這是甚麼種類的廢棄物處理箱？"
+        "zh_Hant": "這是甚麼種類的廢棄物處理箱？",
+        "uk": "Що це за контейнер для сміття?"
       },
       "mappings": [
         {
@@ -103083,7 +103264,8 @@
             "de": "Dies ist eine Mülltonne oder ein Müllcontainer für (Haushalts-)Abfälle",
             "ca": "Es tracta d'un contenidor mitjà o gran per a dipositar residus (domèstics)",
             "cs": "Jedná se o střední až velkou popelnici na (domovní) odpad",
-            "zh_Hant": "這是一個中型至大型的桶，用於處理（家庭）廢棄物"
+            "zh_Hant": "這是一個中型至大型的桶，用於處理（家庭）廢棄物",
+            "uk": "Це середній або великий контейнер для утилізації (побутових) відходів"
           }
         },
         {
@@ -103094,7 +103276,8 @@
             "ca": "En realitat es tracta d'un contenidor de reciclatge",
             "cs": "To je vlastně recyklační kontejner",
             "pl": "W rzeczywistości jest to pojemnik do recyklingu",
-            "zh_Hant": "這實際上是一個回收容器"
+            "zh_Hant": "這實際上是一個回收容器",
+            "uk": "Це, власне, контейнер для переробки сміття"
           },
           "addExtraTags": [
             "recycling_type=container"
@@ -103122,7 +103305,8 @@
         "da": "Adgang: {access}",
         "ca": "Accés: {access}",
         "cs": "Přístup: {access}",
-        "zh_Hant": "存取：{access}"
+        "zh_Hant": "存取：{access}",
+        "uk": "Доступ: {access}"
       },
       "question": {
         "en": "Who can use this waste disposal bin?",
@@ -103134,7 +103318,8 @@
         "ca": "Qui pot utilitzar aquest contenidor de brossa?",
         "cs": "Kdo může používat tento koš na odpadky?",
         "pl": "Kto może korzystać z tego pojemnika na odpady?",
-        "zh_Hant": "誰可以使用這個廢棄物處理桶？"
+        "zh_Hant": "誰可以使用這個廢棄物處理桶？",
+        "uk": "Хто може користуватися цим сміттєвим баком?"
       },
       "freeform": {
         "key": "access",
@@ -103154,7 +103339,8 @@
             "ca": "Aquest contenidor es pot utilitzat per qualsevol",
             "cs": "Tento koš může používat kdokoli",
             "pl": "Z tego pojemnika może korzystać każdy",
-            "zh_Hant": "這個桶可以給任何人使用"
+            "zh_Hant": "這個桶可以給任何人使用",
+            "uk": "Цим смітником може користуватися будь-хто"
           }
         },
         {
@@ -103169,7 +103355,8 @@
             "ca": "Aquest contenidor és privat",
             "cs": "Tento koš je soukromý",
             "pl": "Ten kosz jest prywatny",
-            "zh_Hant": "這個桶是私人的"
+            "zh_Hant": "這個桶是私人的",
+            "uk": "Ця скринька є приватною"
           }
         },
         {
@@ -103184,7 +103371,8 @@
             "ca": "Aquest contenidor és només per als residents",
             "cs": "Tento koš je určen pouze pro obyvatele",
             "pl": "Ten kosz jest przeznaczony wyłącznie dla mieszkańców",
-            "zh_Hant": "這個桶僅供居民使用"
+            "zh_Hant": "這個桶僅供居民使用",
+            "uk": "Цей контейнер призначений лише для мешканців"
           }
         }
       ],
@@ -103210,7 +103398,8 @@
         "ca": "On es troba aquest contenidor?",
         "cs": "Kde se nachází tento kontejner?",
         "pl": "Gdzie znajduje się ten kontener?",
-        "zh_Hant": "這個容器位於哪裡？"
+        "zh_Hant": "這個容器位於哪裡？",
+        "uk": "Де знаходиться цей контейнер?"
       },
       "mappings": [
         {
@@ -103225,7 +103414,8 @@
             "ca": "Aquest contenidor està soterrat",
             "cs": "Jedná se o podzemní kontejner",
             "pl": "To jest podziemny kontener",
-            "zh_Hant": "這是一個地下容器"
+            "zh_Hant": "這是一個地下容器",
+            "uk": "Це підземний контейнер"
           }
         },
         {
@@ -103240,7 +103430,8 @@
             "ca": "Aquest contenidor està situat a l'interior",
             "cs": "Tento kontejner se nachází uvnitř",
             "pl": "Kontener ten znajduje się w pomieszczeniu zamkniętym",
-            "zh_Hant": "這個容器位於室內"
+            "zh_Hant": "這個容器位於室內",
+            "uk": "Цей контейнер знаходиться в приміщенні"
           }
         },
         {
@@ -103255,7 +103446,8 @@
             "ca": "Aquest contenidor està situat a l'aire lliure",
             "cs": "Tento kontejner se nachází venku",
             "pl": "Kontener ten znajduje się na zewnątrz",
-            "zh_Hant": "這個容器位於室外"
+            "zh_Hant": "這個容器位於室外",
+            "uk": "Цей контейнер розташований на відкритому повітрі"
           }
         }
       ],
