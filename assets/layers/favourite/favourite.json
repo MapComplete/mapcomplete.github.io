@@ -4098,7 +4098,8 @@
           "it": "Noleggio di biciclette <i>{name}</i>",
           "pt": "Aluguel de bicicletas <i>{name}</i>",
           "pt_BR": "Aluguel de bicicletas <i>{name}</i>",
-          "ru": "Прокат велосипедов <i>{name}</i>"
+          "ru": "Прокат велосипедов <i>{name}</i>",
+          "uk": "Пункт прокату велосипедів <i>{name}</i>"
         }
       },
       {
@@ -4345,7 +4346,8 @@
           "it": "Noleggio di biciclette <i>{name}</i>",
           "pt": "Aluguel de bicicletas <i>{name}</i>",
           "pt_BR": "Aluguel de bicicletas <i>{name}</i>",
-          "ru": "Прокат велосипедов <i>{name}</i>"
+          "ru": "Прокат велосипедов <i>{name}</i>",
+          "uk": "Пункт прокату велосипедів <i>{name}</i>"
         }
       },
       {
@@ -6005,7 +6007,8 @@
           "nl": "Tandartspraktijk {name}",
           "fr": "Cabinet medical {name}",
           "ca": "Clínica Dental {name}",
-          "cs": "Zubní ordinace {name}"
+          "cs": "Zubní ordinace {name}",
+          "uk": "Стоматологічний кабінет {name}"
         }
       },
       {
@@ -6016,7 +6019,8 @@
           "nl": "Tandartspraktijk {name}",
           "fr": "Cabinet medical {name}",
           "ca": "Clínica Dental {name}",
-          "cs": "Zubní ordinace {name}"
+          "cs": "Zubní ordinace {name}",
+          "uk": "Стоматологічний кабінет {name}"
         }
       },
       {
@@ -6801,7 +6805,8 @@
           "da": "Bortskaffelse af affald",
           "ca": "Contenidor de fem",
           "cs": "Nakládání s odpady",
-          "zh_Hant": "廢棄物處理"
+          "zh_Hant": "廢棄物處理",
+          "uk": "Утилізація відходів"
         }
       },
       {
@@ -6815,7 +6820,8 @@
           "da": "Bortskaffelse af affald",
           "ca": "Contenidor de fem",
           "cs": "Nakládání s odpady",
-          "zh_Hant": "廢棄物處理"
+          "zh_Hant": "廢棄物處理",
+          "uk": "Утилізація відходів"
         }
       },
       {
@@ -8818,7 +8824,8 @@
           "ca": "Lloc de menjar ràpid <i>{name}</i>",
           "es": "Comida rápida <i>{name}</i>",
           "fr": "Fast-food <i>{name}</i>",
-          "cs": "Rychlé občerstvení <i>{name}</i>"
+          "cs": "Rychlé občerstvení <i>{name}</i>",
+          "uk": "Фаст-фуд <i>{name}</i>"
         }
       },
       {
@@ -8835,7 +8842,8 @@
           "ca": "Lloc de menjar ràpid <i>{name}</i>",
           "es": "Comida rápida <i>{name}</i>",
           "fr": "Fast-food <i>{name}</i>",
-          "cs": "Rychlé občerstvení <i>{name}</i>"
+          "cs": "Rychlé občerstvení <i>{name}</i>",
+          "uk": "Фаст-фуд <i>{name}</i>"
         }
       },
       {
@@ -8852,7 +8860,8 @@
           "ca": "Lloc de menjar ràpid <i>{name}</i>",
           "es": "Comida rápida <i>{name}</i>",
           "fr": "Fast-food <i>{name}</i>",
-          "cs": "Rychlé občerstvení <i>{name}</i>"
+          "cs": "Rychlé občerstvení <i>{name}</i>",
+          "uk": "Фаст-фуд <i>{name}</i>"
         }
       },
       {
@@ -8869,7 +8878,8 @@
           "ca": "Lloc de menjar ràpid <i>{name}</i>",
           "es": "Comida rápida <i>{name}</i>",
           "fr": "Fast-food <i>{name}</i>",
-          "cs": "Rychlé občerstvení <i>{name}</i>"
+          "cs": "Rychlé občerstvení <i>{name}</i>",
+          "uk": "Фаст-фуд <i>{name}</i>"
         }
       },
       {
@@ -8886,7 +8896,8 @@
           "ca": "Lloc de menjar ràpid <i>{name}</i>",
           "es": "Comida rápida <i>{name}</i>",
           "fr": "Fast-food <i>{name}</i>",
-          "cs": "Rychlé občerstvení <i>{name}</i>"
+          "cs": "Rychlé občerstvení <i>{name}</i>",
+          "uk": "Фаст-фуд <i>{name}</i>"
         }
       },
       {
@@ -8903,7 +8914,8 @@
           "ca": "Lloc de menjar ràpid <i>{name}</i>",
           "es": "Comida rápida <i>{name}</i>",
           "fr": "Fast-food <i>{name}</i>",
-          "cs": "Rychlé občerstvení <i>{name}</i>"
+          "cs": "Rychlé občerstvení <i>{name}</i>",
+          "uk": "Фаст-фуд <i>{name}</i>"
         }
       },
       {
@@ -8920,7 +8932,8 @@
           "ca": "Lloc de menjar ràpid <i>{name}</i>",
           "es": "Comida rápida <i>{name}</i>",
           "fr": "Fast-food <i>{name}</i>",
-          "cs": "Rychlé občerstvení <i>{name}</i>"
+          "cs": "Rychlé občerstvení <i>{name}</i>",
+          "uk": "Фаст-фуд <i>{name}</i>"
         }
       },
       {
@@ -8937,7 +8950,8 @@
           "ca": "Lloc de menjar ràpid <i>{name}</i>",
           "es": "Comida rápida <i>{name}</i>",
           "fr": "Fast-food <i>{name}</i>",
-          "cs": "Rychlé občerstvení <i>{name}</i>"
+          "cs": "Rychlé občerstvení <i>{name}</i>",
+          "uk": "Фаст-фуд <i>{name}</i>"
         }
       },
       {
@@ -16084,7 +16098,8 @@
             "he": "זה דגל",
             "pl": "To jest flaga",
             "zh_Hans": "这是一面旗帜",
-            "pt": "Isto é uma bandeira"
+            "pt": "Isto é uma bandeira",
+            "uk": "Це прапор"
           },
           "icon": {
             "path": "./assets/themes/advertising/flag.svg",
@@ -16103,7 +16118,8 @@
             "pl": "To jest pudełko plakatowe",
             "pt_BR": "Isso é um quadro de pôster",
             "zh_Hans": "这是海报盒",
-            "pt": "Isto é um quadro de pôster"
+            "pt": "Isto é um quadro de pôster",
+            "uk": "Це скринька для плакатів"
           },
           "icon": {
             "path": "./assets/themes/advertising/poster_box.svg",
@@ -16122,7 +16138,8 @@
             "pl": "To jest ekran",
             "pt_BR": "Isso é uma tela",
             "zh_Hans": "这是一个屏幕",
-            "pt": "Isto é um ecrã"
+            "pt": "Isto é um ecrã",
+            "uk": "Це екран"
           },
           "icon": {
             "path": "./assets/themes/advertising/screen.svg",
@@ -16141,7 +16158,8 @@
             "pl": "To jest rzeźba",
             "pt_BR": "Isso é uma escultura",
             "zh_Hans": "这是一个雕塑",
-            "pt": "Isto é uma escultura"
+            "pt": "Isto é uma escultura",
+            "uk": "Це скульптура"
           },
           "icon": {
             "path": "./assets/themes/advertising/sculpture.svg",
@@ -21761,7 +21779,8 @@
         "en": "{qr_code()}Scan this code to open this location on another device",
         "hu": "{qr_code()}Szkenneld be ezt a kódot, hogy egy másik eszközön is meg tudd nyitni a helyet",
         "nl": "{qr_code()}Scan deze code om deze locatie op een ander apparaat te zien",
-        "sl": "{qr_code()}Skenirajte to kodo, da odprete ta kraj na drugi napravi"
+        "sl": "{qr_code()}Skenirajte to kodo, da odprete ta kraj na drugi napravi",
+        "uk": "{qr_code()}Відскануйте цей код, щоб відкрити це місце на іншому пристрої"
       },
       "condition": {
         "or": [
@@ -23009,7 +23028,8 @@
             "en": "This is a shelter at a public transport stop.",
             "de": "Das ist ein Unterstand an einer Haltestelle für öffentliche Verkehrsmittel.",
             "nl": "Dit is een schuilplaats bij een halte voor openbaar vervoer.",
-            "cs": "Jedná se o přístřešek u zastávky MHD."
+            "cs": "Jedná se o přístřešek u zastávky MHD.",
+            "uk": "Це притулок на зупинці громадського транспорту."
           }
         },
         {
@@ -23017,7 +23037,8 @@
           "then": {
             "en": "This is a shelter protecting from rain at a picnic site.",
             "de": "Dies ist ein Unterstand zum Schutz vor Regen auf einem Picknickplatz.",
-            "cs": "Jedná se o přístřešek chránící před deštěm na piknikovém místě."
+            "cs": "Jedná se o přístřešek chránící před deštěm na piknikovém místě.",
+            "uk": "Це накриття, що захищає від дощу на місці для пікніка."
           }
         },
         {
@@ -23025,7 +23046,8 @@
           "then": {
             "en": "This is a gazebo.",
             "de": "Das ist ein offener Gartenpavillon.",
-            "cs": "Toto je altán."
+            "cs": "Toto je altán.",
+            "uk": "Це альтанка."
           }
         },
         {
@@ -23034,7 +23056,8 @@
             "en": "This is a small shelter, primarily intended for short breaks. Usually found in the mountains or alongside roads.",
             "de": "Dies ist ein kleiner Unterstand, der vor allem für kurze Pausen gedacht ist. Normalerweise findet man ihn in Bergen oder an Straßen.",
             "cs": "Jedná se o malý přístřešek, primárně určený pro krátké přestávky. Obvykle se vyskytuje v horách nebo podél silnic.",
-            "ca": "Es tracta d'un petit refugi, principalment destinat a descansos curts. Normalment es troba a les muntanyes o al costat de les carreteres."
+            "ca": "Es tracta d'un petit refugi, principalment destinat a descansos curts. Normalment es troba a les muntanyes o al costat de les carreteres.",
+            "uk": "Це невеликий притулок, призначений насамперед для коротких перерв. Зазвичай знаходиться в горах або вздовж доріг."
           }
         },
         {
@@ -23043,7 +23066,8 @@
             "en": "This is a shed with 3 walls, primarily intended for camping.",
             "de": "Es handelt sich um einen an 3 Seiten geschlossenen Unterstand, der in erster Linie zum Campen gedacht ist.",
             "ca": "Es tracta d'un cobert amb 3 parets, destinat principalment a l'acampada.",
-            "cs": "Jedná se o přístřešek se 3 stěnami, primárně určený pro kempování."
+            "cs": "Jedná se o přístřešek se 3 stěnami, primárně určený pro kempování.",
+            "uk": "Це сарай з 3-ма стінами, в першу чергу призначений для кемпінгу."
           }
         },
         {
@@ -23051,7 +23075,8 @@
           "then": {
             "en": "This is a pavilion",
             "de": "Das ist ein Pavillon",
-            "cs": "Toto je pavilon"
+            "cs": "Toto je pavilon",
+            "uk": "Це павільйон"
           }
         },
         {
@@ -23064,12 +23089,14 @@
         "de": "Um welche Art von Unterstand handelt es sich?",
         "nl": "Wat voor schuilplaats is dit?",
         "ca": "Quin tipus de refugi és aquest?",
-        "cs": "Co je to za přístřešek?"
+        "cs": "Co je to za přístřešek?",
+        "uk": "Що це за притулок?"
       },
       "render": {
         "en": "Shelter type: {shelter_type}",
         "de": "Art des Unterstands: {shelter_type}",
-        "cs": "Typ přístřešku: {shelter_type}"
+        "cs": "Typ přístřešku: {shelter_type}",
+        "uk": "Тип притулку: {shelter_type}"
       },
       "freeform": {
         "key": "shelter_type",
@@ -25046,7 +25073,8 @@
           "then": {
             "en": "This artwork does not serve as a memorial",
             "de": "Dieses Kunstwerk dient nicht als Denkmal",
-            "uk": "Ця робота не є меморіалом"
+            "uk": "Ця робота не є меморіалом",
+            "cs": "Toto umělecké dílo neslouží jako památník"
           }
         }
       ],
@@ -27423,7 +27451,7 @@
         "da": "Hvad er åbningstiderne for {title()}?",
         "id": "Jam berapa kantor pos ini buka?",
         "cs": "Jaká je otevírací doba této pošty?",
-        "uk": "Які години роботи {title()}?"
+        "uk": "Які години роботи цього поштового відділення?"
       },
       "render": {
         "de": "<h3>Öffnungszeiten</h3>{opening_hours_table(opening_hours)}",
@@ -27590,7 +27618,8 @@
             "de": "Dieser Standort bietet Dienstleistungen für DHL an",
             "nl": "Deze locatie biedt diensten aan voor DHL",
             "ca": "Aquesta localització ofereix serveis per a DHL",
-            "cs": "Toto místo nabízí služby pro společnost DHL"
+            "cs": "Toto místo nabízí služby pro společnost DHL",
+            "uk": "У цьому приміщенні надаються послуги для DHL"
           },
           "hideInAnswer": "_country=de"
         },
@@ -27601,7 +27630,8 @@
             "de": "Dieser Standort bietet Dienstleistungen für DPD an",
             "nl": "Deze locatie biedt diensten aan voor DPD",
             "ca": "Aquesta localització ofereix serveis per a DPD",
-            "cs": "Toto místo nabízí služby pro společnost DPD"
+            "cs": "Toto místo nabízí služby pro společnost DPD",
+            "uk": "У цій локації надаються послуги для DPD"
           }
         },
         {
@@ -27611,7 +27641,8 @@
             "de": "Dieser Standort bietet Dienstleistungen für GLS an",
             "nl": "Deze locatie biedt diensten aan voor GLS",
             "ca": "Aquesta localització ofereix serveis per a GLS",
-            "cs": "Toto místo nabízí služby pro společnost GLS"
+            "cs": "Toto místo nabízí služby pro společnost GLS",
+            "uk": "Ця локація пропонує послуги для GLS"
           }
         },
         {
@@ -27621,7 +27652,8 @@
             "de": "Dieser Standort bietet Dienstleistungen für UPS an",
             "nl": "Deze locatie biedt diensten aan voor UPS",
             "ca": "Aquesta localització ofereix serveis per a UPS",
-            "cs": "Toto místo nabízí služby pro společnost UPS"
+            "cs": "Toto místo nabízí služby pro společnost UPS",
+            "uk": "У цьому місці надаються послуги для UPS"
           }
         },
         {
@@ -27630,7 +27662,8 @@
             "en": "This location is a DHL Paketshop",
             "de": "Dieser Standort ist ein DHL Paketshop",
             "ca": "Aquesta ubicació és una botiga DHL Paketshop",
-            "cs": "Tato lokalita je DHL Paketshop"
+            "cs": "Tato lokalita je DHL Paketshop",
+            "uk": "Це відділення DHL Paketshop"
           },
           "hideInAnswer": "_country!=de"
         },
@@ -27640,7 +27673,8 @@
             "en": "This location is a Hermes PaketShop",
             "de": "Dieser Standort ist ein Hermes PaketShop",
             "ca": "Aquesta ubicació és una botiga Hermes PaketShop",
-            "cs": "Tato lokalita je Hermes Paketshop"
+            "cs": "Tato lokalita je Hermes Paketshop",
+            "uk": "Ця локація є магазином Hermes PaketShop"
           },
           "hideInAnswer": "_country!=de"
         },
@@ -27651,7 +27685,8 @@
             "de": "Dieser Standort ist ein PostNL-Punkt",
             "nl": "Deze locatie is een PostNL-punt",
             "ca": "Aquesta ubicació és un punt PostNL",
-            "cs": "Toto umístění je bod PostNL"
+            "cs": "Toto umístění je bod PostNL",
+            "uk": "Це місце є PostNL-пунктом"
           },
           "hideInAnswer": {
             "and": [
@@ -27666,7 +27701,8 @@
             "en": "This location offers services for bpost",
             "de": "Dieser Standort bietet Dienstleistungen für bpost an",
             "nl": "Deze locatie biedt diensten aan voor bpost",
-            "cs": "Toto místo nabízí služby pro společnost bpost"
+            "cs": "Toto místo nabízí služby pro společnost bpost",
+            "uk": "Ця локація пропонує послуги для bpost"
           },
           "hideInAnswer": "_country!=be"
         }
@@ -29931,7 +29967,8 @@
         "nl": "Wat is het telefoonnummer van de operator van deze fietsenstalling?",
         "de": "Wie lautet die Telefonnummer des Betreibers dieses Fahrradparkplatzes?",
         "ca": "Quin és el número de telèfon de l'operador d'aquest aparcament per a bicis?",
-        "es": "¿Cuál es número de teléfono del operador de este aparcamiento de bicicletas?"
+        "es": "¿Cuál es número de teléfono del operador de este aparcamiento de bicicletas?",
+        "uk": "Який номер телефону оператора цієї велопарковки?"
       },
       "questionHint": {
         "en": "One might be able to call this number in case of problems, e.g. to remove unmaintained bicycles",
@@ -30256,7 +30293,8 @@
             "cs": "Jedná se o obchod, jehož hlavním zaměřením je půjčování jízdních kol",
             "ca": "Es tracta d'una botiga que té com a objectiu principal el lloguer de bicicletes",
             "pt_BR": "Essa é uma loja cujo foco principal é o aluguel de bicicletas",
-            "pt": "Esta é uma loja cujo foco principal é o aluguel de bicicletas"
+            "pt": "Esta é uma loja cujo foco principal é o aluguel de bicicletas",
+            "uk": "Це магазин, основним напрямком якого є прокат велосипедів"
           }
         },
         {
@@ -30291,7 +30329,8 @@
             "cs": "Jedná se o prodejnu, která prodává nebo opravuje jízdní kola, ale také je pronajímá",
             "ca": "Es tracta d'una botiga que ven o repara bicicletes, però també lloga bicicletes",
             "pt_BR": "Essa é uma loja que vende ou conserta bicicletas, mas também aluga elas",
-            "pt": "Esta é uma loja que vende ou conserta bicicletas, mas também aluga elas"
+            "pt": "Esta é uma loja que vende ou conserta bicicletas, mas também aluga elas",
+            "uk": "Це магазин, який продає або ремонтує велосипеди, а також здає їх напрокат"
           }
         },
         {
@@ -31366,7 +31405,8 @@
         "es": "¿Cuál es el número de teléfono de {title()}?",
         "zh_Hans": "{title()} 的电话号码为何？",
         "da": "Hvad er telefonnummeret til {title()}?",
-        "cs": "Jaké je telefonní číslo {title()}?"
+        "cs": "Jaké je telefonní číslo {title()}?",
+        "uk": "Який номер телефону {title()}?"
       },
       "render": {
         "*": "{link(&LBRACEphone&RBRACE,tel:&LBRACEphone&RBRACE,,,,)}"
@@ -43158,7 +43198,8 @@
         "da": "Denne station er en del af netværket {network}",
         "ca": "Aquesta estació forma part de la xarxa {network}",
         "cs": "Tato stanice je součástí sítě {network}",
-        "pl": "Ta stacja jest częścią sieci {network}"
+        "pl": "Ta stacja jest częścią sieci {network}",
+        "uk": "Ця станція є частиною мережі {network}"
       },
       "question": {
         "en": "What network is this place a part of? (skip if none)",
@@ -43173,7 +43214,8 @@
         "da": "Hvilket netværk er dette sted en del af? (spring over hvis ingen)",
         "ca": "A quina xarxa forma part aquest lloc? (Salta si a cap)",
         "cs": "Jaké sítě je toto místo součástí? (přeskočte, pokud žádné)",
-        "pl": "Do jakiej sieci należy to miejsce? (pomiń, jeśli nie ma)"
+        "pl": "Do jakiej sieci należy to miejsce? (pomiń, jeśli nie ma)",
+        "uk": "Частиною якої мережі є цей заклад? (пропустіть, якщо немає)"
       },
       "freeform": {
         "key": "network",
@@ -49071,14 +49113,16 @@
         "nl": "Maakt deel uit van het <b>{network}</b>-netwerk",
         "ca": "Part de la xarxa <b>{network}</b>",
         "de": "Teil des Netzwerks <b>{network}</b>",
-        "pl": "Część sieci <b>{network}</b>"
+        "pl": "Część sieci <b>{network}</b>",
+        "uk": "Частина мережі <b>{network}</b>"
       },
       "question": {
         "en": "Is this charging station part of a network?",
         "nl": "Is dit oplaadpunt deel van een groter netwerk?",
         "ca": "Aquesta estació de càrrega forma part d'una xarxa?",
         "de": "Ist diese Ladestation Teil eines Netzwerks?",
-        "pl": "Czy ta stacja ładowania jest częścią sieci?"
+        "pl": "Czy ta stacja ładowania jest częścią sieci?",
+        "uk": "Чи є ця зарядна станція частиною мережі?"
       },
       "freeform": {
         "key": "network",
@@ -49090,7 +49134,8 @@
           "then": {
             "en": "Not part of a bigger network, e.g. because the charging station is maintained by a local business",
             "nl": "Maakt geen deel uit van een groter netwerk, een lokale zaak of organisatie beheert dit oplaadpunt",
-            "de": "Nicht Teil eines größeren Netzwerks, z. B. weil die Ladestation von einem lokalen Unternehmen betrieben wird"
+            "de": "Nicht Teil eines größeren Netzwerks, z. B. weil die Ladestation von einem lokalen Unternehmen betrieben wird",
+            "uk": "Не є частиною більшої мережі, наприклад, тому що зарядна станція обслуговується місцевим підприємством"
           }
         },
         {
@@ -49099,7 +49144,8 @@
             "en": "Not part of a bigger network",
             "nl": "Maakt geen deel uit van een groter netwerk",
             "de": "Nicht Teil eines größeren Netzwerks",
-            "pl": "Nie jest częścią większej sieci"
+            "pl": "Nie jest częścią większej sieci",
+            "uk": "Не є частиною великої мережі"
           },
           "hideInAnswer": true
         },
@@ -49988,7 +50034,8 @@
         "es": "¿Cual es el número de teléfono del mantenedor?",
         "da": "Hvad er telefonnummeret på vedligeholderen?",
         "cs": "Jaké je telefonní číslo správce?",
-        "ca": "Quin és el número de telèfon del responsable?"
+        "ca": "Quin és el número de telèfon del responsable?",
+        "uk": "Який номер телефону супровідника?"
       },
       "freeform": {
         "key": "phone",
@@ -50827,7 +50874,8 @@
         "de": "Wie ist der Name dieses Geschäfts?",
         "es": "¿Cual es el nombre de esta tienda?",
         "ca": "Quin és el nom d'aquesta botiga?",
-        "cs": "Jak se jmenuje tento obchod?"
+        "cs": "Jak se jmenuje tento obchod?",
+        "uk": "Як називається цей магазин?"
       },
       "render": {
         "en": "This shop is called <i>{name}</i>",
@@ -50835,7 +50883,8 @@
         "nl": "Deze zaak heet <i>{name}</i>",
         "ca": "La botiga s'anomena <i>{name}</i>",
         "fr": "Ce commerce s'appelle <i>{name}</i>",
-        "cs": "Tento obchod se jmenuje <i>{name}</i>"
+        "cs": "Tento obchod se jmenuje <i>{name}</i>",
+        "uk": "Цей магазин називається <i>{name}</i>"
       },
       "freeform": {
         "key": "name",
@@ -50915,7 +50964,8 @@
           "then": {
             "en": "Bicycle rental shop",
             "nl": "Fietsverhuurzaak",
-            "de": "Fahrradverleih"
+            "de": "Fahrradverleih",
+            "uk": "Пункт прокату велосипедів"
           }
         },
         {
@@ -74307,7 +74357,8 @@
         "de": "Um was für ein Geschäft handelt es sich?",
         "fr": "Quel genre de magasin est-ce?",
         "ca": "Quin tipus de botiga és aquesta?",
-        "cs": "Co je to za obchod?"
+        "cs": "Co je to za obchod?",
+        "uk": "Що це за магазин?"
       },
       "render": {
         "en": "This is a {shop}",
@@ -74344,7 +74395,8 @@
       "id": "shops_brand",
       "question": {
         "en": "What is the brand of this shop?",
-        "de": "Zu welcher Marke gehört dieses Geschäft?"
+        "de": "Zu welcher Marke gehört dieses Geschäft?",
+        "uk": "Яка марка цього магазину?"
       },
       "render": {
         "en": "Part of <b>{brand}</b>",
@@ -74359,7 +74411,8 @@
           "if": "not:brand=yes",
           "then": {
             "en": "This shop does not have a specific brand, it is not part of a bigger chain",
-            "de": "Das Geschäft gehört zu keiner Marke oder Handelskette"
+            "de": "Das Geschäft gehört zu keiner Marke oder Handelskette",
+            "uk": "Цей магазин не має певного бренду, він не є частиною великої мережі"
           }
         }
       ],
@@ -75379,11 +75432,13 @@
         "es": "¿Alquila bicicis esta tienda?",
         "da": "Udlejer denne butik cykler?",
         "ca": "Aquesta botiga alquila bicicletes?",
-        "cs": "Pronajímá tento obchod kola?"
+        "cs": "Pronajímá tento obchod kola?",
+        "uk": "Чи дає цей магазин велосипеди напрокат?"
       },
       "questionHint": {
         "en": "This is about rental for e.g. tourists who need a bike. Some bicycle repair shops offer a bicycle to use while your bicycle is being repaired but this is not considered rental for this question.",
-        "de": "Es geht um die Vermietung, z.B. an Touristen, die ein Fahrrad benötigen. Einige Fahrradwerkstätten bieten ein Fahrrad an, das man benutzen kann, während das eigene Fahrrad repariert wird, aber dies wird für diese Frage nicht als Vermietung betrachtet."
+        "de": "Es geht um die Vermietung, z.B. an Touristen, die ein Fahrrad benötigen. Einige Fahrradwerkstätten bieten ein Fahrrad an, das man benutzen kann, während das eigene Fahrrad repariert wird, aber dies wird für diese Frage nicht als Vermietung betrachtet.",
+        "uk": "Йдеться про прокат для туристів, яким потрібен велосипед. Деякі майстерні з ремонту велосипедів пропонують велосипед на час ремонту, але це не вважається прокатом в даному випадку."
       },
       "mappings": [
         {
@@ -75401,7 +75456,8 @@
             "es": "Esta tienda alquila bicis",
             "da": "Denne butik udlejer cykler",
             "ca": "Aquesta botiga lloga bicis",
-            "cs": "Tento obchod pronajímá jízdní kola"
+            "cs": "Tento obchod pronajímá jízdní kola",
+            "uk": "У цьому магазині можна взяти напрокат велосипеди"
           }
         },
         {
@@ -75419,7 +75475,8 @@
             "es": "Esta tienda no alquila bicis",
             "da": "Denne butik udlejer ikke cykler",
             "ca": "Aquesta botiga no lloga bicis",
-            "cs": "Tento obchod nepronajímá kola"
+            "cs": "Tento obchod nepronajímá kola",
+            "uk": "Цей магазин не дає велосипеди напрокат"
           }
         }
       ]
@@ -79495,7 +79552,7 @@
             "it": "Un fasciatoio è nei servizi igienici femminili",
             "da": "Puslebordet er på toilettet til kvinder. ",
             "ca": "Al lavabo per a dones hi ha un canviador",
-            "cs": "Přebalovací pult je na dámské toaletě. "
+            "cs": "Přebalovací pult je na dámské toaletě"
           },
           "if": "changing_table:location=female_toilet"
         },
@@ -79507,7 +79564,7 @@
             "nl": "Er bevindt zich een luiertafel in de herentoiletten ",
             "it": "Un fasciatoio è nei servizi igienici maschili",
             "ca": "Al lavabo per a homes hi ha un canviador",
-            "cs": "Přebalovací pult je na pánské toaletě. "
+            "cs": "Přebalovací pult je na pánské toaletě"
           },
           "if": "changing_table:location=male_toilet"
         },
@@ -79521,7 +79578,7 @@
             "it": "Un fasciatoio è nei servizi igienici per persone in sedia a rotelle",
             "da": "Puslebordet er på toilettet for kørestolsbrugere. ",
             "ca": "Al lavabo per a usuaris de cadira de rodes hi ha un canviador",
-            "cs": "Přebalovací pult je na toaletě pro vozíčkáře. "
+            "cs": "Přebalovací pult je na toaletě pro vozíčkáře"
           }
         },
         {
@@ -79535,7 +79592,7 @@
             "es": "El cambiador está en una habitación dedicada",
             "da": "Vuggestuen står i et særligt rum. ",
             "ca": "Hi ha un canviador en una habitació dedicada",
-            "cs": "Přebalovací pult je ve vyhrazené místnosti. "
+            "cs": "Přebalovací pult je ve vyhrazené místnosti"
           }
         }
       ],
@@ -80373,7 +80430,8 @@
             "ca": "Aquest rellotge està muntat en una tanca publicitària",
             "fr": "Cette horloge fait partie d'un panneau publicitaire",
             "pl": "Ten zegar jest częścią bilbordu",
-            "cs": "Tyto hodiny jsou součástí billboardu"
+            "cs": "Tyto hodiny jsou součástí billboardu",
+            "uk": "Цей годинник є частиною білборду"
           }
         },
         {
@@ -81423,7 +81481,8 @@
       },
       "render": {
         "en": "Name of the counted location: {name}",
-        "de": "Name des Zählorts: {name}"
+        "de": "Name des Zählorts: {name}",
+        "cs": "Název započítávaného místa: {name}"
       },
       "condition": {
         "and": [
@@ -81502,14 +81561,16 @@
       "id": "bicycle_counter_ref",
       "question": {
         "en": "What is the reference number of this counter?",
-        "de": "Wie lautet die Kennziffer der Zählstelle?"
+        "de": "Wie lautet die Kennziffer der Zählstelle?",
+        "cs": "Jaké je referenční číslo tohoto počítadla?"
       },
       "freeform": {
         "key": "ref",
         "type": "string",
         "placeholder": {
           "en": "Reference number of the counter",
-          "de": "Kennziffer der Zählstelle"
+          "de": "Kennziffer der Zählstelle",
+          "cs": "Referenční číslo počítadla"
         },
         "addExtraTags": [
           "noref="
@@ -81525,7 +81586,8 @@
           "if": "noref=yes",
           "then": {
             "en": "This counter has no reference number",
-            "de": "Die Zählstelle hat keine Kennziffer"
+            "de": "Die Zählstelle hat keine Kennziffer",
+            "cs": "Toto počítadlo nemá referenční číslo"
           }
         }
       ],
@@ -81980,6 +82042,7 @@
       "question": {
         "en": "What is the brand of this shop?",
         "de": "Zu welcher Marke gehört dieses Geschäft?",
+        "uk": "Яка марка цього магазину?",
         "_context": "layers:shops.tagRenderings.brand.question"
       },
       "render": {
@@ -81997,6 +82060,7 @@
           "then": {
             "en": "This shop does not have a specific brand, it is not part of a bigger chain",
             "de": "Das Geschäft gehört zu keiner Marke oder Handelskette",
+            "uk": "Цей магазин не має певного бренду, він не є частиною великої мережі",
             "_context": "layers:shops.tagRenderings.brand.mappings.0.then"
           }
         }
@@ -83448,7 +83512,8 @@
         "es": "¿Cuál es el número de teléfono de {title()}?",
         "zh_Hans": "{title()} 的电话号码为何？",
         "da": "Hvad er telefonnummeret til {title()}?",
-        "cs": "Jaké je telefonní číslo na provozovatele tohoto automatu?"
+        "cs": "Jaké je telefonní číslo na provozovatele tohoto automatu?",
+        "uk": "Який номер телефону оператора цього торгового автомата?"
       },
       "render": {
         "*": "{link(&LBRACEphone&RBRACE,tel:&LBRACEphone&RBRACE,,,,)}"
@@ -83720,7 +83785,8 @@
         "nl": "Dit ziekenhuis heet {name}",
         "ru": "Эта больница называется {name}",
         "cs": "Tato nemocnice se jmenuje {name}",
-        "pl": "Nazwa tego szpitala to {name}"
+        "pl": "Nazwa tego szpitala to {name}",
+        "uk": "Ця лікарня називається {name}"
       },
       "question": {
         "en": "What is the name of this hospital?",
@@ -83729,7 +83795,8 @@
         "ca": "Quin és el nom d'aquest hospital?",
         "ru": "Как называется эта больница?",
         "cs": "Jak se jmenuje tato nemocnice?",
-        "pl": "Jak nazywa się ten szpital?"
+        "pl": "Jak nazywa się ten szpital?",
+        "uk": "Як називається ця лікарня?"
       },
       "freeform": {
         "key": "name",
@@ -83756,7 +83823,8 @@
         "en": "Does this facility admit inpatients?",
         "de": "Nimmt die Einrichtung stationäre Patienten auf?",
         "ca": "Aquesta instal·lació admet hospitalitzacions?",
-        "cs": "Přijímá toto zařízení pacienty na lůžko?"
+        "cs": "Přijímá toto zařízení pacienty na lůžko?",
+        "uk": "Чи приймає цей заклад стаціонарних пацієнтів?"
       },
       "mappings": [
         {
@@ -83765,7 +83833,8 @@
             "en": "This is a clinic - patients can not stay overnight",
             "de": "Dies ist ein Medizinisches Versorgungszentrum - Patienten können nicht über Nacht bleiben",
             "ca": "Açò és una clínica: els pacients no poden passar la nit",
-            "cs": "Toto je klinika - pacienti nemohou zůstat přes noc"
+            "cs": "Toto je klinika - pacienti nemohou zůstat přes noc",
+            "uk": "Це клініка - пацієнти не можуть залишатися на ніч"
           }
         },
         {
@@ -83774,7 +83843,8 @@
             "en": "This is a hospital - patients can be admitted here for multiple days",
             "de": "Dies ist ein Krankenhaus - Patienten können hier für mehrere Tage aufgenommen werden",
             "ca": "Es tracta d'un hospital: els pacients poden estar ingressats aquí durant diversos dies",
-            "cs": "Jedná se o nemocnici – pacienti zde mohou být přijímáni na více dní"
+            "cs": "Jedná se o nemocnici – pacienti zde mohou být přijímáni na více dní",
+            "uk": "Це лікарня - пацієнти можуть перебувати тут кілька днів"
           }
         }
       ],
@@ -85052,7 +85122,8 @@
         "fr": "Comment s'appelle ce cabinet médical ?",
         "ca": "Com es diu aquesta consulta mèdica?",
         "he": "מה השם של מקום הרופאים הזה?",
-        "cs": "Jak se jmenuje toto místo lékařů?"
+        "cs": "Jak se jmenuje toto místo lékařů?",
+        "uk": "Як називається ця лікарня?"
       },
       "render": {
         "en": "This doctors place is called {name}",
@@ -85060,7 +85131,8 @@
         "nl": "Deze dokterspraktijk heet {name}",
         "fr": "Ce cabinet médical s'appelle {name}",
         "ca": "Aquest consultori mèdic és diu {name}",
-        "cs": "Toto místo lékařů se jmenuje {name}"
+        "cs": "Toto místo lékařů se jmenuje {name}",
+        "uk": "Ця лікарня називається {name}"
       },
       "freeform": {
         "key": "name",
@@ -88942,7 +89014,8 @@
         "es": "¿Este local ofrece comida para llevar?",
         "fr": "Cet établissement propose-t-il des plats à emporter ?",
         "ca": "Aquest lloc ofereix per a emportar?",
-        "cs": "Nabízí toto místo jídlo s sebou?"
+        "cs": "Nabízí toto místo jídlo s sebou?",
+        "uk": "Чи пропонують тут їжу на винос?"
       },
       "mappings": [
         {
@@ -88954,7 +89027,8 @@
             "es": "Este es un negocio solo para pedir para llevar",
             "fr": "Ce restaurant ne propose que de la vente à emporter",
             "ca": "Aquest és un negoci només per emportar",
-            "cs": "Jedná se o podnik jídlo pouze s sebou"
+            "cs": "Jedná se o podnik jídlo pouze s sebou",
+            "uk": "Це бізнес тільки на винос"
           }
         },
         {
@@ -88966,7 +89040,8 @@
             "es": "Aquí es posible pedir para llevar",
             "fr": "La vente à emporter est possible ici",
             "ca": "Aquí és possible demanar per emportar",
-            "cs": "Je zde možné vzít si s sebou"
+            "cs": "Je zde možné vzít si s sebou",
+            "uk": "Тут можна замовити їжу на винос"
           }
         },
         {
@@ -88978,7 +89053,8 @@
             "es": "Aquí no es posible pedir para llevar",
             "fr": "La vente à emporter n'est pas possible ici",
             "ca": "Aquí no és possible demanar per emportar",
-            "cs": "Jídlo sebou zde není možné"
+            "cs": "Jídlo sebou zde není možné",
+            "uk": "Замовлення на винос тут неможливе"
           }
         }
       ],
@@ -90918,7 +90994,8 @@
         "nl": "Hoe heet deze tandarts?",
         "ca": "Com s'anomena aquest dentista?",
         "pl": "Jaka jest nazwa tego gabinetu dentystycznego?",
-        "cs": "Jak se jmenuje tento zubař?"
+        "cs": "Jak se jmenuje tento zubař?",
+        "uk": "Як звуть цього стоматолога?"
       },
       "render": {
         "en": "This dentist is called {name}",
@@ -90926,7 +91003,8 @@
         "nl": "Deze tandarts heet {name}",
         "ca": "El dentista s'anomena {name}",
         "pl": "Nazwa tego gabinetu dentystycznego to {name}",
-        "cs": "Tento zubař se jmenuje {name}"
+        "cs": "Tento zubař se jmenuje {name}",
+        "uk": "Цього стоматолога звуть {name}"
       },
       "freeform": {
         "key": "name",
@@ -92283,7 +92361,7 @@
             "de": "Stadt",
             "pl": " Mapa miasta",
             "ca": " Un mapa d'una ciutat",
-            "cs": " Mapa města",
+            "cs": "Mapa města",
             "fr": " Une carte de ville"
           }
         },
@@ -97293,7 +97371,8 @@
         "it": "Qual è il numero di telefono del gestore del campetto?",
         "de": "Wie lautet die Telefonnummer des Spielplatzbetreibers?",
         "ca": "Quin és el telèfon del mantenidor del parc infantil?",
-        "cs": "Jaké je telefonní číslo na správce hřiště?"
+        "cs": "Jaké je telefonní číslo na správce hřiště?",
+        "uk": "Який номер телефону доглядача дитячого майданчика?"
       },
       "render": {
         "nl": "De bevoegde dienst kan getelefoneerd worden via <a href='tel:{phone}'>{phone}</a>",
@@ -97694,7 +97773,8 @@
           "if": "playground=bridge",
           "then": {
             "en": "This is a bridge (either as a standalone device or as part of a larger structure)",
-            "de": "Dies ist eine Brücke (entweder als eigenständiges Gerät oder als Teil einer größeren Struktur)"
+            "de": "Dies ist eine Brücke (entweder als eigenständiges Gerät oder als Teil einer größeren Struktur)",
+            "uk": "Це міст (або як окремий пристрій, або як частина більшої конструкції)"
           },
           "icon": {
             "path": "./assets/layers/playground_equipment/Playground_in_Muchall_Park,_Wolverhampton_-_geograph.org.uk_-_2735437.jpg",
@@ -97727,7 +97807,8 @@
           "if": "playground=teenshelter",
           "then": {
             "en": "This is a teen shelter",
-            "de": "Dies ist eine Jugendherberge"
+            "de": "Dies ist eine Jugendherberge",
+            "uk": "Це притулок для підлітків"
           },
           "icon": {
             "path": "./assets/layers/playground_equipment/Teen_shelter_near_former_coastguard_lookout,_Watchet_-_geograph.org.uk_-_1714960.jpg",
@@ -99839,7 +99920,8 @@
         "de": "Wie lautet die Telefonnummer des Betreibers?",
         "es": "¿Cual es el número de teléfono de la operadora?",
         "ca": "Quin és el telèfon de l'operadora?",
-        "cs": "Jaké je telefonní číslo provozovatele?"
+        "cs": "Jaké je telefonní číslo provozovatele?",
+        "uk": "Який номер телефону оператора?"
       },
       "freeform": {
         "key": "phone",
@@ -100034,7 +100116,8 @@
         "de": "Diese Straßenlaterne hat die Referenznummer {ref}",
         "es": "Esta lámpara callejera tiene el número de referencia {ref}",
         "ca": "Aquest fanal té el número de referència {ref}",
-        "cs": "Tato pouliční lampa má referenční číslo {ref}"
+        "cs": "Tato pouliční lampa má referenční číslo {ref}",
+        "uk": "Цей вуличний ліхтар має ідентифікаційний номер {ref}"
       },
       "question": {
         "en": "What is the reference number of this street lamp?",
@@ -100042,7 +100125,8 @@
         "de": "Wie lautet die Referenznummer dieser Straßenlaterne?",
         "es": "¿Cual es el número de referencia de esta lámpara callejera?",
         "ca": "Quin és el número de referència d'aquest fanal?",
-        "cs": "Jaké je referenční číslo této pouliční lampy?"
+        "cs": "Jaké je referenční číslo této pouliční lampy?",
+        "uk": "Який ідентифікаційний номер цього вуличного ліхтаря?"
       },
       "freeform": {
         "key": "ref",

@@ -15,7 +15,8 @@
     "es": "Alumbrado público",
     "cs": "Pouliční osvětlení",
     "it": "Illuminazione stradale",
-    "pl": "Oświetlenie uliczne"
+    "pl": "Oświetlenie uliczne",
+    "uk": "Вуличне освітлення"
   },
   "description": {
     "en": "On this map you can find everything about street lighting",
@@ -201,6 +202,7 @@
     },
     {
       "id": "all_streets",
+      "isCounted": false,
       "name": {
         "en": "All streets",
         "nl": "Alle straten",
